@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T17:45:33.928Z",
+  "generated_at": "2026-10-03T18:00:47.863Z",
   "note": "Quality-reviewed tech coins: passed a local coarse filter (qwen2.5:3b) then a real judgment pass (Haiku) confirming is_real_tech=true. new_idea_suggestions are Haiku-generated, informed by these patterns but NOT copies -- creative seeds for further review, not trading signals.",
   "quality_tech_coins": [
     {
@@ -238,6 +238,40 @@
       "website_url": "http://dotnet.land",
       "twitter_handle": "dotnetfund",
       "reviewed_at": "2026-10-03T13:48:57.247Z"
+    },
+    {
+      "name": "FoilFactory",
+      "ticker": "FOIL",
+      "mint": "C2ktHtfu4pW2yJqp6eipHg8FmqM2WFJKjrui7Hs8pump",
+      "quality_score": 7,
+      "mechanism_summary": "Launchpad pairing tokens to collectible trading cards; trading fees fund paired-card NFT rewards.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "website appears to be landing page, not live launchpad yet",
+        "no deployed token+card pairs visible to verify mechanism"
+      ],
+      "one_line_pitch": "Pairs community tokens to Pokémon cards; fee-sharing funds card NFT delivery.",
+      "website_url": "https://foilfactory.fun",
+      "twitter_handle": "foil_factory",
+      "reviewed_at": "2026-10-03T18:00:45.631Z"
+    },
+    {
+      "name": "Exposure",
+      "ticker": "XP",
+      "mint": "5YwP7f8VZLD5nX6EDwZTcjkTrnWsQ2yMQRCQmJUCpump",
+      "quality_score": 7,
+      "mechanism_summary": "Creator fees redirect to coin holders/callers ranked by prediction accuracy on launch leaderboard.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "Early stage; website shows 'sample data running live'",
+        "Depends on creator buy-in to launch through Exposure platform",
+        "Strong network-effect and bootstrap risk",
+        "Fee-sharing model competes with pump.fun's native referral system"
+      ],
+      "one_line_pitch": "Pump.fun fee-sharing platform rewarding holders and callers by prediction accuracy.",
+      "website_url": "https://exposurepad.fun",
+      "twitter_handle": "exposurelaunchx",
+      "reviewed_at": "2026-10-03T17:57:29.038Z"
     },
     {
       "name": "dots.world",
@@ -1870,6 +1904,75 @@
       "reviewed_at": "2026-10-03T13:13:07.851Z"
     },
     {
+      "name": "Flowe",
+      "ticker": "Flowe",
+      "mint": "HZWKry5jRGVaSQYswhgVwN6VoqrQzdgoucvZcWRhpump",
+      "quality_score": 6,
+      "mechanism_summary": "Staking tokenized stocks to earn USDC dividend payments at market close.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "No website provided — product infrastructure not visible",
+        "Account created October 2026 — very recent, unproven",
+        "Feasibility depends on USDC funding source and execution clarity"
+      ],
+      "one_line_pitch": "Adds dividend yield to tokenized stocks; real gap, fresh angle, unproven execution.",
+      "website_url": null,
+      "twitter_handle": "flowefi",
+      "reviewed_at": "2026-10-03T17:57:44.930Z"
+    },
+    {
+      "name": "Zeroshade",
+      "ticker": "Zeroshade",
+      "mint": "5d2EnuV5tNXg9xSN6rZ5Gw1ZDZUoco75cNK5qbLwpump",
+      "quality_score": 6,
+      "mechanism_summary": "Privacy autopilot for Solana stablecoin payments; shields balances, hides transaction details.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "Website is simulation-only demo, no live product confirmed",
+        "Account created September 2026 — extremely recent, unproven"
+      ],
+      "one_line_pitch": "Privacy layer for Solana stablecoins; real gap, credible execution, but unproven.",
+      "website_url": "https://zeroshade.org/",
+      "twitter_handle": "usezeroshade",
+      "reviewed_at": "2026-10-03T17:57:44.921Z"
+    },
+    {
+      "name": "Graduate",
+      "ticker": "Graduate",
+      "mint": "3gQfZJ5RxAfYMdrH5XkWDGRs8jpGSdAD2LbNwbskpump",
+      "quality_score": 6,
+      "mechanism_summary": "Signed on-chain prediction calls on Pump.fun coins with 1-hour windows; public receipt tracking.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "Prediction markets are saturated space",
+        "No clear fee model or revenue mechanism shown",
+        "No evidence of working product yet (landing page stage)",
+        "Wallet signature mechanism for calls shown but no contract address confirmation"
+      ],
+      "one_line_pitch": "Pump.fun prediction call platform with signed receipts and leaderboard tracking.",
+      "website_url": "https://graduate.fit/",
+      "twitter_handle": "graduatedotfun",
+      "reviewed_at": "2026-10-03T17:57:29.031Z"
+    },
+    {
+      "name": "Tavus",
+      "ticker": "Tavus",
+      "mint": "4nM6YUegyoa1nzDfV82tvKZJsDLsu6rSoPJgWJBWpump",
+      "quality_score": 6,
+      "mechanism_summary": "AI video generation model claiming to pass video Turing test; NVIDIA benchmark top-ranked.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "Coin purpose relative to Tavus product unclear",
+        "Description appears directly lifted from Tavus marketing without coin-specific integration",
+        "Potential brand hijack or unauthorized coin",
+        "No clarification of token utility or product integration"
+      ],
+      "one_line_pitch": "Tavus AI video Turing test product tokenized; integration mechanism unclear.",
+      "website_url": null,
+      "twitter_handle": "tavus",
+      "reviewed_at": "2026-10-03T17:57:29.028Z"
+    },
+    {
       "name": "Backstop",
       "ticker": "BACK",
       "mint": "5eX6gGNL3RcTRzaw1GzeeGwuRgx94M3Y1aoKJXEwpump",
@@ -3236,109 +3339,6 @@
       "website_url": "https://runeclue.fun/",
       "twitter_handle": "runeclues",
       "reviewed_at": "2026-09-30T02:52:45.569Z"
-    },
-    {
-      "name": "Bubble Coin",
-      "ticker": "BUBBLE",
-      "mint": "9ZQ5gx2JMniEPX1cPt1S2ezo68YjeL2psQQ2MBsCpump",
-      "quality_score": 6,
-      "mechanism_summary": "Memecoin LP paired against QQQX (tokenized Nasdaq 100 ETF) instead of SOL; trading fees compound back into the QQQX-backed pool.",
-      "uniqueness": "novel",
-      "red_flags": [
-        "contract address not yet deployed at time of review",
-        "pure concept — no live token, pool, or TVL",
-        "QQQX liquidity on Solana is thin; pairing depth is unproven",
-        "fee-into-pool compounding is otherwise a standard mechanism"
-      ],
-      "one_line_pitch": "Memecoin backed by tokenized Nasdaq 100 instead of SOL, with fees compounding the equity-index liquidity pool — not yet deployed.",
-      "website_url": "https://bubblecoin.trade/",
-      "twitter_handle": "bubblecointrade",
-      "reviewed_at": "2026-09-30T02:52:03.074Z"
-    },
-    {
-      "name": "FEETY",
-      "ticker": "FEETY",
-      "mint": "2jAy4ER44hRZERxEzG1P9LB3khvYBfHMXTt89Q7Spump",
-      "quality_score": 6,
-      "mechanism_summary": "Camera-only foot photo contest with community voting; top-voted entry every 5 minutes wins 10% of token trading fees, paid to their wallet.",
-      "uniqueness": "novel",
-      "red_flags": [
-        "site still shows 'CA coming soon' despite live mint",
-        "product viability depends on sustained user willingness to post foot photos",
-        "fee pool is thin at low volume"
-      ],
-      "one_line_pitch": "UGC foot-photo voting app where top entry every 5 minutes wins 10% of token trading fees.",
-      "website_url": "https://feety.fun/",
-      "twitter_handle": "feetydotfun",
-      "reviewed_at": "2026-09-30T02:50:10.102Z"
-    },
-    {
-      "name": "Eternal Turd",
-      "ticker": "TURD",
-      "mint": "Bun3u4RMsH6wpYcTAsKhBzTjhiihcF4oesV3k9NnocnL",
-      "quality_score": 6,
-      "mechanism_summary": "8×8 pixel art encoded as 8 bytes (ET2 format) embedded directly in the token creation transaction; fully reconstructible from chain, no IPFS.",
-      "uniqueness": "novel",
-      "red_flags": [
-        "pre-launch at time of website snapshot",
-        "fundamentally still a meme coin — on-chain image is 8 bytes of pixel art",
-        "novelty is conceptual/philosophical rather than a functional protocol"
-      ],
-      "one_line_pitch": "Meme coin whose 8×8 pixel artwork is stored as raw bytes inside its creation transaction, not on IPFS.",
-      "website_url": "https://eternalturd.com",
-      "twitter_handle": "alexattinger",
-      "reviewed_at": "2026-09-30T02:49:48.219Z"
-    },
-    {
-      "name": "Unclaimed",
-      "ticker": "UNCLAIMED",
-      "mint": "zbU56xCdDXNW1ijTVLJB3DSaA4BEzppojrGB4wPsunc",
-      "quality_score": 6,
-      "mechanism_summary": "Launchpad lets anyone launch a speculative token for any social media creator; creator later claims their SOL fee share permissionlessly.",
-      "uniqueness": "derivative",
-      "red_flags": [
-        "website content is essentially blank — just the title, no working product visible",
-        "creator must proactively claim; no incentive loop if they never hear about it",
-        "similar ideas have failed (friend.tech, creator.bid) — creator buy-in is the hard problem"
-      ],
-      "one_line_pitch": "Launch a token on behalf of any X/YouTube/TikTok creator; creator can later claim their SOL fee cut without setup.",
-      "website_url": "https://itsunclaimed.xyz",
-      "twitter_handle": "itsunclaimed_",
-      "reviewed_at": "2026-09-30T02:49:07.411Z"
-    },
-    {
-      "name": "NFLSZN",
-      "ticker": "NFLSZN",
-      "mint": "66BWfJKqft4q2SgSXYLoE7V5aPmRNnX3rEq8hFUZpump",
-      "quality_score": 6,
-      "mechanism_summary": "NFL pick'em where users stake $NFLSZN on game outcomes; winners split pool, 5% burned, group creators earn weekly fee share.",
-      "uniqueness": "derivative",
-      "red_flags": [
-        "unofficial — no NFL license, real IP/liability exposure",
-        "pool-split + burn mechanic is a well-trodden prediction-staking pattern",
-        "creator taking 50% of fees weekly is a significant rake on players"
-      ],
-      "one_line_pitch": "Unlicensed NFL pick'em with $NFLSZN staking: winners split pool, 5% burned, group creators earn weekly fees.",
-      "website_url": "https://nflszn.fun/",
-      "twitter_handle": "nflsznx",
-      "reviewed_at": "2026-09-30T02:48:14.137Z"
-    },
-    {
-      "name": "Upthread Karma",
-      "ticker": "uKARMA",
-      "mint": "7cePbHqHsmqxc9C4XEZjgqLLHZ6jtVcEe5E9RxbQpump",
-      "quality_score": 6,
-      "mechanism_summary": "Platform to launch tradeable Pump.fun coins for any Reddit user; trading creator fees automatically routed to that Redditor.",
-      "uniqueness": "derivative",
-      "red_flags": [
-        "creator-coin + fee-routing is a known pattern (friend.tech lineage)",
-        "Reddit creator consent/verification not addressed",
-        "working product unconfirmed beyond polished landing page"
-      ],
-      "one_line_pitch": "Launch a trade-fee-generating coin for any Redditor; fees auto-route to that Reddit account.",
-      "website_url": "https://upthread.fun/",
-      "twitter_handle": "karmaupthread",
-      "reviewed_at": "2026-09-30T02:47:27.227Z"
     }
   ],
   "new_idea_suggestions": [
