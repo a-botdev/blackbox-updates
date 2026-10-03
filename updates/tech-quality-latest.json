@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T20:16:37.033Z",
+  "generated_at": "2026-10-03T23:15:24.588Z",
   "note": "Quality-reviewed tech coins: passed a local coarse filter (qwen2.5:3b) then a real judgment pass (Haiku) confirming is_real_tech=true. new_idea_suggestions are Haiku-generated, informed by these patterns but NOT copies -- creative seeds for further review, not trading signals.",
   "quality_tech_coins": [
     {
@@ -2062,6 +2062,42 @@
       "reviewed_at": "2026-10-03T13:13:07.851Z"
     },
     {
+      "name": "amm(p:v)",
+      "ticker": "mutex",
+      "mint": "J7asPy7YZGhnPpSMkwYAKV3kFnwnmGEYLh4pBpFNtjA4",
+      "quality_score": 6,
+      "mechanism_summary": "AMM where alternating parties (p, v) hold a lock; trades pass lock and accumulate shared fee pot.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "Mechanism description is cryptic/poetic, hard to parse",
+        "Minimal website with no technical docs or whitepaper",
+        "Implementation details and working code visibility unclear",
+        "Uncertain whether genuinely novel or obfuscated vaporware"
+      ],
+      "one_line_pitch": "Experimental AMM with alternating liquidity-provider lock mechanism.",
+      "website_url": "https://mutexllm.com/",
+      "twitter_handle": "mutexllm",
+      "reviewed_at": "2026-10-03T23:15:22.537Z"
+    },
+    {
+      "name": "Second Self",
+      "ticker": "SS",
+      "mint": "Atrzi2hDoo3zBpQ2BNUHxsi2EWGu5oDubto7dF9qbBo3",
+      "quality_score": 6,
+      "mechanism_summary": "Personal AI trading agent: users teach it their strategy, it autonomously trades when offline.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "Wallet authorization mechanism not explained (how does AI sign txs?)",
+        "Training process opaque (supervised learning? RL? from past trades?)",
+        "Live PnL shown for 20+ egos; unclear if real accounts or simulated",
+        "Powered by OpenRouter; no on-chain logic details visible"
+      ],
+      "one_line_pitch": "Personal AI trading clone learns your strategy, executes trades while you're offline.",
+      "website_url": "https://secondself.me/",
+      "twitter_handle": "secondselfme",
+      "reviewed_at": "2026-10-03T23:14:03.039Z"
+    },
+    {
       "name": "OTP",
       "ticker": "OTP",
       "mint": "Com2PWrtWS5CyvytRnYLh3jcKoobfvw8YeKLCauxpump",
@@ -3274,41 +3310,6 @@
       "website_url": "https://escro.tech/",
       "twitter_handle": "escrotech",
       "reviewed_at": "2026-10-03T10:45:00.763Z"
-    },
-    {
-      "name": "GoCollect",
-      "ticker": "COLLECT",
-      "mint": "C6xnfsVtwF8xd9GgStE6dgyVnokzypFmmUqPuJR5pump",
-      "quality_score": 6,
-      "mechanism_summary": "GPS-based city scavenger hunt: walk to real-world crate locations to claim randomised graded trading card drops.",
-      "uniqueness": "novel",
-      "red_flags": [
-        "no working product or app link provided",
-        "brand hijack risk — @Collector_Crypt may be an unrelated existing graded-card brand",
-        "unclear whether 'real graded cards' are physical or purely digital"
-      ],
-      "one_line_pitch": "Pokémon GO-style city scavenger hunt where crates drop randomised graded trading cards on-chain.",
-      "website_url": "https://gocollect.fun/",
-      "twitter_handle": "gocollectfun",
-      "reviewed_at": "2026-09-30T03:25:14.052Z"
-    },
-    {
-      "name": "Nero Markets",
-      "ticker": "NERO",
-      "mint": "D1qPV7yMjZ8qP5GqUEWz8udSnuP8sXec7BNqEDe1pump",
-      "quality_score": 6,
-      "mechanism_summary": "Cross-chain launchpad: token creation on Monero's privacy layer, settled via Solana.",
-      "uniqueness": "novel",
-      "red_flags": [
-        "Monero has no native smart-contract layer — technical feasibility unclear",
-        "single-sentence description, no whitepaper or site",
-        "no working product, just a landing claim",
-        "could be vaporware exploiting privacy narrative"
-      ],
-      "one_line_pitch": "Claims to let users launch tokens on Monero using Solana as the execution layer.",
-      "website_url": "https://nero.markets/",
-      "twitter_handle": "neromarkets",
-      "reviewed_at": "2026-09-30T03:24:08.515Z"
     }
   ],
   "new_idea_suggestions": [
