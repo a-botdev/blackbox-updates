@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T03:34:02.041Z",
+  "generated_at": "2026-10-03T10:56:54.204Z",
   "note": "Quality-reviewed tech coins: passed a local coarse filter (qwen2.5:3b) then a real judgment pass (Haiku) confirming is_real_tech=true. new_idea_suggestions are Haiku-generated, informed by these patterns but NOT copies -- creative seeds for further review, not trading signals.",
   "quality_tech_coins": [
     {
@@ -83,6 +83,84 @@
       "website_url": "http://routeur.app",
       "twitter_handle": "routeurhq",
       "reviewed_at": "2026-09-30T02:48:16.066Z"
+    },
+    {
+      "name": "Brawl",
+      "ticker": "BRAWL",
+      "mint": "7WkUzbTucQskyWQdnTPfytmDJGuShZbgs1UQJQk9pump",
+      "quality_score": 7,
+      "mechanism_summary": "Multiplayer roguelike battle royale with 30-min official rounds; last survivor takes SOL fee pool.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "token's exact role (entry fee vs. reward currency vs. governance) not explicitly stated",
+        "game interface shown but may not be fully live for real-money play yet",
+        "on-chain games/battle-royales are common pattern, though this execution appears real"
+      ],
+      "one_line_pitch": "On-chain multiplayer battle royale where winners pocket the SOL fee pool.",
+      "website_url": "https://www.brawlpvp.fun",
+      "twitter_handle": "brawlpvp",
+      "reviewed_at": "2026-10-03T10:54:12.007Z"
+    },
+    {
+      "name": "发射台指数协议",
+      "ticker": "指数",
+      "mint": "HcZbVd8nGi6VTJ7aBXZXP3Kiviasa2fgzKWYtQh5pump",
+      "quality_score": 7,
+      "mechanism_summary": "Hourly prediction markets betting on which launchpad (PUMP/STONK/BONK/BAGS/PONS/FLAP) will outperform; fees burn token.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "Chinese-only content limits accessibility/verification",
+        "extremely recent (Sept 2026), no track record",
+        "market depth unclear (shown volumes may be synthetic)"
+      ],
+      "one_line_pitch": "Bet on which meme launchpad wins each hour; winners take token burn fees.",
+      "website_url": "https://launchpadindex.fun/cn",
+      "twitter_handle": "launchpadindex",
+      "reviewed_at": "2026-10-03T10:54:12.002Z"
+    },
+    {
+      "name": "KIN",
+      "ticker": "KIN",
+      "mint": "Bf9i7oG8We16XBtgeAnNB9rDBnmCZPW37P7b6a9Hpump",
+      "quality_score": 7,
+      "mechanism_summary": "Platform allowing users to breed pairs of tokens into child tokens; parents/creators earn fees from all descendant generations.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "Hyperinflation risk from unlimited generations",
+        "No apparent spam/junk-token prevention",
+        "Revenue split (parents/creators/platform) not specified",
+        "Long-term economic sustainability unclear"
+      ],
+      "one_line_pitch": "Breeding market where token parents earn fees from all descendants across unlimited generations.",
+      "website_url": "https://joinkin.family/",
+      "twitter_handle": "kinfamily_",
+      "reviewed_at": "2026-10-03T10:52:57.342Z"
+    },
+    {
+      "name": "Kin Family",
+      "ticker": "KINF",
+      "mint": "7cQWBFLSTqndncU72Y1HU52A3pRNrbdJs64789q2pump",
+      "quality_score": 7,
+      "mechanism_summary": "Breed two tokens to create 'descendant' tokens; earn yield from offspring.",
+      "uniqueness": "novel",
+      "red_flags": [],
+      "one_line_pitch": "Token breeding protocol: create and profit from descendant tokens.",
+      "website_url": "https://joinkin.family/",
+      "twitter_handle": "kinfamily_",
+      "reviewed_at": "2026-10-03T10:51:36.680Z"
+    },
+    {
+      "name": "filled.cards",
+      "ticker": "FILLED",
+      "mint": "oEW8nfAXWBqkWmGSEVa8HqF2u4CNAn5n1Auh4tmpump",
+      "quality_score": 7,
+      "mechanism_summary": "Working limit order marketplace for PSA/CGC graded trading cards with portfolio alerts",
+      "uniqueness": "novel",
+      "red_flags": [],
+      "one_line_pitch": "Real, functioning limit order marketplace for graded trading cards with live market data",
+      "website_url": "https://filled.cards/",
+      "twitter_handle": "filledcards",
+      "reviewed_at": "2026-10-03T10:51:23.786Z"
     },
     {
       "name": "HoldFast",
@@ -901,6 +979,92 @@
       "reviewed_at": "2026-09-30T02:36:44.874Z"
     },
     {
+      "name": "FOMO",
+      "ticker": "FOMO",
+      "mint": "EVTvvCeFFz5rcaLkt7vuGdUozVeBeWcJMWQE4Eq5pump",
+      "quality_score": 6,
+      "mechanism_summary": "Social trading app: copy-trading, trader leaderboards, multi-chain swap, mobile + web, Apple Pay onramp.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "token mechanism not described on provided website content",
+        "copy-trading and social leaderboards are standard crypto pattern",
+        "crowded competitive space"
+      ],
+      "one_line_pitch": "Social copy-trading platform with leaderboards and mobile app (real, but common model).",
+      "website_url": "https://fomo.family/",
+      "twitter_handle": "fomo",
+      "reviewed_at": "2026-10-03T10:54:12.011Z"
+    },
+    {
+      "name": "StockCraft",
+      "ticker": "SCRAFT",
+      "mint": "6rENwMestRruv4XwjRwEdJ3GhR6mdErs8BcgCK62pump",
+      "quality_score": 6,
+      "mechanism_summary": "Co-op multiplayer game where winning teams distribute SOL payouts to token holders.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "Payout mechanics unclear (% distribution, time-weighting)",
+        "Marketing says 'stocks' but pays SOL",
+        "Sustained engagement risk for game model"
+      ],
+      "one_line_pitch": "Live co-op survival game that pays SOL to holder winners.",
+      "website_url": "https://stockcraftgame.fun/",
+      "twitter_handle": "stockcraftgg",
+      "reviewed_at": "2026-10-03T10:52:57.338Z"
+    },
+    {
+      "name": "KOPI INU",
+      "ticker": "KOPI",
+      "mint": "72SZVRcj9VidyYRXiv97RkjTgoCYhoXPBcWeGpmpump",
+      "quality_score": 6,
+      "mechanism_summary": "Time-travel game: guide Shiba through eras by collecting beans and pawcoins.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "unverified if game is actually playable/live",
+        "unclear how game progression ties to token value",
+        "description truncated",
+        "no link to playable version"
+      ],
+      "one_line_pitch": "Time-machine game coin, collect resources through historical eras.",
+      "website_url": "https://kopiinu.netlify.app/",
+      "twitter_handle": "kopiinu_tt",
+      "reviewed_at": "2026-10-03T10:52:50.861Z"
+    },
+    {
+      "name": "Cubex",
+      "ticker": "CUBEX",
+      "mint": "JAMrKBDtbTXJroAy27QTYabR8LrhySCkhPh8xegjpump",
+      "quality_score": 6,
+      "mechanism_summary": "Physical 7cm cube display with pixel screen streaming live Solana ticker and market data",
+      "uniqueness": "novel",
+      "red_flags": [
+        "Pre-production only, no shipped hardware yet",
+        "Hardware execution risk is high",
+        "No proof of manufacturing capability"
+      ],
+      "one_line_pitch": "Solana ticker display cube (hardware) in pre-production; differentiated but unproven",
+      "website_url": "https://cubex.world/",
+      "twitter_handle": "playify",
+      "reviewed_at": "2026-10-03T10:51:23.790Z"
+    },
+    {
+      "name": "Escro Tech",
+      "ticker": "ESCRO",
+      "mint": "FKQCt17wdmUokbMwNnn2Bs55TYvSWgikKcRCFEAFpump",
+      "quality_score": 6,
+      "mechanism_summary": "Escrow-based marketplace where AI agents execute jobs, payment held until user approval.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "Requires JavaScript; suggests client-side-only, not fully decentralized",
+        "24-hour dispute resolution is manual/slow for a marketplace",
+        "Escrow mechanism is standard; 'AI agents' angle is timely but derivative"
+      ],
+      "one_line_pitch": "AI agent task marketplace with Solana escrow payments.",
+      "website_url": "https://escro.tech/",
+      "twitter_handle": "escrotech",
+      "reviewed_at": "2026-10-03T10:45:00.763Z"
+    },
+    {
       "name": "GoCollect",
       "ticker": "COLLECT",
       "mint": "C6xnfsVtwF8xd9GgStE6dgyVnokzypFmmUqPuJR5pump",
@@ -1652,6 +1816,59 @@
       "reviewed_at": "2026-09-30T02:32:59.230Z"
     },
     {
+      "name": "Inubrain",
+      "ticker": "Inubrain",
+      "mint": "GGPHafwPXc4jzYK1dz7hMKisD93pZDv4eeUCkdNSpump",
+      "quality_score": 5,
+      "mechanism_summary": "Interactive 3D procedural neural network visualizer with neuron/circuit tracing.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "product is an art visualization, not a coin mechanism",
+        "zero blockchain utility described",
+        "unclear how token ties to neural browser"
+      ],
+      "one_line_pitch": "3D neural network visualizer app, unclear blockchain connection.",
+      "website_url": "https://inubrain.com",
+      "twitter_handle": "launchoptional",
+      "reviewed_at": "2026-10-03T10:52:50.859Z"
+    },
+    {
+      "name": "bamba",
+      "ticker": "bamba",
+      "mint": "ArcgkME9KvTrHUiFXUbYZBwvazVuJ6inzV32pbtqpump",
+      "quality_score": 5,
+      "mechanism_summary": "Tokens-as-agents creating persistent 'rooms' sustained by creator fees in a network.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "Extremely vague on implementation: what is a 'room'? How do agents work?",
+        "Website is mostly ASCII art and philosophy, minimal technical detail",
+        "No evidence of working product, appears conceptual/experimental",
+        "Truncated link at page end suggests incomplete information"
+      ],
+      "one_line_pitch": "Experimental framing: minting a token spawns a persistent 'room' agent sustained by fees.",
+      "website_url": "https://www.infinitetokenrooms.xyz/",
+      "twitter_handle": null,
+      "reviewed_at": "2026-10-03T10:46:13.534Z"
+    },
+    {
+      "name": "florapad.fun",
+      "ticker": "FLORA",
+      "mint": "Aug9XoSAqYfWB5gGtURxXYChguwV785ktYPzNXiypump",
+      "quality_score": 5,
+      "mechanism_summary": "Launchpad tokens share trading fees with holders via NEAR or ZEC.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "pre-launch state (no tokens planted yet)",
+        "fee-sharing is a common pattern",
+        "cross-chain element is minimal novelty",
+        "demo/placeholder UI"
+      ],
+      "one_line_pitch": "Launchpad with cross-chain fee redistribution; early/unvalidated stage.",
+      "website_url": "https://florapad.fun/app",
+      "twitter_handle": "floralaunch",
+      "reviewed_at": "2026-10-03T10:45:00.077Z"
+    },
+    {
       "name": "Orbsbook",
       "ticker": "Orbs",
       "mint": "CSKsuRF7jE4wjMDtbv6fRe1YD8uoCQztWrSHKmiTpump",
@@ -2357,64 +2574,76 @@
   ],
   "new_idea_suggestions": [
     {
-      "working_name": "Heartbeat ($BEAT)",
-      "mechanism": "A token with a live on-chain decay timer; every buy or sell resets the clock; when no trade occurs for N consecutive blocks, all accumulated fee reserves auto-distribute proportionally to current holders and the bonding curve freezes permanently — death is the payout event, not a failure state.",
-      "inspired_by": "Inverts the gamification logic of Build/amoebastrain (progress = reward) and the fee redistribution of Trench Index/zpad. None of those use inactivity-triggered death as the distribution mechanism; the decay clock makes the endgame legible and trustless. Differentiated from casinopad/ROUTER (which deploy fees continuously) because here the entire accumulated reserve releases as one terminal event.",
-      "derivativeness_score": 3
-    },
-    {
-      "working_name": "Tribute ($TRIB)",
-      "mechanism": "On every sell transaction, 3% of the seller's gross SOL proceeds are redistributed on-chain to existing holders weighted by their unbroken continuous holding duration — long-term holders earn from impatient exits, position size irrelevant to payout share.",
-      "inspired_by": "Fee redistribution mechanics are everywhere in the list (Trench Index, Solary, zpad), but all weight by token balance or rarity. Time-weighted seller-penalty redistribution — where the 'fee' comes from exits not trades, and weight is holding time not size — is absent from all 40 coins. Closest analogue is Solary (rarity weighting), but that's NFT-indexed not time-indexed.",
-      "derivativeness_score": 3
-    },
-    {
-      "working_name": "Idle Yield ($IDLE)",
-      "mechanism": "Bonding curve liquidity dormant for more than 2,400 consecutive blocks is automatically deposited into Kamino/Marginfi; accrued lending yield triggers proportional token buybacks and burns at each epoch — holders passively earn on-chain DeFi yield with zero explicit fee overhead.",
-      "inspired_by": "casinopad and ROUTER both auto-deploy fees elsewhere (casino, burns, DCA), establishing the 'fees go somewhere live' pattern. This applies the same principle to the idle principal of the LP curve itself, not the fee layer — and targets real DeFi yield rather than gambling or fixed routing. Mechanically closer to Treble (stakers earn fees), but the idle-capital lend is the activation condition, not a capital tier.",
+      "working_name": "HATCH",
+      "mechanism": "Buy blind for 3 minutes; art unseals; holders vote to mint cosmetic NFTs from it.",
+      "inspired_by": "Remixes Unbox + Build; change: cosmetic voting and NFT minting instead of blueprint building",
       "derivativeness_score": 4
     },
     {
-      "working_name": "RivalPair ($RVL)",
-      "mechanism": "Two tokens ($RED and $BLUE) are co-launched as a designed permanent economic rivalry from genesis; each epoch the lower-mcap token forfeits 25% of its accumulated fee vault to the winner's vault — no reset, no truce, permanent war between two co-dependent communities.",
-      "inspired_by": "amoebastrain runs hourly random matchups across coins that didn't know they'd compete. RivalPair inverts the design: the rivalry is the launch narrative, both communities are recruited knowing the stakes, and the war is permanent rather than episodic. The fee-vault-transfer mechanic is directly inspired by amoebastrain but the co-launch design and permanent structure make this a different product category.",
+      "working_name": "ANGLER",
+      "mechanism": "Fish for Solana tokens using a host token as bait; each catch burns the host proportional to rarity.",
+      "inspired_by": "Remixes Parasite + Pair Pond; change: fishing game mechanic with host token burning integrated",
+      "derivativeness_score": 4
+    },
+    {
+      "working_name": "ARENA",
+      "mechanism": "Coins battle hourly for fee-vault spoils; you can separately bet on match outcomes in a prediction token.",
+      "inspired_by": "Remixes amoeba + 指数; change: separate prediction betting overlay on inter-coin battles",
+      "derivativeness_score": 4
+    },
+    {
+      "working_name": "ASHES",
+      "mechanism": "Trade coin priced in a host token; every swap burns both the host supply and the token itself.",
+      "inspired_by": "Remixes Parasite + Cordyceps; change: dual burning (host and token) instead of single host burn",
+      "derivativeness_score": 4
+    },
+    {
+      "working_name": "DYNASTY",
+      "mechanism": "Dev locks SOL; agent trades it; holders spawn offspring coins and earn fees from all descendant generations.",
+      "inspired_by": "Remixes HoldFast + KIN; change: breeding genealogy grafted onto agent-managed fund vault",
       "derivativeness_score": 5
     },
     {
-      "working_name": "VelocityCap ($VCAP)",
-      "mechanism": "Protocol-level dynamic fee rate: baseline 0.5%, ratchets up linearly with on-chain buys-per-block during velocity spikes; excess above baseline flows into a 72-hour time-locked buyback vault that executes after the spike cools — a self-braking on-chain pump damper built into tokenomics.",
-      "inspired_by": "ROUTER and casinopad establish 'fees go somewhere useful,' and PHI/Treble establish sophisticated financial primitives for memecoins. None of the 40 coins use a dynamic fee rate that responds to trading velocity in real time. The velocity-sensitive rate is the novel mechanism; the buyback vault after a lockout is closest to Trench Index's fee-funded buy-and-hold, but the trigger condition (velocity spike, not schedule) is new.",
-      "derivativeness_score": 3
-    },
-    {
-      "working_name": "RetroLaunch ($RETRO)",
-      "mechanism": "Token has no bonding curve or presale launch window; supply is allocated purely via a finalized 30-day snapshot of verifiable on-chain activity (swap count, LP duration, staking) committed to a PDA before mint; no bot can acquire allocation by gaming a real-time launch event.",
-      "inspired_by": "Unbox, BatchPad, and GAVEL all attack sniping by modifying the launch window (blind 10 min, 120s batch, sealed bid). RetroLaunch takes the anti-bot principle to its logical extreme: eliminate the launch window entirely by making prior provable activity the only gate. The mechanism family is the same (bot-resistant fair launch), but the technique — retroactive snapshot, no curve — is not in the list.",
-      "derivativeness_score": 3
-    },
-    {
-      "working_name": "WhiteHat Vault ($WVLT)",
-      "mechanism": "10% of all trading fees accumulate in a public on-chain bounty vault; any wallet submitting a valid zero-knowledge exploit proof against this protocol's own smart contracts instantly drains the full vault — the token's own trading volume continuously funds the incentive to break it.",
-      "inspired_by": "Fee routing to external purposes is well-represented (zpad → privacy coins, PaidGram → Telegram, casinopad → casino). None route fees to a live security incentive for the protocol itself. The self-referential loop — trading volume → bounty → security pressure on the contract holding that volume — is a novel application with no close parent in the list.",
-      "derivativeness_score": 2
-    },
-    {
-      "working_name": "NFT Floor Bond ($NFLO)",
-      "mechanism": "Bonding curve price is algorithmically anchored to the 7-day EMA of the weighted average floor price of 3 nominated Solana NFT collections; when floor exceeds a threshold, holders can redeem tokens for proportional fractional NFT claims via a community-held vault — bridging meme trading to real NFT market exposure.",
-      "inspired_by": "Stripr strips yield from tokenized Nasdaq stocks. Float integrates CS:GO skin prices on-chain. PHI creates derivatives for pump.fun coins. None anchor a bonding curve's pricing engine to live NFT floors. The combination of floor-price oracle as curve peg plus redemption-for-fractions is a new intersection between meme launchpad mechanics and the Solana NFT market.",
+      "working_name": "HEROIC",
+      "mechanism": "Wager SOL per roguelike run; last survivor claims fee pool and earns an NFT rank badge.",
+      "inspired_by": "Remixes Brawl + wager.fun; change: NFT rank badges as part of prize structure instead of fees only",
       "derivativeness_score": 4
     },
     {
-      "working_name": "Milestone Mint ($MNTS)",
-      "mechanism": "Total supply is locked in 5 equal tranches held in PDAs; each tranche releases on-chain only when a verified community milestone is met (e.g., 1k unique holder wallets, 200 SOL in 24h volume, 30-day survival); no team allocation is accessible until the community earns each sequential unlock.",
-      "inspired_by": "Build ($BUILD) gamifies bonding curve progress as a visual Minecraft construction — milestone tracking as decoration. HoldFast locks dev SOL in a vault. This combines the milestone-as-unlock logic with actual supply gating: the mechanism controls issuance, not just visuals or dev funds. The anti-rug property comes from supply scarcity tied to earned milestones, not an agent or bond.",
+      "working_name": "TIPJAR",
+      "mechanism": "Telegram creators wrap incoming tips as tradeable NFTs; viewers buy them to collect future tip streams.",
+      "inspired_by": "Remixes Pawnshop + PostPay; change: creator tips instead of pump.fun fees, Telegram instead of X",
       "derivativeness_score": 4
     },
     {
-      "working_name": "Liquidity Vampire ($VAMPR)",
-      "mechanism": "A new token bootstraps its bonding curve by on-chain proposing to migrate idle liquidity from low-activity existing Solana AMM pools; LP holders in the targeted pools receive proportional $VAMPR at launch; the new token launches day-one with real, battle-tested liquidity pulled from stagnant pools.",
-      "inspired_by": "Parasite and Cordyceps both establish 'new token feeds on an existing token's resources' as a mechanic — but both burn the host's supply. Vampire Attack is a known DeFi pattern (SushiSwap vs Uniswap) never applied to meme launchpad bootstrapping. The key difference from Parasite: the host isn't burned (liquidity migrates, it isn't destroyed), and the host LP holders become the new token's community, not victims.",
-      "derivativeness_score": 3
+      "working_name": "ARCHITECT",
+      "mechanism": "Trade with stop-loss and take-profit orders; each filled trade builds one block of a live Minecraft structure.",
+      "inspired_by": "Remixes Routeur + Build; change: filled orders trigger visible building instead of bonding-curve progress",
+      "derivativeness_score": 5
+    },
+    {
+      "working_name": "BACKER",
+      "mechanism": "Launch in hourly cohorts; top three coins auto-pledge fees to a shared Kickstarter; winners split product.",
+      "inspired_by": "Remixes 指数 + Coinbinator; change: hourly cohort ranking determines shared Kickstarter funding group",
+      "derivativeness_score": 5
+    },
+    {
+      "working_name": "BOXED",
+      "mechanism": "CS:GO skin index, daily rebalanced across four markets, auto-ejects fakes, fees buy and airdrop holdings.",
+      "inspired_by": "Remixes Float + Trench Index; change: apply daily index rebalancing and rug-ejection to skin markets",
+      "derivativeness_score": 4
+    },
+    {
+      "working_name": "ECHO",
+      "mechanism": "Launch on Robinhood; one hour later auto-mirrors to Solana; traders arbitrage the emerging price gap.",
+      "inspired_by": "Remixes Pons + STUMP; change: time-delayed mirror from Robinhood to Solana instead of simultaneous launch",
+      "derivativeness_score": 5
+    },
+    {
+      "working_name": "RIDDLE",
+      "mechanism": "AI agents race hourly to solve on-chain puzzles; first verified solution wins the fee pool and rank NFT.",
+      "inspired_by": "Remixes puzz + Brawl; change: rank NFTs as part of prize structure for proof-of-intelligence races",
+      "derivativeness_score": 4
     }
   ]
 }
