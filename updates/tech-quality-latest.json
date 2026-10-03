@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T17:18:34.347Z",
+  "generated_at": "2026-10-03T17:33:49.768Z",
   "note": "Quality-reviewed tech coins: passed a local coarse filter (qwen2.5:3b) then a real judgment pass (Haiku) confirming is_real_tech=true. new_idea_suggestions are Haiku-generated, informed by these patterns but NOT copies -- creative seeds for further review, not trading signals.",
   "quality_tech_coins": [
     {
@@ -238,6 +238,72 @@
       "website_url": "http://dotnet.land",
       "twitter_handle": "dotnetfund",
       "reviewed_at": "2026-10-03T13:48:57.247Z"
+    },
+    {
+      "name": "Ravenue",
+      "ticker": "Ravenue",
+      "mint": "9MThyrgKzndJZrJEnYZRBPPxsspifnv8bMeLRYz1pump",
+      "quality_score": 7,
+      "mechanism_summary": "X Money to crypto bridge: send fiat via X Money to @RevenuePay, receive USDC/USDT/SOL/ETH",
+      "uniqueness": "novel",
+      "red_flags": [
+        "token utility not explicitly explained",
+        "depends on X Money platform stability"
+      ],
+      "one_line_pitch": "X Money to crypto bridge with KYC-free order tracking",
+      "website_url": "https://revenue.family/",
+      "twitter_handle": "revenuefamily",
+      "reviewed_at": "2026-10-03T17:31:58.634Z"
+    },
+    {
+      "name": "Tokens For Thoughts",
+      "ticker": "TFT",
+      "mint": "FU8oNarZGZBc2e5xNYdVjmzyKAFotxoSoZpgKzsFpump",
+      "quality_score": 7,
+      "mechanism_summary": "Token trades fund AI agent inference; creator fees = compute.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "site shows 'Loading...' for deployed agents",
+        "no agents live yet or actually publishing thoughts"
+      ],
+      "one_line_pitch": "Trades directly fund AI inference; coins become agent compute.",
+      "website_url": "https://tokensforthoughts.com/",
+      "twitter_handle": "stelsmintxa0",
+      "reviewed_at": "2026-10-03T17:31:56.228Z"
+    },
+    {
+      "name": "MEME5",
+      "ticker": "MEME5",
+      "mint": "Wa7TK4zxCEZwMGph3P6ifaW8fPYDiPX44WUn2mnYCCZ",
+      "quality_score": 7,
+      "mechanism_summary": "Auto-rebalancing basket of top-5 pump.fun coins; distributes every 15min.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "contract not deployed ($0 paid out so far)",
+        "treasury empty, awaiting first execution"
+      ],
+      "one_line_pitch": "Pump.fun index fund; rebalances top-5 coins every 15 minutes.",
+      "website_url": "https://meme5.cash",
+      "twitter_handle": "meme5etf",
+      "reviewed_at": "2026-10-03T17:31:56.220Z"
+    },
+    {
+      "name": "SoLLM",
+      "ticker": "SoLLM",
+      "mint": "8nz5FxikCHyKtTb97ZpXcE6v147HyvrKJfV58FwYs11m",
+      "quality_score": 7,
+      "mechanism_summary": "360M-parameter LLM model inscribed on Solana as chunks; inference executed client-side in browser",
+      "uniqueness": "novel",
+      "red_flags": [
+        "Nothing deployed yet (chunks inscribed: 0, agents born: 0)",
+        "No working implementation or proof-of-concept",
+        "Viability of browser-based LLM inference for large models unclear",
+        "Bandwidth and verification model for on-chain chunks not detailed"
+      ],
+      "one_line_pitch": "On-chain inscribed LLM with browser execution; undeployed novel idea",
+      "website_url": "https://sollm.fun/",
+      "twitter_handle": "xsollm",
+      "reviewed_at": "2026-10-03T17:30:09.341Z"
     },
     {
       "name": "Echo",
@@ -1769,6 +1835,39 @@
       "reviewed_at": "2026-10-03T13:13:07.851Z"
     },
     {
+      "name": "Backstop",
+      "ticker": "BACK",
+      "mint": "5eX6gGNL3RcTRzaw1GzeeGwuRgx94M3Y1aoKJXEwpump",
+      "quality_score": 6,
+      "mechanism_summary": "On-chain insurance for Solana trader positions with underwriter premium collection",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "account very new (October 2026)",
+        "no website content provided",
+        "unproven early-stage protocol"
+      ],
+      "one_line_pitch": "Insurance protocol for Solana trader positions funded by underwriter premiums",
+      "website_url": "https://backstop.fi/",
+      "twitter_handle": "backstop_fi",
+      "reviewed_at": "2026-10-03T17:33:47.410Z"
+    },
+    {
+      "name": "Solid",
+      "ticker": "Solid",
+      "mint": "6TL8LW8RRdJNRWy88r1p1w4umu7tYh9BhbQXk75Gpump",
+      "quality_score": 6,
+      "mechanism_summary": "Android keyboard for non-custodial Solana payments and splitting in any chat app",
+      "uniqueness": "novel",
+      "red_flags": [
+        "account very new (September 2026)",
+        "early-stage product in review"
+      ],
+      "one_line_pitch": "In-chat Solana payment keyboard for Android messaging apps",
+      "website_url": "https://sendsolid.app/",
+      "twitter_handle": "sendwithsolid",
+      "reviewed_at": "2026-10-03T17:33:47.378Z"
+    },
+    {
       "name": "RektDex",
       "ticker": "RKT",
       "mint": "3KJiTfVuLwBxwVuiDFRLbgUShyCTtK9iWJ7rQoT7pump",
@@ -3240,110 +3339,6 @@
       "website_url": "https://credited.live/",
       "twitter_handle": "creditedcard",
       "reviewed_at": "2026-09-30T02:46:44.331Z"
-    },
-    {
-      "name": "Anyi",
-      "ticker": "ANYI",
-      "mint": "5VCfhT26YGXcbiNpc6LewsK2bYxbbA9KZiQPRDynpump",
-      "quality_score": 6,
-      "mechanism_summary": "Token buy fees fund AI model API costs, giving users free access to 66+ AI models with no sign-up.",
-      "uniqueness": "novel",
-      "red_flags": [
-        "exact fee-to-model-budget split 'not yet published'",
-        "sustainability unclear — pump.fun buy volume is episodic, API bills are recurring",
-        "no wallet required for users creates free-rider dynamic at scale",
-        "product appears live but depth/reliability of 66-model integration unverified"
-      ],
-      "one_line_pitch": "AI aggregator (66+ models, no sign-up) whose model API bill is paid by ANYI token buy fees.",
-      "website_url": "https://anyi.chat",
-      "twitter_handle": "anyidotchat",
-      "reviewed_at": "2026-09-30T02:45:48.799Z"
-    },
-    {
-      "name": "Solana Prop Firm",
-      "ticker": "PROPANA",
-      "mint": "HJnaT5oeSH4L8TGJPLLBYQ1zzmpLbYuMAbTbpiBkpump",
-      "quality_score": 6,
-      "mechanism_summary": "On-chain Solana prop trading firm: pay $25, pass two profit-stage challenges, receive $2,500 funded account using live DexScreener prices.",
-      "uniqueness": "novel",
-      "red_flags": [
-        "+300% Stage 1 / +500% Stage 2 profit targets are 30–50× harder than any real prop firm (e.g. FTMO uses 10%) — near-impossible by design or misconfigured",
-        "no clear explanation of how funded account capital is custodied or counterparty risk",
-        "token/platform financial relationship not disclosed"
-      ],
-      "one_line_pitch": "Solana on-chain prop trading challenge: $25 entry, two near-impossible profit stages, $2,500 funded account.",
-      "website_url": "https://www.propana.xyz/",
-      "twitter_handle": "trypropana",
-      "reviewed_at": "2026-09-30T02:45:06.919Z"
-    },
-    {
-      "name": "Sides",
-      "ticker": "Sides",
-      "mint": "5ZZQRtEvAN6hVK82WeciFEsDp5nT9QB1eLBoJ4S8pump",
-      "quality_score": 6,
-      "mechanism_summary": "Platform launches two competing tokens for any matchup; market cap determines winner who captures the combined prize pool.",
-      "uniqueness": "novel",
-      "red_flags": [
-        "zero battles and zero fighters — no live activity at time of review",
-        "no contract address displayed on site",
-        "winner-takes-all settlement mechanism unproven on-chain"
-      ],
-      "one_line_pitch": "Binary token battle arena — two coins enter, market cap decides the winner, loser's pool is distributed to winner.",
-      "website_url": "https://sidespad.fun/",
-      "twitter_handle": "sideslaunchpad",
-      "reviewed_at": "2026-09-30T02:44:29.838Z"
-    },
-    {
-      "name": "ogents",
-      "ticker": "ogents",
-      "mint": "75sYy63BEjCCk6m48gx1wJBxKJ7yub9WhtzNLJrJpump",
-      "quality_score": 6,
-      "mechanism_summary": "AI agents complete user-assigned missions (websites, research, creative work), earn SOL, and must pay compute to stay active or go dormant.",
-      "uniqueness": "derivative",
-      "red_flags": [
-        "deeply crowded AI agent token space; survival-by-earnings mechanic has been tried elsewhere",
-        "OpenAI dependency = centralized brain, undermines on-chain autonomy claims",
-        "ticker/name mismatch ('ogents' vs 'oagent.s' on site) signals early/rough state"
-      ],
-      "one_line_pitch": "AI agents do real paid work (websites, research) on Solana; must earn enough SOL to cover compute or go dormant.",
-      "website_url": "https://ogents.fun",
-      "twitter_handle": "ogentsfun",
-      "reviewed_at": "2026-09-30T02:43:23.018Z"
-    },
-    {
-      "name": "simps",
-      "ticker": "SIMPS",
-      "mint": "CZhiyUF927C4NbSRDwytc44yRtTgr2tPRDrDPf9bsimp",
-      "quality_score": 6,
-      "mechanism_summary": "Permissionless fan coin launcher for OnlyFans creators; every trade auto-routes fees to the creator, who claims via a code posted in their X bio.",
-      "uniqueness": "novel",
-      "red_flags": [
-        "site shows 0 coins launched, 0 SOL sent, 0 creators claimed — product is live but empty",
-        "regulatory/compliance risk around adult content and token issuance",
-        "creator adoption is the hard problem and is unproven"
-      ],
-      "one_line_pitch": "Fan coin launchpad for OnlyFans creators: trades auto-send fees, creators claim ownership via Twitter bio.",
-      "website_url": "https://simps.fun/",
-      "twitter_handle": "simpsfun",
-      "reviewed_at": "2026-09-30T02:43:23.014Z"
-    },
-    {
-      "name": "STAMP CAT",
-      "ticker": "STAMPCAT",
-      "mint": "7ZdvLz8WAbTWGqSfiFmr9VWggoZok7T9316ERWjgpump",
-      "quality_score": 6,
-      "mechanism_summary": "Burn Solana SPL tokens to receive NFT receipts, redeemable as native assets on Zcash via a workaround bridge.",
-      "uniqueness": "novel",
-      "red_flags": [
-        "only a stated POC, no deployed product",
-        "single low-follower Twitter account, no website",
-        "Zcash native asset support not yet live, making claims hard to verify",
-        "redemption/claim mechanism on the Zcash side is underspecified"
-      ],
-      "one_line_pitch": "Burn-to-NFT Solana/Zcash cross-chain bridge exploiting Zcash's lack of native asset support.",
-      "website_url": null,
-      "twitter_handle": "zip227",
-      "reviewed_at": "2026-09-30T02:40:40.282Z"
     }
   ],
   "new_idea_suggestions": [
