@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T18:45:33.473Z",
+  "generated_at": "2026-10-03T19:01:49.536Z",
   "note": "Quality-reviewed tech coins: passed a local coarse filter (qwen2.5:3b) then a real judgment pass (Haiku) confirming is_real_tech=true. new_idea_suggestions are Haiku-generated, informed by these patterns but NOT copies -- creative seeds for further review, not trading signals.",
   "quality_tech_coins": [
     {
@@ -238,6 +238,59 @@
       "website_url": "http://dotnet.land",
       "twitter_handle": "dotnetfund",
       "reviewed_at": "2026-10-03T13:48:57.247Z"
+    },
+    {
+      "name": "civs",
+      "ticker": "civs",
+      "mint": "GJeF6qnrW3zWbxPJW1HuX7rwSwW7pmiV2SGHYPhLcivs",
+      "quality_score": 7,
+      "mechanism_summary": "Each pump.fun token receives an AI-generated civilization in a shared multiplayer world.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "funding model unclear (how do fees sustain generative world-building?)",
+        "unclear if world state is stored onchain or centralized backend",
+        "recent launch with no proven track record"
+      ],
+      "one_line_pitch": "Multi-token AI world-building platform where each coin fuels unique civilization.",
+      "website_url": "https://civs.cloud",
+      "twitter_handle": "www_civs",
+      "reviewed_at": "2026-10-03T18:59:13.867Z"
+    },
+    {
+      "name": "ARC Hunter",
+      "ticker": "ARC",
+      "mint": "G2VFJeVLKJCgn98uKGQkkQCVoXiiRpTSphqjGiXrB4yk",
+      "quality_score": 7,
+      "mechanism_summary": "AI researcher agent funded by creator fees to study ARC-AGI-3 benchmarks and reasoning techniques.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "currently asleep/zero activity despite description",
+        "depends on author's sustained interest",
+        "unclear if research actually moves ARC needle",
+        "vaporware status despite specificity"
+      ],
+      "one_line_pitch": "Token funding an AI agent to research ARC-AGI-3 challenges",
+      "website_url": "https://worldwideweb.stream/coin/G2VFJeVLKJCgn98uKGQkkQCVoXiiRpTSphqjGiXrB4yk",
+      "twitter_handle": "imperium3z",
+      "reviewed_at": "2026-10-03T18:57:52.056Z"
+    },
+    {
+      "name": "Agency",
+      "ticker": "Agency",
+      "mint": "4b6N3zMYSt31i5D5T4yhXMxTsyAxURTMKUtC1Bqzpump",
+      "quality_score": 7,
+      "mechanism_summary": "Tokens with autonomous LLM agents that manage fees and holder interactions within programmatic guardrails.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "platform/infrastructure play, not a standalone token",
+        "zero deployed live examples visible",
+        "regulatory risk (autonomous fee changes)",
+        "high execution complexity"
+      ],
+      "one_line_pitch": "AI agents autonomously control token fees and market interactions",
+      "website_url": "https://www.agencypad.fun/",
+      "twitter_handle": "tryagency",
+      "reviewed_at": "2026-10-03T18:57:52.047Z"
     },
     {
       "name": "FoilFactory",
@@ -1904,6 +1957,60 @@
       "reviewed_at": "2026-10-03T13:13:07.851Z"
     },
     {
+      "name": "Switch",
+      "ticker": "SWITCH",
+      "mint": "61JoBjst6zPCreX5ptSU1HLDGuir6MjkJTSKTvXEpump",
+      "quality_score": 6,
+      "mechanism_summary": "Event automation: define on-chain rules as trigger/condition/action; rules execute autonomously.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "on-chain automation already exists (Gelato, Temporal, Treasury DAOs)",
+        "likely UI wrapper over existing protocols",
+        "unclear if live or prototype",
+        "token role in the system unspecified"
+      ],
+      "one_line_pitch": "Zapier-like on-chain automation tool for Solana event-driven actions.",
+      "website_url": "https://switchsol.fun/",
+      "twitter_handle": "switchsol_",
+      "reviewed_at": "2026-10-03T19:01:43.971Z"
+    },
+    {
+      "name": "IRL3",
+      "ticker": "IRL3",
+      "mint": "5hpck3FaHXqhQnL4RwwdaNQFeBka6CpoVBxT1dWupump",
+      "quality_score": 6,
+      "mechanism_summary": "Scan physical objects to create blockchain wallets or tokens, no embedded keys.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "object-to-key cryptography not explained; 'no key stored' is impossible without centralized backend or embedded hardware",
+        "fraud prevention unclear (how prevent duplicate object scans?)",
+        "no GitHub link despite 'open-source' claim",
+        "website omits cryptographic and technical details"
+      ],
+      "one_line_pitch": "Physical object scanner → blockchain wallet/token (cryptography mechanism opaque).",
+      "website_url": "https://irl3.tech",
+      "twitter_handle": "irl3tech",
+      "reviewed_at": "2026-10-03T18:59:13.869Z"
+    },
+    {
+      "name": "Daemon",
+      "ticker": "DAEMON",
+      "mint": "UgrANGx3JKUyVWiYAbDj6UmhW6xDSmNhyP41apfpump",
+      "quality_score": 6,
+      "mechanism_summary": "AI agent autonomously manages and deploys token creator rewards allocation to token/holders.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "zero deployed tokens on any model",
+        "appears to be empty platform/vaporware",
+        "narrower scope than Agency",
+        "no working examples or activity"
+      ],
+      "one_line_pitch": "Platform for AI agents to autonomously manage creator token rewards",
+      "website_url": "https://daemonpad.fun/",
+      "twitter_handle": "daemonpad",
+      "reviewed_at": "2026-10-03T18:57:52.051Z"
+    },
+    {
       "name": "tare",
       "ticker": "tare",
       "mint": "AQFk1sL2z2ZXC8GZQq62dFWAGzagCVgjLbFXW8rcpump",
@@ -3228,109 +3335,6 @@
       "website_url": "https://www.tazer.io",
       "twitter_handle": "tazertools",
       "reviewed_at": "2026-09-30T02:59:00.652Z"
-    },
-    {
-      "name": "VampIt",
-      "ticker": "VAMP",
-      "mint": "AvxcwYGFUupFLZfBTToxU5LNAF8FGuYXMEwUPLRFpump",
-      "quality_score": 6,
-      "mechanism_summary": "Burn a token's price to overwrite its name, ticker, image, or links; deployers set the burn cost and pairing at creation.",
-      "uniqueness": "novel",
-      "red_flags": [
-        "working product is live but small ecosystem",
-        "identity-theft attack surface: anyone can rename tokens others launched",
-        "use case is niche/gimmicky"
-      ],
-      "one_line_pitch": "Protocol where any token's identity is contestable — burn enough to rename/rebrand it out from under the original deployer.",
-      "website_url": "https://usevampit.fun",
-      "twitter_handle": "usevampit",
-      "reviewed_at": "2026-09-30T02:59:00.649Z"
-    },
-    {
-      "name": "PIT",
-      "ticker": "Pit",
-      "mint": "6HWsjiCtRvnLBF6N2JMMDeJ22jfBMnEj7gf9afjgpump",
-      "quality_score": 6,
-      "mechanism_summary": "Every 48h treasury buys one stock and one meme token, then a battle determines which to eliminate.",
-      "uniqueness": "novel",
-      "red_flags": [
-        "official CA on site is an EVM 0x address, not this Solana mint — primary chain unclear",
-        "cross-chain via Pons adds trust and execution complexity",
-        "no visible battle history or treasury activity yet",
-        "rules/roster pages referenced but content sparse"
-      ],
-      "one_line_pitch": "Token that buys a stock and a meme every 48h, then stages a battle to kill one of them.",
-      "website_url": "https://www.pitfight.fun/",
-      "twitter_handle": "losersold",
-      "reviewed_at": "2026-09-30T02:58:02.733Z"
-    },
-    {
-      "name": "Pino",
-      "ticker": "PINO",
-      "mint": "6d9fD5SxvN4DAG4SHQD8pebm8TM6XeSbYezPDjdapump",
-      "quality_score": 6,
-      "mechanism_summary": "Persistent AI character in a live 3D world; reads user messages and remembers individual visitors over time.",
-      "uniqueness": "novel",
-      "red_flags": [
-        "token utility in the product not described anywhere on site",
-        "no tokenomics or on-chain mechanism explained",
-        "AI-agent-in-virtual-world space is increasingly crowded"
-      ],
-      "one_line_pitch": "Persistent 3D AI character with per-user memory; visitors leave messages and it recalls them on return.",
-      "website_url": "https://pinos.world",
-      "twitter_handle": "pino_the_bird",
-      "reviewed_at": "2026-09-30T02:57:36.924Z"
-    },
-    {
-      "name": "Rap Sheet",
-      "ticker": "SHEET",
-      "mint": "siF76uGTpYf47C2VZt4bSKZRDjBaM2QsmK6cEPgpump",
-      "quality_score": 6,
-      "mechanism_summary": "Input a CA or dev wallet; outputs launch history, dump speed, funding trail, and A-F trust grade.",
-      "uniqueness": "novel",
-      "red_flags": [
-        "all demo data on site is redacted/placeholder — unclear if tool is actually live",
-        "overlaps with existing rug-checkers (rug.ai, Rugcheck), though dev-centric angle is more specific",
-        "no clear coin utility beyond site traffic; token mechanics not described"
-      ],
-      "one_line_pitch": "On-chain tool grading token developers A-F via launch history, dump patterns, and funding trail.",
-      "website_url": "https://devrapsheet.xyz/",
-      "twitter_handle": "rapsheetxyz",
-      "reviewed_at": "2026-09-30T02:56:13.380Z"
-    },
-    {
-      "name": "PiggyStocks",
-      "ticker": "PiggyStock",
-      "mint": "87xbhAnn7n8kpuDSuyH5HdGbksRzseJp15cJCBZZpump",
-      "quality_score": 6,
-      "mechanism_summary": "Solana savings app: deposit USDC into Kamino, earn tokenized stock rewards that scale with savings duration.",
-      "uniqueness": "novel",
-      "red_flags": [
-        "website returns blank page (JavaScript required, content did not load — may be a placeholder)",
-        "no working product confirmed",
-        "relationship between PiggyStock pump.fun token and the described savings protocol is unclear"
-      ],
-      "one_line_pitch": "USDC savings vault on Kamino that pays out tokenized stock rewards scaled by how long you save.",
-      "website_url": "https://piggystocks.app/",
-      "twitter_handle": "trypiggystocks",
-      "reviewed_at": "2026-09-30T02:56:04.578Z"
-    },
-    {
-      "name": "Use Echo",
-      "ticker": "u/echo",
-      "mint": "CWLLMf9VZWV1nUcxiuMLFx8em1vocuzdhpdBh6Lhpump",
-      "quality_score": 6,
-      "mechanism_summary": "Pump.fun creator fees split hourly: 80% to X posters proportional to engagement, 20% to buyback and burn.",
-      "uniqueness": "novel",
-      "red_flags": [
-        "CA on useecho.fyi (26MPq…pump) does not match this mint — likely a copycat impersonating the real deployment",
-        "social engagement oracle unexplained (how is 'post reach' measured on-chain?)",
-        "no working product demonstrated, relies on off-chain engagement data"
-      ],
-      "one_line_pitch": "Creator fees redistributed hourly to X posters by engagement score; 20% auto-burns — but this mint may be a copycat.",
-      "website_url": "https://useecho.fyi/",
-      "twitter_handle": "echolaunchpad",
-      "reviewed_at": "2026-09-30T02:54:30.693Z"
     }
   ],
   "new_idea_suggestions": [
