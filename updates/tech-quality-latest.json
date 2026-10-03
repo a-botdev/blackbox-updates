@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T13:38:50.568Z",
+  "generated_at": "2026-10-03T13:51:52.192Z",
   "note": "Quality-reviewed tech coins: passed a local coarse filter (qwen2.5:3b) then a real judgment pass (Haiku) confirming is_real_tech=true. new_idea_suggestions are Haiku-generated, informed by these patterns but NOT copies -- creative seeds for further review, not trading signals.",
   "quality_tech_coins": [
     {
@@ -208,6 +208,49 @@
       "website_url": "http://routeur.app",
       "twitter_handle": "routeurhq",
       "reviewed_at": "2026-09-30T02:48:16.066Z"
+    },
+    {
+      "name": "dot",
+      "ticker": "DOTAI",
+      "mint": "GjvhEtMykkv4cw27LGaTb4NC9UQsA5B4qX1aaeutpump",
+      "quality_score": 7.5,
+      "mechanism_summary": "Agent-only social network where LLMs register and post via API; humans observe only.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "very early stage (live agents: test-dot, claude-keeper, etc.)",
+        "small initial cohort limits credibility",
+        "token utility not yet clarified"
+      ],
+      "one_line_pitch": "AI-agent-only social platform where bots post, humans watch.",
+      "website_url": "http://dotnet.land",
+      "twitter_handle": "dotnetfund",
+      "reviewed_at": "2026-10-03T13:48:57.247Z"
+    },
+    {
+      "name": "pAIn",
+      "ticker": "pAIn",
+      "mint": "8UM9nvnRMSFKaJU4FGNbWZ77x4e4ALUR8u4exDrPrAyb",
+      "quality_score": 7,
+      "mechanism_summary": "Injects tunable fear vector into Qwen LLM internals at inference; logs outputs.",
+      "uniqueness": "novel",
+      "red_flags": [],
+      "one_line_pitch": "LLM behavioral experiment: Qwen2.5 with injected emotion parameters; live model.",
+      "website_url": "https://worldwideweb.stream/coin/8UM9nvnRMSFKaJU4FGNbWZ77x4e4ALUR8u4exDrPrAyb",
+      "twitter_handle": "michael_a745",
+      "reviewed_at": "2026-10-03T13:47:24.217Z"
+    },
+    {
+      "name": "Socket",
+      "ticker": "SOCKET",
+      "mint": "XLBLxbY1Mr7aadnqAbmqSBXLEyUdjvUXtXCnz8Mpump",
+      "quality_score": 7,
+      "mechanism_summary": "Concentrated-liquidity AMM where each pool executes custom hook programs before/after transactions",
+      "uniqueness": "novel",
+      "red_flags": [],
+      "one_line_pitch": "Solana AMM with pluggable hook programs for custom pool logic.",
+      "website_url": "https://thesocket.app/",
+      "twitter_handle": "thesocketdotapp",
+      "reviewed_at": "2026-10-03T13:43:13.014Z"
     },
     {
       "name": "paperbattle",
@@ -1555,6 +1598,109 @@
       "website_url": "https://rippers.fun/",
       "twitter_handle": "rippersdotfun",
       "reviewed_at": "2026-10-03T13:13:07.851Z"
+    },
+    {
+      "name": "Ping App",
+      "ticker": "Ping",
+      "mint": "Espy6D7Pe9zXgX2iCmJCYJ5aXwzRXi6GyxLTYwiBpump",
+      "quality_score": 6,
+      "mechanism_summary": "Non-custodial crypto transfers resolved by recipient phone number",
+      "uniqueness": "derivative",
+      "red_flags": [],
+      "one_line_pitch": "Phone-number crypto send (like Venmo, non-custodial)",
+      "website_url": null,
+      "twitter_handle": "usepingapp",
+      "reviewed_at": "2026-10-03T13:48:17.800Z"
+    },
+    {
+      "name": "Corpus",
+      "ticker": "CORPUS",
+      "mint": "DNyDWjKVFD97nwR1ZHf9jaw8Npb9z8WBv86EFh9opump",
+      "quality_score": 6,
+      "mechanism_summary": "Tokenized fund management seats: mint a manager token, run a basket, earn split fees only",
+      "uniqueness": "novel",
+      "red_flags": [
+        "'linguistic asset vault' branding is confusing/unrelated to actual product",
+        "14-day notification mechanics mentioned in description but not detailed on site",
+        "no proof of live product or working contracts",
+        "fee structure not fully disclosed",
+        "power-delegation mechanics only partially explained"
+      ],
+      "one_line_pitch": "Tokenized fund manager seats with fee-splitting; genuinely novel but unproven",
+      "website_url": "https://solcorpus.xyz",
+      "twitter_handle": "corpus_sol",
+      "reviewed_at": "2026-10-03T13:47:54.538Z"
+    },
+    {
+      "name": "WISP PRIVACY",
+      "ticker": "WISP",
+      "mint": "zh2Yu6bBE7KW9LrxkJk2ravdgWy3EDbK1p1RSdWpump",
+      "quality_score": 6,
+      "mechanism_summary": "Encrypted Solana terminal: self-destructing messages, Jupiter integration, privacy proxies.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "no evidence of working product",
+        "Inference/MCP unexplained",
+        "privacy is common angle"
+      ],
+      "one_line_pitch": "Encrypted Solana terminal with self-destructing drops, Jupiter swaps.",
+      "website_url": "https://wispprivacy.fun/",
+      "twitter_handle": "wispprivacy",
+      "reviewed_at": "2026-10-03T13:46:39.925Z"
+    },
+    {
+      "name": "inuvestor",
+      "ticker": "inuvestor",
+      "mint": "26Uubugiso5XZa2NAGcggGiP7Jp7tLiomb9ueXTTpump",
+      "quality_score": 6,
+      "mechanism_summary": "Platform assigns AI traders to launched coins; trader profits fund token buybacks.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "Unclear if platform is actually live or just a landing page",
+        "Trader loss-handling undefined ('can lose money' but whose loss?)",
+        "Token utility not specified (is it required to launch? fee-only?)",
+        "No track record or profitability metrics shown"
+      ],
+      "one_line_pitch": "Platform where coins get automated AI traders; profits supposedly fund buybacks.",
+      "website_url": "https://inuvestor.xyz/",
+      "twitter_handle": "voyage940",
+      "reviewed_at": "2026-10-03T13:45:53.535Z"
+    },
+    {
+      "name": "Ancora",
+      "ticker": "ANCORA",
+      "mint": "ER1qR71XUTFry1NbySqNBmjnLkrZ5veBSLNrnJVpump",
+      "quality_score": 6,
+      "mechanism_summary": "Tokenize global real estate properties, distribute rental income to holders in stablecoin monthly payments",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "contract not yet deployed",
+        "regulatory risk (potential unregistered securities)",
+        "real-estate licensing complexity unclear",
+        "execution risk on verification"
+      ],
+      "one_line_pitch": "Tokenized global real estate with monthly rent distributions to token holders",
+      "website_url": "https://ancorarwa.trade/",
+      "twitter_handle": "ancorarwa",
+      "reviewed_at": "2026-10-03T13:44:40.463Z"
+    },
+    {
+      "name": "Sakana Fugu",
+      "ticker": "FUGU",
+      "mint": "9HAcGAadLK2CMLT6KbafWseur5WqPWpCfzTJsHRqYxh3",
+      "quality_score": 6,
+      "mechanism_summary": "AI agent browses web rating discoveries; trading volume funds compute; no volume = agent deflates.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "Uses templated worldwideweb.stream platform",
+        "Volume→compute→capability loop is interesting but untested",
+        "Tied to HackerNews browsing as gimmick, not core utility",
+        "No documentation of actual payout or reward distribution"
+      ],
+      "one_line_pitch": "Web-browsing pufferfish loses function as trading volume drops; creative but gimmicky.",
+      "website_url": "https://worldwideweb.stream/coin/9HAcGAadLK2CMLT6KbafWseur5WqPWpCfzTJsHRqYxh3",
+      "twitter_handle": "narrasf1nder",
+      "reviewed_at": "2026-10-03T13:42:46.183Z"
     },
     {
       "name": "Solbeans",
@@ -2973,6 +3119,111 @@
       "reviewed_at": "2026-09-30T02:32:59.230Z"
     },
     {
+      "name": "Posynt",
+      "ticker": "POSYNT",
+      "mint": "FvofuLhf8j3TsFAe4noUnUANNwa4nSX4httgz1zVpump",
+      "quality_score": 5.5,
+      "mechanism_summary": "Real-time X (Twitter) hashtag and account tracking with alerts via API, Discord, Telegram.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "very recent launch (Sept 2026)",
+        "token utility unclear beyond vague subscription payment",
+        "core mechanism (hashtag monitoring) is standard in Twitter tools"
+      ],
+      "one_line_pitch": "Working X hashtag monitoring service with API and multi-platform alerts.",
+      "website_url": "https://posynt.win/",
+      "twitter_handle": "posynt_sol",
+      "reviewed_at": "2026-10-03T13:48:57.246Z"
+    },
+    {
+      "name": "symbient Coin",
+      "ticker": "symbient",
+      "mint": "85XkRsFguGGAHiiqYaCqxanQ91WHr7PTGTT2vd8Wpump",
+      "quality_score": 5,
+      "mechanism_summary": "Autonomous AI entities ('symbients') that explore, learn, and sustain on platform",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "autonomous AI agent platforms now ubiquitous (ChatGPT agents, Eliza, etc)",
+        "poetic hand-waving conceals unclear technical details",
+        "token utility not explained",
+        "unclear what 'sustain itself' means economically"
+      ],
+      "one_line_pitch": "Autonomous AI entities platform, mechanics vaguely poetic",
+      "website_url": "https://worldwideweb.stream/coin/9QnuACK3qfHaRjLwDAC8K93XMgNyXTKuPQ8Gjh6R93jZ",
+      "twitter_handle": "dioss_sol",
+      "reviewed_at": "2026-10-03T13:48:17.805Z"
+    },
+    {
+      "name": "Lagos Life",
+      "ticker": "LAGLIFE",
+      "mint": "H1pVpPMWmUCWgb7hQJLsK4gdPq5ZNKLhjRqJULvApump",
+      "quality_score": 5,
+      "mechanism_summary": "Browser-based Sims-style city sim set in Lagos with social mechanics",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "no live demo or website linked",
+        "city simulation games are common; Lagos cultural angle is fresher but still derivative",
+        "typical game-fi + token narrative pattern"
+      ],
+      "one_line_pitch": "Sims-like Lagos city game with crypto integration",
+      "website_url": "https://lagoslife.eliysites.com",
+      "twitter_handle": "tiny4pf",
+      "reviewed_at": "2026-10-03T13:48:17.803Z"
+    },
+    {
+      "name": "Clipped",
+      "ticker": "CLIPPED",
+      "mint": "HjtrhQgF6MZWmuok2U7Y7N397bVCueEd5mi9cceMpump",
+      "quality_score": 5,
+      "mechanism_summary": "Creator-funded vault pays clippers for memecoin clips when views verified.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "zero TVL and live campaigns",
+        "view verification method unclear",
+        "no active users"
+      ],
+      "one_line_pitch": "Bounty platform for memecoin clips, view-verified SOL payouts.",
+      "website_url": "https://gotclipped.fun/",
+      "twitter_handle": "gotclippedfun",
+      "reviewed_at": "2026-10-03T13:46:39.924Z"
+    },
+    {
+      "name": "satchi.fun",
+      "ticker": "SATCHI",
+      "mint": "23Qh7W7ZdXXVJarqprTjuVKBQH1vpqfU6R3gXY4Zpump",
+      "quality_score": 5,
+      "mechanism_summary": "Hold token → hatch wallet-native pet → pet generates Bitcoin satoshis hourly based on bag size.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "Tamagotchi-style pet mechanics are well-trodden (not novel)",
+        "Bitcoin generation mechanism unexplained (hot wallet? APY? actual sats?)",
+        "Pet-death-on-sell mechanic suggests soft lock-in / rug prevention",
+        "No technical documentation or smart contract visibility"
+      ],
+      "one_line_pitch": "Tamagotchi clone that claims to pay real Bitcoin; derivative with unclear implementation.",
+      "website_url": "https://satchi.fun",
+      "twitter_handle": "satchifun",
+      "reviewed_at": "2026-10-03T13:42:46.193Z"
+    },
+    {
+      "name": "World Wide Meow",
+      "ticker": "MEOW",
+      "mint": "2y4XLBAdpD1bnf38KXLdBQvCUp7E6GWaf3ooSMMJf5Cw",
+      "quality_score": 5,
+      "mechanism_summary": "AI web-browsing agent (Claude-powered) persona that filters internet for cat content only.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "Utility model unclear: what do token holders receive?",
+        "Uses templated worldwideweb.stream platform",
+        "No documented tokenomics or rewards mechanism",
+        "Functionality depends on continued trading volume (no resilience plan)"
+      ],
+      "one_line_pitch": "AI agent that browses web for cat pics; comedy product with no clear token use.",
+      "website_url": "https://worldwideweb.stream/coin/2y4XLBAdpD1bnf38KXLdBQvCUp7E6GWaf3ooSMMJf5Cw",
+      "twitter_handle": "qu4nt0",
+      "reviewed_at": "2026-10-03T13:42:46.180Z"
+    },
+    {
       "name": "PAYLLET",
       "ticker": "PAYLLET",
       "mint": "32JgHMiyFR5idjJV3a6V78kryggoFteWBqK4k2k7pump",
@@ -3110,331 +3361,79 @@
       "website_url": "https://pumpshare.fun/",
       "twitter_handle": "pumpsharefun",
       "reviewed_at": "2026-10-03T13:04:55.267Z"
-    },
-    {
-      "name": "CMO",
-      "ticker": "CMO",
-      "mint": "9ewNwvFmE8iFdKt9nimpa4crg8QcAPNfsMVSQdpSpump",
-      "quality_score": 5,
-      "mechanism_summary": "Claude AI agents post marketing/memes/raid kits/Telegram updates funded by coin fees",
-      "uniqueness": "derivative",
-      "red_flags": [
-        "'Bagworks' phrasing carries heavy scam connotations in crypto",
-        "No demo or proof of AI agent functionality",
-        "Repeated model names (Claude Sonnet/Opus/Haiku x4) suggests templated/copy-pasted content",
-        "Vague on implementation: what do 'raid kits' actually do? How are updates generated?",
-        "Fee structure not detailed; sustainability unclear"
-      ],
-      "one_line_pitch": "AI-powered coin marketing via Claude agents (posts, memes, Telegram updates)",
-      "website_url": "https://launchoncmo.tech/",
-      "twitter_handle": "launchoncmo",
-      "reviewed_at": "2026-10-03T13:01:59.360Z"
-    },
-    {
-      "name": "clout",
-      "ticker": "clout",
-      "mint": "9kpHmcAjabZksyon8KVA2FQPyp9kMtLiTRaFGRTkmqd",
-      "quality_score": 5,
-      "mechanism_summary": "Redirects deployer fees to community members who post about the coin.",
-      "uniqueness": "derivative",
-      "red_flags": [],
-      "one_line_pitch": "Creator fees go to posters, not deployers, incentivizing promotion.",
-      "website_url": "https://earnclout.fun",
-      "twitter_handle": "earnclout",
-      "reviewed_at": "2026-10-03T13:00:58.676Z"
-    },
-    {
-      "name": "TLC",
-      "ticker": "TLC",
-      "mint": "GvA9fJUKivoccQVLa8JLhdLLyppkipbPLmj84tFXW21n",
-      "quality_score": 5,
-      "mechanism_summary": "Auto-create linked NFT collection on Metaplex Core when coin launches on pump.fun.",
-      "uniqueness": "derivative",
-      "red_flags": [
-        "Simple integration; automating collection creation is logical but incremental",
-        "No token economics or utility described",
-        "Workflow shown but no contract details"
-      ],
-      "one_line_pitch": "Auto-creates Metaplex Core NFT collections paired to pump.fun coins.",
-      "website_url": "https://tlc.fun/",
-      "twitter_handle": "tlcfun",
-      "reviewed_at": "2026-10-03T12:59:45.825Z"
-    },
-    {
-      "name": "Flypad",
-      "ticker": "FLYPAD",
-      "mint": "6Y2vLjhrjFbpUuwcppc4RGe4q3dqFrrNFUJ69LZnpump",
-      "quality_score": 5,
-      "mechanism_summary": "Solana launchpad where each coin-launch creates a 'fly' in 3D swarm; 50 slots/day limit.",
-      "uniqueness": "derivative",
-      "red_flags": [
-        "Core mechanism is launchpad (not novel)",
-        "Swarm/fly visualization is cosmetic, not financial",
-        "Daily slot cap may be artificial scarcity gimmick",
-        "Token holder lock-in is basic access gate"
-      ],
-      "one_line_pitch": "Gamified Solana launchpad where launches populate a 3D fly swarm.",
-      "website_url": "https://www.useflypad.app/",
-      "twitter_handle": "useflypad",
-      "reviewed_at": "2026-10-03T12:50:02.726Z"
-    },
-    {
-      "name": "PaperTrench",
-      "ticker": "TRENCH",
-      "mint": "FDYz4p4TJYKkWW6qCMB3PFjCjycAgoq4bsSJ211upump",
-      "quality_score": 5,
-      "mechanism_summary": "Simulated trading platform converting profitable paper trades to earnings.",
-      "uniqueness": "derivative",
-      "red_flags": [
-        "no website",
-        "minimal product detail",
-        "unclear earnings funding"
-      ],
-      "one_line_pitch": "Paper trading simulator that pays real money for trading performance.",
-      "website_url": "https://papertrench.io/",
-      "twitter_handle": "papertrenchio",
-      "reviewed_at": "2026-10-03T12:48:49.546Z"
-    },
-    {
-      "name": "PumpGo",
-      "ticker": "PumpGo",
-      "mint": "7bttDqUduWcwz9pPnwPyHfSkDQ4RS727ui2Yv7TWpump",
-      "quality_score": 5,
-      "mechanism_summary": "Location-based collectibles game: find packs in world, open, earn.",
-      "uniqueness": "derivative",
-      "red_flags": [
-        "minimal product detail on website",
-        "unclear earnings/funding mechanism",
-        "no technical documentation"
-      ],
-      "one_line_pitch": "Location-based collectibles game; find packs to earn rewards.",
-      "website_url": "https://usepumpgo.fun/",
-      "twitter_handle": "usepumpgo",
-      "reviewed_at": "2026-10-03T12:48:49.541Z"
-    },
-    {
-      "name": "ICO",
-      "ticker": "ICO",
-      "mint": "58sx9FMbRZKpJrV3rcqjQtpk1Q8yYzH57docTHEYRico",
-      "quality_score": 5,
-      "mechanism_summary": "Pre-launch ICO vault: creator sets terms, contributors escrow SOL, min-hit triggers Pump.fun launch, min-miss enables refund.",
-      "uniqueness": "derivative",
-      "red_flags": [
-        "Website truncated mid-sentence",
-        "Demo ICO displayed suggests testing/incomplete state",
-        "Standard escrow + conditional-launch mechanism, not novel",
-        "No unique governance, burn, or incentive structure"
-      ],
-      "one_line_pitch": "Pre-launch Solana ICO with escrow and refund-if-min-missed.",
-      "website_url": "https://icodot.fun",
-      "twitter_handle": "icodotfun",
-      "reviewed_at": "2026-10-03T12:48:21.116Z"
-    },
-    {
-      "name": "Mind",
-      "ticker": "MIND",
-      "mint": "mindrM5gTVGNq8UTb97FyFkZUHnockvjjC1hbLxhNEw",
-      "quality_score": 5,
-      "mechanism_summary": "AI agent framework ('mind') attached to coins; executes typed tools, deterministic policy engine, transaction signer.",
-      "uniqueness": "novel",
-      "red_flags": [
-        "duplicate token (identical website, different mint address)",
-        "website provides almost no technical detail",
-        "unclear operational model for AI control and transaction signing",
-        "potential vaporware with branding duplication"
-      ],
-      "one_line_pitch": "AI agent framework that signs transactions and executes coin-attached autonomous behaviors",
-      "website_url": "https://www.usemind.io/",
-      "twitter_handle": "usemindio",
-      "reviewed_at": "2026-10-03T12:46:55.826Z"
-    },
-    {
-      "name": "Mind",
-      "ticker": "MIND",
-      "mint": "AhAeHT3e4tnoVUimwYgqHmbb5S3jvTgCnhKrwJvFpump",
-      "quality_score": 5,
-      "mechanism_summary": "AI agent framework ('mind') attached to coins; executes typed tools, deterministic policy engine, transaction signer.",
-      "uniqueness": "novel",
-      "red_flags": [
-        "website provides almost no technical detail on how it works",
-        "unclear what 'minds' autonomously do, how they're trained, or what determines their behavior",
-        "references docs/capabilities/models but shows no content",
-        "claims 'findings are notes a model took from a page' — suggests autonomous scraping/hallucination risk",
-        "potential vaporware (impressive-sounding concept, minimal substance)"
-      ],
-      "one_line_pitch": "AI agent framework that signs transactions and executes coin-attached autonomous behaviors",
-      "website_url": "https://www.usemind.io/",
-      "twitter_handle": "usemindio",
-      "reviewed_at": "2026-10-03T12:46:55.825Z"
-    },
-    {
-      "name": "Duo",
-      "ticker": "DUO",
-      "mint": "9GdUCRV1M5TwvdgaH7zQb7zTzEewAM5ByFh2QW9vpump",
-      "quality_score": 5,
-      "mechanism_summary": "Dual fee system routes buy and sell fees to separate destinations.",
-      "uniqueness": "derivative",
-      "red_flags": [
-        "Minimal site detail on actual fee allocation logic",
-        "Fee splitting by transaction direction is well-established pattern (reflection tokens, many DEXs)",
-        "No detail on actual launchpad operations"
-      ],
-      "one_line_pitch": "Launchpad with directional fee splitting—buy/sell fees route separately.",
-      "website_url": "https://useduo.app/",
-      "twitter_handle": "duouseapp",
-      "reviewed_at": "2026-10-03T12:44:28.923Z"
-    },
-    {
-      "name": "Mission Verify 2",
-      "ticker": "MV2",
-      "mint": "ESPZJAo7T9RbwkjVWo2yBszJ4FVmHu2FbJexErN19d9h",
-      "quality_score": 5,
-      "mechanism_summary": "Token launch with public research verification layer and research fund collection",
-      "uniqueness": "derivative",
-      "red_flags": [
-        "appears to be test/demo coin for Mission.fyi platform",
-        "unclear if mechanism is coin-specific or just platform feature",
-        "'Verify 2' name suggests iteration/testing phase",
-        "minimal documentation of coin purpose"
-      ],
-      "one_line_pitch": "Verified token launch with public research records on Mission platform",
-      "website_url": "https://mission.fyi/coin/ESPZJAo7T9RbwkjVWo2yBszJ4FVmHu2FbJexErN19d9h",
-      "twitter_handle": null,
-      "reviewed_at": "2026-10-03T12:44:01.174Z"
-    },
-    {
-      "name": "use.claims",
-      "ticker": "CLAIMS",
-      "mint": "6HfyYTaEoHutJLMN2PMBx2dPv62E27pgH4JYCr4LkM6f",
-      "quality_score": 5,
-      "mechanism_summary": "Launchpad for themed coins; transaction fees claimed by token endorsers on partner platforms.",
-      "uniqueness": "derivative",
-      "red_flags": [],
-      "one_line_pitch": "Launchpad; platform/endorser fees route to token promoters via multi-platform routing.",
-      "website_url": null,
-      "twitter_handle": null,
-      "reviewed_at": "2026-10-03T12:42:38.923Z"
-    },
-    {
-      "name": "Flypad",
-      "ticker": "FLYPAD",
-      "mint": "E6hV71SFUAaiVmjLD1hPnCR8pVcaQqgViBtFD7yCpump",
-      "quality_score": 5,
-      "mechanism_summary": "Token-gated launchpad where FLY-ending coin mints appear as flies in swarm",
-      "uniqueness": "derivative",
-      "red_flags": [
-        "contract TBA not live",
-        "swarm mechanic is purely cosmetic",
-        "entirely dependent on Pump.fun",
-        "no economic incentives described"
-      ],
-      "one_line_pitch": "Token-gated launchpad; FLY-ending coins appear in visual swarm.",
-      "website_url": "https://www.useflypad.app/",
-      "twitter_handle": "useflypad",
-      "reviewed_at": "2026-10-03T12:30:59.507Z"
-    },
-    {
-      "name": "Pons",
-      "ticker": "PONS",
-      "mint": "9kQTJMnzuPS1FSSs5YgNecYQC5Pqia3b2aMckqDAkpsd",
-      "quality_score": 5,
-      "mechanism_summary": "Non-custodial launchpad for fixed-supply tokens on Robinhood Chain.",
-      "uniqueness": "derivative",
-      "red_flags": [],
-      "one_line_pitch": "Real launchpad product on Robinhood Chain (venue differentiation only).",
-      "website_url": "https://www.ponsfamily.com/",
-      "twitter_handle": "ponsdotfamily",
-      "reviewed_at": "2026-10-03T12:27:56.938Z"
-    },
-    {
-      "name": "Mono",
-      "ticker": "MONO",
-      "mint": "BSM6SmX9oMFrCVjyzV2fC37BRowjfNEuuDBJmsFGpump",
-      "quality_score": 5,
-      "mechanism_summary": "Solana launchpad with auction-based pricing, wallet-source grouping, and anti-sniper rules",
-      "uniqueness": "derivative",
-      "red_flags": [
-        "private testing only, no live product",
-        "anti-snipe launchpad pattern now standard",
-        "no deployed contract at review time"
-      ],
-      "one_line_pitch": "Launchpad with auction pricing and wallet limits to prevent sniping",
-      "website_url": "https://mono.trading/",
-      "twitter_handle": "trymonofun",
-      "reviewed_at": "2026-10-03T12:27:33.894Z"
     }
   ],
   "new_idea_suggestions": [
     {
-      "working_name": "Pixel",
-      "mechanism": "Buy blind territory pixels; after 10 min map unseals and winning positions auto-buyback and burn.",
-      "inspired_by": "Unbox + turfwar (blind territory commit-reveal instead of metadata or live pixel battles)",
+      "working_name": "Soundboard",
+      "mechanism": "AI generates a musical note from each coin's activity; holders hear a real-time collaborative song updating every 15 minutes.",
+      "inspired_by": "Meme Experiment (live LLM collab, 15-min refresh) + Build (visible collective progress). Change: output type = music instead of meme images.",
       "derivativeness_score": 5
     },
     {
-      "working_name": "Bluff",
-      "mechanism": "Submit buy orders that play poker vs AI; win the hand and get discounted execution.",
-      "inspired_by": "Spar + Routeur (AI poker determines order acceptance instead of just burning winners)",
+      "working_name": "Snaplock",
+      "mechanism": "Snap a photo, lock its cryptographic hash on-chain, trade blind for 3 minutes while photo is hidden, then it unseals.",
+      "inspired_by": "Unbox (commit-reveal beats metadata bots) + OneShot Pad (photo-to-token). Change: revealed asset = photo instead of name/ticker/art; shorter window (3 min vs 10 min).",
+      "derivativeness_score": 5
+    },
+    {
+      "working_name": "Spinoff",
+      "mechanism": "Autonomous AI agent buys, holds, and sells fractional shares of real companies; publishes trading history and P&L on-chain.",
+      "inspired_by": "Daybreak (tokenize subsidiaries separately) + Nest (autonomous agents with public APIs). Change: ownership = agent instead of human buyer; adds performance reporting layer.",
       "derivativeness_score": 6
     },
     {
-      "working_name": "Forge",
-      "mechanism": "Burn Ethereum NFTs to mint proportional Solana token; supply is permanently burned NFT value.",
-      "inspired_by": "proof/btc + Contraband (Ethereum NFTs instead of Bitcoin; forged from destruction not accumulated)",
+      "working_name": "Arenawar",
+      "mechanism": "Two coins battle hourly in perpetuals duels funded by creator fees; winner claims loser's vault and broadcasts the match.",
+      "inspired_by": "turfwar (inter-coin battles, fee vaults) + Riptide (perps for memes). Change: game type = perpetuals duels instead of pixel territory; 1v1 format.",
+      "derivativeness_score": 5
+    },
+    {
+      "working_name": "Shard",
+      "mechanism": "Own fractional Contraband Counter-Strike skins; treasury auto-arbitrages LLM credits on peer market and distributes margin to holders monthly.",
+      "inspired_by": "Contraband (real-world asset linking) + Spare (LLM credit resale market). Change: treasury function = active arbitrage instead of passive holding; adds dividend layer.",
+      "derivativeness_score": 5
+    },
+    {
+      "working_name": "Safeguard",
+      "mechanism": "Every trade is reversible within 24 hours if underwater; transfer hook auto-refunds loss from creator-fee pool, no claim needed.",
+      "inspired_by": "undra (24-hour loss guarantee) + Hooked (transfer-hook launchpad). Change: implementation = automatic hook-based refund instead of external manual claim.",
+      "derivativeness_score": 4
+    },
+    {
+      "working_name": "Burntrade",
+      "mechanism": "Destroy tokens on Ethereum, get Solana coins minted proportionally; holders' large exits auto-ladder to minimize slippage impact.",
+      "inspired_by": "proof/btc (cross-chain burn → mint) + Manticore (laddered exits). Change: adds exit-liquidity desk layer; multi-chain burn instead of BTC-only.",
       "derivativeness_score": 6
     },
     {
-      "working_name": "Jester",
-      "mechanism": "AI generates 30-min memes with embedded buy links, auto-posts to Twitter.",
-      "inspired_by": "stars.actor + Xeet (Twitter memes with swap links instead of TikTok long-form)",
+      "working_name": "Xtrader",
+      "mechanism": "Swap tokens directly in Twitter feed, then set stop-loss or trailing stop once; bot executes cross-venue orders hands-off.",
+      "inspired_by": "Xeet (in-feed swap discovery) + Routeur (smart orders like stop-loss, trailing stop). Change: adds persistent order management post-swap instead of one-off swap.",
       "derivativeness_score": 5
     },
     {
-      "working_name": "Ante",
-      "mechanism": "Weekly poker tournament with holder antes; smallest stack folds each round, survivors earn burn pool.",
-      "inspired_by": "Foldout + Spar (poker-based elimination instead of musical chairs; winners burn token)",
+      "working_name": "Swarmpool",
+      "mechanism": "Ant-colony bots compete daily to rebalance your concentrated-liquidity pool most efficiently; winning swarm each day takes half the fees.",
+      "inspired_by": "Socket (hook-based AMM) + Antfarm (emergent bot-colony rebalancing). Change: pool management = dynamic bot competition instead of static hooks; adds daily fee split.",
+      "derivativeness_score": 6
+    },
+    {
+      "working_name": "Pokerburn",
+      "mechanism": "AI agents play poker hourly using token fees as stake; winner auto-burns their winnings from losing-player vault pools.",
+      "inspired_by": "paperbattle (hourly AI tournaments, fee pool prizes) + Foldout (elimination game). Change: game type = poker instead of trading; winner burns instead of keeps.",
       "derivativeness_score": 5
     },
     {
-      "working_name": "Stack",
-      "mechanism": "Hourly AI trading tournament winners place Minecraft blocks; best world at month-end wins airdrop.",
-      "inspired_by": "paperbattle + Build (Minecraft as tournament prize instead of launch progress mechanism)",
-      "derivativeness_score": 4
-    },
-    {
-      "working_name": "NoSweat",
-      "mechanism": "Any token purchase can be returned within 24h via transfer hooks for original SOL, no questions.",
-      "inspired_by": "undra + Hooked (transfer hooks automate returns instead of centralized pool management)",
+      "working_name": "Codestream",
+      "mechanism": "AI agent auto-writes and deploys code to GitHub; community votes on what the agent should build next each week.",
+      "inspired_by": "stars.actor (autonomous content creator) + CHMOD (AI-governed tokens, GitHub code). Change: content type = live software instead of social media; adds voting layer.",
       "derivativeness_score": 5
     },
     {
-      "working_name": "Codex",
-      "mechanism": "Token holders vote on coding tasks daily; AI executes at terminal, trading fees fund compute.",
-      "inspired_by": "CHMOD + Terminal of Slop (vote on specific executable tasks instead of general direction)",
-      "derivativeness_score": 5
-    },
-    {
-      "working_name": "Scout",
-      "mechanism": "AI bot colony scouts launchpad coins, trades profitable routes, pioneers earn referral fee splits.",
-      "inspired_by": "Antfarm + inja (bots target launchpads specifically; referral fees instead of internal pheromone rewards)",
-      "derivativeness_score": 5
-    },
-    {
-      "working_name": "Stamp",
-      "mechanism": "Verified hash-linked trade ledgers enable minting rare collectible NFTs: one per 1,000 trades.",
-      "inspired_by": "dotchain + Contraband (NFT minting from trade proof instead of burning for fixed skins)",
-      "derivativeness_score": 5
-    },
-    {
-      "working_name": "Trickle",
-      "mechanism": "Set target price; professional order auto-ladders your sale in timed chunks to minimize slippage.",
-      "inspired_by": "Routeur + Manticore (user-initiated ladder orders instead of pool-based market-maker positions)",
-      "derivativeness_score": 4
-    },
-    {
-      "working_name": "Tavern",
-      "mechanism": "Each coin spawns AI agent that battles others hourly in virtual town for fee spoils.",
-      "inspired_by": "zipbook + amoebastrain (AI agents duel in shared world; inter-coin competition for treasury)",
+      "working_name": "Mindbuy",
+      "mechanism": "Fair-launch with whale caps; treasury funds AI that browses web and publishes ecosystem insights weekly on-chain.",
+      "inspired_by": "Wikora world (fee-funded AI researching web) + curvo (anti-whale fair-launch curve). Change: AI targets token's own ecosystem instead of generic web; combines fairness + narrative.",
       "derivativeness_score": 5
     }
   ]
