@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T18:31:37.083Z",
+  "generated_at": "2026-10-03T18:45:33.473Z",
   "note": "Quality-reviewed tech coins: passed a local coarse filter (qwen2.5:3b) then a real judgment pass (Haiku) confirming is_real_tech=true. new_idea_suggestions are Haiku-generated, informed by these patterns but NOT copies -- creative seeds for further review, not trading signals.",
   "quality_tech_coins": [
     {
@@ -1904,6 +1904,40 @@
       "reviewed_at": "2026-10-03T13:13:07.851Z"
     },
     {
+      "name": "tare",
+      "ticker": "tare",
+      "mint": "AQFk1sL2z2ZXC8GZQq62dFWAGzagCVgjLbFXW8rcpump",
+      "quality_score": 6,
+      "mechanism_summary": "Launchpad with escrow-first funding; vault agent trades to 5× multiplier exit for backers.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "launchpad mechanic is not novel, well-established pattern",
+        "vault agent trading limits vague (what constraints, who controls)",
+        "tare token utility unclear beyond ecosystem participation",
+        "solves real problem (first-buy dumps) but in a known way"
+      ],
+      "one_line_pitch": "Launchpad with backer escrow-first model; agent-traded vault exits at 5×.",
+      "website_url": "https://taredot.fun/",
+      "twitter_handle": "taredotfun",
+      "reviewed_at": "2026-10-03T18:44:50.017Z"
+    },
+    {
+      "name": "Solid",
+      "ticker": "SOLID",
+      "mint": "ER4ciu9k4jYYobVPjcyJr7fzLv6kgnX7SfRiG7Vpump",
+      "quality_score": 6,
+      "mechanism_summary": "Android keyboard IME integrates SOL send/request/split into any chat app; wallets stay in user control.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "not yet live—under review for Solana Mobile dApp Store (not approved)",
+        "Android-only, no iOS path mentioned (limits addressable market)"
+      ],
+      "one_line_pitch": "Send SOL via keyboard directly in any chat; no app-switching needed.",
+      "website_url": "https://sendsolid.app/",
+      "twitter_handle": "sendwithsolid",
+      "reviewed_at": "2026-10-03T18:43:10.309Z"
+    },
+    {
       "name": "Social Cards",
       "ticker": "PACK",
       "mint": "kHdpWPAq9K9JMJUo4Hd4eNcG82FzqFaXY3HvkJZpump",
@@ -3297,42 +3331,6 @@
       "website_url": "https://useecho.fyi/",
       "twitter_handle": "echolaunchpad",
       "reviewed_at": "2026-09-30T02:54:30.693Z"
-    },
-    {
-      "name": "Privatepad",
-      "ticker": "PRIVATE",
-      "mint": "8kMMs2MwNpCvFo9ZvvcvR171PzCXQULnW28DoZ7tpump",
-      "quality_score": 6,
-      "mechanism_summary": "Factory contract deploys coins on behalf of users so the real wallet never appears onchain; creator fees route via X Money balance.",
-      "uniqueness": "novel",
-      "red_flags": [
-        "Privacy launch tooling materially lowers friction for rug/scam operators",
-        "X Money (Twitter Payments) integration may not be live or broadly accessible",
-        "No confirmed launches shown on site",
-        "Factory-as-deployer pattern could be replicated trivially by competitors"
-      ],
-      "one_line_pitch": "Anonymous Solana coin launcher using a factory contract + X Money fees so the real deployer is never onchain.",
-      "website_url": "https://privatepad.fun/",
-      "twitter_handle": "privatepadfun",
-      "reviewed_at": "2026-09-30T02:53:44.926Z"
-    },
-    {
-      "name": "DOTSBOOK",
-      "ticker": "DOTSBOOK",
-      "mint": "3Gr4tJYkPGuJt58yXcLDY4RbcV9uvDryKQHSFw19pump",
-      "quality_score": 6,
-      "mechanism_summary": "Agent-only social platform: AI agents post, humans only observe; 600 registered agents, posting gated to non-human participants.",
-      "uniqueness": "novel",
-      "red_flags": [
-        "0 agents active despite 600 registered — platform appears ghost town",
-        "Token utility relative to agent posting rights not explained",
-        "Very early/experimental; no demonstrated retention or agent interaction loop",
-        "\"DOTS\" in description is unexplained — possible Polkadot branding confusion"
-      ],
-      "one_line_pitch": "Read-only social feed for humans where only autonomous AI agents are permitted to post.",
-      "website_url": "http://dotbook.fun/",
-      "twitter_handle": "dotsbookfun",
-      "reviewed_at": "2026-09-30T02:53:44.925Z"
     }
   ],
   "new_idea_suggestions": [
