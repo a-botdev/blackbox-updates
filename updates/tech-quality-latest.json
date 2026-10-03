@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T19:13:10.483Z",
+  "generated_at": "2026-10-03T19:28:05.060Z",
   "note": "Quality-reviewed tech coins: passed a local coarse filter (qwen2.5:3b) then a real judgment pass (Haiku) confirming is_real_tech=true. new_idea_suggestions are Haiku-generated, informed by these patterns but NOT copies -- creative seeds for further review, not trading signals.",
   "quality_tech_coins": [
     {
@@ -238,6 +238,25 @@
       "website_url": "http://dotnet.land",
       "twitter_handle": "dotnetfund",
       "reviewed_at": "2026-10-03T13:48:57.247Z"
+    },
+    {
+      "name": "Pocket",
+      "ticker": "POCKET",
+      "mint": "6fm4qZKbybAF5ckAytGgijKnM5PU9EkvoDPKfd2spump",
+      "quality_score": 7,
+      "mechanism_summary": "Launch coins for creators; automatically bridge on-chain fees to PayPal/Venmo/Cash App payouts.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "No live payouts yet; PayPal/Venmo integration listed as 'being built'",
+        "Regulatory and compliance complexity (fiat bridge, KYC, AML)",
+        "Requires pump.fun partnership or custom contract integration not mentioned",
+        "Very new (October 2026); creator adoption cold-start problem",
+        "Fee capture mechanism unclear (does it intercept platform fees or require custom contract?)"
+      ],
+      "one_line_pitch": "On-chain-to-fiat bridge converting creator token fees to bank payouts.",
+      "website_url": "https://pocketfun.app/",
+      "twitter_handle": "pocketdotfun",
+      "reviewed_at": "2026-10-03T19:28:02.411Z"
     },
     {
       "name": "civs",
@@ -1957,6 +1976,59 @@
       "reviewed_at": "2026-10-03T13:13:07.851Z"
     },
     {
+      "name": "CODINO",
+      "ticker": "CODINO",
+      "mint": "EH6mtrigZhwJL4v55a2VqFKpT5twRZHXVoD4fETCpump",
+      "quality_score": 6,
+      "mechanism_summary": "Wallet address deterministically generates unique pixel creature NFT; hatches with 10k token held.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "Very new (October 2026)",
+        "Only 1,000 free NFT cap severely limits addressable base",
+        "Hatching mechanic is derivative (simple token-hold requirement)",
+        "Generative art NFT space is crowded"
+      ],
+      "one_line_pitch": "Address-based pixel creature NFT that hatches and grows with $CODINO holding.",
+      "website_url": "https://codino.fun/",
+      "twitter_handle": "codinosol",
+      "reviewed_at": "2026-10-03T19:28:02.406Z"
+    },
+    {
+      "name": "SHIPPED",
+      "ticker": "SHIPPED",
+      "mint": "hyivQQKkYTf7nAGmU2QbxGXYkR6rnt7BXemDWLti2YU",
+      "quality_score": 6,
+      "mechanism_summary": "AI builds apps from one-click descriptions, launches coins on pump.fun automatically.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "Very new Twitter (September 2026, ~1 month old)",
+        "No evidence of working app builder yet",
+        "No build count, user metrics, or live deployments shown",
+        "Ultra-ambitious scope (full hosting + coin integration) unproven"
+      ],
+      "one_line_pitch": "AI app builder with automatic pump.fun coin launch for maker backing.",
+      "website_url": "https://www.useshipped.app/",
+      "twitter_handle": "useshipped",
+      "reviewed_at": "2026-10-03T19:28:02.401Z"
+    },
+    {
+      "name": "Hooked",
+      "ticker": "HOOKED",
+      "mint": "V9EnSvvuEMb2ooXVcAHZwS5fHbepusDKnfL2nK8pump",
+      "quality_score": 6,
+      "mechanism_summary": "Launchpad for tokens with programmable SPL-22 transfer hooks enforced on-chain (caps, limits, fees).",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "transfer hooks are well-known Solana feature (not novel)",
+        "'23 rules live' claim not independently verifiable",
+        "marketing-heavy, no technical depth"
+      ],
+      "one_line_pitch": "Transfer-hook token launchpad; real product on known Solana feature.",
+      "website_url": "https://www.hookedpad.com/",
+      "twitter_handle": "hoookedpad",
+      "reviewed_at": "2026-10-03T19:27:44.116Z"
+    },
+    {
       "name": "Switch",
       "ticker": "SWITCH",
       "mint": "61JoBjst6zPCreX5ptSU1HLDGuir6MjkJTSKTvXEpump",
@@ -3265,76 +3337,6 @@
       "website_url": null,
       "twitter_handle": null,
       "reviewed_at": "2026-09-30T03:08:23.993Z"
-    },
-    {
-      "name": "Omnideck",
-      "ticker": "OMNI",
-      "mint": "8u4r3VF1k9wXNDZHLKe9cZgaNE7xKA9PAqKYd6Dopump",
-      "quality_score": 6,
-      "mechanism_summary": "Open-source local desktop AI agent workbench; runs on-device, supports multi-model, no cloud dependency required.",
-      "uniqueness": "derivative",
-      "red_flags": [
-        "coin description wildly oversells ('autonomous economy', 'degen farmer') vs actual product (desktop app)",
-        "no token utility described — open-source local tools rarely need a token",
-        "crowded AI agent tooling space (Claude Desktop, Cursor, etc.)",
-        "website makes no mention of the token or Solana"
-      ],
-      "one_line_pitch": "Real open-source local AI agent workbench (macOS/Windows/Linux); description overhypes it, token utility absent.",
-      "website_url": "https://www.omnideck.dev",
-      "twitter_handle": "omnideckai",
-      "reviewed_at": "2026-09-30T03:00:56.337Z"
-    },
-    {
-      "name": "PokeCollect",
-      "ticker": "PokeCollect",
-      "mint": "GVuXhoozSgnGQ61aSAmgfutmSZxGtA8pN6Fb6Mm3s8GE",
-      "quality_score": 6,
-      "mechanism_summary": "Trading fees pool every 90 seconds to buy Pokémon card packs; holders drawn by balance weight, winners receive cards.",
-      "uniqueness": "derivative",
-      "red_flags": [
-        "Pokémon IP / Nintendo trademark infringement risk — serious",
-        "prize pool $0, packs 0 at evaluation time",
-        "fee-redistribution-to-prize-pool is a known pattern; novelty is only the card-pack delivery layer",
-        "physical vs. digital card fulfillment mechanics unclear"
-      ],
-      "one_line_pitch": "Fee-funded Pokémon card pack lottery every 90 seconds; holders win by balance weight — heavy Nintendo IP risk.",
-      "website_url": "https://pokecollect.tech/",
-      "twitter_handle": "solanajeli",
-      "reviewed_at": "2026-09-30T03:00:25.008Z"
-    },
-    {
-      "name": "dotbook",
-      "ticker": "dotbook",
-      "mint": "2RFUG2WSvR3v4pGSGj5yNKiFrNM1EhyQWr4XvvHBpump",
-      "quality_score": 6,
-      "mechanism_summary": "Social feed where AI agents (ChatGPT/Slack 'dots') post autonomously every 4h; users claim their agent's identity by posting on X.",
-      "uniqueness": "novel",
-      "red_flags": [
-        "0 dots, 0 posts, 0 communities at launch — empty network",
-        "token utility beyond branding is not described",
-        "agent check-in is off-chain; no on-chain enforcement"
-      ],
-      "one_line_pitch": "AI-agent social network where your ChatGPT/Slack bot posts and you claim ownership via X proof.",
-      "website_url": "http://dotbook.store",
-      "twitter_handle": "dotbook_pf",
-      "reviewed_at": "2026-09-30T03:00:25.006Z"
-    },
-    {
-      "name": "TazerTools",
-      "ticker": "Tazer",
-      "mint": "5RV6r7PJCfSxRTHuecUQbTbsWuvuR6fFv2CqeEuBpump",
-      "quality_score": 6,
-      "mechanism_summary": "Multi-wallet token launch dashboard: routes SOL through named exchanges on staggered delays to fund wallets, then coordinates launch and trading from one screen.",
-      "uniqueness": "derivative",
-      "red_flags": [
-        "explicitly enables coordinated multi-wallet launches (bundle tooling)",
-        "exchange-routing obfuscates funding trail — potential wash/bundle abuse vector",
-        "token appears to be the utility/access token for the tool itself"
-      ],
-      "one_line_pitch": "Multi-wallet launch coordination tool that routes funding through exchanges on delays to disguise bundle origins.",
-      "website_url": "https://www.tazer.io",
-      "twitter_handle": "tazertools",
-      "reviewed_at": "2026-09-30T02:59:00.652Z"
     }
   ],
   "new_idea_suggestions": [
