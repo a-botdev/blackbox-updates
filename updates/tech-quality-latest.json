@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T19:28:05.060Z",
+  "generated_at": "2026-10-03T19:46:15.470Z",
   "note": "Quality-reviewed tech coins: passed a local coarse filter (qwen2.5:3b) then a real judgment pass (Haiku) confirming is_real_tech=true. new_idea_suggestions are Haiku-generated, informed by these patterns but NOT copies -- creative seeds for further review, not trading signals.",
   "quality_tech_coins": [
     {
@@ -1976,6 +1976,23 @@
       "reviewed_at": "2026-10-03T13:13:07.851Z"
     },
     {
+      "name": "Conviction",
+      "ticker": "CONV",
+      "mint": "6Hh3ozSZYnqHpTrnPPMWbesFCUkVTK8L6TFUs4p1pump",
+      "quality_score": 6,
+      "mechanism_summary": "Lock any SPL token with early-exit penalties; fees fund CONV buybacks and burn.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "Time-locks are common pattern (veCRV, etc.)",
+        "Penalty enforcement requires trusted keeper",
+        "Buyback/burn governance not clearly specified"
+      ],
+      "one_line_pitch": "Multi-token time-lock platform; penalties fund buyback and burn.",
+      "website_url": "http://conviction.locker",
+      "twitter_handle": "convictionlock",
+      "reviewed_at": "2026-10-03T19:46:10.707Z"
+    },
+    {
       "name": "CODINO",
       "ticker": "CODINO",
       "mint": "EH6mtrigZhwJL4v55a2VqFKpT5twRZHXVoD4fETCpump",
@@ -3319,24 +3336,6 @@
       "website_url": null,
       "twitter_handle": null,
       "reviewed_at": "2026-09-30T03:12:43.779Z"
-    },
-    {
-      "name": "Pons",
-      "ticker": "PONS",
-      "mint": "zeFGrhkNXbiiziaDs6smY8GQCR5iJRKZpT7gtf4pump",
-      "quality_score": 6,
-      "mechanism_summary": "Launchpad and trading platform for tokens on Robinhood's new blockchain.",
-      "uniqueness": "derivative",
-      "red_flags": [
-        "no confirmed working product",
-        "Robinhood Chain is nascent/unproven as a trading venue",
-        "at least 3 competing PONS tokens with same or similar description — unclear which is official",
-        "pump.fun minting suggests opportunistic narrative rather than real team launch"
-      ],
-      "one_line_pitch": "Claims to be the launchpad on Robinhood Chain; specific concept but 4 competing copycats undermine credibility.",
-      "website_url": null,
-      "twitter_handle": null,
-      "reviewed_at": "2026-09-30T03:08:23.993Z"
     }
   ],
   "new_idea_suggestions": [
