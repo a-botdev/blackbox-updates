@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T18:00:47.863Z",
+  "generated_at": "2026-10-03T18:13:35.938Z",
   "note": "Quality-reviewed tech coins: passed a local coarse filter (qwen2.5:3b) then a real judgment pass (Haiku) confirming is_real_tech=true. new_idea_suggestions are Haiku-generated, informed by these patterns but NOT copies -- creative seeds for further review, not trading signals.",
   "quality_tech_coins": [
     {
@@ -1904,6 +1904,36 @@
       "reviewed_at": "2026-10-03T13:13:07.851Z"
     },
     {
+      "name": "Social Cards",
+      "ticker": "PACK",
+      "mint": "kHdpWPAq9K9JMJUo4Hd4eNcG82FzqFaXY3HvkJZpump",
+      "quality_score": 6,
+      "mechanism_summary": "Fantasy sports game where players draft real Solana KOL cards and win on their trades.",
+      "uniqueness": "derivative",
+      "red_flags": [],
+      "one_line_pitch": "Fantasy sports game where you draft Solana KOLs and compete on their trades.",
+      "website_url": "https://cardspack.fun/",
+      "twitter_handle": "cardspackdotfun",
+      "reviewed_at": "2026-10-03T18:13:32.491Z"
+    },
+    {
+      "name": "Arenix",
+      "ticker": "ARX",
+      "mint": "3xas9JZy5GP16YSVbq79txxnxDFZznA3TCurrJmGpump",
+      "quality_score": 6,
+      "mechanism_summary": "Solana PvP arena game: play free, wager $ARX, earn SOL; ranked, spectatable",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "PvP play-to-earn model is common on Solana, not novel",
+        "no independent verification of gameplay or earning economics",
+        "Pump.fun launch adds regulatory/execution risk; track record unknown"
+      ],
+      "one_line_pitch": "Functional Solana PvP arena with $ARX betting; play-to-earn is competitive pattern",
+      "website_url": "https://playarenix.com/",
+      "twitter_handle": "playarenix",
+      "reviewed_at": "2026-10-03T18:12:30.410Z"
+    },
+    {
       "name": "Flowe",
       "ticker": "Flowe",
       "mint": "HZWKry5jRGVaSQYswhgVwN6VoqrQzdgoucvZcWRhpump",
@@ -3303,42 +3333,6 @@
       "website_url": "http://dotbook.fun/",
       "twitter_handle": "dotsbookfun",
       "reviewed_at": "2026-09-30T02:53:44.925Z"
-    },
-    {
-      "name": "Leafra",
-      "ticker": "LEAFRA",
-      "mint": "FYpvYi16R79ATKbQrTjWaKw4ftf3PN7UnZmKCq49pump",
-      "quality_score": 6,
-      "mechanism_summary": "OpenAI-compatible API proxy routing to multiple LLM models at below-source pricing with <10ms overhead and no platform fee.",
-      "uniqueness": "derivative",
-      "red_flags": [
-        "OpenRouter already owns this exact niche",
-        "Token utility not described anywhere on site — product is a pure SaaS, coin role unexplained",
-        "No tokenomics, governance, or fee-capture mechanism linking LEAFRA token to the API service",
-        "Real product may have launched coin purely as marketing/fundraising vehicle"
-      ],
-      "one_line_pitch": "LLM API aggregator offering below-source-rate pricing via OpenAI-compatible endpoint, token utility unexplained.",
-      "website_url": "https://leafra.st",
-      "twitter_handle": "leafradotst",
-      "reviewed_at": "2026-09-30T02:53:44.924Z"
-    },
-    {
-      "name": "CLUE",
-      "ticker": "CLUE",
-      "mint": "rjCEitLRyZmM32B3vvyArN1VYJpm2bu55jQF3b5pump",
-      "quality_score": 6,
-      "mechanism_summary": "RuneScape-inspired: hourly on-chain clue scroll puzzles where the first $CLUE holder to solve posts the answer on X and claims a SOL casket prize.",
-      "uniqueness": "novel",
-      "red_flags": [
-        "fan-made RuneScape derivative — potential brand/IP risk from Jagex",
-        "prize pool source and sustainability not explained",
-        "community-dependent mechanic fails at low holder count",
-        "no description in the coin listing itself"
-      ],
-      "one_line_pitch": "Hold $CLUE to enter hourly RuneScape-style puzzle races; first solver wins a SOL prize casket.",
-      "website_url": "https://runeclue.fun/",
-      "twitter_handle": "runeclues",
-      "reviewed_at": "2026-09-30T02:52:45.569Z"
     }
   ],
   "new_idea_suggestions": [
