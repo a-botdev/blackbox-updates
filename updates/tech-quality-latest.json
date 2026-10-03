@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T17:33:49.768Z",
+  "generated_at": "2026-10-03T17:45:33.928Z",
   "note": "Quality-reviewed tech coins: passed a local coarse filter (qwen2.5:3b) then a real judgment pass (Haiku) confirming is_real_tech=true. new_idea_suggestions are Haiku-generated, informed by these patterns but NOT copies -- creative seeds for further review, not trading signals.",
   "quality_tech_coins": [
     {
@@ -238,6 +238,41 @@
       "website_url": "http://dotnet.land",
       "twitter_handle": "dotnetfund",
       "reviewed_at": "2026-10-03T13:48:57.247Z"
+    },
+    {
+      "name": "dots.world",
+      "ticker": "home",
+      "mint": "DWW2fZ5cBYXJ5qnSf2n2W7GdN5jSuxZ2g6eMj964pump",
+      "quality_score": 7,
+      "mechanism_summary": "Live AI agent simulation: four named agents build a society; outputs published on-chain.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "token economics and holder participation mechanics not explained",
+        "Day 1 suggests early stage; sustainability and depth unclear",
+        "read-only pages only; no user interaction mechanic yet",
+        "could be a gimmick with shallow long-term gameplay"
+      ],
+      "one_line_pitch": "AI agent society simulation: Nimbus, Moss, Sol, Rosie build a world on-chain.",
+      "website_url": "https://dotshome.world/",
+      "twitter_handle": "dotssociety",
+      "reviewed_at": "2026-10-03T17:42:37.329Z"
+    },
+    {
+      "name": "Graduate",
+      "ticker": "GRAD",
+      "mint": "BhJabvpuimYJgqHA4RatLFCjwUrh3X1kEC4ueja47Gtn",
+      "quality_score": 7,
+      "mechanism_summary": "Users make signed, timestamped yes/no predictions on pump.fun coins; keep public receipts.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "token economics not explained; unclear why holders benefit",
+        "depends entirely on user adoption and network effects",
+        "contract/governance mechanics not documented"
+      ],
+      "one_line_pitch": "Memecoin call tracker: signed predictions with verifiable receipts; reputation system.",
+      "website_url": "https://graduate.fit/",
+      "twitter_handle": "graduatedotfun",
+      "reviewed_at": "2026-10-03T17:42:37.326Z"
     },
     {
       "name": "Ravenue",
@@ -3304,41 +3339,6 @@
       "website_url": "https://upthread.fun/",
       "twitter_handle": "karmaupthread",
       "reviewed_at": "2026-09-30T02:47:27.227Z"
-    },
-    {
-      "name": "Frosted",
-      "ticker": "FROSTED",
-      "mint": "D2GskdVinWui8UJQ5j7CBNZgNntRPZGAmyquLug3pump",
-      "quality_score": 6,
-      "mechanism_summary": "Solana privacy layer encrypting transfer amounts only; sender, receiver, timing, and proofs remain public.",
-      "uniqueness": "novel",
-      "red_flags": [
-        "CA not confirmed on site — site says 'announced at launch'",
-        "identical site used by a second coin (F9YbY...) — one is an impostor",
-        "no live product, no docs content visible",
-        "amount-only privacy is a specific design choice with ZK implementation complexity not demonstrated"
-      ],
-      "one_line_pitch": "Solana confidential-transfer protocol encrypting amounts only, keeping accounts and proofs public.",
-      "website_url": "https://usefrosted.com/",
-      "twitter_handle": "usefrosted",
-      "reviewed_at": "2026-09-30T02:46:44.333Z"
-    },
-    {
-      "name": "Credited",
-      "ticker": "Credit",
-      "mint": "2inoWWNryXLNPtaxMf9HWZrdSersCVt3HbEbM4Ptpump",
-      "quality_score": 6,
-      "mechanism_summary": "Launchpad where every coin's creator fees distribute to $CREDIT holders, claimable via a spending card.",
-      "uniqueness": "derivative",
-      "red_flags": [
-        "no live coins or payouts yet — counters are all blank",
-        "card integration unproven and high-execution-risk",
-        "fee-redistribution core is a well-worn pattern"
-      ],
-      "one_line_pitch": "Fee-sharing token launchpad where holder rewards are claimable on a real spending card.",
-      "website_url": "https://credited.live/",
-      "twitter_handle": "creditedcard",
-      "reviewed_at": "2026-09-30T02:46:44.331Z"
     }
   ],
   "new_idea_suggestions": [
