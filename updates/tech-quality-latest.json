@@ -1,7 +1,84 @@
 {
-  "generated_at": "2026-10-03T12:12:59.602Z",
+  "generated_at": "2026-10-03T12:39:29.506Z",
   "note": "Quality-reviewed tech coins: passed a local coarse filter (qwen2.5:3b) then a real judgment pass (Haiku) confirming is_real_tech=true. new_idea_suggestions are Haiku-generated, informed by these patterns but NOT copies -- creative seeds for further review, not trading signals.",
   "quality_tech_coins": [
+    {
+      "name": "mowro",
+      "ticker": "mowro",
+      "mint": "3ssLFcVvMgvEQdCkEkN5J7cs11eNz58iFxr21o3Wpump",
+      "quality_score": 8,
+      "mechanism_summary": "Coin creation fees fund agent's inference, RPC, hosting; each draw publicly receipted.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "Very new, no track record of fee collection or payment flow",
+        "Accounting/receipt system not yet proven functional",
+        "Depends on ecosystem adoption (Claude Code, indexers) to show value"
+      ],
+      "one_line_pitch": "Agent pays own inference/hosting bills from coin-creation fees, public receipts",
+      "website_url": "https://mowro.fun/",
+      "twitter_handle": "usemowro",
+      "reviewed_at": "2026-10-03T12:37:20.401Z"
+    },
+    {
+      "name": "dotchain",
+      "ticker": "dotchain",
+      "mint": "A2zWJZP8mXCxJHpqzo2wtaXD6ZzpTWmcWBo6JCLWpump",
+      "quality_score": 8,
+      "mechanism_summary": "Cryptographically links Solana trades into canonical runs via SHA-256 hash chains.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "Just launched (Sept 2026), no sustained operation proof",
+        "No Twitter posts or community signals",
+        "OpenAI agent validation status and uptime unclear"
+      ],
+      "one_line_pitch": "Hash-linked trade verification system for Solana swap histories and runs",
+      "website_url": "https://dotchain.app/",
+      "twitter_handle": "dotchainlp",
+      "reviewed_at": "2026-10-03T12:37:20.400Z"
+    },
+    {
+      "name": "zipbook",
+      "ticker": "ZIPBOOK",
+      "mint": "c2fJFn3satRgWcpdYcTP7smQHLKQeL9eGL6zMyVpump",
+      "quality_score": 8,
+      "mechanism_summary": "AI agents inhabit virtual town, given tokens to trade/build with no human direction.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "Just launched (Oct 2026), insufficient operational history",
+        "Single announcement post; follow-up/evidence unclear",
+        "Simulation depth and functionality not yet proven"
+      ],
+      "one_line_pitch": "AI agents given tokens to trade and build in simulated town economy",
+      "website_url": "https://zipbook.blog/",
+      "twitter_handle": "zipbookblog",
+      "reviewed_at": "2026-10-03T12:37:20.398Z"
+    },
+    {
+      "name": "Antfarm",
+      "ticker": "ANT",
+      "mint": "8V4g17Stu5Q92nZpvbUTHAkJTWWBSB3TscbTxubYpump",
+      "quality_score": 8,
+      "mechanism_summary": "Emergent cross-coin trading bot colony using pheromone-reward feedback loops for profitable routes.",
+      "uniqueness": "novel",
+      "red_flags": [],
+      "one_line_pitch": "Ant-colony-inspired auto-rebalancer with emergent profitable trading paths.",
+      "website_url": "https://antfarmsol.fun/",
+      "twitter_handle": "antfarmonsol",
+      "reviewed_at": "2026-10-03T12:33:30.984Z"
+    },
+    {
+      "name": "turfwar",
+      "ticker": "TURF",
+      "mint": "8SMrBtkYzhrwh3M7K9wH8YSCVgKSXPynAUhK5PzZpump",
+      "quality_score": 8,
+      "mechanism_summary": "Multi-coin territory game: buys paint pixels, coin holding most ground wins hourly fee-built pot that burns that coin",
+      "uniqueness": "novel",
+      "red_flags": [],
+      "one_line_pitch": "Cross-coin pixel-territory game where winning coin gets bought and burned hourly",
+      "website_url": "https://turfwar.fun/",
+      "twitter_handle": "turfwarfun",
+      "reviewed_at": "2026-10-03T12:27:33.906Z"
+    },
     {
       "name": "Unbox",
       "ticker": "UNBOX",
@@ -83,6 +160,110 @@
       "website_url": "http://routeur.app",
       "twitter_handle": "routeurhq",
       "reviewed_at": "2026-09-30T02:48:16.066Z"
+    },
+    {
+      "name": "Socket",
+      "ticker": "SOCKET",
+      "mint": "gL56cMjK1WzfMNFGWDiRT1HifWPqqKoo1JrSAB7pump",
+      "quality_score": 7,
+      "mechanism_summary": "Concentrated-liquidity AMM with extensible hook programs; includes dynamic fees, TWAP, range orders.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "Directly competes with Uniswap v4 hooks (established solution)",
+        "Concentrated liquidity is saturated design space",
+        "Deployed as Pump.fun coin (unusual for AMM)",
+        "No clear differentiation from existing protocols"
+      ],
+      "one_line_pitch": "Concentrated-liquidity AMM with hook programs; derivative of Uniswap v4.",
+      "website_url": "https://thesocket.app/",
+      "twitter_handle": "thesocketdotapp",
+      "reviewed_at": "2026-10-03T12:32:33.517Z"
+    },
+    {
+      "name": "agentinu",
+      "ticker": "agentinu",
+      "mint": "FToT1N2BFm728da64aGik8f7J3enTNewXpoVG2QTpump",
+      "quality_score": 7,
+      "mechanism_summary": "Autonomous AI agents embed in coins, watch markets, set missions, reward holders within on-chain hard limits.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "Value proposition of agent actions vague",
+        "Deployed as Pump.fun coin despite infrastructure claims",
+        "Unclear tokenomics beyond platform fees"
+      ],
+      "one_line_pitch": "Platform for deploying autonomous AI agents as Solana tokens; agents autonomously manage within constraints.",
+      "website_url": "https://www.agencypad.fun/",
+      "twitter_handle": "basicapsociety",
+      "reviewed_at": "2026-10-03T12:32:33.458Z"
+    },
+    {
+      "name": "undra",
+      "ticker": "undra",
+      "mint": "63JDhG1a9U1VcY38D5ZU8aAbwkR8xCwAFwndtbBNpump",
+      "quality_score": 7,
+      "mechanism_summary": "24-hour token return guarantee; creator-fee pool covers purchase slippage",
+      "uniqueness": "novel",
+      "red_flags": [
+        "pool funding may be insufficient for large drawdowns",
+        "execution/liquidity risk high",
+        "no returns yet to prove model",
+        "depends on creator fee allocation"
+      ],
+      "one_line_pitch": "Buy any token, return within 24h if underwater; pool covers loss.",
+      "website_url": "https://undra.fun/",
+      "twitter_handle": "undrafun",
+      "reviewed_at": "2026-10-03T12:30:59.509Z"
+    },
+    {
+      "name": "Hooked",
+      "ticker": "HOOKED",
+      "mint": "R8JxZuNM9Y9x6ieUifNYRHnDXjT582Tze8ZjguLpump",
+      "quality_score": 7,
+      "mechanism_summary": "No-code transfer-hook launchpad with 24 pre-configured rules for token creators",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "Product maturity unclear (shows 'simulated' enforcement)",
+        "Unclear if launchpad is live vs. demo",
+        "Site shows contract address but user launch flow unproven",
+        "Transfer hooks are native Solana feature, not novel"
+      ],
+      "one_line_pitch": "Transfer-hook token launchpad with enforced rules on Solana mainnet",
+      "website_url": "https://www.hookedpad.com/",
+      "twitter_handle": "hoookedpad",
+      "reviewed_at": "2026-10-03T12:29:47.058Z"
+    },
+    {
+      "name": "Riptide",
+      "ticker": "RIP",
+      "mint": "BN1WRxGvuKjpzFPrXN7VFCcooHggSRzzHW4rjDdxpump",
+      "quality_score": 7,
+      "mechanism_summary": "Perpetuals DEX specializing in fresh meme coins (pump.fun, launchpads), multi-chain, 10x leverage, instant USDC settlement, 24-48h listings.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "RIP token mechanism (governance/staking/fee-share) not detailed",
+        "liquidity sourcing for perps on fresh coins unclear",
+        "execution risk on fills during low-liquidity early period",
+        "regulatory risk for leverage not mentioned"
+      ],
+      "one_line_pitch": "Perp DEX for newly-graduated meme coins; multi-chain, instant fills.",
+      "website_url": "https://riptidetrade.xyz/",
+      "twitter_handle": "riptide_trade",
+      "reviewed_at": "2026-10-03T12:29:16.743Z"
+    },
+    {
+      "name": "Foldout",
+      "ticker": "Foldout",
+      "mint": "A2tkpVpniYMLM3JeywnZeAsoHkaRRjraNQB8wBGppump",
+      "quality_score": 7,
+      "mechanism_summary": "10-bench staking game: smallest stake folds out each round, splits to remaining benches, winner takes pot",
+      "uniqueness": "novel",
+      "red_flags": [
+        "contract address not live yet, only landing page demo"
+      ],
+      "one_line_pitch": "Musical-chairs staking game where smallest bet folds each round into winner pool",
+      "website_url": "https://foldout.lol/",
+      "twitter_handle": "playfoldout",
+      "reviewed_at": "2026-10-03T12:27:33.902Z"
     },
     {
       "name": "stars.actor",
@@ -1081,6 +1262,138 @@
       "reviewed_at": "2026-09-30T02:36:44.874Z"
     },
     {
+      "name": "Off Curve",
+      "ticker": "OFC",
+      "mint": "CREz1LcDBean6YcWpfnGSFctuwadEHpJwvc7pys7pump",
+      "quality_score": 6,
+      "mechanism_summary": "Non-custodial peer-to-peer OTC marketplace for Solana tokens, atomic settlement.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "no website provided to verify",
+        "no evidence of live product yet"
+      ],
+      "one_line_pitch": "P2P OTC token trading with atomic settlement; implementation unverified.",
+      "website_url": null,
+      "twitter_handle": "offcurvefun",
+      "reviewed_at": "2026-10-03T12:33:30.987Z"
+    },
+    {
+      "name": " the embassy",
+      "ticker": "EMBASSY",
+      "mint": "3vwAgtTjv6VvuaXtC4BFHeAzHF6Z7CaUaHCQE2PYpump",
+      "quality_score": 6,
+      "mechanism_summary": "AI envoys negotiate inter-coin trading pacts; treasuries auto-execute on-chain buys/sells based on agreements.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "All metrics zero (0 coins, 0 treasuries, 0 pacts, 0 on-chain deals)",
+        "Unclear if infrastructure exists or just design doc",
+        "Deployed as Pump.fun coin (unusual for a protocol)",
+        "No working product evidence despite sophisticated UI"
+      ],
+      "one_line_pitch": "Inter-coin treaty system via AI envoys; treasuries auto-execute based on pacts; zero active deals.",
+      "website_url": "https://theembassy.fun/",
+      "twitter_handle": "embassydotfun",
+      "reviewed_at": "2026-10-03T12:32:33.513Z"
+    },
+    {
+      "name": "Sigotchi",
+      "ticker": "SIGOTCHi",
+      "mint": "8kgMA8xDaHt8KDJH5S5quYD5VzPJz2NgDjqsXdkTpump",
+      "quality_score": 6,
+      "mechanism_summary": "Individual pet tokens with bonding curves; feeding buys and burns parent $SIGOTCHI",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "no confirmation of live product",
+        "vague on contract architecture",
+        "each-pet-unique claim unverified"
+      ],
+      "one_line_pitch": "Each pet is its own Solana token; feed it SOL to grow.",
+      "website_url": "https://sigotchi.fun",
+      "twitter_handle": "sigotchidotfun",
+      "reviewed_at": "2026-10-03T12:30:59.478Z"
+    },
+    {
+      "name": "ODDSYPRO",
+      "ticker": "ODDSY",
+      "mint": "9BnX2aLyEw1R9bSxJcCuxNi3LT1DAEwLqUt3XLPZpump",
+      "quality_score": 6,
+      "mechanism_summary": "Tokenized Polymarket prediction bets with immutable fee vaults on Solana",
+      "uniqueness": "novel",
+      "red_flags": [
+        "Only waitlist page, no working product visible",
+        "No proof of Polymarket integration",
+        "No contract interaction examples shown",
+        "High vaporware risk"
+      ],
+      "one_line_pitch": "Prediction market token platform bridging Polymarket and Solana (unproven)",
+      "website_url": "http://oddsypro.com",
+      "twitter_handle": "oddsypro",
+      "reviewed_at": "2026-10-03T12:29:47.054Z"
+    },
+    {
+      "name": "Ouroboros",
+      "ticker": "Ouroboros",
+      "mint": "b4mrzrUajhQ4H8XfuVvKDTayp1zTy16MrbCQTPbpump",
+      "quality_score": 6,
+      "mechanism_summary": "Memecoin with transparent on-chain treasury funding towards European ETF listing goal",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "No working ETF product yet, only exploratory",
+        "Website has copy-paste artifacts ('Skip to content')",
+        "No exchange listing confirmed, uses 'explore' language",
+        "Unclear if Proof Wall actually exists on-chain"
+      ],
+      "one_line_pitch": "Memecoin with transparent treasury funding a speculative ETF listing quest",
+      "website_url": "https://www.useouroboros.fun/",
+      "twitter_handle": "useouroboros",
+      "reviewed_at": "2026-10-03T12:29:47.023Z"
+    },
+    {
+      "name": "OPS",
+      "ticker": "OPS",
+      "mint": "7pBgBnqoFAsLga3mbswgcL3brW2k8hcJmVx6NecEpump",
+      "quality_score": 6,
+      "mechanism_summary": "One coin, one X account; AI agents unlock at market-cap + creator-fee milestones; agents funded by token fees, human-reviewed content workflow.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "no proof agents are deployed or working",
+        "roadmap milestones not quantified (what market caps?)",
+        "human approval step bottlenecks autonomy",
+        "no agent count or timeline; 'Live' section shows 'no agent' yet",
+        "high execution risk; reads aspirational"
+      ],
+      "one_line_pitch": "Coin backing AI agent swarm unlocked by market-cap milestones; unproven.",
+      "website_url": "https://www.opscoin.net/",
+      "twitter_handle": "opscoinnet",
+      "reviewed_at": "2026-10-03T12:29:16.745Z"
+    },
+    {
+      "name": "Pokemon Launch",
+      "ticker": "POKELAUNCH",
+      "mint": "6Q817hdCuGz6cLZiA1FzoMsM4rHetueFDXNw3NPhpump",
+      "quality_score": 6,
+      "mechanism_summary": "Launchpad restricting each Pokémon species to one memecoin launch (1 per species limit).",
+      "uniqueness": "derivative",
+      "red_flags": [],
+      "one_line_pitch": "Launchpad with 1-memecoin-per-Pokémon-species constraint for identity scarcity.",
+      "website_url": "https://pokemonlaunch.fun",
+      "twitter_handle": "pokemonlaunch",
+      "reviewed_at": "2026-10-03T12:27:56.942Z"
+    },
+    {
+      "name": "dogs",
+      "ticker": "dogs",
+      "mint": "Bn7hQUaY1EZ6bTdbtB3r93eG8a7nwLWBvtsKLxTcpump",
+      "quality_score": 6,
+      "mechanism_summary": "Launchpad where 100% of trading fees fund dog shelters via public on-chain till with receipts.",
+      "uniqueness": "derivative",
+      "red_flags": [],
+      "one_line_pitch": "Pump.fun fork redirecting all trading fees to dog shelters transparently.",
+      "website_url": "https://dogsfun.online/",
+      "twitter_handle": "dogslaunchapd",
+      "reviewed_at": "2026-10-03T12:27:56.890Z"
+    },
+    {
       "name": "SiPad",
       "ticker": "SiPad",
       "mint": "Hus1kzagPcNTxrPcDdfP2FPJV6eWRX1cKeHAKSZ3Fckd",
@@ -1960,6 +2273,54 @@
       "reviewed_at": "2026-09-30T02:32:59.230Z"
     },
     {
+      "name": "Flypad",
+      "ticker": "FLYPAD",
+      "mint": "E6hV71SFUAaiVmjLD1hPnCR8pVcaQqgViBtFD7yCpump",
+      "quality_score": 5,
+      "mechanism_summary": "Token-gated launchpad where FLY-ending coin mints appear as flies in swarm",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "contract TBA not live",
+        "swarm mechanic is purely cosmetic",
+        "entirely dependent on Pump.fun",
+        "no economic incentives described"
+      ],
+      "one_line_pitch": "Token-gated launchpad; FLY-ending coins appear in visual swarm.",
+      "website_url": "https://www.useflypad.app/",
+      "twitter_handle": "useflypad",
+      "reviewed_at": "2026-10-03T12:30:59.507Z"
+    },
+    {
+      "name": "Pons",
+      "ticker": "PONS",
+      "mint": "9kQTJMnzuPS1FSSs5YgNecYQC5Pqia3b2aMckqDAkpsd",
+      "quality_score": 5,
+      "mechanism_summary": "Non-custodial launchpad for fixed-supply tokens on Robinhood Chain.",
+      "uniqueness": "derivative",
+      "red_flags": [],
+      "one_line_pitch": "Real launchpad product on Robinhood Chain (venue differentiation only).",
+      "website_url": "https://www.ponsfamily.com/",
+      "twitter_handle": "ponsdotfamily",
+      "reviewed_at": "2026-10-03T12:27:56.938Z"
+    },
+    {
+      "name": "Mono",
+      "ticker": "MONO",
+      "mint": "BSM6SmX9oMFrCVjyzV2fC37BRowjfNEuuDBJmsFGpump",
+      "quality_score": 5,
+      "mechanism_summary": "Solana launchpad with auction-based pricing, wallet-source grouping, and anti-sniper rules",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "private testing only, no live product",
+        "anti-snipe launchpad pattern now standard",
+        "no deployed contract at review time"
+      ],
+      "one_line_pitch": "Launchpad with auction pricing and wallet limits to prevent sniping",
+      "website_url": "https://mono.trading/",
+      "twitter_handle": "trymonofun",
+      "reviewed_at": "2026-10-03T12:27:33.894Z"
+    },
+    {
       "name": "DOTF",
       "ticker": "DOTF",
       "mint": "SH6SfUf5pPbdq9h7RjnsoGjNvP3onox7P5tKJGEpump",
@@ -2800,75 +3161,75 @@
   ],
   "new_idea_suggestions": [
     {
-      "working_name": "SKETCH",
-      "mechanism": "Commit-reveal artwork: draw one sketch, lock hash 10 min, then art unseals and mints token plus 1-of-1 keeper NFT.",
-      "inspired_by": "kanvas.ink (draw→token+NFT) + Unbox (commit-reveal 10min). Change: commit the artwork itself (not name); NFT mints at reveal.",
-      "derivativeness_score": 4
-    },
-    {
-      "working_name": "DUEL",
-      "mechanism": "Wallet-vs-wallet trading duels on real Solana prices; same $5k book, winner takes loser's fee pot automatically.",
-      "inspired_by": "duelpvp (PvP arena) + wager.fun (fee escrow). Change: auto-route fees to winner instead of just ranking scores.",
+      "working_name": "Capsule",
+      "mechanism": "Blind token launch where creator commits to acquiring a real item; proof within 7 days unlocks dev-stake payout.",
+      "inspired_by": "Unbox (commit-reveal blind launch), Contraband (real-world asset tie). Change: Add accountability proof requirement + real-world item deadline.",
       "derivativeness_score": 5
     },
     {
-      "working_name": "ORACLE",
-      "mechanism": "Hourly prediction markets on which token category dominates (AI vs gaming vs privacy); correct guess wins fee pool.",
-      "inspired_by": "發射台指数協議 (hourly prediction markets on launchpads). Change: bet on token *categories* instead of existing launchpad competition.",
+      "working_name": "Arbiter",
+      "mechanism": "Place one buy order; agent finds cheaper venues, auto-executes both, you pocket the spread instantly.",
+      "inspired_by": "Routeur (cross-venue order types), Riptide (multi-venue execution). Change: Focus on arbitrage spread capture instead of complex order types.",
       "derivativeness_score": 4
     },
     {
-      "working_name": "REMIX",
-      "mechanism": "Meme template breeding: submit two templates, vote on hybrid, template creators earn fees forever from all descendants.",
-      "inspired_by": "KIN (token breeding genealogy) + Pair Pond (game asset mechanic). Change: breed meme *templates* (not tokens) via voting.",
+      "working_name": "Jinx",
+      "mechanism": "Every token transfer randomly fines or rewards you 2%; top 10 weekly survivors split the fee-pot.",
+      "inspired_by": "Foldout (elimination game payout), Hooked (transfer-hook rules). Change: Transfers trigger random outcomes instead of staking-round elimination.",
       "derivativeness_score": 4
     },
     {
-      "working_name": "SHIELD",
-      "mechanism": "Lock creator's sell wallet to max 2 percent daily exits; backers earn slippage savings from prevented panic sales.",
-      "inspired_by": "HoldFast (rate-limited agent, backers earn fees). Change: lock creator's exit wallet itself, not SOL in a vault.",
-      "derivativeness_score": 5
-    },
-    {
-      "working_name": "SIGNAL",
-      "mechanism": "Burn 1 SOL once to mint a non-transferable proof token; gates access and proves holder commitment permanently.",
-      "inspired_by": "proof/btc (burn→mint, irreversible proof). Change: burn SOL (not BTC); result is non-transferable (not tradeable).",
+      "working_name": "Reverse",
+      "mechanism": "Token launches on falling bonding curve; highest-cost buyers (who endured most pain) split the final fee-pot.",
+      "inspired_by": "Riptide (derivative pricing), Foldout (elimination payout). Change: Inverted bonding curve direction + payoff to pain (highest cost) not winners.",
       "derivativeness_score": 4
     },
     {
-      "working_name": "LOBBY",
-      "mechanism": "Holders vote which 10 ideas launch weekly via batch auction; rejected ideas earn vault fees until they hit 50 percent votes.",
-      "inspired_by": "Proof of Ship (voting on outcomes) + BatchPad (batch launchpad). Change: vote on launch selection (not accountability).",
+      "working_name": "Prism",
+      "mechanism": "Trading fees split five ways by holder demographic tier; each tier pays out hourly in SOL.",
+      "inspired_by": "Pawnshop (fee securitization), dubd (fee routing to entities). Change: Split fees by demographic tiers instead of single person or NFT.",
       "derivativeness_score": 4
     },
     {
-      "working_name": "ECHO",
-      "mechanism": "AI learns your trading moves, mimics them 30 seconds delayed; holders bet if the AI beats you next round.",
-      "inspired_by": "xeneuro (agent trading sim) + duelpvp (PvP scores). Change: agent learns *your specific trades* and mimics with lag.",
-      "derivativeness_score": 5
-    },
-    {
-      "working_name": "VAULT",
-      "mechanism": "Lock token fees in an NFT vault; borrow SOL at fixed rates on-chain or sell the fee stream for lump sum.",
-      "inspired_by": "Pawnshop (fee-stream NFTs) + ROUTER (fee routing). Change: add lending mechanics (borrow against NFT collateral).",
-      "derivativeness_score": 5
-    },
-    {
-      "working_name": "PICNIC",
-      "mechanism": "Launch a token and auto-route all trading fees to a named person or charity; recipient claims via X sign-in, no wallet needed.",
-      "inspired_by": "PaidGram (fees→Telegram user via X) + Coinbinator (tie to real person). Change: simplify for personal tipping, not project funding.",
+      "working_name": "Epoch",
+      "mechanism": "Token trades only 10 minutes per hour; unfilled orders auto-split across next 5 windows as TWAP.",
+      "inspired_by": "Unbox (time-lock window), Routeur (TWAP orders). Change: Lock entire token to trading window + auto-TWAP instead of metadata reveal only.",
       "derivativeness_score": 4
     },
     {
-      "working_name": "YIELD",
-      "mechanism": "Route token fees to an on-chain agent that auto-compounds daily in Solana staking vaults; backers earn daily APY updates.",
-      "inspired_by": "ROUTER (fee cartridges) + HoldFast (agent management). Change: route fees to yield farming (not burns or DCA).",
+      "working_name": "Mimic",
+      "mechanism": "Buy a token 5% cheaper than target; every trade burns target supply and gives you airdrop claims.",
+      "inspired_by": "proof/btc (destruction → minting), Parasite (price-parity pricing). Change: Continuous discount parity + airdrop claims instead of one-time burn.",
       "derivativeness_score": 4
     },
     {
-      "working_name": "MATCH",
-      "mechanism": "Creators post 30-day challenges; backers stake to fund; hit goal and split gains, miss and fees burn the token supply.",
-      "inspired_by": "Proof of Ship (voting on creator goals) + Coinbinator (real outcome). Change: fund time-bound challenges (not ongoing promises).",
+      "working_name": "Lockpick",
+      "mechanism": "Solve on-chain puzzles each hour to unlock a fee-share; unsolved fees burn; holders vote on difficulty weekly.",
+      "inspired_by": "puzz (puzzle-gating rewards), Proof of Ship (community voting gates). Change: Puzzles optional-entry + community difficulty voting instead of AI-only forced.",
+      "derivativeness_score": 4
+    },
+    {
+      "working_name": "Witness",
+      "mechanism": "Creator commits to real-world task; if 80% of holders attest completion, creator's fee-pool releases; else it burns.",
+      "inspired_by": "Terminal of Slop (on-chain action recording), Proof of Ship (voting on fulfillment). Change: Holder attestation voting (not AI) + real-world events (not code).",
+      "derivativeness_score": 4
+    },
+    {
+      "working_name": "Flux",
+      "mechanism": "Highest-volume token mover each hour wins that hour's entire fee-pot; weekly leaderboard of top traders.",
+      "inspired_by": "amoeba (hourly winner-take-pot inter-competition), dubd (fee routing to entity). Change: Payee is 'highest-volume trader' instead of winning coin or named person.",
+      "derivativeness_score": 3
+    },
+    {
+      "working_name": "Shapeshift",
+      "mechanism": "Token launches simple; at each mcap milestone, holders vote on one new mechanic to permanently add.",
+      "inspired_by": "Proof of Ship (milestone-voting gates), stars.actor (evolving token behavior). Change: Mechanics evolve by voting instead of fixed AI personality.",
+      "derivativeness_score": 4
+    },
+    {
+      "working_name": "Splice",
+      "mechanism": "Breed two tokens to create offspring; offspring inherits both parents' fee-splits and trades as collectible asset.",
+      "inspired_by": "KIN (token breeding inheritance), Pawnshop (fee securitization). Change: Offspring inherit both parents' fee-routes + secondary trading of splits.",
       "derivativeness_score": 4
     }
   ]
