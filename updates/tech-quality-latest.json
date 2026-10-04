@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T04:43:34.407Z",
+  "generated_at": "2026-10-04T08:15:15.309Z",
   "note": "Quality-reviewed tech coins: passed a local coarse filter (qwen2.5:3b) then a real judgment pass (Haiku) confirming is_real_tech=true. new_idea_suggestions are Haiku-generated, informed by these patterns but NOT copies -- creative seeds for further review, not trading signals.",
   "quality_tech_coins": [
     {
@@ -305,6 +305,24 @@
       "website_url": "http://dotnet.land",
       "twitter_handle": "dotnetfund",
       "reviewed_at": "2026-10-03T13:48:57.247Z"
+    },
+    {
+      "name": "p0nd",
+      "ticker": "p0",
+      "mint": "4v5B7MtaHrAxrzb3z1kAcuc5gjJp2NwLXmMhNzhnwPLN",
+      "quality_score": 7,
+      "mechanism_summary": "Launch tokens against existing pond-token pools instead of SOL; build nested token economies within token economies.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "very early stage (0 creatures/ponds populated)",
+        "ecosystem untested at scale",
+        "token-on-token liquidity dynamics unproven",
+        "possibly limited-access beta"
+      ],
+      "one_line_pitch": "Novel launchpad: launch tokens against token pools, not SOL; sub-economies.",
+      "website_url": "https://p0nd.life/",
+      "twitter_handle": "p0ndlife_",
+      "reviewed_at": "2026-10-04T08:12:48.696Z"
     },
     {
       "name": "BailPad",
@@ -2424,6 +2442,58 @@
       "reviewed_at": "2026-10-03T13:13:07.851Z"
     },
     {
+      "name": "sidequest",
+      "ticker": "QUEST",
+      "mint": "Dhc2ymaZCJipYLuUHKSAAJsaLJUdxt5Bho5N1rNFpump",
+      "quality_score": 6,
+      "mechanism_summary": "TikTok creator bounty platform; post video, get human-verified, earn token rewards.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "no smart contract details published",
+        "unclear token economics (supply, distribution)",
+        "centralized human verification",
+        "third-party TikTok API dependency"
+      ],
+      "one_line_pitch": "TikTok bounties verified by humans, paid in token",
+      "website_url": "https://sidequest.finance/",
+      "twitter_handle": "playify",
+      "reviewed_at": "2026-10-04T08:15:12.517Z"
+    },
+    {
+      "name": "InuPad",
+      "ticker": "INUPAD",
+      "mint": "6U5rMT7HRZqfHYLSSEcWavrVbg615S8VE468s58Bpump",
+      "quality_score": 6,
+      "mechanism_summary": "Inu-coin launchpad (on Pump.fun) with 40% holder buyback, 50% dog charity, 10% INUPAD burn.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "depends entirely on Pump.fun, not standalone protocol",
+        "charity split (50%) is execution risk — no charity vetting spec",
+        "launchpad model is well-established, charity angle is the only variation"
+      ],
+      "one_line_pitch": "Inu-coin launchpad with fee-split to holders, dog charities, and token burns.",
+      "website_url": "https://theinupad.fun/",
+      "twitter_handle": "theinupad",
+      "reviewed_at": "2026-10-04T08:13:58.485Z"
+    },
+    {
+      "name": "Bundles",
+      "ticker": "Bundles",
+      "mint": "5TaQMpi6yhiCTqk5o6ZwnYbjfESGeroZtHUL2WRWpump",
+      "quality_score": 6,
+      "mechanism_summary": "Creator fees auto-buy tokenized stocks on rotating 15-min schedule, distribute to holders.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "no regulatory clarity on stock tokenization",
+        "centralized asset rotation control",
+        "undefined source/custody of tokenized stocks"
+      ],
+      "one_line_pitch": "Pump.fun coin auto-rotates creator fees across 27 tokenized real stocks.",
+      "website_url": "https://usebundles.fun/",
+      "twitter_handle": "usebundles",
+      "reviewed_at": "2026-10-04T08:13:36.150Z"
+    },
+    {
       "name": ".si",
       "ticker": ".si",
       "mint": "5vN5LR1zDohpcek9wXfm188ZbN8957sKw8YNtarfpump",
@@ -3208,75 +3278,6 @@
       "website_url": "https://playarenix.com/",
       "twitter_handle": "playarenix",
       "reviewed_at": "2026-10-03T18:12:30.410Z"
-    },
-    {
-      "name": "Flowe",
-      "ticker": "Flowe",
-      "mint": "HZWKry5jRGVaSQYswhgVwN6VoqrQzdgoucvZcWRhpump",
-      "quality_score": 6,
-      "mechanism_summary": "Staking tokenized stocks to earn USDC dividend payments at market close.",
-      "uniqueness": "novel",
-      "red_flags": [
-        "No website provided — product infrastructure not visible",
-        "Account created October 2026 — very recent, unproven",
-        "Feasibility depends on USDC funding source and execution clarity"
-      ],
-      "one_line_pitch": "Adds dividend yield to tokenized stocks; real gap, fresh angle, unproven execution.",
-      "website_url": null,
-      "twitter_handle": "flowefi",
-      "reviewed_at": "2026-10-03T17:57:44.930Z"
-    },
-    {
-      "name": "Zeroshade",
-      "ticker": "Zeroshade",
-      "mint": "5d2EnuV5tNXg9xSN6rZ5Gw1ZDZUoco75cNK5qbLwpump",
-      "quality_score": 6,
-      "mechanism_summary": "Privacy autopilot for Solana stablecoin payments; shields balances, hides transaction details.",
-      "uniqueness": "novel",
-      "red_flags": [
-        "Website is simulation-only demo, no live product confirmed",
-        "Account created September 2026 — extremely recent, unproven"
-      ],
-      "one_line_pitch": "Privacy layer for Solana stablecoins; real gap, credible execution, but unproven.",
-      "website_url": "https://zeroshade.org/",
-      "twitter_handle": "usezeroshade",
-      "reviewed_at": "2026-10-03T17:57:44.921Z"
-    },
-    {
-      "name": "Graduate",
-      "ticker": "Graduate",
-      "mint": "3gQfZJ5RxAfYMdrH5XkWDGRs8jpGSdAD2LbNwbskpump",
-      "quality_score": 6,
-      "mechanism_summary": "Signed on-chain prediction calls on Pump.fun coins with 1-hour windows; public receipt tracking.",
-      "uniqueness": "derivative",
-      "red_flags": [
-        "Prediction markets are saturated space",
-        "No clear fee model or revenue mechanism shown",
-        "No evidence of working product yet (landing page stage)",
-        "Wallet signature mechanism for calls shown but no contract address confirmation"
-      ],
-      "one_line_pitch": "Pump.fun prediction call platform with signed receipts and leaderboard tracking.",
-      "website_url": "https://graduate.fit/",
-      "twitter_handle": "graduatedotfun",
-      "reviewed_at": "2026-10-03T17:57:29.031Z"
-    },
-    {
-      "name": "Tavus",
-      "ticker": "Tavus",
-      "mint": "4nM6YUegyoa1nzDfV82tvKZJsDLsu6rSoPJgWJBWpump",
-      "quality_score": 6,
-      "mechanism_summary": "AI video generation model claiming to pass video Turing test; NVIDIA benchmark top-ranked.",
-      "uniqueness": "derivative",
-      "red_flags": [
-        "Coin purpose relative to Tavus product unclear",
-        "Description appears directly lifted from Tavus marketing without coin-specific integration",
-        "Potential brand hijack or unauthorized coin",
-        "No clarification of token utility or product integration"
-      ],
-      "one_line_pitch": "Tavus AI video Turing test product tokenized; integration mechanism unclear.",
-      "website_url": null,
-      "twitter_handle": "tavus",
-      "reviewed_at": "2026-10-03T17:57:29.028Z"
     }
   ],
   "new_idea_suggestions": [
