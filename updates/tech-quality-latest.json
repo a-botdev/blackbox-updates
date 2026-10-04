@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T16:44:34.479Z",
+  "generated_at": "2026-10-04T17:01:30.321Z",
   "note": "Quality-reviewed tech coins: passed a local coarse filter (qwen2.5:3b) then a real judgment pass (Haiku) confirming is_real_tech=true. new_idea_suggestions are Haiku-generated, informed by these patterns but NOT copies -- creative seeds for further review, not trading signals.",
   "quality_tech_coins": [
     {
@@ -366,6 +366,32 @@
       "website_url": "http://dotnet.land",
       "twitter_handle": "dotnetfund",
       "reviewed_at": "2026-10-03T13:48:57.247Z"
+    },
+    {
+      "name": "Super Intelligence Wallet",
+      "ticker": "SIWALLET",
+      "mint": "FMJTzqUoB28G78nrLTSDmuCbPmd47UqEGtXgg3jhpump",
+      "quality_score": 7,
+      "mechanism_summary": "Private AI wallet using ZCash shielding and Near Intent routing for cross-chain swaps.",
+      "uniqueness": "derivative",
+      "red_flags": [],
+      "one_line_pitch": "Privacy wallet combining ZCash shielding and Near Intent cross-chain routing.",
+      "website_url": "https://www.trysiwallet.si/",
+      "twitter_handle": "trysiwallet",
+      "reviewed_at": "2026-10-04T16:57:25.769Z"
+    },
+    {
+      "name": "Encore",
+      "ticker": "Encore",
+      "mint": "FTFtYVu6tLfRzV3L8WQmnHDJAdR6E4tfFQSQw1skpump",
+      "quality_score": 7,
+      "mechanism_summary": "Fan-token platform for Spotify/SoundCloud artists; trading fees held in escrow.",
+      "uniqueness": "novel",
+      "red_flags": [],
+      "one_line_pitch": "Artist fan-token launchpad; trading fees escrowed until artist claims them.",
+      "website_url": "https://www.encorepad.app/",
+      "twitter_handle": "encorepad",
+      "reviewed_at": "2026-10-04T16:57:25.766Z"
     },
     {
       "name": "Perpspad",
@@ -2945,6 +2971,35 @@
       "reviewed_at": "2026-10-03T13:13:07.851Z"
     },
     {
+      "name": "Site Launch",
+      "ticker": "SITE",
+      "mint": "24F8gdJNWsjLWY1sqKDyezyxuTMcKbEwh1ucgQgqSite",
+      "quality_score": 6,
+      "mechanism_summary": "Auto-generates AI-maintained websites for coins (yourcoin.sitelaunch.fun), funded by trading fees.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "LLM cost sustainability unclear",
+        "depends on continuous fee extraction to fund Claude API"
+      ],
+      "one_line_pitch": "Launchpad that auto-generates AI-maintained websites for each coin.",
+      "website_url": "https://sitelaunch.fun",
+      "twitter_handle": "sitelaunchfun",
+      "reviewed_at": "2026-10-04T16:59:08.162Z"
+    },
+    {
+      "name": "Phone",
+      "ticker": "PHONE",
+      "mint": "V9zCeRU67pBUXYwKz6A7aL1pXCJBXRVhC3NAWhLpump",
+      "quality_score": 6,
+      "mechanism_summary": "Phone-first meme-coin launchpad; creators earn trading fees, half burned to $PHONE.",
+      "uniqueness": "derivative",
+      "red_flags": [],
+      "one_line_pitch": "Create meme coins on phone, earn trading fees with half-burn to $PHONE token.",
+      "website_url": "https://phone.fun/",
+      "twitter_handle": "phonedotfun",
+      "reviewed_at": "2026-10-04T16:57:25.765Z"
+    },
+    {
       "name": "AI Trading Pet",
       "ticker": "KIBBLE",
       "mint": "Duvx58zLNwUV23oYTSfq1EAVB3S4s11oRGKkF1rcpump",
@@ -3193,74 +3248,6 @@
       "website_url": "https://e-world.io/",
       "twitter_handle": "eworld_io",
       "reviewed_at": "2026-10-04T13:12:49.608Z"
-    },
-    {
-      "name": "Minion Lab",
-      "ticker": "MINION",
-      "mint": "3WcwCvcauSTwTu5QuUjo3YyZiSx7mmN1RgnT5jkoKa7q",
-      "quality_score": 6,
-      "mechanism_summary": "Autonomous AI agents mine specialized data from idle devices, deliver to AI developers.",
-      "uniqueness": "novel",
-      "red_flags": [
-        "no working product, only marketing site",
-        "high execution risk (autonomous agents)",
-        "vague data delivery/monetization",
-        "token utility fairly standard"
-      ],
-      "one_line_pitch": "Autonomous AI agents mine web data from idle devices; ambitious, unclear execution.",
-      "website_url": "https://minionlab.ai/",
-      "twitter_handle": "minionlabai",
-      "reviewed_at": "2026-10-04T09:47:30.184Z"
-    },
-    {
-      "name": "[0]",
-      "ticker": "ZERO",
-      "mint": "39L7idC9SzhzqyACeWBUpCHPXw3PTZ453tfD6pv2pump",
-      "quality_score": 6,
-      "mechanism_summary": "Privacy-preserving Solana stablecoin backed 1:1 by USDC; private transfers via ZK tech.",
-      "uniqueness": "derivative",
-      "red_flags": [
-        "privacy coins face regulatory headwinds (SEC, FinCEN scrutiny)",
-        "implementation details sparse (no ZK protocol spec, no audit link)",
-        "USDC backing mechanism unclear (who holds reserve, audit?)",
-        "website content cuts off mid-feature; incomplete disclosure",
-        "Solana privacy angle is fresher than standalone privacy coins, but not groundbreaking"
-      ],
-      "one_line_pitch": "USDC-backed privacy stablecoin on Solana with selective-disclosure ZK transfers.",
-      "website_url": "https://usezero.cash/",
-      "twitter_handle": "zerodotcash",
-      "reviewed_at": "2026-10-04T09:45:36.576Z"
-    },
-    {
-      "name": "Phone Pad",
-      "ticker": "PHONE",
-      "mint": "4yfqBWgfa1pJ5WXSmiBR6umm1YtuB5Bbar8KgaZ1pump",
-      "quality_score": 6,
-      "mechanism_summary": "Route pump.fun creator fees to phone numbers; claim SOL via SMS code.",
-      "uniqueness": "novel",
-      "red_flags": [],
-      "one_line_pitch": "Route pump.fun fees to phone numbers; claim via SMS without wallet.",
-      "website_url": "https://www.phonepad.family/",
-      "twitter_handle": "tryphonepad",
-      "reviewed_at": "2026-10-04T09:44:35.371Z"
-    },
-    {
-      "name": "Next of Kin",
-      "ticker": "NOKO",
-      "mint": "EhxazgEG22YrbHATJqMDrUKqdXTs3JaNJ2rzMQxaV3V6",
-      "quality_score": 6,
-      "mechanism_summary": "Behavioral AI twin learns user's trading history, executes alternative trades avoiding user's historical mistakes.",
-      "uniqueness": "derivative",
-      "red_flags": [
-        "TOKEN NOT LAUNCHED (pure vaporware)",
-        "No working prototype or demo shown",
-        "Behavioral robo-advisor concept well-established in fintech; 'twin' framing novel but underlying tech derivative",
-        "No technical details on ML model, data handling, or trading mechanics"
-      ],
-      "one_line_pitch": "AI behavioral twin models your trading to avoid your own bad habits.",
-      "website_url": "https://noko.ink/",
-      "twitter_handle": "twinofkin",
-      "reviewed_at": "2026-10-04T09:44:28.351Z"
     }
   ],
   "new_idea_suggestions": [
