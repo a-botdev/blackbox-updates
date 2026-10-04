@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T13:29:42.881Z",
+  "generated_at": "2026-10-04T16:01:28.425Z",
   "note": "Quality-reviewed tech coins: passed a local coarse filter (qwen2.5:3b) then a real judgment pass (Haiku) confirming is_real_tech=true. new_idea_suggestions are Haiku-generated, informed by these patterns but NOT copies -- creative seeds for further review, not trading signals.",
   "quality_tech_coins": [
     {
@@ -322,6 +322,57 @@
       "website_url": "http://dotnet.land",
       "twitter_handle": "dotnetfund",
       "reviewed_at": "2026-10-03T13:48:57.247Z"
+    },
+    {
+      "name": "Xtubers",
+      "ticker": "Xtubers",
+      "mint": "49XwhFwKvKvrFJjb6ojfoHd8AMfp26yFFfV9gH8qpump",
+      "quality_score": 7,
+      "mechanism_summary": "Users define AI agent persona (Claude/GPT/Grok/Gemini), launch its memecoin autonomously; agent auto-generates video episodes and X posts.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "Only 1 agent currently live on platform",
+        "Video generation mechanism/quality opaque",
+        "Agent autonomy scope and guardrails unclear",
+        "Very new, no sustainability/outcome data"
+      ],
+      "one_line_pitch": "Deploy AI agents as autonomous entities with their own memecoins auto-generating video content and tweets",
+      "website_url": "https://xtubers.app/",
+      "twitter_handle": "xtubersapp",
+      "reviewed_at": "2026-10-04T16:00:08.816Z"
+    },
+    {
+      "name": "Spot",
+      "ticker": "Spot",
+      "mint": "5tju1785DT92d3Scfngs8dt6spB9QrDmLZZwWTWvJbuD",
+      "quality_score": 7,
+      "mechanism_summary": "Launchpad pairs memecoins with live commodity market feeds (oil, gold, eggs, coffee, 16+ others); coin moves with underlying commodity.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "No technical documentation on oracle integration",
+        "Extremely new (Oct 2026), no track record",
+        "Commodity pricing mechanism on-chain unverified",
+        "Market validation unknown"
+      ],
+      "one_line_pitch": "Memecoin launchpad binding coin prices to real-time commodity feeds (oil, gold, eggs, etc.)",
+      "website_url": "https://spotdot.fun",
+      "twitter_handle": "spotdotfun_",
+      "reviewed_at": "2026-10-04T16:00:08.814Z"
+    },
+    {
+      "name": "pile",
+      "ticker": "pile",
+      "mint": "7WJad2HYabohk5wpFWPAmNK5AiNkvnh9JyL6WAHkHjSk",
+      "quality_score": 7,
+      "mechanism_summary": "Launchpad where each coin opens automated perpetual position using fee-funded collateral.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "No indication of working contract or beta deployment"
+      ],
+      "one_line_pitch": "Launchpad that automatically opens a perp position for every coin.",
+      "website_url": "https://piledot.fun",
+      "twitter_handle": "piledotfun",
+      "reviewed_at": "2026-10-04T15:57:29.832Z"
     },
     {
       "name": "Auction",
@@ -3226,132 +3277,80 @@
       "website_url": null,
       "twitter_handle": null,
       "reviewed_at": "2026-10-04T04:14:05.003Z"
-    },
-    {
-      "name": "GARP",
-      "ticker": "GARP",
-      "mint": "CYiByTwAFVDokbjwd3vFNAd6vBEXdhrYn55QiVkZpump",
-      "quality_score": 6,
-      "mechanism_summary": "AI agents research KOLs, create content, execute token marketing campaigns with approval gates.",
-      "uniqueness": "derivative",
-      "red_flags": [
-        "AI marketing tools for tokens are increasingly common",
-        "creator earnings model underdescribed",
-        "site looks professional but unclear if actually operational"
-      ],
-      "one_line_pitch": "AI marketing agents for tokens; KOL research, outreach, content creation.",
-      "website_url": "https://www.usegarp.com/",
-      "twitter_handle": "garp_agent",
-      "reviewed_at": "2026-10-04T04:13:27.294Z"
-    },
-    {
-      "name": "QRpad",
-      "ticker": "QRpad",
-      "mint": "G3FrCdbpTfcRsZT1nuetYjCNBLWX9X4kkALXJ45Ppump",
-      "quality_score": 6,
-      "mechanism_summary": "Converts URLs to QR codes that become coin logos; one-click pump.fun launch.",
-      "uniqueness": "novel",
-      "red_flags": [
-        "narrow use case (branding gimmick only)",
-        "depends entirely on pump.fun's survival",
-        "QR-as-logo is clever but limited practical utility",
-        "no value beyond simplifying coin creation"
-      ],
-      "one_line_pitch": "Tool that renders URLs as QR code logos for pump.fun coins.",
-      "website_url": "https://qrpad.fun/",
-      "twitter_handle": "qrpaddotfun",
-      "reviewed_at": "2026-10-04T04:12:38.261Z"
-    },
-    {
-      "name": "Plata o plomo",
-      "ticker": "PLATA",
-      "mint": "Dy2jGqhkUsHVPahvzXShamDCxKe8TYWBXWrJg2aBpump",
-      "quality_score": 6,
-      "mechanism_summary": "Play-to-earn crime strategy game on Solana; run jobs, manage cartel, launder money through front businesses, earn $PLATA",
-      "uniqueness": "derivative",
-      "red_flags": [
-        "prototype stage (explicitly marked)",
-        "play-to-earn games notoriously struggle with token economics",
-        "high execution and retention risk typical for P2E"
-      ],
-      "one_line_pitch": "Play-to-earn crime game prototype with money-laundering mechanic, Solana integration",
-      "website_url": "https://plataoplomo.xyz/",
-      "twitter_handle": "playplataplomo",
-      "reviewed_at": "2026-10-04T03:58:50.815Z"
     }
   ],
   "new_idea_suggestions": [
     {
-      "working_name": "Soundboard",
-      "mechanism": "AI generates a musical note from each coin's activity; holders hear a real-time collaborative song updating every 15 minutes.",
-      "inspired_by": "Meme Experiment (live LLM collab, 15-min refresh) + Build (visible collective progress). Change: output type = music instead of meme images.",
+      "working_name": "Copycat",
+      "mechanism": "AI trader auto-copies top wallets' moves, charges followers a fee on their executions.",
+      "inspired_by": "Nest + Xtubers; agents copy top traders instead of trading independently.",
       "derivativeness_score": 5
     },
     {
-      "working_name": "Snaplock",
-      "mechanism": "Snap a photo, lock its cryptographic hash on-chain, trade blind for 3 minutes while photo is hidden, then it unseals.",
-      "inspired_by": "Unbox (commit-reveal beats metadata bots) + OneShot Pad (photo-to-token). Change: revealed asset = photo instead of name/ticker/art; shorter window (3 min vs 10 min).",
+      "working_name": "Recall",
+      "mechanism": "Blind 10-minute coin launch with 2x leverage on every trade, then metadata unseals.",
+      "inspired_by": "Unbox + lonshor; adds leverage into the blind trading window.",
       "derivativeness_score": 5
     },
     {
-      "working_name": "Spinoff",
-      "mechanism": "Autonomous AI agent buys, holds, and sells fractional shares of real companies; publishes trading history and P&L on-chain.",
-      "inspired_by": "Daybreak (tokenize subsidiaries separately) + Nest (autonomous agents with public APIs). Change: ownership = agent instead of human buyer; adds performance reporting layer.",
-      "derivativeness_score": 6
-    },
-    {
-      "working_name": "Arenawar",
-      "mechanism": "Two coins battle hourly in perpetuals duels funded by creator fees; winner claims loser's vault and broadcasts the match.",
-      "inspired_by": "turfwar (inter-coin battles, fee vaults) + Riptide (perps for memes). Change: game type = perpetuals duels instead of pixel territory; 1v1 format.",
-      "derivativeness_score": 5
-    },
-    {
-      "working_name": "Shard",
-      "mechanism": "Own fractional Contraband Counter-Strike skins; treasury auto-arbitrages LLM credits on peer market and distributes margin to holders monthly.",
-      "inspired_by": "Contraband (real-world asset linking) + Spare (LLM credit resale market). Change: treasury function = active arbitrage instead of passive holding; adds dividend layer.",
-      "derivativeness_score": 5
-    },
-    {
-      "working_name": "Safeguard",
-      "mechanism": "Every trade is reversible within 24 hours if underwater; transfer hook auto-refunds loss from creator-fee pool, no claim needed.",
-      "inspired_by": "undra (24-hour loss guarantee) + Hooked (transfer-hook launchpad). Change: implementation = automatic hook-based refund instead of external manual claim.",
+      "working_name": "Scoreboard",
+      "mechanism": "Hourly trader leaderboard splits fee pot among top 10, with auto-executing professional orders.",
+      "inspired_by": "amoebastrain.xyz + Routeur; swaps coin competition for trader leaderboard, adds order automation.",
       "derivativeness_score": 4
     },
     {
-      "working_name": "Burntrade",
-      "mechanism": "Destroy tokens on Ethereum, get Solana coins minted proportionally; holders' large exits auto-ladder to minimize slippage impact.",
-      "inspired_by": "proof/btc (cross-chain burn → mint) + Manticore (laddered exits). Change: adds exit-liquidity desk layer; multi-chain burn instead of BTC-only.",
-      "derivativeness_score": 6
+      "working_name": "Flowlock",
+      "mechanism": "Three coins compete for territory hourly; winning zone unlocks shared SOL 10x faster.",
+      "inspired_by": "turfwar + proof/btc; territory game unlocks locked liquidity instead of burning coins.",
+      "derivativeness_score": 4
     },
     {
-      "working_name": "Xtrader",
-      "mechanism": "Swap tokens directly in Twitter feed, then set stop-loss or trailing stop once; bot executes cross-venue orders hands-off.",
-      "inspired_by": "Xeet (in-feed swap discovery) + Routeur (smart orders like stop-loss, trailing stop). Change: adds persistent order management post-swap instead of one-off swap.",
+      "working_name": "Gauntlet",
+      "mechanism": "Coins are pixel fighters; predict outcomes on-chain, median price of prediction settles winner.",
+      "inspired_by": "Agentic Arena + Call Market; adds prediction market settlement to pixel fighting.",
+      "derivativeness_score": 4
+    },
+    {
+      "working_name": "Cardholder",
+      "mechanism": "Hold a coin to earn its trading card; rarest cards go to lowest-holder coins.",
+      "inspired_by": "PokeGacha + Lotus; cards are pump.fun coin cards instead of Pokémon, rarity tied to holder count.",
+      "derivativeness_score": 4
+    },
+    {
+      "working_name": "Clamshell",
+      "mechanism": "Holders vote monthly which charity gets all month's fees shipped as physical retail goods.",
+      "inspired_by": "Shipd + YouPaid; recipient is holder-voted charity instead of fixed creator or retailer.",
+      "derivativeness_score": 3
+    },
+    {
+      "working_name": "Sentinel",
+      "mechanism": "Trade privately with hash-chain proof; reveal individual trades selectively without exposing full history.",
+      "inspired_by": "dotchain + Privacy Protocol; makes trading history private by default with selective, hash-proven reveals.",
+      "derivativeness_score": 4
+    },
+    {
+      "working_name": "Tempura",
+      "mechanism": "AI creatures launch coins and build Minecraft houses; breeding creates new houses, deaths burn them.",
+      "inspired_by": "strains + Build; AI creatures build (and burn) Minecraft houses instead of just launching coins.",
+      "derivativeness_score": 4
+    },
+    {
+      "working_name": "Rewind",
+      "mechanism": "Predict when the countdown timer ends; highest predictor takes all accumulated fees.",
+      "inspired_by": "Call Market + velka; prediction market on countdown finish instead of price multiples.",
+      "derivativeness_score": 4
+    },
+    {
+      "working_name": "Hardline",
+      "mechanism": "Buy named leverage slots with owner-set 1-3x tiers on a coin, pay 0.5% daily tax.",
+      "inspired_by": "lonshor + Clubpad; leverage slots instead of seat ownership, with owner-set leverage tiers.",
       "derivativeness_score": 5
     },
     {
-      "working_name": "Swarmpool",
-      "mechanism": "Ant-colony bots compete daily to rebalance your concentrated-liquidity pool most efficiently; winning swarm each day takes half the fees.",
-      "inspired_by": "Socket (hook-based AMM) + Antfarm (emergent bot-colony rebalancing). Change: pool management = dynamic bot competition instead of static hooks; adds daily fee split.",
-      "derivativeness_score": 6
-    },
-    {
-      "working_name": "Pokerburn",
-      "mechanism": "AI agents play poker hourly using token fees as stake; winner auto-burns their winnings from losing-player vault pools.",
-      "inspired_by": "paperbattle (hourly AI tournaments, fee pool prizes) + Foldout (elimination game). Change: game type = poker instead of trading; winner burns instead of keeps.",
-      "derivativeness_score": 5
-    },
-    {
-      "working_name": "Codestream",
-      "mechanism": "AI agent auto-writes and deploys code to GitHub; community votes on what the agent should build next each week.",
-      "inspired_by": "stars.actor (autonomous content creator) + CHMOD (AI-governed tokens, GitHub code). Change: content type = live software instead of social media; adds voting layer.",
-      "derivativeness_score": 5
-    },
-    {
-      "working_name": "Mindbuy",
-      "mechanism": "Fair-launch with whale caps; treasury funds AI that browses web and publishes ecosystem insights weekly on-chain.",
-      "inspired_by": "Wikora world (fee-funded AI researching web) + curvo (anti-whale fair-launch curve). Change: AI targets token's own ecosystem instead of generic web; combines fairness + narrative.",
-      "derivativeness_score": 5
+      "working_name": "Inkwell",
+      "mechanism": "AI writes daily crypto posts from your coin; its writing trains a shared crypto LLM.",
+      "inspired_by": "Xtubers + CRAWLNET; AI writes text instead of video, feeds content into shared LLM training loop.",
+      "derivativeness_score": 4
     }
   ]
 }
