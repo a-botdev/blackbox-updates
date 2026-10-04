@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T00:14:55.486Z",
+  "generated_at": "2026-10-04T00:29:45.199Z",
   "note": "Quality-reviewed tech coins: passed a local coarse filter (qwen2.5:3b) then a real judgment pass (Haiku) confirming is_real_tech=true. new_idea_suggestions are Haiku-generated, informed by these patterns but NOT copies -- creative seeds for further review, not trading signals.",
   "quality_tech_coins": [
     {
@@ -277,6 +277,36 @@
       "website_url": "http://dotnet.land",
       "twitter_handle": "dotnetfund",
       "reviewed_at": "2026-10-03T13:48:57.247Z"
+    },
+    {
+      "name": "BANKED",
+      "ticker": "BANKED",
+      "mint": "bnkdo6gJz4FTLmvRVgtpHCAqUtc23g2ZucwugDp4YT1",
+      "quality_score": 7,
+      "mechanism_summary": "Trading fees fund SOL vault; holders borrow zero-interest against vault, keep gains",
+      "uniqueness": "novel",
+      "red_flags": [],
+      "one_line_pitch": "Fee-backed lending vault: holders borrow interest-free against protocol fees",
+      "website_url": "https://www.usebanked.app/",
+      "twitter_handle": "trybanked",
+      "reviewed_at": "2026-10-04T00:28:08.173Z"
+    },
+    {
+      "name": "DropFloat",
+      "ticker": "FLOAT",
+      "mint": "tG4Rq9hBRrCDTy9U7GtqBczB64UtF2Tp9yTeZ8Hpump",
+      "quality_score": 7,
+      "mechanism_summary": "Perpetual futures contracts on CS2/Rust skins, up to 10x leverage, settled in USDC.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "oracle risk for skin price feeds",
+        "10x leverage amplifies losses",
+        "cross-chain USDC settlement adds counterparty risk"
+      ],
+      "one_line_pitch": "Leveraged perpetuals on game skins without owning them; novel derivatives angle.",
+      "website_url": "https://dropfloat.fun/",
+      "twitter_handle": "dropfloat",
+      "reviewed_at": "2026-10-04T00:27:13.043Z"
     },
     {
       "name": "PumpPad",
@@ -2124,6 +2154,90 @@
       "reviewed_at": "2026-10-03T13:13:07.851Z"
     },
     {
+      "name": "Bounty",
+      "ticker": "BOUNTY ",
+      "mint": "5Bm2okRjxDDa6rjSAtPT32MLaVaeKgypKqYY58tkpump",
+      "quality_score": 6,
+      "mechanism_summary": "Real-time scanner for mispriced graded One Piece cards across three exchanges; Telegram alerts.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "contract address not yet live ('Coming soon')",
+        "sniping/arbitrage is a well-worn mechanic",
+        "execution risk on real-time pricing accuracy"
+      ],
+      "one_line_pitch": "One Piece card sniping bot; scans auctions, alerts on undervalued listings.",
+      "website_url": "https://www.bountysnipingbot.com/",
+      "twitter_handle": "bountysnipebot",
+      "reviewed_at": "2026-10-04T00:29:43.603Z"
+    },
+    {
+      "name": "Ouys",
+      "ticker": "OUYS",
+      "mint": "GdEuybJ2iGPu9gZehZN8vHfSiwDJjhofpxyEozFrpump",
+      "quality_score": 6,
+      "mechanism_summary": "Accumulated trading fees buy real Pokémon card packs, ripped on-chain; holders randomly selected for cards.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "contract address not deployed",
+        "site incomplete/unfinished",
+        "relies on external physical goods fulfillment",
+        "CA coming soon"
+      ],
+      "one_line_pitch": "Physical Pokémon card packs ripped on-chain; fee accumulation triggers purchases.",
+      "website_url": "https://ouys.tech/",
+      "twitter_handle": "ouys",
+      "reviewed_at": "2026-10-04T00:29:14.272Z"
+    },
+    {
+      "name": "Alternative Trading System",
+      "ticker": "ATS",
+      "mint": "Ake2xFaB6A1vtG5CekMapABwDKdEcHQAbsv5Xgtcpump",
+      "quality_score": 6,
+      "mechanism_summary": "Off-chain dark pool for large Solana meme trades; settlement at pool price, no chart impact",
+      "uniqueness": "novel",
+      "red_flags": [
+        "website is wallet-only, zero product details",
+        "settlement mechanism and liquidity model not explained",
+        "dark pool legality for crypto unproven"
+      ],
+      "one_line_pitch": "Dark pool for Solana memes; large trades settle off-chain with no chart candle",
+      "website_url": "https://ats.markets/",
+      "twitter_handle": "atsdotmarkets",
+      "reviewed_at": "2026-10-04T00:28:52.602Z"
+    },
+    {
+      "name": "Shiller",
+      "ticker": "SHLR",
+      "mint": "D6aQFtdQqcC4cTWMjWPTAqb3ECMV42mwTqU8GQ2dpump",
+      "quality_score": 6,
+      "mechanism_summary": "Projects fund missions in SOL, community completes them, protocol verifies and auto-pays",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "Work verification mechanism details unclear",
+        "Fraud prevention not explained"
+      ],
+      "one_line_pitch": "On-chain bounty platform for community marketing and task work",
+      "website_url": "https://shlr.fun/",
+      "twitter_handle": "shlrfun",
+      "reviewed_at": "2026-10-04T00:28:08.177Z"
+    },
+    {
+      "name": "CROW",
+      "ticker": "CROW",
+      "mint": "A3MNEUT56HhQdbuaacaPjw4cihGNaW1cSjfEaJpepump",
+      "quality_score": 6,
+      "mechanism_summary": "Community voting system for project launches with game mechanics and missions",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "Voting mechanism details unclear",
+        "Many features marked LOCK (not yet live)"
+      ],
+      "one_line_pitch": "Community-voted project launcher with gamified world and mission system",
+      "website_url": "https://crow.meme",
+      "twitter_handle": "legendofcrows",
+      "reviewed_at": "2026-10-04T00:28:08.175Z"
+    },
+    {
       "name": "bounce",
       "ticker": "bounce",
       "mint": "BoinghGhJygKLc5CjLA3HyxrCguAruB8dtjNNHGxuUVC",
@@ -3199,124 +3313,6 @@
       "website_url": "https://www.newbiesol.fun/",
       "twitter_handle": "newbieonpf",
       "reviewed_at": "2026-10-03T12:44:01.173Z"
-    },
-    {
-      "name": "Loan Meme",
-      "ticker": "LOAN",
-      "mint": "8oBoHw5JsA15PTvubTpygEg4vA2y832c54fQZJXtpump",
-      "quality_score": 6,
-      "mechanism_summary": "Lending protocol treating cultural hype/virality as collaterizable capital with risk isolation",
-      "uniqueness": "novel",
-      "red_flags": [
-        "Website 70% marketing narrative, only 30% technical",
-        "No contract/API documentation linked",
-        "No proof of working lending mechanism on-chain",
-        "Chinese-dominant content may indicate limited English-market development"
-      ],
-      "one_line_pitch": "Lending protocol treating memecoin hype as collateralizable capital with fee-based buyback.",
-      "website_url": "https://loanmeme.io/",
-      "twitter_handle": "loanmeme",
-      "reviewed_at": "2026-10-03T12:42:51.290Z"
-    },
-    {
-      "name": "NonPlayerCoins",
-      "ticker": "NPC",
-      "mint": "Aa2D1LydKNBv4yhPPLYCna3xcFskxpJn5GbUtaqUs5ru",
-      "quality_score": 6,
-      "mechanism_summary": "Launch a coin, spawn an NPC avatar in shared town; NPCs trade, compete, accumulate treasuries.",
-      "uniqueness": "novel",
-      "red_flags": [],
-      "one_line_pitch": "Coin launchpad where each token spawns a playable character in persistent game town.",
-      "website_url": "https://www.nonplayercoins.world/",
-      "twitter_handle": "nonplayercoins",
-      "reviewed_at": "2026-10-03T12:42:38.925Z"
-    },
-    {
-      "name": "Off Curve",
-      "ticker": "OFC",
-      "mint": "CREz1LcDBean6YcWpfnGSFctuwadEHpJwvc7pys7pump",
-      "quality_score": 6,
-      "mechanism_summary": "Non-custodial peer-to-peer OTC marketplace for Solana tokens, atomic settlement.",
-      "uniqueness": "derivative",
-      "red_flags": [
-        "no website provided to verify",
-        "no evidence of live product yet"
-      ],
-      "one_line_pitch": "P2P OTC token trading with atomic settlement; implementation unverified.",
-      "website_url": null,
-      "twitter_handle": "offcurvefun",
-      "reviewed_at": "2026-10-03T12:33:30.987Z"
-    },
-    {
-      "name": " the embassy",
-      "ticker": "EMBASSY",
-      "mint": "3vwAgtTjv6VvuaXtC4BFHeAzHF6Z7CaUaHCQE2PYpump",
-      "quality_score": 6,
-      "mechanism_summary": "AI envoys negotiate inter-coin trading pacts; treasuries auto-execute on-chain buys/sells based on agreements.",
-      "uniqueness": "novel",
-      "red_flags": [
-        "All metrics zero (0 coins, 0 treasuries, 0 pacts, 0 on-chain deals)",
-        "Unclear if infrastructure exists or just design doc",
-        "Deployed as Pump.fun coin (unusual for a protocol)",
-        "No working product evidence despite sophisticated UI"
-      ],
-      "one_line_pitch": "Inter-coin treaty system via AI envoys; treasuries auto-execute based on pacts; zero active deals.",
-      "website_url": "https://theembassy.fun/",
-      "twitter_handle": "embassydotfun",
-      "reviewed_at": "2026-10-03T12:32:33.513Z"
-    },
-    {
-      "name": "Sigotchi",
-      "ticker": "SIGOTCHi",
-      "mint": "8kgMA8xDaHt8KDJH5S5quYD5VzPJz2NgDjqsXdkTpump",
-      "quality_score": 6,
-      "mechanism_summary": "Individual pet tokens with bonding curves; feeding buys and burns parent $SIGOTCHI",
-      "uniqueness": "derivative",
-      "red_flags": [
-        "no confirmation of live product",
-        "vague on contract architecture",
-        "each-pet-unique claim unverified"
-      ],
-      "one_line_pitch": "Each pet is its own Solana token; feed it SOL to grow.",
-      "website_url": "https://sigotchi.fun",
-      "twitter_handle": "sigotchidotfun",
-      "reviewed_at": "2026-10-03T12:30:59.478Z"
-    },
-    {
-      "name": "ODDSYPRO",
-      "ticker": "ODDSY",
-      "mint": "9BnX2aLyEw1R9bSxJcCuxNi3LT1DAEwLqUt3XLPZpump",
-      "quality_score": 6,
-      "mechanism_summary": "Tokenized Polymarket prediction bets with immutable fee vaults on Solana",
-      "uniqueness": "novel",
-      "red_flags": [
-        "Only waitlist page, no working product visible",
-        "No proof of Polymarket integration",
-        "No contract interaction examples shown",
-        "High vaporware risk"
-      ],
-      "one_line_pitch": "Prediction market token platform bridging Polymarket and Solana (unproven)",
-      "website_url": "http://oddsypro.com",
-      "twitter_handle": "oddsypro",
-      "reviewed_at": "2026-10-03T12:29:47.054Z"
-    },
-    {
-      "name": "Ouroboros",
-      "ticker": "Ouroboros",
-      "mint": "b4mrzrUajhQ4H8XfuVvKDTayp1zTy16MrbCQTPbpump",
-      "quality_score": 6,
-      "mechanism_summary": "Memecoin with transparent on-chain treasury funding towards European ETF listing goal",
-      "uniqueness": "derivative",
-      "red_flags": [
-        "No working ETF product yet, only exploratory",
-        "Website has copy-paste artifacts ('Skip to content')",
-        "No exchange listing confirmed, uses 'explore' language",
-        "Unclear if Proof Wall actually exists on-chain"
-      ],
-      "one_line_pitch": "Memecoin with transparent treasury funding a speculative ETF listing quest",
-      "website_url": "https://www.useouroboros.fun/",
-      "twitter_handle": "useouroboros",
-      "reviewed_at": "2026-10-03T12:29:47.023Z"
     }
   ],
   "new_idea_suggestions": [
