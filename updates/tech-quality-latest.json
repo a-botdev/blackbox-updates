@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T00:46:42.182Z",
+  "generated_at": "2026-10-04T00:57:19.851Z",
   "note": "Quality-reviewed tech coins: passed a local coarse filter (qwen2.5:3b) then a real judgment pass (Haiku) confirming is_real_tech=true. new_idea_suggestions are Haiku-generated, informed by these patterns but NOT copies -- creative seeds for further review, not trading signals.",
   "quality_tech_coins": [
     {
@@ -277,6 +277,19 @@
       "website_url": "http://dotnet.land",
       "twitter_handle": "dotnetfund",
       "reviewed_at": "2026-10-03T13:48:57.247Z"
+    },
+    {
+      "name": "clipr",
+      "ticker": "CLIPR",
+      "mint": "D8CatmYPtAwzGjMX5GTWRFZy5zmstypBToFT6gVjpump",
+      "quality_score": 7,
+      "mechanism_summary": "Two-sided content marketplace: clippers create crypto clips, earn SOL every 3 days; creators request clips.",
+      "uniqueness": "novel",
+      "red_flags": [],
+      "one_line_pitch": "Crypto-native content marketplace paying clippers in SOL.",
+      "website_url": "https://clipr.fund",
+      "twitter_handle": "cliprfund",
+      "reviewed_at": "2026-10-04T00:57:18.267Z"
     },
     {
       "name": "Agency",
@@ -2172,6 +2185,24 @@
       "reviewed_at": "2026-10-03T13:13:07.851Z"
     },
     {
+      "name": "World Strategic Oil Supply",
+      "ticker": "WSOS",
+      "mint": "EDm7RKU1uUFLFNU4qVBv6cddpY4Ei4cfLcbnCUWpump",
+      "quality_score": 6,
+      "mechanism_summary": "On-chain tokenization of oil supply with attested barrels and Tier-1 backed custody.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "Custody claims (Tier-1 backing) completely unverified",
+        "Barrel attestation (1.3M) unverified and unexplained",
+        "Vague on actual mechanism—how are barrels tracked, transferred, or redeemed?",
+        "Launch timing confused (site says 'go live 07 Oct' from current date 10-03)"
+      ],
+      "one_line_pitch": "Tokenized oil commodity with on-chain supply data (claims unverified).",
+      "website_url": "http://wsos.live/",
+      "twitter_handle": "wsostoken",
+      "reviewed_at": "2026-10-04T00:57:18.265Z"
+    },
+    {
       "name": "Bounty",
       "ticker": "BOUNTY ",
       "mint": "5Bm2okRjxDDa6rjSAtPT32MLaVaeKgypKqYY58tkpump",
@@ -3283,41 +3314,6 @@
       "website_url": "https://www.kycpad.fun/",
       "twitter_handle": "kycpad",
       "reviewed_at": "2026-10-03T12:46:55.820Z"
-    },
-    {
-      "name": "Dots",
-      "ticker": "DOTS",
-      "mint": "3PK1Thq1UKnKU7Kpah9DJf8SWiYgmBGg7BxD2Ekapump",
-      "quality_score": 6,
-      "mechanism_summary": "Token launch platform where each coin pairs with AI 'dot' agent; dot automates creator fees.",
-      "uniqueness": "novel",
-      "red_flags": [
-        "what dots actually do with fees still vague",
-        "DOTS token utility (for purchasing/powering dots?) not explained",
-        "early-stage product, no launched coins yet",
-        "no clear economic feedback loop between platform and token"
-      ],
-      "one_line_pitch": "Token launcher + AI agents that automate creator fee management.",
-      "website_url": "https://dotslaunch.fun",
-      "twitter_handle": "launchdots",
-      "reviewed_at": "2026-10-03T12:45:42.000Z"
-    },
-    {
-      "name": "Desk",
-      "ticker": "DESK",
-      "mint": "Hsn9tAyo9NoCEsWsQ67zfThWDfvHfhFWYH1CSfxApump",
-      "quality_score": 6,
-      "mechanism_summary": "AI trading agents compete against each other on a ranked leaderboard.",
-      "uniqueness": "novel",
-      "red_flags": [
-        "Coming soon, no live product yet",
-        "Contract address not yet deployed (CA coming soon)",
-        "AI competition details are sparse; token integration undefined"
-      ],
-      "one_line_pitch": "AI bots compete on trading leaderboard for rankings.",
-      "website_url": "https://deskbots.app",
-      "twitter_handle": "deskterminal",
-      "reviewed_at": "2026-10-03T12:44:28.929Z"
     }
   ],
   "new_idea_suggestions": [
