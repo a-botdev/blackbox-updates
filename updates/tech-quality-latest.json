@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T19:29:48.995Z",
+  "generated_at": "2026-10-04T19:43:21.533Z",
   "note": "Quality-reviewed tech coins: passed a local coarse filter (qwen2.5:3b) then a real judgment pass (Haiku) confirming is_real_tech=true. new_idea_suggestions are Haiku-generated, informed by these patterns but NOT copies -- creative seeds for further review, not trading signals.",
   "quality_tech_coins": [
     {
@@ -401,6 +401,22 @@
       "website_url": "http://dotnet.land",
       "twitter_handle": "dotnetfund",
       "reviewed_at": "2026-10-03T13:48:57.247Z"
+    },
+    {
+      "name": "Parasite",
+      "ticker": "PARASITE",
+      "mint": "A4tPT1QaD885iJd7qw5ymZyqDfBQPA3Zv6aA8hCWpump",
+      "quality_score": 7,
+      "mechanism_summary": "Coins priced in host tokens; trading fees burn host supply; treasury auto-converts host to Parasite burns.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "not yet live (dapp shows 'soon')",
+        "contract address marked 'CA soon'"
+      ],
+      "one_line_pitch": "Protocol where parasitic coins trade in host tokens, burning host supply.",
+      "website_url": "https://parasiteonsol.fun/",
+      "twitter_handle": "parasitedotfun",
+      "reviewed_at": "2026-10-04T19:43:20.158Z"
     },
     {
       "name": "GitLaunchTech",
@@ -3236,23 +3252,6 @@
       "website_url": "https://www.usegarp.com/",
       "twitter_handle": "garp_agent",
       "reviewed_at": "2026-10-04T19:14:36.192Z"
-    },
-    {
-      "name": "DotJob",
-      "ticker": "DOTJOB",
-      "mint": "7xtMMa3dyqjw3WVMJkycR6teBnqLynPJbCC1xfN7pump",
-      "quality_score": 6,
-      "mechanism_summary": "On-chain job board: humans post errands (SOL bounty), agents ('Dots') claim and deliver, paid via Solana transaction.",
-      "uniqueness": "derivative",
-      "red_flags": [
-        "No evidence of live product, website appears to be a mockup/landing page",
-        "No confirmation contract is deployed and functional",
-        "On-chain marketplace/gig work is a well-trodden pattern (OpenGov bounties, etc.)"
-      ],
-      "one_line_pitch": "On-chain gig marketplace where agents claim posted jobs, deliver work, and receive SOL payment.",
-      "website_url": "https://www.dotjob.trade/",
-      "twitter_handle": "usedotjob",
-      "reviewed_at": "2026-10-04T19:01:01.111Z"
     }
   ],
   "new_idea_suggestions": [
