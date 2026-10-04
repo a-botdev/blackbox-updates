@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T08:15:15.309Z",
+  "generated_at": "2026-10-04T08:31:22.790Z",
   "note": "Quality-reviewed tech coins: passed a local coarse filter (qwen2.5:3b) then a real judgment pass (Haiku) confirming is_real_tech=true. new_idea_suggestions are Haiku-generated, informed by these patterns but NOT copies -- creative seeds for further review, not trading signals.",
   "quality_tech_coins": [
     {
@@ -305,6 +305,38 @@
       "website_url": "http://dotnet.land",
       "twitter_handle": "dotnetfund",
       "reviewed_at": "2026-10-03T13:48:57.247Z"
+    },
+    {
+      "name": "Vibe Fuel",
+      "ticker": "Fuel",
+      "mint": "92z4XTZppdYRZZsnXJdUPca9h5mFjGWWgGxAVT8jpump",
+      "quality_score": 7,
+      "mechanism_summary": "VS Code/Cursor extension: developers earn Solana tokens viewing ads, redeem toward AI API credits.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "depends on extension adoption",
+        "ad monetization unproven at revenue scale"
+      ],
+      "one_line_pitch": "Developer ad-reward extension earning Solana for AI credit costs.",
+      "website_url": "https://vibefuel.app/",
+      "twitter_handle": "vibefueldotapp",
+      "reviewed_at": "2026-10-04T08:27:31.959Z"
+    },
+    {
+      "name": "Subzero",
+      "ticker": "Subzero",
+      "mint": "9GoNdHrGo4fpN8Cewx41Ys82zM6CgCTgRvVxiQdjpump",
+      "quality_score": 7,
+      "mechanism_summary": "Leverage/short protocol reading PumpSwap's signed reserves (negative i128) to enable shorting any coin.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "depends on PumpSwap feature launched Sep 30",
+        "no visible live product demo"
+      ],
+      "one_line_pitch": "Shorting dApp exploiting PumpSwap negative reserves.",
+      "website_url": "https://subzero.cash",
+      "twitter_handle": "sheriyuo",
+      "reviewed_at": "2026-10-04T08:27:31.958Z"
     },
     {
       "name": "p0nd",
@@ -2442,6 +2474,40 @@
       "reviewed_at": "2026-10-03T13:13:07.851Z"
     },
     {
+      "name": "Revenue",
+      "ticker": "REV",
+      "mint": "CuP5Ng85HiCdHiKnc9pKe9MVEVkJDHmMsyEvbXHopump",
+      "quality_score": 6,
+      "mechanism_summary": "Bridge service: X Money → crypto (USDC/USDT/SOL/ETH) with on-chain order tracking.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "Token's role in mechanism unclear; service could work without it",
+        "Bridge/payment services have regulatory/operational risk",
+        "Tokenomics and utility not described"
+      ],
+      "one_line_pitch": "Twitter Money-to-crypto bridge; no KYC, real working service.",
+      "website_url": "https://revenue.family/",
+      "twitter_handle": "revenuefamily",
+      "reviewed_at": "2026-10-04T08:29:48.366Z"
+    },
+    {
+      "name": "Noxbank",
+      "ticker": "NOXBANK",
+      "mint": "5gok7WzHvMFmFfcvnHuuBqRh9GTcQckHXBBwZywkpump",
+      "quality_score": 6,
+      "mechanism_summary": "Non-custodial private banking protocol: asset management, private payments, savings, transfers",
+      "uniqueness": "novel",
+      "red_flags": [
+        "no website provided",
+        "vague implementation details",
+        "no code/docs linked"
+      ],
+      "one_line_pitch": "Non-custodial private banking protocol for Solana",
+      "website_url": "https://noxcash.finance/",
+      "twitter_handle": "noxbank_",
+      "reviewed_at": "2026-10-04T08:29:37.031Z"
+    },
+    {
       "name": "sidequest",
       "ticker": "QUEST",
       "mint": "Dhc2ymaZCJipYLuUHKSAAJsaLJUdxt5Bho5N1rNFpump",
@@ -3214,70 +3280,6 @@
       "website_url": "https://daemonpad.fun/",
       "twitter_handle": "daemonpad",
       "reviewed_at": "2026-10-03T18:57:52.051Z"
-    },
-    {
-      "name": "tare",
-      "ticker": "tare",
-      "mint": "AQFk1sL2z2ZXC8GZQq62dFWAGzagCVgjLbFXW8rcpump",
-      "quality_score": 6,
-      "mechanism_summary": "Launchpad with escrow-first funding; vault agent trades to 5× multiplier exit for backers.",
-      "uniqueness": "derivative",
-      "red_flags": [
-        "launchpad mechanic is not novel, well-established pattern",
-        "vault agent trading limits vague (what constraints, who controls)",
-        "tare token utility unclear beyond ecosystem participation",
-        "solves real problem (first-buy dumps) but in a known way"
-      ],
-      "one_line_pitch": "Launchpad with backer escrow-first model; agent-traded vault exits at 5×.",
-      "website_url": "https://taredot.fun/",
-      "twitter_handle": "taredotfun",
-      "reviewed_at": "2026-10-03T18:44:50.017Z"
-    },
-    {
-      "name": "Solid",
-      "ticker": "SOLID",
-      "mint": "ER4ciu9k4jYYobVPjcyJr7fzLv6kgnX7SfRiG7Vpump",
-      "quality_score": 6,
-      "mechanism_summary": "Android keyboard IME integrates SOL send/request/split into any chat app; wallets stay in user control.",
-      "uniqueness": "novel",
-      "red_flags": [
-        "not yet live—under review for Solana Mobile dApp Store (not approved)",
-        "Android-only, no iOS path mentioned (limits addressable market)"
-      ],
-      "one_line_pitch": "Send SOL via keyboard directly in any chat; no app-switching needed.",
-      "website_url": "https://sendsolid.app/",
-      "twitter_handle": "sendwithsolid",
-      "reviewed_at": "2026-10-03T18:43:10.309Z"
-    },
-    {
-      "name": "Social Cards",
-      "ticker": "PACK",
-      "mint": "kHdpWPAq9K9JMJUo4Hd4eNcG82FzqFaXY3HvkJZpump",
-      "quality_score": 6,
-      "mechanism_summary": "Fantasy sports game where players draft real Solana KOL cards and win on their trades.",
-      "uniqueness": "derivative",
-      "red_flags": [],
-      "one_line_pitch": "Fantasy sports game where you draft Solana KOLs and compete on their trades.",
-      "website_url": "https://cardspack.fun/",
-      "twitter_handle": "cardspackdotfun",
-      "reviewed_at": "2026-10-03T18:13:32.491Z"
-    },
-    {
-      "name": "Arenix",
-      "ticker": "ARX",
-      "mint": "3xas9JZy5GP16YSVbq79txxnxDFZznA3TCurrJmGpump",
-      "quality_score": 6,
-      "mechanism_summary": "Solana PvP arena game: play free, wager $ARX, earn SOL; ranked, spectatable",
-      "uniqueness": "derivative",
-      "red_flags": [
-        "PvP play-to-earn model is common on Solana, not novel",
-        "no independent verification of gameplay or earning economics",
-        "Pump.fun launch adds regulatory/execution risk; track record unknown"
-      ],
-      "one_line_pitch": "Functional Solana PvP arena with $ARX betting; play-to-earn is competitive pattern",
-      "website_url": "https://playarenix.com/",
-      "twitter_handle": "playarenix",
-      "reviewed_at": "2026-10-03T18:12:30.410Z"
     }
   ],
   "new_idea_suggestions": [
