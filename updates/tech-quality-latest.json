@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T03:59:56.687Z",
+  "generated_at": "2026-10-04T04:14:45.901Z",
   "note": "Quality-reviewed tech coins: passed a local coarse filter (qwen2.5:3b) then a real judgment pass (Haiku) confirming is_real_tech=true. new_idea_suggestions are Haiku-generated, informed by these patterns but NOT copies -- creative seeds for further review, not trading signals.",
   "quality_tech_coins": [
     {
@@ -305,6 +305,37 @@
       "website_url": "http://dotnet.land",
       "twitter_handle": "dotnetfund",
       "reviewed_at": "2026-10-03T13:48:57.247Z"
+    },
+    {
+      "name": "IdeaPad",
+      "ticker": "IDEA",
+      "mint": "rfRN95yrq3vi4y5YiC9ecSqGAWdBVHKCvhwCR74pump",
+      "quality_score": 7,
+      "mechanism_summary": "Community votes on meme ideas; winners launch every 10min; creator fees shared with voters.",
+      "uniqueness": "novel",
+      "red_flags": [],
+      "one_line_pitch": "Decentralized meme launchpad with timed voting and fee-sharing.",
+      "website_url": "http://ideapad.site",
+      "twitter_handle": "ideapadonsol",
+      "reviewed_at": "2026-10-04T04:14:05.008Z"
+    },
+    {
+      "name": "Tick",
+      "ticker": "TICK",
+      "mint": "7q4Ajmby7JWBVPcLFzGCyRHJMhtUS5bVqpWCus9xpump",
+      "quality_score": 7,
+      "mechanism_summary": "Trading bot token auto-executing pump.fun coin trades with configurable stops/profits.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "shows 'Paper Larva' testing status, not production-ready",
+        "needs verification if bot is actually operational",
+        "high rug risk if interface is non-functional",
+        "depends entirely on pump.fun's continued operation"
+      ],
+      "one_line_pitch": "Algorithmic trading bot as token; auto-executes pump.fun trades live.",
+      "website_url": "https://www.tickdot.trade/",
+      "twitter_handle": "tickdotworld",
+      "reviewed_at": "2026-10-04T04:12:38.256Z"
     },
     {
       "name": "Hooked",
@@ -2363,6 +2394,72 @@
       "reviewed_at": "2026-10-03T13:13:07.851Z"
     },
     {
+      "name": "Nerve",
+      "ticker": "NERVE",
+      "mint": "GWmJEbpbxpub3NFMzFF3Eu2vbgVBBHMshRVAGDh2pump",
+      "quality_score": 6,
+      "mechanism_summary": "Watchers pay to dare; players complete live tasks and earn; failed dares refund watchers.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "duplicate of 759ZJq...",
+        "possible failed relaunch or abandoned fork"
+      ],
+      "one_line_pitch": "Duplicate Nerve token with identical dare-streaming mechanics.",
+      "website_url": "https://playnerve.live/",
+      "twitter_handle": "nervedarepf",
+      "reviewed_at": "2026-10-04T04:14:05.005Z"
+    },
+    {
+      "name": "Nerve",
+      "ticker": "NERVE",
+      "mint": "759ZJqY317B391xLqaciLevMB98shVRASxC8zYuppump",
+      "quality_score": 6,
+      "mechanism_summary": "Watchers pay to dare; players complete live tasks and earn; failed dares refund watchers.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "no confirmed working product/MVP"
+      ],
+      "one_line_pitch": "Livestream dare platform with escrow rewards and refunds.",
+      "website_url": null,
+      "twitter_handle": null,
+      "reviewed_at": "2026-10-04T04:14:05.003Z"
+    },
+    {
+      "name": "GARP",
+      "ticker": "GARP",
+      "mint": "CYiByTwAFVDokbjwd3vFNAd6vBEXdhrYn55QiVkZpump",
+      "quality_score": 6,
+      "mechanism_summary": "AI agents research KOLs, create content, execute token marketing campaigns with approval gates.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "AI marketing tools for tokens are increasingly common",
+        "creator earnings model underdescribed",
+        "site looks professional but unclear if actually operational"
+      ],
+      "one_line_pitch": "AI marketing agents for tokens; KOL research, outreach, content creation.",
+      "website_url": "https://www.usegarp.com/",
+      "twitter_handle": "garp_agent",
+      "reviewed_at": "2026-10-04T04:13:27.294Z"
+    },
+    {
+      "name": "QRpad",
+      "ticker": "QRpad",
+      "mint": "G3FrCdbpTfcRsZT1nuetYjCNBLWX9X4kkALXJ45Ppump",
+      "quality_score": 6,
+      "mechanism_summary": "Converts URLs to QR codes that become coin logos; one-click pump.fun launch.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "narrow use case (branding gimmick only)",
+        "depends entirely on pump.fun's survival",
+        "QR-as-logo is clever but limited practical utility",
+        "no value beyond simplifying coin creation"
+      ],
+      "one_line_pitch": "Tool that renders URLs as QR code logos for pump.fun coins.",
+      "website_url": "https://qrpad.fun/",
+      "twitter_handle": "qrpaddotfun",
+      "reviewed_at": "2026-10-04T04:12:38.261Z"
+    },
+    {
       "name": "Plata o plomo",
       "ticker": "PLATA",
       "mint": "Dy2jGqhkUsHVPahvzXShamDCxKe8TYWBXWrJg2aBpump",
@@ -3183,103 +3280,6 @@
       "website_url": "https://spawnpad.xyz/",
       "twitter_handle": "spawnpadxyz",
       "reviewed_at": "2026-10-03T17:18:31.968Z"
-    },
-    {
-      "name": "weirds",
-      "ticker": "WEIRDS",
-      "mint": "AsKSXP3pH1eZq8RXEcWBvVejMvZXF2BW2NEqYDQPpump",
-      "quality_score": 6,
-      "mechanism_summary": "On-chain AI agents with personality, memory, independent wallets that act autonomously.",
-      "uniqueness": "novel",
-      "red_flags": [
-        "Not live — shows 'coming soon' and 'v0.1' (very early stage)",
-        "Website is sparse landing page, not working product",
-        "Mechanism is conceptually vague: unclear how autonomy works, economic model, or incentives",
-        "27 posts but minimal technical detail on actual protocol"
-      ],
-      "one_line_pitch": "On-chain AI creatures with independent wallets — interesting concept, not yet deployed.",
-      "website_url": "http://weirds.family",
-      "twitter_handle": "weirds",
-      "reviewed_at": "2026-10-03T17:16:57.464Z"
-    },
-    {
-      "name": "DarkSol",
-      "ticker": "DARK",
-      "mint": "3fAPnCRNrM5zNPVsPKCmXQh2YKyru8SP48xqX9Zipump",
-      "quality_score": 6,
-      "mechanism_summary": "Privacy routing service with mixer analytics and obfuscated payment links; early-stage active development.",
-      "uniqueness": "derivative",
-      "red_flags": [
-        "Privacy mixers are established tech (Tornado, Railgun already exist)",
-        "Regulatory risk (tone: 'no feds, no KYC')",
-        "v1.0 mainnet, early stage with unproven tokenomics"
-      ],
-      "one_line_pitch": "Solana privacy router with pool scoring and anonymous payment links.",
-      "website_url": "http://darksol.app",
-      "twitter_handle": "darksolapp",
-      "reviewed_at": "2026-10-03T17:07:36.169Z"
-    },
-    {
-      "name": "Clawout",
-      "ticker": "CLAW",
-      "mint": "BVFknTJpFn2rF96fsAwVdbKQJuzKaQz81aK3n8CCpump",
-      "quality_score": 6,
-      "mechanism_summary": "Browser-based panda brawler/racer game with $CLAW token seasonal rewards and progression.",
-      "uniqueness": "derivative",
-      "red_flags": [],
-      "one_line_pitch": "Live browser game (panda brawler/racer) with seasonal token reward economy on Solana.",
-      "website_url": "https://claw-out.fun/",
-      "twitter_handle": "clawout_sol",
-      "reviewed_at": "2026-10-03T17:07:36.168Z"
-    },
-    {
-      "name": "Win on Slab",
-      "ticker": "SLAB",
-      "mint": "DcT3hUEFJo6z29WgZAvRCNo8pRM2wVnw7Y41QXQwpump",
-      "quality_score": 6,
-      "mechanism_summary": "Buy graded card packs, rip to NFT, launch as pump.fun coin earning 50% creator fees.",
-      "uniqueness": "derivative",
-      "red_flags": [
-        "card scarcity/RNG rules not detailed",
-        "50% creator-fee split mechanism source unclear"
-      ],
-      "one_line_pitch": "Card-pack arcade where pulled NFTs can launch as coins with reward splits.",
-      "website_url": "https://www.slab.win/",
-      "twitter_handle": "winonslab",
-      "reviewed_at": "2026-10-03T17:06:42.210Z"
-    },
-    {
-      "name": "Cue Agents",
-      "ticker": "cue",
-      "mint": "PB5nX7PYiDXBY5UfGUTWtkHcBzh4su8xHY59iwypump",
-      "quality_score": 6,
-      "mechanism_summary": "Create AI agents with distinct identities (email, phone, wallet, computer) for task automation.",
-      "uniqueness": "novel",
-      "red_flags": [
-        "No verified Twitter/official social presence clearly stated",
-        "Product functionality vague (what does agent 'computer' mean?)",
-        "Broader vision (not crypto-specific) makes differentiation less clear"
-      ],
-      "one_line_pitch": "AI agents with email, phone, wallet, and computer for work automation.",
-      "website_url": "https://cue.im/",
-      "twitter_handle": "cueagents",
-      "reviewed_at": "2026-10-03T17:04:48.850Z"
-    },
-    {
-      "name": "MemeRouter.fun",
-      "ticker": "MemeRouter",
-      "mint": "3qnaL68xvCG8na86tieVhEqZhGcPuM595AwTbKZSpump",
-      "quality_score": 6,
-      "mechanism_summary": "Multi-launchpad aggregator UI; launch across 9 launchpads (Pump.fun, Paid, Pons, etc.) non-custodially.",
-      "uniqueness": "novel",
-      "red_flags": [
-        "Very recent (June 2026, 2 posts only)",
-        "No-fee model sustainability unclear (how monetize if user signs directly?)"
-      ],
-      "one_line_pitch": "Single UI for launching tokens across 9 launchpads; non-custodial aggregator.",
-      "website_url": "https://memerouter.app/",
-      "twitter_handle": "memerouterapp",
-      "reviewed_at": "2026-10-03T17:04:48.843Z"
     }
   ],
   "new_idea_suggestions": [
