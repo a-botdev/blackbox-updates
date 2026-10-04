@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T00:57:19.851Z",
+  "generated_at": "2026-10-04T03:14:27.356Z",
   "note": "Quality-reviewed tech coins: passed a local coarse filter (qwen2.5:3b) then a real judgment pass (Haiku) confirming is_real_tech=true. new_idea_suggestions are Haiku-generated, informed by these patterns but NOT copies -- creative seeds for further review, not trading signals.",
   "quality_tech_coins": [
     {
@@ -277,6 +277,66 @@
       "website_url": "http://dotnet.land",
       "twitter_handle": "dotnetfund",
       "reviewed_at": "2026-10-03T13:48:57.247Z"
+    },
+    {
+      "name": "Superintelligence Gaming Factory",
+      "ticker": "SIGF",
+      "mint": "CwSNUU54NLJt4qbGg5S8TUzJYxjYAfL4VrPr7zvJpump",
+      "quality_score": 7,
+      "mechanism_summary": "Users burn tokens to vote on which games + AI-mods run live; community-driven game factory.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "AI mod capability details vague — actual generative power unclear",
+        "DAO gaming projects often fail on engagement and monetization",
+        "scalability of live game generation unproven"
+      ],
+      "one_line_pitch": "Burn-voting DAO selects live AI-modded games; fresh DAO-game-gen hybrid.",
+      "website_url": "https://sigf.ai/",
+      "twitter_handle": "sigf_ai",
+      "reviewed_at": "2026-10-04T03:14:25.437Z"
+    },
+    {
+      "name": "Duel",
+      "ticker": "DUEL",
+      "mint": "V83T8UtNKxppKq5Ehqhfv6cPJPvuGExet8GMVqdpump",
+      "quality_score": 7,
+      "mechanism_summary": "PVP trading platform where users compete with matched $10k portfolios.",
+      "uniqueness": "derivative",
+      "red_flags": [],
+      "one_line_pitch": "Solana PVP trading duels with wallet-verified scoring",
+      "website_url": "https://duelpvp.online/",
+      "twitter_handle": "duelpvponline",
+      "reviewed_at": "2026-10-04T03:14:04.556Z"
+    },
+    {
+      "name": "SEND",
+      "ticker": "SEND",
+      "mint": "DgAsgSp9QEsrjJX26n8vgVzsZBFmibqshCLUiwnXpump",
+      "quality_score": 7,
+      "mechanism_summary": "ChatGPT plugin that launches coins on pump.fun without requiring wallet or SOL.",
+      "uniqueness": "derivative",
+      "red_flags": [],
+      "one_line_pitch": "ChatGPT integration for no-wallet pump.fun coin launches",
+      "website_url": "https://hitsend.fun/",
+      "twitter_handle": "hitsendfun",
+      "reviewed_at": "2026-10-04T03:14:04.510Z"
+    },
+    {
+      "name": "Hooked",
+      "ticker": "HOOKED",
+      "mint": "LFCQQdgkAHX3Z1NTzPhCHiMdZZsFrX13peU6NEtpump",
+      "quality_score": 7,
+      "mechanism_summary": "Launchpad for tokens with on-chain Solana transfer-hook rules enforced at protocol level",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "contract address placeholder shows 'SET_CA_IN_SCRIPT_JS'",
+        "labeled 'Coming soon' - no deployed token yet",
+        "transfer hooks are existing Solana feature, application is derivative"
+      ],
+      "one_line_pitch": "Transfer-hook launchpad enforcing token rules at Solana protocol level",
+      "website_url": "https://www.hookedpad.com/",
+      "twitter_handle": "hoookedpad",
+      "reviewed_at": "2026-10-04T03:13:19.242Z"
     },
     {
       "name": "clipr",
@@ -2185,6 +2245,58 @@
       "reviewed_at": "2026-10-03T13:13:07.851Z"
     },
     {
+      "name": "ZKL Pad",
+      "ticker": "ZKL",
+      "mint": "FE2PBgqf9RoDSMRAgbhr3kKFCsZLaC7NKkvZ5ostpump",
+      "quality_score": 6,
+      "mechanism_summary": "Earn payouts via zero-knowledge proofs; separate earning and payout wallets for privacy.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "no website provided — cannot verify working product or implementation",
+        "ZK privacy infrastructure is complex; execution risk high",
+        "privacy-coin regulatory risk in US/EU",
+        "generic 'Pad' branding suggests early/unfinished project"
+      ],
+      "one_line_pitch": "ZK-proof-based earning that hides wallet identity; novel but unverified.",
+      "website_url": "https://zkl.fun",
+      "twitter_handle": "zklpad",
+      "reviewed_at": "2026-10-04T03:14:25.440Z"
+    },
+    {
+      "name": "brainworm",
+      "ticker": "BRAINWORM",
+      "mint": "Hzdthevb5nefLEpwQqwWWedx2gfpf4m6MiCyFghwpump",
+      "quality_score": 6,
+      "mechanism_summary": "Launchpad where each coin gets a simulated worm neural network that reacts to trades",
+      "uniqueness": "novel",
+      "red_flags": [
+        "no evidence neural simulation is live/functional vs. visual theater",
+        "vague on how 'worm feels trades' works mechanically or economically",
+        "no deployed test or devnet proof shown"
+      ],
+      "one_line_pitch": "Launchpad tying simulated worm brains (Platynereis dumerilii) to coin trade activity",
+      "website_url": "https://brainworms.xyz/",
+      "twitter_handle": "wormlaunch",
+      "reviewed_at": "2026-10-04T03:13:19.236Z"
+    },
+    {
+      "name": "InuCoin",
+      "ticker": "INU",
+      "mint": "BZq2zZWVpNViWcTgaVZ7A3SgbhNZYruTtMHruHYETP3j",
+      "quality_score": 6,
+      "mechanism_summary": "SPL token factory applying Dogecoin's 8-decimal, no-cap emission rules on Solana.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "derivative of DogeOS, just ported to Solana",
+        "no clear utility beyond factory mechanism",
+        "adoption and demand unclear"
+      ],
+      "one_line_pitch": "Token factory replicating Dogecoin tokenomics on Solana",
+      "website_url": "https://myinucoin.com/",
+      "twitter_handle": "inucoinxyz",
+      "reviewed_at": "2026-10-04T03:13:02.796Z"
+    },
+    {
       "name": "World Strategic Oil Supply",
       "ticker": "WSOS",
       "mint": "EDm7RKU1uUFLFNU4qVBv6cddpY4Ei4cfLcbnCUWpump",
@@ -3192,128 +3304,6 @@
       "website_url": "https://www.raidr.tech",
       "twitter_handle": "raidr_sol",
       "reviewed_at": "2026-10-03T13:04:55.270Z"
-    },
-    {
-      "name": "Hooker",
-      "ticker": "Hooker",
-      "mint": "BcwVt2PkqyWr7pGBtFRimrQVMj2nm16iFuRbdvekpump",
-      "quality_score": 6,
-      "mechanism_summary": "Token-2022 transfer hooks enforce presale rules; graduates to pump.fun on curve completion.",
-      "uniqueness": "derivative",
-      "red_flags": [
-        "No launches yet — zero live product",
-        "Site launched October 2026, extremely fresh",
-        "No revenue, campaigns, or traction shown",
-        "Fully dependent on pump.fun migration path"
-      ],
-      "one_line_pitch": "Presale via Solana Token-2022 hooks; graduates to pump.fun. Real but presales are common.",
-      "website_url": "https://hooker.fun",
-      "twitter_handle": "hookerdotfun",
-      "reviewed_at": "2026-10-03T13:04:55.266Z"
-    },
-    {
-      "name": "HoldFast",
-      "ticker": "HOLDFAST",
-      "mint": "95438nDeyU7bsTTurJ6Eg6bfcUwFnADkQeGqZYJNpump",
-      "quality_score": 6,
-      "mechanism_summary": "Pre-launch SOL pooling, atomic first-buy at token creation, vault-agent chart management, 5× profit-share exit.",
-      "uniqueness": "derivative",
-      "red_flags": [
-        "beta stage, very recent launch",
-        "vault agent behavior undefined",
-        "'works the chart inside program limits' vague",
-        "no live contract interaction shown"
-      ],
-      "one_line_pitch": "Pre-launch pooled entry with 5× profit-share exits via vault agent.",
-      "website_url": null,
-      "twitter_handle": "tryholdfast",
-      "reviewed_at": "2026-10-03T13:03:17.776Z"
-    },
-    {
-      "name": "PaperFills",
-      "ticker": "PAPER",
-      "mint": "3b5eFhp9Qr27YAz4rPZyjYGmk3vZJAe2qR2bY1jfpump",
-      "quality_score": 6,
-      "mechanism_summary": "Chrome extension adding paper trading account to Axiom platform; practice with fake money",
-      "uniqueness": "derivative",
-      "red_flags": [
-        "Coin's actual role in product unclear (governance? utility? just branding?)",
-        "Website describes the product, not the coin mechanism or tokenomics",
-        "Paper trading itself is old; Axiom integration is specific but not novel",
-        "No explanation of how PAPER token participates in the ecosystem"
-      ],
-      "one_line_pitch": "Chrome extension for risk-free paper trading on Axiom (real product exists)",
-      "website_url": "https://paperfills.com/",
-      "twitter_handle": "paperfills",
-      "reviewed_at": "2026-10-03T13:01:59.367Z"
-    },
-    {
-      "name": "Cons",
-      "ticker": "CONS",
-      "mint": "4Z24wE8vK9wfzN65gquct2m85KPGEkcKfcc714J7pump",
-      "quality_score": 6,
-      "mechanism_summary": "Cross-chain routing protocol that discovers and compares token/message routes across networks.",
-      "uniqueness": "derivative",
-      "red_flags": [
-        "Token CA not live yet (website only, no deployed contract)"
-      ],
-      "one_line_pitch": "Solana-native cross-chain routing discovery and optimization layer.",
-      "website_url": "https://cons.cash/",
-      "twitter_handle": "usecons_",
-      "reviewed_at": "2026-10-03T13:00:58.680Z"
-    },
-    {
-      "name": "SteamIt",
-      "ticker": "STEAMIT",
-      "mint": "CfHzLqL8PkMBkP6DE2VaPta7A8yXJSBBxerECzs7pump",
-      "quality_score": 6,
-      "mechanism_summary": "Pair coin to Steam game AppID; creator fees lock to game publisher vault.",
-      "uniqueness": "novel",
-      "red_flags": [
-        "Limited technical detail; contract address not provided",
-        "Unclear if system is fully operational (no live examples shown)",
-        "Relationship with Steam/Valve undefined ('unofficial until publisher claims')"
-      ],
-      "one_line_pitch": "Solana coins paired to Steam games; fees route to game publishers.",
-      "website_url": "https://steamit.fun/",
-      "twitter_handle": "steamitpad",
-      "reviewed_at": "2026-10-03T12:59:45.823Z"
-    },
-    {
-      "name": "SlabPay",
-      "ticker": "SlabPay",
-      "mint": "GUC1rkyDzhjJjRRda5PQoM6onvHuXsbFE51UwF8Tpump",
-      "quality_score": 6,
-      "mechanism_summary": "Sell NFTs/collectibles, convert settled proceeds to U.S. prepaid card for real-world spending.",
-      "uniqueness": "novel",
-      "red_flags": [
-        "SlabPay token address not yet announced; token role unclear",
-        "Regulatory/compliance risk: third-party card issuer (Laso), partial KYC required",
-        "Product is fintech-first, not crypto-native",
-        "Depends on external payment rails and issuer terms",
-        "No documented token utility (fee payment? governance?)"
-      ],
-      "one_line_pitch": "Convert NFT/collectibles to U.S. prepaid card for real-world purchases.",
-      "website_url": "https://useslabpay.com/",
-      "twitter_handle": "slabpay",
-      "reviewed_at": "2026-10-03T12:50:02.727Z"
-    },
-    {
-      "name": "KYCPAD",
-      "ticker": "KYCPAD",
-      "mint": "KYCS9ojGGkUruLhYe3ciiTuPqnWYCUF5ymQ9zKVF4fs",
-      "quality_score": 6,
-      "mechanism_summary": "KYC-gated launchpad; developers get one verified identity for life, all coin launches publicly tracked.",
-      "uniqueness": "novel",
-      "red_flags": [
-        "currently unused (0 verified devs, 0 coins live, 0 fresh-wallet resets)",
-        "mandatory KYC is a significant privacy/UX barrier in the Solana ecosystem",
-        "one-wallet-for-life enforcement is novel but adoption risk is high"
-      ],
-      "one_line_pitch": "KYC launchpad forcing one verified developer identity for life, all launches tracked",
-      "website_url": "https://www.kycpad.fun/",
-      "twitter_handle": "kycpad",
-      "reviewed_at": "2026-10-03T12:46:55.820Z"
     }
   ],
   "new_idea_suggestions": [
