@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T18:46:30.720Z",
+  "generated_at": "2026-10-04T19:01:02.977Z",
   "note": "Quality-reviewed tech coins: passed a local coarse filter (qwen2.5:3b) then a real judgment pass (Haiku) confirming is_real_tech=true. new_idea_suggestions are Haiku-generated, informed by these patterns but NOT copies -- creative seeds for further review, not trading signals.",
   "quality_tech_coins": [
     {
@@ -3129,6 +3129,58 @@
       "reviewed_at": "2026-10-03T13:13:07.851Z"
     },
     {
+      "name": "DotJob",
+      "ticker": "DOTJOB",
+      "mint": "7xtMMa3dyqjw3WVMJkycR6teBnqLynPJbCC1xfN7pump",
+      "quality_score": 6,
+      "mechanism_summary": "On-chain job board: humans post errands (SOL bounty), agents ('Dots') claim and deliver, paid via Solana transaction.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "No evidence of live product, website appears to be a mockup/landing page",
+        "No confirmation contract is deployed and functional",
+        "On-chain marketplace/gig work is a well-trodden pattern (OpenGov bounties, etc.)"
+      ],
+      "one_line_pitch": "On-chain gig marketplace where agents claim posted jobs, deliver work, and receive SOL payment.",
+      "website_url": "https://www.dotjob.trade/",
+      "twitter_handle": "usedotjob",
+      "reviewed_at": "2026-10-04T19:01:01.111Z"
+    },
+    {
+      "name": "duelpvp",
+      "ticker": "DUELPVP",
+      "mint": "2kW6SYamwAifqCsaxZYBGMuDbxDRk4QYU3upn4vipump",
+      "quality_score": 6,
+      "mechanism_summary": "Head-to-head portfolio competition with $10K virtual books; wallet-verified on-chain scoring, ranked seasons.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "product appears incomplete—UI mockups shown but no live duel observable",
+        "site says 'Live on Solana' but sign-up/onboarding UX not functional",
+        "no contract address prominently listed"
+      ],
+      "one_line_pitch": "PVP trading competition with on-chain wallet scoring and seasonal rankings.",
+      "website_url": "https://duelpvp.online/",
+      "twitter_handle": "duelpvponline",
+      "reviewed_at": "2026-10-04T18:59:48.066Z"
+    },
+    {
+      "name": "Greenpill",
+      "ticker": "Greenpill",
+      "mint": "7MPzsBt2waXBMgybmPPUsym1QZgtHecE14WmNHaspump",
+      "quality_score": 6,
+      "mechanism_summary": "X OAuth-gated coins; trading fees routed to X account holder's Solana wallet.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "no working product, just landing page",
+        "contract 'TBA'",
+        "dependency on X/Pump.fun APIs",
+        "0 coins launched"
+      ],
+      "one_line_pitch": "Coins tied to any X account; trading fees paid to users' wallets globally.",
+      "website_url": "https://greenpill.fun/",
+      "twitter_handle": "getgreenpill",
+      "reviewed_at": "2026-10-04T18:59:38.878Z"
+    },
+    {
       "name": "BEDBUG",
       "ticker": "BEDBUG",
       "mint": "Dg3AvRYdEZRa3unG5kbgGM9STLt4zd5hgHd2uMHkpump",
@@ -3215,53 +3267,6 @@
       "website_url": "https://whopies.com",
       "twitter_handle": "trywhopies",
       "reviewed_at": "2026-10-04T18:17:14.039Z"
-    },
-    {
-      "name": "Grandmarket",
-      "ticker": "GRAND",
-      "mint": "Ch4eoM9zZ2815R7LrcgvkH9hhXG4hbZgjScyzms1pump",
-      "quality_score": 6,
-      "mechanism_summary": "Each Old School RuneScape item becomes exactly one token on Solana; first claimant owns it via scarcity.",
-      "uniqueness": "novel",
-      "red_flags": [
-        "No clear long-term utility beyond ownership",
-        "No integration with OSRS game itself",
-        "Token supply capped at ~4,662 items"
-      ],
-      "one_line_pitch": "Bridge Old School RuneScape items to Solana tokens, one per item, first-claim.",
-      "website_url": "https://grandmarket.fun/",
-      "twitter_handle": "grandmarketfun",
-      "reviewed_at": "2026-10-04T18:17:14.034Z"
-    },
-    {
-      "name": "PET",
-      "ticker": "PET",
-      "mint": "5RnTbukMJBmQbgPVW3buqN4aYc1HCbdHr2uLSUTguPET",
-      "quality_score": 6,
-      "mechanism_summary": "Users upload pet photos; platform creates on-chain agents and launches coins; $PET captures launch fees.",
-      "uniqueness": "novel",
-      "red_flags": [
-        "no clear definition of 'agent' autonomy level",
-        "example pets may be mockups, not real launches",
-        "production status/roadmap unclear"
-      ],
-      "one_line_pitch": "Pet-to-agent-to-coin launcher; $PET captures platform launch fees.",
-      "website_url": "https://petagents.fun",
-      "twitter_handle": "petagents",
-      "reviewed_at": "2026-10-04T18:16:47.301Z"
-    },
-    {
-      "name": "LockedIn",
-      "ticker": "LOCKEDIN",
-      "mint": "2EfwJQZEEw9D5Vnqok7PUQpcg1biazPaFfsBKAhNZhcd",
-      "quality_score": 6,
-      "mechanism_summary": "Launch tokens for any public profile with creator fees locked in escrow until profile owner claims them.",
-      "uniqueness": "derivative",
-      "red_flags": [],
-      "one_line_pitch": "Token launcher for public figures, fees held in escrow until they claim.",
-      "website_url": "https://launchonlocked.in/coin/2EfwJQZEEw9D5Vnqok7PUQpcg1biazPaFfsBKAhNZhcd",
-      "twitter_handle": "launchlockedin",
-      "reviewed_at": "2026-10-04T18:14:47.829Z"
     }
   ],
   "new_idea_suggestions": [
