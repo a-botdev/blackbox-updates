@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T09:33:28.455Z",
+  "generated_at": "2026-10-04T09:47:33.448Z",
   "note": "Quality-reviewed tech coins: passed a local coarse filter (qwen2.5:3b) then a real judgment pass (Haiku) confirming is_real_tech=true. new_idea_suggestions are Haiku-generated, informed by these patterns but NOT copies -- creative seeds for further review, not trading signals.",
   "quality_tech_coins": [
     {
@@ -305,6 +305,56 @@
       "website_url": "http://dotnet.land",
       "twitter_handle": "dotnetfund",
       "reviewed_at": "2026-10-03T13:48:57.247Z"
+    },
+    {
+      "name": "PokeGacha",
+      "ticker": "GACHA",
+      "mint": "G3fEzJ943rXxw4unQz6SpGBsPRvRZHcfbkd9NdNkpump",
+      "quality_score": 7,
+      "mechanism_summary": "Hold GACHA to enter on-chain raffle; winners receive graded Pokémon cards every 15 minutes.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "raffle-for-rewards is a known pattern; Pokémon card angle is fresher but not novel",
+        "physical goods logistics (authentication, delivery, sourcing) not detailed",
+        "15-min cadence sustainability unclear (card cost/quality)",
+        "no reserve/escrow clarity for prize cards"
+      ],
+      "one_line_pitch": "Hold token to win sealed graded Pokémon cards via on-chain raffle every 15 minutes.",
+      "website_url": "https://www.pokegacha.xyz/",
+      "twitter_handle": "pokegachasol",
+      "reviewed_at": "2026-10-04T09:45:36.571Z"
+    },
+    {
+      "name": "LaunchTag",
+      "ticker": "TAG",
+      "mint": "G8V4p19ixzcWzXLYad3Jkyk7waRmWZEWAKRT1rKXpump",
+      "quality_score": 7,
+      "mechanism_summary": "Share 70% of coin fees by wearing its tag in X display name.",
+      "uniqueness": "novel",
+      "red_flags": [],
+      "one_line_pitch": "Share coin fees by wearing its tag in X display name hourly.",
+      "website_url": "https://launchtag.fun/",
+      "twitter_handle": "sollaunchtag",
+      "reviewed_at": "2026-10-04T09:44:35.379Z"
+    },
+    {
+      "name": "Jupsters",
+      "ticker": "JUPSTERS",
+      "mint": "29M44K6aa5B5PBgkqgrqvM6rpHFMX87Bg2pffSp3pump",
+      "quality_score": 7,
+      "mechanism_summary": "AI agents execute leveraged trades on Jupiter Perps; users create/connect agents, set hard risk limits, track PnL publicly.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "token utility within system unclear (governance? rewards?)",
+        "legal status of leverage trading unclear (US derivatives rules)",
+        "agent incentive model not documented",
+        "rug risk if agents blow deposited funds",
+        "ticker mismatch (JUPSTERS vs. JUP in UI)"
+      ],
+      "one_line_pitch": "AI agents trade Jupiter leveraged perps with public PnL tracking and user-set risk limits.",
+      "website_url": "https://jupsters.fun/",
+      "twitter_handle": "jupstersfun",
+      "reviewed_at": "2026-10-04T09:43:07.437Z"
     },
     {
       "name": "Fuelbot",
@@ -2589,6 +2639,92 @@
       "reviewed_at": "2026-10-03T13:13:07.851Z"
     },
     {
+      "name": "Minion Lab",
+      "ticker": "MINION",
+      "mint": "3WcwCvcauSTwTu5QuUjo3YyZiSx7mmN1RgnT5jkoKa7q",
+      "quality_score": 6,
+      "mechanism_summary": "Autonomous AI agents mine specialized data from idle devices, deliver to AI developers.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "no working product, only marketing site",
+        "high execution risk (autonomous agents)",
+        "vague data delivery/monetization",
+        "token utility fairly standard"
+      ],
+      "one_line_pitch": "Autonomous AI agents mine web data from idle devices; ambitious, unclear execution.",
+      "website_url": "https://minionlab.ai/",
+      "twitter_handle": "minionlabai",
+      "reviewed_at": "2026-10-04T09:47:30.184Z"
+    },
+    {
+      "name": "[0]",
+      "ticker": "ZERO",
+      "mint": "39L7idC9SzhzqyACeWBUpCHPXw3PTZ453tfD6pv2pump",
+      "quality_score": 6,
+      "mechanism_summary": "Privacy-preserving Solana stablecoin backed 1:1 by USDC; private transfers via ZK tech.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "privacy coins face regulatory headwinds (SEC, FinCEN scrutiny)",
+        "implementation details sparse (no ZK protocol spec, no audit link)",
+        "USDC backing mechanism unclear (who holds reserve, audit?)",
+        "website content cuts off mid-feature; incomplete disclosure",
+        "Solana privacy angle is fresher than standalone privacy coins, but not groundbreaking"
+      ],
+      "one_line_pitch": "USDC-backed privacy stablecoin on Solana with selective-disclosure ZK transfers.",
+      "website_url": "https://usezero.cash/",
+      "twitter_handle": "zerodotcash",
+      "reviewed_at": "2026-10-04T09:45:36.576Z"
+    },
+    {
+      "name": "Phone Pad",
+      "ticker": "PHONE",
+      "mint": "4yfqBWgfa1pJ5WXSmiBR6umm1YtuB5Bbar8KgaZ1pump",
+      "quality_score": 6,
+      "mechanism_summary": "Route pump.fun creator fees to phone numbers; claim SOL via SMS code.",
+      "uniqueness": "novel",
+      "red_flags": [],
+      "one_line_pitch": "Route pump.fun fees to phone numbers; claim via SMS without wallet.",
+      "website_url": "https://www.phonepad.family/",
+      "twitter_handle": "tryphonepad",
+      "reviewed_at": "2026-10-04T09:44:35.371Z"
+    },
+    {
+      "name": "Next of Kin",
+      "ticker": "NOKO",
+      "mint": "EhxazgEG22YrbHATJqMDrUKqdXTs3JaNJ2rzMQxaV3V6",
+      "quality_score": 6,
+      "mechanism_summary": "Behavioral AI twin learns user's trading history, executes alternative trades avoiding user's historical mistakes.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "TOKEN NOT LAUNCHED (pure vaporware)",
+        "No working prototype or demo shown",
+        "Behavioral robo-advisor concept well-established in fintech; 'twin' framing novel but underlying tech derivative",
+        "No technical details on ML model, data handling, or trading mechanics"
+      ],
+      "one_line_pitch": "AI behavioral twin models your trading to avoid your own bad habits.",
+      "website_url": "https://noko.ink/",
+      "twitter_handle": "twinofkin",
+      "reviewed_at": "2026-10-04T09:44:28.351Z"
+    },
+    {
+      "name": "WorldStake",
+      "ticker": "WSTAKE",
+      "mint": "HLG191j1xJvW1Q1eu544fBzAFpBir198vEzcMxzQpump",
+      "quality_score": 6,
+      "mechanism_summary": "Staking-based territorial PvP game; earn points hourly; banked (protected) vs. unbanked (stealable) risk modes.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "currently test-mode only; no real monetary value",
+        "operator-controlled custody of staked tokens (centralization risk)",
+        "withdrawal guarantees unclear ('depends on service')",
+        "early-stage, launch timeline unknown"
+      ],
+      "one_line_pitch": "Staking + territorial conquest PvP game; banked/unbanked risk duality; still in test mode.",
+      "website_url": "https://worldstake.org/",
+      "twitter_handle": "worldstake_",
+      "reviewed_at": "2026-10-04T09:43:07.434Z"
+    },
+    {
       "name": "Stack",
       "ticker": "STACK",
       "mint": "FdDVmuK4DhDuYWTxVPfApxPHGEZ6u6yJXPeRq5yNpump",
@@ -3135,142 +3271,6 @@
       "website_url": "https://zkl.fun",
       "twitter_handle": "zklpad",
       "reviewed_at": "2026-10-04T03:14:25.440Z"
-    },
-    {
-      "name": "brainworm",
-      "ticker": "BRAINWORM",
-      "mint": "Hzdthevb5nefLEpwQqwWWedx2gfpf4m6MiCyFghwpump",
-      "quality_score": 6,
-      "mechanism_summary": "Launchpad where each coin gets a simulated worm neural network that reacts to trades",
-      "uniqueness": "novel",
-      "red_flags": [
-        "no evidence neural simulation is live/functional vs. visual theater",
-        "vague on how 'worm feels trades' works mechanically or economically",
-        "no deployed test or devnet proof shown"
-      ],
-      "one_line_pitch": "Launchpad tying simulated worm brains (Platynereis dumerilii) to coin trade activity",
-      "website_url": "https://brainworms.xyz/",
-      "twitter_handle": "wormlaunch",
-      "reviewed_at": "2026-10-04T03:13:19.236Z"
-    },
-    {
-      "name": "InuCoin",
-      "ticker": "INU",
-      "mint": "BZq2zZWVpNViWcTgaVZ7A3SgbhNZYruTtMHruHYETP3j",
-      "quality_score": 6,
-      "mechanism_summary": "SPL token factory applying Dogecoin's 8-decimal, no-cap emission rules on Solana.",
-      "uniqueness": "derivative",
-      "red_flags": [
-        "derivative of DogeOS, just ported to Solana",
-        "no clear utility beyond factory mechanism",
-        "adoption and demand unclear"
-      ],
-      "one_line_pitch": "Token factory replicating Dogecoin tokenomics on Solana",
-      "website_url": "https://myinucoin.com/",
-      "twitter_handle": "inucoinxyz",
-      "reviewed_at": "2026-10-04T03:13:02.796Z"
-    },
-    {
-      "name": "World Strategic Oil Supply",
-      "ticker": "WSOS",
-      "mint": "EDm7RKU1uUFLFNU4qVBv6cddpY4Ei4cfLcbnCUWpump",
-      "quality_score": 6,
-      "mechanism_summary": "On-chain tokenization of oil supply with attested barrels and Tier-1 backed custody.",
-      "uniqueness": "novel",
-      "red_flags": [
-        "Custody claims (Tier-1 backing) completely unverified",
-        "Barrel attestation (1.3M) unverified and unexplained",
-        "Vague on actual mechanism—how are barrels tracked, transferred, or redeemed?",
-        "Launch timing confused (site says 'go live 07 Oct' from current date 10-03)"
-      ],
-      "one_line_pitch": "Tokenized oil commodity with on-chain supply data (claims unverified).",
-      "website_url": "http://wsos.live/",
-      "twitter_handle": "wsostoken",
-      "reviewed_at": "2026-10-04T00:57:18.265Z"
-    },
-    {
-      "name": "Bounty",
-      "ticker": "BOUNTY ",
-      "mint": "5Bm2okRjxDDa6rjSAtPT32MLaVaeKgypKqYY58tkpump",
-      "quality_score": 6,
-      "mechanism_summary": "Real-time scanner for mispriced graded One Piece cards across three exchanges; Telegram alerts.",
-      "uniqueness": "derivative",
-      "red_flags": [
-        "contract address not yet live ('Coming soon')",
-        "sniping/arbitrage is a well-worn mechanic",
-        "execution risk on real-time pricing accuracy"
-      ],
-      "one_line_pitch": "One Piece card sniping bot; scans auctions, alerts on undervalued listings.",
-      "website_url": "https://www.bountysnipingbot.com/",
-      "twitter_handle": "bountysnipebot",
-      "reviewed_at": "2026-10-04T00:29:43.603Z"
-    },
-    {
-      "name": "Ouys",
-      "ticker": "OUYS",
-      "mint": "GdEuybJ2iGPu9gZehZN8vHfSiwDJjhofpxyEozFrpump",
-      "quality_score": 6,
-      "mechanism_summary": "Accumulated trading fees buy real Pokémon card packs, ripped on-chain; holders randomly selected for cards.",
-      "uniqueness": "novel",
-      "red_flags": [
-        "contract address not deployed",
-        "site incomplete/unfinished",
-        "relies on external physical goods fulfillment",
-        "CA coming soon"
-      ],
-      "one_line_pitch": "Physical Pokémon card packs ripped on-chain; fee accumulation triggers purchases.",
-      "website_url": "https://ouys.tech/",
-      "twitter_handle": "ouys",
-      "reviewed_at": "2026-10-04T00:29:14.272Z"
-    },
-    {
-      "name": "Alternative Trading System",
-      "ticker": "ATS",
-      "mint": "Ake2xFaB6A1vtG5CekMapABwDKdEcHQAbsv5Xgtcpump",
-      "quality_score": 6,
-      "mechanism_summary": "Off-chain dark pool for large Solana meme trades; settlement at pool price, no chart impact",
-      "uniqueness": "novel",
-      "red_flags": [
-        "website is wallet-only, zero product details",
-        "settlement mechanism and liquidity model not explained",
-        "dark pool legality for crypto unproven"
-      ],
-      "one_line_pitch": "Dark pool for Solana memes; large trades settle off-chain with no chart candle",
-      "website_url": "https://ats.markets/",
-      "twitter_handle": "atsdotmarkets",
-      "reviewed_at": "2026-10-04T00:28:52.602Z"
-    },
-    {
-      "name": "Shiller",
-      "ticker": "SHLR",
-      "mint": "D6aQFtdQqcC4cTWMjWPTAqb3ECMV42mwTqU8GQ2dpump",
-      "quality_score": 6,
-      "mechanism_summary": "Projects fund missions in SOL, community completes them, protocol verifies and auto-pays",
-      "uniqueness": "derivative",
-      "red_flags": [
-        "Work verification mechanism details unclear",
-        "Fraud prevention not explained"
-      ],
-      "one_line_pitch": "On-chain bounty platform for community marketing and task work",
-      "website_url": "https://shlr.fun/",
-      "twitter_handle": "shlrfun",
-      "reviewed_at": "2026-10-04T00:28:08.177Z"
-    },
-    {
-      "name": "CROW",
-      "ticker": "CROW",
-      "mint": "A3MNEUT56HhQdbuaacaPjw4cihGNaW1cSjfEaJpepump",
-      "quality_score": 6,
-      "mechanism_summary": "Community voting system for project launches with game mechanics and missions",
-      "uniqueness": "derivative",
-      "red_flags": [
-        "Voting mechanism details unclear",
-        "Many features marked LOCK (not yet live)"
-      ],
-      "one_line_pitch": "Community-voted project launcher with gamified world and mission system",
-      "website_url": "https://crow.meme",
-      "twitter_handle": "legendofcrows",
-      "reviewed_at": "2026-10-04T00:28:08.175Z"
     }
   ],
   "new_idea_suggestions": [
