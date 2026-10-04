@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T08:31:22.790Z",
+  "generated_at": "2026-10-04T08:45:37.131Z",
   "note": "Quality-reviewed tech coins: passed a local coarse filter (qwen2.5:3b) then a real judgment pass (Haiku) confirming is_real_tech=true. new_idea_suggestions are Haiku-generated, informed by these patterns but NOT copies -- creative seeds for further review, not trading signals.",
   "quality_tech_coins": [
     {
@@ -305,6 +305,40 @@
       "website_url": "http://dotnet.land",
       "twitter_handle": "dotnetfund",
       "reviewed_at": "2026-10-03T13:48:57.247Z"
+    },
+    {
+      "name": "lonshor",
+      "ticker": "lonshor",
+      "mint": "8ez5vbfy6NNa5wgbwi9VYNRAmsFAcDzg5vbU1eRMpump",
+      "quality_score": 7,
+      "mechanism_summary": "Binary long/short derivatives on pump.fun bonding curve; 1x–3x leverage, 150-slot (1min) holds, 0.3% fee.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "Devnet/testnet only, not mainnet live",
+        "Shared vault model creates counterparty concentration risk",
+        "Complex liquidation mechanics unproven in live setting"
+      ],
+      "one_line_pitch": "Leveraged derivatives on bonding-curve pump.fun coins (testnet-only).",
+      "website_url": "https://lonshor.fun/",
+      "twitter_handle": "lonshorfun",
+      "reviewed_at": "2026-10-04T08:45:33.962Z"
+    },
+    {
+      "name": "Clubpad",
+      "ticker": "club",
+      "mint": "FPCgo2Gt81jyM6GRXhGFdkU6V6Kh7Qcfo5WP7Chmpump",
+      "quality_score": 7,
+      "mechanism_summary": "100 named seats per coin, owner-set price for each, 0.5% daily tax, 5% resale to other 99.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "Demo mode only (NO HOUSE OPEN YET)",
+        "No live trading; unproven economic dynamics",
+        "Complex mechanism may have design/gaming issues"
+      ],
+      "one_line_pitch": "Seat-based shared-ownership model with owner-priced memberships per coin.",
+      "website_url": "https://clubpad.fun/",
+      "twitter_handle": "clubpadx",
+      "reviewed_at": "2026-10-04T08:45:33.961Z"
     },
     {
       "name": "Vibe Fuel",
@@ -2474,6 +2508,41 @@
       "reviewed_at": "2026-10-03T13:13:07.851Z"
     },
     {
+      "name": "Meme Funded",
+      "ticker": "MF",
+      "mint": "4dtJPgybk2SY6sqHx3CCXE2CzqmC5ERvWwZNeQM5pump",
+      "quality_score": 6,
+      "mechanism_summary": "Tokenized prop-firm access: buy $MF, connect wallet, trade with leveraged prop capital.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "No website or evidence of working product",
+        "No onchain activity reference or launch details",
+        "Prop firm claims unverified; may be vaporware",
+        "No links to actual trading platform"
+      ],
+      "one_line_pitch": "Tokenized prop-firm access model (unverified working product).",
+      "website_url": "https://memefunded.app/",
+      "twitter_handle": "danielbullarc",
+      "reviewed_at": "2026-10-04T08:45:33.960Z"
+    },
+    {
+      "name": ".si",
+      "ticker": ".si",
+      "mint": "3jLqvTY9dTPxarbUWuqyaD2p2AQt2SouZzug8mBfpump",
+      "quality_score": 6,
+      "mechanism_summary": "On-chain identity passport system for autonomous agents; job posting and hiring marketplace.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "No working website or verifiable product",
+        "Autonomous agents is vague industry term; could be marketing BS",
+        "No proof of on-chain implementation"
+      ],
+      "one_line_pitch": "On-chain identity and job marketplace for autonomous agents.",
+      "website_url": "https://nametag.si/",
+      "twitter_handle": "nametagdotsi",
+      "reviewed_at": "2026-10-04T08:43:59.868Z"
+    },
+    {
       "name": "Revenue",
       "ticker": "REV",
       "mint": "CuP5Ng85HiCdHiKnc9pKe9MVEVkJDHmMsyEvbXHopump",
@@ -3209,77 +3278,6 @@
       "website_url": "https://www.useshipped.app/",
       "twitter_handle": "useshipped",
       "reviewed_at": "2026-10-03T19:28:02.401Z"
-    },
-    {
-      "name": "Hooked",
-      "ticker": "HOOKED",
-      "mint": "V9EnSvvuEMb2ooXVcAHZwS5fHbepusDKnfL2nK8pump",
-      "quality_score": 6,
-      "mechanism_summary": "Launchpad for tokens with programmable SPL-22 transfer hooks enforced on-chain (caps, limits, fees).",
-      "uniqueness": "derivative",
-      "red_flags": [
-        "transfer hooks are well-known Solana feature (not novel)",
-        "'23 rules live' claim not independently verifiable",
-        "marketing-heavy, no technical depth"
-      ],
-      "one_line_pitch": "Transfer-hook token launchpad; real product on known Solana feature.",
-      "website_url": "https://www.hookedpad.com/",
-      "twitter_handle": "hoookedpad",
-      "reviewed_at": "2026-10-03T19:27:44.116Z"
-    },
-    {
-      "name": "Switch",
-      "ticker": "SWITCH",
-      "mint": "61JoBjst6zPCreX5ptSU1HLDGuir6MjkJTSKTvXEpump",
-      "quality_score": 6,
-      "mechanism_summary": "Event automation: define on-chain rules as trigger/condition/action; rules execute autonomously.",
-      "uniqueness": "derivative",
-      "red_flags": [
-        "on-chain automation already exists (Gelato, Temporal, Treasury DAOs)",
-        "likely UI wrapper over existing protocols",
-        "unclear if live or prototype",
-        "token role in the system unspecified"
-      ],
-      "one_line_pitch": "Zapier-like on-chain automation tool for Solana event-driven actions.",
-      "website_url": "https://switchsol.fun/",
-      "twitter_handle": "switchsol_",
-      "reviewed_at": "2026-10-03T19:01:43.971Z"
-    },
-    {
-      "name": "IRL3",
-      "ticker": "IRL3",
-      "mint": "5hpck3FaHXqhQnL4RwwdaNQFeBka6CpoVBxT1dWupump",
-      "quality_score": 6,
-      "mechanism_summary": "Scan physical objects to create blockchain wallets or tokens, no embedded keys.",
-      "uniqueness": "derivative",
-      "red_flags": [
-        "object-to-key cryptography not explained; 'no key stored' is impossible without centralized backend or embedded hardware",
-        "fraud prevention unclear (how prevent duplicate object scans?)",
-        "no GitHub link despite 'open-source' claim",
-        "website omits cryptographic and technical details"
-      ],
-      "one_line_pitch": "Physical object scanner → blockchain wallet/token (cryptography mechanism opaque).",
-      "website_url": "https://irl3.tech",
-      "twitter_handle": "irl3tech",
-      "reviewed_at": "2026-10-03T18:59:13.869Z"
-    },
-    {
-      "name": "Daemon",
-      "ticker": "DAEMON",
-      "mint": "UgrANGx3JKUyVWiYAbDj6UmhW6xDSmNhyP41apfpump",
-      "quality_score": 6,
-      "mechanism_summary": "AI agent autonomously manages and deploys token creator rewards allocation to token/holders.",
-      "uniqueness": "derivative",
-      "red_flags": [
-        "zero deployed tokens on any model",
-        "appears to be empty platform/vaporware",
-        "narrower scope than Agency",
-        "no working examples or activity"
-      ],
-      "one_line_pitch": "Platform for AI agents to autonomously manage creator token rewards",
-      "website_url": "https://daemonpad.fun/",
-      "twitter_handle": "daemonpad",
-      "reviewed_at": "2026-10-03T18:57:52.051Z"
     }
   ],
   "new_idea_suggestions": [
