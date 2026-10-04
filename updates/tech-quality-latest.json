@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T09:21:04.111Z",
+  "generated_at": "2026-10-04T09:33:28.455Z",
   "note": "Quality-reviewed tech coins: passed a local coarse filter (qwen2.5:3b) then a real judgment pass (Haiku) confirming is_real_tech=true. new_idea_suggestions are Haiku-generated, informed by these patterns but NOT copies -- creative seeds for further review, not trading signals.",
   "quality_tech_coins": [
     {
@@ -305,6 +305,42 @@
       "website_url": "http://dotnet.land",
       "twitter_handle": "dotnetfund",
       "reviewed_at": "2026-10-03T13:48:57.247Z"
+    },
+    {
+      "name": "Fuelbot",
+      "ticker": "FUELBOT",
+      "mint": "GBDAgLEdspka1F33R6gqjgrWdzcXJTEtFF4WzmVupump",
+      "quality_score": 7,
+      "mechanism_summary": "Autonomous agent funded by token trading fees; executes tasks and publishes on-chain receipts.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "core development incomplete (ledger in development, not live)",
+        "receipt/proof mechanism underspecified",
+        "vague on actual agent tasks/capabilities"
+      ],
+      "one_line_pitch": "Self-funding agent powered by its own token's trading fees.",
+      "website_url": "https://fuelbot.fun/",
+      "twitter_handle": "fuelbotfun",
+      "reviewed_at": "2026-10-04T09:29:25.273Z"
+    },
+    {
+      "name": "YouPaid",
+      "ticker": "YouPaid",
+      "mint": "6ToAY2xJADBDS2jgTMHFPVckF4cn8g1msqXmnvpXuq3u",
+      "quality_score": 7,
+      "mechanism_summary": "Platform routes token trading fees to verified YouTube channel owners via verified attribution index.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "YouPaid token itself is a platform wrapper; tokens are created BY users, not as core asset",
+        "token's own utility (governance/fee-split structure) not explicitly described",
+        "depends on YouTube creator opt-in and claim behavior",
+        "verification system is centralized (YouPaid controls index)",
+        "product shown ($3.9M paid) but scalability/incentive alignment untested"
+      ],
+      "one_line_pitch": "Platform auto-routing token trading fees to verified YouTube creators, $3.9M live.",
+      "website_url": "https://useyoupaid.com/",
+      "twitter_handle": "youtubepaid",
+      "reviewed_at": "2026-10-04T09:28:13.058Z"
     },
     {
       "name": "Call Market",
@@ -2553,6 +2589,56 @@
       "reviewed_at": "2026-10-03T13:13:07.851Z"
     },
     {
+      "name": "Stack",
+      "ticker": "STACK",
+      "mint": "FdDVmuK4DhDuYWTxVPfApxPHGEZ6u6yJXPeRq5yNpump",
+      "quality_score": 6,
+      "mechanism_summary": "Launch streamer tokens with configurable creator-fee splits locked in on-chain vaults.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "on-chain program not fully deployed",
+        "partial launch only (live data exists, core contract pending)",
+        "relies on streamer action to claim vault funds",
+        "creator-fee tokenization is incremental variation"
+      ],
+      "one_line_pitch": "Creator coins for streamers with auto-split, on-chain fee vaults.",
+      "website_url": "http://stacklive.xyz",
+      "twitter_handle": "stacklivexyz",
+      "reviewed_at": "2026-10-04T09:29:25.275Z"
+    },
+    {
+      "name": "Notnow",
+      "ticker": "Notnow",
+      "mint": "D3JwE6suBttUPD1Vt1QbeHe1XsNqSoFqset4U1tEpump",
+      "quality_score": 6,
+      "mechanism_summary": "Community-gated meme launchpad requiring wallet quorum approval before mint.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "Coming soon, gate not open",
+        "No token utility described"
+      ],
+      "one_line_pitch": "Community-vote-gated launchpad, launches only at 50% wallet quorum.",
+      "website_url": "https://notnow.fun/",
+      "twitter_handle": "notnowdotfun",
+      "reviewed_at": "2026-10-04T09:28:10.171Z"
+    },
+    {
+      "name": "payouts",
+      "ticker": "PAYOUTS",
+      "mint": "6YifLyqFUBeGbfscoUpFCabELFuRBejHXFMobKRppump",
+      "quality_score": 6,
+      "mechanism_summary": "Burn tokens to record calls, ranked by verified gains, share fee-funded prizes.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "Coming soon, not live",
+        "Verification method for multiples unclear"
+      ],
+      "one_line_pitch": "Burn-gated token-call competition with fee-funded prize pools.",
+      "website_url": "https://payouts.cash/",
+      "twitter_handle": "payouts_",
+      "reviewed_at": "2026-10-04T09:28:10.166Z"
+    },
+    {
       "name": "Git Fuel",
       "ticker": "GITFUEL",
       "mint": "4pMazPRAKWB3MK9FFpHx8V7RXt5nHhtf7bib2pznpump",
@@ -3185,91 +3271,6 @@
       "website_url": "https://crow.meme",
       "twitter_handle": "legendofcrows",
       "reviewed_at": "2026-10-04T00:28:08.175Z"
-    },
-    {
-      "name": "bounce",
-      "ticker": "bounce",
-      "mint": "BoinghGhJygKLc5CjLA3HyxrCguAruB8dtjNNHGxuUVC",
-      "quality_score": 6,
-      "mechanism_summary": "Fee escrow that automatically buys dips in-market and burns tokens into LP reserve",
-      "uniqueness": "novel",
-      "red_flags": [
-        "very low market cap ($32k, -67% down)",
-        "escrow dip-buying logic untested at scale",
-        "no clear evidence of sustained volume or user traction"
-      ],
-      "one_line_pitch": "Automated fee escrow that deploys trades to buy dips and LP-burn them; genuinely distinct",
-      "website_url": "https://www.bounce.software/",
-      "twitter_handle": "bouncesoftw",
-      "reviewed_at": "2026-10-04T00:14:53.830Z"
-    },
-    {
-      "name": "Holo",
-      "ticker": "Holo",
-      "mint": "GDcgW8Ha4zKMp9PGgFze61vPMZYxkAr21H6v1Hfpump",
-      "quality_score": 6,
-      "mechanism_summary": "Autonomous collector agents (NFTs) buy graded Pokémon cards with creator fees; agents are tradeable with full fee/collection transfer.",
-      "uniqueness": "novel",
-      "red_flags": [
-        "$9.88 AUM and zero cards held suggests not yet live or extremely early",
-        "Collector Crypt integration needs verification",
-        "agent decision logic and brief-following mechanism not fully detailed"
-      ],
-      "one_line_pitch": "Token launch platform bundling autonomous Pokémon card collectors as tradeable agents",
-      "website_url": "https://hololaunch.fun/",
-      "twitter_handle": "holo_launch",
-      "reviewed_at": "2026-10-04T00:14:32.672Z"
-    },
-    {
-      "name": "aduse",
-      "ticker": "aduse",
-      "mint": "fqT5Ta7LN1s1ghcJVyuhxXp8PXYyjup1jX2AWCHpump",
-      "quality_score": 6,
-      "mechanism_summary": "Creator fees auto-converted to ad budgets on TikTok, Instagram, X, YouTube, DexScreener.",
-      "uniqueness": "derivative",
-      "red_flags": [
-        "identical website (aduse.fun) as mint J4g25Z6V... but different contract",
-        "two mints claiming same product is red flag for scam variant",
-        "unclear if this is old/test version or intentional duplicate"
-      ],
-      "one_line_pitch": "Creator fees to ads (duplicate mint of J4g25Z6V with identical site).",
-      "website_url": "https://aduse.fun",
-      "twitter_handle": "aduse",
-      "reviewed_at": "2026-10-04T00:13:46.764Z"
-    },
-    {
-      "name": "Aduse",
-      "ticker": "ADUSE",
-      "mint": "J4g25Z6VtnnYgeW3hDJKqSGVLoYgSEdNvU2mtHCbpump",
-      "quality_score": 6,
-      "mechanism_summary": "Creator fees auto-converted to ad budgets on TikTok, Instagram, X, YouTube, DexScreener.",
-      "uniqueness": "novel",
-      "red_flags": [
-        "site shows sample creatives, not live campaigns",
-        "requires API integration with major ad platforms (feasibility unproven)",
-        "no audited proof of live ad spend or network integration"
-      ],
-      "one_line_pitch": "Creator fees auto-funnel to ads on multiple social platforms.",
-      "website_url": "https://aduse.fun/",
-      "twitter_handle": "aduse",
-      "reviewed_at": "2026-10-04T00:13:46.760Z"
-    },
-    {
-      "name": "dottedjobs",
-      "ticker": "dotted",
-      "mint": "EgBkHjAYuFmXVyyr5XryvMCg5TGeEpW5DySuawq1pump",
-      "quality_score": 6,
-      "mechanism_summary": "Job marketplace where agents post/claim tasks; REST and MCP APIs for automation.",
-      "uniqueness": "derivative",
-      "red_flags": [
-        "token utility unclear on website",
-        "no visible token mechanics or supply model",
-        "odd deployment as pump.fun coin for actual job platform"
-      ],
-      "one_line_pitch": "Job marketplace for AI agents with HTTP/MCP APIs.",
-      "website_url": "https://dottedjobs.com/",
-      "twitter_handle": "dottedjobs",
-      "reviewed_at": "2026-10-04T00:13:46.699Z"
     }
   ],
   "new_idea_suggestions": [
