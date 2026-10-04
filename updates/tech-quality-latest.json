@@ -1,7 +1,51 @@
 {
-  "generated_at": "2026-10-04T16:32:09.925Z",
+  "generated_at": "2026-10-04T16:44:34.479Z",
   "note": "Quality-reviewed tech coins: passed a local coarse filter (qwen2.5:3b) then a real judgment pass (Haiku) confirming is_real_tech=true. new_idea_suggestions are Haiku-generated, informed by these patterns but NOT copies -- creative seeds for further review, not trading signals.",
   "quality_tech_coins": [
+    {
+      "name": "The Turing Test",
+      "ticker": "TTT",
+      "mint": "GSNjgTo8moE4xsFwoom94MFQsphJE7oSdKgbhGZUpump",
+      "quality_score": 9,
+      "mechanism_summary": "Run Turing tests on-chain perpetually: machine vs human witness, blind judge hashes verdicts to chain",
+      "uniqueness": "novel",
+      "red_flags": [],
+      "one_line_pitch": "On-chain Turing tests run continuously; fees fund AI compute for debates",
+      "website_url": "https://www.theturingtest.app/",
+      "twitter_handle": "turingtestapp",
+      "reviewed_at": "2026-10-04T16:43:41.798Z"
+    },
+    {
+      "name": "HOTLINE",
+      "ticker": "HOTLINE",
+      "mint": "HZyfx81V1sDwGBr7gctPnGU2wH1fo4YW1JyVwGW9pump",
+      "quality_score": 8,
+      "mechanism_summary": "Each coin gets real US phone number; responds in coin's voice; trading keeps line alive",
+      "uniqueness": "novel",
+      "red_flags": [],
+      "one_line_pitch": "Each coin gets a live phone number that responds to trading activity",
+      "website_url": "https://callhotline.fun",
+      "twitter_handle": "hotlineswitch",
+      "reviewed_at": "2026-10-04T16:43:41.796Z"
+    },
+    {
+      "name": "Engram Agent Brain",
+      "ticker": "Engram",
+      "mint": "CAUXJLyELpDMwMtvncFcmM2vqMXXjy4R6d7RCLVUpump",
+      "quality_score": 8,
+      "mechanism_summary": "Store AI agent model weights on Solana as accounts; verify all inferences on-chain.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "unclear if actual model weights are stored (scale concerns) or just inference logs",
+        "no clear deployed examples shown on website",
+        "scalability and cost questions for on-chain storage",
+        "inference execution details unclear"
+      ],
+      "one_line_pitch": "Store AI agent weights on Solana for verifiable on-chain execution.",
+      "website_url": "https://engram.surf/",
+      "twitter_handle": "nostalgicgareth",
+      "reviewed_at": "2026-10-04T16:43:19.298Z"
+    },
     {
       "name": "UseTank",
       "ticker": "TANK",
@@ -322,6 +366,23 @@
       "website_url": "http://dotnet.land",
       "twitter_handle": "dotnetfund",
       "reviewed_at": "2026-10-03T13:48:57.247Z"
+    },
+    {
+      "name": "Perpspad",
+      "ticker": "PAD",
+      "mint": "6vSxbc1btRLZ24kBcdhJTTHfg8U1EeLkqL7oapw41pad",
+      "quality_score": 7,
+      "mechanism_summary": "Launchpad where creator fees fund leverage pools; users trade 2.5x long/short, pool takes other side.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "no proof of live operation shown",
+        "pool solvency mechanics not detailed",
+        "leverage liquidation triggers unclear"
+      ],
+      "one_line_pitch": "Launchpad where creator-fee pools counterparty 2.5x leverage trades on all coins.",
+      "website_url": "https://perpspad.com",
+      "twitter_handle": "perpspadcom",
+      "reviewed_at": "2026-10-04T16:44:33.055Z"
     },
     {
       "name": "Cast Agency",
@@ -2884,6 +2945,85 @@
       "reviewed_at": "2026-10-03T13:13:07.851Z"
     },
     {
+      "name": "AI Trading Pet",
+      "ticker": "KIBBLE",
+      "mint": "Duvx58zLNwUV23oYTSfq1EAVB3S4s11oRGKkF1rcpump",
+      "quality_score": 6,
+      "mechanism_summary": "Autonomous trading agents (Stocklings) hold tokenized-stock perpetuals on Bitget, self-fund via funding rates.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "currently paper-trading only, not real capital",
+        "Kibble token role unclear",
+        "minimal infrastructure (railway.app)",
+        "pet mechanics ('able to faint') undefined"
+      ],
+      "one_line_pitch": "Autonomous trading pets holding stock perpetuals; paper-trading on Bitget.",
+      "website_url": "https://kibble.up.railway.app/adopt",
+      "twitter_handle": "bymotionn",
+      "reviewed_at": "2026-10-04T16:44:33.057Z"
+    },
+    {
+      "name": "Prime",
+      "ticker": "Prime",
+      "mint": "ERHreMRMyGaZPaVcUiBrveb5f1Bc8dbuDuFyLPgMpump",
+      "quality_score": 6,
+      "mechanism_summary": "Launchpad for autonomous tokens with body, policy rules layer, and AI mind",
+      "uniqueness": "derivative",
+      "red_flags": [],
+      "one_line_pitch": "Launchpad for policy-driven autonomous tokens with AI minds",
+      "website_url": "https://Primepad.dev/",
+      "twitter_handle": "primepad_sol",
+      "reviewed_at": "2026-10-04T16:43:41.799Z"
+    },
+    {
+      "name": "HACKPOT",
+      "ticker": "HP",
+      "mint": "3ogGo9SpELgYLH374VhAt9ZaERHZ8KhahYTCqesWpump",
+      "quality_score": 6,
+      "mechanism_summary": "Launchpad where all creator fees accumulate in one pot; highest market cap at 24h bell wins all",
+      "uniqueness": "derivative",
+      "red_flags": [],
+      "one_line_pitch": "Tournament launchpad; fees pool to highest 24-hour market cap winner",
+      "website_url": "https://www.hackpot.fun/",
+      "twitter_handle": "hackpotsol",
+      "reviewed_at": "2026-10-04T16:43:41.791Z"
+    },
+    {
+      "name": "Launch Agents",
+      "ticker": "AGENCY",
+      "mint": "Bisax95YjE3ykTH3JJL46P1GaLyUf7LDFfqRPCgqpump",
+      "quality_score": 6,
+      "mechanism_summary": "AI agent manages coin treasury, buybacks, rewards; reports all moves publicly.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "unclear if 240 listed coins are real active users",
+        "no on-chain verification mentioned",
+        "agent execution status off-chain not disclosed"
+      ],
+      "one_line_pitch": "Assign an AI agent to publicly manage your coin's treasury and buybacks.",
+      "website_url": "https://launchagents.site",
+      "twitter_handle": "launch_agents",
+      "reviewed_at": "2026-10-04T16:43:19.255Z"
+    },
+    {
+      "name": "test(mythos 0.0.0.1)",
+      "ticker": "fableagents",
+      "mint": "FPcTZdK36u4T5LdkNWTXvE19WLDoHAZvPc4AFjX2htUv",
+      "quality_score": 6,
+      "mechanism_summary": "AI market maker generates locked-hash quotes (16 from 4 numbers, 8 above/8 below market) per trade.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "name includes 'test(mythos)' suggesting prototype",
+        "description cut off mid-sentence",
+        "'Claude Fable 5.1' is not a real model",
+        "unclear if working or concept only"
+      ],
+      "one_line_pitch": "AI-powered market maker with sealed quotes preventing front-running.",
+      "website_url": "https://fablemm.com/",
+      "twitter_handle": "fablemm",
+      "reviewed_at": "2026-10-04T16:42:24.701Z"
+    },
+    {
       "name": "The User",
       "ticker": "USER",
       "mint": "5ZHHYYUFnmHLMZAQNWDqhRRm8JacpQiHPuMFBZfNKyAr",
@@ -3121,155 +3261,6 @@
       "website_url": "https://noko.ink/",
       "twitter_handle": "twinofkin",
       "reviewed_at": "2026-10-04T09:44:28.351Z"
-    },
-    {
-      "name": "WorldStake",
-      "ticker": "WSTAKE",
-      "mint": "HLG191j1xJvW1Q1eu544fBzAFpBir198vEzcMxzQpump",
-      "quality_score": 6,
-      "mechanism_summary": "Staking-based territorial PvP game; earn points hourly; banked (protected) vs. unbanked (stealable) risk modes.",
-      "uniqueness": "novel",
-      "red_flags": [
-        "currently test-mode only; no real monetary value",
-        "operator-controlled custody of staked tokens (centralization risk)",
-        "withdrawal guarantees unclear ('depends on service')",
-        "early-stage, launch timeline unknown"
-      ],
-      "one_line_pitch": "Staking + territorial conquest PvP game; banked/unbanked risk duality; still in test mode.",
-      "website_url": "https://worldstake.org/",
-      "twitter_handle": "worldstake_",
-      "reviewed_at": "2026-10-04T09:43:07.434Z"
-    },
-    {
-      "name": "Stack",
-      "ticker": "STACK",
-      "mint": "FdDVmuK4DhDuYWTxVPfApxPHGEZ6u6yJXPeRq5yNpump",
-      "quality_score": 6,
-      "mechanism_summary": "Launch streamer tokens with configurable creator-fee splits locked in on-chain vaults.",
-      "uniqueness": "derivative",
-      "red_flags": [
-        "on-chain program not fully deployed",
-        "partial launch only (live data exists, core contract pending)",
-        "relies on streamer action to claim vault funds",
-        "creator-fee tokenization is incremental variation"
-      ],
-      "one_line_pitch": "Creator coins for streamers with auto-split, on-chain fee vaults.",
-      "website_url": "http://stacklive.xyz",
-      "twitter_handle": "stacklivexyz",
-      "reviewed_at": "2026-10-04T09:29:25.275Z"
-    },
-    {
-      "name": "Notnow",
-      "ticker": "Notnow",
-      "mint": "D3JwE6suBttUPD1Vt1QbeHe1XsNqSoFqset4U1tEpump",
-      "quality_score": 6,
-      "mechanism_summary": "Community-gated meme launchpad requiring wallet quorum approval before mint.",
-      "uniqueness": "derivative",
-      "red_flags": [
-        "Coming soon, gate not open",
-        "No token utility described"
-      ],
-      "one_line_pitch": "Community-vote-gated launchpad, launches only at 50% wallet quorum.",
-      "website_url": "https://notnow.fun/",
-      "twitter_handle": "notnowdotfun",
-      "reviewed_at": "2026-10-04T09:28:10.171Z"
-    },
-    {
-      "name": "payouts",
-      "ticker": "PAYOUTS",
-      "mint": "6YifLyqFUBeGbfscoUpFCabELFuRBejHXFMobKRppump",
-      "quality_score": 6,
-      "mechanism_summary": "Burn tokens to record calls, ranked by verified gains, share fee-funded prizes.",
-      "uniqueness": "derivative",
-      "red_flags": [
-        "Coming soon, not live",
-        "Verification method for multiples unclear"
-      ],
-      "one_line_pitch": "Burn-gated token-call competition with fee-funded prize pools.",
-      "website_url": "https://payouts.cash/",
-      "twitter_handle": "payouts_",
-      "reviewed_at": "2026-10-04T09:28:10.166Z"
-    },
-    {
-      "name": "Git Fuel",
-      "ticker": "GITFUEL",
-      "mint": "4pMazPRAKWB3MK9FFpHx8V7RXt5nHhtf7bib2pznpump",
-      "quality_score": 6,
-      "mechanism_summary": "Tokenize GitHub repos, create discovery marketplace, auto-distribute fees to builders.",
-      "uniqueness": "novel",
-      "red_flags": [
-        "only 2 live markets — extremely early adoption",
-        "fee-claim feature marked 'coming soon'"
-      ],
-      "one_line_pitch": "GitHub repo tokenization marketplace with automatic verified-builder fee distribution.",
-      "website_url": "https://www.gitfuel.fun",
-      "twitter_handle": "gitfuel",
-      "reviewed_at": "2026-10-04T09:21:00.109Z"
-    },
-    {
-      "name": "FORGE",
-      "ticker": "FORGE",
-      "mint": "7SG8ap8SqDB1dVmJ9RZhXd3VBkbgwPitxt9Jhj4Spump",
-      "quality_score": 6,
-      "mechanism_summary": "AI agents compete in games; ForgeBench™ scores behavior; detailed decision capture funds next round.",
-      "uniqueness": "novel",
-      "red_flags": [
-        "token mechanics not described on website",
-        "unclear how $FORGE integrates with competitive AI arena"
-      ],
-      "one_line_pitch": "Competitive game arena for AI agents with ForgeBench™ behavioral scoring and data-driven funding.",
-      "website_url": "https://forgeai.gg/",
-      "twitter_handle": "forgeai_gg",
-      "reviewed_at": "2026-10-04T09:17:31.454Z"
-    },
-    {
-      "name": "WickRun",
-      "ticker": "WICK",
-      "mint": "GrK89andnH4ATQ9gMCGb75WR57CyJUYszFuX766Spump",
-      "quality_score": 6,
-      "mechanism_summary": "Daily arcade game with server-replayed runs; leaderboard rankings per wallet address; one seed daily.",
-      "uniqueness": "derivative",
-      "red_flags": [
-        "Launching soon—product not yet live",
-        "Token utility (rewards, scoring weight) not explicitly stated",
-        "Game mechanics clear but token integration undefined"
-      ],
-      "one_line_pitch": "Daily arcade game with server leaderboards and per-address scoring.",
-      "website_url": "https://wickarcade.xyz/",
-      "twitter_handle": "_wickrun_",
-      "reviewed_at": "2026-10-04T09:16:33.536Z"
-    },
-    {
-      "name": "Lottopad",
-      "ticker": "lotto",
-      "mint": "2tezbvS9vuyLMsWqBw49U2D2bBGeQ71wj2g3T2Zbpump",
-      "quality_score": 6,
-      "mechanism_summary": "Trading fees buy Megapot lottery tickets daily; winners paid to holders. Bridges SOL→USDC via keeper.",
-      "uniqueness": "novel",
-      "red_flags": [
-        "centralized keeper holds SOL during bridge",
-        "depends on external Megapot legitimacy",
-        "trust model risk during cross-chain bridge"
-      ],
-      "one_line_pitch": "Meme coin launchpad where trading fees fund real Megapot lottery",
-      "website_url": "https://lottopad.xyz/",
-      "twitter_handle": "lottopaddotfun",
-      "reviewed_at": "2026-10-04T09:00:02.663Z"
-    },
-    {
-      "name": "Grit Layer",
-      "ticker": "GRIT",
-      "mint": "J9gtJQnet2dkpoyxPh9YqYjEiBugU4rbPPnYnBsbpump",
-      "quality_score": 6,
-      "mechanism_summary": "Smart contract-verified work marketplace: post bounties, miners complete, payment after on-chain verification.",
-      "uniqueness": "derivative",
-      "red_flags": [
-        "landing page + API docs, no evidence of live deployed system or active users"
-      ],
-      "one_line_pitch": "Work marketplace with blockchain-verified completion payment.",
-      "website_url": "https://gritlayer.dev/",
-      "twitter_handle": "gritlayer",
-      "reviewed_at": "2026-10-04T08:58:29.645Z"
     }
   ],
   "new_idea_suggestions": [
