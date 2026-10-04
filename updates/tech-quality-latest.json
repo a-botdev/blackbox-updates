@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T23:44:05.581Z",
+  "generated_at": "2026-10-04T23:59:14.937Z",
   "note": "Quality-reviewed tech coins: passed a local coarse filter (qwen2.5:3b) then a real judgment pass (Haiku) confirming is_real_tech=true. new_idea_suggestions are Haiku-generated, informed by these patterns but NOT copies -- creative seeds for further review, not trading signals.",
   "quality_tech_coins": [
     {
@@ -401,6 +401,19 @@
       "website_url": "http://dotnet.land",
       "twitter_handle": "dotnetfund",
       "reviewed_at": "2026-10-03T13:48:57.247Z"
+    },
+    {
+      "name": "Paid",
+      "ticker": "PAID",
+      "mint": "8uXuevJr3APH43z6YYcz4c1xd5BYNriFXjDyTRMdpump",
+      "quality_score": 7,
+      "mechanism_summary": "Fee-routing system: pair pump.fun tokens with X/Twitter handles to distribute token fees as fiat to users.",
+      "uniqueness": "novel",
+      "red_flags": [],
+      "one_line_pitch": "Pump.fun token fee distributor to Twitter users; $1M+ buyback/burn live.",
+      "website_url": null,
+      "twitter_handle": "usepaid",
+      "reviewed_at": "2026-10-04T23:58:20.275Z"
     },
     {
       "name": "AirPad",
@@ -3154,6 +3167,24 @@
       "reviewed_at": "2026-09-30T02:36:44.874Z"
     },
     {
+      "name": "Zebra",
+      "ticker": "ZEBRA",
+      "mint": "hEPhMqR2qe3c82mPvhNGgrVdZq4iHDjXhgMjimSpump",
+      "quality_score": 6.5,
+      "mechanism_summary": "Bridge SPL tokens to Zcash via NFT intermediaries to enable asset creation",
+      "uniqueness": "novel",
+      "red_flags": [
+        "Developer only working on POC, not a functioning product",
+        "Identical coin/mechanism launched twice by same dev (Stamp token #3)",
+        "Multiple launches suggest rug risk or abandoned first attempt",
+        "Cross-chain security model unvalidated"
+      ],
+      "one_line_pitch": "Workaround to launch assets on Zcash via Solana SPL token burns",
+      "website_url": null,
+      "twitter_handle": "zip227",
+      "reviewed_at": "2026-10-04T23:59:04.834Z"
+    },
+    {
       "name": "Janus AI",
       "ticker": "JANUS",
       "mint": "GADjtpMCWXD4wfNsYXHYvyJj4qEjVrHxFD6vag1CFf9B",
@@ -3221,39 +3252,6 @@
       "website_url": "https://rippers.fun/",
       "twitter_handle": "rippersdotfun",
       "reviewed_at": "2026-10-03T13:13:07.851Z"
-    },
-    {
-      "name": "Seen",
-      "ticker": "SEEN",
-      "mint": "EkMadRsLBXBGiEyJYoDwDVzttu17cKKruxZXqnLFpump",
-      "quality_score": 6,
-      "mechanism_summary": "Launch token paired to phone number; trading fees route to paired number holder via Messenger.",
-      "uniqueness": "novel",
-      "red_flags": [
-        "No website to verify implementation",
-        "Messenger integration details unclear",
-        "Privacy implications of phone-number binding unstated"
-      ],
-      "one_line_pitch": "Pump.fun token paired to phone number; fees go to paired number via Messenger.",
-      "website_url": "https://useseen.lol/",
-      "twitter_handle": "useseenpad",
-      "reviewed_at": "2026-10-04T23:43:49.173Z"
-    },
-    {
-      "name": "sendor",
-      "ticker": "sendor",
-      "mint": "3b5fTE5NyvCtMgKcDkvt4vUW2KDc7mgUSW8a8XYVpump",
-      "quality_score": 6,
-      "mechanism_summary": "Bridge X Money payments to Solana wallet; trade/launch pump.fun coins via USDC.",
-      "uniqueness": "novel",
-      "red_flags": [
-        "Product still early-stage (app store/play coming soon)",
-        "Depends on X Money availability"
-      ],
-      "one_line_pitch": "X Money to Solana memecoin trading and launchpad bridge.",
-      "website_url": "https://sendor.money/",
-      "twitter_handle": "sendorapp",
-      "reviewed_at": "2026-10-04T23:43:49.144Z"
     }
   ],
   "new_idea_suggestions": [
