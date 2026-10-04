@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T18:32:28.309Z",
+  "generated_at": "2026-10-04T18:46:30.720Z",
   "note": "Quality-reviewed tech coins: passed a local coarse filter (qwen2.5:3b) then a real judgment pass (Haiku) confirming is_real_tech=true. new_idea_suggestions are Haiku-generated, informed by these patterns but NOT copies -- creative seeds for further review, not trading signals.",
   "quality_tech_coins": [
     {
@@ -401,6 +401,42 @@
       "website_url": "http://dotnet.land",
       "twitter_handle": "dotnetfund",
       "reviewed_at": "2026-10-03T13:48:57.247Z"
+    },
+    {
+      "name": "XLAUNCH",
+      "ticker": "XLAUNCH",
+      "mint": "C8BtdDqz5rnNrMoZjg9fiQyLVMRsJZT5DvgTXx4ypump",
+      "quality_score": 7,
+      "mechanism_summary": "Twitter bot agent mints coins from tweets, performs buybacks/burns/airdrops via mentions.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "depends on Twitter API stability",
+        "bot uptime is operational risk",
+        "scope of 'keeps working' automation unclear",
+        "examples shown suggest working product"
+      ],
+      "one_line_pitch": "Twitter bot launches tokens and runs ops from tweet mentions; novel UI.",
+      "website_url": "https://x-launch.app/",
+      "twitter_handle": "xlaunchagent",
+      "reviewed_at": "2026-10-04T18:46:12.725Z"
+    },
+    {
+      "name": "Globe Walk",
+      "ticker": "GLOBE",
+      "mint": "6BLbav5mMbuETvk4dBdm4BE7NL7yZeZdbd2krNmtpump",
+      "quality_score": 7,
+      "mechanism_summary": "GPS-gated scavenger hunt distributing Solana tokens at real-world map locations.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "GPS spoofing vulnerability",
+        "regulatory unclear (gambling/commerce)",
+        "token economics not detailed",
+        "location-of-claim non-excludability (shared spots)"
+      ],
+      "one_line_pitch": "Location-based mobile game distributing Solana tokens at real-world pins.",
+      "website_url": "https://www.globewalk.family/",
+      "twitter_handle": "tryglobewalk",
+      "reviewed_at": "2026-10-04T18:44:52.468Z"
     },
     {
       "name": "pile",
@@ -3093,6 +3129,24 @@
       "reviewed_at": "2026-10-03T13:13:07.851Z"
     },
     {
+      "name": "BEDBUG",
+      "ticker": "BEDBUG",
+      "mint": "Dg3AvRYdEZRa3unG5kbgGM9STLt4zd5hgHd2uMHkpump",
+      "quality_score": 6,
+      "mechanism_summary": "Injected wallet parasite token; takes 1% cut from target wallet buys.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "mechanism description technically vague/implausible on Solana",
+        "claims to intercept buys in same slot; unclear how without chain hooks",
+        "unsellable/soulbound token aspect unusual but unverified",
+        "implementation details missing; sounds like scam"
+      ],
+      "one_line_pitch": "Novel wallet-injection 'parasite' token; likely technically unimplementable.",
+      "website_url": "https://bedbugonsol.fun",
+      "twitter_handle": "bedbugonsol",
+      "reviewed_at": "2026-10-04T18:46:29.248Z"
+    },
+    {
       "name": "CogniBlock",
       "ticker": "Block",
       "mint": "M9w9LVyHn4TyjdK9o2NrrTuXYF3ie8M2PFG9GKJpump",
@@ -3208,54 +3262,6 @@
       "website_url": "https://launchonlocked.in/coin/2EfwJQZEEw9D5Vnqok7PUQpcg1biazPaFfsBKAhNZhcd",
       "twitter_handle": "launchlockedin",
       "reviewed_at": "2026-10-04T18:14:47.829Z"
-    },
-    {
-      "name": "Bob",
-      "ticker": "BOB",
-      "mint": "BbUhxxYjbKN55tCVbqhPhBrhyUmc72nTPvtWcPp4inRA",
-      "quality_score": 6,
-      "mechanism_summary": "Solana token controlled by Claude AI agent executing deterministic policy rules; wakes/acts at fee thresholds.",
-      "uniqueness": "novel",
-      "red_flags": [],
-      "one_line_pitch": "Token autonomously controlled by Claude AI via deterministic policy engine.",
-      "website_url": "https://www.agencypad.fun/coin/BbUhxxYjbKN55tCVbqhPhBrhyUmc72nTPvtWcPp4inRA",
-      "twitter_handle": "energesbob",
-      "reviewed_at": "2026-10-04T18:14:47.828Z"
-    },
-    {
-      "name": "Quod Erat Demonstrandum",
-      "ticker": "QED",
-      "mint": "CQZyXJANGi8d7JXZj2qcZNqUvaLFwBnEd8G5Q77kq9Vy",
-      "quality_score": 6,
-      "mechanism_summary": "Token fees fund autonomous AI researcher on unsolved math/physics problems",
-      "uniqueness": "novel",
-      "red_flags": [
-        "No live implementation visible",
-        "Verification mechanism vague",
-        "Ambitious claims unsubstantiated"
-      ],
-      "one_line_pitch": "Token fees fund autonomous AI tackling unsolved math problems",
-      "website_url": "https://www.agencypad.fun/coin/CQZyXJANGi8d7JXZj2qcZNqUvaLFwBnEd8G5Q77kq9Vy",
-      "twitter_handle": "qedsolves",
-      "reviewed_at": "2026-10-04T17:15:28.716Z"
-    },
-    {
-      "name": "marblz",
-      "ticker": "MARBLZ",
-      "mint": "3EWybYLdHSUuhTLYzne5CxNexeZWLBmDeCz6RMnLwid4",
-      "quality_score": 6,
-      "mechanism_summary": "Marble racing game funded by 75% of trading fees; holders enter with 100k+ tokens, top-3 winners paid in SOL.",
-      "uniqueness": "novel",
-      "red_flags": [
-        "Prize pools tiny (0.35 SOL observed); sustainability via trading volume only",
-        "No developer revenue model beyond fee share; long-term funding unclear",
-        "Game mechanics are simple (marbles race autonomously); depth limited",
-        "Participation requires 100k token barrier (excludes small holders)"
-      ],
-      "one_line_pitch": "Marble racing game where trading fees fund on-chain prize pools.",
-      "website_url": "https://marblz.fun",
-      "twitter_handle": "marblzfun",
-      "reviewed_at": "2026-10-04T17:14:04.602Z"
     }
   ],
   "new_idea_suggestions": [
