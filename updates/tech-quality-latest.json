@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T19:01:02.977Z",
+  "generated_at": "2026-10-04T19:14:37.530Z",
   "note": "Quality-reviewed tech coins: passed a local coarse filter (qwen2.5:3b) then a real judgment pass (Haiku) confirming is_real_tech=true. new_idea_suggestions are Haiku-generated, informed by these patterns but NOT copies -- creative seeds for further review, not trading signals.",
   "quality_tech_coins": [
     {
@@ -401,6 +401,49 @@
       "website_url": "http://dotnet.land",
       "twitter_handle": "dotnetfund",
       "reviewed_at": "2026-10-03T13:48:57.247Z"
+    },
+    {
+      "name": "Research Chamber",
+      "ticker": "CHAMBER",
+      "mint": "GpuvH6LGtLtrLrD87pHLSJpQC6HF8mtKYumZuk1rpump",
+      "quality_score": 7,
+      "mechanism_summary": "Live activation steering experiments on language models; open research platform publishing real-time results",
+      "uniqueness": "novel",
+      "red_flags": [],
+      "one_line_pitch": "Blockchain-funded open research platform for AI interpretability & activation steering.",
+      "website_url": "https://researchchamber.fun/",
+      "twitter_handle": "chamber_ai",
+      "reviewed_at": "2026-10-04T19:14:36.190Z"
+    },
+    {
+      "name": "Youpaid",
+      "ticker": "YOUPAID",
+      "mint": "3TrHkCMdipRTUVs7yPGFQVp9CThU1DRaDkJbx7kvpump",
+      "quality_score": 7,
+      "mechanism_summary": "Tokens paired with YouTube channels auto-route transaction fees to verified creator accounts or donation buttons.",
+      "uniqueness": "novel",
+      "red_flags": [],
+      "one_line_pitch": "Automatic fee routing to YouTube creators via token-channel pairing; live infrastructure.",
+      "website_url": "https://useyoupaid.com/",
+      "twitter_handle": "youtubepaid",
+      "reviewed_at": "2026-10-04T19:13:45.098Z"
+    },
+    {
+      "name": "Dotspad",
+      "ticker": "DOTS",
+      "mint": "A4iMWtG66qGCHzgHMpa4ABidoiXzLLt76aS2nE3adots",
+      "quality_score": 7,
+      "mechanism_summary": "AI agents manage wallets, launch tokens on pump.fun, trade, earn trading fees to self-fund compute.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "Early-stage, unproven sustainability of agent-launched-token economics",
+        "Regulatory risk around autonomous agent token creation and trading",
+        "Relies on continued demand for agent-launched coins to generate fees"
+      ],
+      "one_line_pitch": "Autonomous agents self-fund compute by launching and trading tokens for fee revenue.",
+      "website_url": "https://dotspad.si/",
+      "twitter_handle": "dotspadsi",
+      "reviewed_at": "2026-10-04T19:12:24.258Z"
     },
     {
       "name": "XLAUNCH",
@@ -3129,6 +3172,19 @@
       "reviewed_at": "2026-10-03T13:13:07.851Z"
     },
     {
+      "name": "GARP",
+      "ticker": "GARP",
+      "mint": "34x5Qg68XwKPXhqGZzXEiKMYeZsXDCUjqTR6DVL9pump",
+      "quality_score": 6,
+      "mechanism_summary": "AI agents for token marketing: KOL/holder research, content creation, outreach campaigns",
+      "uniqueness": "derivative",
+      "red_flags": [],
+      "one_line_pitch": "AI marketing automation platform for on-chain token campaigns.",
+      "website_url": "https://www.usegarp.com/",
+      "twitter_handle": "garp_agent",
+      "reviewed_at": "2026-10-04T19:14:36.192Z"
+    },
+    {
       "name": "DotJob",
       "ticker": "DOTJOB",
       "mint": "7xtMMa3dyqjw3WVMJkycR6teBnqLynPJbCC1xfN7pump",
@@ -3197,76 +3253,6 @@
       "website_url": "https://bedbugonsol.fun",
       "twitter_handle": "bedbugonsol",
       "reviewed_at": "2026-10-04T18:46:29.248Z"
-    },
-    {
-      "name": "CogniBlock",
-      "ticker": "Block",
-      "mint": "M9w9LVyHn4TyjdK9o2NrrTuXYF3ie8M2PFG9GKJpump",
-      "quality_score": 6,
-      "mechanism_summary": "Visual block-based AI pipeline editor; drag blocks, wire, execute live in browser.",
-      "uniqueness": "derivative",
-      "red_flags": [
-        "Token utility completely unclear (access gate? dev rewards?)",
-        "Visual pipeline builders ubiquitous (n8n, Zapier, Make.com)",
-        "No concrete examples or differentiation shown",
-        "Crypto integration feels bolted-on"
-      ],
-      "one_line_pitch": "Visual AI pipeline builder (block-based, browser-executed); token role vague.",
-      "website_url": "https://cogniblock.net/",
-      "twitter_handle": "cogniblock",
-      "reviewed_at": "2026-10-04T18:32:26.803Z"
-    },
-    {
-      "name": "si16z",
-      "ticker": "si16z",
-      "mint": "GyMCdVFv5kCyp4acxxD7SrmiCPQaniN7R9gvNgGipump",
-      "quality_score": 6,
-      "mechanism_summary": "On-chain fund managed by autonomous agent; agent logs trades/yield transparently; token is stake claim on fund.",
-      "uniqueness": "novel",
-      "red_flags": [
-        "vague on technical implementation details",
-        "Frame TypeScript framework mentioned but not explained",
-        "no concrete trading examples or historical yield shown",
-        "no contract interaction details or on-chain verification"
-      ],
-      "one_line_pitch": "Fund managed by autonomous agent; token claims stake in treasury and agent decisions.",
-      "website_url": "https://si16z.com/",
-      "twitter_handle": "si16zdao",
-      "reviewed_at": "2026-10-04T18:30:58.657Z"
-    },
-    {
-      "name": "Shipper",
-      "ticker": "SHIPPER",
-      "mint": "74ZjXuxAL6HReUDW7MzRLfbTENRLeGcqdtT5JqPzpump",
-      "quality_score": 6,
-      "mechanism_summary": "Tokens whose trading fees accumulate; when vault reaches target, real package ordered from retailer and shipped with tracking.",
-      "uniqueness": "novel",
-      "red_flags": [
-        "no real shipments executed yet, examples explicitly marked as made-up",
-        "unproven mechanism—retail integration not verified",
-        "no live contract address or fulfillment records visible"
-      ],
-      "one_line_pitch": "Token trading fees fund real package shipments with public receipt/tracking.",
-      "website_url": "https://www.useshipper.app/",
-      "twitter_handle": "useshipperapp",
-      "reviewed_at": "2026-10-04T18:30:58.654Z"
-    },
-    {
-      "name": "Whopies",
-      "ticker": "WHOPIES",
-      "mint": "F58L8fW5P63KVtGBmxrbgdkuTsUEF3uSCPxop3Gupump",
-      "quality_score": 6,
-      "mechanism_summary": "AI agents autonomously clip long-form video into short-form posts, mint results as NFTs, track performance.",
-      "uniqueness": "novel",
-      "red_flags": [
-        "Token utility for NFT-minting clips is unclear",
-        "Platform dependency on Content Rewards campaigns",
-        "No clear path to profitability or user growth"
-      ],
-      "one_line_pitch": "AI agents autonomously clip videos for social media, mint clips as NFTs.",
-      "website_url": "https://whopies.com",
-      "twitter_handle": "trywhopies",
-      "reviewed_at": "2026-10-04T18:17:14.039Z"
     }
   ],
   "new_idea_suggestions": [
