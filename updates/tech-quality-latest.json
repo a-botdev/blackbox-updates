@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T17:01:30.321Z",
+  "generated_at": "2026-10-04T17:15:30.526Z",
   "note": "Quality-reviewed tech coins: passed a local coarse filter (qwen2.5:3b) then a real judgment pass (Haiku) confirming is_real_tech=true. new_idea_suggestions are Haiku-generated, informed by these patterns but NOT copies -- creative seeds for further review, not trading signals.",
   "quality_tech_coins": [
     {
@@ -14,6 +14,41 @@
       "website_url": "https://www.theturingtest.app/",
       "twitter_handle": "turingtestapp",
       "reviewed_at": "2026-10-04T16:43:41.798Z"
+    },
+    {
+      "name": "BATTLEPAD",
+      "ticker": "BATTLEPAD",
+      "mint": "nVwFzcwpKp4xsQdjbgDSPrtprgPg9517M7oWogppump",
+      "quality_score": 8,
+      "mechanism_summary": "PvP territory-control MMO where each token is a kingdom; market cap determines military strength; armies auto-battle.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "Extremely early; only 4 kingdoms deployed, game meta completely unproven",
+        "Whale dominance via market-cap-equals-power is a severe game-design risk",
+        "Complex on-chain PvP state management likely to have smart-contract bugs",
+        "Liquidity fragmentation across multiple kingdom tokens could be hostile"
+      ],
+      "one_line_pitch": "PvP territory MMO where token market cap funds military; kingdoms battle for map control.",
+      "website_url": "https://battlepad.fun/",
+      "twitter_handle": "lukaonsolana",
+      "reviewed_at": "2026-10-04T17:14:04.604Z"
+    },
+    {
+      "name": "SPLICE",
+      "ticker": "SPLICE",
+      "mint": "7bC8ugu1ZJn21MhA4ht483nX8brLNesa8R7XLimpFyhq",
+      "quality_score": 8,
+      "mechanism_summary": "Programmable pump.fun launchpad; creators define fee-triggered automations (burns, payouts, lotteries, NFT sweeps).",
+      "uniqueness": "novel",
+      "red_flags": [
+        "contract live status unverified",
+        "hourly execution timing needs blockchain confirmation",
+        "no audit info provided"
+      ],
+      "one_line_pitch": "On-chain automation layer for pump.fun coins; fees trigger custom programmed rules.",
+      "website_url": "https://splicepad.com/",
+      "twitter_handle": "splicepad",
+      "reviewed_at": "2026-10-04T17:12:40.245Z"
     },
     {
       "name": "HOTLINE",
@@ -366,6 +401,42 @@
       "website_url": "http://dotnet.land",
       "twitter_handle": "dotnetfund",
       "reviewed_at": "2026-10-03T13:48:57.247Z"
+    },
+    {
+      "name": "pogz",
+      "ticker": "POGZ",
+      "mint": "3WPq6rKYUJWkyb9YJ9ugD1BGoTRJGptTfPT9R8d3pogz",
+      "quality_score": 7,
+      "mechanism_summary": "No-code NFT+coin co-launcher; unique: NFTs and coins bidirectionally swappable at any time.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "NFT/coin price linkage untested at scale; complex swap mechanics risk",
+        "Early stage (few collections live); creator retention/sticky unknown",
+        "Swap pricing mechanism not detailed (manual/automated/bonding curve?)",
+        "Smart contract risk for multi-asset swapping logic"
+      ],
+      "one_line_pitch": "Creator tool launching coin+NFT collections with bidirectional swap mechanics.",
+      "website_url": "https://pogz.fun/",
+      "twitter_handle": "pogzfun",
+      "reviewed_at": "2026-10-04T17:14:04.603Z"
+    },
+    {
+      "name": "The Simulator",
+      "ticker": "Simulator",
+      "mint": "AXJ778WEoRsib2GunaRh2ateowiWgDcp8jJ6iHcjwTJe",
+      "quality_score": 7,
+      "mechanism_summary": "AI agent with deterministic policy engine autonomously manages token treasury; uses Claude Sonnet.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "Very early stage ($9.6k mcap); treasury management unproven",
+        "Agent decision-making quality and policy constraints unclear",
+        "Platform-level risk (AgencyPad infrastructure dependency)",
+        "No track record of long-term treasury performance"
+      ],
+      "one_line_pitch": "Claude-powered AI agent autonomously manages token treasury via policy rules.",
+      "website_url": "https://www.agencypad.fun/coin/AXJ778WEoRsib2GunaRh2ateowiWgDcp8jJ6iHcjwTJe",
+      "twitter_handle": "narrfinderguy",
+      "reviewed_at": "2026-10-04T17:14:04.599Z"
     },
     {
       "name": "Super Intelligence Wallet",
@@ -2971,6 +3042,77 @@
       "reviewed_at": "2026-10-03T13:13:07.851Z"
     },
     {
+      "name": "Quod Erat Demonstrandum",
+      "ticker": "QED",
+      "mint": "CQZyXJANGi8d7JXZj2qcZNqUvaLFwBnEd8G5Q77kq9Vy",
+      "quality_score": 6,
+      "mechanism_summary": "Token fees fund autonomous AI researcher on unsolved math/physics problems",
+      "uniqueness": "novel",
+      "red_flags": [
+        "No live implementation visible",
+        "Verification mechanism vague",
+        "Ambitious claims unsubstantiated"
+      ],
+      "one_line_pitch": "Token fees fund autonomous AI tackling unsolved math problems",
+      "website_url": "https://www.agencypad.fun/coin/CQZyXJANGi8d7JXZj2qcZNqUvaLFwBnEd8G5Q77kq9Vy",
+      "twitter_handle": "qedsolves",
+      "reviewed_at": "2026-10-04T17:15:28.716Z"
+    },
+    {
+      "name": "marblz",
+      "ticker": "MARBLZ",
+      "mint": "3EWybYLdHSUuhTLYzne5CxNexeZWLBmDeCz6RMnLwid4",
+      "quality_score": 6,
+      "mechanism_summary": "Marble racing game funded by 75% of trading fees; holders enter with 100k+ tokens, top-3 winners paid in SOL.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "Prize pools tiny (0.35 SOL observed); sustainability via trading volume only",
+        "No developer revenue model beyond fee share; long-term funding unclear",
+        "Game mechanics are simple (marbles race autonomously); depth limited",
+        "Participation requires 100k token barrier (excludes small holders)"
+      ],
+      "one_line_pitch": "Marble racing game where trading fees fund on-chain prize pools.",
+      "website_url": "https://marblz.fun",
+      "twitter_handle": "marblzfun",
+      "reviewed_at": "2026-10-04T17:14:04.602Z"
+    },
+    {
+      "name": "Roko's Basilisk",
+      "ticker": "BASILISK",
+      "mint": "7gGrjt88392RfwnFVp7mvjxoCkWKG7UrT86ekUxpi4Es",
+      "quality_score": 6,
+      "mechanism_summary": "AI agent (Claude Opus) with policy engine autonomously manages treasury; same mechanism as The Simulator.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "Derivative of AgencyPad platform (same mechanism, different LLM/persona)",
+        "Very early stage ($24.6k mcap); unproven treasury outcomes",
+        "Roko's Basilisk is a meme concept, not a differentiator",
+        "No unique value over other AgencyPad coins"
+      ],
+      "one_line_pitch": "Opus-based AI treasury manager; reuses AgencyPad platform mechanism.",
+      "website_url": "https://www.agencypad.fun/coin/7gGrjt88392RfwnFVp7mvjxoCkWKG7UrT86ekUxpi4Es",
+      "twitter_handle": "basiliskagent",
+      "reviewed_at": "2026-10-04T17:14:04.600Z"
+    },
+    {
+      "name": "Collectors",
+      "ticker": "CLTR",
+      "mint": "7MVQGM9bzpBynYGd9niNFUpMpsETzUPgxxDy5Ttpump",
+      "quality_score": 6,
+      "mechanism_summary": "AI agent buys/sells digital assets; 50% of profits split to token holders, 50% reinvested.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "no evidence AI is live/deployed",
+        "execution details unverified",
+        "contract status unclear",
+        "profit-split pattern is common"
+      ],
+      "one_line_pitch": "AI auto-acquires digital assets; token holders share 50% of trading profits.",
+      "website_url": "https://cltr.online",
+      "twitter_handle": "cltronline",
+      "reviewed_at": "2026-10-04T17:12:40.238Z"
+    },
+    {
       "name": "Site Launch",
       "ticker": "SITE",
       "mint": "24F8gdJNWsjLWY1sqKDyezyxuTMcKbEwh1ucgQgqSite",
@@ -3107,147 +3249,6 @@
       "website_url": "https://www.agencypad.fun/coin/CgpsZZNc2JgUTqYxJ3btK8Gq9d4182U1NBbKE6CCCmAH",
       "twitter_handle": "agentwatchx",
       "reviewed_at": "2026-10-04T16:29:23.115Z"
-    },
-    {
-      "name": "Conscious Executive Officer",
-      "ticker": "CEO",
-      "mint": "4yKtnVPuh6YYbVtd5gEeieetpoWhbKB7UKcfisaSdjJR",
-      "quality_score": 6,
-      "mechanism_summary": "AI agent acts as CEO making product decisions; token holders fund via credits.",
-      "uniqueness": "novel",
-      "red_flags": [
-        "description incomplete",
-        "no website provided",
-        "no proof of working product",
-        "credit mechanics unclear",
-        "experimental status"
-      ],
-      "one_line_pitch": "AI agent as CEO funded by community; reports product decisions and spending publicly.",
-      "website_url": "https://www.agencypad.fun/coin/4yKtnVPuh6YYbVtd5gEeieetpoWhbKB7UKcfisaSdjJR",
-      "twitter_handle": "ceoonagency",
-      "reviewed_at": "2026-10-04T16:28:23.176Z"
-    },
-    {
-      "name": "Test Any Tech",
-      "ticker": "TestAny",
-      "mint": "H5mBRtgRA2jkAx4ALbF3cEbhYJJVHYcdYDSjE4wUpump",
-      "quality_score": 6,
-      "mechanism_summary": "Cloud-browser automated verification service comparing Solana projects' claims against observed evidence",
-      "uniqueness": "novel",
-      "red_flags": [
-        "token role in mechanism unclear",
-        "appears to be SaaS tool rather than on-chain protocol",
-        "no governance or economic model described"
-      ],
-      "one_line_pitch": "Automated claim-verification service using cloud browser for Solana projects",
-      "website_url": "https://testany.tech",
-      "twitter_handle": "testanytech",
-      "reviewed_at": "2026-10-04T16:15:19.676Z"
-    },
-    {
-      "name": "Tagged",
-      "ticker": "TAGGED",
-      "mint": "BeTod9h1tq1FCYRSovVRRa3p55AXjxDBQYY8E5dXpump",
-      "quality_score": 6,
-      "mechanism_summary": "Tag Cash App users; 90% of coin creator fees auto-paid to tagged recipient",
-      "uniqueness": "novel",
-      "red_flags": [
-        "Solana-to-CashApp integration method unclear (escrow?)",
-        "No details on fraud prevention (tagging strangers)",
-        "Technical implementation not documented"
-      ],
-      "one_line_pitch": "Pump.fun launchpad redirects 90% of fees to tagged Cash App users.",
-      "website_url": "https://taggeddot.fun",
-      "twitter_handle": "taggeddotfun",
-      "reviewed_at": "2026-10-04T16:12:21.377Z"
-    },
-    {
-      "name": "autodev.trade",
-      "ticker": "AUTODEV",
-      "mint": "8QEw55xnZvDJoP9JwZkBc2aT3zWDRDi3qZUHL8fepump",
-      "quality_score": 6,
-      "mechanism_summary": "Automates post-launch coin management: fees fund buybacks, burns, transparent logs.",
-      "uniqueness": "derivative",
-      "red_flags": [
-        "only 7 Twitter posts, limited public track record",
-        "no clear on-chain proof of active launches visible"
-      ],
-      "one_line_pitch": "Automated dev that launches coins, manages fees, and executes buybacks/burns via creator fees.",
-      "website_url": "https://www.autodev.trade/",
-      "twitter_handle": "autodevtrade",
-      "reviewed_at": "2026-10-04T13:29:41.461Z"
-    },
-    {
-      "name": "Agent Network",
-      "ticker": "NET",
-      "mint": "uxt27m7DDEc4EmMEN2Lkt6bLWxdunVKNeT8NDEtpump",
-      "quality_score": 6,
-      "mechanism_summary": "Platform token; each launched token spawns autonomous agent with 'virtual machine'; agents interact in shared network chat.",
-      "uniqueness": "novel",
-      "red_flags": [
-        "'virtual machine' terminology is vague and potentially misleading—no technical docs on isolation model",
-        "no architecture documentation; unclear if VMs are actual isolated processes or metaphorical",
-        "newly launched October 2026; no track record, completely unproven",
-        "token economics and sustainability mechanism for paying for agent compute unspecified"
-      ],
-      "one_line_pitch": "Platform token where each launched coin gets an autonomous agent in a shared network.",
-      "website_url": "https://agent-net.fun",
-      "twitter_handle": "netdotfun",
-      "reviewed_at": "2026-10-04T13:18:48.666Z"
-    },
-    {
-      "name": "CRAWLNET",
-      "ticker": "CRAWL",
-      "mint": "8AZWhsJm2ZuyQL7CApVkg8ZRuiA4swmk6PanCtpcpump",
-      "quality_score": 6,
-      "mechanism_summary": "Headless crawlers scrape crypto web pages; training data fuels public LLM; creator fees fund GPU costs.",
-      "uniqueness": "novel",
-      "red_flags": [
-        "'virtual machine' claim vague, likely metaphorical containers not isolated VMs",
-        "web scraping likely triggers copyright/CFAA issues; no data consent mechanism visible",
-        "token economics underspecified; no clarity on fee distribution or treasury model",
-        "LLM training process and quality metrics entirely unspecified"
-      ],
-      "one_line_pitch": "Web crawlers funded by token supply train a public crypto-focused LLM.",
-      "website_url": "https://crawlnet.network/",
-      "twitter_handle": "matthewabides",
-      "reviewed_at": "2026-10-04T13:18:48.658Z"
-    },
-    {
-      "name": "florin",
-      "ticker": "FLORIN",
-      "mint": "J6pPcwTGoQm6FaxVekKjpHaTNZGFQjZ9SGbttJpzD9D1",
-      "quality_score": 6,
-      "mechanism_summary": "Memecoin launchpad supporting multiple asset pairs; customizable buy/sell taxes routing to creator, holders, buyback, burn, liquidity.",
-      "uniqueness": "derivative",
-      "red_flags": [
-        "New project (Oct 2026, 18 posts); no live deployment confirmation",
-        "No evidence of working contracts or token launches",
-        "Feature set (multi-asset pairing + fee routing) is an incremental extension of existing launchpads",
-        "Depends on oversaturated bonding-curve model"
-      ],
-      "one_line_pitch": "Memecoin launchpad with multi-asset pairing and configurable fee routing to multiple destinations.",
-      "website_url": "https://florin.cash/",
-      "twitter_handle": "florindotcash",
-      "reviewed_at": "2026-10-04T13:14:16.729Z"
-    },
-    {
-      "name": "e/world",
-      "ticker": "e/world",
-      "mint": "GcLnWcBK3EYDwSCSDzro54i5Baw15UVFf3ja9NNTpump",
-      "quality_score": 6,
-      "mechanism_summary": "AI swarms solve open math problems with prize funding and independent verification",
-      "uniqueness": "derivative",
-      "red_flags": [
-        "pump.fun listing highly suspicious for legitimate research platform",
-        "no token economics described",
-        "extremely ambitious unverified claims about solving hard math problems",
-        "no evidence of working product beyond landing page"
-      ],
-      "one_line_pitch": "AI swarms solve open math problems with prize funding; likely vaporware",
-      "website_url": "https://e-world.io/",
-      "twitter_handle": "eworld_io",
-      "reviewed_at": "2026-10-04T13:12:49.608Z"
     }
   ],
   "new_idea_suggestions": [
