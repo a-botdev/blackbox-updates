@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T23:59:35.290Z",
+  "generated_at": "2026-10-04T00:14:55.486Z",
   "note": "Quality-reviewed tech coins: passed a local coarse filter (qwen2.5:3b) then a real judgment pass (Haiku) confirming is_real_tech=true. new_idea_suggestions are Haiku-generated, informed by these patterns but NOT copies -- creative seeds for further review, not trading signals.",
   "quality_tech_coins": [
     {
@@ -277,6 +277,52 @@
       "website_url": "http://dotnet.land",
       "twitter_handle": "dotnetfund",
       "reviewed_at": "2026-10-03T13:48:57.247Z"
+    },
+    {
+      "name": "PumpPad",
+      "ticker": "PumpPad",
+      "mint": "Ey67XFquE763KzceFqenCZrZPZLf1V8gXsD7Z3QmSQqQ",
+      "quality_score": 7,
+      "mechanism_summary": "Transfer-hook enforced: blocks sniper bots, caps creator buys at 3%, locks liquidity permanently.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "site notes 'Not frozen yet' (status unclear, deployment incomplete)",
+        "sniper-bot blocking via transfer hook may be bypassable by determined attackers",
+        "correct implementation critical; no audit mentioned"
+      ],
+      "one_line_pitch": "Transfer-hook enforced coin with sniper blocking and creator buy limits.",
+      "website_url": "https://pumppad.online/",
+      "twitter_handle": "solanajeli",
+      "reviewed_at": "2026-10-04T00:13:46.771Z"
+    },
+    {
+      "name": "Pawn",
+      "ticker": "PAWN",
+      "mint": "4RganZnGGaTKY5SETu2mz3UNJQMCWUxYRENwwFtYpump",
+      "quality_score": 7,
+      "mechanism_summary": "Collateralized lending: deposit coins, borrow 40% LTV in SOL, 30-day fixed term, no liquidations.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "early-stage product (shows 0.00 SOL lent to date)",
+        "token utility not explicitly documented beyond collateral"
+      ],
+      "one_line_pitch": "Fixed-term collateralized lending with novel no-liquidation feature.",
+      "website_url": "https://www.usepawn.fun/",
+      "twitter_handle": "pawnfun",
+      "reviewed_at": "2026-10-04T00:12:44.462Z"
+    },
+    {
+      "name": "Funded",
+      "ticker": "Funded",
+      "mint": "Dh4EMF5SdYBXX6NGY6q4ByYBHE5odCZ5YxC6Ej9fpump",
+      "quality_score": 7,
+      "mechanism_summary": "Pump.fun coin launch tool routing 99% creator fees to fiat (PayPal/CashApp/Venmo)",
+      "uniqueness": "novel",
+      "red_flags": [],
+      "one_line_pitch": "Pump.fun coin creator-fee → fiat fundraising, no crypto required for recipient",
+      "website_url": "https://usefunded.app/",
+      "twitter_handle": "usefundedapp",
+      "reviewed_at": "2026-10-04T00:12:18.048Z"
     },
     {
       "name": "anon.meme",
@@ -2078,6 +2124,108 @@
       "reviewed_at": "2026-10-03T13:13:07.851Z"
     },
     {
+      "name": "bounce",
+      "ticker": "bounce",
+      "mint": "BoinghGhJygKLc5CjLA3HyxrCguAruB8dtjNNHGxuUVC",
+      "quality_score": 6,
+      "mechanism_summary": "Fee escrow that automatically buys dips in-market and burns tokens into LP reserve",
+      "uniqueness": "novel",
+      "red_flags": [
+        "very low market cap ($32k, -67% down)",
+        "escrow dip-buying logic untested at scale",
+        "no clear evidence of sustained volume or user traction"
+      ],
+      "one_line_pitch": "Automated fee escrow that deploys trades to buy dips and LP-burn them; genuinely distinct",
+      "website_url": "https://www.bounce.software/",
+      "twitter_handle": "bouncesoftw",
+      "reviewed_at": "2026-10-04T00:14:53.830Z"
+    },
+    {
+      "name": "Holo",
+      "ticker": "Holo",
+      "mint": "GDcgW8Ha4zKMp9PGgFze61vPMZYxkAr21H6v1Hfpump",
+      "quality_score": 6,
+      "mechanism_summary": "Autonomous collector agents (NFTs) buy graded Pokémon cards with creator fees; agents are tradeable with full fee/collection transfer.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "$9.88 AUM and zero cards held suggests not yet live or extremely early",
+        "Collector Crypt integration needs verification",
+        "agent decision logic and brief-following mechanism not fully detailed"
+      ],
+      "one_line_pitch": "Token launch platform bundling autonomous Pokémon card collectors as tradeable agents",
+      "website_url": "https://hololaunch.fun/",
+      "twitter_handle": "holo_launch",
+      "reviewed_at": "2026-10-04T00:14:32.672Z"
+    },
+    {
+      "name": "aduse",
+      "ticker": "aduse",
+      "mint": "fqT5Ta7LN1s1ghcJVyuhxXp8PXYyjup1jX2AWCHpump",
+      "quality_score": 6,
+      "mechanism_summary": "Creator fees auto-converted to ad budgets on TikTok, Instagram, X, YouTube, DexScreener.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "identical website (aduse.fun) as mint J4g25Z6V... but different contract",
+        "two mints claiming same product is red flag for scam variant",
+        "unclear if this is old/test version or intentional duplicate"
+      ],
+      "one_line_pitch": "Creator fees to ads (duplicate mint of J4g25Z6V with identical site).",
+      "website_url": "https://aduse.fun",
+      "twitter_handle": "aduse",
+      "reviewed_at": "2026-10-04T00:13:46.764Z"
+    },
+    {
+      "name": "Aduse",
+      "ticker": "ADUSE",
+      "mint": "J4g25Z6VtnnYgeW3hDJKqSGVLoYgSEdNvU2mtHCbpump",
+      "quality_score": 6,
+      "mechanism_summary": "Creator fees auto-converted to ad budgets on TikTok, Instagram, X, YouTube, DexScreener.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "site shows sample creatives, not live campaigns",
+        "requires API integration with major ad platforms (feasibility unproven)",
+        "no audited proof of live ad spend or network integration"
+      ],
+      "one_line_pitch": "Creator fees auto-funnel to ads on multiple social platforms.",
+      "website_url": "https://aduse.fun/",
+      "twitter_handle": "aduse",
+      "reviewed_at": "2026-10-04T00:13:46.760Z"
+    },
+    {
+      "name": "dottedjobs",
+      "ticker": "dotted",
+      "mint": "EgBkHjAYuFmXVyyr5XryvMCg5TGeEpW5DySuawq1pump",
+      "quality_score": 6,
+      "mechanism_summary": "Job marketplace where agents post/claim tasks; REST and MCP APIs for automation.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "token utility unclear on website",
+        "no visible token mechanics or supply model",
+        "odd deployment as pump.fun coin for actual job platform"
+      ],
+      "one_line_pitch": "Job marketplace for AI agents with HTTP/MCP APIs.",
+      "website_url": "https://dottedjobs.com/",
+      "twitter_handle": "dottedjobs",
+      "reviewed_at": "2026-10-04T00:13:46.699Z"
+    },
+    {
+      "name": "Pocket Slabs",
+      "ticker": "SLABS",
+      "mint": "uPnLjPVtyJ359VMyEC6Kp1suDix79KSh1JzZvPhpump",
+      "quality_score": 6,
+      "mechanism_summary": "Play-to-earn game: catch/grade creatures as NFTs, manage on-chain",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "Pokémon IP-adjacent, brand overlap risk",
+        "grading/rarity mechanism not detailed",
+        "website shows game interface but contract interaction unclear"
+      ],
+      "one_line_pitch": "Pokémon-like catching game with on-chain NFT asset ownership",
+      "website_url": "https://pocketslabs.app/",
+      "twitter_handle": "pocketslabs",
+      "reviewed_at": "2026-10-04T00:12:18.042Z"
+    },
+    {
       "name": "DOPPLERCOIN",
       "ticker": "DOPPLER",
       "mint": "CrAFB4iZZFP4xoASUE6sBNipdEZqXpYDx4LD5JN4pHy4",
@@ -3169,145 +3317,6 @@
       "website_url": "https://www.useouroboros.fun/",
       "twitter_handle": "useouroboros",
       "reviewed_at": "2026-10-03T12:29:47.023Z"
-    },
-    {
-      "name": "OPS",
-      "ticker": "OPS",
-      "mint": "7pBgBnqoFAsLga3mbswgcL3brW2k8hcJmVx6NecEpump",
-      "quality_score": 6,
-      "mechanism_summary": "One coin, one X account; AI agents unlock at market-cap + creator-fee milestones; agents funded by token fees, human-reviewed content workflow.",
-      "uniqueness": "novel",
-      "red_flags": [
-        "no proof agents are deployed or working",
-        "roadmap milestones not quantified (what market caps?)",
-        "human approval step bottlenecks autonomy",
-        "no agent count or timeline; 'Live' section shows 'no agent' yet",
-        "high execution risk; reads aspirational"
-      ],
-      "one_line_pitch": "Coin backing AI agent swarm unlocked by market-cap milestones; unproven.",
-      "website_url": "https://www.opscoin.net/",
-      "twitter_handle": "opscoinnet",
-      "reviewed_at": "2026-10-03T12:29:16.745Z"
-    },
-    {
-      "name": "Pokemon Launch",
-      "ticker": "POKELAUNCH",
-      "mint": "6Q817hdCuGz6cLZiA1FzoMsM4rHetueFDXNw3NPhpump",
-      "quality_score": 6,
-      "mechanism_summary": "Launchpad restricting each Pokémon species to one memecoin launch (1 per species limit).",
-      "uniqueness": "derivative",
-      "red_flags": [],
-      "one_line_pitch": "Launchpad with 1-memecoin-per-Pokémon-species constraint for identity scarcity.",
-      "website_url": "https://pokemonlaunch.fun",
-      "twitter_handle": "pokemonlaunch",
-      "reviewed_at": "2026-10-03T12:27:56.942Z"
-    },
-    {
-      "name": "dogs",
-      "ticker": "dogs",
-      "mint": "Bn7hQUaY1EZ6bTdbtB3r93eG8a7nwLWBvtsKLxTcpump",
-      "quality_score": 6,
-      "mechanism_summary": "Launchpad where 100% of trading fees fund dog shelters via public on-chain till with receipts.",
-      "uniqueness": "derivative",
-      "red_flags": [],
-      "one_line_pitch": "Pump.fun fork redirecting all trading fees to dog shelters transparently.",
-      "website_url": "https://dogsfun.online/",
-      "twitter_handle": "dogslaunchapd",
-      "reviewed_at": "2026-10-03T12:27:56.890Z"
-    },
-    {
-      "name": "SiPad",
-      "ticker": "SiPad",
-      "mint": "Hus1kzagPcNTxrPcDdfP2FPJV6eWRX1cKeHAKSZ3Fckd",
-      "quality_score": 6,
-      "mechanism_summary": "One-click launcher bundles .si domain registration, web hosting, site auto-build, and pump.fun coin launch; fees fund coin treasury.",
-      "uniqueness": "derivative",
-      "red_flags": [],
-      "one_line_pitch": "Bundled coin + website + .si domain launcher with automated treasury fees.",
-      "website_url": "https://launchon.si/",
-      "twitter_handle": "launchonsi",
-      "reviewed_at": "2026-10-03T12:09:08.086Z"
-    },
-    {
-      "name": "Purps",
-      "ticker": "PURPS",
-      "mint": "PfCKfCdM12SyJkkoKVLr7x32Paw79tPiMoaDbGvpump",
-      "quality_score": 6,
-      "mechanism_summary": "Token launcher where perpetual trading fees redistribute to token holders.",
-      "uniqueness": "novel",
-      "red_flags": [],
-      "one_line_pitch": "Launch tokens; perpetual trading fees return to holders.",
-      "website_url": "https://purps.lol/",
-      "twitter_handle": "buypurps",
-      "reviewed_at": "2026-10-03T12:07:13.808Z"
-    },
-    {
-      "name": "InuPad",
-      "ticker": "INUPAD",
-      "mint": "Eafh3Z7WrRqbvqeMK38fHdpdczVku6YBDoLBNHEtCntG",
-      "quality_score": 6,
-      "mechanism_summary": "Launchpad enforcing .inu address suffix with 40/50/10 fee split to holders/charities/burn.",
-      "uniqueness": "derivative",
-      "red_flags": [
-        "Charitable claims unverified on-chain",
-        "Depends on Pump.fun infrastructure"
-      ],
-      "one_line_pitch": "Themed launchpad restricting coins to .inu addresses with charity fee routing.",
-      "website_url": "https://theinupad.fun/",
-      "twitter_handle": "theinupad",
-      "reviewed_at": "2026-10-03T12:05:32.923Z"
-    },
-    {
-      "name": "FOMO",
-      "ticker": "FOMO",
-      "mint": "EVTvvCeFFz5rcaLkt7vuGdUozVeBeWcJMWQE4Eq5pump",
-      "quality_score": 6,
-      "mechanism_summary": "Social trading app: copy-trading, trader leaderboards, multi-chain swap, mobile + web, Apple Pay onramp.",
-      "uniqueness": "derivative",
-      "red_flags": [
-        "token mechanism not described on provided website content",
-        "copy-trading and social leaderboards are standard crypto pattern",
-        "crowded competitive space"
-      ],
-      "one_line_pitch": "Social copy-trading platform with leaderboards and mobile app (real, but common model).",
-      "website_url": "https://fomo.family/",
-      "twitter_handle": "fomo",
-      "reviewed_at": "2026-10-03T10:54:12.011Z"
-    },
-    {
-      "name": "StockCraft",
-      "ticker": "SCRAFT",
-      "mint": "6rENwMestRruv4XwjRwEdJ3GhR6mdErs8BcgCK62pump",
-      "quality_score": 6,
-      "mechanism_summary": "Co-op multiplayer game where winning teams distribute SOL payouts to token holders.",
-      "uniqueness": "derivative",
-      "red_flags": [
-        "Payout mechanics unclear (% distribution, time-weighting)",
-        "Marketing says 'stocks' but pays SOL",
-        "Sustained engagement risk for game model"
-      ],
-      "one_line_pitch": "Live co-op survival game that pays SOL to holder winners.",
-      "website_url": "https://stockcraftgame.fun/",
-      "twitter_handle": "stockcraftgg",
-      "reviewed_at": "2026-10-03T10:52:57.338Z"
-    },
-    {
-      "name": "KOPI INU",
-      "ticker": "KOPI",
-      "mint": "72SZVRcj9VidyYRXiv97RkjTgoCYhoXPBcWeGpmpump",
-      "quality_score": 6,
-      "mechanism_summary": "Time-travel game: guide Shiba through eras by collecting beans and pawcoins.",
-      "uniqueness": "derivative",
-      "red_flags": [
-        "unverified if game is actually playable/live",
-        "unclear how game progression ties to token value",
-        "description truncated",
-        "no link to playable version"
-      ],
-      "one_line_pitch": "Time-machine game coin, collect resources through historical eras.",
-      "website_url": "https://kopiinu.netlify.app/",
-      "twitter_handle": "kopiinu_tt",
-      "reviewed_at": "2026-10-03T10:52:50.861Z"
     }
   ],
   "new_idea_suggestions": [
