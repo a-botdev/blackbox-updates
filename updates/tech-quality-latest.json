@@ -1,7 +1,22 @@
 {
-  "generated_at": "2026-10-04T03:32:36.663Z",
+  "generated_at": "2026-10-04T03:46:40.261Z",
   "note": "Quality-reviewed tech coins: passed a local coarse filter (qwen2.5:3b) then a real judgment pass (Haiku) confirming is_real_tech=true. new_idea_suggestions are Haiku-generated, informed by these patterns but NOT copies -- creative seeds for further review, not trading signals.",
   "quality_tech_coins": [
+    {
+      "name": "Shipd",
+      "ticker": "SHIPD",
+      "mint": "ADigMedGRGbpjEBipSAWaYgmM8gdM6jnzXCMpYwMpump",
+      "quality_score": 8,
+      "mechanism_summary": "Launcher: route coin creator fees to physical items; auto-purchase and ship from 23 retail partners.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "Retail API integrations unverified, but site structure suggests active product"
+      ],
+      "one_line_pitch": "Coin launcher routing creator fees to physical fulfillment across 23 retailers.",
+      "website_url": "https://useshipd.xyz/",
+      "twitter_handle": "shipd_",
+      "reviewed_at": "2026-10-04T03:43:13.899Z"
+    },
     {
       "name": "Privacy Protocol",
       "ticker": "PRIVY",
@@ -290,6 +305,23 @@
       "website_url": "http://dotnet.land",
       "twitter_handle": "dotnetfund",
       "reviewed_at": "2026-10-03T13:48:57.247Z"
+    },
+    {
+      "name": "Assay",
+      "ticker": "ASSAY",
+      "mint": "GkhD8vWyeiLd4Uanr2kXJYSPpG87e9z84FvsgPKpump",
+      "quality_score": 7,
+      "mechanism_summary": "Oracle-backed insurance: monitors synthetic stock tokens vs. Pyth stock prices; pays cover for tracking gaps.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "depends on Pyth oracle reliability",
+        "off-market-hours gaps don't trigger (limited temporal scope)",
+        "website shows 'No reading from the API' for live prices"
+      ],
+      "one_line_pitch": "Insurance protocol covering synthetic stock token tracking divergence via Pyth oracle.",
+      "website_url": "https://useassay.io/",
+      "twitter_handle": "useassayio",
+      "reviewed_at": "2026-10-04T03:45:33.933Z"
     },
     {
       "name": "pHooks",
@@ -2301,6 +2333,42 @@
       "reviewed_at": "2026-10-03T13:13:07.851Z"
     },
     {
+      "name": "limit",
+      "ticker": "LIMIT",
+      "mint": "9odbQZa349AE8mkGPR3Ffe3dXAF6Thx3R5SGoRtQpump",
+      "quality_score": 6,
+      "mechanism_summary": "Auto-executes buy/sell orders in FOMO UI when market-cap or price targets hit; no watching needed.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "unofficial/not affiliated with fomo.family",
+        "third-party wrapper risk",
+        "depends on external service (fomo.family)",
+        "limit orders themselves are standard everywhere"
+      ],
+      "one_line_pitch": "FOMO-native conditional limit orders triggered by market-cap targets; unofficial wrapper.",
+      "website_url": "https://limit.family/",
+      "twitter_handle": "limitdotfamily",
+      "reviewed_at": "2026-10-04T03:45:33.929Z"
+    },
+    {
+      "name": "Vampire",
+      "ticker": "VAMPIRE",
+      "mint": "7PRXaZigQ9N8uzJNqLaE7Mpk6zT2iq4pYmUw7YJwpump",
+      "quality_score": 6,
+      "mechanism_summary": "1% buy fee targeting high-volume wallets: 50% holders, 40% burn, 10% game.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "Game mechanics may be vaporware (interactive UI ≠ working contracts)",
+        "No contract address published; site shows only game shell",
+        "Fee structure is standard pattern; novelty is cosmetic/branding",
+        "Wallet-targeting logic unverified"
+      ],
+      "one_line_pitch": "Gamified 1% buy-fee coin with themed vampire mechanics UI.",
+      "website_url": "https://www.vampirefee.fun/",
+      "twitter_handle": "vampirefee",
+      "reviewed_at": "2026-10-04T03:44:32.911Z"
+    },
+    {
       "name": "Kolibrate",
       "ticker": "KOLIBRATE",
       "mint": "37Rgqs44WmFfhBCHD4kZuKVD1vvexwt5aAQFvCwkpump",
@@ -3221,70 +3289,6 @@
       "website_url": "https://worldwideweb.stream/coin/9HAcGAadLK2CMLT6KbafWseur5WqPWpCfzTJsHRqYxh3",
       "twitter_handle": "narrasf1nder",
       "reviewed_at": "2026-10-03T13:42:46.183Z"
-    },
-    {
-      "name": "Solbeans",
-      "ticker": "BEANS",
-      "mint": "5SeSgDDm7oX8m1scMF1erzSFV4LB9W85DJZv2wCsJJGy",
-      "quality_score": 6,
-      "mechanism_summary": "Browser-based party game (40-player, free-to-play) with token earn-and-burn mechanics tied to gameplay outcomes.",
-      "uniqueness": "derivative",
-      "red_flags": [
-        "contract address still TBA",
-        "game appears playable but token integration status unclear"
-      ],
-      "one_line_pitch": "Working browser game with token earn-and-burn tied to match outcomes.",
-      "website_url": "http://solbeans.gg",
-      "twitter_handle": "solbeansgg",
-      "reviewed_at": "2026-10-03T13:32:39.222Z"
-    },
-    {
-      "name": "Hold The Click",
-      "ticker": "HOLD",
-      "mint": "C5PzkCw5Po3ufCZ3jXkPXnHmpGhmAyQxLZGF7npJpump",
-      "quality_score": 6,
-      "mechanism_summary": "Interactive hold-click endurance game where winners claim 50% of token trading fees; treasury rolls over.",
-      "uniqueness": "novel",
-      "red_flags": [],
-      "one_line_pitch": "Working hold-click game where winners claim token fee treasury prize pool.",
-      "website_url": "https://holdtheclick.fun/",
-      "twitter_handle": "holdtheclick",
-      "reviewed_at": "2026-10-03T13:32:38.478Z"
-    },
-    {
-      "name": "inuvestor",
-      "ticker": "inuvestor",
-      "mint": "HPyruJtXqMWrudq9PJeK76Y5kerBvNGwN1x27zczpump",
-      "quality_score": 6,
-      "mechanism_summary": "Launchpad where each token auto-deploys AI trader agent funded by 10% creator fees; agent profits rebuy token.",
-      "uniqueness": "novel",
-      "red_flags": [
-        "Minimal website, unclear if actually live",
-        "AI trading profitability at launch is highly speculative",
-        "Agent strategy/performance transparency not documented"
-      ],
-      "one_line_pitch": "Launchpad auto-deploys AI traders per token to buyback with trading profits",
-      "website_url": "https://inuvestor.xyz",
-      "twitter_handle": "inuvestorfun",
-      "reviewed_at": "2026-10-03T13:30:33.677Z"
-    },
-    {
-      "name": "VENTRION",
-      "ticker": "VENTRION",
-      "mint": "HQhPwbZd8oPLr18cEWUN7N3yK7qmTBuyBv3fXKjpump",
-      "quality_score": 6,
-      "mechanism_summary": "Tokenizes companies and streams their revenue as automatic USDC dividend payouts to token holders.",
-      "uniqueness": "novel",
-      "red_flags": [
-        "Private alpha only, no live product",
-        "Revenue proof/commercial contract integration mechanism unclear",
-        "Complex regulatory risk unaddressed",
-        "No working example documented"
-      ],
-      "one_line_pitch": "Protocol tokenizes companies and distributes revenue as automatic USDC dividends",
-      "website_url": "https://ventrion.fun/",
-      "twitter_handle": "ventrionlabs",
-      "reviewed_at": "2026-10-03T13:30:33.668Z"
     }
   ],
   "new_idea_suggestions": [
