@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T16:01:28.425Z",
+  "generated_at": "2026-10-04T16:15:21.280Z",
   "note": "Quality-reviewed tech coins: passed a local coarse filter (qwen2.5:3b) then a real judgment pass (Haiku) confirming is_real_tech=true. new_idea_suggestions are Haiku-generated, informed by these patterns but NOT copies -- creative seeds for further review, not trading signals.",
   "quality_tech_coins": [
     {
@@ -322,6 +322,49 @@
       "website_url": "http://dotnet.land",
       "twitter_handle": "dotnetfund",
       "reviewed_at": "2026-10-03T13:48:57.247Z"
+    },
+    {
+      "name": "Spectral Protocol",
+      "ticker": "SPECTRAL",
+      "mint": "7MK1KMamq3edSkNSa9sYhzJcKBJSkDkPa6SXPK3Upump",
+      "quality_score": 7,
+      "mechanism_summary": "ZK credentials prove spend authorization (not ownership); shielded liquidity hides balances; relayers incentivized.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "No visible working product, protocol claims without implementation evidence",
+        "Token may be speculation on unreleased/vaporware protocol",
+        "Authorization-vs-ownership angle is real but unproven"
+      ],
+      "one_line_pitch": "ZK-based authorization proving for private Solana payments, shielded pools, relayer model",
+      "website_url": "https://spectral.money",
+      "twitter_handle": "spectralpay",
+      "reviewed_at": "2026-10-04T16:14:13.678Z"
+    },
+    {
+      "name": "Reelpad",
+      "ticker": "Reelpad",
+      "mint": "2CZJzBoeS17uAQbAdBcrkpEJjPixEcsFvJAhwRV9pump",
+      "quality_score": 7,
+      "mechanism_summary": "AI generates coin-specific Instagram influencer; auto-posts content; treasury buys back and burns tokens.",
+      "uniqueness": "novel",
+      "red_flags": [],
+      "one_line_pitch": "Automated AI influencers for pump.fun coins with on-chain treasury buyback/burn integration.",
+      "website_url": "https://www.reelpad.fun/",
+      "twitter_handle": "reelpad_",
+      "reviewed_at": "2026-10-04T16:13:02.659Z"
+    },
+    {
+      "name": "Minted",
+      "ticker": "MINTED",
+      "mint": "FeG95iQwThBDy9YvYaMSBiSG121j7kcss3yYUZMipump",
+      "quality_score": 7,
+      "mechanism_summary": "Launch coin on pump.fun, receive NFT engine that collects 20% of coin fees forever",
+      "uniqueness": "novel",
+      "red_flags": [],
+      "one_line_pitch": "NFT engine collects 20% of each launched coin's creator fees perpetually.",
+      "website_url": "https://mintedengines.com/",
+      "twitter_handle": "mintedeng",
+      "reviewed_at": "2026-10-04T16:12:21.406Z"
     },
     {
       "name": "Xtubers",
@@ -2775,6 +2818,40 @@
       "reviewed_at": "2026-10-03T13:13:07.851Z"
     },
     {
+      "name": "Test Any Tech",
+      "ticker": "TestAny",
+      "mint": "H5mBRtgRA2jkAx4ALbF3cEbhYJJVHYcdYDSjE4wUpump",
+      "quality_score": 6,
+      "mechanism_summary": "Cloud-browser automated verification service comparing Solana projects' claims against observed evidence",
+      "uniqueness": "novel",
+      "red_flags": [
+        "token role in mechanism unclear",
+        "appears to be SaaS tool rather than on-chain protocol",
+        "no governance or economic model described"
+      ],
+      "one_line_pitch": "Automated claim-verification service using cloud browser for Solana projects",
+      "website_url": "https://testany.tech",
+      "twitter_handle": "testanytech",
+      "reviewed_at": "2026-10-04T16:15:19.676Z"
+    },
+    {
+      "name": "Tagged",
+      "ticker": "TAGGED",
+      "mint": "BeTod9h1tq1FCYRSovVRRa3p55AXjxDBQYY8E5dXpump",
+      "quality_score": 6,
+      "mechanism_summary": "Tag Cash App users; 90% of coin creator fees auto-paid to tagged recipient",
+      "uniqueness": "novel",
+      "red_flags": [
+        "Solana-to-CashApp integration method unclear (escrow?)",
+        "No details on fraud prevention (tagging strangers)",
+        "Technical implementation not documented"
+      ],
+      "one_line_pitch": "Pump.fun launchpad redirects 90% of fees to tagged Cash App users.",
+      "website_url": "https://taggeddot.fun",
+      "twitter_handle": "taggeddotfun",
+      "reviewed_at": "2026-10-04T16:12:21.377Z"
+    },
+    {
       "name": "autodev.trade",
       "ticker": "AUTODEV",
       "mint": "8QEw55xnZvDJoP9JwZkBc2aT3zWDRDi3qZUHL8fepump",
@@ -3199,84 +3276,6 @@
       "website_url": "https://theinupad.fun/",
       "twitter_handle": "theinupad",
       "reviewed_at": "2026-10-04T08:13:58.485Z"
-    },
-    {
-      "name": "Bundles",
-      "ticker": "Bundles",
-      "mint": "5TaQMpi6yhiCTqk5o6ZwnYbjfESGeroZtHUL2WRWpump",
-      "quality_score": 6,
-      "mechanism_summary": "Creator fees auto-buy tokenized stocks on rotating 15-min schedule, distribute to holders.",
-      "uniqueness": "derivative",
-      "red_flags": [
-        "no regulatory clarity on stock tokenization",
-        "centralized asset rotation control",
-        "undefined source/custody of tokenized stocks"
-      ],
-      "one_line_pitch": "Pump.fun coin auto-rotates creator fees across 27 tokenized real stocks.",
-      "website_url": "https://usebundles.fun/",
-      "twitter_handle": "usebundles",
-      "reviewed_at": "2026-10-04T08:13:36.150Z"
-    },
-    {
-      "name": ".si",
-      "ticker": ".si",
-      "mint": "5vN5LR1zDohpcek9wXfm188ZbN8957sKw8YNtarfpump",
-      "quality_score": 6,
-      "mechanism_summary": "Burn tokens to permanently register Solana wallet names; no renewals, one per wallet",
-      "uniqueness": "derivative",
-      "red_flags": [
-        "only 1 registration all-time suggests minimal adoption",
-        "unproven market for wallet names",
-        "variant of ENS/SNS model"
-      ],
-      "one_line_pitch": "Burn tokens to claim permanent Solana wallet names",
-      "website_url": "https://www.dotsi.fun/",
-      "twitter_handle": "dotsi_fun",
-      "reviewed_at": "2026-10-04T04:42:35.506Z"
-    },
-    {
-      "name": "Stats",
-      "ticker": "STATS",
-      "mint": "GkDxVeeXvcX6CHz7AYrduhaL4tuschcA19JNWRCjpump",
-      "quality_score": 6,
-      "mechanism_summary": "Reward $STATS holders with creator fees from pump.fun and fomo calls every 4 minutes.",
-      "uniqueness": "derivative",
-      "red_flags": [],
-      "one_line_pitch": "SocialFi token rewarding holders with creator call fees cross-platform.",
-      "website_url": "https://www.stats.fund/",
-      "twitter_handle": "stats_sol",
-      "reviewed_at": "2026-10-04T04:28:14.418Z"
-    },
-    {
-      "name": "Nerve",
-      "ticker": "NERVE",
-      "mint": "GWmJEbpbxpub3NFMzFF3Eu2vbgVBBHMshRVAGDh2pump",
-      "quality_score": 6,
-      "mechanism_summary": "Watchers pay to dare; players complete live tasks and earn; failed dares refund watchers.",
-      "uniqueness": "derivative",
-      "red_flags": [
-        "duplicate of 759ZJq...",
-        "possible failed relaunch or abandoned fork"
-      ],
-      "one_line_pitch": "Duplicate Nerve token with identical dare-streaming mechanics.",
-      "website_url": "https://playnerve.live/",
-      "twitter_handle": "nervedarepf",
-      "reviewed_at": "2026-10-04T04:14:05.005Z"
-    },
-    {
-      "name": "Nerve",
-      "ticker": "NERVE",
-      "mint": "759ZJqY317B391xLqaciLevMB98shVRASxC8zYuppump",
-      "quality_score": 6,
-      "mechanism_summary": "Watchers pay to dare; players complete live tasks and earn; failed dares refund watchers.",
-      "uniqueness": "novel",
-      "red_flags": [
-        "no confirmed working product/MVP"
-      ],
-      "one_line_pitch": "Livestream dare platform with escrow rewards and refunds.",
-      "website_url": null,
-      "twitter_handle": null,
-      "reviewed_at": "2026-10-04T04:14:05.003Z"
     }
   ],
   "new_idea_suggestions": [
