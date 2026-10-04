@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T19:14:37.530Z",
+  "generated_at": "2026-10-04T19:29:48.995Z",
   "note": "Quality-reviewed tech coins: passed a local coarse filter (qwen2.5:3b) then a real judgment pass (Haiku) confirming is_real_tech=true. new_idea_suggestions are Haiku-generated, informed by these patterns but NOT copies -- creative seeds for further review, not trading signals.",
   "quality_tech_coins": [
     {
@@ -401,6 +401,24 @@
       "website_url": "http://dotnet.land",
       "twitter_handle": "dotnetfund",
       "reviewed_at": "2026-10-03T13:48:57.247Z"
+    },
+    {
+      "name": "GitLaunchTech",
+      "ticker": "GITLAUNCH",
+      "mint": "EFJZLi3h1iVgCnM3Q1bBFyESABGgfcGSRbUNvN3Apump",
+      "quality_score": 7,
+      "mechanism_summary": "Permissionless GitHub repo launcher: convert repos to pump.fun coins, redirect creator fees to repo owners.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "unclear if live or landing page only",
+        "legal/IP risk (launching arbitrary repos without permission)",
+        "maintainer adoption/incentive unclear",
+        "verification mechanism untested"
+      ],
+      "one_line_pitch": "GitHub-to-pump.fun coin automation with creator-fee redirection to maintainers.",
+      "website_url": "https://gitlaunchpf.fun/",
+      "twitter_handle": "gitlaunchtech",
+      "reviewed_at": "2026-10-04T19:29:25.430Z"
     },
     {
       "name": "Research Chamber",
@@ -3172,6 +3190,41 @@
       "reviewed_at": "2026-10-03T13:13:07.851Z"
     },
     {
+      "name": "Dotpad",
+      "ticker": "Dotpad",
+      "mint": "3FYAXQtJwqw7WAuLD65QZwdcWMRvHyzCGds8G6x7pump",
+      "quality_score": 6,
+      "mechanism_summary": "AI character creation platform ('dots') with personalities tied to pump.fun coin launches.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "no working demo visible",
+        "site polished but no traction metrics",
+        "Astra/RelayModels dependency unclear",
+        "unknown if live or landing page"
+      ],
+      "one_line_pitch": "AI mascot generator for pump.fun coins, characters market/companion the launch.",
+      "website_url": "https://dotpad.store",
+      "twitter_handle": "dotpadstore",
+      "reviewed_at": "2026-10-04T19:29:25.426Z"
+    },
+    {
+      "name": "Dotnet",
+      "ticker": "Dotnet",
+      "mint": "62muvQK5v2wy6T4aswjp2BfDH4VWvc1hWPsxEWooDBt1",
+      "quality_score": 6,
+      "mechanism_summary": "AI-only social network where agents post; humans view only. Live agent interactions on pixel island.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "No tokenomics or token utility explained",
+        "Unclear how $DOTNET function beyond cosmetic membership",
+        "Unclear if genuine utility vs. novelty/art project"
+      ],
+      "one_line_pitch": "AI agents only social platform; humans are spectators.",
+      "website_url": "https://dotnet.land/",
+      "twitter_handle": "dotlandsol",
+      "reviewed_at": "2026-10-04T19:28:04.038Z"
+    },
+    {
       "name": "GARP",
       "ticker": "GARP",
       "mint": "34x5Qg68XwKPXhqGZzXEiKMYeZsXDCUjqTR6DVL9pump",
@@ -3200,59 +3253,6 @@
       "website_url": "https://www.dotjob.trade/",
       "twitter_handle": "usedotjob",
       "reviewed_at": "2026-10-04T19:01:01.111Z"
-    },
-    {
-      "name": "duelpvp",
-      "ticker": "DUELPVP",
-      "mint": "2kW6SYamwAifqCsaxZYBGMuDbxDRk4QYU3upn4vipump",
-      "quality_score": 6,
-      "mechanism_summary": "Head-to-head portfolio competition with $10K virtual books; wallet-verified on-chain scoring, ranked seasons.",
-      "uniqueness": "derivative",
-      "red_flags": [
-        "product appears incomplete—UI mockups shown but no live duel observable",
-        "site says 'Live on Solana' but sign-up/onboarding UX not functional",
-        "no contract address prominently listed"
-      ],
-      "one_line_pitch": "PVP trading competition with on-chain wallet scoring and seasonal rankings.",
-      "website_url": "https://duelpvp.online/",
-      "twitter_handle": "duelpvponline",
-      "reviewed_at": "2026-10-04T18:59:48.066Z"
-    },
-    {
-      "name": "Greenpill",
-      "ticker": "Greenpill",
-      "mint": "7MPzsBt2waXBMgybmPPUsym1QZgtHecE14WmNHaspump",
-      "quality_score": 6,
-      "mechanism_summary": "X OAuth-gated coins; trading fees routed to X account holder's Solana wallet.",
-      "uniqueness": "derivative",
-      "red_flags": [
-        "no working product, just landing page",
-        "contract 'TBA'",
-        "dependency on X/Pump.fun APIs",
-        "0 coins launched"
-      ],
-      "one_line_pitch": "Coins tied to any X account; trading fees paid to users' wallets globally.",
-      "website_url": "https://greenpill.fun/",
-      "twitter_handle": "getgreenpill",
-      "reviewed_at": "2026-10-04T18:59:38.878Z"
-    },
-    {
-      "name": "BEDBUG",
-      "ticker": "BEDBUG",
-      "mint": "Dg3AvRYdEZRa3unG5kbgGM9STLt4zd5hgHd2uMHkpump",
-      "quality_score": 6,
-      "mechanism_summary": "Injected wallet parasite token; takes 1% cut from target wallet buys.",
-      "uniqueness": "novel",
-      "red_flags": [
-        "mechanism description technically vague/implausible on Solana",
-        "claims to intercept buys in same slot; unclear how without chain hooks",
-        "unsellable/soulbound token aspect unusual but unverified",
-        "implementation details missing; sounds like scam"
-      ],
-      "one_line_pitch": "Novel wallet-injection 'parasite' token; likely technically unimplementable.",
-      "website_url": "https://bedbugonsol.fun",
-      "twitter_handle": "bedbugonsol",
-      "reviewed_at": "2026-10-04T18:46:29.248Z"
     }
   ],
   "new_idea_suggestions": [
