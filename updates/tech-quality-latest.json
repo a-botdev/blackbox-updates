@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T09:00:33.184Z",
+  "generated_at": "2026-10-04T09:21:04.111Z",
   "note": "Quality-reviewed tech coins: passed a local coarse filter (qwen2.5:3b) then a real judgment pass (Haiku) confirming is_real_tech=true. new_idea_suggestions are Haiku-generated, informed by these patterns but NOT copies -- creative seeds for further review, not trading signals.",
   "quality_tech_coins": [
     {
@@ -305,6 +305,19 @@
       "website_url": "http://dotnet.land",
       "twitter_handle": "dotnetfund",
       "reviewed_at": "2026-10-03T13:48:57.247Z"
+    },
+    {
+      "name": "Call Market",
+      "ticker": "CALL",
+      "mint": "2YJPpc4NPffZtBz4kdgZ7cUrijN4eoDdKGvcWcSspump",
+      "quality_score": 7,
+      "mechanism_summary": "Decentralized prediction market: users call coin multiples, others bet YES/NO, on-chain median settles",
+      "uniqueness": "novel",
+      "red_flags": [],
+      "one_line_pitch": "Prediction market using on-chain median settlement for price multiples",
+      "website_url": "https://callmarket.fun/",
+      "twitter_handle": "usecallmarket",
+      "reviewed_at": "2026-10-04T09:17:21.880Z"
     },
     {
       "name": "Aethra",
@@ -2540,6 +2553,55 @@
       "reviewed_at": "2026-10-03T13:13:07.851Z"
     },
     {
+      "name": "Git Fuel",
+      "ticker": "GITFUEL",
+      "mint": "4pMazPRAKWB3MK9FFpHx8V7RXt5nHhtf7bib2pznpump",
+      "quality_score": 6,
+      "mechanism_summary": "Tokenize GitHub repos, create discovery marketplace, auto-distribute fees to builders.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "only 2 live markets — extremely early adoption",
+        "fee-claim feature marked 'coming soon'"
+      ],
+      "one_line_pitch": "GitHub repo tokenization marketplace with automatic verified-builder fee distribution.",
+      "website_url": "https://www.gitfuel.fun",
+      "twitter_handle": "gitfuel",
+      "reviewed_at": "2026-10-04T09:21:00.109Z"
+    },
+    {
+      "name": "FORGE",
+      "ticker": "FORGE",
+      "mint": "7SG8ap8SqDB1dVmJ9RZhXd3VBkbgwPitxt9Jhj4Spump",
+      "quality_score": 6,
+      "mechanism_summary": "AI agents compete in games; ForgeBench™ scores behavior; detailed decision capture funds next round.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "token mechanics not described on website",
+        "unclear how $FORGE integrates with competitive AI arena"
+      ],
+      "one_line_pitch": "Competitive game arena for AI agents with ForgeBench™ behavioral scoring and data-driven funding.",
+      "website_url": "https://forgeai.gg/",
+      "twitter_handle": "forgeai_gg",
+      "reviewed_at": "2026-10-04T09:17:31.454Z"
+    },
+    {
+      "name": "WickRun",
+      "ticker": "WICK",
+      "mint": "GrK89andnH4ATQ9gMCGb75WR57CyJUYszFuX766Spump",
+      "quality_score": 6,
+      "mechanism_summary": "Daily arcade game with server-replayed runs; leaderboard rankings per wallet address; one seed daily.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "Launching soon—product not yet live",
+        "Token utility (rewards, scoring weight) not explicitly stated",
+        "Game mechanics clear but token integration undefined"
+      ],
+      "one_line_pitch": "Daily arcade game with server leaderboards and per-address scoring.",
+      "website_url": "https://wickarcade.xyz/",
+      "twitter_handle": "_wickrun_",
+      "reviewed_at": "2026-10-04T09:16:33.536Z"
+    },
+    {
       "name": "Lottopad",
       "ticker": "lotto",
       "mint": "2tezbvS9vuyLMsWqBw49U2D2bBGeQ71wj2g3T2Zbpump",
@@ -3208,75 +3270,6 @@
       "website_url": "https://dottedjobs.com/",
       "twitter_handle": "dottedjobs",
       "reviewed_at": "2026-10-04T00:13:46.699Z"
-    },
-    {
-      "name": "Pocket Slabs",
-      "ticker": "SLABS",
-      "mint": "uPnLjPVtyJ359VMyEC6Kp1suDix79KSh1JzZvPhpump",
-      "quality_score": 6,
-      "mechanism_summary": "Play-to-earn game: catch/grade creatures as NFTs, manage on-chain",
-      "uniqueness": "derivative",
-      "red_flags": [
-        "Pokémon IP-adjacent, brand overlap risk",
-        "grading/rarity mechanism not detailed",
-        "website shows game interface but contract interaction unclear"
-      ],
-      "one_line_pitch": "Pokémon-like catching game with on-chain NFT asset ownership",
-      "website_url": "https://pocketslabs.app/",
-      "twitter_handle": "pocketslabs",
-      "reviewed_at": "2026-10-04T00:12:18.042Z"
-    },
-    {
-      "name": "DOPPLERCOIN",
-      "ticker": "DOPPLER",
-      "mint": "CrAFB4iZZFP4xoASUE6sBNipdEZqXpYDx4LD5JN4pHy4",
-      "quality_score": 6,
-      "mechanism_summary": "Coins' fees buy NFT collection floors via smart contracts automatically",
-      "uniqueness": "novel",
-      "red_flags": [
-        "brand mismatch: token is DOPPLER, product is Nosh",
-        "official affiliation unclear from Nosh website"
-      ],
-      "one_line_pitch": "NFT floor-sweeping launchpad: coin fees auto-purchase collections.",
-      "website_url": "https://www.usenosh.app/",
-      "twitter_handle": "rintraderz",
-      "reviewed_at": "2026-10-03T23:58:08.525Z"
-    },
-    {
-      "name": "amm(p:v)",
-      "ticker": "mutex",
-      "mint": "J7asPy7YZGhnPpSMkwYAKV3kFnwnmGEYLh4pBpFNtjA4",
-      "quality_score": 6,
-      "mechanism_summary": "AMM where alternating parties (p, v) hold a lock; trades pass lock and accumulate shared fee pot.",
-      "uniqueness": "novel",
-      "red_flags": [
-        "Mechanism description is cryptic/poetic, hard to parse",
-        "Minimal website with no technical docs or whitepaper",
-        "Implementation details and working code visibility unclear",
-        "Uncertain whether genuinely novel or obfuscated vaporware"
-      ],
-      "one_line_pitch": "Experimental AMM with alternating liquidity-provider lock mechanism.",
-      "website_url": "https://mutexllm.com/",
-      "twitter_handle": "mutexllm",
-      "reviewed_at": "2026-10-03T23:15:22.537Z"
-    },
-    {
-      "name": "Second Self",
-      "ticker": "SS",
-      "mint": "Atrzi2hDoo3zBpQ2BNUHxsi2EWGu5oDubto7dF9qbBo3",
-      "quality_score": 6,
-      "mechanism_summary": "Personal AI trading agent: users teach it their strategy, it autonomously trades when offline.",
-      "uniqueness": "novel",
-      "red_flags": [
-        "Wallet authorization mechanism not explained (how does AI sign txs?)",
-        "Training process opaque (supervised learning? RL? from past trades?)",
-        "Live PnL shown for 20+ egos; unclear if real accounts or simulated",
-        "Powered by OpenRouter; no on-chain logic details visible"
-      ],
-      "one_line_pitch": "Personal AI trading clone learns your strategy, executes trades while you're offline.",
-      "website_url": "https://secondself.me/",
-      "twitter_handle": "secondselfme",
-      "reviewed_at": "2026-10-03T23:14:03.039Z"
     }
   ],
   "new_idea_suggestions": [
