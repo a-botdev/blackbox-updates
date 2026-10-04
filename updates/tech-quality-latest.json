@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T08:45:37.131Z",
+  "generated_at": "2026-10-04T09:00:33.184Z",
   "note": "Quality-reviewed tech coins: passed a local coarse filter (qwen2.5:3b) then a real judgment pass (Haiku) confirming is_real_tech=true. new_idea_suggestions are Haiku-generated, informed by these patterns but NOT copies -- creative seeds for further review, not trading signals.",
   "quality_tech_coins": [
     {
@@ -305,6 +305,38 @@
       "website_url": "http://dotnet.land",
       "twitter_handle": "dotnetfund",
       "reviewed_at": "2026-10-03T13:48:57.247Z"
+    },
+    {
+      "name": "Aethra",
+      "ticker": "Aethra",
+      "mint": "8BBjYAErnnGveHhXXk87mdEXWwY3Fysc5tGwAG1vpump",
+      "quality_score": 7,
+      "mechanism_summary": "Browser MMORPG where pump.fun coins are player characters; creator fees fund in-game treasury.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "unclear if playable or design-only",
+        "no evidence of working game client",
+        "token-gameplay integration unproven"
+      ],
+      "one_line_pitch": "MMORPG where coins are characters and creator fees fund gameplay economy.",
+      "website_url": "https://aethra.quest/",
+      "twitter_handle": "aethraquest",
+      "reviewed_at": "2026-10-04T09:00:29.734Z"
+    },
+    {
+      "name": "Super Intelligence Network",
+      "ticker": "SIN",
+      "mint": "JB2r3WLA6uYPBQWANHuZUuEWiYyNXjWTVG3b2yJKpump",
+      "quality_score": 7,
+      "mechanism_summary": "Autonomous AI agents with Solana wallets, user-set rules, hiring each other in marketplace, on-chain audited.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "landing page only, no product evidence"
+      ],
+      "one_line_pitch": "AI agents with own wallets hire each other on-chain.",
+      "website_url": "https://www.sinetwork.dev",
+      "twitter_handle": "sinetworkai",
+      "reviewed_at": "2026-10-04T08:58:29.580Z"
     },
     {
       "name": "lonshor",
@@ -2508,6 +2540,55 @@
       "reviewed_at": "2026-10-03T13:13:07.851Z"
     },
     {
+      "name": "Lottopad",
+      "ticker": "lotto",
+      "mint": "2tezbvS9vuyLMsWqBw49U2D2bBGeQ71wj2g3T2Zbpump",
+      "quality_score": 6,
+      "mechanism_summary": "Trading fees buy Megapot lottery tickets daily; winners paid to holders. Bridges SOL→USDC via keeper.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "centralized keeper holds SOL during bridge",
+        "depends on external Megapot legitimacy",
+        "trust model risk during cross-chain bridge"
+      ],
+      "one_line_pitch": "Meme coin launchpad where trading fees fund real Megapot lottery",
+      "website_url": "https://lottopad.xyz/",
+      "twitter_handle": "lottopaddotfun",
+      "reviewed_at": "2026-10-04T09:00:02.663Z"
+    },
+    {
+      "name": "Grit Layer",
+      "ticker": "GRIT",
+      "mint": "J9gtJQnet2dkpoyxPh9YqYjEiBugU4rbPPnYnBsbpump",
+      "quality_score": 6,
+      "mechanism_summary": "Smart contract-verified work marketplace: post bounties, miners complete, payment after on-chain verification.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "landing page + API docs, no evidence of live deployed system or active users"
+      ],
+      "one_line_pitch": "Work marketplace with blockchain-verified completion payment.",
+      "website_url": "https://gritlayer.dev/",
+      "twitter_handle": "gritlayer",
+      "reviewed_at": "2026-10-04T08:58:29.645Z"
+    },
+    {
+      "name": "bluub",
+      "ticker": "bluub",
+      "mint": "BPmv3AZEbNzqrR4vXnPJwxmE1nb2vrWP1tEy4cxrpump",
+      "quality_score": 6,
+      "mechanism_summary": "Multi-AI blob with independent model cells answering X mentions; fees scale compute with market cap.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "Implementation details fragmented/vague",
+        "May be conceptual, not fully built",
+        "Website content partial"
+      ],
+      "one_line_pitch": "On-chain multi-model AI system responding to X mentions; fees fund compute scaling.",
+      "website_url": "https://bluub.org/",
+      "twitter_handle": "bluubai",
+      "reviewed_at": "2026-10-04T08:58:05.535Z"
+    },
+    {
       "name": "Meme Funded",
       "ticker": "MF",
       "mint": "4dtJPgybk2SY6sqHx3CCXE2CzqmC5ERvWwZNeQM5pump",
@@ -3196,88 +3277,6 @@
       "website_url": "https://secondself.me/",
       "twitter_handle": "secondselfme",
       "reviewed_at": "2026-10-03T23:14:03.039Z"
-    },
-    {
-      "name": "OTP",
-      "ticker": "OTP",
-      "mint": "Com2PWrtWS5CyvytRnYLh3jcKoobfvw8YeKLCauxpump",
-      "quality_score": 6,
-      "mechanism_summary": "Pay-per-use on-chain SMS verification service using rented carrier SIMs instead of personal numbers.",
-      "uniqueness": "derivative",
-      "red_flags": [
-        "no website provided to verify",
-        "SMS verification is solved problem, on-chain version incremental"
-      ],
-      "one_line_pitch": "On-chain pay-per-use SMS verification with anonymous rented SIMs.",
-      "website_url": "https://otp.fun/",
-      "twitter_handle": "otpdotfun",
-      "reviewed_at": "2026-10-03T20:16:33.752Z"
-    },
-    {
-      "name": "mote",
-      "ticker": "mote",
-      "mint": "9auxxjpRQFcKyteHhAESosvvqwyPJPCQJwbAddkfpump",
-      "quality_score": 6,
-      "mechanism_summary": "Auto-generate creator wallet for token launch, secure later with email",
-      "uniqueness": "novel",
-      "red_flags": [],
-      "one_line_pitch": "Zero-friction token launcher with automatic wallet generation",
-      "website_url": "https://mote.cash/",
-      "twitter_handle": "motecash",
-      "reviewed_at": "2026-10-03T20:13:17.089Z"
-    },
-    {
-      "name": "Conviction",
-      "ticker": "CONV",
-      "mint": "6Hh3ozSZYnqHpTrnPPMWbesFCUkVTK8L6TFUs4p1pump",
-      "quality_score": 6,
-      "mechanism_summary": "Lock any SPL token with early-exit penalties; fees fund CONV buybacks and burn.",
-      "uniqueness": "derivative",
-      "red_flags": [
-        "Time-locks are common pattern (veCRV, etc.)",
-        "Penalty enforcement requires trusted keeper",
-        "Buyback/burn governance not clearly specified"
-      ],
-      "one_line_pitch": "Multi-token time-lock platform; penalties fund buyback and burn.",
-      "website_url": "http://conviction.locker",
-      "twitter_handle": "convictionlock",
-      "reviewed_at": "2026-10-03T19:46:10.707Z"
-    },
-    {
-      "name": "CODINO",
-      "ticker": "CODINO",
-      "mint": "EH6mtrigZhwJL4v55a2VqFKpT5twRZHXVoD4fETCpump",
-      "quality_score": 6,
-      "mechanism_summary": "Wallet address deterministically generates unique pixel creature NFT; hatches with 10k token held.",
-      "uniqueness": "novel",
-      "red_flags": [
-        "Very new (October 2026)",
-        "Only 1,000 free NFT cap severely limits addressable base",
-        "Hatching mechanic is derivative (simple token-hold requirement)",
-        "Generative art NFT space is crowded"
-      ],
-      "one_line_pitch": "Address-based pixel creature NFT that hatches and grows with $CODINO holding.",
-      "website_url": "https://codino.fun/",
-      "twitter_handle": "codinosol",
-      "reviewed_at": "2026-10-03T19:28:02.406Z"
-    },
-    {
-      "name": "SHIPPED",
-      "ticker": "SHIPPED",
-      "mint": "hyivQQKkYTf7nAGmU2QbxGXYkR6rnt7BXemDWLti2YU",
-      "quality_score": 6,
-      "mechanism_summary": "AI builds apps from one-click descriptions, launches coins on pump.fun automatically.",
-      "uniqueness": "derivative",
-      "red_flags": [
-        "Very new Twitter (September 2026, ~1 month old)",
-        "No evidence of working app builder yet",
-        "No build count, user metrics, or live deployments shown",
-        "Ultra-ambitious scope (full hosting + coin integration) unproven"
-      ],
-      "one_line_pitch": "AI app builder with automatic pump.fun coin launch for maker backing.",
-      "website_url": "https://www.useshipped.app/",
-      "twitter_handle": "useshipped",
-      "reviewed_at": "2026-10-03T19:28:02.401Z"
     }
   ],
   "new_idea_suggestions": [
