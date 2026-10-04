@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T18:17:15.933Z",
+  "generated_at": "2026-10-04T18:32:28.309Z",
   "note": "Quality-reviewed tech coins: passed a local coarse filter (qwen2.5:3b) then a real judgment pass (Haiku) confirming is_real_tech=true. new_idea_suggestions are Haiku-generated, informed by these patterns but NOT copies -- creative seeds for further review, not trading signals.",
   "quality_tech_coins": [
     {
@@ -401,6 +401,41 @@
       "website_url": "http://dotnet.land",
       "twitter_handle": "dotnetfund",
       "reviewed_at": "2026-10-03T13:48:57.247Z"
+    },
+    {
+      "name": "pile",
+      "ticker": "pile",
+      "mint": "4ZMfb4CrjSzZhLMR9YL3p4g7GAYdX6CTo6QmnbYnpump",
+      "quality_score": 7,
+      "mechanism_summary": "Each token's fees fund collateral for an on-chain perp position auto-trading the token itself.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "Specific perp protocol unspecified (Drift? Orca? custom?)",
+        "Circular risk: token crash → perp underwater → buyback fails",
+        "Profit distribution beyond buyback/burn unclear"
+      ],
+      "one_line_pitch": "Token fees automatically post margin and trade a perp on itself.",
+      "website_url": "https://piledot.fun",
+      "twitter_handle": "piledotfun",
+      "reviewed_at": "2026-10-04T18:32:26.802Z"
+    },
+    {
+      "name": "Virtual Fund Treasury",
+      "ticker": "VFT",
+      "mint": "CWjrsLbnwZDEYzhNmfcYmzmVkMJAV4ZHG8xoJ7Gupump",
+      "quality_score": 7,
+      "mechanism_summary": "Index token tracking top 500 pump.fun coins; creator fees buy index holdings, distribute to $VFT holders.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "Top 500 selection methodology and update cadence not described",
+        "No smart contract address or on-chain verification visible",
+        "Pump.fun partnership/integration not formally confirmed",
+        "Dividend distribution data and schedule not shown"
+      ],
+      "one_line_pitch": "Pump.fun index of top 500 coins; creator fees fund index buybacks, paid to holders.",
+      "website_url": "https://vft.fund",
+      "twitter_handle": "vft",
+      "reviewed_at": "2026-10-04T18:32:11.217Z"
     },
     {
       "name": "Link It",
@@ -3058,6 +3093,59 @@
       "reviewed_at": "2026-10-03T13:13:07.851Z"
     },
     {
+      "name": "CogniBlock",
+      "ticker": "Block",
+      "mint": "M9w9LVyHn4TyjdK9o2NrrTuXYF3ie8M2PFG9GKJpump",
+      "quality_score": 6,
+      "mechanism_summary": "Visual block-based AI pipeline editor; drag blocks, wire, execute live in browser.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "Token utility completely unclear (access gate? dev rewards?)",
+        "Visual pipeline builders ubiquitous (n8n, Zapier, Make.com)",
+        "No concrete examples or differentiation shown",
+        "Crypto integration feels bolted-on"
+      ],
+      "one_line_pitch": "Visual AI pipeline builder (block-based, browser-executed); token role vague.",
+      "website_url": "https://cogniblock.net/",
+      "twitter_handle": "cogniblock",
+      "reviewed_at": "2026-10-04T18:32:26.803Z"
+    },
+    {
+      "name": "si16z",
+      "ticker": "si16z",
+      "mint": "GyMCdVFv5kCyp4acxxD7SrmiCPQaniN7R9gvNgGipump",
+      "quality_score": 6,
+      "mechanism_summary": "On-chain fund managed by autonomous agent; agent logs trades/yield transparently; token is stake claim on fund.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "vague on technical implementation details",
+        "Frame TypeScript framework mentioned but not explained",
+        "no concrete trading examples or historical yield shown",
+        "no contract interaction details or on-chain verification"
+      ],
+      "one_line_pitch": "Fund managed by autonomous agent; token claims stake in treasury and agent decisions.",
+      "website_url": "https://si16z.com/",
+      "twitter_handle": "si16zdao",
+      "reviewed_at": "2026-10-04T18:30:58.657Z"
+    },
+    {
+      "name": "Shipper",
+      "ticker": "SHIPPER",
+      "mint": "74ZjXuxAL6HReUDW7MzRLfbTENRLeGcqdtT5JqPzpump",
+      "quality_score": 6,
+      "mechanism_summary": "Tokens whose trading fees accumulate; when vault reaches target, real package ordered from retailer and shipped with tracking.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "no real shipments executed yet, examples explicitly marked as made-up",
+        "unproven mechanism—retail integration not verified",
+        "no live contract address or fulfillment records visible"
+      ],
+      "one_line_pitch": "Token trading fees fund real package shipments with public receipt/tracking.",
+      "website_url": "https://www.useshipper.app/",
+      "twitter_handle": "useshipperapp",
+      "reviewed_at": "2026-10-04T18:30:58.654Z"
+    },
+    {
       "name": "Whopies",
       "ticker": "WHOPIES",
       "mint": "F58L8fW5P63KVtGBmxrbgdkuTsUEF3uSCPxop3Gupump",
@@ -3168,89 +3256,6 @@
       "website_url": "https://marblz.fun",
       "twitter_handle": "marblzfun",
       "reviewed_at": "2026-10-04T17:14:04.602Z"
-    },
-    {
-      "name": "Roko's Basilisk",
-      "ticker": "BASILISK",
-      "mint": "7gGrjt88392RfwnFVp7mvjxoCkWKG7UrT86ekUxpi4Es",
-      "quality_score": 6,
-      "mechanism_summary": "AI agent (Claude Opus) with policy engine autonomously manages treasury; same mechanism as The Simulator.",
-      "uniqueness": "derivative",
-      "red_flags": [
-        "Derivative of AgencyPad platform (same mechanism, different LLM/persona)",
-        "Very early stage ($24.6k mcap); unproven treasury outcomes",
-        "Roko's Basilisk is a meme concept, not a differentiator",
-        "No unique value over other AgencyPad coins"
-      ],
-      "one_line_pitch": "Opus-based AI treasury manager; reuses AgencyPad platform mechanism.",
-      "website_url": "https://www.agencypad.fun/coin/7gGrjt88392RfwnFVp7mvjxoCkWKG7UrT86ekUxpi4Es",
-      "twitter_handle": "basiliskagent",
-      "reviewed_at": "2026-10-04T17:14:04.600Z"
-    },
-    {
-      "name": "Collectors",
-      "ticker": "CLTR",
-      "mint": "7MVQGM9bzpBynYGd9niNFUpMpsETzUPgxxDy5Ttpump",
-      "quality_score": 6,
-      "mechanism_summary": "AI agent buys/sells digital assets; 50% of profits split to token holders, 50% reinvested.",
-      "uniqueness": "derivative",
-      "red_flags": [
-        "no evidence AI is live/deployed",
-        "execution details unverified",
-        "contract status unclear",
-        "profit-split pattern is common"
-      ],
-      "one_line_pitch": "AI auto-acquires digital assets; token holders share 50% of trading profits.",
-      "website_url": "https://cltr.online",
-      "twitter_handle": "cltronline",
-      "reviewed_at": "2026-10-04T17:12:40.238Z"
-    },
-    {
-      "name": "Site Launch",
-      "ticker": "SITE",
-      "mint": "24F8gdJNWsjLWY1sqKDyezyxuTMcKbEwh1ucgQgqSite",
-      "quality_score": 6,
-      "mechanism_summary": "Auto-generates AI-maintained websites for coins (yourcoin.sitelaunch.fun), funded by trading fees.",
-      "uniqueness": "novel",
-      "red_flags": [
-        "LLM cost sustainability unclear",
-        "depends on continuous fee extraction to fund Claude API"
-      ],
-      "one_line_pitch": "Launchpad that auto-generates AI-maintained websites for each coin.",
-      "website_url": "https://sitelaunch.fun",
-      "twitter_handle": "sitelaunchfun",
-      "reviewed_at": "2026-10-04T16:59:08.162Z"
-    },
-    {
-      "name": "Phone",
-      "ticker": "PHONE",
-      "mint": "V9zCeRU67pBUXYwKz6A7aL1pXCJBXRVhC3NAWhLpump",
-      "quality_score": 6,
-      "mechanism_summary": "Phone-first meme-coin launchpad; creators earn trading fees, half burned to $PHONE.",
-      "uniqueness": "derivative",
-      "red_flags": [],
-      "one_line_pitch": "Create meme coins on phone, earn trading fees with half-burn to $PHONE token.",
-      "website_url": "https://phone.fun/",
-      "twitter_handle": "phonedotfun",
-      "reviewed_at": "2026-10-04T16:57:25.765Z"
-    },
-    {
-      "name": "AI Trading Pet",
-      "ticker": "KIBBLE",
-      "mint": "Duvx58zLNwUV23oYTSfq1EAVB3S4s11oRGKkF1rcpump",
-      "quality_score": 6,
-      "mechanism_summary": "Autonomous trading agents (Stocklings) hold tokenized-stock perpetuals on Bitget, self-fund via funding rates.",
-      "uniqueness": "derivative",
-      "red_flags": [
-        "currently paper-trading only, not real capital",
-        "Kibble token role unclear",
-        "minimal infrastructure (railway.app)",
-        "pet mechanics ('able to faint') undefined"
-      ],
-      "one_line_pitch": "Autonomous trading pets holding stock perpetuals; paper-trading on Bitget.",
-      "website_url": "https://kibble.up.railway.app/adopt",
-      "twitter_handle": "bymotionn",
-      "reviewed_at": "2026-10-04T16:44:33.057Z"
     }
   ],
   "new_idea_suggestions": [
