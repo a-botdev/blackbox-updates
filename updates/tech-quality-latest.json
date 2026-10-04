@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-10-04T03:14:27.356Z",
+  "generated_at": "2026-10-04T03:32:36.663Z",
   "note": "Quality-reviewed tech coins: passed a local coarse filter (qwen2.5:3b) then a real judgment pass (Haiku) confirming is_real_tech=true. new_idea_suggestions are Haiku-generated, informed by these patterns but NOT copies -- creative seeds for further review, not trading signals.",
   "quality_tech_coins": [
+    {
+      "name": "Privacy Protocol",
+      "ticker": "PRIVY",
+      "mint": "F9Sie2FqWiHknYCSEaVTHXyqz9NPwej1cXg3RVwJpump",
+      "quality_score": 8,
+      "mechanism_summary": "Privacy terminal with encrypted drops, swaps, routing, AI, MCP tools.",
+      "uniqueness": "novel",
+      "red_flags": [],
+      "one_line_pitch": "Privacy terminal for Solana with AES-256 encryption and MCP",
+      "website_url": "https://privyprotocol.fun/",
+      "twitter_handle": "privyprotocoll",
+      "reviewed_at": "2026-10-04T03:30:14.659Z"
+    },
     {
       "name": "velka",
       "ticker": "velka",
@@ -277,6 +290,49 @@
       "website_url": "http://dotnet.land",
       "twitter_handle": "dotnetfund",
       "reviewed_at": "2026-10-03T13:48:57.247Z"
+    },
+    {
+      "name": "pHooks",
+      "ticker": "PHOOKS",
+      "mint": "8Jcb3ycjqNU89ShqDd38T9Gy8FwcUFa9KxmBAKmA7gVF",
+      "quality_score": 7,
+      "mechanism_summary": "Solana transfer-hook framework embedding anti-snipe caps, wallet limits, dump throttles, buy pots directly into token contracts.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "Minimal real adoption: only 1 token deployed, 0 with active hooks enforced",
+        "Volume near zero ($3.98K/24h); no market traction yet",
+        "Early-stage protocol; viability unproven"
+      ],
+      "one_line_pitch": "Framework to wire rule engines (anti-snipe, throttles) into Solana token contracts via transfer hooks.",
+      "website_url": "https://phooks.fun/",
+      "twitter_handle": "phooksfun",
+      "reviewed_at": "2026-10-04T03:31:56.710Z"
+    },
+    {
+      "name": "PRIVATEPAD",
+      "ticker": "PRIVATEPAD",
+      "mint": "3P6NUM8e8n2ZFb3Nskc9hMsPbQBmiuEJf2gV9SEQpump",
+      "quality_score": 7,
+      "mechanism_summary": "Factory-deployed coins hide deployer; creator fees route to Twitter handles.",
+      "uniqueness": "novel",
+      "red_flags": [],
+      "one_line_pitch": "Launchpad hiding deployer via factory contracts, fees to Twitter",
+      "website_url": "https://privatepad.fun/",
+      "twitter_handle": "privatepadfun",
+      "reviewed_at": "2026-10-04T03:30:14.657Z"
+    },
+    {
+      "name": "Swarm Super Intelligence",
+      "ticker": "SSI",
+      "mint": "m1txkCWva5CRRene1yWoFTJ5BDXV2kG1tYbuxHKpump",
+      "quality_score": 7,
+      "mechanism_summary": "Coins launched as 'neurons' trade in SSI; 1% of trades feed parent.",
+      "uniqueness": "novel",
+      "red_flags": [],
+      "one_line_pitch": "Hierarchical token economy where coins become 'neurons' supporting others",
+      "website_url": "https://ssi.quest",
+      "twitter_handle": "swarmint_sol",
+      "reviewed_at": "2026-10-04T03:30:14.656Z"
     },
     {
       "name": "Superintelligence Gaming Factory",
@@ -2245,6 +2301,71 @@
       "reviewed_at": "2026-10-03T13:13:07.851Z"
     },
     {
+      "name": "Kolibrate",
+      "ticker": "KOLIBRATE",
+      "mint": "37Rgqs44WmFfhBCHD4kZuKVD1vvexwt5aAQFvCwkpump",
+      "quality_score": 6,
+      "mechanism_summary": "Analytics platform linking KOL posts to on-chain trading activity.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "token utility not explained on website"
+      ],
+      "one_line_pitch": "KOL post-to-trade-impact analyzer with live on-chain metrics.",
+      "website_url": "https://kolibrate.fun",
+      "twitter_handle": null,
+      "reviewed_at": "2026-10-04T03:32:34.255Z"
+    },
+    {
+      "name": "Escape The Rat Race",
+      "ticker": "CHEDDAR",
+      "mint": "6ZvfEhGR4sKFuyTxu1FW2mqTd9F82jnh6KMhUJ1dpump",
+      "quality_score": 6,
+      "mechanism_summary": "Game that autonomous AI agent RATBOT-01 rewrites daily: code, balance, moderation, deployment on automated 24h cycle.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "RATBOT autonomy mechanism completely unverified",
+        "No working product demo or gameplay shown",
+        "Description cut off; no technical details",
+        "High claim-to-evidence ratio; likely vaporware"
+      ],
+      "one_line_pitch": "Game auto-updated daily by autonomous AI agent; unclear if real or speculative.",
+      "website_url": "https://ratrace.fun\r\n------WebKitFormBoundaryPQN3rC84ncPOQH6o\r\nContent-Disposition: form-data; name=\"is_mayhem_mode\"\r\n\r\nfalse",
+      "twitter_handle": null,
+      "reviewed_at": "2026-10-04T03:31:56.707Z"
+    },
+    {
+      "name": "Quota",
+      "ticker": "QTA",
+      "mint": "BsCrE8ZBoqwzv1Yix8uV6S7MmvmH6R7B5Nv3Su8CtmN3",
+      "quality_score": 6,
+      "mechanism_summary": "Holders earn daily AI API credits from platform trading fee revenue",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "Unclear who pays trading fees funding rewards",
+        "Business model sustainability unconfirmed"
+      ],
+      "one_line_pitch": "AI inference token where holders earn daily revenue-share rewards.",
+      "website_url": "https://quota.tools/",
+      "twitter_handle": "quotaonsol",
+      "reviewed_at": "2026-10-04T03:31:08.060Z"
+    },
+    {
+      "name": "DashX | Payments",
+      "ticker": "DASHX",
+      "mint": "NyvwXvP8CQNCdG3ddMR3FxKwZ3H7hx6hVApX3hspump",
+      "quality_score": 6,
+      "mechanism_summary": "SPL token backing compliant USDT/USDC settlements for Indian freelancers",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "FIRA compliance claimed but not independently verified",
+        "Token technical role in settlements not detailed"
+      ],
+      "one_line_pitch": "Payment settlement token for Indian freelancers with compliant global transfers.",
+      "website_url": "http://dashx.xyz",
+      "twitter_handle": "dashxhq",
+      "reviewed_at": "2026-10-04T03:31:08.058Z"
+    },
+    {
       "name": "ZKL Pad",
       "ticker": "ZKL",
       "mint": "FE2PBgqf9RoDSMRAgbhr3kKFCsZLaC7NKkvZ5ostpump",
@@ -3164,146 +3285,6 @@
       "website_url": "https://ventrion.fun/",
       "twitter_handle": "ventrionlabs",
       "reviewed_at": "2026-10-03T13:30:33.668Z"
-    },
-    {
-      "name": "Corpus",
-      "ticker": "CORPUS",
-      "mint": "81aW5pLod8MCYpWcFEVgbGLydZBHdZPtpXvvYnQGpump",
-      "quality_score": 6,
-      "mechanism_summary": "Governance tokens manage asset baskets; 12 powers minus 2 locked forever.",
-      "uniqueness": "derivative",
-      "red_flags": [
-        "12 powers of fee distribution not enumerated—hard to evaluate mechanism",
-        "14-day 'prove you're not larping' requirement is vague and undefined",
-        "Unclear if this is live protocol or early-stage concept"
-      ],
-      "one_line_pitch": "DAO-like governance for basket management with limited delegated powers.",
-      "website_url": "https://solcorpus.xyz",
-      "twitter_handle": "corpus_sol",
-      "reviewed_at": "2026-10-03T13:28:06.166Z"
-    },
-    {
-      "name": "Fair Launch",
-      "ticker": "FAIR",
-      "mint": "EF9JctddPhS7713xxqNkz9Vg839y24vjF6xaAY8upump",
-      "quality_score": 6,
-      "mechanism_summary": "Sealed-bid auction launchpad where opening price isn't set by first block; bids hidden until reveal window.",
-      "uniqueness": "derivative",
-      "red_flags": [
-        "No working product demo",
-        "Only 3 Twitter posts, all conceptual",
-        "Joined October 2026, extremely early stage",
-        "Website lacks technical implementation details"
-      ],
-      "one_line_pitch": "Sealed-auction launchpad blocking first-block front-running on pump.fun",
-      "website_url": "https://www.fairlaunch.fun/",
-      "twitter_handle": "usefairlaunch",
-      "reviewed_at": "2026-10-03T13:19:12.418Z"
-    },
-    {
-      "name": "Matchsplit",
-      "ticker": "Matchsplit",
-      "mint": "4oeJSXe8XXQDvWZZvbrsJs8AbbWrJXAhd1cwTQCjpump",
-      "quality_score": 6,
-      "mechanism_summary": "Peer-matched stake betting: tickets pair by entry order, bigger stake wins smaller.",
-      "uniqueness": "novel",
-      "red_flags": [
-        "site mentions ETH but mint is Solana—potential cross-chain confusion or hijack",
-        "no contract code or technical details shown",
-        "live product claims unverified",
-        "active UI shown but scope unclear (browser-only or on-chain?)"
-      ],
-      "one_line_pitch": "Matched peer-betting game where entry-ordered tickets compete, larger stake wins.",
-      "website_url": "https://matchsplit.lol/",
-      "twitter_handle": "matchsplitdesk",
-      "reviewed_at": "2026-10-03T13:18:55.250Z"
-    },
-    {
-      "name": "ARENA",
-      "ticker": "ARENA",
-      "mint": "6aQrmqw5aNTpeaToTAuYPZ4X1UBt7YbJMMBwjYKdarna",
-      "quality_score": 6,
-      "mechanism_summary": "Creator-fee-funded AI traders autonomously trade the coin and rebuy it when profitable.",
-      "uniqueness": "derivative",
-      "red_flags": [
-        "Nearly identical to Agent Tank (both fee-funded AI + automated buyback)",
-        "Circular economics: AI needs volume, volume needs AI to sustain",
-        "Trading profitability in low-volume coins is speculative"
-      ],
-      "one_line_pitch": "AI traders funded by creator fees, profit-driven coin buybacks.",
-      "website_url": "https://www.enterarena.tech/",
-      "twitter_handle": "enterarena_",
-      "reviewed_at": "2026-10-03T13:17:51.420Z"
-    },
-    {
-      "name": "weavr",
-      "ticker": "WEAVR",
-      "mint": "BNgHD31j6YpemMAbRBcP6fkbsyK9SZgsgUVa3wZCpump",
-      "quality_score": 6,
-      "mechanism_summary": "LLM agents compose investment theses, system builds portfolios, users back them for fees",
-      "uniqueness": "novel",
-      "red_flags": [
-        "demo-only (explicitly states 'nothing executes here')",
-        "token mechanism and value unclear",
-        "depends on agent financial judgement quality"
-      ],
-      "one_line_pitch": "AI agents design custom fund allocations for users to back and earn fees",
-      "website_url": "https://weavr.sh/",
-      "twitter_handle": "weavr_ai",
-      "reviewed_at": "2026-10-03T13:16:02.316Z"
-    },
-    {
-      "name": "Claimroom",
-      "ticker": "Claimroom",
-      "mint": "JCyUTh61Ww1J2rHwhawxxHAPjhHAHz2McSZmaEqJpump",
-      "quality_score": 6,
-      "mechanism_summary": "Perpetual auction for a 'room' where outbidders must beat holder's bid plus 10%",
-      "uniqueness": "novel",
-      "red_flags": [
-        "contract not live yet (CA pending)",
-        "game viability depends on adoption and active bidding",
-        "cold-start liquidity risk"
-      ],
-      "one_line_pitch": "Perpetual auction game where displaced holders receive 10% compensation",
-      "website_url": "https://claimroom.wtf/",
-      "twitter_handle": "helloclaimroom",
-      "reviewed_at": "2026-10-03T13:16:02.315Z"
-    },
-    {
-      "name": "filled.cards",
-      "ticker": "FILLED",
-      "mint": "8dBnKHwNYH3hz2fFTJczVwzBTpJFAMtc53k3uA4zpump",
-      "quality_score": 6,
-      "mechanism_summary": "Live marketplace with limit orders, bid/ask terminal for graded trading cards.",
-      "uniqueness": "derivative",
-      "red_flags": [
-        "Token utility on platform not clearly specified",
-        "Third-party tool integration (@Collector_Crypt), maintenance unclear",
-        "Not Solana-specific mechanism, just a marketplace with token branding",
-        "Standard e-commerce UX, no novel on-chain innovation"
-      ],
-      "one_line_pitch": "Limit order marketplace for PSA/CGC graded trading cards",
-      "website_url": "https://filled.cards/",
-      "twitter_handle": "filledcards",
-      "reviewed_at": "2026-10-03T13:15:09.321Z"
-    },
-    {
-      "name": "Raidr",
-      "ticker": "RAIDR",
-      "mint": "3yDJUAFnkMXeexuRamXXacXv44EnfV1fonkteLEypump",
-      "quality_score": 6,
-      "mechanism_summary": "Creators fund SOL bounty pots; users post on X, earn shares based on tracked engagement.",
-      "uniqueness": "derivative",
-      "red_flags": [
-        "X engagement metrics are trivially gamed (bots, fake followers)",
-        "Creator-dependent model; no recurring revenue guarantee",
-        "No fraud detection or Sybil resistance mentioned",
-        "Bounty platforms exist everywhere; X-specific angle is minor"
-      ],
-      "one_line_pitch": "Social bounty: post on X, earn from creator-funded pots. Well-executed but gaming-vulnerable.",
-      "website_url": "https://www.raidr.tech",
-      "twitter_handle": "raidr_sol",
-      "reviewed_at": "2026-10-03T13:04:55.270Z"
     }
   ],
   "new_idea_suggestions": [
