@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T06:28:15.126Z",
+  "generated_at": "2026-10-05T07:19:01.933Z",
   "note": "Quality-reviewed tech coins: passed a local coarse filter (qwen2.5:3b) then a real judgment pass (Haiku) confirming is_real_tech=true. new_idea_suggestions are Haiku-generated, informed by these patterns but NOT copies -- creative seeds for further review, not trading signals.",
   "quality_tech_coins": [
     {
@@ -401,6 +401,41 @@
       "website_url": "http://dotnet.land",
       "twitter_handle": "dotnetfund",
       "reviewed_at": "2026-10-03T13:48:57.247Z"
+    },
+    {
+      "name": "DIMENSION",
+      "ticker": "DIMENSION",
+      "mint": "Fmtj26e72DvgomzTAh5etBB2tzd3iR4RCXE3xcZkpump",
+      "quality_score": 7,
+      "mechanism_summary": "Set multi-chain route (Solana→BNB→Robinhood→Base, etc). Token launches on next chain when accumulated creator fees cover launch cost.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "No technical details on cross-chain mechanics or bridge solution",
+        "Unclear fee threshold/accumulation logic",
+        "No proof of working implementation; mechanism sounds feasible but untested"
+      ],
+      "one_line_pitch": "Auto-chains token across configured route as trading fees accumulate.",
+      "website_url": "https://dimensionspad.fun/",
+      "twitter_handle": "dimensions_pad",
+      "reviewed_at": "2026-10-05T07:18:57.059Z"
+    },
+    {
+      "name": "Bacon",
+      "ticker": "Bacon",
+      "mint": "2tgSZg2fHMMDPPMiTWeJLycbWpBA5e8zk7SLzAxUcsyn",
+      "quality_score": 7,
+      "mechanism_summary": "Each coin assigned Claude Opus AI 'mind' operating via deterministic policy engine and isolated signer.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "very early stage ($3.5k market cap)",
+        "minimal trading volume ($20.1k in 1h)",
+        "isolated signer + policy engine is compelling but unaudited",
+        "description cut off ('Chaos is currency, but...') suggests WIP messaging"
+      ],
+      "one_line_pitch": "Coins with autonomous Claude Opus AI minds, policy-driven & safely isolated signers.",
+      "website_url": "https://www.agencypad.fun/coin/2tgSZg2fHMMDPPMiTWeJLycbWpBA5e8zk7SLzAxUcsyn",
+      "twitter_handle": "toly",
+      "reviewed_at": "2026-10-05T07:13:04.855Z"
     },
     {
       "name": "Paid",
@@ -3218,40 +3253,6 @@
       "website_url": "https://catchthedip.fun",
       "twitter_handle": "catchthedip_",
       "reviewed_at": "2026-10-03T17:06:42.220Z"
-    },
-    {
-      "name": "Mono",
-      "ticker": "MONO",
-      "mint": "47Sj6zrd5qCUdPqfBecv6iVqDK8XqQFNofRXouQqpump",
-      "quality_score": 6.5,
-      "mechanism_summary": "Fair launchpad: auction entry, detects bundles via wallet-funding-source grouping, locks liquidity permanently.",
-      "uniqueness": "derivative",
-      "red_flags": [
-        "still in private testing, not fully live",
-        "bundle detection method not technically specified",
-        "fairness mechanisms are not novel, though thoughtful combo"
-      ],
-      "one_line_pitch": "Anti-snipe launchpad with fair auctions and bundle-detection mechanics.",
-      "website_url": "https://mono.trading/",
-      "twitter_handle": "trymonofun",
-      "reviewed_at": "2026-10-03T17:06:42.216Z"
-    },
-    {
-      "name": "Rippers",
-      "ticker": "Rippers",
-      "mint": "CRXA4t47yWCN7qeGewqVCtHGLitDmYoH2QiRqpaLpump",
-      "quality_score": 6.5,
-      "mechanism_summary": "Trading fees accumulate into pool; every $50 triggers random draw of graded physical trading cards.",
-      "uniqueness": "derivative",
-      "red_flags": [
-        "Collector Crypt custody unverified (no external audit link)",
-        "some features marked Coming Soon",
-        "card insurance claim unconfirmed"
-      ],
-      "one_line_pitch": "Fee-funded lottery distributing graded physical trading cards to eligible holders.",
-      "website_url": "https://rippers.fun/",
-      "twitter_handle": "rippersdotfun",
-      "reviewed_at": "2026-10-03T13:13:07.851Z"
     }
   ],
   "new_idea_suggestions": [
