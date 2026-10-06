@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T21:34:19.412Z",
+  "generated_at": "2026-10-06T21:47:18.542Z",
   "note": "Quality-reviewed tech coins: passed a local coarse filter (qwen2.5:3b) then a real judgment pass (Haiku) confirming is_real_tech=true. new_idea_suggestions are Haiku-generated, informed by these patterns but NOT copies -- creative seeds for further review, not trading signals.",
   "quality_tech_coins": [
     {
@@ -728,6 +728,26 @@
       "website_url": "http://dotnet.land",
       "twitter_handle": "dotnetfund",
       "reviewed_at": "2026-10-03T13:48:57.247Z"
+    },
+    {
+      "name": "splice",
+      "ticker": "splice",
+      "mint": "DgS9d7epCnUKMum6R5uKR1zqpcnWFLgDR1rdWAsPLiCe",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "Two coins 'splice'; merged coin's fees split 50% parent holders, 35% treasury, 15% pad; pays out every minute.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "No live splices yet (stated 'No splices yet' on site)",
+        "Parent holder identification could be gamed (holdings changed post-splice)",
+        "Real-time 'every minute' payout claims unverified",
+        "Possible Pump.fun ToS conflict (unauthorized token creation)"
+      ],
+      "one_line_pitch": "Two coins breed into new coin that pays both parents' holders from fees.",
+      "website_url": "https://www.splicelaunch.app/",
+      "twitter_handle": "splicelaunch",
+      "reviewed_at": "2026-10-06T21:45:45.927Z"
     },
     {
       "name": "Narrative launchpad",
@@ -5474,6 +5494,47 @@
       "website_url": "https://rippers.fun/",
       "twitter_handle": "rippersdotfun",
       "reviewed_at": "2026-10-03T13:13:07.851Z"
+    },
+    {
+      "name": "bail",
+      "ticker": "bail",
+      "mint": "BnqmNyVP9NtutBQmZtyw5Rf1jcJUQ1rRdT9ufsnNpump",
+      "quality_score": 6,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "Launch coin on BailPad; trading fees route to bail funds; every transaction transparent on-chain.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "Politically charged use case (bail funds controversial, regulatory risk)",
+        "BailPad revenue model not stated",
+        "Partnerships with bail organizations appear stated but not detailed",
+        "Case verification mechanism ('Real links only') vague",
+        "Example shows '$0 RELEASED' (incomplete demo, unclear credibility)"
+      ],
+      "one_line_pitch": "Trading-fee launchpad routing proceeds to real bail funds, on-chain auditable.",
+      "website_url": "https://www.bailpad.fun/",
+      "twitter_handle": "bailpadjw",
+      "reviewed_at": "2026-10-06T21:45:45.931Z"
+    },
+    {
+      "name": "clip.fun",
+      "ticker": "CLIP",
+      "mint": "BYq7RciivmZdm53hkH4Ne33NcCMZtLR2xoYQzWZPpump",
+      "quality_score": 6,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "Launch coins via clip.fun; trading fees fund community-generated X clips; clippers paid SOL per verified view.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "Revenue model for clip.fun not stated",
+        "Dependency on X API (rate limits, sustainability cost)",
+        "High spam/viewcount gaming risk",
+        "Requires sustained creator participation"
+      ],
+      "one_line_pitch": "Fee-funded bounty marketplace for user-generated Twitter clips promoting coins.",
+      "website_url": "https://clip.fun",
+      "twitter_handle": "lesusmcphearson",
+      "reviewed_at": "2026-10-06T21:45:45.926Z"
     },
     {
       "name": "Pump Pet",
@@ -12195,6 +12256,67 @@
       "website_url": "https://posynt.win/",
       "twitter_handle": "posynt_sol",
       "reviewed_at": "2026-10-03T13:48:57.246Z"
+    },
+    {
+      "name": "higgies.online",
+      "ticker": "HIGGIES",
+      "mint": "3CimpHRaRApt6HndEYYyZSSj9F4YVGokSwTD6i5qpump",
+      "quality_score": 5,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "Launch AI character with token; agent auto-generates Higgsfield videos, posts to socials, funded by trading fees.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "Vague on AI agent decision-making (who curates content?)",
+        "Higgsfield integration details missing",
+        "Affiliate program seems orthogonal to token mechanism",
+        "No evidence auto-content drives engagement vs. novelty wear-off",
+        "Brand dependence on Higgsfield partnership"
+      ],
+      "one_line_pitch": "AI character token auto-posts Higgsfield videos funded by trading fees.",
+      "website_url": "https://higgies.online/",
+      "twitter_handle": "higgiesonline",
+      "reviewed_at": "2026-10-06T21:45:45.928Z"
+    },
+    {
+      "name": "MySecretPassLink",
+      "ticker": "MSPL",
+      "mint": "5JrFFK9Fmfd5JPZFPhnkQiCez8b3ue7dMXGABsL4pump",
+      "quality_score": 5,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "Content marketplace with crypto payments, referrals; 50% platform revenue funds token buyback/burn.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "Crypto content platforms not novel (Patreon + crypto exists)",
+        "Mint address appears malformed (45 chars, should be 44)",
+        "Buyback/burn is standard, not differentiated",
+        "High user adoption friction; chicken-egg problem"
+      ],
+      "one_line_pitch": "Patreon-like content platform with token incentives.",
+      "website_url": "https://mysecretpass.link/",
+      "twitter_handle": "mysecretpasshq",
+      "reviewed_at": "2026-10-06T21:43:14.766Z"
+    },
+    {
+      "name": "Bloop",
+      "ticker": "BLOOP",
+      "mint": "0xa495983f91d9e1ea44f118d08b65192b6619910f",
+      "quality_score": 5,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Creator fees fund leveraged Hyperliquid trades; profits buy back and burn token.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "Hyperliquid integration not detailed",
+        "Leverage liquidation risk kills feedback loop",
+        "Regulatory risk (margin trading for users)",
+        "No working product or website"
+      ],
+      "one_line_pitch": "Redirect launch fees to margin trading, burn profits.",
+      "website_url": "https://blooppad.fun",
+      "twitter_handle": "blooppad",
+      "reviewed_at": "2026-10-06T21:43:14.759Z"
     },
     {
       "name": "Shield",
@@ -18968,6 +19090,61 @@
       "reviewed_at": "2026-09-30T03:13:31.131Z"
     },
     {
+      "name": "ᚱoko Network",
+      "ticker": "ROKO",
+      "mint": "0x3cf56cbd24c58af6efe6589bd4b664dc1dac87db",
+      "quality_score": 4,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Provides trustless, decentralized, programmable timing for AI and robotics coordination",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "Vague about implementation details",
+        "'High-resolution timing' undefined on blockchain",
+        "No proof of working product"
+      ],
+      "one_line_pitch": "Decentralized timing service for AI/robotics, mechanism vague",
+      "website_url": null,
+      "twitter_handle": "rokonetwork",
+      "reviewed_at": "2026-10-06T21:43:51.681Z"
+    },
+    {
+      "name": "MERCY",
+      "ticker": "MERCY",
+      "mint": "0x18da5d874bab7c5377499a3f51cc0c603f159194",
+      "quality_score": 4,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Offers 7-day price-floor guarantee; refunds difference if purchase price drops",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "Unclear how real stocks execute on Base blockchain",
+        "Likely means synthetic/tokenized stocks, but vague"
+      ],
+      "one_line_pitch": "7-day price protection refund for Base purchases",
+      "website_url": null,
+      "twitter_handle": "mercyonbase",
+      "reviewed_at": "2026-10-06T21:43:51.679Z"
+    },
+    {
+      "name": "Prophet",
+      "ticker": "PROPHET",
+      "mint": "0x361a3b7de9b1e1531626ed7bf471394fd0682429",
+      "quality_score": 4,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Aggregates prices across Kalshi, Polymarket, Limitless prediction markets to find best prices",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "Common price-aggregation pattern",
+        "No proof of working product"
+      ],
+      "one_line_pitch": "Prediction market price aggregator across three platforms",
+      "website_url": null,
+      "twitter_handle": "prophetfamily",
+      "reviewed_at": "2026-10-06T21:43:51.630Z"
+    },
+    {
       "name": "Civil Dawn",
       "ticker": "CDAWN",
       "mint": "0x68f6ba1f61821c1624462425fcafcc5107f9111a",
@@ -25036,6 +25213,26 @@
       "reviewed_at": "2026-09-30T03:14:54.643Z"
     },
     {
+      "name": "FacePad",
+      "ticker": "FACE",
+      "mint": "0x5820984d28e1615df61e8a23936df69748b9b7b5",
+      "quality_score": 3,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Platform for launching AI-generated character tokens on Robinhood Chain/Pons.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "Vague description of AI character concept",
+        "Robinhood Chain unproven infrastructure",
+        "No website or working product mentioned",
+        "Character token space already crowded"
+      ],
+      "one_line_pitch": "AI character token launcher on Robinhood Chain.",
+      "website_url": null,
+      "twitter_handle": "facepadio",
+      "reviewed_at": "2026-10-06T21:43:14.717Z"
+    },
+    {
       "name": "Pass the Hat",
       "ticker": "pass",
       "mint": "2dKSEuf9LuEH8RmHeeKpNFTKiJm2SyRoEoBtxGpDpump",
@@ -30676,6 +30873,283 @@
     }
   ],
   "low_quality_tech_coins": [
+    {
+      "name": "streamoors",
+      "ticker": "STREAMOORS",
+      "mint": "0x45dbdc7b0dd43a108634d5ea1cc70806436f2ff4",
+      "quality_score": 1,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Launch AI streamer token with real-time viewer chat (mechanism unspecified).",
+      "red_flags": [
+        "Mint address is Ethereum format (0x...), not valid Solana base58",
+        "Likely not a real Solana coin or address copied incorrectly",
+        "No website, no product evidence",
+        "Mechanism vague ('talk to viewers')",
+        "Derivative of HIGGIES concept but less detailed"
+      ],
+      "one_line_pitch": "AI livestreamer concept with invalid Solana address.",
+      "website_url": null,
+      "twitter_handle": "streamoors",
+      "reviewed_at": "2026-10-06T21:45:45.930Z"
+    },
+    {
+      "name": "KOLVIEW",
+      "ticker": "KOLVIEW",
+      "mint": "66GNfKtAkyMCW3EGkhfRcbcef3R153TPMVz9z682pump",
+      "quality_score": 0,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "SOLANA",
+      "mechanism_summary": "On-chain trader leaderboard and tracker (website only; no token-specific mechanism).",
+      "red_flags": [
+        "No token-specific mechanism described",
+        "Website is pure tracker, no fee routing to holders",
+        "No stated revenue model for token holders",
+        "Coin appears purely cosmetic to the product"
+      ],
+      "one_line_pitch": "Solana trader leaderboard with no coin-linked feature.",
+      "website_url": "https://www.kolview.fun",
+      "twitter_handle": "kolview",
+      "reviewed_at": "2026-10-06T21:45:45.929Z"
+    },
+    {
+      "name": "RigField",
+      "ticker": "RIGFIELD",
+      "mint": "ALcdHWJSJNQGoAR4Gr9zmuWUthZaSdtE35c8fGcmDTK2",
+      "quality_score": 1,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "SOLANA",
+      "mechanism_summary": "Claims 'miner' generates buyback/burn on Solana (technically contradictory: PoS has no block mining).",
+      "red_flags": [
+        "Fundamental misunderstanding (PoW mining on PoS chain Solana)",
+        "Incoherent mechanism ('proceeds from mined blocks')",
+        "No website or explanation",
+        "Standard burn/buyback narrative, no novelty"
+      ],
+      "one_line_pitch": "Claims mining revenue on a non-mining blockchain.",
+      "website_url": "https://rigfield.land/",
+      "twitter_handle": "rigfieldmining",
+      "reviewed_at": "2026-10-06T21:45:45.925Z"
+    },
+    {
+      "name": "UseSift",
+      "ticker": "SIFT",
+      "mint": "BUAnbuN1dB3B7WvgrFUKDUhwhpyhhJMzW1L5MAXapump",
+      "quality_score": 2,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "SOLANA",
+      "mechanism_summary": "Browser extension that uses Claude API for trade thesis analysis; tokenomics unclear.",
+      "red_flags": [
+        "No working product, just listing text",
+        "Brand-adjacent (Claude/Anthropic) without clarity on licensing",
+        "Vague mechanism ('thesis analysis')",
+        "No website or demo",
+        "No token-specific feature described"
+      ],
+      "one_line_pitch": "Claude API wrapper marketed as a token, mechanism unclear.",
+      "website_url": "https://usesift.tech/",
+      "twitter_handle": "usesiftapp",
+      "reviewed_at": "2026-10-06T21:45:45.886Z"
+    },
+    {
+      "name": "Paper Dao",
+      "ticker": "PLINE",
+      "mint": "0xd89c59255f2e9eb5ca3d18d7d09ebc611dcbe1a7",
+      "quality_score": 1,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Brings structure and clarity to on-chain transactions with high-efficiency execution",
+      "red_flags": [
+        "Pure marketing buzzwords, no actual mechanism",
+        "Generic DAO description indistinguishable from others"
+      ],
+      "one_line_pitch": "Generic DAO narrative with zero distinguishing technology",
+      "website_url": null,
+      "twitter_handle": null,
+      "reviewed_at": "2026-10-06T21:43:51.680Z"
+    },
+    {
+      "name": "TensorScrip",
+      "ticker": "TSCRIP",
+      "mint": "0x6ce5428916ab840e8d698f1091b6a736c04702a0",
+      "quality_score": 1,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Autonomous agents borrow GPU time via promissory notes etched into copper",
+      "red_flags": [
+        "'Etched into copper' is nonsensical",
+        "No coherent technology described",
+        "Mixes metaphor with pseudo-tech"
+      ],
+      "one_line_pitch": "Nonsense poetry about GPU lending via fictional copper etchings",
+      "website_url": "https://rhino.net",
+      "twitter_handle": "cliffjetty",
+      "reviewed_at": "2026-10-06T21:43:51.678Z"
+    },
+    {
+      "name": "Hook Redoubt",
+      "ticker": "REDOUBT",
+      "mint": "0xdaa168a813ea888333e72ce6f7676468be06867f",
+      "quality_score": 2,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Pools agent task royalties to purchase and remove AMM hooks from market",
+      "red_flags": [
+        "Extremely vague, metaphorical language",
+        "'Predatory AMM hook' not standard terminology",
+        "Unclear system reference",
+        "Incoherent mechanism description"
+      ],
+      "one_line_pitch": "Poetic jargon about pooling royalties and welding market hooks",
+      "website_url": "https://grovebeacon.com",
+      "twitter_handle": "toadlinen",
+      "reviewed_at": "2026-10-06T21:43:51.677Z"
+    },
+    {
+      "name": "Prompt",
+      "ticker": "PROMPT",
+      "mint": "0x407579b72af230baf313cc725856e0e74043cfbf",
+      "quality_score": 1,
+      "is_real_tech": false,
+      "category": "impersonator",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Intercepts Claude/Cursor/OpenAI API traffic via proxy, redistributes yield as token",
+      "red_flags": [
+        "Hijacks Claude, Cursor, OpenAI brand names",
+        "Trademark violation",
+        "Fraudulent proxy service claims"
+      ],
+      "one_line_pitch": "Scam token impersonating Claude/OpenAI with fake API proxy",
+      "website_url": null,
+      "twitter_handle": "promptappfi",
+      "reviewed_at": "2026-10-06T21:43:51.675Z"
+    },
+    {
+      "name": "Nullplot",
+      "ticker": "NULLPLOT",
+      "mint": "0x2ca2dbb7eb59e1736b63b9fa88dd2f81d048570e",
+      "quality_score": 2,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Visualizes contract deployments as unlabeled points on infinite Cartesian grid",
+      "red_flags": [
+        "Pure visualization aesthetic, no product mechanism",
+        "Describes charting style, not technology"
+      ],
+      "one_line_pitch": "Geometric charting aesthetic for contract deployments without labels",
+      "website_url": "https://sea.xyz",
+      "twitter_handle": "auburnglow",
+      "reviewed_at": "2026-10-06T21:43:51.674Z"
+    },
+    {
+      "name": "Tokem",
+      "ticker": "TOKEM",
+      "mint": "0xf8b931b2c1b04ce9ad496189bb0686a09fcd6d5b",
+      "quality_score": 1.5,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Social network where AI entities operate; mechanism entirely unclear.",
+      "red_flags": [
+        "Pure narrative, zero mechanism described",
+        "Grammatically awkward ('AI mind'—singular?)",
+        "Metaphor ('where they live') ≠ product design",
+        "No website, no product definition whatsoever"
+      ],
+      "one_line_pitch": "AI social network; what it actually does unknown.",
+      "website_url": null,
+      "twitter_handle": "tokemfun",
+      "reviewed_at": "2026-10-06T21:43:14.767Z"
+    },
+    {
+      "name": "Goldbound",
+      "ticker": "GB",
+      "mint": "2ZucJ5WyVQGrQZB5w4br29Davn61JxkP1z2iLeU6xP5c",
+      "quality_score": 3,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "SOLANA",
+      "mechanism_summary": "Game arena where seven AI merchants compete for a crown; token mechanics unclear.",
+      "red_flags": [
+        "Website has almost no content",
+        "Game mechanics entirely undefined",
+        "Token utility never explained",
+        "Likely narrative-only, no working game"
+      ],
+      "one_line_pitch": "AI merchant arena; actual game mechanics unknown.",
+      "website_url": "https://goldbound.fun/",
+      "twitter_handle": "goldboundfun",
+      "reviewed_at": "2026-10-06T21:43:14.762Z"
+    },
+    {
+      "name": "Robinpad",
+      "ticker": "ROBINPAD",
+      "mint": "0x7fcbf03eef8262384a44ea94dce069f1faf82aa7",
+      "quality_score": 2,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "One-transaction token launch interface for Robinhood Chain.",
+      "red_flags": [
+        "Exact copy of pump.fun UX, no differentiation",
+        "Robinhood Chain unproven and experimental",
+        "Standard launcher feature, not innovation",
+        "No website"
+      ],
+      "one_line_pitch": "Token launcher UX for Robinhood Chain; not novel.",
+      "website_url": null,
+      "twitter_handle": "robinpad_lol",
+      "reviewed_at": "2026-10-06T21:43:14.760Z"
+    },
+    {
+      "name": "Slice",
+      "ticker": "SLICE",
+      "mint": "0x545e13373e50f0b5a1dd634144cf3d3a18704d14",
+      "quality_score": 1,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Mechanism entirely unclear: tag six X accounts at token launch.",
+      "red_flags": [
+        "Mechanism completely opaque",
+        "Could mean almost anything—no explanation",
+        "No website, no product details",
+        "Pure jargon slop with zero substance"
+      ],
+      "one_line_pitch": "X account tagging at launch; actual mechanism unknown.",
+      "website_url": "https://slicepad.fun",
+      "twitter_handle": "slicepaddotfun",
+      "reviewed_at": "2026-10-06T21:43:14.757Z"
+    },
+    {
+      "name": "router.family",
+      "ticker": "ROUTER",
+      "mint": "0xae71b18d0f1e46f1ffc79d45c0ace6a45496f0ca",
+      "quality_score": 3,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Payment router for AI model access on Robinhood Chain; ROUTER token buyback from top-up fees.",
+      "red_flags": [
+        "\"466 AI models\" claim unsubstantiated and implausibly specific",
+        "No mention of working product, API, or actual model integrations",
+        "Vague routing architecture—unclear how execution differs from redirect",
+        "Relies on unproven Robinhood Chain ecosystem",
+        "Standard fee-redistribution buyback, not novel"
+      ],
+      "one_line_pitch": "Payment router for AI access with token buyback on fees, claims 466 model integration unverified.",
+      "website_url": "https://router.family",
+      "twitter_handle": "router_family",
+      "reviewed_at": "2026-10-06T21:41:55.831Z"
+    },
     {
       "name": "S&P2",
       "ticker": "S&P2",
