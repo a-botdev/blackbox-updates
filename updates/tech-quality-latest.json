@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T04:16:47.506Z",
+  "generated_at": "2026-10-06T04:31:24.304Z",
   "note": "Quality-reviewed tech coins: passed a local coarse filter (qwen2.5:3b) then a real judgment pass (Haiku) confirming is_real_tech=true. new_idea_suggestions are Haiku-generated, informed by these patterns but NOT copies -- creative seeds for further review, not trading signals.",
   "quality_tech_coins": [
     {
@@ -487,6 +487,25 @@
       "website_url": "http://dotnet.land",
       "twitter_handle": "dotnetfund",
       "reviewed_at": "2026-10-03T13:48:57.247Z"
+    },
+    {
+      "name": "DexHooks",
+      "ticker": "DEXHOOKS",
+      "mint": "0x9b609eed4889c103155846650d15d6b96a49e540",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Analytics dashboard for Uniswap V4 hooks and liquidity strategies.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "On Pump.fun, unlikely to be real Dexscreener-quality product",
+        "No evidence dashboard exists or is functional",
+        "Uniswap V4 market is still nascent; V4 adoption unproven"
+      ],
+      "one_line_pitch": "Novel analytics tool for Uniswap V4 hooks; real gap, unproven market.",
+      "website_url": null,
+      "twitter_handle": "dexhooksrh",
+      "reviewed_at": "2026-10-06T04:29:39.681Z"
     },
     {
       "name": "LUSCA",
@@ -3808,6 +3827,81 @@
       "website_url": "https://rippers.fun/",
       "twitter_handle": "rippersdotfun",
       "reviewed_at": "2026-10-03T13:13:07.851Z"
+    },
+    {
+      "name": "DexHooks",
+      "ticker": "DexHooks",
+      "mint": "0x01bdb464206ce3c995b7b83e8299a2c442c4d335",
+      "quality_score": 6,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Analytics platform for discovering, tracking, analyzing Uniswap V4 hooks on Robinhood Chain.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "no website URL provided; verification needed",
+        "moderate hijack risk (could be unaffiliated coin using real product name)",
+        "Robinhood Chain + V4 hooks are real, but unclear if coin has actual product"
+      ],
+      "one_line_pitch": "Uniswap V4 hook analytics tool for Robinhood Chain",
+      "website_url": "https://dexhooks.com",
+      "twitter_handle": "dexhooksrh",
+      "reviewed_at": "2026-10-06T04:31:18.818Z"
+    },
+    {
+      "name": "CrawlScan",
+      "ticker": "CRAWLSCAN",
+      "mint": "0x853f91d596f20ec391cd51001ffaed2478941141",
+      "quality_score": 6,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Open-source memecoin tracker and crawler for Robinhood Chain.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "No evidence the crawler actually exists or is maintained",
+        "Open-source claim unverified",
+        "Memecoin trackers becoming common; Robinhood-specific adds minor novelty only"
+      ],
+      "one_line_pitch": "Robinhood memecoin tracker crawler; unverified if working.",
+      "website_url": "https://github.com/0xPunisher/crawlscan",
+      "twitter_handle": "0x_punisher",
+      "reviewed_at": "2026-10-06T04:29:39.677Z"
+    },
+    {
+      "name": "Levr Money",
+      "ticker": "LEVR",
+      "mint": "0x2f0958deffd13e34bffa987a3088ec98a87b4a44",
+      "quality_score": 6,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Binary long/short options on crypto, daily settlement, capped loss, no liquidation.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "Season 1 claimed Oct 7—product launch imminent but unverified",
+        "binary options well-known; daily settlement is the novelty angle"
+      ],
+      "one_line_pitch": "Simplified daily-settlement binary options on ETH/BTC—no liquidation, capped risk.",
+      "website_url": null,
+      "twitter_handle": "levrmoney",
+      "reviewed_at": "2026-10-06T04:28:06.878Z"
+    },
+    {
+      "name": "agent.md",
+      "ticker": "AMD",
+      "mint": "GqfWvid8r8ghS5zMfMb9ktg2wYwPnBaVGpT6Se3Kpump",
+      "quality_score": 6,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "2000 AI agent NFTs configurable with instructions, earn from work orders",
+      "uniqueness": "novel",
+      "red_flags": [
+        "zero agents minted so far",
+        "unclear token-economics link to adoption",
+        "depends entirely on marketplace demand/liquidity"
+      ],
+      "one_line_pitch": "2000 mintable AI agents you configure and earn from",
+      "website_url": "https://agentmd.dev",
+      "twitter_handle": "agentmdsol",
+      "reviewed_at": "2026-10-06T04:28:02.586Z"
     },
     {
       "name": "Icon",
@@ -8237,6 +8331,44 @@
       "reviewed_at": "2026-10-03T13:48:57.246Z"
     },
     {
+      "name": "Influence Coin",
+      "ticker": "Influence",
+      "mint": "8ei95WysRVNDb5uQTwkMWMJ5LsXJyYG6cbaYvHSepump",
+      "quality_score": 5,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "AI influencer agents post/reply automatically; creator gets 80% fees.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "AI agent + token combo is overdone",
+        "80% fee-split is standard pump.fun pattern",
+        "no details on AI model/training"
+      ],
+      "one_line_pitch": "Create AI influencers; auto-post; you get 80% fees.",
+      "website_url": "https://getinfluence.fun",
+      "twitter_handle": "influencepf",
+      "reviewed_at": "2026-10-06T04:30:37.778Z"
+    },
+    {
+      "name": "Elvo Exchange",
+      "ticker": "ELVO",
+      "mint": "0xcf3595d8f740e34440138571b1ba7afc50074fe6",
+      "quality_score": 5,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Trading platform for RWA perpetuals and crypto with risk controls.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "On Pump.fun, unlikely to be real trading infrastructure",
+        "No evidence of working product, only landing-page claims",
+        "Vague terms ('verifiable execution', 'multi-layer security')"
+      ],
+      "one_line_pitch": "RWA perpetuals trading platform; ambitious claim, unsubstantiated.",
+      "website_url": null,
+      "twitter_handle": "elvoexchange",
+      "reviewed_at": "2026-10-06T04:29:39.673Z"
+    },
+    {
       "name": "fomo",
       "ticker": "FOMO",
       "mint": "6JWKHs5hoNeNfenCXiBoEnZfXL2SZUexQKeBY5tzcRg",
@@ -12282,6 +12414,121 @@
       "reviewed_at": "2026-09-30T03:13:31.131Z"
     },
     {
+      "name": "anora.finance",
+      "ticker": "ANORA",
+      "mint": "0x2debb8e9db5ce36b9afb5b647fdb8a736fd7416e",
+      "quality_score": 4,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Protocol that converts live trade activity into structured, on-chain yield opportunities.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "vague description of actual mechanism (how does conversion work?)",
+        "yield aggregation is a well-worn pattern (Yearn, Alchemix, etc.)",
+        "no details on product status, TVL, or deployment"
+      ],
+      "one_line_pitch": "Yield aggregator wrapping trading activity; common pattern",
+      "website_url": null,
+      "twitter_handle": "anorafinance",
+      "reviewed_at": "2026-10-06T04:31:18.819Z"
+    },
+    {
+      "name": "Sinecura",
+      "ticker": "CURA",
+      "mint": "0x7594d4a940f920041c503b636df5a58eddb7a89d",
+      "quality_score": 4,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "1,366 tradeable seats collect 20% of creator fees from any coin launched, perpetually.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "no website or deployment verification provided",
+        "fee-redistribution pattern is overdone (Reflect, SafeMoon variants)",
+        "no evidence of live contract or seat mechanics"
+      ],
+      "one_line_pitch": "Fee-share seats across multiple launched coins",
+      "website_url": "https://sinecura.fun",
+      "twitter_handle": "sinecuranft",
+      "reviewed_at": "2026-10-06T04:31:18.799Z"
+    },
+    {
+      "name": "Elvo Exchange",
+      "ticker": "ELVO",
+      "mint": "0xb7db28d703f138672ff2419043ea9d94d8606f0b",
+      "quality_score": 4,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Web3 trading infrastructure for RWA perpetuals with security claims.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "no proof of working product",
+        "perpetuals exchanges widely exist",
+        "buzzword claims (multi-layer security, verifiable execution)",
+        "no contract/product links"
+      ],
+      "one_line_pitch": "RWA perpetuals platform; buzzwords, unproven.",
+      "website_url": null,
+      "twitter_handle": "elvoexchange",
+      "reviewed_at": "2026-10-06T04:30:37.782Z"
+    },
+    {
+      "name": "OnlyUpBot",
+      "ticker": "ONLYUP",
+      "mint": "0x592f5be9d4afb983997d65069174ac6a6e9ab5eb",
+      "quality_score": 4,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Crash gambling game tokenized with rounds lasting days or weeks.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "Gambling token (regulatory/legal risk)",
+        "Crash mechanic is well-known; variable duration is minor variation",
+        "No compelling innovation over existing gambling contracts"
+      ],
+      "one_line_pitch": "Crash gambling game as token with extended round timers.",
+      "website_url": null,
+      "twitter_handle": "onlyupbot",
+      "reviewed_at": "2026-10-06T04:29:39.678Z"
+    },
+    {
+      "name": "Digital Gold Token",
+      "ticker": "DGLD",
+      "mint": "0xea5a2e6fedc1401e8eec9924f80cd33a66403902",
+      "quality_score": 4,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "On-chain token backed by physical gold held in regulated Swiss vaults.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "HIGH RISK: likely impersonating official MKS PAMP/GTSA product (brand hijack)",
+        "regulated asset on Pump.fun is structurally unusual—jurisdiction conflict",
+        "if legit would be 7+; hijack risk drops it substantially"
+      ],
+      "one_line_pitch": "Tokenized Swiss gold—probable impersonation of official MKS PAMP brand.",
+      "website_url": "https://dgld.ch",
+      "twitter_handle": "dgld_official",
+      "reviewed_at": "2026-10-06T04:28:06.886Z"
+    },
+    {
+      "name": "Team AI",
+      "ticker": "TEAMAI",
+      "mint": "FxKDvmbW5mDzaBqvkX8h1WgtEfSDLsZe7fjX5Shtpump",
+      "quality_score": 4,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "AI tools ecosystem with fee-burn treasury and builder toolkit",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "fee-burn is a common pattern",
+        "vague on treasury mechanics",
+        "limited detail on actual agent functionality"
+      ],
+      "one_line_pitch": "AI tools ecosystem with fee-burn treasury",
+      "website_url": "https://www.teamai.win/",
+      "twitter_handle": "teamaiwin",
+      "reviewed_at": "2026-10-06T04:28:02.582Z"
+    },
+    {
       "name": "cherryOS",
       "ticker": "CHERRY",
       "mint": "0xed32b0bf69d07eb93a6272e0ed081920d13eb1ad",
@@ -16274,6 +16521,83 @@
       "reviewed_at": "2026-09-30T03:14:54.643Z"
     },
     {
+      "name": "Krystal Auto-Farm Vault",
+      "ticker": "KRYSTALA",
+      "mint": "0x26a56256df5ca668385208de7ff7c56865487160",
+      "quality_score": 3,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Yield farming vault with AI-driven optimization on Robinhood Chain.",
+      "uniqueness": "copy",
+      "red_flags": [
+        "'AI Agents' is pure buzzword padding, no defined role",
+        "Auto-farm vaults are extremely common (Yearn, Aave, etc.)",
+        "No differentiation from existing vault protocols"
+      ],
+      "one_line_pitch": "Generic yield farm vault on Robinhood Chain, buzzword-heavy.",
+      "website_url": "https://krystal.app",
+      "twitter_handle": "krystaldefi",
+      "reviewed_at": "2026-10-06T04:29:39.675Z"
+    },
+    {
+      "name": "Liquidity Zilla",
+      "ticker": "LIQZILLA",
+      "mint": "0x4ffa0bdb0a367c362b8a4048e2932209e7c1e80a",
+      "quality_score": 3,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Concentrated liquidity provisioning at chosen price levels, earning trading fees.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "Uniswap v3 already does this—concentrated liquidity is a solved problem",
+        "no clear differentiation explained",
+        "sounds like rebranding existing mechanism"
+      ],
+      "one_line_pitch": "Concentrated liquidity at chosen levels—essentially Uniswap v3 rebranded.",
+      "website_url": null,
+      "twitter_handle": "liqziila",
+      "reviewed_at": "2026-10-06T04:28:06.880Z"
+    },
+    {
+      "name": "disorderly",
+      "ticker": "ORDER",
+      "mint": "0x5b4648c8885d90eef33305cc006fa24e32fb0206",
+      "quality_score": 3,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "1111 AI agents, generative art, burn-five-to-forge-one crafting",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "confusing mix of unrelated mechanics",
+        "no clear value proposition connecting all three",
+        "no website provided",
+        "on Ethereum, not Solana"
+      ],
+      "one_line_pitch": "AI agents plus art and burn-forge, unclear connection",
+      "website_url": "https://disorderly.ai",
+      "twitter_handle": "disorderly_ai",
+      "reviewed_at": "2026-10-06T04:28:02.591Z"
+    },
+    {
+      "name": "blast",
+      "ticker": "blast",
+      "mint": "G31phqbnE18ez5FrnAK2KASVfpZ2999PBhiWbGvepump",
+      "quality_score": 3,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "Non-custodial games onchain",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "no specific game mechanics described",
+        "generic 'fun onchain' positioning",
+        "minimal website content beyond title"
+      ],
+      "one_line_pitch": "Non-custodial onchain games, no specifics",
+      "website_url": "https://www.pumpblast.io/",
+      "twitter_handle": "pumpblast_sol",
+      "reviewed_at": "2026-10-06T04:28:02.562Z"
+    },
+    {
       "name": "Poolbook",
       "ticker": "POOLBOOK",
       "mint": "0x20824737baf44a8ebdb58f7ad22ddc9382ee9a54",
@@ -19052,6 +19376,122 @@
       "website_url": null,
       "twitter_handle": null,
       "reviewed_at": "2026-09-30T03:12:48.536Z"
+    },
+    {
+      "name": "Poke-earn",
+      "ticker": "POKEARN",
+      "mint": "0x0de4dce5fef973b53891aac4258a281e9b54718e",
+      "quality_score": 2,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Play-to-earn game: catch Pokémon-style monsters, earn SOL rewards.",
+      "uniqueness": "copy",
+      "red_flags": [
+        "Pokémon IP infringement risk—explicit mechanics mimic Pokémon",
+        "P2E games saturated (Axie, Splinterlands, 100+ clones since 2021)",
+        "zero differentiation from existing P2E clones"
+      ],
+      "one_line_pitch": "Pokémon-style play-to-earn game—saturated genre with IP infringement risk.",
+      "website_url": "https://pokeearn.online",
+      "twitter_handle": "pokeearn",
+      "reviewed_at": "2026-10-06T04:28:06.887Z"
+    },
+    {
+      "name": "Sinjoh",
+      "ticker": "INJOH",
+      "mint": "0x2cc0fac44b8252f6b10208b091aff2c94b4da77d",
+      "quality_score": 2,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "DeFi launchpad infrastructure suite on Robinhood Chain (details unclear).",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "description cuts off mid-sentence ('six core tools: a Fee Router')",
+        "no details on actual differentiation",
+        "launchpad infrastructure is a solved, generic category"
+      ],
+      "one_line_pitch": "Robinhood Chain launchpad infrastructure—vague, incomplete description.",
+      "website_url": "https://www.sinjoh.com",
+      "twitter_handle": "sinjohdefi",
+      "reviewed_at": "2026-10-06T04:28:06.883Z"
+    },
+    {
+      "name": "robbinhoodrun",
+      "ticker": "HOODRUN",
+      "mint": "0xf290617820200bf131d940a278ecb327cf34f257",
+      "quality_score": 2,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "GPS-verified daily walk/run claims yield token on Robinhood Chain.",
+      "uniqueness": "copy",
+      "red_flags": [
+        "saturated genre (Stepn, SNKR, Genopets established 3+ years ago)",
+        "venue change (Robinhood Chain) is not innovation",
+        "no differentiation from existing move-to-earn clones"
+      ],
+      "one_line_pitch": "Move-to-earn on new chain—copy of exhausted genre without differentiation.",
+      "website_url": null,
+      "twitter_handle": "robbinhoodrun",
+      "reviewed_at": "2026-10-06T04:28:06.881Z"
+    },
+    {
+      "name": "Chalice",
+      "ticker": "CHAL",
+      "mint": "0x5da1f4be291690754403fd9ba411c6f882e4dfd6",
+      "quality_score": 2,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Locks LP tokens to prevent rug pulls.",
+      "uniqueness": "copy",
+      "red_flags": [
+        "generic mechanism with no coin-specific differentiation",
+        "standard lockup contracts solved this 5+ years ago",
+        "no product evidence beyond one-liner"
+      ],
+      "one_line_pitch": "Standard liquidity lock—undifferentiated from any ERC-20 timelock.",
+      "website_url": "https://gochalice.online",
+      "twitter_handle": null,
+      "reviewed_at": "2026-10-06T04:28:06.876Z"
+    },
+    {
+      "name": "FUNGO INU",
+      "ticker": "FUNGO",
+      "mint": "0xdf6ffb0002a621d91b5184eab11d5b44656b71e0",
+      "quality_score": 2,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "FHE-encrypted tokens for Robinhood platform",
+      "uniqueness": "novel",
+      "red_flags": [
+        "unverified 'first on Robinhood' claim",
+        "no working product evidence",
+        "FHE implementation complexity not demonstrated",
+        "likely vaporware"
+      ],
+      "one_line_pitch": "FHE-encrypted tokens, Robinhood integration claim unproven",
+      "website_url": null,
+      "twitter_handle": "fungolabs",
+      "reviewed_at": "2026-10-06T04:28:02.592Z"
+    },
+    {
+      "name": "ROBLOCRYPTO",
+      "ticker": "VERSE",
+      "mint": "DADKDQoTFBWxbjRzCVDMZ4KDdu8cKpBkpdz7LSNdpump",
+      "quality_score": 2,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "Roblox game with BUILD/PROTECT/STEAL mechanics, claims official approval",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "unverified 'official Roblox approval' claim",
+        "Roblox platform does not integrate external tokens in official games",
+        "brand misrepresentation/hijack risk",
+        "description cuts off mid-sentence"
+      ],
+      "one_line_pitch": "Roblox game integration, approval claim highly suspicious",
+      "website_url": "https://www.roblox.com/games/73220594348127/ROBLOCRYPTO",
+      "twitter_handle": "robloxheistt",
+      "reviewed_at": "2026-10-06T04:28:02.589Z"
     },
     {
       "name": "QuizHood",
