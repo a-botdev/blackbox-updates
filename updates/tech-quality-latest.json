@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T06:30:14.765Z",
+  "generated_at": "2026-10-06T06:45:18.482Z",
   "note": "Quality-reviewed tech coins: passed a local coarse filter (qwen2.5:3b) then a real judgment pass (Haiku) confirming is_real_tech=true. new_idea_suggestions are Haiku-generated, informed by these patterns but NOT copies -- creative seeds for further review, not trading signals.",
   "quality_tech_coins": [
     {
@@ -4138,6 +4138,24 @@
       "website_url": "https://rippers.fun/",
       "twitter_handle": "rippersdotfun",
       "reviewed_at": "2026-10-03T13:13:07.851Z"
+    },
+    {
+      "name": "Super Ideas",
+      "ticker": "si",
+      "mint": "5MArRGMBWeKCdjmPUNpDKQe5J123ugVVnimjyjcXpump",
+      "quality_score": 6,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "Buy and trade .si domains using Solana with INWX registry integration",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "token utility beyond payment option unclear",
+        ".si TLD geographically limited"
+      ],
+      "one_line_pitch": "Working .si domain marketplace accepting Solana payments",
+      "website_url": "https://www.superideas.si/",
+      "twitter_handle": "asdfhgdev_pf",
+      "reviewed_at": "2026-10-06T06:42:56.869Z"
     },
     {
       "name": "vouch.family",
@@ -9139,6 +9157,45 @@
       "reviewed_at": "2026-10-03T13:48:57.246Z"
     },
     {
+      "name": "Sentinel Scan",
+      "ticker": "SENTINEL",
+      "mint": "0x3e842728b32fe17e990d24eea7861438dcd98771",
+      "quality_score": 5,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "On-chain token scanner with AI-based scoring to detect fake projects and tax farming.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "No website or working product shown",
+        "AI scoring mechanism undefined (likely rules-based, not genuine AI)",
+        "Directly competes with established tools (Rugcheck, DefiLlama)",
+        "Unverifiable claims about addressing fraud"
+      ],
+      "one_line_pitch": "AI token scanner to detect fraud; existing tools already do this.",
+      "website_url": null,
+      "twitter_handle": "sentinelscanrh",
+      "reviewed_at": "2026-10-06T06:45:16.832Z"
+    },
+    {
+      "name": "Volta",
+      "ticker": "VOLTA",
+      "mint": "0xe1209c357e1bc8f578e727dc7446d69091dc2f64",
+      "quality_score": 5,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Leverage trading protocol allowing long/short positions on Robinhood Chain token pools.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "Leverage DEXes are ubiquitous in crypto",
+        "No differentiation vs existing margin platforms",
+        "High-risk product, no unique edge described"
+      ],
+      "one_line_pitch": "Margin DEX on Robinhood Chain; standard leverage mechanism.",
+      "website_url": null,
+      "twitter_handle": "volta_onl",
+      "reviewed_at": "2026-10-06T06:45:16.829Z"
+    },
+    {
       "name": "Pons Domains",
       "ticker": "DOMAINS",
       "mint": "0x79ad62efa2c7d15b97a95be45d4bbbbdd68c91f2",
@@ -13934,6 +13991,108 @@
       "reviewed_at": "2026-09-30T03:13:31.131Z"
     },
     {
+      "name": "Nora The Explorer",
+      "ticker": "NORA",
+      "mint": "9ubGdBpKqnkJCatLMYDp8wV7UsS2PAKopH67zjMo3ZvT",
+      "quality_score": 4,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "Speculative token for AI travel influencer on Higgspad platform; value tied to engagement.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "Just one token on broader Higgspad influencer platform",
+        "No unique value mechanism vs other Higgspad tokens",
+        "Pure speculation on influencer hype"
+      ],
+      "one_line_pitch": "AI influencer token on Higgspad; speculative engagement play.",
+      "website_url": "https://higgspad.com/nora",
+      "twitter_handle": null,
+      "reviewed_at": "2026-10-06T06:45:16.827Z"
+    },
+    {
+      "name": "WISE",
+      "ticker": "WISE",
+      "mint": "0x6dd672f04136c40a9a2163c69b9504f882705471",
+      "quality_score": 4,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Stablecoin with yield generated from Real World Assets and DePIN partners.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "Wrong chain address format (0x for Solana/Pump.fun?)",
+        "Yield-bearing stablecoins are increasingly common in DeFi",
+        "No details on how yield is actually generated or risk-adjusted",
+        "RWA/DePIN integrations now standard, not novel",
+        "No evidence actual partnerships exist or working product deployed"
+      ],
+      "one_line_pitch": "Yield-bearing stablecoin claiming RWA/DePIN revenue sources",
+      "website_url": null,
+      "twitter_handle": "wise_token",
+      "reviewed_at": "2026-10-06T06:44:09.389Z"
+    },
+    {
+      "name": "AMAI Labs",
+      "ticker": "AMAI",
+      "mint": "0xb8b728119a958a8055473409c22c02a7e3a54032",
+      "quality_score": 4,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "AI agents manage liquidity pools and distribute revenue to creators/communities.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "Wrong chain address format (0x for Solana/Pump.fun?)",
+        "Agent-operated LPs are an emerging but not novel concept",
+        "No technical details on how agents operate or make decisions",
+        "No working product or code mentioned",
+        "Revenue mechanism not explained"
+      ],
+      "one_line_pitch": "AI agents manage LPs for creator revenue sharing",
+      "website_url": "https://t.co/dR9K6aehO2",
+      "twitter_handle": "amailabshq",
+      "reviewed_at": "2026-10-06T06:44:09.386Z"
+    },
+    {
+      "name": "STOCK YARD",
+      "ticker": "STOCK",
+      "mint": "0x7771a9b5695f7dbd71ef921fcd35c78c6680b2b5",
+      "quality_score": 4,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Platform for memecoins on Robinhood Chain where each token pairs with a tokenized stock.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "Wrong chain address format (0x for Solana/Pump.fun?)",
+        "Vague on how stock-pairing actually works technically",
+        "No working product or contract details provided",
+        "Tokenized stocks + memecoins = combining two known concepts"
+      ],
+      "one_line_pitch": "Stock-backed memecoins on Robinhood Chain concept",
+      "website_url": "https://stockyard.rhps.fun",
+      "twitter_handle": "x",
+      "reviewed_at": "2026-10-06T06:44:09.384Z"
+    },
+    {
+      "name": "Critter Vault",
+      "ticker": "CRITTERVAULT",
+      "mint": "BvpwNrNQsg8XyQcxG6RtHvJY8ZZehWQAdM64Dtepump",
+      "quality_score": 4,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "Mint vault NFTs that capture revenue share from Critter Vault's products.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "No concrete products named; claims vague ('products change with market')",
+        "Zero technical docs, smart contract spec, or implementation details visible",
+        "Revenue chart UI shown but unverified; no proof funds flow to holders",
+        "Discord-only launch pattern suggests early/low-effort project",
+        "Website content incomplete (snippet cuts mid-sentence); missing key details"
+      ],
+      "one_line_pitch": "Vault NFT revenue-sharing model; actual products and payouts unspecified.",
+      "website_url": "https://www.crittervault.xyz/",
+      "twitter_handle": "crittervaultxyz",
+      "reviewed_at": "2026-10-06T06:42:10.473Z"
+    },
+    {
       "name": "Pulldesk",
       "ticker": "PULLDESK",
       "mint": "0x545cfca547566207ff075a4fa06629c9d2df7930",
@@ -18584,6 +18743,25 @@
       "website_url": null,
       "twitter_handle": "fumblefamilyapp",
       "reviewed_at": "2026-09-30T03:14:54.643Z"
+    },
+    {
+      "name": "Topjar",
+      "ticker": "TOPJAR",
+      "mint": "0xa6507d4b70c495515c130f8bfb3c2f9f7b6708e6",
+      "quality_score": 3,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Last-player-standing pot game; pay 0.002 ETH each round or forfeit.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "exit-scam mechanics resembling Fomo3D",
+        "forced ongoing payments create predatory design",
+        "high likelihood of liquidity rug or player loss by design"
+      ],
+      "one_line_pitch": "Last-man-standing ETH pot requiring recurring payments.",
+      "website_url": "https://topjar.lol",
+      "twitter_handle": "topjar_lol",
+      "reviewed_at": "2026-10-06T06:44:07.769Z"
     },
     {
       "name": "Compile",
