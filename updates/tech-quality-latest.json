@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T05:01:32.261Z",
+  "generated_at": "2026-10-06T05:15:54.625Z",
   "note": "Quality-reviewed tech coins: passed a local coarse filter (qwen2.5:3b) then a real judgment pass (Haiku) confirming is_real_tech=true. new_idea_suggestions are Haiku-generated, informed by these patterns but NOT copies -- creative seeds for further review, not trading signals.",
   "quality_tech_coins": [
     {
@@ -487,6 +487,43 @@
       "website_url": "http://dotnet.land",
       "twitter_handle": "dotnetfund",
       "reviewed_at": "2026-10-03T13:48:57.247Z"
+    },
+    {
+      "name": "Plague",
+      "ticker": "PLAGUE",
+      "mint": "tRQUaNkXWyCMwKNZmsnFwy4esnYVgE8FnFsdXuMsick",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "Gamified territory-control: players create plague strains and compete to infect global territories in real-time.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "edgy plague theme may limit adoption",
+        "long-term sustainability unclear",
+        "game depth not detailed"
+      ],
+      "one_line_pitch": "Territory-conquest game where players spread their plague strain globally.",
+      "website_url": "https://plaguesol.fun/",
+      "twitter_handle": "plaguesolfun",
+      "reviewed_at": "2026-10-06T05:15:50.104Z"
+    },
+    {
+      "name": "Inkling",
+      "ticker": "Inkling",
+      "mint": "4ebXqeCVUgML2kuXhs5zJT2pP8CJWNL9LWV2eenTpump",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "Automated agents scrape crypto docs/whitepapers, deduplicate and contribute to open training dataset for crypto-native LLM.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "product not live yet, landing page only",
+        "no details on token utility or incentives"
+      ],
+      "one_line_pitch": "Squid agents scrape crypto web to build open LLM training dataset.",
+      "website_url": "https://inklingllm.fun",
+      "twitter_handle": "inkling_llm",
+      "reviewed_at": "2026-10-06T05:15:11.087Z"
     },
     {
       "name": "Mintro",
@@ -3935,6 +3972,66 @@
       "website_url": "https://rippers.fun/",
       "twitter_handle": "rippersdotfun",
       "reviewed_at": "2026-10-03T13:13:07.851Z"
+    },
+    {
+      "name": "Blank",
+      "ticker": "BLANK",
+      "mint": "9n7tkdsU2sJtCSBw3eU4QmtDQbmnk9XCoJAh1ZvbLnk",
+      "quality_score": 6,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "Privacy token with sealed balance shielding, private transfers, and trade fee redistribution.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "no website provided",
+        "privacy claims lack cryptographic detail",
+        "fee-sharing is standard pattern"
+      ],
+      "one_line_pitch": "Privacy token with sealed balances and fee-sharing; mechanism briefly detailed.",
+      "website_url": "https://useblank.xyz/",
+      "twitter_handle": "useblankxyz",
+      "reviewed_at": "2026-10-06T05:15:50.102Z"
+    },
+    {
+      "name": "Refpad",
+      "ticker": "REFV2",
+      "mint": "0x629556cb761865403eaeb75dfe8fa229d8a87ac4",
+      "quality_score": 6,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Launchpad for Robinhood Chain with automatic buybacks and creator fund locks.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "automatic buybacks are standard fee-redistribution variant",
+        "'tokenized stock pairs' is vague and unexplained",
+        "Robinhood Chain launchpads not differentiated vs. existing",
+        "no working product evidence"
+      ],
+      "one_line_pitch": "Robinhood Chain launchpad with creator locks and buybacks",
+      "website_url": null,
+      "twitter_handle": "refpadapp",
+      "reviewed_at": "2026-10-06T05:15:02.029Z"
+    },
+    {
+      "name": "Fungo Labs",
+      "ticker": "FUNGO",
+      "mint": "0xaedcd4014246c4ae05271dd938af52e95e7ab9b4",
+      "quality_score": 6,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Privacy-preserving NFTs using Fully Homomorphic Encryption (FHE) via Zama; NFTs encrypted end-to-end.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "Ethereum (0x) mint, not Solana (chain mismatch)",
+        "'First' claim unverified and likely overstated",
+        "no detail on trading encrypted NFTs or revealing ownership",
+        "FHE overhead may make this impractical",
+        "no live product demonstrated"
+      ],
+      "one_line_pitch": "Encrypted NFTs using real FHE library (Zama); privacy-first but lacks trading mechanism.",
+      "website_url": "https://fungolabs.org",
+      "twitter_handle": "fungolabs",
+      "reviewed_at": "2026-10-06T05:14:13.971Z"
     },
     {
       "name": "FiatPad",
@@ -8606,6 +8703,65 @@
       "reviewed_at": "2026-10-03T13:48:57.246Z"
     },
     {
+      "name": "Stack",
+      "ticker": "STACK",
+      "mint": "0x459645b3a5a83dc212504ae34e5a6a875b75b5d3",
+      "quality_score": 5,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Launchpad with customizable fee structures for creators on Pons and Pump.fun.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "custom fee strategies are standard launchpad feature",
+        "zero differentiation from existing launchpads (Pump.fun, Magic Eden)",
+        "Pons/Pump.fun integration unproven",
+        "no working product evidence"
+      ],
+      "one_line_pitch": "Launchpad with customizable creator fees, standard feature",
+      "website_url": null,
+      "twitter_handle": "trystackfun",
+      "reviewed_at": "2026-10-06T05:15:02.032Z"
+    },
+    {
+      "name": "Snail Pace",
+      "ticker": "SNAILP",
+      "mint": "0xcb0619d33d5b4e1dbf88f9c5d1a85087fdb547d9",
+      "quality_score": 5,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Language learning app teaching one new word daily with anti-streak design.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "token utility completely unclear",
+        "not a crypto protocol, purely an app",
+        "why blockchain is needed unexamined",
+        "no working product evidence"
+      ],
+      "one_line_pitch": "One-word-a-day language learning app, unclear token role",
+      "website_url": null,
+      "twitter_handle": "getsnail",
+      "reviewed_at": "2026-10-06T05:15:02.027Z"
+    },
+    {
+      "name": "CHECK",
+      "ticker": "CHECK",
+      "mint": "0x77a46f32b541b8aa3cbca644b0b08786b442b96d",
+      "quality_score": 5,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Bounty launchpad: community fixes crypto products, earns USDC + on-chain proof",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "No working product shown",
+        "Essentially Gitcoin rebrand",
+        "Unclear differentiation from existing bounty platforms"
+      ],
+      "one_line_pitch": "Community task/bounty platform for crypto product improvements",
+      "website_url": null,
+      "twitter_handle": "check_launch",
+      "reviewed_at": "2026-10-06T05:12:56.153Z"
+    },
+    {
       "name": "fomk",
       "ticker": "fomk",
       "mint": "359R7y1ZysCVyxGpfHgjj7x6f561im6Sy83zMYxdfomk",
@@ -12846,6 +13002,26 @@
       "website_url": null,
       "twitter_handle": null,
       "reviewed_at": "2026-09-30T03:13:31.131Z"
+    },
+    {
+      "name": "Malarkey",
+      "ticker": "TALLTALE",
+      "mint": "0x4bcd4aa8b05cc8da35f45578c40531bd47893dce",
+      "quality_score": 4,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Family voting app to verify tall tales told by relatives.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "token utility completely unclear",
+        "not a crypto protocol, purely a voting app",
+        "why blockchain is needed unaddressed",
+        "no product evidence, appears to be concept only"
+      ],
+      "one_line_pitch": "Family tall-tale voting app, zero crypto rationale",
+      "website_url": null,
+      "twitter_handle": "malarkey",
+      "reviewed_at": "2026-10-06T05:15:02.031Z"
     },
     {
       "name": "Veyra",
