@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T06:16:36.089Z",
+  "generated_at": "2026-10-06T06:30:14.765Z",
   "note": "Quality-reviewed tech coins: passed a local coarse filter (qwen2.5:3b) then a real judgment pass (Haiku) confirming is_real_tech=true. new_idea_suggestions are Haiku-generated, informed by these patterns but NOT copies -- creative seeds for further review, not trading signals.",
   "quality_tech_coins": [
     {
@@ -505,6 +505,26 @@
       "website_url": "http://dotnet.land",
       "twitter_handle": "dotnetfund",
       "reviewed_at": "2026-10-03T13:48:57.247Z"
+    },
+    {
+      "name": "KORTX",
+      "ticker": "KORTX",
+      "mint": "Cj4TSKUjUsaAPGYSoLLqT5xLfdRUVBU7rt5ooptpump",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "On-chain AI inference verification via commit-and-challenge: model output committed with hash, verifier bonds can challenge, bonds move by ruling.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "Currently on Solana devnet only, not mainnet",
+        "EXP-01 label suggests early experimental phase, unproven",
+        "Token economics and actual incentive structure not documented on site",
+        "Complex mechanism; unclear how verifiers are selected/incentivized"
+      ],
+      "one_line_pitch": "Verifiable AI computation via bonded on-chain challenge mechanism; early-stage, devnet only.",
+      "website_url": "https://kortx.fi/",
+      "twitter_handle": "kortxfi",
+      "reviewed_at": "2026-10-06T06:29:59.924Z"
     },
     {
       "name": "Otsukai",
@@ -4118,6 +4138,26 @@
       "website_url": "https://rippers.fun/",
       "twitter_handle": "rippersdotfun",
       "reviewed_at": "2026-10-03T13:13:07.851Z"
+    },
+    {
+      "name": "vouch.family",
+      "ticker": "VOUCH",
+      "mint": "0xafda66d482f9ff00419229b17103a13077a9da0e",
+      "quality_score": 6,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Converts meme coins/ETH on Robinhood Chain into gift cards for major retailers",
+      "uniqueness": "novel",
+      "red_flags": [
+        "no proof of working product",
+        "regulatory uncertainty (gift card + crypto)",
+        "depends on third-party integrations",
+        "speed claims likely overstated"
+      ],
+      "one_line_pitch": "Meme-coin-to-gift-card converter for Robinhood Chain retailers",
+      "website_url": "https://vouch.family",
+      "twitter_handle": "vouchfamily",
+      "reviewed_at": "2026-10-06T06:27:32.956Z"
     },
     {
       "name": "useveil.fun",
@@ -9099,6 +9139,149 @@
       "reviewed_at": "2026-10-03T13:48:57.246Z"
     },
     {
+      "name": "Pons Domains",
+      "ticker": "DOMAINS",
+      "mint": "0x79ad62efa2c7d15b97a95be45d4bbbbdd68c91f2",
+      "quality_score": 5,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Launch tradeable tokens tied to web domains; creator fees accrue to domain-owned vault",
+      "uniqueness": "novel",
+      "red_flags": [
+        "domain ownership verification mechanism not explained at all",
+        "vault control, decentralization, and trustlessness claims unsubstantiated",
+        "creator fee source vague on pump.fun (no trading fees concept)",
+        "high squatting/trademark abuse risk with no gates described"
+      ],
+      "one_line_pitch": "Domain-tied tokens with fee vaults; interesting but unverified concept.",
+      "website_url": null,
+      "twitter_handle": "pons_domains",
+      "reviewed_at": "2026-10-06T06:30:13.347Z"
+    },
+    {
+      "name": "Relay",
+      "ticker": "RELAY",
+      "mint": "F4VhdCkHqVjxgXb6Qct2rUMXoYhjUkE4EZ2qyYTQpump",
+      "quality_score": 5,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "Meme coins paired with macro assets (stocks, bonds, commodities); AI agent auto-buys coin when paired asset moves favorably.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "Shows 0 coins live, 0 trades, 0 fees—product appears non-operational",
+        "Site displays 'No agents yet. Launch the first one'—incomplete MVP",
+        "AI agent mechanics are vague: funding source, execution model, and actual autonomy unclear",
+        "UI broken ('Loading prices...'); no working product demo"
+      ],
+      "one_line_pitch": "Macro asset-paired meme coins with auto-buyback AI; novel idea but non-functional prototype.",
+      "website_url": "https://relayyc.world/",
+      "twitter_handle": "relayyc",
+      "reviewed_at": "2026-10-06T06:29:59.931Z"
+    },
+    {
+      "name": "Giftr",
+      "ticker": "GIFTR",
+      "mint": "BpqRREG8RssnfZFou5XBYE1VcnWxVR3emmohtbcDG7eS",
+      "quality_score": 5,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "Pump.fun coin launcher that redirects creator fees to Twitch gift subscriptions for streamers.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "Service wrapper around Pump.fun; entirely dependent on Pump.fun's continued operation",
+        "No independent protocol or moat; Pump.fun could replicate internally",
+        "Token (GIFTR) has no inherent utility beyond fundraising",
+        "Creator fee lock mechanism needs independent verification"
+      ],
+      "one_line_pitch": "Pump.fun coins auto-convert fees to Twitch gift subs; thin integration layer, Pump.fun-dependent.",
+      "website_url": "https://giftr.fund/",
+      "twitter_handle": "giftrtv",
+      "reviewed_at": "2026-10-06T06:29:59.925Z"
+    },
+    {
+      "name": "Shift City",
+      "ticker": "SHIFT",
+      "mint": "Epod6WPCiABkjqVcrWTbpU8ZPC6HJfTdAWM4ZGLtrbyM",
+      "quality_score": 5,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "Agents work at real companies; holders earn that company's stock payouts.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "mechanism almost certainly fraudulent/impossible",
+        "no explanation of how physical work is performed",
+        "no disclosure of who operates the agents/workers",
+        "claims real corporate partnerships but none disclosed",
+        "treasury payment model unrealistic for claimed payouts",
+        "structure matches labor-arbitrage scam template"
+      ],
+      "one_line_pitch": "Agents work at real companies earning stock for holders.",
+      "website_url": "https://workshift.city/",
+      "twitter_handle": "0xsavior",
+      "reviewed_at": "2026-10-06T06:28:14.831Z"
+    },
+    {
+      "name": "http",
+      "ticker": "http",
+      "mint": "GFzEZ8TjPNrjytaAmnRXTqwpUe7Tej14dqdnxNjUwzRa",
+      "quality_score": 5,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "Token-based AI agent execution layer with reasoning loop and compute fee economics.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "incomplete documentation; sections cut off mid-sentence",
+        "unclear what's implemented vs. planned",
+        "no working product demo",
+        "j7tracker.io deployment source unclear"
+      ],
+      "one_line_pitch": "AI agent execution layer with token-based compute economics.",
+      "website_url": "https://www.tryhttp.com/docs",
+      "twitter_handle": "tryhttp_",
+      "reviewed_at": "2026-10-06T06:28:14.828Z"
+    },
+    {
+      "name": "RaidPad",
+      "ticker": "RAID",
+      "mint": "7Ycdn9e16xrixSQMmWMdGvgryTkNLbrFfAKuXB9wpump",
+      "quality_score": 5,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "Launchpad where trading fees fund coordinated hype raids on trending tokens",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "potential market manipulation (organized raids)",
+        "regulatory risk",
+        "fee-based mechanics not novel",
+        "raid selection/mechanics vague",
+        "sounds like PnD coordination"
+      ],
+      "one_line_pitch": "Launchpad redirecting trading fees to fund coordinated token raids",
+      "website_url": "https://raidpad.app",
+      "twitter_handle": "useraidpad",
+      "reviewed_at": "2026-10-06T06:27:32.963Z"
+    },
+    {
+      "name": "Tell",
+      "ticker": "TELL",
+      "mint": "0xf6924ea2ce4cdf99b6ac44e2c0deaf9739d7b999",
+      "quality_score": 5,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Chrome extension annotating X posts with account/coin history and rug-risk flags",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "similar to existing tools (Unfold, etc.)",
+        "X API limitations likely block extension",
+        "rug detection criteria not detailed",
+        "data source unspecified"
+      ],
+      "one_line_pitch": "X browser extension showing account/coin history on posts",
+      "website_url": "https://usetellcoin.com",
+      "twitter_handle": "usetellcoin",
+      "reviewed_at": "2026-10-06T06:27:32.958Z"
+    },
+    {
       "name": "Orbio Capital",
       "ticker": "CAPITAL",
       "mint": "0x9cfe37d2aea365a1b9004f63e7769226284f0ee7",
@@ -13751,6 +13934,66 @@
       "reviewed_at": "2026-09-30T03:13:31.131Z"
     },
     {
+      "name": "Pulldesk",
+      "ticker": "PULLDESK",
+      "mint": "0x545cfca547566207ff075a4fa06629c9d2df7930",
+      "quality_score": 4,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Block-hash lottery: pay 0.01 ETH ticket, winner selected per round, losers split 10%",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "block-hash-based lottery established pattern in crypto for 5+ years",
+        "no edge over existing lottery mechanisms; players pay to lose",
+        "ETH-denominated but listed as Solana coin (mint format confusion)"
+      ],
+      "one_line_pitch": "On-chain lottery with block-hash selection; classic mechanism.",
+      "website_url": "https://pulldesk.wtf",
+      "twitter_handle": "pulldesk_wtf",
+      "reviewed_at": "2026-10-06T06:30:13.341Z"
+    },
+    {
+      "name": "TRIX",
+      "ticker": "TRIX",
+      "mint": "0x751c9cb8d22a103ba4a8c278134dc3d21a612d27",
+      "quality_score": 4,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Benchmarking platform for evaluating AI trading agent performance.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "No benchmark methodology or metrics specified",
+        "No sample results or working demo shown",
+        "Unclear why token is needed (no coin mechanic explained)",
+        "No website/Twitter provided",
+        "Could be vaporware"
+      ],
+      "one_line_pitch": "AI agent benchmarking; real idea but sparse details, unproven",
+      "website_url": null,
+      "twitter_handle": "trix__ai",
+      "reviewed_at": "2026-10-06T06:29:03.464Z"
+    },
+    {
+      "name": "chain punk",
+      "ticker": "CHAIN PUNK",
+      "mint": "0x6fb09d2fd01b914576f7a6cc76554229b0522895",
+      "quality_score": 4,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "On-chain ASCII art collectibles with 3,333 themed character types.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "No marketplace or trading mechanism described",
+        "No rarity system or utility described",
+        "Unclear differentiation from Loot/CryptoPunks",
+        "No website/Twitter provided"
+      ],
+      "one_line_pitch": "ASCII art NFTs; niche aesthetic but not a novel pattern",
+      "website_url": null,
+      "twitter_handle": "c",
+      "reviewed_at": "2026-10-06T06:29:03.460Z"
+    },
+    {
       "name": "Daemon on Orbio",
       "ticker": "DAEMON",
       "mint": "0xfe19dda1b7ecd67436ab182e68232abb42e0b937",
@@ -18341,6 +18584,124 @@
       "website_url": null,
       "twitter_handle": "fumblefamilyapp",
       "reviewed_at": "2026-09-30T03:14:54.643Z"
+    },
+    {
+      "name": "Compile",
+      "ticker": "COMPILE",
+      "mint": "0x7627995564e38444209bad298f7e3d53f5b6cdad",
+      "quality_score": 3,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Compile trading strategies into Uniswap v4 hooks executing inside pools on swaps",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "Uniswap v4 hooks are open-source, anyone can write them",
+        "Solana coin claiming Ethereum Uniswap v4 integration is confusing/misleading",
+        "no working compiler product evidence; likely just UI wrapper"
+      ],
+      "one_line_pitch": "UI for deploying strategies as Uniswap v4 hooks; middleware only.",
+      "website_url": "https://t.co/bgFhGGKDnW",
+      "twitter_handle": "compiledotexe",
+      "reviewed_at": "2026-10-06T06:30:13.343Z"
+    },
+    {
+      "name": "AI Agent",
+      "ticker": "TRENCHERS",
+      "mint": "0x07061cc98be5406df7777c2f9372661390ca3465",
+      "quality_score": 3,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "NFT-identified trading agents ranked in ecosystem; launch coins from strategies",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "vague 'self-funding agent coin' with no explanation of mechanics",
+        "likely just pump.fun UI wrapper + bot hosting",
+        "no evidence of working NFT agent system or ranking backend"
+      ],
+      "one_line_pitch": "Ranked bots with NFTs, strategy tokenization; vague and derivative.",
+      "website_url": "https://www.trenchers.io",
+      "twitter_handle": "trenchersio",
+      "reviewed_at": "2026-10-06T06:30:13.340Z"
+    },
+    {
+      "name": "Isles",
+      "ticker": "ISLES",
+      "mint": "HHYc65JabmwbvcAD1V4rYAKEEA251cppkFAwy6u9pump",
+      "quality_score": 3,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "Wallet watchlist tracker with cosmetic creature theming; token holder perks system.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "Purely cosmetic differentiation from standard whale-tracking tools",
+        "Token utility limited to cosmetic perks, no clear product moat",
+        "Site shows loading states and incomplete features",
+        "No revenue mechanism or ecosystem beyond cosmetics"
+      ],
+      "one_line_pitch": "Branded wallet tracker with creature avatars; typical pump.fun wrapper product.",
+      "website_url": "https://isles.fun/",
+      "twitter_handle": "islesdotfun",
+      "reviewed_at": "2026-10-06T06:29:59.906Z"
+    },
+    {
+      "name": "hermis agent",
+      "ticker": "HRMS",
+      "mint": "0xa6d9f2d00b3c9faca232342925d1c99fbf02fdaf",
+      "quality_score": 3,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Open-source bot for tracking memecoin activity on Robinhood.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "No GitHub/repo link or code verification",
+        "Open-source claim unverified",
+        "Tracker is commodity (GMGN, Birdeye, etc. exist)",
+        "No working demo or live instance shown",
+        "No website/Twitter provided"
+      ],
+      "one_line_pitch": "Memecoin tracker; redundant vs. existing tools, unproven",
+      "website_url": null,
+      "twitter_handle": null,
+      "reviewed_at": "2026-10-06T06:29:03.458Z"
+    },
+    {
+      "name": "Frontier",
+      "ticker": "FRONTIER",
+      "mint": "0x525430d07acf3c48e7ec5753c0e87b74faf09763",
+      "quality_score": 3,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Bonding-curve launchpad that graduates tokens to Uniswap V4 pools.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "Identical to pump.fun model; only differentiation is chain",
+        "No website/Twitter to verify implementation",
+        "Uniswap V4 integration on Robinhood Chain unproven"
+      ],
+      "one_line_pitch": "Pump.fun-style launchpad on Robinhood Chain, no novel mechanics",
+      "website_url": "https://frontier.fun",
+      "twitter_handle": "frontierhood",
+      "reviewed_at": "2026-10-06T06:29:03.426Z"
+    },
+    {
+      "name": "Lacuna",
+      "ticker": "LACUNA",
+      "mint": "0x4d95b228081303856a0806e6f81bc11041501a57",
+      "quality_score": 3,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Private balance addresses with public transactions on Robinhood Chain.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "vague privacy mechanism description",
+        "no technical implementation details",
+        "no website or documentation provided",
+        "Robinhood Chain unproven/new"
+      ],
+      "one_line_pitch": "Privacy-preserving token with public transactions, hidden balances on Robinhood.",
+      "website_url": "https://lacunacoin.com",
+      "twitter_handle": "lacunaworld",
+      "reviewed_at": "2026-10-06T06:28:14.827Z"
     },
     {
       "name": "KABUDEX",
