@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T04:31:24.304Z",
+  "generated_at": "2026-10-06T04:46:15.727Z",
   "note": "Quality-reviewed tech coins: passed a local coarse filter (qwen2.5:3b) then a real judgment pass (Haiku) confirming is_real_tech=true. new_idea_suggestions are Haiku-generated, informed by these patterns but NOT copies -- creative seeds for further review, not trading signals.",
   "quality_tech_coins": [
     {
@@ -487,6 +487,81 @@
       "website_url": "http://dotnet.land",
       "twitter_handle": "dotnetfund",
       "reviewed_at": "2026-10-03T13:48:57.247Z"
+    },
+    {
+      "name": "Higgspad",
+      "ticker": "HIGGS",
+      "mint": "FwVY8ydFjEWFs15wL6YAVXe9mEzxzc1XzMKUzANpump",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "AI influencer generator launching each character as Pump.fun token with video studio",
+      "uniqueness": "novel",
+      "red_flags": [],
+      "one_line_pitch": "AI character creation platform tokenized on Pump.fun with video studio",
+      "website_url": "https://higgspad.com/",
+      "twitter_handle": "higgspad",
+      "reviewed_at": "2026-10-06T04:46:09.981Z"
+    },
+    {
+      "name": "fourbit",
+      "ticker": "4bit",
+      "mint": "CZ1PJk2ZVZ8dwVmQf8eQEGzQSN9jBTGAG4hQMphPpump",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "Creators write custom 4-bit machine code that controls fee allocation; VM executes per block-tick",
+      "uniqueness": "novel",
+      "red_flags": [
+        "no deployed coins or live VM execution shown",
+        "4-bit ISA complexity is high barrier to creator adoption",
+        "unproven whether the bytecode VM actually works on-chain",
+        "no evidence of product maturity or testing",
+        "UX friction likely to block all but niche technical users"
+      ],
+      "one_line_pitch": "Creators write custom bytecode for fee rules; on-chain VM enforces",
+      "website_url": "https://fourbit.fun",
+      "twitter_handle": "fourbit",
+      "reviewed_at": "2026-10-06T04:44:40.742Z"
+    },
+    {
+      "name": "BUY BUTTON",
+      "ticker": "BUTTON",
+      "mint": "0x2c29b3789367b01de0a999449c7dec24e14f96c2",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Chrome extension showing coin prices on Twitter, enabling one-tap Apple Pay purchases.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "0x Ethereum address, contextual mismatch with pump.fun Solana framing",
+        "no website or live product evidence",
+        "unclear how 'no wallet needed' works for actual crypto custody",
+        "token's economic role/utility not described"
+      ],
+      "one_line_pitch": "Twitter Chrome extension for one-tap crypto purchases via Apple Pay, no wallet.",
+      "website_url": null,
+      "twitter_handle": "getbuybutton",
+      "reviewed_at": "2026-10-06T04:43:18.635Z"
+    },
+    {
+      "name": "IMAGE",
+      "ticker": "IMAGE",
+      "mint": "7FWhytt6btgQCMBsmNSreB5fL9dbZQ6GGuoBYgKhpump",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "Coin launch platform auto-creating AI streamer character for each token deployed.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "no live streams visible despite 'live' section on platform",
+        "AI character animation/generation method not explained",
+        "sparse technical documentation or tokenomics"
+      ],
+      "one_line_pitch": "Coin launchpad that auto-creates AI streaming character for each new token.",
+      "website_url": "https://image.trade/",
+      "twitter_handle": "imagetrade",
+      "reviewed_at": "2026-10-06T04:43:18.629Z"
     },
     {
       "name": "DexHooks",
@@ -3827,6 +3902,133 @@
       "website_url": "https://rippers.fun/",
       "twitter_handle": "rippersdotfun",
       "reviewed_at": "2026-10-03T13:13:07.851Z"
+    },
+    {
+      "name": "GATSBY",
+      "ticker": "GATSBY",
+      "mint": "6dsQN9fYnBaBxNZ5exds7vDpViVsjHvdB8bN7QEhpump",
+      "quality_score": 6,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "NLP-powered AI research tool for querying on-chain blockchain data",
+      "uniqueness": "derivative",
+      "red_flags": [],
+      "one_line_pitch": "NLP analytics tool for on-chain research with natural language queries",
+      "website_url": "https://gatsby.fi/",
+      "twitter_handle": "gatsbyfi",
+      "reviewed_at": "2026-10-06T04:46:09.985Z"
+    },
+    {
+      "name": "Giftr",
+      "ticker": "GIFTR",
+      "mint": "9fKAWuABRLMFer5h5wJBJFkGg4uRxcdy7ypPHvMopump",
+      "quality_score": 6,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "Pump.fun coin launcher for Twitch streamers; creator fees locked to streamer",
+      "uniqueness": "derivative",
+      "red_flags": [],
+      "one_line_pitch": "Streamer monetization via Pump.fun coins with locked creator fees",
+      "website_url": "https://giftr.fund",
+      "twitter_handle": "giftrfund",
+      "reviewed_at": "2026-10-06T04:46:09.980Z"
+    },
+    {
+      "name": "MACHINE LEARNING",
+      "ticker": "ML",
+      "mint": "5J77Dn9ACHXT34b4kpT6hfqMivJigVJmgKEqm3yZQe3q",
+      "quality_score": 6,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "Claude Opus AI agent with deterministic policy engine manages token identity.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "nearly identical to AGENIE mechanism (same platform)",
+        "deterministic policy engine not explained or documented",
+        "low market cap suggests unproven/early stage"
+      ],
+      "one_line_pitch": "Claude AI agent with policy engine for tokens.",
+      "website_url": "https://www.agencypad.fun/coin/5J77Dn9ACHXT34b4kpT6hfqMivJigVJmgKEqm3yZQe3q",
+      "twitter_handle": "omw2human",
+      "reviewed_at": "2026-10-06T04:44:54.104Z"
+    },
+    {
+      "name": "AGENIE",
+      "ticker": "AGENIE",
+      "mint": "FtfBF7joqw9RxQWUMee9cjwxM3bEn5jDExjWanbqpump",
+      "quality_score": 6,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "AI agents auto-generate social content, trends, and posts for launched tokens.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "AI agents in crypto are established (Eliza, others)",
+        "no evidence of unique capability vs. generic LLM agents",
+        "content quality and consistency unclear"
+      ],
+      "one_line_pitch": "AI agents that auto-post social content for tokens.",
+      "website_url": "https://agenie.me/",
+      "twitter_handle": "agenieme",
+      "reviewed_at": "2026-10-06T04:44:54.103Z"
+    },
+    {
+      "name": "Arbit",
+      "ticker": "ARBIT",
+      "mint": "9EfjzVe7KbzKbcgoWw8r3yjtbHY3BnPj74dXxmNkpump",
+      "quality_score": 6,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "Launch coin, AI agent receives 100% creator fees, autonomously trades token on axiom.trade",
+      "uniqueness": "novel",
+      "red_flags": [
+        "no active agents shown on live site (0 agents, 0 trades)",
+        "axiom.trade dependency and stability unknown",
+        "no guard rails described for AI trading behavior",
+        "execution quality and slippage risk unaddressed",
+        "creator-fee capture mechanism is standard, live trading is the novel part"
+      ],
+      "one_line_pitch": "AI trades its own coin with creator revenue; watch moves live",
+      "website_url": "https://arbit.fun/",
+      "twitter_handle": "arbitfun",
+      "reviewed_at": "2026-10-06T04:44:40.740Z"
+    },
+    {
+      "name": "Agent Passports",
+      "ticker": "VERO",
+      "mint": "J4D6Be3bzXKxw7qJdZvsimSyztFs9m7KoCRHLnVmvero",
+      "quality_score": 6,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "Soulbound identity passports for AI agents with verifiable proofs and credential claims.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "$VERO token not required for core functionality—utility role unclear",
+        "Status shows 'Not proven' on demo—early/incomplete stage",
+        "Soulbound tokens and DIDs are known concepts, application to agents is fresher"
+      ],
+      "one_line_pitch": "Verifiable identity passports for AI agents with credential proofs on Solana",
+      "website_url": "https://tryvero.xyz/",
+      "twitter_handle": "tryveroxyz",
+      "reviewed_at": "2026-10-06T04:43:26.177Z"
+    },
+    {
+      "name": "PairStonks",
+      "ticker": "PairStonks",
+      "mint": "4gwezZdLrSzmNyUrwFK5WQjMVi5JhXnFgRY4At6UoSnj",
+      "quality_score": 6,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "Solana token paired with up to 7 real stocks, tracking their performance.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "minimal website with no technical details on pairing mechanism",
+        "no oracle or price-feed implementation described",
+        "j7tracker deployment suggests template/low-effort site"
+      ],
+      "one_line_pitch": "Solana token tracking performance of up to 7 real stocks.",
+      "website_url": "https://pairstonks.com/",
+      "twitter_handle": "pairstonks",
+      "reviewed_at": "2026-10-06T04:43:18.626Z"
     },
     {
       "name": "DexHooks",
@@ -8331,6 +8533,66 @@
       "reviewed_at": "2026-10-03T13:48:57.246Z"
     },
     {
+      "name": "sprout",
+      "ticker": "SPROUT",
+      "mint": "HkJgBTK4d3mrrf9Y3TqsiyqLEkbtoEFhzeqMtLnLpump",
+      "quality_score": 5,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "Raise digital creature via bridge-building challenges; energy and journal tracking.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "tamagotchi-style game is derivative pattern",
+        "no clear evidence game is fully playable vs. landing page",
+        "similar games exist throughout crypto"
+      ],
+      "one_line_pitch": "Tamagotchi variant with bridge-building mechanics.",
+      "website_url": "https://sprout.meme",
+      "twitter_handle": "sherylhsu02",
+      "reviewed_at": "2026-10-06T04:44:54.101Z"
+    },
+    {
+      "name": "Slop",
+      "ticker": "SLOP",
+      "mint": "H3FkSgwCHgLDQR4w9PpF26wBMzop5mSbZ8JA9UjEpump",
+      "quality_score": 5,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "AI agents autonomously launch tokens, earn creator fees, fund future creations via token rewards",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "no website or working product visible",
+        "AI token launcher concept is common",
+        "child-token recursion mechanism untested",
+        "no evidence of live coins or creator activity",
+        "typical pump.fun vaporware pattern"
+      ],
+      "one_line_pitch": "AI agents launch tokens, earn fees, self-fund more creations",
+      "website_url": "https://slop.claims",
+      "twitter_handle": "slopclaims",
+      "reviewed_at": "2026-10-06T04:44:40.737Z"
+    },
+    {
+      "name": "sprout",
+      "ticker": "SPROUT",
+      "mint": "A44Q9zUGvLnRWtdWcG8cFRR8tpbaTYG332UGPFoQpump",
+      "quality_score": 5,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "Play-to-earn digital pet with bridge-building puzzles, energy system, and progress journal.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "Product in early development ('still learning' phase)",
+        "Tokenomics not clearly specified",
+        "Unclear if mechanics are fully on-chain or hybrid",
+        "Digital pets are an overdone genre in crypto"
+      ],
+      "one_line_pitch": "Digital pet game with puzzle challenges and in-game progression tracking",
+      "website_url": "https://sprout.meme",
+      "twitter_handle": "sherylhsu02",
+      "reviewed_at": "2026-10-06T04:43:26.168Z"
+    },
+    {
       "name": "Influence Coin",
       "ticker": "Influence",
       "mint": "8ei95WysRVNDb5uQTwkMWMJ5LsXJyYG6cbaYvHSepump",
@@ -12412,6 +12674,62 @@
       "website_url": null,
       "twitter_handle": null,
       "reviewed_at": "2026-09-30T03:13:31.131Z"
+    },
+    {
+      "name": "Button",
+      "ticker": "Button",
+      "mint": "5a9qLqZA8mr7oFUwRH4CF1beA9kPKGZH6pCYQ4r6pump",
+      "quality_score": 4,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "Browser extension adding buy button to social feeds for Solana/Robinhood trades.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "feed-integrated trading is not novel (multiple existing solutions)",
+        "potential brand hijack risk: usebutton.fun",
+        "UI integration only, no protocol or mechanism innovation"
+      ],
+      "one_line_pitch": "Browser extension placing buy button on feeds.",
+      "website_url": "https://usebutton.fun/",
+      "twitter_handle": "usebuybuttonfun",
+      "reviewed_at": "2026-10-06T04:44:54.102Z"
+    },
+    {
+      "name": "Cathereum tech",
+      "ticker": "CATHEREUM",
+      "mint": "0xcd88c64aa80648460fcfed8565f20a8f9151570a",
+      "quality_score": 4,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "DN404 fully onchain NFT collection applied to cat-themed assets.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "Ethereum address, not Solana (filter false positive)",
+        "DN404 is established standard, not a novel mechanism",
+        "potential brand confusion with 'Ethereum' branding"
+      ],
+      "one_line_pitch": "DN404 NFT collection with cat theme.",
+      "website_url": "https://Cathereum.tech",
+      "twitter_handle": "cathereumtech",
+      "reviewed_at": "2026-10-06T04:44:54.097Z"
+    },
+    {
+      "name": "Roblette",
+      "ticker": "RBL",
+      "mint": "0x041f48e1c2855be1287b94363f4f3d8585ceccdc",
+      "quality_score": 4,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Onchain roulette with verifiable randomness, AI agent seats, NFT chips and rewards.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "mint is Ethereum (0x...), not Robinhood Chain despite description",
+        "no website or evidence of working product"
+      ],
+      "one_line_pitch": "Onchain roulette game with AI agents and NFT rewards on Robinhood Chain.",
+      "website_url": null,
+      "twitter_handle": "robletterbh",
+      "reviewed_at": "2026-10-06T04:43:18.624Z"
     },
     {
       "name": "anora.finance",
@@ -16521,6 +16839,67 @@
       "reviewed_at": "2026-09-30T03:14:54.643Z"
     },
     {
+      "name": "Snarepad.fun",
+      "ticker": "MERRY",
+      "mint": "0xdf072e673173281e6e6919b0dddab4f70b9522ae",
+      "quality_score": 3,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Utility token for unspecified 1v1 duel game or platform.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "Ethereum address, not Solana (filter false positive)",
+        "minimal description provided",
+        "no evidence of working game or platform",
+        "vaporware risk"
+      ],
+      "one_line_pitch": "Game token for 1v1 duels, minimal detail.",
+      "website_url": null,
+      "twitter_handle": "snarepadeh",
+      "reviewed_at": "2026-10-06T04:44:54.099Z"
+    },
+    {
+      "name": "Dotspad",
+      "ticker": "DOTS",
+      "mint": "D25WH9jhWboAPz93YJkX3a4sw7x9qRpB3xepSFzipump",
+      "quality_score": 3,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "Pick fee destination (holders, burn, gift, keep); 90% of creator fees allocated by choice",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "fee-split customization is ancient in crypto (100+ tokens do this)",
+        "dot picker is cosmetic UI, not a novel mechanism",
+        "no differentiation from standard tokenomics",
+        "board view likely not live; unconfirmed if fees actually route",
+        "identical to standard buyback/burn/redistribution tokens"
+      ],
+      "one_line_pitch": "Pick fee destination before launch; cosmetic UI for standard redistribution",
+      "website_url": "https://dotspad.ai",
+      "twitter_handle": "heydotspad",
+      "reviewed_at": "2026-10-06T04:44:40.743Z"
+    },
+    {
+      "name": "Rooms",
+      "ticker": "ROOMS",
+      "mint": "uZQFWBUMXpJ7v1yBqPQeeh6qbmDACu1DvJ1EwT1pump",
+      "quality_score": 3,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "Launch any token paired with AI agent; agent worker fees buyback and burn ROOMS.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "Token launcher + AI agent pairing is a known combination",
+        "'Backroom' concept undefined, role unclear",
+        "Standard buyback/burn redistribution, no novel fee structure",
+        "No website or product verification"
+      ],
+      "one_line_pitch": "Token launcher where AI agents generate buyback fees for ROOMS token",
+      "website_url": "https://www.launchrooms.family/",
+      "twitter_handle": "launchonrooms",
+      "reviewed_at": "2026-10-06T04:43:26.171Z"
+    },
+    {
       "name": "Krystal Auto-Farm Vault",
       "ticker": "KRYSTALA",
       "mint": "0x26a56256df5ca668385208de7ff7c56865487160",
@@ -19376,6 +19755,65 @@
       "website_url": null,
       "twitter_handle": null,
       "reviewed_at": "2026-09-30T03:12:48.536Z"
+    },
+    {
+      "name": "pupm",
+      "ticker": "pupm",
+      "mint": "GKpJiXcevLqrMmsHAXBibxWyCRqJvtvPEanpm7oBpump",
+      "quality_score": 2,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "Distributes 1% of transaction fees to token holders.",
+      "uniqueness": "copy",
+      "red_flags": [
+        "fee redistribution is extremely commodified pattern",
+        "meme-style branding suggests low effort",
+        "no differentiation from dozens of similar coins"
+      ],
+      "one_line_pitch": "1% holder reward redistribution mechanism.",
+      "website_url": "https://www.pupm.app/",
+      "twitter_handle": "asdfhgdev_pf",
+      "reviewed_at": "2026-10-06T04:44:54.094Z"
+    },
+    {
+      "name": "Confidential Cats",
+      "ticker": "CNFCATS",
+      "mint": "0x523d7946d68c4fc8325fc67388b88bc11e1177a6",
+      "quality_score": 2,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "NFT collection with confidential-bid (sealed-bid) auction mechanism.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "Mint format is Ethereum (0x...), but claims NEAR then Robinhood Pons",
+        "Product not yet launched ('coming soon')",
+        "Implementation of 'confidential' mechanism not technically specified",
+        "Chain/deployment target confusion suggests project confused or unfinished"
+      ],
+      "one_line_pitch": "Confidential auction NFT collection launching on unclear chain, not yet live",
+      "website_url": null,
+      "twitter_handle": null,
+      "reviewed_at": "2026-10-06T04:43:26.175Z"
+    },
+    {
+      "name": "Pickbank",
+      "ticker": "PICKBANK",
+      "mint": "0x517fe715c8c0b3b1591e5175d018d867b74448e1",
+      "quality_score": 2,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Binary prediction market where losing side's stakes split across the winning side.",
+      "uniqueness": "copy",
+      "red_flags": [
+        "Mint format is Ethereum (0x...), inconsistent with Solana claim",
+        "Zero-sum prediction/betting markets are ubiquitous in crypto",
+        "Minimal technical detail or differentiation provided",
+        "No website or additional implementation information"
+      ],
+      "one_line_pitch": "Two-sided prediction market with stake redistribution, completely overdone concept",
+      "website_url": "https://pickbank.lol",
+      "twitter_handle": "pickbank_lol",
+      "reviewed_at": "2026-10-06T04:43:26.169Z"
     },
     {
       "name": "Poke-earn",
