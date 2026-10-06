@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T04:46:15.727Z",
+  "generated_at": "2026-10-06T05:01:32.261Z",
   "note": "Quality-reviewed tech coins: passed a local coarse filter (qwen2.5:3b) then a real judgment pass (Haiku) confirming is_real_tech=true. new_idea_suggestions are Haiku-generated, informed by these patterns but NOT copies -- creative seeds for further review, not trading signals.",
   "quality_tech_coins": [
     {
@@ -487,6 +487,39 @@
       "website_url": "http://dotnet.land",
       "twitter_handle": "dotnetfund",
       "reviewed_at": "2026-10-03T13:48:57.247Z"
+    },
+    {
+      "name": "Mintro",
+      "ticker": "MINTRO",
+      "mint": "CGNVDYY5R98fTEfwxFzAzGnHzroWcwGNGRxJHnJWpump",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "Launch coins on Minted launchpad, receive NFT collecting 20% creator fees perpetually",
+      "uniqueness": "novel",
+      "red_flags": [
+        "no working product link provided",
+        "unclear if Minted launchpad is operationally live"
+      ],
+      "one_line_pitch": "NFT engines perpetually collecting 20% of launched-coin creator fees",
+      "website_url": null,
+      "twitter_handle": "mintrolaunchapp",
+      "reviewed_at": "2026-10-06T05:01:27.204Z"
+    },
+    {
+      "name": "Claimr",
+      "ticker": "CLAIMR",
+      "mint": "8EyyS4WBz3fKMo2gm9dPPYzAtYVuV7e99osMD9MxTech",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "Hourly token-launch competitions; creators compete for ranked creator-fee pools; on-chain settlement.",
+      "uniqueness": "novel",
+      "red_flags": [],
+      "one_line_pitch": "Tournament-style token launches with hourly rounds, verifiable rankings, and on-chain prize payouts.",
+      "website_url": "https://claimr.tech/",
+      "twitter_handle": "claimrtech",
+      "reviewed_at": "2026-10-06T04:57:36.452Z"
     },
     {
       "name": "Higgspad",
@@ -3902,6 +3935,46 @@
       "website_url": "https://rippers.fun/",
       "twitter_handle": "rippersdotfun",
       "reviewed_at": "2026-10-03T13:13:07.851Z"
+    },
+    {
+      "name": "FiatPad",
+      "ticker": "FIAT",
+      "mint": "0xf0c452adb5fb02ecb9ae96d7ba0c3c834d576296",
+      "quality_score": 6,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Fiat-pegged coins auto-payout holders every minute; instant locked Uniswap LP.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "Fiat payout mechanism unclear—requires oracle or bridge (trust risk)",
+        "Minute-per-minute payouts imply high gas/transaction cost",
+        "Inflation model: how are payouts funded (new mint vs. fee redistribution)?",
+        "Arc is emerging; liquidity and cross-chain execution unproven"
+      ],
+      "one_line_pitch": "Fiat-pegged coins with minute-by-minute holder payouts on Arc.",
+      "website_url": null,
+      "twitter_handle": "fiatpad",
+      "reviewed_at": "2026-10-06T04:59:37.578Z"
+    },
+    {
+      "name": "Moire Fit",
+      "ticker": "MOIRE",
+      "mint": "0x31c17d3c2cfed8faa7040fa36cff85b49e473ded",
+      "quality_score": 6,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Private smart contract audits for Robinhood Chain; confidential reviews.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "Privacy-model not clearly defined ('keep the code' is vague)",
+        "Auditor identity, credentials, and methodology absent",
+        "Robinhood Chain adoption uncertain; niche venue",
+        "No audit track record or case studies visible"
+      ],
+      "one_line_pitch": "Private smart contract audits for Robinhood Chain.",
+      "website_url": "https://moire.fit",
+      "twitter_handle": "moire_fit",
+      "reviewed_at": "2026-10-06T04:59:37.576Z"
     },
     {
       "name": "GATSBY",
@@ -8533,6 +8606,105 @@
       "reviewed_at": "2026-10-03T13:48:57.246Z"
     },
     {
+      "name": "fomk",
+      "ticker": "fomk",
+      "mint": "359R7y1ZysCVyxGpfHgjj7x6f561im6Sy83zMYxdfomk",
+      "quality_score": 5,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "AI bot responds to tagged fomo theses; position size determines response queue priority",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "website appears incomplete",
+        "unclear if bot/token integration is live",
+        "depends on fomo platform reliability"
+      ],
+      "one_line_pitch": "Bot answers tagged fomo theses; bigger $FOMK holders skip queue",
+      "website_url": "https://fomk.bot/",
+      "twitter_handle": "fomkbot",
+      "reviewed_at": "2026-10-06T05:01:27.206Z"
+    },
+    {
+      "name": "fomonite",
+      "ticker": "FOMONITE",
+      "mint": "0x6e2f4ff5c4e1101ad7a21740deccb3844220c581",
+      "quality_score": 5,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Twitter-based battle royale; players eliminate each other, last survivor wins.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "Prize mechanism, elimination rules, and auth method undefined",
+        "Battle royale + Twitter branding is common crypto-game combo",
+        "No visible gameplay or live product",
+        "Likely a concept sketch, not executable mechanics"
+      ],
+      "one_line_pitch": "Twitter battle royale game; last survivor wins.",
+      "website_url": null,
+      "twitter_handle": "playfomonite",
+      "reviewed_at": "2026-10-06T04:59:37.575Z"
+    },
+    {
+      "name": "Feebits",
+      "ticker": "FEEBITS",
+      "mint": "BJUiNooYiZ4ojatPVeJAUXGEd3dcGzQ1ApWDoVTzpump",
+      "quality_score": 5,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "Launchpad auto-routes coin fees to registered Twitch streamers.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "Minimal website content, no implementation details",
+        "Streamer identification method unclear (manual vs. auto-detect)",
+        "Twitch integration risky; platform ToS complications",
+        "Influencer fee-sharing is known launchpad pattern"
+      ],
+      "one_line_pitch": "Launchpad auto-pays Twitch streamers from coin fees.",
+      "website_url": "https://feebits.fun",
+      "twitter_handle": "feebitsdotfun",
+      "reviewed_at": "2026-10-06T04:59:37.573Z"
+    },
+    {
+      "name": "Mintro",
+      "ticker": "MINTRO",
+      "mint": "0xadce408b6fa3ca5c6ca0f77509233a5f0fb4f205",
+      "quality_score": 5,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "NFT collects 20% of creator fees from coins launched on Minted platform.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "Depends on 'Minted' platform existing and traction",
+        "Revenue is passive but tied to others' coin success",
+        "Pixel NFT branding is cosmetic; core is fee-splitting",
+        "Similar to Pump.fun creator-fee model, repackaged"
+      ],
+      "one_line_pitch": "NFT collects 20% of creator fees from platform-launched coins.",
+      "website_url": "https://www.mintro.site",
+      "twitter_handle": "mintrolaunchapp",
+      "reviewed_at": "2026-10-06T04:59:37.572Z"
+    },
+    {
+      "name": "kart",
+      "ticker": "kart",
+      "mint": "7CZru8SGAisdyGTh7AwAei8rkgdLrqBYvKm2udZbkart",
+      "quality_score": 5,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "Hold 24h + upload receipt, claim refund in SOL from creator-reward pool (75% locked on-chain)",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "Not yet launched",
+        "'Cart' and 'receipt' concepts underexplained",
+        "Sustainability unclear (depends on continuous fee flow)",
+        "Possible confusion in marketing"
+      ],
+      "one_line_pitch": "Receipt-based cashback token funded by Pump.fun creator-reward fees.",
+      "website_url": "https://www.kartonsolana.fun",
+      "twitter_handle": "kartonsol",
+      "reviewed_at": "2026-10-06T04:58:49.613Z"
+    },
+    {
       "name": "sprout",
       "ticker": "SPROUT",
       "mint": "HkJgBTK4d3mrrf9Y3TqsiyqLEkbtoEFhzeqMtLnLpump",
@@ -12674,6 +12846,44 @@
       "website_url": null,
       "twitter_handle": null,
       "reviewed_at": "2026-09-30T03:13:31.131Z"
+    },
+    {
+      "name": "Veyra",
+      "ticker": "VEYRA",
+      "mint": "CEqUeZmbT3AKzS6o8XCUsnjo9DA9rxjth8efFnXLpump",
+      "quality_score": 4,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "Agent-submitted intents routed through policy-checked vaults",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "multisig + policy gates are common pattern",
+        "unclear differentiation from Squads/Safe"
+      ],
+      "one_line_pitch": "Policy-gated vault for autonomous agent finance",
+      "website_url": "https://www.veyratech.app/",
+      "twitter_handle": "veyratech_",
+      "reviewed_at": "2026-10-06T05:00:45.494Z"
+    },
+    {
+      "name": "Poker Arena",
+      "ticker": "POKERAI",
+      "mint": "A8gw71FKVUpNoDJAaCpSGZadSkKkL4gNojpFmn8opump",
+      "quality_score": 4,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "AI agents play poker against each other for SOL in-game.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "Minimal website—just title, no gameplay rules",
+        "AI poker gaming already exists in crypto space",
+        "No details on prize pool, house rake, or agent logic",
+        "Likely MVP/placeholder, not a live product"
+      ],
+      "one_line_pitch": "AI poker agents compete for SOL; sparse product info.",
+      "website_url": "https://pokerarenaagent.com/",
+      "twitter_handle": "pokerarena_",
+      "reviewed_at": "2026-10-06T04:59:37.570Z"
     },
     {
       "name": "Button",
@@ -16837,6 +17047,44 @@
       "website_url": null,
       "twitter_handle": "fumblefamilyapp",
       "reviewed_at": "2026-09-30T03:14:54.643Z"
+    },
+    {
+      "name": "NeuraPad",
+      "ticker": "NEURA",
+      "mint": "7e9fBURr4SScS8JXSCzKQ7YvhhdFFEBQoJwkEhqnpump",
+      "quality_score": 3,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "Launch Solana token with attached AI model for autonomous decision-making",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "AI execution scope unclear (what actions does it propose?)",
+        "token + AI model pairings emerging elsewhere",
+        "mostly UI wrapper around Hugging Face deployment"
+      ],
+      "one_line_pitch": "Solana token launchpad with pluggable AI model",
+      "website_url": "https://t.co/WIUvVnQ9dZ",
+      "twitter_handle": "neuralaunchpad",
+      "reviewed_at": "2026-10-06T05:00:45.499Z"
+    },
+    {
+      "name": "Ark",
+      "ticker": "Ark",
+      "mint": "CpCeYbZAk2aLPRGhm75ZQtLbYJdSFnnz2ssLGKpvpump",
+      "quality_score": 3,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "Pairs pump.fun coins with GitHub projects, tracks activity metrics",
+      "uniqueness": "novel",
+      "red_flags": [
+        "vague on what 'feeds ecosystem vault' means",
+        "reads like leaderboard/discovery, not capital layer",
+        "oversells mechanism as innovation"
+      ],
+      "one_line_pitch": "GitHub project + coin pairing leaderboard",
+      "website_url": "https://arklaunchpad.xyz/",
+      "twitter_handle": "arkpadxyz",
+      "reviewed_at": "2026-10-06T05:00:45.498Z"
     },
     {
       "name": "Snarepad.fun",
