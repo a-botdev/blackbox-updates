@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T21:47:18.542Z",
+  "generated_at": "2026-10-06T21:58:01.082Z",
   "note": "Quality-reviewed tech coins: passed a local coarse filter (qwen2.5:3b) then a real judgment pass (Haiku) confirming is_real_tech=true. new_idea_suggestions are Haiku-generated, informed by these patterns but NOT copies -- creative seeds for further review, not trading signals.",
   "quality_tech_coins": [
     {
@@ -5494,6 +5494,25 @@
       "website_url": "https://rippers.fun/",
       "twitter_handle": "rippersdotfun",
       "reviewed_at": "2026-10-03T13:13:07.851Z"
+    },
+    {
+      "name": "Agent Dood",
+      "ticker": "DOOD",
+      "mint": "APmnnWhuLNH81dfevMz8k1fQKNTdR3YG5pyfVZfUpump",
+      "quality_score": 6,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "AI agent generates art from real-time chat input, auto-launches coins on-chain.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "Token utility/earning mechanism not explained",
+        "Sustainability/monetization model unclear",
+        "Chat-to-coin pipeline may be pure meme utility"
+      ],
+      "one_line_pitch": "Real-time AI art agent, reads chat, auto-launches coins.",
+      "website_url": "https://www.agent-dood.fun/",
+      "twitter_handle": "agentdoodfun",
+      "reviewed_at": "2026-10-06T21:57:58.507Z"
     },
     {
       "name": "bail",
@@ -19090,6 +19109,27 @@
       "reviewed_at": "2026-09-30T03:13:31.131Z"
     },
     {
+      "name": "Idlo",
+      "ticker": "IDLO",
+      "mint": "0xec543e7037bf3cc57bbf0b9ad2864b2526ad227b",
+      "quality_score": 4,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Users run AI models from browser tabs, serve inference to developers/agents, earn stablecoin rewards on Robinhood Chain.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "Vague 'open a tab' technical description",
+        "No distributed-inference architecture details",
+        "No payment flow or frequency specified",
+        "Unvalidated demand from 'developers and agents'",
+        "Browser compute serving has hard latency/reliability constraints unaddressed"
+      ],
+      "one_line_pitch": "Browser-based distributed AI inference platform, users earn stablecoin for serving models on Robinhood Chain.",
+      "website_url": "https://www.useidlo.dev",
+      "twitter_handle": "useidlo",
+      "reviewed_at": "2026-10-06T21:56:52.828Z"
+    },
+    {
       "name": "ᚱoko Network",
       "ticker": "ROKO",
       "mint": "0x3cf56cbd24c58af6efe6589bd4b664dc1dac87db",
@@ -30873,6 +30913,146 @@
     }
   ],
   "low_quality_tech_coins": [
+    {
+      "name": "CATCRAFT",
+      "ticker": "CATCRAFT",
+      "mint": "5dDHRX7aVXf3tFyGNPjDj5oUkqAtpNKedG4vTuJMpump",
+      "quality_score": 2,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "SOLANA",
+      "mechanism_summary": "Minecraft-like world built from cat-head blocks; token utility undefined.",
+      "red_flags": [
+        "No token utility mechanism",
+        "Cat blocks are pure cosmetic theming",
+        "No gameplay differentiation explained",
+        "Website is theming, not mechanics"
+      ],
+      "one_line_pitch": "Minecraft clone with cat blocks, no token use.",
+      "website_url": "https://catcraft.site",
+      "twitter_handle": "playcatcraft",
+      "reviewed_at": "2026-10-06T21:57:58.513Z"
+    },
+    {
+      "name": "Loot Cat",
+      "ticker": "LCAT",
+      "mint": "5QnZXwz2GoijBLE6tA5qw56VCiSuXKFPqwV1Ux9cCwxR",
+      "quality_score": 1,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "SOLANA",
+      "mechanism_summary": "Claimed pairing to Disney+ with no mechanism specified.",
+      "red_flags": [
+        "Not a pump.fun token (no 'pump' suffix)",
+        "No mechanism explained",
+        "Disney+ connection undefined",
+        "No product or use case"
+      ],
+      "one_line_pitch": "Disney+-paired token, no explained mechanism or use.",
+      "website_url": "https://loot.family/token/5QnZXwz2GoijBLE6tA5qw56VCiSuXKFPqwV1Ux9cCwxR",
+      "twitter_handle": null,
+      "reviewed_at": "2026-10-06T21:57:58.511Z"
+    },
+    {
+      "name": "V-Bucks",
+      "ticker": "VBUCKS",
+      "mint": "3AeT8zcP75btKBRPXFcLzkQc35HZsx2QxV6xEphia9fV",
+      "quality_score": 1,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "SOLANA",
+      "mechanism_summary": "Claimed pairing to Xbox with no mechanism specified.",
+      "red_flags": [
+        "Not a pump.fun token (no 'pump' suffix)",
+        "No mechanism explained",
+        "Xbox connection undefined",
+        "Ticker 'VBUCKS' hijacks Fortnite brand"
+      ],
+      "one_line_pitch": "Xbox-paired token, no explained mechanism or use.",
+      "website_url": "https://loot.family/token/3AeT8zcP75btKBRPXFcLzkQc35HZsx2QxV6xEphia9fV",
+      "twitter_handle": null,
+      "reviewed_at": "2026-10-06T21:57:58.510Z"
+    },
+    {
+      "name": "Pilot Pad",
+      "ticker": "PILOT",
+      "mint": "0x07ac60e6fccb43be9a9c0577f3e467e4a2e0a9a4",
+      "quality_score": 2,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Project analysis tool studying narrative, brand, competitors, and market.",
+      "red_flags": [
+        "Not a Solana token (Ethereum address format)",
+        "No working product",
+        "Generic consulting-speak, no differentiation",
+        "Token role unexplained"
+      ],
+      "one_line_pitch": "Generic project analysis tool, no product or token mechanic.",
+      "website_url": "https://www.pilotpad.tech",
+      "twitter_handle": "pilotpad",
+      "reviewed_at": "2026-10-06T21:57:58.508Z"
+    },
+    {
+      "name": "W coin",
+      "ticker": "W",
+      "mint": "4dD1VzkjHMKTa3sFPkB6jYfM8SfWgC97m7iQY4dzpump",
+      "quality_score": 1,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "SOLANA",
+      "mechanism_summary": "Claimed pairing to Twitch with no mechanism specified.",
+      "red_flags": [
+        "No mechanism explained",
+        "Twitch connection undefined",
+        "One-word ticker, minimal description",
+        "No product or use case"
+      ],
+      "one_line_pitch": "Twitch-paired token, no explained mechanism or use.",
+      "website_url": "https://loot.family/token/6wj8ndCEfQuhcZBG9skku7BU3FZKZiqn1YWnbGGeN3CJ",
+      "twitter_handle": "hiruzenaio",
+      "reviewed_at": "2026-10-06T21:57:58.506Z"
+    },
+    {
+      "name": "Nessie Optimizer",
+      "ticker": "NESSIE",
+      "mint": "6PQoa5rPEexTGWHK2WWj9KtsMFg8grzYvszv2Dbipump",
+      "quality_score": 2,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "SOLANA",
+      "mechanism_summary": "Gaming optimizer with anti-cheat detection; token role completely undefined.",
+      "red_flags": [
+        "No token mechanism explained",
+        "Product disconnected from coin",
+        "Access-control paywall suggests beta, not launch",
+        "Gaming tool has no coin utility"
+      ],
+      "one_line_pitch": "Gaming optimizer tool; token purpose completely undefined.",
+      "website_url": "https://nessie.gg/",
+      "twitter_handle": "lvckuwu",
+      "reviewed_at": "2026-10-06T21:57:58.504Z"
+    },
+    {
+      "name": "UseSift",
+      "ticker": "SIFT",
+      "mint": "CSj9aGuMPhj1QttzHZgDdxJ8RRtLvutMdhghjcr1pump",
+      "quality_score": 2,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "SOLANA",
+      "mechanism_summary": "Browser extension claiming to analyze investment theses using Claude AI.",
+      "red_flags": [
+        "Rides Claude brand without clear legitimacy",
+        "No working product shown",
+        "Vague mechanism",
+        "Built for Fomo Family suggests meme utility, not product"
+      ],
+      "one_line_pitch": "Claude-branded thesis analyzer, unverified product.",
+      "website_url": "https://usesift.tech/",
+      "twitter_handle": "usesiftapp",
+      "reviewed_at": "2026-10-06T21:57:58.470Z"
+    },
     {
       "name": "streamoors",
       "ticker": "STREAMOORS",
