@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T06:01:22.124Z",
+  "generated_at": "2026-10-06T06:16:36.089Z",
   "note": "Quality-reviewed tech coins: passed a local coarse filter (qwen2.5:3b) then a real judgment pass (Haiku) confirming is_real_tech=true. new_idea_suggestions are Haiku-generated, informed by these patterns but NOT copies -- creative seeds for further review, not trading signals.",
   "quality_tech_coins": [
     {
@@ -505,6 +505,44 @@
       "website_url": "http://dotnet.land",
       "twitter_handle": "dotnetfund",
       "reviewed_at": "2026-10-03T13:48:57.247Z"
+    },
+    {
+      "name": "Otsukai",
+      "ticker": "OTSU",
+      "mint": "0x9a4e3f1a9fc19ccf04b79ab7fd4c41d69f6ba84e",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Paired stock coins pool fees into redeemable purses; OTSU claims share of all purses",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "Depends on Pons coins infrastructure",
+        "Website (otsukai.dev) not verified",
+        "Complex multi-layer system unclear how it scales"
+      ],
+      "one_line_pitch": "Multi-level fee aggregation from stock-backed coins with redemption layer",
+      "website_url": "https://otsukai.dev",
+      "twitter_handle": "otsukaipay",
+      "reviewed_at": "2026-10-06T06:16:31.466Z"
+    },
+    {
+      "name": "CyberCab.City Game",
+      "ticker": "CAB",
+      "mint": "4rQXtAwM4NPgTojbS31eJqgpUKbXS9ACbGEeFUZJpump",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "Browser game where players earn $CAB, collect Infinity Stones; one player with all six can burn half treasury.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "need to verify game is actually playable (not just a landing page)",
+        "token economics vague (earnings per round unclear)",
+        "treasury-burn is game theory but relies on game adoption"
+      ],
+      "one_line_pitch": "Playable browser cab game; earn $CAB; one player can burn half treasury via Infinity Stones.",
+      "website_url": "https://cybercab.city/",
+      "twitter_handle": "all4ndev",
+      "reviewed_at": "2026-10-06T06:14:30.184Z"
     },
     {
       "name": "lint.network",
@@ -4080,6 +4118,100 @@
       "website_url": "https://rippers.fun/",
       "twitter_handle": "rippersdotfun",
       "reviewed_at": "2026-10-03T13:13:07.851Z"
+    },
+    {
+      "name": "useveil.fun",
+      "ticker": "VEIL",
+      "mint": "0x4528212530da85451cd2f2bfb24f9597896350d0",
+      "quality_score": 6,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "One-time payment addresses on Robinhood Chain; each payment routes to fresh address",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "Implementation vague ('no contract, no custody')",
+        "Depends on Orbio",
+        "No website provided"
+      ],
+      "one_line_pitch": "Privacy protocol using one-time addresses; mechanism unclear",
+      "website_url": null,
+      "twitter_handle": "useveilfun",
+      "reviewed_at": "2026-10-06T06:16:31.465Z"
+    },
+    {
+      "name": "INSTABOT",
+      "ticker": "INSTABOT",
+      "mint": "0x2f7aad7a8f83d553ca8ee484d3c2a3ce36badcaa",
+      "quality_score": 6,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Trade stock tokens via conversational interface in Instagram direct messages",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "Requires Instagram API access; unclear if obtained",
+        "No working product evidence",
+        "No website link"
+      ],
+      "one_line_pitch": "DM-based trading bot for Instagram; UX-first take on token trading",
+      "website_url": "https://instabot.trade",
+      "twitter_handle": "tryinstabot",
+      "reviewed_at": "2026-10-06T06:16:31.463Z"
+    },
+    {
+      "name": "Unihood",
+      "ticker": "UNIHOOD",
+      "mint": "0xd13f6e4c8e7ed64a1becf92442f6fe5fa5bc468b",
+      "quality_score": 6,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "DEX aggregator using Uniswap v4 hooks; allows coins to set custom price floors.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "marked experimental (not live)",
+        "Robinhood Chain is new",
+        "depends entirely on Uniswap v4 adoption"
+      ],
+      "one_line_pitch": "Experimental Uniswap v4 hook aggregator for custom token-floor pricing.",
+      "website_url": null,
+      "twitter_handle": "unihoodonrh",
+      "reviewed_at": "2026-10-06T06:14:51.292Z"
+    },
+    {
+      "name": "Beat Mira",
+      "ticker": "MIRA",
+      "mint": "0xe3a7f6a0b614ba0239c993a77fda45c2a7614da3",
+      "quality_score": 6,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Prediction game: AI agent Mira calls top token each hour; players bet & split pot.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "Robinhood Chain is new/unproven",
+        "pot funding mechanism unclear",
+        "orbiodotso dependency (same builder as FIVE)"
+      ],
+      "one_line_pitch": "Prediction game betting for/against AI agent's hourly token calls.",
+      "website_url": null,
+      "twitter_handle": "beatmirafun",
+      "reviewed_at": "2026-10-06T06:14:51.290Z"
+    },
+    {
+      "name": "DanuFi",
+      "ticker": "DanuFi",
+      "mint": "DANUPNfiygjXUzwwRGmLMNLda43xTJrJ4bLwSnSQqSPo",
+      "quality_score": 6,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "Pairs pump.fun tokens with NFT collections; trading fees fund automated floor sweeps; swept NFTs redistribute to token holders.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "no proof of working product, only landing page",
+        "'automated sweeps' claim needs verification—is the fund actually buying?"
+      ],
+      "one_line_pitch": "Token + NFT pairing; fees auto-buy NFT floor, redistribute NFTs to holders.",
+      "website_url": "https://danu.fi/",
+      "twitter_handle": "danufinance",
+      "reviewed_at": "2026-10-06T06:14:30.146Z"
     },
     {
       "name": "INSTABOT",
@@ -8967,6 +9099,46 @@
       "reviewed_at": "2026-10-03T13:48:57.246Z"
     },
     {
+      "name": "Orbio Capital",
+      "ticker": "CAPITAL",
+      "mint": "0x9cfe37d2aea365a1b9004f63e7769226284f0ee7",
+      "quality_score": 5,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "NLU agent for Robinhood stock purchases, paid in CAPITAL; one-signature claim.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "one-signature claim is dubious for multi-step crypto-to-brokerage transaction",
+        "Robinhood integration method not explained",
+        "settlement/bridge mechanism unclear",
+        "oversimplifies complex financial flows",
+        "no working product indicated"
+      ],
+      "one_line_pitch": "NLU agent for Robinhood stock purchases; tech claims don't hold up.",
+      "website_url": null,
+      "twitter_handle": "orbiocapital",
+      "reviewed_at": "2026-10-06T06:16:13.849Z"
+    },
+    {
+      "name": "everything",
+      "ticker": "everything",
+      "mint": "83U5ydr51QW22s1DeyZwuqWQP2vxfEbzufFf7LmKpump",
+      "quality_score": 5,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "Meta-protocol for launching coins with creator-configurable fee routing (holders, stocks, gifts, charity, dev); 15% burned.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "generic fee-routing mechanism (standard in DeFi)",
+        "need verification it's actually live and working",
+        "no real differentiation vs. existing yield-routing protocols"
+      ],
+      "one_line_pitch": "Coin-launch platform with customizable fee distribution (holders, stocks, charity, etc.).",
+      "website_url": "https://launcheverything.fun/",
+      "twitter_handle": "everyth1ngpad",
+      "reviewed_at": "2026-10-06T06:14:30.187Z"
+    },
+    {
       "name": "Clash of Gods",
       "ticker": "COG",
       "mint": "DurZZovcPWvp1NCgVdffPKFoSXJ7gZxWwBWLUxECpump",
@@ -13579,6 +13751,104 @@
       "reviewed_at": "2026-09-30T03:13:31.131Z"
     },
     {
+      "name": "Daemon on Orbio",
+      "ticker": "DAEMON",
+      "mint": "0xfe19dda1b7ecd67436ab182e68232abb42e0b937",
+      "quality_score": 4,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "AI agents with visual and voice avatars representing coins on-chain",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "Product function unclear beyond cosmetics",
+        "Depends on Orbio infrastructure",
+        "No standalone product website"
+      ],
+      "one_line_pitch": "AI avatars for coins; mechanism and actual use undefined",
+      "website_url": null,
+      "twitter_handle": "orbiodaemon",
+      "reviewed_at": "2026-10-06T06:16:31.462Z"
+    },
+    {
+      "name": "Seed Pay",
+      "ticker": "SEED",
+      "mint": "0xbae54dc243180788928fef9bb761b251255364e6",
+      "quality_score": 4,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Share money links—plant ETH/SEED, recipient claims when opening link.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "no website or product link provided",
+        "Robinhood Chain integration not explained",
+        "implementation details vague",
+        "no indication of live product"
+      ],
+      "one_line_pitch": "Peer-to-peer crypto gifting via shareable links, basic and unproven.",
+      "website_url": null,
+      "twitter_handle": "tryseedpay",
+      "reviewed_at": "2026-10-06T06:16:13.813Z"
+    },
+    {
+      "name": "Fantastic Five",
+      "ticker": "FIVE",
+      "mint": "0xe92730d5293438b25b8458953d957846ed11780b",
+      "quality_score": 4,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Five AI agents scout, score, call tokens hourly; $FIVE enables them.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "same builder as MIRA (orbiodotso)",
+        "mechanism nearly identical to MIRA, unclear differentiation",
+        "likely same product rebranded"
+      ],
+      "one_line_pitch": "AI agent quintet (5-pack) calling tokens on Robinhood; orbiodotso.",
+      "website_url": null,
+      "twitter_handle": "fantastic5trade",
+      "reviewed_at": "2026-10-06T06:14:51.293Z"
+    },
+    {
+      "name": "snarepad.fun",
+      "ticker": "SNARE",
+      "mint": "0xaa8c6a0c0a364b269b0d63b55d9cc365a3da8522",
+      "quality_score": 4,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Launchpad + duel PvP game; token used for entry and play.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "standard launchpad + P2E game pattern (overdone)",
+        "vague on actual duel mechanics",
+        "zero differentiation"
+      ],
+      "one_line_pitch": "Token-gated launchpad with duel game; extremely common pattern.",
+      "website_url": null,
+      "twitter_handle": "snarepadrh",
+      "reviewed_at": "2026-10-06T06:14:51.290Z"
+    },
+    {
+      "name": "Thesis Launchpad",
+      "ticker": "THESIS",
+      "mint": "TCEYWEi34Nv7rPXLwXdvPmsxhyaqUaev38PjvcPvtmj",
+      "quality_score": 4,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "Trading fees auto-buy real-asset baskets (stocks, gold, Rolexes, crypto, Polymarket bets) hourly for coin holders.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "No working product demo or proof of live basket holdings",
+        "Asset custody mechanism unexplained (how does Robinhood custody grade Pokémon?)",
+        "Purchase automation process not detailed",
+        "Likely severe regulatory/securities issues",
+        "Vaporware risk: concept-stage only"
+      ],
+      "one_line_pitch": "Launchpad where coin-trading fees auto-accumulate baskets of real-world assets for holders.",
+      "website_url": "https://thesissol.fun/",
+      "twitter_handle": "usethesissol",
+      "reviewed_at": "2026-10-06T06:13:17.783Z"
+    },
+    {
       "name": "x7",
       "ticker": "X7",
       "mint": "wk6GuxrD2ozyD2FwTcQtpJgBoDEb8pA4M8WR34kpump",
@@ -18073,6 +18343,85 @@
       "reviewed_at": "2026-09-30T03:14:54.643Z"
     },
     {
+      "name": "KABUDEX",
+      "ticker": "KABUDEX",
+      "mint": "0x2312c947d9ff6df2c930eb80ab7512459b27d934",
+      "quality_score": 3,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Marketplace for stock tokens on Robinhood Chain; fees buy and burn KABUDEX",
+      "uniqueness": "copy",
+      "red_flags": [
+        "Generic fee-burn mechanism",
+        "Marketplace functionality not described",
+        "No website/project link provided"
+      ],
+      "one_line_pitch": "Standard fee-burn token for a stock-token marketplace",
+      "website_url": "https://kabudex.app",
+      "twitter_handle": "kabudex",
+      "reviewed_at": "2026-10-06T06:16:31.436Z"
+    },
+    {
+      "name": "BLIND5",
+      "ticker": "B5",
+      "mint": "0x0c5905cddb50ffe8a37c694a45287b9da739fbad",
+      "quality_score": 3,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Users rank five unnamed assets blind, see reveal, rank again; market scores.",
+      "uniqueness": "copy",
+      "red_flags": [
+        "identical to other BLIND5 (0x4c63...) in name, ticker, description",
+        "likely a fork or scam",
+        "two different contracts for same coin",
+        "brand confusion/hijack risk"
+      ],
+      "one_line_pitch": "Duplicate BLIND5 contract; suggests fork or scam with zero differentiation.",
+      "website_url": "https://blind5.com",
+      "twitter_handle": null,
+      "reviewed_at": "2026-10-06T06:16:13.844Z"
+    },
+    {
+      "name": "BLIND5",
+      "ticker": "B5",
+      "mint": "0x4c6312d72fe8b22c9718ff89c4054f6b2ae383f9",
+      "quality_score": 3,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Users rank five unnamed assets blind, see reveal, rank again; market scores.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "unclear how token provides value or utility",
+        "game mechanism not novel",
+        "no website or product link",
+        "no working product indicated",
+        "duplicate mint exists with identical description"
+      ],
+      "one_line_pitch": "Blind asset ranking game; unclear how token creates value.",
+      "website_url": "https://blind5.com",
+      "twitter_handle": "blind5defi",
+      "reviewed_at": "2026-10-06T06:16:13.842Z"
+    },
+    {
+      "name": "LOAN",
+      "ticker": "LOAN",
+      "mint": "EvgKnpf5uQaJ3gjTUyiCzLdbDS9gB5ryf8KqhLcgpump",
+      "quality_score": 3,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "Meme token vault where hype becomes borrowable capital; fees fund reserves and buyback.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "mechanism extremely vague; no docs on how borrowing works, rate-setting, or liquidations",
+        "90% marketing narrative, 10% mechanism",
+        "unclear what 'hype' means in protocol terms"
+      ],
+      "one_line_pitch": "Vague lending protocol for meme tokens; mostly narrative, few technical details.",
+      "website_url": "https://loanmeme.io/",
+      "twitter_handle": "ioanmeme",
+      "reviewed_at": "2026-10-06T06:14:30.183Z"
+    },
+    {
       "name": "PVE",
       "ticker": "PVE",
       "mint": "EEsnm3Chr5gjsVJQw4a2nJHzXfSPXbThFtHACyhVpump",
@@ -21170,6 +21519,27 @@
       "website_url": null,
       "twitter_handle": null,
       "reviewed_at": "2026-09-30T03:12:48.536Z"
+    },
+    {
+      "name": "Cardigan",
+      "ticker": "CARDIGAN",
+      "mint": "0xdb57442881f9d678e7b02a30fbb5beffbdbf5f50",
+      "quality_score": 2,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Social token for Strat Market muse; 2% tax split to creator and treasury.",
+      "uniqueness": "copy",
+      "red_flags": [
+        "no unique mechanism—standard Strat Market feature for all muses",
+        "just a derivative asset on existing platform",
+        "relies entirely on external platform",
+        "generic creator-tax structure",
+        "token has no independent product"
+      ],
+      "one_line_pitch": "Generic social token on existing platform; standard mechanism shared by all muses.",
+      "website_url": "https://stratmarket.fun/muse/35",
+      "twitter_handle": "rhstratmarket",
+      "reviewed_at": "2026-10-06T06:16:13.847Z"
     },
     {
       "name": "orbio.agency",
