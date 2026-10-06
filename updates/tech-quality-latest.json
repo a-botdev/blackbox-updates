@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T05:33:36.357Z",
+  "generated_at": "2026-10-06T05:49:01.525Z",
   "note": "Quality-reviewed tech coins: passed a local coarse filter (qwen2.5:3b) then a real judgment pass (Haiku) confirming is_real_tech=true. new_idea_suggestions are Haiku-generated, informed by these patterns but NOT copies -- creative seeds for further review, not trading signals.",
   "quality_tech_coins": [
     {
@@ -16,6 +16,24 @@
       "website_url": "https://www.theturingtest.app/",
       "twitter_handle": "turingtestapp",
       "reviewed_at": "2026-10-04T16:43:41.798Z"
+    },
+    {
+      "name": "Detrenal",
+      "ticker": "DTRN",
+      "mint": "9oZMUQwzZqaSQCERkjeUPgMhpWhwv8W5vnoApn5Epump",
+      "quality_score": 8,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "Reads X posts to auto-create tokens and launch trading pairs",
+      "uniqueness": "novel",
+      "red_flags": [
+        "Post-parsing accuracy unverified",
+        "Spam/abuse vector if unmoderated"
+      ],
+      "one_line_pitch": "Auto-create tokens by parsing X posts for ticker/name/image",
+      "website_url": "https://detrenal.xyz/",
+      "twitter_handle": "detrenal_fun",
+      "reviewed_at": "2026-10-06T05:46:35.078Z"
     },
     {
       "name": "Castpad",
@@ -487,6 +505,24 @@
       "website_url": "http://dotnet.land",
       "twitter_handle": "dotnetfund",
       "reviewed_at": "2026-10-03T13:48:57.247Z"
+    },
+    {
+      "name": "Talis",
+      "ticker": "TALIS",
+      "mint": "0xffa7c6c597ffab14d88372eba3a1ec002b6eda02",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Structured markets for tokenized stocks: earn premium or trade upside",
+      "uniqueness": "novel",
+      "red_flags": [
+        "RH Chain adoption unverified",
+        "Need to confirm platform is live"
+      ],
+      "one_line_pitch": "Structured options market for synthetic stocks on Robinhood Chain",
+      "website_url": null,
+      "twitter_handle": "talisonrh",
+      "reviewed_at": "2026-10-06T05:46:35.070Z"
     },
     {
       "name": "imprint",
@@ -4029,6 +4065,82 @@
       "website_url": "https://rippers.fun/",
       "twitter_handle": "rippersdotfun",
       "reviewed_at": "2026-10-03T13:13:07.851Z"
+    },
+    {
+      "name": "ZOOP . FAMILY",
+      "ticker": "ZF",
+      "mint": "0x65484f3f5326532e8f5a43ba47b2bc02d47c9417",
+      "quality_score": 6,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Tokenize Zora creator profiles paired with stock tickers, launch as coins on Pons",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "integration mechanics between Zora and Pons not detailed",
+        "relies entirely on external platforms (regulatory and technical risk)",
+        "regulatory risk of tying tokens to real equity tickers"
+      ],
+      "one_line_pitch": "Creator profile tokenization paired with stock tickers on Robinhood",
+      "website_url": null,
+      "twitter_handle": "zoopdotfamily",
+      "reviewed_at": "2026-10-06T05:48:56.082Z"
+    },
+    {
+      "name": "BUY BUTTON",
+      "ticker": "BUY",
+      "mint": "0x9fefd3076b2ef923b0f0b86f27d254cdcd44be3f",
+      "quality_score": 6,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Chrome extension shows coin prices on X, enables one-tap Apple Pay purchase without wallet",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "token economics completely undefined (fee-share? governance?)",
+        "Apple Pay regulatory risk with unhosted wallets",
+        "product exists but token is vestigial"
+      ],
+      "one_line_pitch": "One-tap coin purchase button on X via Apple Pay; token role missing",
+      "website_url": null,
+      "twitter_handle": "getbuybutton",
+      "reviewed_at": "2026-10-06T05:48:56.074Z"
+    },
+    {
+      "name": "Foldbook",
+      "ticker": "FOLDBOOK",
+      "mint": "0x6ba01c65321da553472699d04453fb30598efd88",
+      "quality_score": 6,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "ETH last-man-standing game; smallest holder eliminated each round, stake split to survivors.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "No product evidence",
+        "Elimination execution model unclear",
+        "Requires continuous tracking/ordering"
+      ],
+      "one_line_pitch": "ETH elimination game where smallest holder removed each round, stake redistributed.",
+      "website_url": "https://foldbook.xyz",
+      "twitter_handle": "foldbookx",
+      "reviewed_at": "2026-10-06T05:47:44.153Z"
+    },
+    {
+      "name": "orbio.agency",
+      "ticker": "AGENCY",
+      "mint": "0x524286a3f0c86e0f44bd19c9fedef5d21e7ca0f9",
+      "quality_score": 6,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "AI agents monitor crypto metrics: new coins, curves, burns, price moves",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "'Orbio economy' undefined",
+        "'Hire' pricing/mechanics not explained",
+        "Monitoring bots are common pattern"
+      ],
+      "one_line_pitch": "AI agents for monitoring token metrics with pay-per-agent model",
+      "website_url": null,
+      "twitter_handle": "orbioagency",
+      "reviewed_at": "2026-10-06T05:46:35.079Z"
     },
     {
       "name": "X Cash-Out",
@@ -8801,6 +8913,64 @@
       "reviewed_at": "2026-10-03T13:48:57.246Z"
     },
     {
+      "name": "Cyphron",
+      "ticker": "CYPHRON",
+      "mint": "0xd9bcf159df8f084fb05c99ab15ba4b3f2b191698",
+      "quality_score": 5,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Encrypted banking for humans and AI agents with hard spend limits and x402 payments",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "encrypted amounts on public chain require ZK proofs or similar; implementation not described",
+        "x402 reference undefined (presumed privacy protocol)",
+        "no working product demo or contract shown"
+      ],
+      "one_line_pitch": "Encrypted banking for AI agents with spend limits; ZK mechanism unclear",
+      "website_url": null,
+      "twitter_handle": "cyphronbank",
+      "reviewed_at": "2026-10-06T05:48:56.081Z"
+    },
+    {
+      "name": "Nousbrain",
+      "ticker": "NOUS",
+      "mint": "CkB1QmPVdB6R52yAxxHBJheXr3MA2d53tWrJYLJtpump",
+      "quality_score": 5,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "Self-expanding network autonomously deploys tokens, powered by participation credit system.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "Cryptic/unclear phrasing",
+        "No product evidence",
+        "Neural network metaphor may be pure marketing",
+        "Description appears incomplete"
+      ],
+      "one_line_pitch": "Autonomous token deployment protocol driven by network credit generation.",
+      "website_url": "https://nouspad.tech/",
+      "twitter_handle": "nousbrainpf",
+      "reviewed_at": "2026-10-06T05:47:44.152Z"
+    },
+    {
+      "name": "Stonks2048",
+      "ticker": "Stonks",
+      "mint": "0x9a387104bafe54ba30f22f48afc5b3049c519dd8",
+      "quality_score": 5,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Play 2048 puzzle game to earn free stock token rewards",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "Play-to-earn model oversaturated",
+        "Token economics likely poor",
+        "Need to verify game is actually live"
+      ],
+      "one_line_pitch": "Play-to-earn 2048 game rewarding stock tokens on RH Chain",
+      "website_url": "https://stonks2048.xyz",
+      "twitter_handle": "stonks2048",
+      "reviewed_at": "2026-10-06T05:46:35.076Z"
+    },
+    {
       "name": "Hooked Assets",
       "ticker": "HOOKEDASSE",
       "mint": "0xe8768374dc47ee43039d158722315cd21cf3af86",
@@ -13220,6 +13390,44 @@
       "reviewed_at": "2026-09-30T03:13:31.131Z"
     },
     {
+      "name": "NIMORI",
+      "ticker": "NIMORI",
+      "mint": "0xd98692fcbaf3cdde4b96d531bf9cf9fbb292af4d",
+      "quality_score": 4,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Two-player liquidity pairing on Robinhood Chain; one provides ETH, one the token.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "Robinhood Chain unproven/early-stage",
+        "Minimal technical details provided",
+        "No working product evidence"
+      ],
+      "one_line_pitch": "Two-player ETH+token liquidity pairing on emerging Robinhood Chain.",
+      "website_url": "https://t.co/UqBkknjqTI",
+      "twitter_handle": "nimoricoop",
+      "reviewed_at": "2026-10-06T05:47:44.148Z"
+    },
+    {
+      "name": "WickHour",
+      "ticker": "WH",
+      "mint": "0x6d94594b716361057fd49361198e550ad6356277",
+      "quality_score": 4,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Options, stock tokens, RWAs with onchain market intelligence",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "'Market intelligence' left undefined",
+        "Scope too broad/unfocused",
+        "'Wixenhood' unexplained"
+      ],
+      "one_line_pitch": "Multi-product derivatives platform on RH Chain with vague intelligence layer",
+      "website_url": null,
+      "twitter_handle": "wickhour",
+      "reviewed_at": "2026-10-06T05:46:35.072Z"
+    },
+    {
       "name": "Split",
       "ticker": "SPLIT",
       "mint": "0xbd724ffd0128ca496e392246ebcd6f4887328ae7",
@@ -17537,6 +17745,26 @@
       "website_url": null,
       "twitter_handle": "fumblefamilyapp",
       "reviewed_at": "2026-09-30T03:14:54.643Z"
+    },
+    {
+      "name": "VEIL",
+      "ticker": "VEIL",
+      "mint": "0xa86a61a859b8a215116cbccfacb1ea52a5333455",
+      "quality_score": 3,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Zero-knowledge proofs encrypt on-chain balances and transfer amounts.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "Robinhood Chain unconfirmed as live public network",
+        "ZK-privacy mechanism not novel (Tornado, Monero precedent)",
+        "no contract address verification or working demo",
+        "infrastructure dependency makes deployment speculative"
+      ],
+      "one_line_pitch": "ZK-privacy layer for unconfirmed Robinhood Chain.",
+      "website_url": null,
+      "twitter_handle": "veil_protocol_",
+      "reviewed_at": "2026-10-06T05:44:57.425Z"
     },
     {
       "name": "FastRouter",
