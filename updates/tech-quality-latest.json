@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T05:49:01.525Z",
+  "generated_at": "2026-10-06T06:01:22.124Z",
   "note": "Quality-reviewed tech coins: passed a local coarse filter (qwen2.5:3b) then a real judgment pass (Haiku) confirming is_real_tech=true. new_idea_suggestions are Haiku-generated, informed by these patterns but NOT copies -- creative seeds for further review, not trading signals.",
   "quality_tech_coins": [
     {
@@ -505,6 +505,21 @@
       "website_url": "http://dotnet.land",
       "twitter_handle": "dotnetfund",
       "reviewed_at": "2026-10-03T13:48:57.247Z"
+    },
+    {
+      "name": "lint.network",
+      "ticker": "lint",
+      "mint": "8rMRgkLfBB3o8DWGynC2oxHnH7aNnZ1ewM63FuUnpump",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "Crowdsourced platform where hunters verify coin claims against on-chain behavior.",
+      "uniqueness": "novel",
+      "red_flags": [],
+      "one_line_pitch": "Human-verified audit service checking coin claims vs actual behavior.",
+      "website_url": "https://lint.network/",
+      "twitter_handle": "lintdotnetwork",
+      "reviewed_at": "2026-10-06T06:00:16.609Z"
     },
     {
       "name": "Talis",
@@ -4065,6 +4080,45 @@
       "website_url": "https://rippers.fun/",
       "twitter_handle": "rippersdotfun",
       "reviewed_at": "2026-10-03T13:13:07.851Z"
+    },
+    {
+      "name": "INSTABOT",
+      "ticker": "INSTABOT",
+      "mint": "0x0434c23872958ba5e1f0beab18fef36df64099d8",
+      "quality_score": 6,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Conversational trading bot embedded in Instagram DMs.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "Ethereum-style address on Solana feed",
+        "Instagram DMs do not permit financial instruments per platform ToS",
+        "No evidence of working product"
+      ],
+      "one_line_pitch": "DM-based trading bot for Instagram without terminal interface.",
+      "website_url": "https://instabot.trade",
+      "twitter_handle": "tryinstabot",
+      "reviewed_at": "2026-10-06T06:00:16.617Z"
+    },
+    {
+      "name": "Magic Internet Money",
+      "ticker": "MIM",
+      "mint": "CiCA6qkfPvqDs86SjBqHLf5EZp5uvny4sngitjyspump",
+      "quality_score": 6,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "AI agent (GPT-6.1) controls token behavior via deterministic policy engine.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "brand name collision with existing DeFi token Magic Internet Money",
+        "unclear what policy engine actually enforces in practice",
+        "high execution risk on 'AI minds' actually driving economics",
+        "early-stage platform with unproven track record"
+      ],
+      "one_line_pitch": "AI-controlled token with GPT-6.1 mind driving deterministic policy logic.",
+      "website_url": "https://www.agencypad.fun/coin/BG9i6Lf3PXU8k5e3LXgHdSLMoQNcGuJbs3Y9YpfydYRC",
+      "twitter_handle": "trenchdame",
+      "reviewed_at": "2026-10-06T05:59:00.056Z"
     },
     {
       "name": "ZOOP . FAMILY",
@@ -8913,6 +8967,141 @@
       "reviewed_at": "2026-10-03T13:48:57.246Z"
     },
     {
+      "name": "Clash of Gods",
+      "ticker": "COG",
+      "mint": "DurZZovcPWvp1NCgVdffPKFoSXJ7gZxWwBWLUxECpump",
+      "quality_score": 5,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "Browser-based 3v3 MOBA with cosmetics, seasons, leaderboards; token role unclear.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "token utility undefined (cosmetics only?)",
+        "unverified if game is fully playable or MVP",
+        "browser MOBAs with tokens are common"
+      ],
+      "one_line_pitch": "Browser MOBA with cosmetics token; unclear if game or just frontend.",
+      "website_url": "https://clashofgods.fun",
+      "twitter_handle": "playclashofgods",
+      "reviewed_at": "2026-10-06T06:01:20.144Z"
+    },
+    {
+      "name": "Expensed",
+      "ticker": "expensed",
+      "mint": "0x662159ec516461c4dc1f2d9441d4858edb335272",
+      "quality_score": 5,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Hold token to earn trading fees; redeem as gift cards in 170+ countries.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "Ethereum-format address (0x...) incompatible with Solana SPL token standard",
+        "No website or external verification",
+        "Gift card partnerships and global infrastructure completely unverified",
+        "Real-world utility claims (170+ countries) extremely difficult to implement"
+      ],
+      "one_line_pitch": "Fee-sharing token claims redemption as global gift cards.",
+      "website_url": "https://expensed.family",
+      "twitter_handle": "useexpensed",
+      "reviewed_at": "2026-10-06T06:00:20.990Z"
+    },
+    {
+      "name": "Float Protocol",
+      "ticker": "FLOAT",
+      "mint": "0xa57333e2244f33df674055e46762e7a7bca014a1",
+      "quality_score": 5,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Atomic lend-borrow-loop engine within single transaction on existing pools.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "Four identical clones with different mint addresses",
+        "Ethereum-style address on Solana feed",
+        "Duplication pattern suggests spam or mass-production"
+      ],
+      "one_line_pitch": "Leverage engine doing lend-borrow-loop atomically in one transaction.",
+      "website_url": "https://floatprotocol.app",
+      "twitter_handle": "usefloatapp",
+      "reviewed_at": "2026-10-06T06:00:16.616Z"
+    },
+    {
+      "name": "Float Protocol",
+      "ticker": "FLOAT",
+      "mint": "0xbe28203ac8ee52fe5b39ed9e7a12964407c34a9b",
+      "quality_score": 5,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Atomic lend-borrow-loop engine within single transaction on existing pools.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "Four identical clones with different mint addresses",
+        "Ethereum-style address on Solana feed",
+        "Duplication pattern suggests spam or mass-production"
+      ],
+      "one_line_pitch": "Leverage engine doing lend-borrow-loop atomically in one transaction.",
+      "website_url": "https://floatprotocol.app",
+      "twitter_handle": "usefloatapp",
+      "reviewed_at": "2026-10-06T06:00:16.614Z"
+    },
+    {
+      "name": "Float Protocol",
+      "ticker": "FLOAT",
+      "mint": "0xce84d2540587ab8f97278252dc9fab8ae2c3641d",
+      "quality_score": 5,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Atomic lend-borrow-loop engine within single transaction on existing pools.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "Four identical clones with different mint addresses",
+        "Ethereum-style address on Solana feed",
+        "Duplication pattern suggests spam or mass-production"
+      ],
+      "one_line_pitch": "Leverage engine doing lend-borrow-loop atomically in one transaction.",
+      "website_url": "https://floatprotocol.app",
+      "twitter_handle": "usefloatapp",
+      "reviewed_at": "2026-10-06T06:00:16.613Z"
+    },
+    {
+      "name": "Float Protocol",
+      "ticker": "FLOAT",
+      "mint": "0x4bb1f627342d91d09420bd35c205a52e7d568272",
+      "quality_score": 5,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Atomic lend-borrow-loop engine within single transaction on existing pools.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "Four identical clones with different mint addresses",
+        "Ethereum-style address on Solana feed",
+        "Duplication pattern suggests spam or mass-production"
+      ],
+      "one_line_pitch": "Leverage engine doing lend-borrow-loop atomically in one transaction.",
+      "website_url": "https://floatprotocol.app",
+      "twitter_handle": "usefloatapp",
+      "reviewed_at": "2026-10-06T06:00:16.611Z"
+    },
+    {
+      "name": "Dynamic Hooks",
+      "ticker": "DHOOKS",
+      "mint": "0xda39772b58b6ceb4815d6b3c21b78143374bb2e7",
+      "quality_score": 5,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Programmable on-chain market rules enforced at swap execution on Robinhood Chain.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "no verifiable product link or contract evidence",
+        "Robinhood Chain is not widely live yet",
+        "programmable hooks (Uniswap v4) already exist; chain pivot is only novelty",
+        "enforcement mechanism lacks specifics"
+      ],
+      "one_line_pitch": "Programmable market rules on Robinhood Chain; hooks concept, new chain.",
+      "website_url": "https://dynamichooks.com",
+      "twitter_handle": "dynamichooks",
+      "reviewed_at": "2026-10-06T05:57:36.396Z"
+    },
+    {
       "name": "Cyphron",
       "ticker": "CYPHRON",
       "mint": "0xd9bcf159df8f084fb05c99ab15ba4b3f2b191698",
@@ -13390,6 +13579,143 @@
       "reviewed_at": "2026-09-30T03:13:31.131Z"
     },
     {
+      "name": "x7",
+      "ticker": "X7",
+      "mint": "wk6GuxrD2ozyD2FwTcQtpJgBoDEb8pA4M8WR34kpump",
+      "quality_score": 4,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "Bonding curve liquidity, then permanent locked pool; trading fees split 70/20/10 (creator/buyback-burn/treasury).",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "standard bonding curve pattern",
+        "fee-redistribution/burn is commodity mechanism",
+        "no novel angle"
+      ],
+      "one_line_pitch": "Standard bonding curve with permanent-locked pool and fee-burn redistribution.",
+      "website_url": "https://x7pad.com/coins/CdhZy8wrRxNxoV8HtoByXKN7mvS46avtuZ1b39tKfx7",
+      "twitter_handle": null,
+      "reviewed_at": "2026-10-06T06:01:20.145Z"
+    },
+    {
+      "name": "Pledgedrop",
+      "ticker": "PLEDGEDROP",
+      "mint": "0x33a536fefb04396082e473faf2e2ba2d42e7a82c",
+      "quality_score": 4,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Timed pledge game: outbidders get refunded plus 15%; top pledge at expiry wins pot.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "No working product evident",
+        "Ethereum-format address (0x...) incompatible with Solana SPL token standard",
+        "No website or external verification",
+        "Potential attack vectors (last-second pledging exploits)"
+      ],
+      "one_line_pitch": "Timed pledge competition; top bid wins pot, outbidders refunded +15%.",
+      "website_url": "https://pledgedrop.wtf",
+      "twitter_handle": "runpledgedrop",
+      "reviewed_at": "2026-10-06T06:00:20.988Z"
+    },
+    {
+      "name": "CLIPPY",
+      "ticker": "CLIPPY",
+      "mint": "7SdACFTPLdeQtdqkcdAmG8Z2q5rN8Wr7SwvT9MB63udN",
+      "quality_score": 4,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "Claude Opus-powered deterministic policy engine controls autonomous token decisions.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "Vague policy engine description, no explanation of what it actually does",
+        "Generic AGENCY platform template applied to many coins",
+        "No token-specific functionality detailed on website",
+        "Market cap $11.9K suggests speculative early stage"
+      ],
+      "one_line_pitch": "Claude AI policy engine claims to govern autonomous token behavior.",
+      "website_url": "https://www.agencypad.fun/coin/7SdACFTPLdeQtdqkcdAmG8Z2q5rN8Wr7SwvT9MB63udN",
+      "twitter_handle": "clippyonagency",
+      "reviewed_at": "2026-10-06T06:00:20.984Z"
+    },
+    {
+      "name": "Splitpit",
+      "ticker": "SPLITPIT",
+      "mint": "0x9ce758d434743eb33860cc6bc21643866e73bc0f",
+      "quality_score": 4,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "10-minute staking game where largest stake pays 40% equally to all smaller stakes.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "No working product evident, description only",
+        "Ethereum-format address (0x...) incompatible with Solana SPL token standard",
+        "No website or external verification"
+      ],
+      "one_line_pitch": "10-minute betting game where top stake splits 40% to others.",
+      "website_url": "https://splitpit.lol",
+      "twitter_handle": "splitpitbase",
+      "reviewed_at": "2026-10-06T06:00:20.980Z"
+    },
+    {
+      "name": "Dynamic Hooks",
+      "ticker": "DHOOKS",
+      "mint": "0x5b8058dbeb89d2fef11f2e2faa807c8e5f388b4a",
+      "quality_score": 4,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Programmable market layer on Robinhood Chain with enforced swap rules.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "Robinhood Chain status unclear, not confirmed as live mainnet",
+        "Ethereum-style address on Solana/pump.fun feed"
+      ],
+      "one_line_pitch": "Programmable market layer for Robinhood Chain.",
+      "website_url": "https://dynamichooks.com",
+      "twitter_handle": "dynamichooks",
+      "reviewed_at": "2026-10-06T06:00:16.607Z"
+    },
+    {
+      "name": "Kenoma Crawford",
+      "ticker": "KENOMA",
+      "mint": "4BPsWNMfPcGciVGPcfRMzpH5Txg77UemBPiFJGsHczT8",
+      "quality_score": 4,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "AI agent (GPT-5.5) autonomously controls token behavior via policy engine.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "no independent description; identical AGENCY template as MIM coin",
+        "same platform/mechanism as Magic Internet Money (coin 6)",
+        "only differentiation is AI model version (5.5 vs 6.1)",
+        "high execution risk; no incremental innovation"
+      ],
+      "one_line_pitch": "AGENCY coin; GPT-5.5 mind; derivative of same platform.",
+      "website_url": "https://www.agencypad.fun/coin/4BPsWNMfPcGciVGPcfRMzpH5Txg77UemBPiFJGsHczT8",
+      "twitter_handle": "kenomacrawford",
+      "reviewed_at": "2026-10-06T05:59:00.058Z"
+    },
+    {
+      "name": "Plague Doctor",
+      "ticker": "PESTIS",
+      "mint": "D4ZQRcyF1cBDymQopTWFNJwmcyt2kYhzZFJCAYcr2LYJ",
+      "quality_score": 4,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "AI agent platform (AGENCY) where coins get Claude-powered agents monitoring domain data (plague outbreaks).",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "trivial LLM API wrapper; no novel AI tech",
+        "low market cap ($11.6K), appears near-dead",
+        "utility proposition is unclear: why does a token need plague tracking?",
+        "monetization model opaque; basic prompt engineering, not a product",
+        "AGENCY platform is reused across multiple coins; Plague Doctor is just theming"
+      ],
+      "one_line_pitch": "Solana token with Claude AI agent tracking plague disease (trivial LLM wrapper).",
+      "website_url": "https://www.agencypad.fun/coin/D4ZQRcyF1cBDymQopTWFNJwmcyt2kYhzZFJCAYcr2LYJ",
+      "twitter_handle": "plaguedoctorai",
+      "reviewed_at": "2026-10-06T05:57:36.398Z"
+    },
+    {
       "name": "NIMORI",
       "ticker": "NIMORI",
       "mint": "0xd98692fcbaf3cdde4b96d531bf9cf9fbb292af4d",
@@ -17747,6 +18073,49 @@
       "reviewed_at": "2026-09-30T03:14:54.643Z"
     },
     {
+      "name": "PVE",
+      "ticker": "PVE",
+      "mint": "EEsnm3Chr5gjsVJQw4a2nJHzXfSPXbThFtHACyhVpump",
+      "quality_score": 3,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "Launchpad where coins complete verified milestones to unlock treasury-funded buybacks/burns.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "zero active survivors, zero rewards verified, zero completed rewards",
+        "milestone criteria are vague and undefined",
+        "treasury funding model unclear (platform/dev funded?)",
+        "dependent on AGENCY platform for agent integration; not standalone",
+        "milestone-based token rewards already exist in other launchpads",
+        "no clear advantage over standard launchpads"
+      ],
+      "one_line_pitch": "Launchpad with milestone-based treasury rewards (zero live usage).",
+      "website_url": "https://trypve.fun/",
+      "twitter_handle": "trypvedotfun",
+      "reviewed_at": "2026-10-06T05:57:36.402Z"
+    },
+    {
+      "name": "TelgrammDotFun",
+      "ticker": "Telgramm",
+      "mint": "FoWCMfNgavBmWLcaSDGmm4gBPCCZrHo2uViFzGUHpump",
+      "quality_score": 3,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "Launchpad auto-creating a Telegram community for each token launch.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "not yet live: site says 'early concept, not accepting launches or trades'",
+        "auto-creating Telegram groups is a one-day API integration; not novel",
+        "Telegram communities for token projects already standard practice",
+        "trivial feature does not require a token to exist",
+        "vaporware: no product, just landing page"
+      ],
+      "one_line_pitch": "Launchpad auto-creating Telegram communities (not live, trivial feature).",
+      "website_url": "https://www.telegrammdotfun.trade/",
+      "twitter_handle": "telegrammdotfun",
+      "reviewed_at": "2026-10-06T05:57:36.400Z"
+    },
+    {
       "name": "VEIL",
       "ticker": "VEIL",
       "mint": "0xa86a61a859b8a215116cbccfacb1ea52a5333455",
@@ -20801,6 +21170,27 @@
       "website_url": null,
       "twitter_handle": null,
       "reviewed_at": "2026-09-30T03:12:48.536Z"
+    },
+    {
+      "name": "orbio.agency",
+      "ticker": "AGENCY",
+      "mint": "0x804711efe53ab9cf5c899e56c2a02b11da5ff6b3",
+      "quality_score": 2,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Five AI agents monitor pump.fun ecosystem events; pay to have one watch your coin.",
+      "uniqueness": "copy",
+      "red_flags": [
+        "no website or product link",
+        "zero competitive moat: anyone can scrape blockchain + attach LLM",
+        "AI monitoring is one-day build, commodity service",
+        "unclear monetization or why users would pay",
+        "generic 'watch your coin' is trivial compared to actual trading/risk"
+      ],
+      "one_line_pitch": "Commodity AI monitoring for pump.fun coins (zero differentiation).",
+      "website_url": null,
+      "twitter_handle": "orbioagency",
+      "reviewed_at": "2026-10-06T05:57:36.399Z"
     },
     {
       "name": "pupm",
