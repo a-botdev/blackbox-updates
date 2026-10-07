@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T12:46:53.691Z",
+  "generated_at": "2026-10-07T12:58:03.499Z",
   "note": "Quality-reviewed tech coins: passed a local coarse filter (qwen2.5:3b) then a real judgment pass (Haiku) confirming is_real_tech=true. new_idea_suggestions are Haiku-generated, informed by these patterns but NOT copies -- creative seeds for further review, not trading signals.",
   "quality_tech_coins": [
     {
@@ -6618,6 +6618,46 @@
       "website_url": "https://rippers.fun/",
       "twitter_handle": "rippersdotfun",
       "reviewed_at": "2026-10-03T13:13:07.851Z"
+    },
+    {
+      "name": "Tide",
+      "ticker": "TIDE",
+      "mint": "BFG1YFrqhMj24FCdaMZg3S76xNTpErdR3zNifDEfpump",
+      "quality_score": 6,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "Lending protocol with tiered collateral grades (LTV 90%-35%), off-chain asset bridging, stablecoin issuance.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "deployed on chain 4663 (unusual, not mainnet)",
+        "mismatch: token is Solana (mint ends in 'pump'), protocol appears on different chain",
+        "USDG stablecoin is unfamiliar and unverified",
+        "off-chain asset collateral creates regulatory risk"
+      ],
+      "one_line_pitch": "DeFi lending protocol with tiered collateral grades and off-chain asset bridging.",
+      "website_url": "https://tidefi.app/",
+      "twitter_handle": "tide_finance",
+      "reviewed_at": "2026-10-07T12:58:00.914Z"
+    },
+    {
+      "name": "Alter",
+      "ticker": "ALTER",
+      "mint": "0x661287cdfc833d112269455a4307ed9a3c1fde4e",
+      "quality_score": 6,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "AI generates photoreal influencers that autonomously post content promoting tokens.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "deepfake influencers raise regulatory and ethical concerns",
+        "no detail on social platforms or posting mechanism",
+        "website not provided to verify",
+        "unproven as a meaningful marketing or revenue lever"
+      ],
+      "one_line_pitch": "AI-generated influencers for token marketing on Robinhood Chain.",
+      "website_url": "https://www.usealter.app",
+      "twitter_handle": "usealterapp",
+      "reviewed_at": "2026-10-07T12:58:00.911Z"
     },
     {
       "name": "Invoice Pad",
@@ -15215,6 +15255,26 @@
       "website_url": "https://posynt.win/",
       "twitter_handle": "posynt_sol",
       "reviewed_at": "2026-10-03T13:48:57.246Z"
+    },
+    {
+      "name": "Acres Protocol",
+      "ticker": "ACR",
+      "mint": "0x936b3eee7b4e5a1c59cdc8a620495a541c8ab50a",
+      "quality_score": 5,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Bot snipes new tokens on Robinhood Chain; redistributes profits to holders.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "'snipes every token' claim is unrealistic",
+        "no profitability or sniping mechanism details",
+        "website not provided to verify",
+        "typical MEV bot + fee-share pattern"
+      ],
+      "one_line_pitch": "MEV bot that snipes RC tokens and shares profits with holders.",
+      "website_url": "https://acres.lol",
+      "twitter_handle": "acreslol",
+      "reviewed_at": "2026-10-07T12:58:00.910Z"
     },
     {
       "name": "cherryOS",
@@ -23916,6 +23976,26 @@
       "website_url": null,
       "twitter_handle": null,
       "reviewed_at": "2026-09-30T03:13:31.131Z"
+    },
+    {
+      "name": "Fizzly",
+      "ticker": "FIZZ",
+      "mint": "0xaadfaf6a7fadbf8bc364e82f078f7298bcc64500",
+      "quality_score": 4,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Launchpad on Robinhood Chain; tokens retain liquidity; trades pay fees in ETH.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "mechanism vague (bottle/fizz metaphors unclear)",
+        "no details on launchpad mechanics or liquidity model",
+        "website not provided to verify",
+        "typical fee-redistribution pattern"
+      ],
+      "one_line_pitch": "Robinhood Chain launchpad with fee redistribution to token holders.",
+      "website_url": "https://fizzly.fun",
+      "twitter_handle": "fizzlyfun",
+      "reviewed_at": "2026-10-07T12:58:00.909Z"
     },
     {
       "name": "demotape",
@@ -37460,6 +37540,85 @@
     }
   ],
   "low_quality_tech_coins": [
+    {
+      "name": "deriv",
+      "ticker": "DERIV",
+      "mint": "649xw7RyqXCYUZox7wsahJ9yqFanDDQaww16Qs5Xpump",
+      "quality_score": 0,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "SOLANA",
+      "mechanism_summary": "No description provided.",
+      "red_flags": [
+        "no description at all",
+        "no mechanism claimed",
+        "just a ticker and mint"
+      ],
+      "one_line_pitch": "Unnamed coin with no description or mechanism.",
+      "website_url": "https://derivpad.com",
+      "twitter_handle": "derivpad",
+      "reviewed_at": "2026-10-07T12:58:00.913Z"
+    },
+    {
+      "name": "GPT-6 SOL",
+      "ticker": "SOL",
+      "mint": "YWSts7yNayznN8DGzxx3bMg3nHYtRMRSm6jTzAMpump",
+      "quality_score": 0,
+      "is_real_tech": false,
+      "category": "impersonator",
+      "chain": "SOLANA",
+      "mechanism_summary": "None; hijacked model name with copied product description.",
+      "red_flags": [
+        "brand hijack — references OpenAI GPT-6 and Astra",
+        "description copied from OpenAI positioning",
+        "no original mechanism",
+        "impersonating a major brand"
+      ],
+      "one_line_pitch": "OpenAI GPT-6 brand-hijack with no original mechanism.",
+      "website_url": "https://gpt-6sol.fun",
+      "twitter_handle": "gpt6solfun",
+      "reviewed_at": "2026-10-07T12:58:00.908Z"
+    },
+    {
+      "name": "Super Model",
+      "ticker": "SM",
+      "mint": "0x151d852fe44926acc9e0fb645fd147dcc60a1240",
+      "quality_score": 2,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Offers holder rewards in NVDA; no mechanism detail.",
+      "red_flags": [
+        "vague pairing with NVDA not explained",
+        "holder rewards claim has no structural detail",
+        "mostly narrative hype, minimal mechanism",
+        "SMa coining seems forced"
+      ],
+      "one_line_pitch": "LLM-narrative coin claiming NVDA holder rewards, mechanism unclear.",
+      "website_url": null,
+      "twitter_handle": null,
+      "reviewed_at": "2026-10-07T12:58:00.906Z"
+    },
+    {
+      "name": "Google Gemini",
+      "ticker": "Gemini",
+      "mint": "4DzdxNS6uZofUUqzBtAkn2YDPkrHSyepz7EgRqVspump",
+      "quality_score": 0,
+      "is_real_tech": false,
+      "category": "impersonator",
+      "chain": "SOLANA",
+      "mechanism_summary": "None; hijacked brand with copied product description.",
+      "red_flags": [
+        "brand hijack — Google Gemini is a real product",
+        "description copied verbatim from Google marketing",
+        "no original mechanism or product",
+        "impersonating a major brand"
+      ],
+      "one_line_pitch": "Google Gemini brand-hijack with copied marketing copy.",
+      "website_url": "https://gemini.google.com/",
+      "twitter_handle": "geminiapp",
+      "reviewed_at": "2026-10-07T12:58:00.884Z"
+    },
     {
       "name": "SpaceXSI",
       "ticker": "SpaceXSI",
