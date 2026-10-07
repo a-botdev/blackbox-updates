@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T23:00:22.401Z",
+  "generated_at": "2026-10-07T23:13:04.910Z",
   "note": "Quality-reviewed tech coins: passed a local coarse filter (qwen2.5:3b) then a real judgment pass (Haiku) confirming is_real_tech=true. new_idea_suggestions are Haiku-generated, informed by these patterns but NOT copies -- creative seeds for further review, not trading signals.",
   "quality_tech_coins": [
     {
@@ -18111,6 +18111,27 @@
       "reviewed_at": "2026-10-03T13:48:57.246Z"
     },
     {
+      "name": "Vitro",
+      "ticker": "VITRO",
+      "mint": "B1qeCjCijBKnBzmnUD8pQ4E9tvJuHjbLB9yLzqQfpump",
+      "quality_score": 5,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "Deduped launchpad: free launch for devs, entrants must buy 0.5 SOL of creator token and burn it; 50/50 fee split.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "Launchpad market saturated; forced-burn entry is a minor twist",
+        "0.5 SOL burn entry fee creates friction and may be barrier to adoption",
+        "50/50 creator fee split is standard, not novel",
+        "Deduplication ('checking picture, ticker, name, story') is basic duplicate-prevention",
+        "Website simple; unclear if product is live, alpha, or planned only"
+      ],
+      "one_line_pitch": "Deduped launchpad requiring entrants to burn 0.5 SOL of creator token on join.",
+      "website_url": "https://www.vitro.fun/",
+      "twitter_handle": "vitropad",
+      "reviewed_at": "2026-10-07T23:13:02.759Z"
+    },
+    {
       "name": "Buy Button",
       "ticker": "BUTTON",
       "mint": "9zxWgnWcKFRzCQosEQ3CEMkbRFriejnhtjvpDbw7pump",
@@ -28015,6 +28036,47 @@
       "website_url": null,
       "twitter_handle": null,
       "reviewed_at": "2026-09-30T03:13:31.131Z"
+    },
+    {
+      "name": "Good Tech",
+      "ticker": "GOOD",
+      "mint": "CDxe7qVGZx9w1yJ2RsHNBMB29bAkxg6SDb4ak5nopump",
+      "quality_score": 4,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "Launchpad safety layer: public vaults, clear rules, more control for creators.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "Launchpad market saturated (Pump.fun, Magic Eden, others)",
+        "No website or live product indication",
+        "Vague what 'safety layer' specifically does",
+        "No description of vault mechanics or rule customization details"
+      ],
+      "one_line_pitch": "Token launchpad with vault-based safety and dev customization layer.",
+      "website_url": "https://goodtech.fun/",
+      "twitter_handle": "goodtechfun",
+      "reviewed_at": "2026-10-07T23:13:02.753Z"
+    },
+    {
+      "name": "Harmful Slot Machine",
+      "ticker": "HSM",
+      "mint": "2ZpcKwns3JkewgKLt4iLnCbVtD7k5XoquNBugsfVpump",
+      "quality_score": 4,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "Pixel slot machine game; leaderboard winner every 15 min takes pot share; 30% creator fee.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "No indication game is built; likely landing page only",
+        "Prize pot funding source unclear—who seeds it?",
+        "Vague description (truncated in source text)",
+        "Game coin + gambling = regulatory/TOS risk",
+        "'RUG' mention in description suggests narrative over mechanics"
+      ],
+      "one_line_pitch": "Gamified slot machine coin with 15-minute leaderboard payouts and rotating winners.",
+      "website_url": "https://harmfulslotmachine.fun",
+      "twitter_handle": "harmfulslots",
+      "reviewed_at": "2026-10-07T23:13:02.748Z"
     },
     {
       "name": "Outbidfun",
@@ -42475,6 +42537,101 @@
     }
   ],
   "low_quality_tech_coins": [
+    {
+      "name": "MASHUP GAMES",
+      "ticker": "MASHUP",
+      "mint": "9rB2YdHWFFW95wG5gFXGdjyZ4zNHnyZDnDBREBV27sKu",
+      "quality_score": 0,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "SOLANA",
+      "mechanism_summary": "No description provided; name only is 'MASHUP GAMES.'",
+      "red_flags": [
+        "Zero description—cannot evaluate any mechanism"
+      ],
+      "one_line_pitch": "Unspecified game coin; no mechanism documented.",
+      "website_url": "https://github.com/rehan-remade/universal-modder",
+      "twitter_handle": "nfadyorky",
+      "reviewed_at": "2026-10-07T23:13:02.757Z"
+    },
+    {
+      "name": "formation_so",
+      "ticker": "formation",
+      "mint": "CNXzbkr7CLGXkENbtwMopWFJ14sZtYdzsLtfm824pump",
+      "quality_score": 0,
+      "is_real_tech": false,
+      "category": "impersonator",
+      "chain": "SOLANA",
+      "mechanism_summary": "False claim that real projects Orca (DEX, $500B traded) and Loopscale (lending, $2B) merged.",
+      "red_flags": [
+        "Brand hijack: Orca is established 2021, real $500B+ DEX",
+        "Brand hijack: Loopscale is real lending protocol with $2B facilitated",
+        "False/unverified merger claim; real merger would not launch via Pump.fun",
+        "Using official @-handles to impersonate real projects"
+      ],
+      "one_line_pitch": "Impersonator coin falsely claiming Orca + Loopscale merger.",
+      "website_url": null,
+      "twitter_handle": "formation_so",
+      "reviewed_at": "2026-10-07T23:13:02.755Z"
+    },
+    {
+      "name": "Stonks 24/7",
+      "ticker": "STONKS",
+      "mint": "DxaMezwjBPktXFuesCSadCqWe37LSXaq7qytHxYmpump",
+      "quality_score": 2,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "SOLANA",
+      "mechanism_summary": "Claims 'Solana stock market open 24/7'; no mechanism details whatsoever.",
+      "red_flags": [
+        "Single vague sentence with no actual mechanism",
+        "24/7 perpetual trading is oversaturated pattern",
+        "No website, documentation, or product indication",
+        "'Stonks' is meme slang—suggests narrative over substance"
+      ],
+      "one_line_pitch": "Meme stock market coin with zero technical specification.",
+      "website_url": null,
+      "twitter_handle": "stonks_247",
+      "reviewed_at": "2026-10-07T23:13:02.751Z"
+    },
+    {
+      "name": "Quiet Cards",
+      "ticker": "QUIET",
+      "mint": "94E6fo56ER9LWdxZzreUTRfAT3EU8bobZDt7hvT2pump",
+      "quality_score": 0,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "SOLANA",
+      "mechanism_summary": "No description provided; name only is 'Quiet Cards.'",
+      "red_flags": [
+        "Zero description—cannot evaluate any mechanism"
+      ],
+      "one_line_pitch": "Unspecified card-game coin; no mechanism documented.",
+      "website_url": "https://quietcards.fun/",
+      "twitter_handle": "quietcards_",
+      "reviewed_at": "2026-10-07T23:13:02.750Z"
+    },
+    {
+      "name": "WSOS",
+      "ticker": "WSOS",
+      "mint": "LZzfqAxBTPDzZ2cQs36ZLdkY9RFQcKFkwysV7jzpump",
+      "quality_score": 1,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "SOLANA",
+      "mechanism_summary": "Claims on-chain oil tokenization with 1.3M barrels attested and Tier-1 custody; no actual protocol.",
+      "red_flags": [
+        "No possible way to secure real oil via Pump.fun launchpad",
+        "Tier-1 custody claim is implausible without major institutional backing",
+        "Coinbase integration unverified; likely false or scam frontend",
+        "Website is landing page with countdown timer, no protocol documentation",
+        "RWA tokenization is oversaturated narrative with zero credibility at this scale"
+      ],
+      "one_line_pitch": "Implausible real-world oil tokenization coin with unfounded custody claims.",
+      "website_url": "https://wsos.live/",
+      "twitter_handle": "wsostoken",
+      "reviewed_at": "2026-10-07T23:13:02.730Z"
+    },
     {
       "name": "Parallax",
       "ticker": "PRLLX",
