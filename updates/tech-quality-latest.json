@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T18:16:49.505Z",
+  "generated_at": "2026-10-07T18:28:26.881Z",
   "note": "Quality-reviewed tech coins: passed a local coarse filter (qwen2.5:3b) then a real judgment pass (Haiku) confirming is_real_tech=true. new_idea_suggestions are Haiku-generated, informed by these patterns but NOT copies -- creative seeds for further review, not trading signals.",
   "quality_tech_coins": [
     {
@@ -804,6 +804,25 @@
       "website_url": "http://dotnet.land",
       "twitter_handle": "dotnetfund",
       "reviewed_at": "2026-10-03T13:48:57.247Z"
+    },
+    {
+      "name": "X Town",
+      "ticker": "XT",
+      "mint": "28XfuWVZZN9W2hRAvY14GhwLAz3eFA3J2MiSsVgDfnky",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "Multiplayer collaborative realm-building game playable via X frame posts; persistent shared world across links.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "X frame sandbox limits (no mouse capture, no forms, no dialogs) severely constrain UX",
+        "Unclear how token economics integrate with gameplay",
+        "Frame interop on X historically fragile"
+      ],
+      "one_line_pitch": "Multiplayer cooperative world-building game embedded in X post frames.",
+      "website_url": "https://xtown.app",
+      "twitter_handle": "xtowngame",
+      "reviewed_at": "2026-10-07T18:28:20.209Z"
     },
     {
       "name": "EMBEDPAD",
@@ -7256,6 +7275,44 @@
       "website_url": "https://rippers.fun/",
       "twitter_handle": "rippersdotfun",
       "reviewed_at": "2026-10-03T13:13:07.851Z"
+    },
+    {
+      "name": "Market Maker Mike",
+      "ticker": "MIKE",
+      "mint": "C7fLsRYtVp73M8TJ6jLwRnh8FEN7KhXSbQtxPRYapump",
+      "quality_score": 6,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "Bot funded by creator fees automatically buys dips without selling at loss; throttled by hourly/daily inventory limits.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "Contract still 'waiting for the contract'—not live",
+        "No specifics on fee %, inventory size, or buyback algorithm",
+        "Classic fee-funded buyback done many times; character framing is the only novelty"
+      ],
+      "one_line_pitch": "Autonomous market-maker bot funded by creator fees; character-driven buy-wall strategy.",
+      "website_url": "https://www.mikethemaker.fun/",
+      "twitter_handle": "callmarketmike",
+      "reviewed_at": "2026-10-07T18:28:20.221Z"
+    },
+    {
+      "name": "Compute",
+      "ticker": "COMP",
+      "mint": "EJGSdb5oRxJ7FnZxPC7QVcmnz8uSxTC317cSxg47pump",
+      "quality_score": 6,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "Tokens launch backed by GPU compute pool; creator fees fund AI generation/rendering; gallery displays results.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "GPU 'backing' mechanism not clearly defined—unclear if real compute rental or cosmetic gallery",
+        "No detail on how creator fees convert to actual GPU hours",
+        "no live contract address visible"
+      ],
+      "one_line_pitch": "Solana launchpad tying token economics to pooled GPU compute and AI generation.",
+      "website_url": "https://computepad.io/",
+      "twitter_handle": "compute_gpu",
+      "reviewed_at": "2026-10-07T18:28:20.153Z"
     },
     {
       "name": "EMBEDPAD",
@@ -16776,6 +16833,58 @@
       "website_url": "https://posynt.win/",
       "twitter_handle": "posynt_sol",
       "reviewed_at": "2026-10-03T13:48:57.246Z"
+    },
+    {
+      "name": "HYPAD",
+      "ticker": "HYPAD",
+      "mint": "0x59628b9b2493e41c146f2082b5ccd014c5882f4f",
+      "quality_score": 5,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "AI tool generates 555 NFT variants from single input face image",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "no working product evidence beyond domain mention",
+        "generative AI NFT concept heavily saturated"
+      ],
+      "one_line_pitch": "Generative AI NFT variants from user portraits, Robinhood Chain.",
+      "website_url": "https://www.hypepad.family",
+      "twitter_handle": "hypadnft",
+      "reviewed_at": "2026-10-07T18:28:23.358Z"
+    },
+    {
+      "name": "Rungs",
+      "ticker": "RUNGS",
+      "mint": "0x0f2192b52043c3ccd52cd42e30c69151b69b7007",
+      "quality_score": 5,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Preset buy-limit orders execute automatically at Chainlink price levels",
+      "uniqueness": "derivative",
+      "red_flags": [],
+      "one_line_pitch": "Standard DCA ladder wrapper for Robinhood stock tokens.",
+      "website_url": null,
+      "twitter_handle": "rungs_buy",
+      "reviewed_at": "2026-10-07T18:28:23.356Z"
+    },
+    {
+      "name": "ORE Party",
+      "ticker": "ORE",
+      "mint": "F5uipvBGNEnVfxb3euvRYr7igYwhSnBMGLfMZxW38ore",
+      "quality_score": 5,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "Buy NFT shares of pooled ORE mining parties; hold for refined ORE; founders earn 0.5% on NFT burns.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "APR field shows placeholder ('currently ...')",
+        "'Refined ORE' undefined—how differs from ordinary ORE mining",
+        "Pooled mining + NFT shares + founder cuts are all standard patterns, no novel angle"
+      ],
+      "one_line_pitch": "NFT-pooled ORE mining shares with founder rewards on burns.",
+      "website_url": "https://ore.party/",
+      "twitter_handle": "oreparty",
+      "reviewed_at": "2026-10-07T18:28:20.231Z"
     },
     {
       "name": "Bullcraft",
@@ -39992,6 +40101,140 @@
     }
   ],
   "low_quality_tech_coins": [
+    {
+      "name": "Ascend Online",
+      "ticker": "ASCEND",
+      "mint": "DQVcDX8GhZTy7Ltw5kZX3ovfiocfxSyXgaTx9oHpump",
+      "quality_score": 1,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "SOLANA",
+      "mechanism_summary": "Retro MMORPG with unspecified mechanics, free-to-play, Solana token",
+      "red_flags": [
+        "no actual game mechanics or token function described",
+        "contradicts itself: claims 'no wallet needed' for Solana token",
+        "generic MMO language masks lack of real design",
+        "no product or prototype evidence"
+      ],
+      "one_line_pitch": "Game name + token name, zero crypto or game mechanism detail.",
+      "website_url": "https://ascendonline.quest/",
+      "twitter_handle": "ascendonlinex",
+      "reviewed_at": "2026-10-07T18:28:23.359Z"
+    },
+    {
+      "name": "yore",
+      "ticker": "YORE",
+      "mint": "2wCKKCrEdwDLv7SvoZDV6HieJMr73uFVAD5TdcJUpump",
+      "quality_score": 0,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "SOLANA",
+      "mechanism_summary": "No description provided",
+      "red_flags": [
+        "empty description",
+        "no mechanism, narrative, or product claim"
+      ],
+      "one_line_pitch": "Blank ticker, zero content, pure junk-filter false positive.",
+      "website_url": "https://yore.fun/",
+      "twitter_handle": "yorefun",
+      "reviewed_at": "2026-10-07T18:28:23.355Z"
+    },
+    {
+      "name": "CheapRouter",
+      "ticker": "CHEAPROUTER",
+      "mint": "0x0814cd19f3a6e593df699eb3bb2d1f247b7f4fb0",
+      "quality_score": 1,
+      "is_real_tech": false,
+      "category": "impersonator",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Claims to resell Claude/GPT models at 90% discount via API gateway",
+      "red_flags": [
+        "brand hijack risk (Claude, GPT, Anthropic/OpenAI trademarks)",
+        "implausible 90% discount claim impossible without partnerships",
+        "confuses API pricing with token denominations"
+      ],
+      "one_line_pitch": "Fake API gateway claiming unauthorized Claude/GPT resale.",
+      "website_url": null,
+      "twitter_handle": "cheaprouter_ai",
+      "reviewed_at": "2026-10-07T18:28:23.352Z"
+    },
+    {
+      "name": "HMMBOT",
+      "ticker": "HMMBOT",
+      "mint": "0x1a9c451575f2727226c8bb7a1d15d21c0f373102",
+      "quality_score": 1,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Meme: AI that thinks hard for 40 minutes, then says 'hmm'.",
+      "red_flags": [
+        "Pure meme/joke with zero actual mechanism",
+        "Mint is 0x... format (Ethereum/EVM), not Solana base58—on Robinhood Chain, but still no tech",
+        "No gameplay, no tokenomics, no product"
+      ],
+      "one_line_pitch": "Meme character that contemplates for 40 minutes then says 'hmm'.",
+      "website_url": null,
+      "twitter_handle": "hmmbotai",
+      "reviewed_at": "2026-10-07T18:28:20.247Z"
+    },
+    {
+      "name": "Pilly",
+      "ticker": "Pilly",
+      "mint": "4Fy5kKVke2UyVUFhNsvu8BoCAxgDKSdaKN7LNirE8Nue",
+      "quality_score": 0,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "SOLANA",
+      "mechanism_summary": "No description or mechanism provided.",
+      "red_flags": [
+        "Empty description field",
+        "No website, no Twitter, no mechanism at all",
+        "Slipped through as noise"
+      ],
+      "one_line_pitch": "Name only; no product or mechanism described.",
+      "website_url": "https://pillys.fun/",
+      "twitter_handle": "pillydotcom",
+      "reviewed_at": "2026-10-07T18:28:20.228Z"
+    },
+    {
+      "name": "Debunker",
+      "ticker": "DEBUNK",
+      "mint": "CZv3iHDbhbpeFkiFMipA7jojBtxh9RS3bnTwZ2NRdP6K",
+      "quality_score": 2,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "SOLANA",
+      "mechanism_summary": "Bitcoin private key solving game (Satoshi's 160 puzzles); token role entirely unclear.",
+      "red_flags": [
+        "Placeholder text ('burn to start: live at launch'—contract not live)",
+        "Extremely vague—metrics like 'keys/sec' and 'agents online' are aesthetic only",
+        "No clear tokenomics: how does $DEBUNK relate to key-solving or BTC rewards?",
+        "Board shows 160 puzzles but 0 progress; no actual gameplay visible"
+      ],
+      "one_line_pitch": "Bitcoin puzzle game site with jargon UI and no documented token utility.",
+      "website_url": "https://debunker.fun/",
+      "twitter_handle": "0xsavior",
+      "reviewed_at": "2026-10-07T18:28:20.219Z"
+    },
+    {
+      "name": "Odyssey",
+      "ticker": "Odyssey",
+      "mint": "8s1fysqs4mYYZFGU9TEqAGTRw3ki7xZN1wgiHEw7pump",
+      "quality_score": 0,
+      "is_real_tech": false,
+      "category": "impersonator",
+      "chain": "SOLANA",
+      "mechanism_summary": "Hijacks Odyssey Systems (real $310M Series B AI lab); no original mechanism.",
+      "red_flags": [
+        "Website content copied from real Odyssey Systems (odyssey.systems)",
+        "Series B funding announcement is from real company, not this coin",
+        "Brand impersonation—classic scam vector"
+      ],
+      "one_line_pitch": "Impersonation of real Odyssey Systems AI research lab; not an original project.",
+      "website_url": "https://odyssey.systems/",
+      "twitter_handle": "odysseyml",
+      "reviewed_at": "2026-10-07T18:28:20.215Z"
+    },
     {
       "name": "01100011",
       "ticker": "Codie",
