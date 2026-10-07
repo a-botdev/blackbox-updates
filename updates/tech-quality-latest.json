@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T12:29:56.340Z",
+  "generated_at": "2026-10-07T12:46:53.691Z",
   "note": "Quality-reviewed tech coins: passed a local coarse filter (qwen2.5:3b) then a real judgment pass (Haiku) confirming is_real_tech=true. new_idea_suggestions are Haiku-generated, informed by these patterns but NOT copies -- creative seeds for further review, not trading signals.",
   "quality_tech_coins": [
     {
@@ -683,6 +683,24 @@
       "reviewed_at": "2026-09-30T02:48:16.066Z"
     },
     {
+      "name": "Tensora",
+      "ticker": "TENSOR",
+      "mint": "8PvbDWu1USMHjRkPPQG7xw815SmzdeiDDtCPKoTjpump",
+      "quality_score": 7.5,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "Agent bonded to pump.fun token reads IPFS-stored mandate, makes constrained buy/sell/hold/lock decisions with spend cap.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "Mandate interpretation format not specified (natural language or structured?)",
+        "Oracle sources for agent decision-making not detailed"
+      ],
+      "one_line_pitch": "AI agent bonded to pump.fun token, governed by immutable IPFS mandate and spend cap.",
+      "website_url": "https://tensora.family/",
+      "twitter_handle": "tensora_pad",
+      "reviewed_at": "2026-10-07T12:42:51.373Z"
+    },
+    {
       "name": "ERAHS",
       "ticker": "ERAHS",
       "mint": "FRSx3FnUYuPL2CJGUX143mv6YzwGpLYJvVxNik27pump",
@@ -786,6 +804,25 @@
       "website_url": "http://dotnet.land",
       "twitter_handle": "dotnetfund",
       "reviewed_at": "2026-10-03T13:48:57.247Z"
+    },
+    {
+      "name": "yersiniapestis.xyz",
+      "ticker": "PLAGUE",
+      "mint": "0x7462bca352c78c0b5837827b0795d03510af1b9c",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Infection spreads via token transfers; 0.5-2% periodic drain per 6h epoch on infected wallets; quarantine/protection mechanics",
+      "uniqueness": "novel",
+      "red_flags": [
+        "no working product confirmation",
+        "very complex, implementation details unclear",
+        "gamified but strategic purpose muddy"
+      ],
+      "one_line_pitch": "Game-like infection mechanic spreads via token transfers, periodic wallet drains",
+      "website_url": null,
+      "twitter_handle": null,
+      "reviewed_at": "2026-10-07T12:42:37.982Z"
     },
     {
       "name": "VoicePad",
@@ -6048,6 +6085,61 @@
       "reviewed_at": "2026-09-30T02:36:44.874Z"
     },
     {
+      "name": "ZecFun",
+      "ticker": "ZECFUN",
+      "mint": "GCR3zEiGBfrMcHA5cHkedpHBiUKNQnY1WZGiX6F5pump",
+      "quality_score": 6.5,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "Anonymous pump.fun launcher routing creator fees through Zcash for privacy.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "regulatory/fraud risk",
+        "Zcash privacy not guaranteed",
+        "enables anonymous scams"
+      ],
+      "one_line_pitch": "Privacy-preserving pump.fun launcher using Zcash for anonymous fee routing.",
+      "website_url": "https://usezec.fun/",
+      "twitter_handle": "usezecfun",
+      "reviewed_at": "2026-10-07T12:44:22.470Z"
+    },
+    {
+      "name": "OFFICE",
+      "ticker": "OFFICE",
+      "mint": "0x133551b520da90458d8059344069a57a08d1f7a7",
+      "quality_score": 6.5,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Autonomous AI controls coin, earns trading-fee budget, spends on tasks/holders.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "no working product demonstrated",
+        "Pons V2 venue unclear",
+        "budget spending constraints vague"
+      ],
+      "one_line_pitch": "Autonomous AI treasury agent with coin control and autonomous fee spending.",
+      "website_url": null,
+      "twitter_handle": "rhofficeapp",
+      "reviewed_at": "2026-10-07T12:44:22.468Z"
+    },
+    {
+      "name": "IPO Pad",
+      "ticker": "IPO",
+      "mint": "2SiMF9sdDBgZgXxf8e6VVYJ63uoVEWKSgPdBbp9Upump",
+      "quality_score": 6.5,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "Pre-launch IPO: users commit, token created and bonding curve filled atomically in one tx to block snipers.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "Only 0 launched of 7 active filings (may indicate conversion issue or early stage)"
+      ],
+      "one_line_pitch": "Fair-launch IPO pad that atomically fills curve to prevent sniper front-runs.",
+      "website_url": "https://www.ipolaunch.fun",
+      "twitter_handle": "ipolaunch",
+      "reviewed_at": "2026-10-07T12:42:51.350Z"
+    },
+    {
       "name": "velkadotfun",
       "ticker": "velka",
       "mint": "FSHjHFMqhTXp8VFcYXY8BCsKDmes14cyEUsE4TT9pump",
@@ -6526,6 +6618,36 @@
       "website_url": "https://rippers.fun/",
       "twitter_handle": "rippersdotfun",
       "reviewed_at": "2026-10-03T13:13:07.851Z"
+    },
+    {
+      "name": "Invoice Pad",
+      "ticker": "INVOICE",
+      "mint": "GrCeBaxzMiLFbfLMSRZndtu2BXmsLyqe5CfxyzNopump",
+      "quality_score": 6,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "Create SOL invoices, share link for payment, track by client/project; devnet live",
+      "uniqueness": "derivative",
+      "red_flags": [],
+      "one_line_pitch": "Solana invoicing tool for freelancers with payment tracking, working product",
+      "website_url": "https://www.invoicepad.fun/",
+      "twitter_handle": "invoicepadfun",
+      "reviewed_at": "2026-10-07T12:42:37.989Z"
+    },
+    {
+      "name": "pfrok",
+      "ticker": "pfrok",
+      "mint": "7fo8WQU4AHLTD4RXqVMHjKmzZcB5fA6NAHX3eqvC2HGd",
+      "quality_score": 6,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "Pump.fun-native bot answers tagged callouts; token holder ($10+) gets Q&A, $100+ holders can launch free",
+      "uniqueness": "derivative",
+      "red_flags": [],
+      "one_line_pitch": "Pump.fun Q&A bot with token-gated access tiers, live product",
+      "website_url": "https://pfrok.bot/#feed",
+      "twitter_handle": "pfrokbot",
+      "reviewed_at": "2026-10-07T12:42:37.980Z"
     },
     {
       "name": "ReservePad",
@@ -14921,6 +15043,21 @@
       "website_url": "https://trenchdots.fun/",
       "twitter_handle": "trenchdots",
       "reviewed_at": "2026-09-30T02:32:59.230Z"
+    },
+    {
+      "name": "Legz",
+      "ticker": "Legz",
+      "mint": "DCW1d98ciCyPZ3GBsSx67neTrT1nR2eQdoEdEfhWpump",
+      "quality_score": 5.5,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "Pump.fun launchpad with paired prediction markets where users stake YES/NO on price movements (2x/5x targets).",
+      "uniqueness": "derivative",
+      "red_flags": [],
+      "one_line_pitch": "Launchpad paired with parlay-style prediction markets on coin price moves.",
+      "website_url": "https://www.legz.fun/",
+      "twitter_handle": "legzdotfun",
+      "reviewed_at": "2026-10-07T12:42:51.371Z"
     },
     {
       "name": "Fantasy Index 6900",
@@ -23779,6 +23916,25 @@
       "website_url": null,
       "twitter_handle": null,
       "reviewed_at": "2026-09-30T03:13:31.131Z"
+    },
+    {
+      "name": "demotape",
+      "ticker": "demotape",
+      "mint": "52CRfiQP8tK7ijHbDw78fXxeXgCEGoyBiZp7aioxpump",
+      "quality_score": 4,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "Fans launch coins for artists; artists claim ownership and earn trading fees.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "no working product shown",
+        "claiming/fee mechanism unclear",
+        "fan tokens well-established"
+      ],
+      "one_line_pitch": "Fan-launched artist coins with creator fee-sharing—standard social token.",
+      "website_url": "https://demotape.fun",
+      "twitter_handle": "demotapefun",
+      "reviewed_at": "2026-10-07T12:44:22.471Z"
     },
     {
       "name": "Foma",
@@ -37304,6 +37460,236 @@
     }
   ],
   "low_quality_tech_coins": [
+    {
+      "name": "SpaceXSI",
+      "ticker": "SpaceXSI",
+      "mint": "7v4Pc8rF4g4kkfDBHkjQcfisXSnqHYw5MDeVdCcepump",
+      "quality_score": 0,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "SOLANA",
+      "mechanism_summary": "Dashboard visualizing climbing pump.fun coins as rockets by market cap.",
+      "red_flags": [
+        "brand risk (SpaceX/Elon imagery)",
+        "no token mechanism",
+        "pure UI layer"
+      ],
+      "one_line_pitch": "Memecoin rocket dashboard for pump.fun—UI only, no mechanism.",
+      "website_url": "https://spacexsi.party/",
+      "twitter_handle": "sif_gov",
+      "reviewed_at": "2026-10-07T12:44:22.472Z"
+    },
+    {
+      "name": "Memetoro",
+      "ticker": "MT",
+      "mint": "0x6a3ece32557b9bc50c81ba9c3e14164f444aa930",
+      "quality_score": 1,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "AI platform for memecoin trading, 100X trades, and prediction markets.",
+      "red_flags": [
+        "vague platform description",
+        "generic platform claims",
+        "100X is hype not feature"
+      ],
+      "one_line_pitch": "Vague memecoin platform—all hype, no technical specifics.",
+      "website_url": "https://memetorocoin.site",
+      "twitter_handle": "memetorocoin",
+      "reviewed_at": "2026-10-07T12:44:22.467Z"
+    },
+    {
+      "name": "STONKTOWER",
+      "ticker": "TOWER",
+      "mint": "HEBdr22jk55fpCkR1fuDFMm8eQw1KF3xZR9cNq4jpump",
+      "quality_score": 0,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "SOLANA",
+      "mechanism_summary": "Play, earn, gamble with xStocks (no mechanism described).",
+      "red_flags": [
+        "no actual mechanism described",
+        "pure marketing language",
+        "xStocks undefined"
+      ],
+      "one_line_pitch": "Meme coin with play/earn/gamble language—no mechanism.",
+      "website_url": "https://www.stonktower.com/",
+      "twitter_handle": "stonktowers",
+      "reviewed_at": "2026-10-07T12:44:22.466Z"
+    },
+    {
+      "name": "TryLuna",
+      "ticker": "LUNA",
+      "mint": "0xbde85a8b54b1ae335e147f932340c3b279eda5bb",
+      "quality_score": 1,
+      "is_real_tech": false,
+      "category": "impersonator",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "AI-backed token launchpad on Robinhood Chain.",
+      "red_flags": [
+        "LUNA ticker hijacks known brand",
+        "not on Solana",
+        "vague AI claims"
+      ],
+      "one_line_pitch": "LUNA ticker clone claiming AI launchpad on Robinhood—brand hijack.",
+      "website_url": "https://launchonluna.site",
+      "twitter_handle": "launchonluna",
+      "reviewed_at": "2026-10-07T12:44:22.465Z"
+    },
+    {
+      "name": "Hawkus",
+      "ticker": "HAWKUS",
+      "mint": "0xca75e9cb7db902694283d92c46e7d1604cc397ec",
+      "quality_score": 2,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "AI agents research, reason, and execute trades based on market evidence.",
+      "red_flags": [
+        "extremely vague mechanism",
+        "generic AI+trading narrative",
+        "no technical specifics"
+      ],
+      "one_line_pitch": "Generic AI trading agents—vague concept, no concrete product.",
+      "website_url": null,
+      "twitter_handle": "hawkus_app",
+      "reviewed_at": "2026-10-07T12:44:22.433Z"
+    },
+    {
+      "name": "Compute",
+      "ticker": "Compute",
+      "mint": "0x158460fd2dd51590b9ac41e66111a8a82f73a58b",
+      "quality_score": 1.5,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Vague one-liner claiming 'a mind for every coin, paid by trades'; mechanism and chain unclear.",
+      "red_flags": [
+        "Mint is EVM (0x format) not Solana pubkey",
+        "No website or product",
+        "One-sentence jargon slop ('mind' and fee model undefined)",
+        "No indication of actual mechanism or chain"
+      ],
+      "one_line_pitch": "Incomprehensibly vague claim about AI 'minds' for coins.",
+      "website_url": "https://launchcompute.app",
+      "twitter_handle": "computedotapp",
+      "reviewed_at": "2026-10-07T12:42:51.372Z"
+    },
+    {
+      "name": "Acres Protocol",
+      "ticker": "ACR",
+      "mint": "0x73255dc560dd8334b967d418e4ddbc520984db80",
+      "quality_score": 2,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Claims to snipe new tokens on Robinhood Chain and redistribute profits to holders; no mechanism detail provided.",
+      "red_flags": [
+        "Mint is EVM (0x format) not Solana pubkey",
+        "No website or product",
+        "One sentence with zero technical substance",
+        "Mentions Robinhood Chain, inconsistent with pump.fun listing"
+      ],
+      "one_line_pitch": "Generic token-sniping bot with vague profit-redistribution claim.",
+      "website_url": "https://acres.lol",
+      "twitter_handle": "acreslol",
+      "reviewed_at": "2026-10-07T12:42:51.370Z"
+    },
+    {
+      "name": "Rh Officeapp",
+      "ticker": "OFFICEAPP",
+      "mint": "0x37167ff1f52c607232881449177e71bcc2262f83",
+      "quality_score": 2,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Robinhood Chain launchpad; cryptic tagline 'coins that think back' unexplained",
+      "red_flags": [
+        "nonsensical marketing copy",
+        "extremely vague",
+        "no mechanism detail"
+      ],
+      "one_line_pitch": "Robinhood Chain launchpad with mysterious 'think back' slogan",
+      "website_url": null,
+      "twitter_handle": "rhofficeapp",
+      "reviewed_at": "2026-10-07T12:42:37.988Z"
+    },
+    {
+      "name": "Proof Of Game",
+      "ticker": "PROOF",
+      "mint": "0x673053be547f1f4389641fb55c12c2794076c438",
+      "quality_score": 2,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Launchpad for Roblox games (how this works unclear; Roblox is centralized)",
+      "red_flags": [
+        "vague mechanism",
+        "unclear feasibility vs centralized Roblox platform",
+        "no product links"
+      ],
+      "one_line_pitch": "Game launchpad for Roblox, mechanism/viability unclear",
+      "website_url": null,
+      "twitter_handle": "proofofgamefun",
+      "reviewed_at": "2026-10-07T12:42:37.986Z"
+    },
+    {
+      "name": "PiNK RIBBON TRUMP",
+      "ticker": "PR TRUMP",
+      "mint": "Fp2uBBeDxAZhVHDCfvaWm7u4Sme2zZaUfH2AKF5Vpump",
+      "quality_score": 1,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "SOLANA",
+      "mechanism_summary": "(No mechanism described; brand buzzword only)",
+      "red_flags": [
+        "no product description at all",
+        "Trump + AI buzzword meme",
+        "no mechanism"
+      ],
+      "one_line_pitch": "Trump-branded AI meme with zero product",
+      "website_url": null,
+      "twitter_handle": null,
+      "reviewed_at": "2026-10-07T12:42:37.985Z"
+    },
+    {
+      "name": "Plague Desk",
+      "ticker": "PlagueDesk",
+      "mint": "6MM1McvbZHQRYNhPvPNrw5a8ki5YxMpNK1nucApzpump",
+      "quality_score": 1,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "SOLANA",
+      "mechanism_summary": "Real-world health/plague news monitoring dashboard (no blockchain mechanism)",
+      "red_flags": [
+        "not a crypto mechanism",
+        "health monitoring site repurposed as pump.fun coin",
+        "no token utility"
+      ],
+      "one_line_pitch": "Global health monitoring dashboard with zero blockchain relevance",
+      "website_url": "https://www.plaguedesk.com/",
+      "twitter_handle": "thejordanaura",
+      "reviewed_at": "2026-10-07T12:42:37.983Z"
+    },
+    {
+      "name": "POLY3 AI",
+      "ticker": "POLY3",
+      "mint": "0x591127f1dffd0f257cbaf59d40af43e6a615a907",
+      "quality_score": 3,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "AI tools for scripts/images; token-gated daily free usage tier",
+      "red_flags": [
+        "vague product description",
+        "generic freemium model with AI slapped on",
+        "no clear token utility"
+      ],
+      "one_line_pitch": "AI dashboard tool with token-gated free daily tier",
+      "website_url": null,
+      "twitter_handle": "poly3xyz",
+      "reviewed_at": "2026-10-07T12:42:37.943Z"
+    },
     {
       "name": "Spiko finance",
       "ticker": "SPIKO",
