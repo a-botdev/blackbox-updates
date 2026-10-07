@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T02:46:38.507Z",
+  "generated_at": "2026-10-07T02:58:11.419Z",
   "note": "Quality-reviewed tech coins: passed a local coarse filter (qwen2.5:3b) then a real judgment pass (Haiku) confirming is_real_tech=true. new_idea_suggestions are Haiku-generated, informed by these patterns but NOT copies -- creative seeds for further review, not trading signals.",
   "quality_tech_coins": [
     {
@@ -5720,6 +5720,24 @@
       "website_url": "https://rippers.fun/",
       "twitter_handle": "rippersdotfun",
       "reviewed_at": "2026-10-03T13:13:07.851Z"
+    },
+    {
+      "name": "Endow",
+      "ticker": "ENDW",
+      "mint": "0x869dcec7d35d8d241a306cf8f1b94f9fd787f92a",
+      "quality_score": 6,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Endowment vault on Robinhood Chain: deposits generate yield; yield auto-buys stocks.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "vault deployment status unverified",
+        "Robinhood Chain adoption unclear"
+      ],
+      "one_line_pitch": "Endowment vault that auto-invests yield into stocks.",
+      "website_url": null,
+      "twitter_handle": "endowrh",
+      "reviewed_at": "2026-10-07T02:58:08.755Z"
     },
     {
       "name": "TakeStock",
@@ -12997,6 +13015,43 @@
       "website_url": "https://posynt.win/",
       "twitter_handle": "posynt_sol",
       "reviewed_at": "2026-10-03T13:48:57.246Z"
+    },
+    {
+      "name": "SIT STAY",
+      "ticker": "STAY",
+      "mint": "0x7cb9b26481befa82ca218edea01e05cbc428ff46",
+      "quality_score": 5,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "4% trade tax distributed to holders based on hold duration, paid in QQQ.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "hold-duration formula and QQQ payout mechanics not specified",
+        "QQQ bridge/liquidity mechanism not described",
+        "standard hold-to-earn pattern with minor external-asset variation"
+      ],
+      "one_line_pitch": "Coin rewards long-term holders with QQQ from trading fees.",
+      "website_url": "https://sitstay.dog/token",
+      "twitter_handle": "sitstay_dog",
+      "reviewed_at": "2026-10-07T02:58:08.894Z"
+    },
+    {
+      "name": "Hoodbury",
+      "ticker": "HOODBURY",
+      "mint": "0x1be66350052a1d6aa25a99eb2bbee1ac9adf04ff",
+      "quality_score": 5,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Village game on Robinhood Chain: walk, build, farm, fish, launch memes with friends.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "game not yet built or demonstrated",
+        "feature list is basic, lacks technical depth"
+      ],
+      "one_line_pitch": "Village game on Robinhood Chain with integrated meme launching.",
+      "website_url": null,
+      "twitter_handle": "hoodburygame",
+      "reviewed_at": "2026-10-07T02:58:08.889Z"
     },
     {
       "name": "Nut Hoard",
@@ -33102,6 +33157,174 @@
     }
   ],
   "low_quality_tech_coins": [
+    {
+      "name": "Entourage",
+      "ticker": "ENTRGE",
+      "mint": "0x506e29582398e9a87e88f019b0cd976dd0dd4f57",
+      "quality_score": 2,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Meeting planner app (fair meeting point calculation); no blockchain mechanism.",
+      "red_flags": [
+        "pure software product, no crypto integration",
+        "no blockchain reason to be a token",
+        "appears to be product tokenization without mechanism"
+      ],
+      "one_line_pitch": "Meeting planner app repackaged as coin with no blockchain purpose.",
+      "website_url": null,
+      "twitter_handle": "entourageapp",
+      "reviewed_at": "2026-10-07T02:58:08.893Z"
+    },
+    {
+      "name": "Pidgin",
+      "ticker": "PIDGIN",
+      "mint": "0xd31f9ad6e0df433e06f60cafb1239e6a3eee077d",
+      "quality_score": 2,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Travel phrasebook app (audio phrases, point-and-show cards); no blockchain mechanism.",
+      "red_flags": [
+        "pure software product with no crypto use case",
+        "no economic model or incentive mechanism",
+        "appears to be product tokenization without reason"
+      ],
+      "one_line_pitch": "Travel phrasebook app repackaged as a coin unnecessarily.",
+      "website_url": null,
+      "twitter_handle": "pidginapp",
+      "reviewed_at": "2026-10-07T02:58:08.892Z"
+    },
+    {
+      "name": "Carbslip",
+      "ticker": "CSLP",
+      "mint": "0xb87a31cea8fb0fe9cf940d059fa46537e28919a4",
+      "quality_score": 3,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Multi-revenue token: 2% trade fee (1% burn, 1% holders), post-to-earn, partner marketplace.",
+      "red_flags": [
+        "confusing language ('slip of credit you tear')",
+        "multiple half-baked revenue streams without clear interaction",
+        "post-to-earn and partner fees vaguely described"
+      ],
+      "one_line_pitch": "Confusing multi-fee token mixing burn, holder rewards, posts, and partner access.",
+      "website_url": "https://www.carbslip.xyz",
+      "twitter_handle": "carbslip",
+      "reviewed_at": "2026-10-07T02:58:08.891Z"
+    },
+    {
+      "name": "Striker",
+      "ticker": "STRIKER",
+      "mint": "0x9779d8d2ed4822842e1ded6facadd7a811cff666",
+      "quality_score": 3,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Claims multichain execution infrastructure; no coin-specific mechanism or detail.",
+      "red_flags": [
+        "vague category name, not a coin mechanism",
+        "no specifics on what this coin does",
+        "possible impersonation of AlphaAiLabs' actual product"
+      ],
+      "one_line_pitch": "Vague multichain infrastructure claim with no specifics.",
+      "website_url": "https://striker.alphaai.markets",
+      "twitter_handle": "usestrikerbot",
+      "reviewed_at": "2026-10-07T02:58:08.888Z"
+    },
+    {
+      "name": "lily",
+      "ticker": "LILY",
+      "mint": "Hs5QhKcVhLyFT2U2MgiRQN3jw8XkUHsc2aGB3qnfpump",
+      "quality_score": 0,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "SOLANA",
+      "mechanism_summary": "No mechanism or description provided; blank coin entry.",
+      "red_flags": [
+        "no description whatsoever",
+        "no stated mechanism or narrative",
+        "completely uninformative listing"
+      ],
+      "one_line_pitch": "Unnamed pump.fun coin with zero information provided.",
+      "website_url": "https://www.lilypfp.fun/",
+      "twitter_handle": "tatortatsxd",
+      "reviewed_at": "2026-10-07T02:58:08.886Z"
+    },
+    {
+      "name": "Google Gemini",
+      "ticker": "Gemini",
+      "mint": "ARyZReBLWnCgZ2ZcnTJjk1niDTboJ1yG28AsTPoKpump",
+      "quality_score": 1,
+      "is_real_tech": false,
+      "category": "impersonator",
+      "chain": "SOLANA",
+      "mechanism_summary": "Pump.fun meme coin hijacking Google's Gemini AI product name and marketing copy.",
+      "red_flags": [
+        "brand hijack of Google's Gemini",
+        "marketing copy directly from Google's product",
+        "no original coin mechanism"
+      ],
+      "one_line_pitch": "Meme coin falsely claiming to be Google Gemini AI.",
+      "website_url": "https://gemini.google.com/app",
+      "twitter_handle": "geminiapp",
+      "reviewed_at": "2026-10-07T02:58:08.874Z"
+    },
+    {
+      "name": "Twaddle",
+      "ticker": "TWDL",
+      "mint": "0xcd8191c7b49e6ef131f188b93307afd454f68853",
+      "quality_score": 2,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Product: AI summarizes group chat threads into nightly digests; token role undefined.",
+      "red_flags": [
+        "no token mechanism described",
+        "unclear how TWDL connects to service"
+      ],
+      "one_line_pitch": "Group chat summarizer; token role undefined.",
+      "website_url": null,
+      "twitter_handle": "twaddle",
+      "reviewed_at": "2026-10-07T02:58:08.754Z"
+    },
+    {
+      "name": "Axol",
+      "ticker": "AXOL",
+      "mint": "0x77f9770c8082d0b9a41f56714adb3bdb317a46c9",
+      "quality_score": 1,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Sui token described only as designed for easy acquisition and trading.",
+      "red_flags": [
+        "no actual mechanism described",
+        "vague marketing language only"
+      ],
+      "one_line_pitch": "Sui token with generic 'easy trading' pitch.",
+      "website_url": "https://www.axolcoin.xyz",
+      "twitter_handle": "axolonsui",
+      "reviewed_at": "2026-10-07T02:58:08.753Z"
+    },
+    {
+      "name": "HOLDERS GETS ALL",
+      "ticker": "HGA",
+      "mint": "0xcd32720d81d9f0bb7c6bb075d7e6adf2293b1d9d",
+      "quality_score": 2,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Charges 2% fee on transactions; distributes 100% to token holders.",
+      "red_flags": [
+        "generic pattern repeated thousands of times",
+        "no product or team described"
+      ],
+      "one_line_pitch": "Transaction fee redistributed to holders.",
+      "website_url": null,
+      "twitter_handle": null,
+      "reviewed_at": "2026-10-07T02:58:08.720Z"
+    },
     {
       "name": "MUSE",
       "ticker": "Muse AI",
