@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T01:16:42.837Z",
+  "generated_at": "2026-10-07T01:32:18.771Z",
   "note": "Quality-reviewed tech coins: passed a local coarse filter (qwen2.5:3b) then a real judgment pass (Haiku) confirming is_real_tech=true. new_idea_suggestions are Haiku-generated, informed by these patterns but NOT copies -- creative seeds for further review, not trading signals.",
   "quality_tech_coins": [
     {
@@ -728,6 +728,26 @@
       "website_url": "http://dotnet.land",
       "twitter_handle": "dotnetfund",
       "reviewed_at": "2026-10-03T13:48:57.247Z"
+    },
+    {
+      "name": "PLUGGED",
+      "ticker": "PLUGGED",
+      "mint": "BgyfZsq6msH7xqv9ns9HoSvtQnGL4c3ed4xtcnrNpump",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "Claude MCP connector for pump.fun coin launching; token holders get 50–75% fee share from creators.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "potential brand association risk: uses Claude/Anthropic name prominently without clear partnership disclosure",
+        "unclear if Anthropic has approved or endorsed this integration",
+        "fee-sharing model sustainability untested",
+        "depends on Claude MCP stability (external API risk)"
+      ],
+      "one_line_pitch": "Claude AI connector for pump.fun launching with token-holder fee sharing.",
+      "website_url": "https://getplugged.fun/",
+      "twitter_handle": "getpluggedfun",
+      "reviewed_at": "2026-10-07T01:28:00.119Z"
     },
     {
       "name": "Fuel Launchpad",
@@ -5552,6 +5572,82 @@
       "website_url": "https://rippers.fun/",
       "twitter_handle": "rippersdotfun",
       "reviewed_at": "2026-10-03T13:13:07.851Z"
+    },
+    {
+      "name": "Dimewit",
+      "ticker": "DIME",
+      "mint": "7wVhsumogEjAE9e3C7voJsiaZ9LeguuZBJ1x9C7dgqGP",
+      "quality_score": 6,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "Pay-per-call AI API; stakers earn by selling credits below cost.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "Pricing shown ($1 + 5% fee) not clearly cheaper than Groq/OpenAI",
+        "Model details vague ('Frontier AI')",
+        "Product liveness and model quality unverified"
+      ],
+      "one_line_pitch": "AI API access with staker credit resale marketplace.",
+      "website_url": "https://dimewit.app/",
+      "twitter_handle": "dimewitapp",
+      "reviewed_at": "2026-10-07T01:30:18.831Z"
+    },
+    {
+      "name": "Temple Workshop",
+      "ticker": "Temple",
+      "mint": "39sfsVC4gGiuuB56LGd4ZSkoq4uZuWnavG5hKiuFt1Eh",
+      "quality_score": 6,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "AI-driven token managed by deterministic policy engine.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "AI policy engine internals not detailed; unclear if live",
+        "Brand-adjacent tribute (Terry Davis); sensitivity risk",
+        "Early stage; no confirmed implementation evidence"
+      ],
+      "one_line_pitch": "AI-managed coin via policy engine for retro computing.",
+      "website_url": "https://www.agencypad.fun/coin/39sfsVC4gGiuuB56LGd4ZSkoq4uZuWnavG5hKiuFt1Eh",
+      "twitter_handle": "templeonagency",
+      "reviewed_at": "2026-10-07T01:30:18.830Z"
+    },
+    {
+      "name": "INFLUENCERS",
+      "ticker": "INFLUENCER",
+      "mint": "mZcQJczRMpXGNuJYik15ATPA4zjFezRUXkLzVKPpump",
+      "quality_score": 6,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "AI-powered agent framework that auto-generates content, posts to X, and mints its own pump.fun token",
+      "uniqueness": "novel",
+      "red_flags": [
+        "0 influencers actually launched yet",
+        "0 live on X",
+        "currently a landing page only, no working product in operation"
+      ],
+      "one_line_pitch": "AI agent auto-poster with its own Solana memecoin; novel but unproven",
+      "website_url": "https://influencers.rip/",
+      "twitter_handle": "influencersrip",
+      "reviewed_at": "2026-10-07T01:29:14.862Z"
+    },
+    {
+      "name": "Clore tech",
+      "ticker": "CLORE",
+      "mint": "0x2bc4993bec50e2f2ce23ff81a38e0a04ed69f33b",
+      "quality_score": 6,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Decentralized GPU rental network for AI/ML/rendering with spot and on-demand pricing, open API.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "Ethereum-format mint (0x...) but listed as Solana/Pump.fun coin—possible data error or wrong network",
+        "GPU computing networks well-established (Render, Golem)",
+        "unclear if this is a new project or existing token rebranded"
+      ],
+      "one_line_pitch": "Tokenized GPU cloud for AI/ML/rendering rentals, infrastructure play.",
+      "website_url": null,
+      "twitter_handle": "cloretech",
+      "reviewed_at": "2026-10-07T01:28:00.111Z"
     },
     {
       "name": "PokeArb",
@@ -12460,6 +12556,117 @@
       "website_url": "https://posynt.win/",
       "twitter_handle": "posynt_sol",
       "reviewed_at": "2026-10-03T13:48:57.246Z"
+    },
+    {
+      "name": "StockOdds",
+      "ticker": "STOCKODDS",
+      "mint": "0x596551794a5bb13ea3f16faa743b4a9eee83e8f8",
+      "quality_score": 5,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Hourly prediction market on stocks/ETH with winner token burns, no admin keys",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "EVM address in Solana review—wrong chain",
+        "no admin key mechanism opaque",
+        "winner/loss economics vague"
+      ],
+      "one_line_pitch": "Hourly stock/ETH prediction market with token burn for winners",
+      "website_url": null,
+      "twitter_handle": "stock_odds",
+      "reviewed_at": "2026-10-07T01:32:15.965Z"
+    },
+    {
+      "name": "Trench Fund",
+      "ticker": "TRENCHFUND",
+      "mint": "7gQCWc4QLrUPpKfccVebTM99aozrAbJx1WSQeuVbpump",
+      "quality_score": 5,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "Fund trader accounts via evaluation; traders keep 80% of profits.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "Mirrors TradFi prop trading (Darwinex, proprietary firms)",
+        "Evaluation criteria not disclosed",
+        "Beta access via referral only; marketing-first posture"
+      ],
+      "one_line_pitch": "Solana memecoin prop trading fund with 80/20 split.",
+      "website_url": "https://trenchs.xyz",
+      "twitter_handle": "trenchfund_",
+      "reviewed_at": "2026-10-07T01:30:18.828Z"
+    },
+    {
+      "name": "TraderCraft",
+      "ticker": "TC",
+      "mint": "Fu4EuTpWYMdJv6YKbJ7FtpM76zRYS3F3HcVDvbCLpump",
+      "quality_score": 5,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "Multi-agent trading bot framework with claims to learn while trading; shows live P&L dashboard and trade history",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "$0.00 total P&L despite claiming live operation",
+        "'actively learns' claim unverified (no evidence of RL or learning mechanism)",
+        "appears to be trading dashboard UI wrapper, not novel bot architecture"
+      ],
+      "one_line_pitch": "Multi-agent trading bot dashboard claiming reinforcement learning; zero P&L suggests untested",
+      "website_url": "https://tradercraft.fun/",
+      "twitter_handle": "tradercraftfun",
+      "reviewed_at": "2026-10-07T01:29:14.865Z"
+    },
+    {
+      "name": "Trench Tok",
+      "ticker": "TT",
+      "mint": "7V7uPhGKcsQ21v43y3EZeHamXrcsS8yrShZHvZAqpump",
+      "quality_score": 5,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "Social video platform with embedded one-tap Solana memecoin trades and creator revenue share",
+      "uniqueness": "derivative",
+      "red_flags": [],
+      "one_line_pitch": "TikTok-style short-form video for shilling memecoins with embedded trading and KOL payouts",
+      "website_url": "https://www.trenchtok.com/",
+      "twitter_handle": "trench_tok",
+      "reviewed_at": "2026-10-07T01:29:14.821Z"
+    },
+    {
+      "name": "Fealty Club",
+      "ticker": "FLTYCLB",
+      "mint": "0x0d737d7ea0701f622a1fc9b8fba19f015595ee3b",
+      "quality_score": 5,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "NFT community dashboard with holder roles, raffles, XP quests, and live sale alerts; multichain.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "Ethereum-format mint (0x...) on supposed Solana list—authentication issue",
+        "NFT community tools well-established (Collab.Land, Unlock, etc.)",
+        "no differentiation from existing solutions",
+        "launched on Robinhood Pons, not pump.fun (category mismatch)"
+      ],
+      "one_line_pitch": "Multi-chain NFT community management with raffles and XP gamification.",
+      "website_url": "https://fealty.club",
+      "twitter_handle": "fealty_club",
+      "reviewed_at": "2026-10-07T01:28:00.116Z"
+    },
+    {
+      "name": "X Agent",
+      "ticker": "X",
+      "mint": "F6ZXsAeYKMmcEFSgdkynpGikbPmSZfScWio3BmCSpump",
+      "quality_score": 5,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "Twitter-native coin launcher: tag @xlaunchagent, bot reads tweet, mints coin, executes buybacks/burns/airdrops.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "no working product proof, website copy only",
+        "competitive market with many existing launchers",
+        "execution details vague (contract safety, transaction ordering)"
+      ],
+      "one_line_pitch": "Launch pump.fun coins by tweeting; agent handles minting and ongoing actions.",
+      "website_url": "https://www.x-launch.app/",
+      "twitter_handle": "xlaunchagent",
+      "reviewed_at": "2026-10-07T01:28:00.064Z"
     },
     {
       "name": "UseShares",
@@ -19444,6 +19651,78 @@
       "reviewed_at": "2026-09-30T03:13:31.131Z"
     },
     {
+      "name": "Ondexa",
+      "ticker": "ODX",
+      "mint": "0x00653fd06bb03819135e8fc033c2014b15b3bed2",
+      "quality_score": 4,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Aggregates stock, crypto, oracle, and corporate action data in unified terminal",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "EVM address in Solana review—wrong chain",
+        "heavily derivative (DexScreener/Dune/TradingView)",
+        "no claimed differentiation"
+      ],
+      "one_line_pitch": "Multi-asset data terminal; lacks differentiation from existing platforms",
+      "website_url": "https://ondexa.xyz",
+      "twitter_handle": "ondexaxyz",
+      "reviewed_at": "2026-10-07T01:32:15.989Z"
+    },
+    {
+      "name": "Lastro",
+      "ticker": "Lastro",
+      "mint": "7ztGVDZLdoTb6fv6zZzoCX5dyXBGdPZw547nsmLGpump",
+      "quality_score": 4,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "Memecoin that stakes 80% of creator fees into Jito pool; holders earn yield and can claim or burn-exit",
+      "uniqueness": "derivative",
+      "red_flags": [],
+      "one_line_pitch": "Standard fee-redistribution memecoin with staked yield to holders",
+      "website_url": "https://lastro.fun/",
+      "twitter_handle": "lastrofun",
+      "reviewed_at": "2026-10-07T01:29:14.863Z"
+    },
+    {
+      "name": "Rounds",
+      "ticker": "ROUNDS",
+      "mint": "6HkEksx1GudZy52fUgh7J8dqhP8MxQta43QM38qrpump",
+      "quality_score": 4,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "Multi-user on-chain fund with shared treasury, NAV tracking, one-click launch and depositor fund-raising",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "CA: TBA (contract not yet deployed)",
+        "fund launchpad described but no operating example"
+      ],
+      "one_line_pitch": "DAO treasury syndication launchpad with shared NAV and one-click deployment",
+      "website_url": "https://www.rounds.fund/",
+      "twitter_handle": "roundsdotfund",
+      "reviewed_at": "2026-10-07T01:29:14.857Z"
+    },
+    {
+      "name": "Forge Launchpad",
+      "ticker": "FORGE",
+      "mint": "5k8zNxiNGufRTL5AKANzztpyRYntsD9Y2qhHMocspump",
+      "quality_score": 4,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "Creator launchpad offering modular ready-made tools: booking bot, digital store, member gating.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "generic creator toolkit positioning, heavily overlaps Framer/Webflow/Webflow-adjacent",
+        "no explanation of what makes this differentiated",
+        "launchpad + template bundling is a crowded, solved category",
+        "description cuts off mid-sentence, incomplete positioning"
+      ],
+      "one_line_pitch": "Modular template toolkit (booking, store, member gating) for creators.",
+      "website_url": "https://forgelaunch.ink",
+      "twitter_handle": "forge_launchpad",
+      "reviewed_at": "2026-10-07T01:28:00.121Z"
+    },
+    {
       "name": "ARROWFARM",
       "ticker": "ARROWFARM",
       "mint": "0x416d0c4b431cfa33b4a4974e3dfc9f5089137148",
@@ -25646,6 +25925,25 @@
       "reviewed_at": "2026-09-30T03:14:54.643Z"
     },
     {
+      "name": "BOUNTY MARKETS",
+      "ticker": "BOUNTY",
+      "mint": "DARE6FR1fGvBXa5S83x1qGcRae3WVyZvHiCUBavjGa1x",
+      "quality_score": 3,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "Bounty/task platform funded by creator fees, video proof submission for rewards",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "no working product; website says SOON",
+        "minimal implementation details",
+        "generic bounty model"
+      ],
+      "one_line_pitch": "Creator-funded bounty platform with proof-of-task video submission",
+      "website_url": "https://www.bountymarket.fun/",
+      "twitter_handle": "bountydotmarket",
+      "reviewed_at": "2026-10-07T01:32:15.984Z"
+    },
+    {
       "name": "FacePad",
       "ticker": "FACE",
       "mint": "0x5820984d28e1615df61e8a23936df69748b9b7b5",
@@ -31306,6 +31604,317 @@
     }
   ],
   "low_quality_tech_coins": [
+    {
+      "name": "Meet Dex, he's paid.",
+      "ticker": "DEX",
+      "mint": "3aqM8mkm9HbEr16NNZY2PMZLMuhtTMzDnqPhSV8PyevU",
+      "quality_score": 2,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "SOLANA",
+      "mechanism_summary": "Allocates first $300 of creator fees to DexScreener listing, locked in contract",
+      "red_flags": [
+        "fee lock is trivial accounting, not a product",
+        "commitment amount tiny ($300)",
+        "dexpad launchpad dependency"
+      ],
+      "one_line_pitch": "Token locking $300 fees for DexScreener listing; no product",
+      "website_url": "https://dexpad.lol/c/3aqM8mkm9HbEr16NNZY2PMZLMuhtTMzDnqPhSV8PyevU",
+      "twitter_handle": "realdesertdoge",
+      "reviewed_at": "2026-10-07T01:32:15.990Z"
+    },
+    {
+      "name": "Pokemon Arena",
+      "ticker": "ARENA",
+      "mint": "DWtXxK3eLnMEsApCPCjaumZAZiX8W9uvcUkZAdTepump",
+      "quality_score": 0,
+      "is_real_tech": false,
+      "category": "impersonator",
+      "chain": "SOLANA",
+      "mechanism_summary": "None—brand name only",
+      "red_flags": [
+        "Pokemon brand without mechanism or description",
+        "likely unauthorized brand use",
+        "no product"
+      ],
+      "one_line_pitch": "Pokemon-branded token with no mechanism; brand hijack",
+      "website_url": "https://x.com/retro_dodo/status/2107095574302376068",
+      "twitter_handle": "nigeloooooo",
+      "reviewed_at": "2026-10-07T01:32:15.989Z"
+    },
+    {
+      "name": "GOIF",
+      "ticker": "GOIF",
+      "mint": "WghDr5hCY1QQSxt2qiNZMWQsj4CcNy9eWYjrqP3pump",
+      "quality_score": 0,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "SOLANA",
+      "mechanism_summary": "No information provided",
+      "red_flags": [
+        "name only, zero description",
+        "no evaluable mechanism",
+        "likely filter false positive"
+      ],
+      "one_line_pitch": "Unnamed token; no mechanism or description",
+      "website_url": "https://goif.site/",
+      "twitter_handle": null,
+      "reviewed_at": "2026-10-07T01:32:15.988Z"
+    },
+    {
+      "name": "HookTube",
+      "ticker": "HOOKTUBE",
+      "mint": "DAYb2piBfsfS1sjccYkt7KrxRim6kS8exdfj4xeFpump",
+      "quality_score": 0,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "SOLANA",
+      "mechanism_summary": "Scrollable meme content feed with 'algorithmic hook' narrative only",
+      "red_flags": [
+        "no blockchain or crypto mechanism",
+        "pure marketing narrative",
+        "Instagram/TikTok clone without product"
+      ],
+      "one_line_pitch": "Meme feed website; no tech mechanism described",
+      "website_url": "https://hooktube.org",
+      "twitter_handle": "hooktubesol",
+      "reviewed_at": "2026-10-07T01:32:15.987Z"
+    },
+    {
+      "name": "AutoPatch",
+      "ticker": "AP",
+      "mint": "b75jH3oa5vMcfc96GbDCHvKdTG9hGNy56fHF4u7pump",
+      "quality_score": 2,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "SOLANA",
+      "mechanism_summary": "Trading fees fund livestream pack openings; holders get discounted access",
+      "red_flags": [
+        "entirely jargon-based (rips/packs/breaks/cheap seats)",
+        "vague on 'cheap seats' mechanic",
+        "product spec unintelligible"
+      ],
+      "one_line_pitch": "Livestream pack openings funded by fees, mechanics unclear via jargon",
+      "website_url": null,
+      "twitter_handle": null,
+      "reviewed_at": "2026-10-07T01:32:15.985Z"
+    },
+    {
+      "name": "ConConAI",
+      "ticker": "ConConAI",
+      "mint": "Bm36iVSp7eZFaYEANizENXrmciSZvjqNrP7SakZpump",
+      "quality_score": 2,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "SOLANA",
+      "mechanism_summary": "AI advisor for purchase and investment recommendations.",
+      "red_flags": [
+        "Generic LLM wrapper pattern",
+        "'Don't search. Ask' is UX claim, not a mechanism",
+        "No differentiated features from ChatGPT/Perplexity"
+      ],
+      "one_line_pitch": "LLM-based purchase advisor with token wrapper.",
+      "website_url": "https://www.conconai.com/",
+      "twitter_handle": "concon_ai",
+      "reviewed_at": "2026-10-07T01:30:18.827Z"
+    },
+    {
+      "name": "StorFree",
+      "ticker": "STOR",
+      "mint": "0xbb4d15f399b9c544ed883c11dcab5ef0a53b380f",
+      "quality_score": 1,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Decentralized file storage solution.",
+      "red_flags": [
+        "No differentiation from Arweave/IPFS/Filecoin",
+        "No product details or website",
+        "Generic claim with zero specifics"
+      ],
+      "one_line_pitch": "Unnamed decentralized file storage clone.",
+      "website_url": "https://stor.free",
+      "twitter_handle": "storfreeapp",
+      "reviewed_at": "2026-10-07T01:30:18.825Z"
+    },
+    {
+      "name": "Anyone Paid",
+      "ticker": "ANYONE",
+      "mint": "0x0b6e0f4aa9ed0ab8c220448e3f106c560ddb0ed6",
+      "quality_score": 0,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Generic payment token.",
+      "red_flags": [
+        "No differentiated mechanism",
+        "Identical to baseline blockchain use case",
+        "Pure narrative, zero product claim"
+      ],
+      "one_line_pitch": "Generic payment token with no innovation.",
+      "website_url": null,
+      "twitter_handle": "anyonepaid",
+      "reviewed_at": "2026-10-07T01:30:18.824Z"
+    },
+    {
+      "name": "PLIK",
+      "ticker": "PLIK",
+      "mint": "0xc1c1de0a669e99e0d1e381198fb17c4efd07fa3e",
+      "quality_score": 2,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Burn PLIK tokens to trigger action; unspecified stock tokens.",
+      "red_flags": [
+        "Vague slang ('hit it', 'stock tokens')",
+        "No clear cause-effect mechanism",
+        "Generic burn-and-redeem pattern"
+      ],
+      "one_line_pitch": "Burn token to access mysterious assets.",
+      "website_url": null,
+      "twitter_handle": "plikshell",
+      "reviewed_at": "2026-10-07T01:30:18.822Z"
+    },
+    {
+      "name": "Minecraft on X",
+      "ticker": "XCRAFT",
+      "mint": "0x8a06105b99b8f0ccf87f78d4a4a38fd64ed8aa83",
+      "quality_score": 1,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Claims to embed Minecraft game inside Twitter with multiplayer.",
+      "red_flags": [
+        "Minecraft brand hijack",
+        "Technically impossible claim",
+        "Skull emoji signals acknowledged absurdity"
+      ],
+      "one_line_pitch": "Fake Minecraft game on Twitter.",
+      "website_url": null,
+      "twitter_handle": "jaivinwylde",
+      "reviewed_at": "2026-10-07T01:30:18.801Z"
+    },
+    {
+      "name": "Lexplio Agent",
+      "ticker": "LEX",
+      "mint": "0x36ed0cc3df5e60463a55f6b2f8391d5e6709af67",
+      "quality_score": 0,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "AI tool for analyzing contracts and leases; not a blockchain product",
+      "red_flags": [
+        "Ethereum address (0x prefix), not a Solana address",
+        "no website or on-chain evidence provided",
+        "describes traditional TradFi/SaaS AI product, not crypto",
+        "appears completely miscategorized; not Solana or pump.fun"
+      ],
+      "one_line_pitch": "Contract analysis AI tool misclassified as Solana token",
+      "website_url": "https://lexplio.com",
+      "twitter_handle": "uselexplio",
+      "reviewed_at": "2026-10-07T01:29:14.866Z"
+    },
+    {
+      "name": "DOTF",
+      "ticker": "DOTF",
+      "mint": "ztkLqdndQbgxLD9hJjxRnq2NvjhPihrHscYqowkpump",
+      "quality_score": 1,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "SOLANA",
+      "mechanism_summary": "Narrative about 'digital oil settlement layer' backed by worldwide reserves; no actual mechanism described",
+      "red_flags": [
+        "no actual mechanism or technology described",
+        "countdown timer to Oct 21 geopolitical event (classic pump-hype tactic)",
+        "claims 'worldwide reserves' with zero evidence",
+        "structured as classic pump-and-dump hype narrative",
+        "brand risk: references real Trump/world leaders meeting for legitimacy"
+      ],
+      "one_line_pitch": "Digital oil commodity narrative with countdown hype, zero actual mechanism",
+      "website_url": "https://dotf.site/",
+      "twitter_handle": null,
+      "reviewed_at": "2026-10-07T01:29:14.861Z"
+    },
+    {
+      "name": "NightPrint",
+      "ticker": "NIGHTPRINT",
+      "mint": "0xd6e512e0922a92b98df9a85421b353082afc0aba",
+      "quality_score": 0,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Overnight equity/futures trading strategy with fixed downside protection; claims appear TradFi-focused",
+      "red_flags": [
+        "Invalid Solana address format (0x prefix is Ethereum, not Solana)",
+        "no website or on-chain evidence",
+        "describes traditional finance product, not Solana-based crypto",
+        "no crypto mechanism described"
+      ],
+      "one_line_pitch": "Traditional overnight trading strategy; incorrect blockchain address format, likely miscategorized",
+      "website_url": null,
+      "twitter_handle": "nightprintx",
+      "reviewed_at": "2026-10-07T01:29:14.859Z"
+    },
+    {
+      "name": "backers",
+      "ticker": "BACKERS",
+      "mint": "24vWkfSdkSSwXN2EjUMfRhmJE4gvG4XCbvhqB1D7P7C5",
+      "quality_score": 1,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "SOLANA",
+      "mechanism_summary": "Rulr rulebook with unspecified 8 rules; claimed to add liquidity; no actual mechanism description.",
+      "red_flags": [
+        "identical to coin #3 (duplicate entry), same unintelligible description",
+        "entire mechanism hidden behind external rulr.fun link",
+        "jargon slop with zero actionable explanation",
+        "impossible to evaluate as a distinct idea"
+      ],
+      "one_line_pitch": "Duplicate 'backers' with mysterious rulebook liquidity; mechanism unclear.",
+      "website_url": "https://rulr.fun/t/24vWkfSdkSSwXN2EjUMfRhmJE4gvG4XCbvhqB1D7P7C5",
+      "twitter_handle": "bobagencypf",
+      "reviewed_at": "2026-10-07T01:28:00.125Z"
+    },
+    {
+      "name": "dots",
+      "ticker": "DOTS",
+      "mint": "B3E8PKcEfpoRoahLdEWyf3UdQa6Gy5SZr6xAqJTspump",
+      "quality_score": 1,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "SOLANA",
+      "mechanism_summary": "Solana launchpad where coins get 'paired' with a DOT; meaning of 'paired' and 'DOT' undefined.",
+      "red_flags": [
+        "extremely vague: no explanation of what 'pairing with a DOT' means",
+        "could refer to Polkadot, an arbitrary NFT, or anything else",
+        "no working website or mechanism details",
+        "reads as one-liner placeholder, not a real product"
+      ],
+      "one_line_pitch": "Launchpad with undefined coin-pairing mechanism; too vague to evaluate.",
+      "website_url": null,
+      "twitter_handle": "trydotfun",
+      "reviewed_at": "2026-10-07T01:28:00.124Z"
+    },
+    {
+      "name": "backers",
+      "ticker": "BACKERS",
+      "mint": "FMRgEpymZ5hkjykwVm8AZfwu7hbR4kBd3RiY8S4ypump",
+      "quality_score": 1,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "SOLANA",
+      "mechanism_summary": "Rulr rulebook with unspecified 8 rules; claimed to add liquidity; no actual mechanism description.",
+      "red_flags": [
+        "unintelligible, jargon-heavy description with zero explanation",
+        "entire mechanism hidden behind external link (rulr.fun)",
+        "impossible to evaluate mechanism without leaving this context",
+        "looks like marketing buzzword soup"
+      ],
+      "one_line_pitch": "Mysterious rulebook liquidity protocol, mechanism utterly unclear.",
+      "website_url": null,
+      "twitter_handle": "bobagencypf",
+      "reviewed_at": "2026-10-07T01:28:00.113Z"
+    },
     {
       "name": "Mistral AI",
       "ticker": "Mistral AI",
