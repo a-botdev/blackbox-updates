@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T02:17:58.343Z",
+  "generated_at": "2026-10-07T02:32:56.910Z",
   "note": "Quality-reviewed tech coins: passed a local coarse filter (qwen2.5:3b) then a real judgment pass (Haiku) confirming is_real_tech=true. new_idea_suggestions are Haiku-generated, informed by these patterns but NOT copies -- creative seeds for further review, not trading signals.",
   "quality_tech_coins": [
     {
@@ -728,6 +728,25 @@
       "website_url": "http://dotnet.land",
       "twitter_handle": "dotnetfund",
       "reviewed_at": "2026-10-03T13:48:57.247Z"
+    },
+    {
+      "name": "Gridbarter",
+      "ticker": "GBRT",
+      "mint": "0xa44986ed752f94d03a6c8546259d028f367213ff",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "GPU task escrow market with provider bidding and oracle-verified execution payout.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "No working product, early concept only",
+        "GPU work verification mechanism technically non-trivial, unspecified",
+        "Centralized GPU rental (Lambda, Vast.ai) already established"
+      ],
+      "one_line_pitch": "Crypto-escrow marketplace for GPU task execution with blockchain verification.",
+      "website_url": "https://gridbarter.xyz",
+      "twitter_handle": "gridbarter",
+      "reviewed_at": "2026-10-07T02:30:12.228Z"
     },
     {
       "name": "fee.casino",
@@ -5239,6 +5258,26 @@
       "website_url": null,
       "twitter_handle": "usepaid",
       "reviewed_at": "2026-09-30T02:36:44.874Z"
+    },
+    {
+      "name": "Gridbarter",
+      "ticker": "GBRT",
+      "mint": "0xa254899eb34c587b40bee2a48b9142f747fd3830",
+      "quality_score": 6.5,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "GPU job marketplace: submit tasks with budget, providers bid, payment released after independent verification.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "No live product, early concept only",
+        "Job verification mechanism undefined (hard oracle problem)",
+        "Depends on reliable third-party job completion checks",
+        "Community token launched pre-product"
+      ],
+      "one_line_pitch": "GPU marketplace with escrow-on-verification; no live product yet.",
+      "website_url": "https://gridbarter.xyz",
+      "twitter_handle": "gridbarter",
+      "reviewed_at": "2026-10-07T02:31:37.654Z"
     },
     {
       "name": "PrimerPad",
@@ -12704,6 +12743,26 @@
       "reviewed_at": "2026-09-30T02:32:59.230Z"
     },
     {
+      "name": "ZASHPADFUN",
+      "ticker": "ZASHP",
+      "mint": "0xa4f1dde80e9fbbc1587d328c349a3fac3a6ec9a8",
+      "quality_score": 5.5,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Bridge Zcash to Robinhood Chain; provide liquidity pools and launchpad infrastructure.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "Depends on unconfirmed ZEC adoption on Robinhood",
+        "Bridge + launchpad pattern is well-established",
+        "'First' is not differentiation",
+        "ZEC roadmap unconfirmed by Zcash project"
+      ],
+      "one_line_pitch": "Zcash bridge, liquidity, and launchpad for Robinhood Chain.",
+      "website_url": "https://zashpad.fun",
+      "twitter_handle": "zashpad",
+      "reviewed_at": "2026-10-07T02:31:37.653Z"
+    },
+    {
       "name": "VynexByDepin",
       "ticker": "VYNEX",
       "mint": "0xe7fe4e256e4d9ac27a99fd4c23b0f9de723bbc9f",
@@ -12820,6 +12879,25 @@
       "website_url": "https://posynt.win/",
       "twitter_handle": "posynt_sol",
       "reviewed_at": "2026-10-03T13:48:57.246Z"
+    },
+    {
+      "name": "HYPERTERSE",
+      "ticker": "HTERSEX",
+      "mint": "0x3d4f652c4dff2242ac800537badd27dd29e9c1cb",
+      "quality_score": 5,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Framework integrating agents with MCP tools and data sources; agents discover and execute capabilities.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "MCP (Model Context Protocol) already does this",
+        "Token utility entirely unexplained",
+        "Appears to be a repackaging of existing standard"
+      ],
+      "one_line_pitch": "Agent-MCP integration framework, likely a wrapper with unclear token value.",
+      "website_url": "https://hyperterse.com",
+      "twitter_handle": "hyperterse",
+      "reviewed_at": "2026-10-07T02:30:12.256Z"
     },
     {
       "name": "Callroom",
@@ -20099,6 +20177,26 @@
       "reviewed_at": "2026-09-30T02:36:44.892Z"
     },
     {
+      "name": "Wrap",
+      "ticker": "WRAP",
+      "mint": "0x82884df759a0c8b8723603ed4cb5487180e9bb2e",
+      "quality_score": 4.5,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Wrap any assets and distribute creator fees; payment incentive for wrapped token holders.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "Asset wrapping is trivial primitive",
+        "Fee-sharing pattern is well-trodden",
+        "No differentiation vs. existing wrappers",
+        "No product evidence"
+      ],
+      "one_line_pitch": "Asset wrapping protocol with creator fee distribution.",
+      "website_url": null,
+      "twitter_handle": "wrapdotfamily",
+      "reviewed_at": "2026-10-07T02:31:37.652Z"
+    },
+    {
       "name": "Meridian",
       "ticker": "MERIDIAN",
       "mint": "0x10c02c675495d7f1133a2b05b06d6d2f3ac19536",
@@ -20270,6 +20368,45 @@
       "website_url": null,
       "twitter_handle": null,
       "reviewed_at": "2026-09-30T03:13:31.131Z"
+    },
+    {
+      "name": "ethOHM",
+      "ticker": "ETHOHM",
+      "mint": "0x9cb032d8ade698b21501f6d3e5095d30c49af71a",
+      "quality_score": 4,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Launchpad for Ohm fork tokens on Robinhood Chain with treasury-backed staking.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "minimal description",
+        "no differentiation from existing Ohm fork services",
+        "likely a wrapper or rebrand",
+        "no website or unique mechanism detail"
+      ],
+      "one_line_pitch": "Ohm fork factory on Robinhood; derivative, minimal differentiation.",
+      "website_url": "https://ethohm.app",
+      "twitter_handle": null,
+      "reviewed_at": "2026-10-07T02:32:54.653Z"
+    },
+    {
+      "name": "Luminaries",
+      "ticker": "LUMI",
+      "mint": "0x77df433150c9ec5ed17c98d0180a7cd7a5ccde77",
+      "quality_score": 4,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Sealed-bid auctions for tokenized stocks on Robinhood Chain; bids hidden until close.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "Sealed auctions are standard crypto mechanism",
+        "Tokenized stocks integration and mechanics undefined",
+        "Regulatory risk on tokenized equities not addressed"
+      ],
+      "one_line_pitch": "Sealed auctions for Robinhood-chain stock tokens.",
+      "website_url": null,
+      "twitter_handle": "luminariesrh",
+      "reviewed_at": "2026-10-07T02:30:12.250Z"
     },
     {
       "name": "Farm",
@@ -26813,6 +26950,25 @@
       "reviewed_at": "2026-09-30T03:14:54.643Z"
     },
     {
+      "name": "Orbio Money",
+      "ticker": "ORBIOMONEY",
+      "mint": "0x282beb2c7dca106f3f4b63fa117a1b92252ea6ac",
+      "quality_score": 3,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Creator receives percentage of every trade on their Pons coin; dashboard tracks payments.",
+      "uniqueness": "copy",
+      "red_flags": [
+        "Overdone creator-royalty pattern (standard in crypto)",
+        "Pons integration mechanism unclear",
+        "No technical differentiation from standard fee-splits"
+      ],
+      "one_line_pitch": "Creator royalty system tied to Pons coin trading volumes.",
+      "website_url": null,
+      "twitter_handle": "orbiomoney",
+      "reviewed_at": "2026-10-07T02:30:12.248Z"
+    },
+    {
       "name": "EightBit Capital",
       "ticker": "8BIT",
       "mint": "0x23d876c613c328694ced3c2ddcedc80718efe267",
@@ -32593,6 +32749,319 @@
     }
   ],
   "low_quality_tech_coins": [
+    {
+      "name": "Raccoon Bins",
+      "ticker": "BINDAY",
+      "mint": "0x0cd416bda65e91070cb4a225641de4bbacb8fd57",
+      "quality_score": 2,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Trash day reminder app with raccoon detection; token role undefined.",
+      "red_flags": [
+        "token mechanism completely absent",
+        "reads as a joke or unjustified tokenization",
+        "no crypto integration explained",
+        "no website or serious execution proof"
+      ],
+      "one_line_pitch": "Trash day reminder; why does it need a token?",
+      "website_url": null,
+      "twitter_handle": "raccoonlabs",
+      "reviewed_at": "2026-10-07T02:32:54.655Z"
+    },
+    {
+      "name": "ODX",
+      "ticker": "ODX",
+      "mint": "0x6cb79d8d58ede97edde62fee4eedc75fe2b53c9f",
+      "quality_score": 3,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Data and intelligence service for stock token traders on Robinhood Chain.",
+      "red_flags": [
+        "vague on how service actually works",
+        "token function completely undefined",
+        "no website, no proof",
+        "too generic, no differentiation"
+      ],
+      "one_line_pitch": "Stock token data service; token function and mechanism unclear.",
+      "website_url": "https://ondexa.xyz",
+      "twitter_handle": "ondexaxyz",
+      "reviewed_at": "2026-10-07T02:32:54.654Z"
+    },
+    {
+      "name": "The Cock",
+      "ticker": "COCK",
+      "mint": "sixh2YNAcw4ACKVvtjWHgHf1JSNMkG5amb5hqvexvFg",
+      "quality_score": 0,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "SOLANA",
+      "mechanism_summary": "No description; meme coin assumed.",
+      "red_flags": [
+        "completely empty description",
+        "no mechanism at all",
+        "pure meme coin"
+      ],
+      "one_line_pitch": "Unnamed meme coin; no description or mechanism.",
+      "website_url": "https://www.thecock.fun/",
+      "twitter_handle": "clowntrenches",
+      "reviewed_at": "2026-10-07T02:32:54.652Z"
+    },
+    {
+      "name": "Earth Coin",
+      "ticker": "EARTH",
+      "mint": "ByendyJo7xadYB2dfeqcuQebk1A7CAGchMNut85Gpump",
+      "quality_score": 1,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "SOLANA",
+      "mechanism_summary": "Duplicate EARTH coin, same vague backing narrative, different mint.",
+      "red_flags": [
+        "duplicate of another EARTH coin",
+        "identical meaningless pitch",
+        "likely a sybil/spam mint"
+      ],
+      "one_line_pitch": "Duplicate EARTH meme; no mechanism.",
+      "website_url": null,
+      "twitter_handle": "earth",
+      "reviewed_at": "2026-10-07T02:32:54.651Z"
+    },
+    {
+      "name": "Hooker",
+      "ticker": "HOOKER",
+      "mint": "0xecc7660f54aaba88b9cbe5aa6d823603035d5f6f",
+      "quality_score": 2,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Pons V2 token framework with rules; what rules or differentiation unclear.",
+      "red_flags": [
+        "one-line description, no detail",
+        "no explanation of rules or use case",
+        "no website or proof",
+        "likely a minor wrapper"
+      ],
+      "one_line_pitch": "Pons V2 token factory; mechanism entirely undefined.",
+      "website_url": "https://hooker.fun",
+      "twitter_handle": "hookerdotfun",
+      "reviewed_at": "2026-10-07T02:32:54.650Z"
+    },
+    {
+      "name": "Earth Coin",
+      "ticker": "EARTH",
+      "mint": "EwRq45FLZgYVmYFFFJSHT4MVaqPtrWKZaEyjgEqDpump",
+      "quality_score": 1,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "SOLANA",
+      "mechanism_summary": "Store wealth in a coin backed by community; no mechanism described.",
+      "red_flags": [
+        "pure narrative, no mechanism",
+        "backing model completely vague",
+        "reads as philosophy, not tech"
+      ],
+      "one_line_pitch": "Community-backed wealth storage; meaningless pitch.",
+      "website_url": null,
+      "twitter_handle": "earth",
+      "reviewed_at": "2026-10-07T02:32:54.649Z"
+    },
+    {
+      "name": "World Strategic Oil Supply",
+      "ticker": "WSOS",
+      "mint": "Ajf5gdXTYze3qJrJpvbZz3ZjnyA7JRDXZsQRpxr3pump",
+      "quality_score": 3,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "SOLANA",
+      "mechanism_summary": "Tokenize global oil supply with on-chain data and custody backing; execution undefined.",
+      "red_flags": [
+        "no technical detail on custody mechanism",
+        "no proof of barrels or verification",
+        "marketing-heavy, technically sparse",
+        "applications still in development",
+        "Tier-1 backing unverified"
+      ],
+      "one_line_pitch": "Oil tokenization claim with no mechanism detail or custody proof.",
+      "website_url": "https://wsos.live/",
+      "twitter_handle": "wsostoken",
+      "reviewed_at": "2026-10-07T02:32:54.632Z"
+    },
+    {
+      "name": "Nexion",
+      "ticker": "NEXIYX",
+      "mint": "0xfba2173ffd9c6629644cbd4929c50f7d5e691814",
+      "quality_score": 0.5,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Undefined 'connection layer' for networks, applications, and users; no mechanism specified.",
+      "red_flags": [
+        "'Connection layer' is undefined buzzword",
+        "Pure marketing narrative, no technical detail",
+        "No mechanism described whatsoever",
+        "Indistinguishable from generic 'blockchain infrastructure' coins"
+      ],
+      "one_line_pitch": "Undefined blockchain infrastructure 'connection layer' narrative.",
+      "website_url": "https://nexion.technology",
+      "twitter_handle": "nexionpulse",
+      "reviewed_at": "2026-10-07T02:31:37.657Z"
+    },
+    {
+      "name": "Cyra Labs",
+      "ticker": "CYRA",
+      "mint": "0xa3fa2430993d05780d4536172cdc76757545fe94",
+      "quality_score": 2.5,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Unspecified 'decentralized compute platform' relying on generic buzzwords: scalable, distributed, accessible.",
+      "red_flags": [
+        "Generic buzzwords (scalable, distributed, accessible)",
+        "No concrete mechanism described",
+        "Indistinguishable from 100+ other 'decentralized compute' coins",
+        "Reads like template landing page"
+      ],
+      "one_line_pitch": "Generic decentralized compute platform with no technical specificity.",
+      "website_url": "https://cyracompute.com",
+      "twitter_handle": "cyralabs",
+      "reviewed_at": "2026-10-07T02:31:37.655Z"
+    },
+    {
+      "name": "Pilot Pad",
+      "ticker": "PILOT",
+      "mint": "0xead295095d773482ac2d4b7ef16a24e5d5ac23e9",
+      "quality_score": 2.5,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Project analysis tool; unclear what 'studies end to end narrative' means operationally.",
+      "red_flags": [
+        "Vague mechanism ('studies' is unspecified)",
+        "Unclear if SaaS, AI model, or database",
+        "Generic consulting framing",
+        "No product evidence"
+      ],
+      "one_line_pitch": "Undefined project analysis and market research tool.",
+      "website_url": "https://pilotpad.tech",
+      "twitter_handle": "pilotpad",
+      "reviewed_at": "2026-10-07T02:31:37.651Z"
+    },
+    {
+      "name": "trustware",
+      "ticker": "TRUSTWARE",
+      "mint": "0xd63f302c6e2c5b8cc6b09723045170376e4a31b7",
+      "quality_score": 0.5,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Generic 'easy crypto payments' claim with no technical mechanism specified.",
+      "red_flags": [
+        "No mechanism at all, pure marketing",
+        "'As easy as clicking a button' is unspecified",
+        "Indistinguishable from thousands of payment coins"
+      ],
+      "one_line_pitch": "Generic easy-payments narrative with zero technical substance.",
+      "website_url": "https://trustware.io",
+      "twitter_handle": "trustware_io",
+      "reviewed_at": "2026-10-07T02:31:37.650Z"
+    },
+    {
+      "name": "Privy Murkle",
+      "ticker": "MURKLE",
+      "mint": "0x469920f917fa315bacfd3ef4f080740e80055275",
+      "quality_score": 2,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Private payment wrapper for Robinhood Chain; 'AI to AI' component undefined.",
+      "red_flags": [
+        "'AI to AI' is jargon, undefined meaning",
+        "'oxbowo' is unverifiable",
+        "No mechanism beyond vague privacy claims",
+        "No differentiation from Robinhood base layer"
+      ],
+      "one_line_pitch": "Undefined private payment wrapper for Robinhood Chain.",
+      "website_url": "https://murkle.xyz",
+      "twitter_handle": "murkledotxyz",
+      "reviewed_at": "2026-10-07T02:31:37.612Z"
+    },
+    {
+      "name": "Farm",
+      "ticker": "FARM",
+      "mint": "0xf7ae875d3ece43c6419b9dde5f003456aa89e8a9",
+      "quality_score": 2,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Unified market for launching and trading coins with yield farming; no technical specifics.",
+      "red_flags": [
+        "Extremely vague description, no concrete mechanism",
+        "No distinguishing feature from standard DEX + farming",
+        "Sounds like templated pump.fun pitch"
+      ],
+      "one_line_pitch": "Generic DEX-with-farming concept lacking any differentiation.",
+      "website_url": null,
+      "twitter_handle": "launchon_farm",
+      "reviewed_at": "2026-10-07T02:30:12.255Z"
+    },
+    {
+      "name": "Claimbook",
+      "ticker": "CLAIMBOOK",
+      "mint": "0x6d4e6ece284b44a96ea130827f0299d4100b3066",
+      "quality_score": 1,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Claims, pages, and block-based pricing with unclear payoff mechanics; description incoherent.",
+      "red_flags": [
+        "Internally contradictory pricing (0.01 ETH each, but takes whole 0.1 page?)",
+        "Undefined terms: underlines, block not mined yet",
+        "Impossible to assess technical viability or build from this spec"
+      ],
+      "one_line_pitch": "Cryptic on-chain mechanism with contradictory and incoherent description.",
+      "website_url": "https://claimbook.lol",
+      "twitter_handle": "useclaimbook",
+      "reviewed_at": "2026-10-07T02:30:12.254Z"
+    },
+    {
+      "name": "Apiary",
+      "ticker": "APIARY",
+      "mint": "0xa9a3642db324a4c0afd69daf16abfd2f98994320",
+      "quality_score": 1,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Tokenizes unspecified agentic capabilities; no concrete mechanism or use case described.",
+      "red_flags": [
+        "Pure tagline, zero describable mechanism",
+        "What does 'agentic capabilities' mean in crypto context?",
+        "Riding agent trend without substance"
+      ],
+      "one_line_pitch": "Agent trend token with no describable mechanism or product.",
+      "website_url": null,
+      "twitter_handle": "apiaryworldrh",
+      "reviewed_at": "2026-10-07T02:30:12.253Z"
+    },
+    {
+      "name": "SUPERMEMORY",
+      "ticker": "SMPMEMX",
+      "mint": "0x438e9a17519ed23b05793c3bda42c3612808e90b",
+      "quality_score": 2,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Token represents persistent agent context that travels; specifics on tokenization unclear.",
+      "red_flags": [
+        "Vague mechanism, could mean many things",
+        "No clarity on how context is tokenized or travels",
+        "Reads as marketing narrative, not technical specification"
+      ],
+      "one_line_pitch": "Agent-learning token with unclear mechanism and value proposition.",
+      "website_url": "https://supermemory.ai",
+      "twitter_handle": "supermemory",
+      "reviewed_at": "2026-10-07T02:30:12.251Z"
+    },
     {
       "name": "Umbra OS",
       "ticker": "UMBRA",
