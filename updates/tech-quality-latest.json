@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T22:46:22.674Z",
+  "generated_at": "2026-10-07T23:00:22.401Z",
   "note": "Quality-reviewed tech coins: passed a local coarse filter (qwen2.5:3b) then a real judgment pass (Haiku) confirming is_real_tech=true. new_idea_suggestions are Haiku-generated, informed by these patterns but NOT copies -- creative seeds for further review, not trading signals.",
   "quality_tech_coins": [
     {
@@ -7831,6 +7831,25 @@
       "website_url": "https://rippers.fun/",
       "twitter_handle": "rippersdotfun",
       "reviewed_at": "2026-10-03T13:13:07.851Z"
+    },
+    {
+      "name": "tox",
+      "ticker": "TOX",
+      "mint": "0xacb435c328c80b0378ea81b0e47b85958fa63ee6",
+      "quality_score": 6,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Token backed by real stocks; bonding curve launch, DEX graduation, trading fees buy stock.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "no details on stock custody or onchain proof",
+        "SEC securities-law compliance unclear",
+        "missing technical details on stock purchase mechanism"
+      ],
+      "one_line_pitch": "Stock-backed token using trading fees to accumulate equity collateral.",
+      "website_url": null,
+      "twitter_handle": "toxdotfamily",
+      "reviewed_at": "2026-10-07T22:57:39.665Z"
     },
     {
       "name": "GPTpad",
@@ -18090,6 +18109,26 @@
       "website_url": "https://posynt.win/",
       "twitter_handle": "posynt_sol",
       "reviewed_at": "2026-10-03T13:48:57.246Z"
+    },
+    {
+      "name": "Buy Button",
+      "ticker": "BUTTON",
+      "mint": "9zxWgnWcKFRzCQosEQ3CEMkbRFriejnhtjvpDbw7pump",
+      "quality_score": 5,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "Browser extension embedding buy/trade buttons in social feeds for Solana and Robinhood Chain.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "similar trading extensions already exist (Phantom, others)",
+        "regulatory clarity needed for embedded trading",
+        "centralization risk if controlling order flow",
+        "no token utility described"
+      ],
+      "one_line_pitch": "Browser extension for trading tokens from social-media timelines.",
+      "website_url": "https://usebutton.app/",
+      "twitter_handle": "usebuybutton",
+      "reviewed_at": "2026-10-07T22:57:39.666Z"
     },
     {
       "name": "Diff",
@@ -35897,6 +35936,25 @@
       "reviewed_at": "2026-09-30T03:14:54.643Z"
     },
     {
+      "name": "Barb",
+      "ticker": "BARB",
+      "mint": "9GuF6W9MwuhprEuooQGFmnyWHqex4mLNfCEA2AN5pump",
+      "quality_score": 3,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "Transfer tax enforced onchain, branded as 'barbs' hitting each transaction.",
+      "uniqueness": "copy",
+      "red_flags": [
+        "transfer tax is the most standard token mechanism",
+        "no utility beyond tax penalty",
+        "marketing-heavy, mechanism-light"
+      ],
+      "one_line_pitch": "Transfer-tax token with 'barb' branding.",
+      "website_url": "https://barb.run/",
+      "twitter_handle": "barbdotrun",
+      "reviewed_at": "2026-10-07T22:57:39.662Z"
+    },
+    {
       "name": "Arter Finance",
       "ticker": "ARTER",
       "mint": "0xddce1e208c921b205ac0a5c26cf6d5a1d7632670",
@@ -42417,6 +42475,85 @@
     }
   ],
   "low_quality_tech_coins": [
+    {
+      "name": "Parallax",
+      "ticker": "PRLLX",
+      "mint": "dKBYA6haxQecm7LJeJ3YD4evrrnzEWouYLPDd4epump",
+      "quality_score": 2,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "SOLANA",
+      "mechanism_summary": "Fair-launch philosophy; no presale; vague launchpad-culture narrative.",
+      "red_flags": [
+        "no clear product or mechanism described",
+        "pure narrative marketing copy",
+        "unclear if token, launchpad, or platform"
+      ],
+      "one_line_pitch": "Fair-launch philosophy with no defined product.",
+      "website_url": null,
+      "twitter_handle": "parallaxlaunch",
+      "reviewed_at": "2026-10-07T22:57:39.664Z"
+    },
+    {
+      "name": "Village",
+      "ticker": "Village",
+      "mint": "DzD3mrf5dQ9TunsDbfNAJMtkr98YYNzFxnzZ1Kwkpump",
+      "quality_score": 0,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "SOLANA",
+      "mechanism_summary": "No information provided.",
+      "red_flags": [
+        "empty description",
+        "no website",
+        "no product or mechanism",
+        "zero information"
+      ],
+      "one_line_pitch": "Empty coin with no description or purpose.",
+      "website_url": "https://www.villageonchain.fun/",
+      "twitter_handle": "villageonchain",
+      "reviewed_at": "2026-10-07T22:57:39.661Z"
+    },
+    {
+      "name": "Sisyphean Coin",
+      "ticker": "Sisyphean",
+      "mint": "JBjriumB2PaLf8qrGQMX8nR4GbjpLukV9PqNdT7hDP4M",
+      "quality_score": 1,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "SOLANA",
+      "mechanism_summary": "Generic OTC desk website template; coin name doesn't match site branding.",
+      "red_flags": [
+        "templated generic website shared across coins",
+        "name mismatch (Sisyphean vs OTC)",
+        "no coin-specific mechanism",
+        "mass-produced placeholder"
+      ],
+      "one_line_pitch": "Generic OTC desk template rebranded as a coin.",
+      "website_url": "https://otcdesks.cash/coin/JBjriumB2PaLf8qrGQMX8nR4GbjpLukV9PqNdT7hDP4M",
+      "twitter_handle": "stally_p",
+      "reviewed_at": "2026-10-07T22:57:39.659Z"
+    },
+    {
+      "name": "Emdash",
+      "ticker": "EMDASH",
+      "mint": "0xfe6883f869dd1f15c0ac45330574e2ca9e67feb4",
+      "quality_score": 0,
+      "is_real_tech": false,
+      "category": "impersonator",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Product description of real AI agent dev platform; no token mechanism explained.",
+      "red_flags": [
+        "real YC company hijacked for coin",
+        "no token mechanism described",
+        "only product copy provided",
+        "likely scam impersonator"
+      ],
+      "one_line_pitch": "Scam coin impersonating YC's Emdash AI platform.",
+      "website_url": null,
+      "twitter_handle": "emdashsh",
+      "reviewed_at": "2026-10-07T22:57:39.640Z"
+    },
     {
       "name": "Float Protocol",
       "ticker": "FLOAT",
