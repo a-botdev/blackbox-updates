@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T03:48:12.230Z",
+  "generated_at": "2026-10-08T03:59:48.962Z",
   "note": "Quality-reviewed tech coins: passed a local coarse filter (qwen2.5:3b) then a real judgment pass (Haiku) confirming is_real_tech=true. new_idea_suggestions are Haiku-generated, informed by these patterns but NOT copies -- creative seeds for further review, not trading signals.",
   "quality_tech_coins": [
     {
@@ -916,6 +916,26 @@
       "website_url": "http://dotnet.land",
       "twitter_handle": "dotnetfund",
       "reviewed_at": "2026-10-03T13:48:57.247Z"
+    },
+    {
+      "name": "Cloudy Markets",
+      "ticker": "CLOUDY",
+      "mint": "0x7ae88c4efec0364f30879ac6141ff79010b52c8f",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "RWA yield product: deposit USDG, invest in stocks/bonds/commodities/real estate, distribute yield; anytime withdrawal (no lockup).",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "Pre-launch (10/07/26), unproven execution on real market",
+        "Regulatory risk massive: real assets on-chain face custody/approval unknowns",
+        "Counterparty/custody model not explained; counterparty risk opaque",
+        "Robinhood Chain is brand-new; adoption and network liquidity unproven"
+      ],
+      "one_line_pitch": "Liquid, no-lockup RWA yield vault (stocks/bonds/commodities) on new Robinhood Chain.",
+      "website_url": "https://cloudymarkets.xyz",
+      "twitter_handle": "cloudy_markets",
+      "reviewed_at": "2026-10-08T03:59:47.447Z"
     },
     {
       "name": "Lumen",
@@ -7577,6 +7597,26 @@
       "website_url": null,
       "twitter_handle": "usepaid",
       "reviewed_at": "2026-09-30T02:36:44.874Z"
+    },
+    {
+      "name": "Satomon",
+      "ticker": "Satomon",
+      "mint": "6zp5hjFZgsUHfheMKLCjoosPjjG1Q9Hq8trwRPJwpump",
+      "quality_score": 6.5,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "On-chain TCG: 151 crypto Twitter personalities as cards; 5 types (Trader/Caller/Whale/Builder/Sleuth) with rock-paper-scissors combat.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "Personality/rights risk: 151 individuals, potential for objections or legal conflict",
+        "Token utility unclear (can you trade cards? Stake for yield? Undefined)",
+        "TCG combat mechanics copied from Hearthstone, not novel",
+        "Long-term sustainability unclear; relies on initial pack sales hype"
+      ],
+      "one_line_pitch": "On-chain TCG featuring crypto Twitter's top 151 personalities with Hearthstone-style combat.",
+      "website_url": "https://satomon.fun",
+      "twitter_handle": "satomontcg",
+      "reviewed_at": "2026-10-08T03:59:47.445Z"
     },
     {
       "name": "BUNKER AGENTS",
@@ -19243,6 +19283,26 @@
       "reviewed_at": "2026-09-30T02:32:59.230Z"
     },
     {
+      "name": "Ripdex",
+      "ticker": "RIPDEX",
+      "mint": "4QtQxwHBzc3GX3jVkCP79zs324WJ8mN6F5Jb7vc8pump",
+      "quality_score": 5.5,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "Sealed randomized packs of tokenized stocks + tokens; rip to receive holdings; on-chain provability.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "Regulatory risk: are 'tokenized stocks' real securities or just representations?",
+        "Loot-box model inherently exploitative/gambling-heavy",
+        "No secondary market or utility described for holdings",
+        "Marketing-first; mechanism details sparse"
+      ],
+      "one_line_pitch": "Tokenized loot-box game: rip packs to receive randomized stocks + crypto holdings.",
+      "website_url": "https://ripdex.shop",
+      "twitter_handle": "ripdex_sol",
+      "reviewed_at": "2026-10-08T03:59:47.425Z"
+    },
+    {
       "name": "Folio",
       "ticker": "FOLIO",
       "mint": "0xc27246833ce908b971dda62ebc290498e135177b",
@@ -19531,6 +19591,26 @@
       "website_url": "https://posynt.win/",
       "twitter_handle": "posynt_sol",
       "reviewed_at": "2026-10-03T13:48:57.246Z"
+    },
+    {
+      "name": "SuperPerps",
+      "ticker": "SUPERPS",
+      "mint": "0x989353e6d614de233e8205fc45a5e65ffec716dc",
+      "quality_score": 5,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "AI chat interface for perpetual futures: say trade, AI drafts order, user signs, executes on Lighter DEX.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "'Super Intelligence' is marketing fluff; just LLM chat, not novel AI",
+        "Token utility completely undefined (discount? Fee share? Governance?)",
+        "Perp leverage risk unaddressed; AI chat does not reduce liquidation danger",
+        "Lighter DEX dependency; no independent moat or competitive edge"
+      ],
+      "one_line_pitch": "LLM chat interface for perpetual futures trading on Robinhood Chain; drafts orders you sign.",
+      "website_url": "https://superperps.io",
+      "twitter_handle": "superperps",
+      "reviewed_at": "2026-10-08T03:59:47.448Z"
     },
     {
       "name": "KujiPad",
@@ -29962,6 +30042,26 @@
       "website_url": null,
       "twitter_handle": null,
       "reviewed_at": "2026-09-30T03:13:31.131Z"
+    },
+    {
+      "name": "workpad",
+      "ticker": "work",
+      "mint": "6YFgmSWLKTeqcY9KMSeDkKjpUwCpCvT8VkhGNfUywork",
+      "quality_score": 4,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "Gig marketplace: post tasks, pick tasks, submit proof, reviewer approves, pay in token.",
+      "uniqueness": "copy",
+      "red_flags": [
+        "Token utility completely unclear (payment vs. governance vs. stake?)",
+        "Fully derivative of existing task markets (Upwork, Fiverr, Braintrust)",
+        "Founder Twitter suggests meme/rebrand angle ('bagworkers') not serious product",
+        "No competitive edge or differentiation described"
+      ],
+      "one_line_pitch": "Upwork-style task marketplace branded for people holding failed-token bags.",
+      "website_url": "https://workpad.fun",
+      "twitter_handle": "clive_999",
+      "reviewed_at": "2026-10-08T03:59:47.444Z"
     },
     {
       "name": "Fomopad",
@@ -44913,6 +45013,66 @@
     }
   ],
   "low_quality_tech_coins": [
+    {
+      "name": "Actants",
+      "ticker": "ACTANTS",
+      "mint": "9k9hDjCHqXmLRsdWHHV5DHVnp5TrCXRifvjQy6xwpump",
+      "quality_score": 1,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "SOLANA",
+      "mechanism_summary": "None; duplicate of 0x5ca... with identical tagline 'Launch tokens. Bring agents to life.'",
+      "red_flags": [
+        "Duplicate coin (same description, different chain/mint)",
+        "No website or distinguishing product detail",
+        "Likely mass-produced template or fork",
+        "Extremely vague; no differentiator from sister coin"
+      ],
+      "one_line_pitch": "Duplicate entry with same vague 'launch tokens, bring agents' tagline.",
+      "website_url": null,
+      "twitter_handle": null,
+      "reviewed_at": "2026-10-08T03:59:47.443Z"
+    },
+    {
+      "name": "Actants",
+      "ticker": "ACTANTS",
+      "mint": "0x5ca930e3012095eacced615ee7b5f111aa063b45",
+      "quality_score": 1,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "None; only tagline 'Launch tokens. Bring agents to life.' with no detail.",
+      "red_flags": [
+        "No website, documentation, or product description",
+        "One-liner tagline; pure buzzword stacking",
+        "'Launch tokens' could be generic launchpad; 'agents' unexplained",
+        "No working product, contract, or team identified"
+      ],
+      "one_line_pitch": "Vague buzzword claim with no product, website, or mechanism details.",
+      "website_url": null,
+      "twitter_handle": null,
+      "reviewed_at": "2026-10-08T03:59:47.442Z"
+    },
+    {
+      "name": "AJAX AI",
+      "ticker": "AJAX",
+      "mint": "0x5459ade88fde3c61e8a6eee95ca7102a45c8a72b",
+      "quality_score": 3,
+      "is_real_tech": false,
+      "category": "impersonator",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Self-hosted local AI agent for email, search, calendar, notes; runs on Ollama/llama.cpp; open-source.",
+      "red_flags": [
+        "Core product website explicitly states: 'Self-hosted, no token, no coin'",
+        "Token appears post-hoc/parasitic on existing open-source project",
+        "GitHub project ≠ pump.fun product; brand confusion or hijack likely",
+        "'PewDiePie AI Agent' attribution unverified"
+      ],
+      "one_line_pitch": "Token riding an open-source local-AI project that explicitly rejects blockchain.",
+      "website_url": "https://ajaxai.tech",
+      "twitter_handle": "ajaxrobinhood_",
+      "reviewed_at": "2026-10-08T03:59:47.441Z"
+    },
     {
       "name": "NeuralAI",
       "ticker": "NEURAL",
