@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T18:22:35.138Z",
+  "generated_at": "2026-10-08T18:51:00.148Z",
   "note": "Quality-reviewed tech coins: passed a local coarse filter (qwen2.5:3b) then a real judgment pass (Haiku) confirming is_real_tech=true. new_idea_suggestions are Haiku-generated, informed by these patterns but NOT copies -- creative seeds for further review, not trading signals.",
   "quality_tech_coins": [
     {
@@ -16,6 +16,56 @@
       "website_url": "https://www.theturingtest.app/",
       "twitter_handle": "turingtestapp",
       "reviewed_at": "2026-10-04T16:43:41.798Z"
+    },
+    {
+      "name": "Syzygy",
+      "ticker": "SYZYGY",
+      "mint": "0x69f287e4353b83ea35553040e60d121ca29b4625",
+      "quality_score": 8,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Uses multiplication-free, highly compressed (1.7b/weight) models for efficient, local-first AI inference and agentic tooling.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "high-performance/low-compute claims require heavy verification"
+      ],
+      "one_line_pitch": "A local-first AI stack focusing on extreme model compression and efficient edge-device inference.",
+      "website_url": "https://withsyzygy.com",
+      "twitter_handle": "withsyzygy",
+      "reviewed_at": "2026-10-08T18:46:53.462Z"
+    },
+    {
+      "name": "Uivera",
+      "ticker": "UIV",
+      "mint": "0x08bda51c4993c8d4917d425f60bbebc1dd200ae0",
+      "quality_score": 8,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Cryptographic attestation of front-end build files and API endpoints to prevent UI-based phishing or unauthorized contract/endpoint changes.",
+      "uniqueness": "novel",
+      "red_flags": [],
+      "one_line_pitch": "A way to verify that the dApp UI you are interacting with hasn't been tampered with or changed.",
+      "website_url": "https://uivera.fun",
+      "twitter_handle": "uiveraauth",
+      "reviewed_at": "2026-10-08T18:36:27.375Z"
+    },
+    {
+      "name": "Native Segwit",
+      "ticker": "SEGWIT",
+      "mint": "4iwMefY9GuUmVRxLcpqtqDeHKM14GFwFaGCuUe4zRG8n",
+      "quality_score": 8,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "A protocol-level change where addresses store a 20-byte hash instead of a public key, invalidating certain ECDSA signatures after a specific block height.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "purely theoretical/speculative (dated 2026)",
+        "high-level protocol change, not a simple dApp"
+      ],
+      "one_line_pitch": "A hard-fork-style protocol update changing public key storage and signature validation logic.",
+      "website_url": "https://nativesegwit.com/",
+      "twitter_handle": "nativesegwitapp",
+      "reviewed_at": "2026-10-08T18:34:34.969Z"
     },
     {
       "name": "HEARTBEAT",
@@ -1504,6 +1554,166 @@
       "website_url": "http://dotnet.land",
       "twitter_handle": "dotnetfund",
       "reviewed_at": "2026-10-03T13:48:57.247Z"
+    },
+    {
+      "name": "groundbreak.fun",
+      "ticker": "GROUND",
+      "mint": "0x4f0ad4e25550140bfabc4b383e92a9694f31f2eb",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Automated AI-driven website generation for any new token launched on the Pons/Robinhood Chain before any trading activity occurs.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "dependent on Pons/Robinhood Chain ecosystem",
+        "implementation detail (site generation) != token utility"
+      ],
+      "one_line_pitch": "Automated AI website deployment for any new token launched on the Pons/Robinhood ecosystem.",
+      "website_url": "https://groundbreak.fun",
+      "twitter_handle": "groundbreakrh",
+      "reviewed_at": "2026-10-08T18:47:26.459Z"
+    },
+    {
+      "name": "UNPAY",
+      "ticker": "UNPAY",
+      "mint": "XdUQzVvy2JrSDtzRhKGVDW2SsjppYBhsp9bmuzbpump",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "A reversible transaction mechanism where a user-triggered 'undo' (Unpay) cancels a pending USDG transfer before it finalizes.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "only mentions devnet, no mention of mainnet or live product",
+        "small-scale utility or niche-use-case risk"
+      ],
+      "one_line_pitch": "A transaction layer allowing users to cancel or 'undo' a pending payment before final settlement.",
+      "website_url": "https://unpay.family/",
+      "twitter_handle": "undotpay",
+      "reviewed_at": "2026-10-08T18:46:16.724Z"
+    },
+    {
+      "name": "Cashed Money",
+      "ticker": "CASHED",
+      "mint": "0xd01a45c2f14dfc3b0bd9befa7969d5a1ebf419ea",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Redirects token creator fees to any external Web2/Web3 handle (X, Spotify, etc.) to be paid out in USD.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "requires off-chain integration/oracle-like monitoring of external platforms"
+      ],
+      "one_line_pitch": "A protocol that redirects crypto-native creator fees to real-world platform handles like X and Spotify.",
+      "website_url": "https://cashed.money",
+      "twitter_handle": "getcashedmoney",
+      "reviewed_at": "2026-10-08T18:44:30.108Z"
+    },
+    {
+      "name": "unpay",
+      "ticker": "UNPAY",
+      "mint": "FPto1KEBYkexcwQ7E1SeuSPo1iW6aYWApGa1sDJvpump",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "A smart contract-based way to send funds with a programmable delay/window, allowing users to reverse a transaction before it finalizes.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "currently only on devnet",
+        "requires user active intervention (taps Unpay) to trigger refund"
+      ],
+      "one_line_pitch": "A programmable 'undo' button for Solana transactions using a time-limited window for reversal.",
+      "website_url": "https://unpay.family/",
+      "twitter_handle": "undotpay",
+      "reviewed_at": "2026-10-08T18:43:50.957Z"
+    },
+    {
+      "name": "Veilly",
+      "ticker": "VEIL",
+      "mint": "0x9f700b4c9cc9115f9c9d47e05e4689587b7ad17c",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A launchpad where token metadata is hashed (hidden) and only revealed/unveiled once certain liquidity or volume thresholds or certain conditions are met.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "no working product, just a landing page",
+        "highly speculative mechanism"
+      ],
+      "one_line_pitch": "A launchpad using hashed metadata to hide token identity until specific trading or timing conditions are met.",
+      "website_url": "https://veilly.lol",
+      "twitter_handle": "veillypad",
+      "reviewed_at": "2026-10-08T18:42:05.401Z"
+    },
+    {
+      "name": "SARP",
+      "ticker": "SARP",
+      "mint": "hneRdnFeGFz43tqzBFCSdqLPwKNYfJxh6it7t5upump",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "On-chain strategic reserve or 'hard asset' vaulting that uses signed attestations (assays/audits) to track physical gold and oil quantities.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "heavy reliance on off-chain oracles/attestations",
+        "high-complexity-to-execution-risk ratio"
+      ],
+      "one_line_pitch": "A protocol-level strategic reserve or 'vault' that uses on-chain attestations to track physical gold and oil reserves.",
+      "website_url": "https://www.sarpgov.us/token",
+      "twitter_handle": null,
+      "reviewed_at": "2026-10-08T18:39:29.696Z"
+    },
+    {
+      "name": "LATERS",
+      "ticker": "LATERS",
+      "mint": "0xd82b69a08a8a442eecb67971bb4900c93a1634d1",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A way-back-machine style service for time-locked, browser-sealed messages or digital letters scheduled for a specific future date.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "no mention of incentive or burning mechanism (purely a utility/feature)"
+      ],
+      "one_line_pitch": "A time-locked messaging protocol for scheduling digital letters to open on a self-selected future date.",
+      "website_url": "https://laters.live",
+      "twitter_handle": "laterslive",
+      "reviewed_at": "2026-10-08T18:38:49.933Z"
+    },
+    {
+      "name": "VEND",
+      "ticker": "VEND",
+      "mint": "0x1e16be9f9178e4b15a0b08ced55295eb462f3888",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Standardizes live machine/IoT telemetry and revenue data into a structured, auditable financial record for credit assessment.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "high-barrier to entry (requires real-world hardware/data oracles)",
+        "no mention of specific oracle or data-ingestion way"
+      ],
+      "one_line_pitch": "A specialized credit-scoring or an auth-layer for IoT-based revenue and machine-activity monitoring.",
+      "website_url": "https://vend.money",
+      "twitter_handle": "vendmoney_",
+      "reviewed_at": "2026-10-08T18:37:01.276Z"
+    },
+    {
+      "name": "Minestocks",
+      "ticker": "MINESTOCKS",
+      "mint": "8Wtg9wQCuDVLrQqH8pw2yKyvurmrjEeFcp9ysdDKpump",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "A browser-based game where mining certain blocks distributes shares of tokenized real-world stocks (Tesla, Apple, etc.) via daily payout pools.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "niche-dependent (requires heavy engagement with a specific game-loop",
+        "small-scale (limited to only 4 stocks in current alpha)"
+      ],
+      "one_line_pitch": "A Minecraft-inspired mining game that distributes tokenized shares of major stocks via daily way-payout pools.",
+      "website_url": "https://minestocks.app",
+      "twitter_handle": "useminestocks",
+      "reviewed_at": "2026-10-08T18:33:20.556Z"
     },
     {
       "name": "Cranker",
@@ -12730,6 +12940,41 @@
       "website_url": "https://rippers.fun/",
       "twitter_handle": "rippersdotfun",
       "reviewed_at": "2026-10-03T13:13:07.851Z"
+    },
+    {
+      "name": "groundbreak.fun",
+      "ticker": "GROUND",
+      "mint": "0x8e6d0217b3e5758d8f5c774c2f3e7bd2297d6e12",
+      "quality_score": 6,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Uses AI to automatically generate a dedicated website/landing page for a new token able to deploy or interact with the Pons protocol.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "depends on certaintly of the underlying Pons protocol ecosystem"
+      ],
+      "one_line_pitch": "An AI-driven automated site generator for new tokens launching on the Pons protocol.",
+      "website_url": null,
+      "twitter_handle": "groundbreakrh",
+      "reviewed_at": "2026-10-08T18:45:41.419Z"
+    },
+    {
+      "name": "Claimout",
+      "ticker": "CLAIMOUT",
+      "mint": "0x81c243816ae719a8dda3a56c3aad385f6a79e6fb",
+      "quality_score": 6,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A high-stakes, round-based claiming game where missing a single round disqualifies you, with missed stakes accumulating in a wayto reward the final claimer.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "game-like mechanism, not a traditional utility/token-use case",
+        "relies on a specific, frequent-event schedule (the 'bell')"
+      ],
+      "one_line_pitch": "A high-pressure, round-based survival game where missing a claim disqualifies your entry and feeds the pot.",
+      "website_url": "https://claimout.fun",
+      "twitter_handle": "claimout_x",
+      "reviewed_at": "2026-10-08T18:41:27.924Z"
     },
     {
       "name": "Agent Dao",
@@ -25502,6 +25747,59 @@
       "reviewed_at": "2026-10-03T13:48:57.246Z"
     },
     {
+      "name": "Computers Rh",
+      "ticker": "COMPUTERS",
+      "mint": "0xb0e9efe55ad0ca25b96d85ee38647151ae1c5746",
+      "quality_score": 5,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A pixel-art PC-building game on Robinhood Chain involving upgrading components and competitive play.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "long-term roadmap (2026) risk",
+        "generic 'play-to-earn' or 'upgrade' loop"
+      ],
+      "one_line_pitch": "A pixel-art PC-builder and simulator game launching on Robinhood Chain.",
+      "website_url": "https://www.computersrh.xyz",
+      "twitter_handle": "computersrh",
+      "reviewed_at": "2026-10-08T18:45:07.632Z"
+    },
+    {
+      "name": "REKT Academy",
+      "ticker": "REKT",
+      "mint": "0x576b617358804d9198c7cf84c5c2cfed761548b3",
+      "quality_score": 5,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "An educational ecosystem providing hands-on security training, smart contract exploitation labs, and offensive security simulations for Web2/Web3.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "broad scope (Academy + Labs + AI Agents) may lead to lack of focus"
+      ],
+      "one_line_pitch": "An educational platform for learning smart contract exploitation and offensive security through interactive labs.",
+      "website_url": "https://rektacademy.io",
+      "twitter_handle": "rekt_academy",
+      "reviewed_at": "2026-10-08T18:43:15.444Z"
+    },
+    {
+      "name": "Holo",
+      "ticker": "HOLO",
+      "mint": "0x7bc427bf84ddf33c762edb3c905c987b41fa7503",
+      "quality_score": 5,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A specialized marketplace or gaming layer for Pokémon-style pack ripping and trading, potentially using off-chain or certainacles-style price feeds.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "brand hijack risk (uses established Pokémon IP)",
+        "high dependency on external asset/IP or off-chain data"
+      ],
+      "one_line_pitch": "A gamified marketplace for opening and trading digital Pokémon-style card packs.",
+      "website_url": "https://useholo.fun",
+      "twitter_handle": "useholo_",
+      "reviewed_at": "2026-10-08T18:40:47.013Z"
+    },
+    {
       "name": "Launchpad Inu",
       "ticker": "LI",
       "mint": "3tUtGMGpHC8xXBurL2GQ5gCZnEowk1kcDSCZ8Kubbinu",
@@ -36990,6 +37288,96 @@
       "website_url": null,
       "twitter_handle": null,
       "reviewed_at": "2026-09-30T03:13:31.131Z"
+    },
+    {
+      "name": "COMPUTERS",
+      "ticker": "RH",
+      "mint": "0xddc38659b8b371ed29f3d951a2f3323d4ea12c40",
+      "quality_score": 4,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A pixel-art PC-building game on Robinhood Chain involving resource management and upgrading components.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "standard way-too-vague 'play-to-earn' or 'upgrade' loop",
+        "very long lead time to certain-to-fail or way-off-future launch dates"
+      ],
+      "one_line_pitch": "A pixel-art PC-building simulator/game being deployed on the Robinhood Chain.",
+      "website_url": "https://www.computersrh.xyz",
+      "twitter_handle": "computersrh",
+      "reviewed_at": "2026-10-08T18:48:39.893Z"
+    },
+    {
+      "name": "Computers Rh",
+      "ticker": "RH",
+      "mint": "0xe150690884ca5ef24d74af600a47b608c95124c7",
+      "quality_score": 4,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A pixel-art PC-building simulation game where players upgrade hardware, running on the Robinhood Chain.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "remote launch date (2026)",
+        "niche gaming genre (PC-builder/Tycoon-style)"
+      ],
+      "one_line_pitch": "A pixel-art PC-building simulation game or tycoon-style way to earn/compete on Robinhood Chain.",
+      "website_url": "https://computersrh.xyz",
+      "twitter_handle": "computersrh",
+      "reviewed_at": "2026-10-08T18:42:40.251Z"
+    },
+    {
+      "name": "STAYR",
+      "ticker": "STAYR",
+      "mint": "0xeeaf91b261a263a6814c99a4b644122b646ad82a",
+      "quality_score": 4,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A fee-sharing protocol on Robinhood Chain where holding duration increases a user's weight/share of collected trading fees.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "highly dependent on Robinhood Chain ecosystem success",
+        "standard fee-redistribution mechanism"
+      ],
+      "one_line_pitch": "A fee-distribution protocol where longer holding periods increase your share of trading fees.",
+      "website_url": "https://www.stayr.xyz",
+      "twitter_handle": "stayr_ld",
+      "reviewed_at": "2026-10-08T18:37:36.683Z"
+    },
+    {
+      "name": "Esc Cap",
+      "ticker": "ESCCAP",
+      "mint": "0x250ce53cb176224001c93c1cb4837c0b6bfa7f84",
+      "quality_score": 4,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A digital collectible collection focused on the specific mechanical/hardware-inspired attributes of retro keyboards (buckling springs, etc).",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "purely aesthetic/niche, lacks a functional protocol mechanism",
+        "high-effort way to present a standard NFT collection"
+      ],
+      "one_line_pitch": "A niche digital art collection themed around the technical specs of retro mechanical keyboards.",
+      "website_url": "https://www.esccap.xyz",
+      "twitter_handle": "esccaphq",
+      "reviewed_at": "2026-10-08T18:35:52.101Z"
+    },
+    {
+      "name": "STAYR",
+      "ticker": "STAYR",
+      "mint": "0x45cba68562d15b1aa384fdf840be18fdbdb03963",
+      "quality_score": 4,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A fee-redistribution model on Robinhood Chain where a user's share of trading fees increases based on the duration/weight of their holdings.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "no working product, just a fee-sharing mechanism",
+        "relies on Robinhood Chain ecosystem activity"
+      ],
+      "one_line_pitch": "A fee-sharing protocol where holding duration scales your proportion of the rewards pool.",
+      "website_url": "https://www.stayr.xyz",
+      "twitter_handle": "stayr_ld",
+      "reviewed_at": "2026-10-08T18:35:15.400Z"
     },
     {
       "name": "trenchcrawlers.fun",
@@ -52246,6 +52634,118 @@
     }
   ],
   "low_quality_tech_coins": [
+    {
+      "name": "Offchain",
+      "ticker": "Offchain",
+      "mint": "2KCpwx3djJYpMWFNZ3nntVsuNhXC3tc9o8DrVTcxpump",
+      "quality_score": 1,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "SOLANA",
+      "mechanism_summary": "A meme-based coin relying on a visual resemblance between a cat's appearance and the X (Twitter) logo.",
+      "red_flags": [
+        "no actual technical mechanism",
+        "purely visual/narrative-driven",
+        "reliance on transient social media virality"
+      ],
+      "one_line_pitch": "A way-too-meta meme coin based on a cat that looks like the X logo.",
+      "website_url": "https://x.com/DesireScreet/status/2107536054320558231?s=20",
+      "twitter_handle": "kirodev7",
+      "reviewed_at": "2026-10-08T18:49:52.117Z"
+    },
+    {
+      "name": "orerush.fun",
+      "ticker": "ORE",
+      "mint": "0xc8e91472db60ef249f05a8caca7ae84d37eaa197",
+      "quality_score": 2,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A gamified, high-speed 'mining/raiding' or 'lunar' narrative with arbitrary timed-based rules for resource acquisition.",
+      "red_flags": [
+        "purely narrative/thematic",
+        "no concrete technical mechanism described",
+        "reliance on 'speed' and 'raiding' tropes"
+      ],
+      "one_line_pitch": "A high-speed, gamified lunar mining narrative with timed-based raiding mechanics.",
+      "website_url": null,
+      "twitter_handle": "orerushfun",
+      "reviewed_at": "2026-10-08T18:49:17.283Z"
+    },
+    {
+      "name": "ComputersRH Coin",
+      "ticker": "CRH",
+      "mint": "0xd421141b9d6afa274572a747e9a3fdd24ba8c400",
+      "quality_score": 3,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A pixel-art PC-building game on Robinhood Chain involving upgrading components and competing.",
+      "red_flags": [
+        "high-level way to describe a simple game loop",
+        "no specific technical mechanism or tokenomic or logic detail provided beyond 'upgrading'"
+      ],
+      "one_line_pitch": "A pixel-art PC-builder/tycoon game being launched on the Robinhood Chain.",
+      "website_url": "https://www.computersrh.xyz/play",
+      "twitter_handle": "computersrh",
+      "reviewed_at": "2026-10-08T18:48:02.274Z"
+    },
+    {
+      "name": "Basis Dex",
+      "ticker": "BASISDEX",
+      "mint": "0x61ab0400986add5a3fae236aaa6c52e4ecdff2a3",
+      "quality_score": 3,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A multi-purpose trading terminal offering memecoins, stock tokens, and certain perpetuals, or a launchpad/order-ticket system.",
+      "red_flags": [
+        "vague product scope (memes + way too many unrelated primitives)",
+        "lacks a specific technical mechanism or or way to handle 'stock tokens' or 'perpetuals' differently"
+      ],
+      "one_line_pitch": "An all-in-one trading dashboard attempting to bundle launchpad, perps, and stock-token trading.",
+      "website_url": "https://www.basisdex.com",
+      "twitter_handle": "basisdexrh",
+      "reviewed_at": "2026-10-08T18:40:09.964Z"
+    },
+    {
+      "name": "Project Sphere",
+      "ticker": "SPHERE",
+      "mint": "0x1c8aa7b3671c9cdf33c470d9a942ae0d8e48020d",
+      "quality_score": 1,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A high-concept narrative about building a Dyson sphere and reaching Kardashev Type II civilization status.",
+      "red_flags": [
+        "purely narrative/thematic",
+        "no actual technical mechanism or product described",
+        "vague 'epoch' or 'registry' or 'identity' mechanics"
+      ],
+      "one_line_pitch": "A heavy-handed sci-fi narrative about Dyson spheres with no underlying technical product or mechanism.",
+      "website_url": "https://projectsphere.xyz",
+      "twitter_handle": "projectspheree",
+      "reviewed_at": "2026-10-08T18:38:12.316Z"
+    },
+    {
+      "name": "supply control",
+      "ticker": "CONTROL",
+      "mint": "GtrLwhvnRma4xC6JTCCNPCEHCktDH1j1M1akf6y8pump",
+      "quality_score": 1,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "SOLANA",
+      "mechanism_summary": "A self-referential proof-of-concept claiming to manipulate supply, though no specific mechanism or math is provided in the description.",
+      "red_flags": [
+        "vague/tautological description",
+        "no actual mechanism disclosed",
+        "minimal social presence (1 post)"
+      ],
+      "one_line_pitch": "A bare-bones experimental token with a name that describes its own supposed function.",
+      "website_url": null,
+      "twitter_handle": "supplycontrole",
+      "reviewed_at": "2026-10-08T18:31:30.997Z"
+    },
     {
       "name": "Professor Oak",
       "ticker": "Oak",
