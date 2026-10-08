@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T10:20:29.647Z",
+  "generated_at": "2026-10-08T10:51:37.986Z",
   "note": "Quality-reviewed tech coins: passed a local coarse filter (qwen2.5:3b) then a real judgment pass (Haiku) confirming is_real_tech=true. new_idea_suggestions are Haiku-generated, informed by these patterns but NOT copies -- creative seeds for further review, not trading signals.",
   "quality_tech_coins": [
     {
@@ -1157,6 +1157,233 @@
       "website_url": "http://dotnet.land",
       "twitter_handle": "dotnetfund",
       "reviewed_at": "2026-10-03T13:48:57.247Z"
+    },
+    {
+      "name": "Freshness",
+      "ticker": "FRSHNS",
+      "mint": "0xbd25ec095958db52ff37d09e543bf8498150b8bf",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Computer-vision-based food waste prevention tool that tracks expiration dates via receipt scanning and suggests recipes to use near-expiry ingredients.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "no working product, just a landing page"
+      ],
+      "one_line_pitch": "A receipt-scanning food waste prevention tool that recommends recipes based on expiring pantry items.",
+      "website_url": null,
+      "twitter_handle": "freshnessapp",
+      "reviewed_at": "2026-10-08T10:47:54.285Z"
+    },
+    {
+      "name": "Deleon",
+      "ticker": "DELEON",
+      "mint": "0xeea9e3baa04111d310b41eceffcb9166a2ca7a0f",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "At-home urine-based biochemical monitoring device (Otea) for athletic training readiness and wellness tracking.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "hardware-focused, requires physical manufacturing/logistics"
+      ],
+      "one_line_pitch": "A hardware-based biochemical monitoring device for at-home urine-based wellness and training readiness analysis.",
+      "website_url": null,
+      "twitter_handle": "deleon_bio",
+      "reviewed_at": "2026-10-08T10:46:07.317Z"
+    },
+    {
+      "name": "Cassa",
+      "ticker": "CASSA",
+      "mint": "0x6de977cd032cdcd4da38774d6f222a994ce804ae",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Utilizes Euler/Pendle-style oracles to implement hedge-fund-style spread-based risk management (LTV/LLTV) for RWA-linked oracles.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "complex oracling dependencies"
+      ],
+      "one_line_pitch": "A risk-managed RWA marketplace using spread-based oracles to prevent liquidations/manipulation.",
+      "website_url": null,
+      "twitter_handle": "cassa_fyi",
+      "reviewed_at": "2026-10-08T10:42:57.568Z"
+    },
+    {
+      "name": "Serendipity",
+      "ticker": "SRNDPT",
+      "mint": "0xba6deeca3859e88339c21feec72c6e0c304f1360",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A localized recommendation engine that uses radius/mood parameters to suggest a rotating, non-repetitive set of waypoints.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "no way to verify if recommendation logic or database exists",
+        "difficult to scale or maintain content-heavy waypoints"
+      ],
+      "one_line_pitch": "A localized, mood-based wayfinding app that suggests a rotating set of new, undiscovered local spots.",
+      "website_url": null,
+      "twitter_handle": "serendipityapp",
+      "reviewed_at": "2026-10-08T10:41:07.244Z"
+    },
+    {
+      "name": "Hoverswap",
+      "ticker": "HOVER",
+      "mint": "0x6dd6a805e24711b636ebd8620d927301051e1e6e",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A browser extension that parses CA strings in X (Twitter) posts to trigger immediate swap transactions via a waylay-style UI overlay.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "utility depends entirely on user-base or enough enough CA-heavy engagement on X"
+      ],
+      "one_line_pitch": "A browser extension that enables direct swapping of Solana/Robinhood tokens directly from any contract address posted on X.",
+      "website_url": null,
+      "twitter_handle": "gethoverswap",
+      "reviewed_at": "2026-10-08T10:39:16.189Z"
+    },
+    {
+      "name": "xStockFi",
+      "ticker": "XSF",
+      "mint": "0x751761ed5a121e4611128f24b4b92b2cb1651bd1",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "On-chain options protocol for tokenized stocks on Robinhood Chain, allowing covered calls and yield-bearing income vaults.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "dependent on Robinhood Chain oracles/liquidity"
+      ],
+      "one_line_pitch": "A derivatives protocol for trading and writing covered calls on tokenized stocks.",
+      "website_url": null,
+      "twitter_handle": "xstockf1",
+      "reviewed_at": "2026-10-08T10:38:38.921Z"
+    },
+    {
+      "name": "try dyad",
+      "ticker": "DYAD",
+      "mint": "0x4304539b7c441bf81a76d93b018d56cb26c39d0a",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Multi-agent AI workflow using a secondary model to critique and synthesize or verify primary model outputs for increased reliability.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "high compute/latency risk (two-model inference)",
+        "no mention of specific models or deployment architecture"
+      ],
+      "one_line_pitch": "A multi-agent AI framework using a critic-synthesizer loop to improve output accuracy and transparency.",
+      "website_url": null,
+      "twitter_handle": "trydyadxyz",
+      "reviewed_at": "2026-10-08T10:36:52.724Z"
+    },
+    {
+      "name": "Graphlite",
+      "ticker": "GRAPHLITE",
+      "mint": "0xbfd2def55a727711b05d352d3ecfd344ac519d2e",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A routing layer for multi-agent tool calls on Robinhood Chain with transparent, upfront-priced, zero-markup execution fees.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "highly speculative/future-dated (claims Oct 2026)",
+        "claims way too many tools (3,000+) for a single routing layer"
+      ],
+      "one_line_pitch": "Anon-to-onchain routing engine for multi-agent tool calls with transparent, low-cost execution fees.",
+      "website_url": null,
+      "twitter_handle": "usegraphlite",
+      "reviewed_at": "2026-10-08T10:33:43.135Z"
+    },
+    {
+      "name": "CRANKER",
+      "ticker": "CRANKER",
+      "mint": "5gHu9g14mdQZfdYzaBE6yqkibPqPeD7ZfYf5qpWwpump",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "A shared autonomous agent experiment where a single robot navigates Wikipedia/browser history to find an exit via automated browsing.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "no working product, just a landing page/concept",
+        "experimental/pre-launch nature"
+      ],
+      "one_line_pitch": "An autonomous agent experiment involving a robot navigating a browser/encyclopedia to find an exit.",
+      "website_url": "https://www.crankerexperiment.fun/",
+      "twitter_handle": "crankerpf",
+      "reviewed_at": "2026-10-08T10:33:06.544Z"
+    },
+    {
+      "name": "CRANKER",
+      "ticker": "CRANKER",
+      "mint": "3JuKpRqoptXyE9Js91JU5a3SkaDgTHMvD35CAPfipump",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "A simulated autonomous agent (robot) navigating a Wikipedia-based knowledge graph to complete a specific logic-based objective or escape protocol.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "experimental/pre-launch status",
+        "highly niche/experimental way-out-of-the-room narrative"
+      ],
+      "one_line_pitch": "An autonomous agent-based experiment using Wikipedia-crawling/reasoning-to-escape as a core, way-too-niche-to-ignore mechanism.",
+      "website_url": "https://www.crankerexperiment.fun/",
+      "twitter_handle": "crankerpf",
+      "reviewed_at": "2026-10-08T10:31:48.531Z"
+    },
+    {
+      "name": "Auton Agents",
+      "ticker": "Auton",
+      "mint": "CgqZdiSMUu6XLTRxQugtqPXbSx7sp8Mq8ptG12GJpump",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "Deploys an AI trading agent funded specifically by the protocol's own trading fee revenue to execute trades.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "no working product, just a landing page",
+        "requires specialized off-chain agent execution"
+      ],
+      "one_line_pitch": "A launchpad where every new coin comes with an AI agent funded by its own trading fees.",
+      "website_url": "https://autonagent.app/",
+      "twitter_handle": "autonagents",
+      "reviewed_at": "2026-10-08T10:29:50.510Z"
+    },
+    {
+      "name": "Auton Agents",
+      "ticker": "AUTON",
+      "mint": "3EdpqJBPnnZcF3J7fJy7m5J54dRmE3dhyGaEiCxPpump",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "A launchpad where every deployed coinget an attached AI agent that executes trades using any-direction or fee-based budget.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "requires high-frequency trading/fee-capture logic to be sustainable"
+      ],
+      "one_line_pitch": "A launchpad where every new token comes with a dedicated AI trader funded by transaction fees.",
+      "website_url": "https://autonagent.app/",
+      "twitter_handle": "autonagents",
+      "reviewed_at": "2026-10-08T10:28:32.627Z"
+    },
+    {
+      "name": "impronta",
+      "ticker": "IMPRONTA",
+      "mint": "0x459bcc247ab5203614c038636a4f706ad1f7db2a",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "An analytics/forensic tool that traces wallet behavior, transaction speed, and wayward/exit patterns (fingerprinting) on the Pons/Robinhood chain.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "analysis-only, no native token utility or protocol mechanism described"
+      ],
+      "one_line_pitch": "A forensic wallet-tracing tool that fingerprints transaction speed and holder behavior on the Pons chain.",
+      "website_url": null,
+      "twitter_handle": "useimpronta",
+      "reviewed_at": "2026-10-08T10:27:23.965Z"
     },
     {
       "name": "Groundfield Protocol",
@@ -9855,6 +10082,41 @@
       "website_url": "https://rippers.fun/",
       "twitter_handle": "rippersdotfun",
       "reviewed_at": "2026-10-03T13:13:07.851Z"
+    },
+    {
+      "name": "QUIZHOOD",
+      "ticker": "QUIZHOOD",
+      "mint": "0xba881cc83d293aca172b3342d53204387118e6d7",
+      "quality_score": 6,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A high-speed, scheduled live-gameplay event on Robinhood Chain where users answer timed questions to win real stocks.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "no working product, just a landing page",
+        "depends on Robinhood Chain adoption"
+      ],
+      "one_line_pitch": "A scheduled, high-pressure live quiz competition with real-world stock rewards.",
+      "website_url": null,
+      "twitter_handle": "quizhood",
+      "reviewed_at": "2026-10-08T10:40:31.087Z"
+    },
+    {
+      "name": "Mouthpiece",
+      "ticker": "MTHPCE",
+      "mint": "0x840e051a6ff80ca7c72ff5e543c3ebd1f8e3af48",
+      "quality_score": 6,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A specialized utility toolset for brass/wind players providing training modules, tuners, and progress-tracking audio recordings.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "utility-focused app rather than a native protocol or incentive mechanism"
+      ],
+      "one_line_pitch": "A niche utility app for brass/wind players featuring training drills and tone-tracking audio logs.",
+      "website_url": null,
+      "twitter_handle": "mouthpieceapp",
+      "reviewed_at": "2026-10-08T10:27:55.919Z"
     },
     {
       "name": "Spawn",
@@ -21454,6 +21716,42 @@
       "website_url": "https://posynt.win/",
       "twitter_handle": "posynt_sol",
       "reviewed_at": "2026-10-03T13:48:57.246Z"
+    },
+    {
+      "name": "Aevia Labs",
+      "ticker": "AEVIA",
+      "mint": "0x5efb8069432e0c02639981668a6c9afefa65dcd8",
+      "quality_score": 5,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Framework or infrastructure for hosting AI-agent-driven gaming tournaments and automated game-logic execution on Solana.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "no specific technical mechanism or whitepaper provided, relies on ecosystem presence",
+        "high-level way to describe a gaming engine/platform"
+      ],
+      "one_line_pitch": "Infrastructure for AI-agent-driven gaming tournaments and automated game-logic execution.",
+      "website_url": null,
+      "twitter_handle": "aeviaprotocol",
+      "reviewed_at": "2026-10-08T10:41:44.629Z"
+    },
+    {
+      "name": "Conviction",
+      "ticker": "CONVICTION",
+      "mint": "0xf48609db4577f012afa63aa62ee06fdba9a3e22c",
+      "quality_score": 5,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A lock-up/exit mechanism where early exits incur penalties that redistribute or burn tokens, incentivizing long-term holding.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "no working product, just a landing page",
+        "tokenomics-only mechanism (no way to verify utility or product yet)"
+      ],
+      "one_line_pitch": "A way to penalize early exits via a lock-up mechanism that funds buybacks and burns.",
+      "website_url": null,
+      "twitter_handle": "conviction_rh",
+      "reviewed_at": "2026-10-08T10:36:15.965Z"
     },
     {
       "name": "Reaper",
@@ -47395,6 +47693,174 @@
     }
   ],
   "low_quality_tech_coins": [
+    {
+      "name": "97 Pad",
+      "ticker": "97",
+      "mint": "DpJTbR7ApLqB62NwnPGDVkhT62cH8PTcFfMcHnZqjR5N",
+      "quality_score": 1,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "SOLANA",
+      "mechanism_summary": "A standard launchpad claiming to convert old internet memes into coins via a bonding curve.",
+      "red_flags": [
+        "no specific mechanism mentioned other than being a launchpad",
+        "vague/generic value proposition"
+      ],
+      "one_line_pitch": "A generic launchpad acting as a portal for meme-based token creation and trading.",
+      "website_url": "https://97pad.xyz/",
+      "twitter_handle": "97_pad",
+      "reviewed_at": "2026-10-08T10:51:36.396Z"
+    },
+    {
+      "name": "Numen",
+      "ticker": "NUMEN",
+      "mint": "0x912d36d9c6024c976745463491d92979299f27c3",
+      "quality_score": 3,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "AI-driven agent that executes trades on external stocks, burns tokens, and redistributes fees to holders.",
+      "red_flags": [
+        "vague 'thinking' mechanism",
+        "unverifiable way stocks are bought",
+        "high-level marketing jargon"
+      ],
+      "one_line_pitch": "An AI agent-themed coin that claims to trade real-world stocks and redistribute fees via a 'mind' mechanism.",
+      "website_url": null,
+      "twitter_handle": "numenfamily",
+      "reviewed_at": "2026-10-08T10:43:37.113Z"
+    },
+    {
+      "name": "Nanserd",
+      "ticker": "NANSERD",
+      "mint": "0x8a2be3251ebe8acffb8073d597e6a028ff2bf036",
+      "quality_score": 2,
+      "is_real_tech": false,
+      "category": "impersonator",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Claims to provide secure, private-infrastructure AI agents, but incorrectly claims to 'build on Robinhood' (a centralized exchange/app, not a specialized AI infra).",
+      "red_flags": [
+        "brand hijack risk (Robinhood)",
+        "vague infrastructure claims",
+        "confuses deployment layer with execution layer"
+      ],
+      "one_line_pitch": "Private AI agents for enterprise, claiming a way to build or deploy on Robinhood's ecosystem.",
+      "website_url": null,
+      "twitter_handle": "nanserd",
+      "reviewed_at": "2026-10-08T10:39:53.503Z"
+    },
+    {
+      "name": "Google Gemini",
+      "ticker": "Gemini",
+      "mint": "HY12bvLrHENUcNqiCSaiiwLA8oBecuS37J3KCV7Wpump",
+      "quality_score": 0,
+      "is_real_tech": false,
+      "category": "impersonator",
+      "chain": "SOLANA",
+      "mechanism_summary": "Uses Google's proprietary Gemini AI model branding/ecosystem names.",
+      "red_flags": [
+        "brand hijack risk",
+        "not a new product, just a brand name"
+      ],
+      "one_line_pitch": "A way to trade a brand name associated with Google's existing AI ecosystem.",
+      "website_url": "https://gemini.google.com/app",
+      "twitter_handle": "geminiapp",
+      "reviewed_at": "2026-10-08T10:38:02.702Z"
+    },
+    {
+      "name": "Ai Dev",
+      "ticker": "AIDEV",
+      "mint": "0xe6fda8b767df299d91d7b1264c5be99beca34d8b",
+      "quality_score": 1,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A marketing narrative claiming the developer is an AI agent, with no actual technical mechanism or product described.",
+      "red_flags": [
+        "purely narrative/meme-based",
+        "no functional product or mechanism",
+        "low market cap/early stage"
+      ],
+      "one_line_pitch": "A meme-driven coin where the 'dev' is an AI agent, lacking any underlying protocol or utility.",
+      "website_url": null,
+      "twitter_handle": "aidev_rh",
+      "reviewed_at": "2026-10-08T10:37:29.703Z"
+    },
+    {
+      "name": "Kineko",
+      "ticker": "KINEKO",
+      "mint": "0xe4ea537853cb06bfd0695bd4640717f3a7b0f91a",
+      "quality_score": 2,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Claims a 'Gold Engine' and gold-backed credit/floor, but lacks a concrete technical mechanism for how gold or credit is managed.",
+      "red_flags": [
+        "vague 'Gold Engine' mechanism",
+        "no clear technical or algorithmic way gold or credit is managed",
+        "future-dated/unrealistic timeline (September 2026)"
+      ],
+      "one_line_pitch": "A gold-themed ecosystem claiming stable floor prices via a non-specific 'Gold Engine' mechanism.",
+      "website_url": null,
+      "twitter_handle": "kinekoworld",
+      "reviewed_at": "2026-10-08T10:35:02.742Z"
+    },
+    {
+      "name": "Margelo",
+      "ticker": "MARGELO",
+      "mint": "0xd0d7dd6118180ae2741a812e11e32cd38fda8849",
+      "quality_score": 1,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A service-based agency offering app development and wayfinding/tooling, rather than a protocol or technical mechanism.",
+      "red_flags": [
+        "service/agency, not a protocol",
+        "no technical mechanism or incentive structure described"
+      ],
+      "one_line_pitch": "A professional mobile development agency/service provider, not a technical protocol or mechanism.",
+      "website_url": null,
+      "twitter_handle": "margelo_com",
+      "reviewed_at": "2026-10-08T10:34:21.410Z"
+    },
+    {
+      "name": "DeyronLabs",
+      "ticker": "DEYRONLABS",
+      "mint": "0xf745819d5303faacf5323e4e49ddba071f901a34",
+      "quality_score": 1,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "No mechanism or product described; it is a brand/content-focused name without any mention of a technical or way or protocol.",
+      "red_flags": [
+        "no mechanism or product described",
+        "purely a brand/handle name",
+        "no technical utility or mechanism mentioned"
+      ],
+      "one_line_pitch": "A content-focused brand name with no underlying protocol or technical mechanism described.",
+      "website_url": null,
+      "twitter_handle": "deyronlabs",
+      "reviewed_at": "2026-10-08T10:31:05.786Z"
+    },
+    {
+      "name": "Ember Fall",
+      "ticker": "EMBERFALL",
+      "mint": "0x739132018b995dff34076f5e6282e5467a961a58",
+      "quality_score": 1,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A narrative-driven memecoin where trading activity or 'lore' is built around certain characters trading existing stock tokens.",
+      "red_flags": [
+        "no actual mechanism beyond narrative",
+        "depends on external assets (Robinhood stocks)",
+        "no product/protocol, just a theme"
+      ],
+      "one_line_pitch": "A character-themed memecoin based on the way certain 'adventurers' trade stocks.",
+      "website_url": null,
+      "twitter_handle": "emberagents",
+      "reviewed_at": "2026-10-08T10:29:10.005Z"
+    },
     {
       "name": "Robincake",
       "ticker": "ROBINCAKE",
