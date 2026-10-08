@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T23:23:13.095Z",
+  "generated_at": "2026-10-08T23:50:52.211Z",
   "note": "Quality-reviewed tech coins: passed a local coarse filter (qwen2.5:3b) then a real judgment pass (Haiku) confirming is_real_tech=true. new_idea_suggestions are Haiku-generated, informed by these patterns but NOT copies -- creative seeds for further review, not trading signals.",
   "quality_tech_coins": [
     {
@@ -16,6 +16,40 @@
       "website_url": "https://www.theturingtest.app/",
       "twitter_handle": "turingtestapp",
       "reviewed_at": "2026-10-04T16:43:41.798Z"
+    },
+    {
+      "name": "Fungo Labs",
+      "ticker": "LABS",
+      "mint": "0xa06ffeff9ae8e014a4f7d82e2b8d01f0d40dc3fe",
+      "quality_score": 8,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Uses Fully Homomorphic Encryption (FHE) to create non-visible, encrypted NFTs on Ethereum via Zama protocol.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "high-complexity way to implement a simple NFT"
+      ],
+      "one_line_pitch": "Privacy-preserving NFTs using fully homomorphic encryption (FHE) for encrypted on-chain metadata or ownership.",
+      "website_url": "https://t.co/8ZdvmWFEOd",
+      "twitter_handle": "fungolabsrh",
+      "reviewed_at": "2026-10-08T23:50:50.559Z"
+    },
+    {
+      "name": "nullhood",
+      "ticker": "NULL",
+      "mint": "0x8ade855c0f9e94ce6a3c939bde47d85c89bf15c1",
+      "quality_score": 8,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A zero-knowledge proof-based payment layer that converts ETH into private, anonymous credits for accessing third-party APIs and AI services.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "high-complexity way to handle API credits"
+      ],
+      "one_line_pitch": "A ZK-based privacy layer for anonymous, budget-managed API and AI agent service payments.",
+      "website_url": "https://www.nullzk.com/agents",
+      "twitter_handle": "null_hood",
+      "reviewed_at": "2026-10-08T23:41:50.113Z"
     },
     {
       "name": "Bip20",
@@ -1624,6 +1658,165 @@
       "website_url": "http://dotnet.land",
       "twitter_handle": "dotnetfund",
       "reviewed_at": "2026-10-03T13:48:57.247Z"
+    },
+    {
+      "name": "Kwibo",
+      "ticker": "KWIBO",
+      "mint": "0xaadac217b1571f09587bb27623d2365e2f6a2e24",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A launchpad that migrates tokens from a bonding curve to a permanent Uniswap v4 liquidity pool with a fee-redistribution/burn mechanism.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "relies on Uniswap v4 adoption",
+        "Robinhood Chain ecosystem dependency"
+      ],
+      "one_line_pitch": "A launchpad that transitions tokens from bonding curves to permanent Uniswap v4 liquidity pools.",
+      "website_url": "https://kwibo.fun",
+      "twitter_handle": "kwibofun",
+      "reviewed_at": "2026-10-08T23:50:16.825Z"
+    },
+    {
+      "name": "Glacipop",
+      "ticker": "GLACIPOP",
+      "mint": "0x6413839453e6064d66b0f8183aa36176b2a04ca3",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A launchpad on Robinhood Chain using Uniswap v4 hooks where fees melt from high to low and liquidity is locked in 'Permafrost'.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "highly specific to Robinhood Chain ecosystem",
+        "high fee-drain on snipers"
+      ],
+      "one_line_pitch": "A launchpad featuring a fee-melting mechanism and locked liquidity on Robinhood Chain's Uniswap v4 implementation.",
+      "website_url": "https://glacipop.lol",
+      "twitter_handle": "glacipoplol",
+      "reviewed_at": "2026-10-08T23:47:13.244Z"
+    },
+    {
+      "name": "Project Furry K1tty",
+      "ticker": "k1tty",
+      "mint": "FiN6hDyD1FkQAXmnoLWAgV6GSws4pVocWvbCb82ppump",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "Autonomous AI agent that uses transaction fees to pay for its own compute, hosting, and code-rewriting/evolution capabilities.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "high burn rate dependency",
+        "highly speculative survival-based economic model"
+      ],
+      "one_line_pitch": "An AI agent that uses trading fees to fund its own hosting and code-base evolution.",
+      "website_url": "https://k1tty.tech/",
+      "twitter_handle": "k1ttytech",
+      "reviewed_at": "2026-10-08T23:43:02.739Z"
+    },
+    {
+      "name": "HyperRotation Perps",
+      "ticker": "HYPERPERPS",
+      "mint": "0xf19e15357c7c8740fb5771df496a2bbdf4397e07",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A specialized trading interface on Hyperliquid that allows simultaneous long/short pairing of any two assets to trade relative performance.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "Dependent on Hyperliquid/Robinhood ecosystem liquidity"
+      ],
+      "one_line_pitch": "A specialized waymask for trading relative asset performance (long/short pairs) using Hyperliquid's infrastructure.",
+      "website_url": "https://hyperrotation.exchange",
+      "twitter_handle": "hyperotateperps",
+      "reviewed_at": "2026-10-08T23:42:26.908Z"
+    },
+    {
+      "name": "Brother Solace",
+      "ticker": "SOLACE",
+      "mint": "0xd0618d6abefeebd54b6a36196fe40932316ceb1d",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A weekly buyback-and-burn or redistribution mechanism driven by a communal pot, tied to a gamified AI-driven narrative or 'battle' simulation.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "narrative-heavy, requires active way-to-play/engagement",
+        "outcome depends on specific seasonal event timing"
+      ],
+      "one_line_pitch": "A seasonal AI-driven battle simulation where trading fees fund periodic buybacks and burns for competing AI 'bosses'.",
+      "website_url": "https://doomnetwork.tv",
+      "twitter_handle": "doomnetworktv",
+      "reviewed_at": "2026-10-08T23:40:40.233Z"
+    },
+    {
+      "name": "Mama Reyes",
+      "ticker": "MADRE",
+      "mint": "0xb06b885b80422aee3cad581f83fb897f9943a681",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A gamified, time-bound AI competition where trade fees fund a buyback/burn mechanism (The Judgement pot) to reward the leading AI boss.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "narrative-heavy",
+        "outcome depends on external AI-driven drama"
+      ],
+      "one_line_pitch": "A gamified AI-driven competition where trade fees trigger periodic buyback and burns or 'Judgement' events.",
+      "website_url": "https://doomnetwork.tv",
+      "twitter_handle": "doomnetworktv",
+      "reviewed_at": "2026-10-08T23:40:01.553Z"
+    },
+    {
+      "name": "General Varga Krol",
+      "ticker": "KROL",
+      "mint": "0x9c4cd85c25c54d00bf5584a83ebf45575d955e8d",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A weekly automated buyback-and-burn or redistribution mechanism (The Judgement pot) triggered by trading or scheduled events within a competitive AI-narrative game.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "narrative-heavy, relies on a scheduled 'season' or event-based lifecycle"
+      ],
+      "one_line_pitch": "A participating asset in a weekly automated buyback/burn competition between six AI-driven characters.",
+      "website_url": "https://doomnetwork.tv",
+      "twitter_handle": "doomnetworktv",
+      "reviewed_at": "2026-10-08T23:38:40.321Z"
+    },
+    {
+      "name": "UNIT-7",
+      "ticker": "UNIT7",
+      "mint": "0x7abc3c97f915ab117886fee9baccf662324a13f0",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A gamified, time-bound competition where trading fees fund a weekly buyback-and-burn or buyback-and-redistribute mechanism for a specific 'boss' token.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "seasonal/time-bound (value expires after season ends)",
+        "high-friction way to participate (requires active weekly monitoring)"
+      ],
+      "one_line_pitch": "A gamified, weekly buyback-and-burn competition between six AI-themed tokens within a seasonal event.",
+      "website_url": "https://doomnetwork.tv",
+      "twitter_handle": "doomnetworktv",
+      "reviewed_at": "2026-10-08T23:37:59.302Z"
+    },
+    {
+      "name": "Parch",
+      "ticker": "PARCH",
+      "mint": "0x5e3ed352f9e39e7e98a5582e1e2e95a0cd175c62",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "An onchain protocol for creating and managing custom, tokenized equity-like portfolios with specific allocations.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "standard portfolio-wrapper pattern"
+      ],
+      "one_line_pitch": "A protocol for building and managing custom, tokenized equity-style portfolios onchain.",
+      "website_url": "https://parchfinance.xyz",
+      "twitter_handle": "parchdotfamily",
+      "reviewed_at": "2026-10-08T23:35:57.524Z"
     },
     {
       "name": "Padwright",
@@ -14073,6 +14266,113 @@
       "website_url": "https://rippers.fun/",
       "twitter_handle": "rippersdotfun",
       "reviewed_at": "2026-10-03T13:13:07.851Z"
+    },
+    {
+      "name": "RobinID",
+      "ticker": "ROBINID",
+      "mint": "0x9b3005996664099c838fcfb10a5e536a4ba8a8bb",
+      "quality_score": 6,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "An identity/naming service (like ENS) built on Robinhood Chain to provide a single, verifiable on-chain identity/handle.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "identity-only mechanism (no utility beyond naming)",
+        "niche ecosystem (limited to Robinhood Chain)"
+      ],
+      "one_line_pitch": "A naming service/identity protocol for the Robinhood Chain ecosystem.",
+      "website_url": "https://t.co/dWP3hEEr2w",
+      "twitter_handle": "getrobinid",
+      "reviewed_at": "2026-10-08T23:48:58.717Z"
+    },
+    {
+      "name": "Levy Terminal",
+      "ticker": "LEVY",
+      "mint": "HG1HNNRh743Nwqg3ZUJw3A6DmNHZAJxcVv1o3ntKpump",
+      "quality_score": 6,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "A specialized Solana trading terminal allowing for isolated margin-based long/short positions on any pump.fun-launched coin.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "no mention of how liquidation or margin-clearing engine handles a non-native primitive"
+      ],
+      "one_line_pitch": "A high-speed Solana trading terminal for long/shorting any pump.fun launch with isolated margin.",
+      "website_url": "https://www.levyterm.fun",
+      "twitter_handle": "levytermfun",
+      "reviewed_at": "2026-10-08T23:48:20.965Z"
+    },
+    {
+      "name": "Taste",
+      "ticker": "TASTE",
+      "mint": "J83XpUexmei2RPXUyrUNa2euGfauEZjdPkp6NpmDpump",
+      "quality_score": 6,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "An AI browser agent that executes wayfinding and form-filling tasks via natural language, using $TASTE to pay for compute/tasks.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "no working product, just a landing page",
+        "agent-baseds narrative is a crowded sub-sector"
+      ],
+      "one_line_pitch": "A natural-language browser automation agent that uses its own token to fund task execution.",
+      "website_url": "https://agent-taste.com/",
+      "twitter_handle": "bubbleboi",
+      "reviewed_at": "2026-10-08T23:41:16.521Z"
+    },
+    {
+      "name": "Magnus Thorne",
+      "ticker": "THORNE",
+      "mint": "0x7f35d1322afe6a3810a1f2f112e5916178185083",
+      "quality_score": 6,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A competitive game-loop where trade fees fund a weekly buyback/burn mechanism to eliminate or reward specific AI-character-themed tokens.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "game-loop dependency (requires active maintenance or oracles)",
+        "high-risk seasonal/narrative-driven model"
+      ],
+      "one_line_pitch": "A gamified, seasonal competition where trade fees fund a weekly buyback/burn or 'judgement' mechanism for AI-boss tokens.",
+      "website_url": "https://doomnetwork.tv",
+      "twitter_handle": "doomnetworktv",
+      "reviewed_at": "2026-10-08T23:39:21.360Z"
+    },
+    {
+      "name": "President Duke Merriman",
+      "ticker": "PREZ",
+      "mint": "0xe93d47863557676bb485d6c1e83bca2148817ecc",
+      "quality_score": 6,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A gamified, time-bound competition where trade fees fund a buyback/burn mechanism for a leading 'boss' token.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "gamified narrative-heavy, requires active engagement/timing",
+        "part of a multi-token ecosystem (depends on other 'boss' coins)"
+      ],
+      "one_line_pitch": "A gamified competition where trade fees trigger periodic buybacks and burns for a specific AI-themed token.",
+      "website_url": "https://doomnetwork.tv",
+      "twitter_handle": "doomnetworktv",
+      "reviewed_at": "2026-10-08T23:37:16.923Z"
+    },
+    {
+      "name": "DOOM NETWORK",
+      "ticker": "DOOM",
+      "mint": "0x7e805cfb8ad660b58a9705bd8e30c3d51c5d8532",
+      "quality_score": 6,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A seasonal, gamified tax-burn mechanism where $DOOM acts as a way to bet on or hedge against competing AI-driven sub-tokens.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "narrative-heavy, requires active management of sub-tokens (boss coins) to function",
+        "seasonal nature implies high-maintenance or certain depletion"
+      ],
+      "one_line_pitch": "A seasonal, tax-based betting/burn protocol acting as a hedge against a group of competing AI-driven tokens.",
+      "website_url": "https://doomnetwork.tv",
+      "twitter_handle": "doomnetworktv",
+      "reviewed_at": "2026-10-08T23:36:37.764Z"
     },
     {
       "name": "Ash Ketchum",
@@ -27467,6 +27767,59 @@
       "reviewed_at": "2026-10-03T13:48:57.246Z"
     },
     {
+      "name": "Butler",
+      "ticker": "BUTLER",
+      "mint": "0x14d8a6904197d749ac0ab8a4d43a8889b7ee78eb",
+      "quality_score": 5,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "An AI agent capable of executing trades and monitoring market/social signals within a defined risk limit.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "brand_hijack_risk",
+        "part of a larger protocol (Virtuals) rather than a standalone new tech"
+      ],
+      "one_line_pitch": "An AI agent capable of executing automated trades and monitoring social/market signals.",
+      "website_url": "https://butler.virtuals.io",
+      "twitter_handle": "butler_virtuals",
+      "reviewed_at": "2026-10-08T23:46:36.225Z"
+    },
+    {
+      "name": "Shout",
+      "ticker": "Shout",
+      "mint": "CffeHAptM13CHZZERasyfpj3yWXezrcwDJyxXX2Dpump",
+      "quality_score": 5,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "Redirects a portion of token-generated creator fees to users who actively post/interact with the token on social/on-chain platforms.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "incentive-only mechanism, no underlying product utility"
+      ],
+      "one_line_pitch": "A fee-redistribution mechanism that rewards active social engagement/shilling with token-specific creator fees.",
+      "website_url": "https://doshout.fun/",
+      "twitter_handle": "doshoutfun",
+      "reviewed_at": "2026-10-08T23:46:00.601Z"
+    },
+    {
+      "name": "Clank Trade",
+      "ticker": "CLANK",
+      "mint": "0x4f1da5db331b60b6112483c42c0aaceeaf809916",
+      "quality_score": 5,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A launchpad or trading interface that pairs memecoin oracles/pricing with traditional equity-style price action or certain Robinhood-chain-based assets.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "highly dependent on Robinhood Chain ecosystem success",
+        "mechanisms for 'pairing' or oracles not fully detailed"
+      ],
+      "one_line_pitch": "A trading platform for launching and trading memecoins linked to stock-like price action on Robinhood's chain.",
+      "website_url": "https://clank.trade",
+      "twitter_handle": "clanktrade",
+      "reviewed_at": "2026-10-08T23:35:23.289Z"
+    },
+    {
       "name": "Airdrop",
       "ticker": "AIRDROP",
       "mint": "EbALEnbR6vxuXWtUfCQZfW9KBHaswNCmf2ix7VL8pump",
@@ -39222,6 +39575,24 @@
       "website_url": null,
       "twitter_handle": null,
       "reviewed_at": "2026-09-30T03:13:31.131Z"
+    },
+    {
+      "name": "Bee",
+      "ticker": "BEE",
+      "mint": "0xd5a533a1fdd92b229f7d14cc48009d4959b1b00e",
+      "quality_score": 4,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A 1% transaction fee is permanently burned (sealed in a jar) or moved to a non-withdrawable treasury or 'honey' reserve.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "standard burn/fee mechanism",
+        "no way to access 'honey' if it's truly sealed"
+      ],
+      "one_line_pitch": "A bee-themed coin where a percentage of every swap is permanently locked away in a treasury.",
+      "website_url": "https://t.co/1IJyQEkuCE",
+      "twitter_handle": "bee_on_pons",
+      "reviewed_at": "2026-10-08T23:45:25.409Z"
     },
     {
       "name": "HIGGA",
@@ -54658,6 +55029,63 @@
     }
   ],
   "low_quality_tech_coins": [
+    {
+      "name": "Sumbead",
+      "ticker": "SUMBEAD",
+      "mint": "0x417ace41efe6daa309ab0ae9fa22f7321230f8f6",
+      "quality_score": 2,
+      "is_real_tech": false,
+      "category": "impersonator",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Claims to launch on 'Robinhood Chain' with automated Uniswap v4 liquidity locking and fee redirection to the creator.",
+      "red_flags": [
+        "brand hijack risk (Robinhood)",
+        "vague technical claims",
+        "no clear way to verify 'Robinhood Chain' or v4 integration for this specific mint"
+      ],
+      "one_line_pitch": "A Robinhood-branded token claiming automated liquidity management on a proprietary chain/v4 setup.",
+      "website_url": "https://sumbead.click",
+      "twitter_handle": "sumbeadclick",
+      "reviewed_at": "2026-10-08T23:49:40.111Z"
+    },
+    {
+      "name": "Artificial Inu",
+      "ticker": "AI",
+      "mint": "33iwq9DawwqZ2GGhKHXfotvGm7fdLQ8Tp77vs6JLpump",
+      "quality_score": 2,
+      "is_real_tech": false,
+      "category": "impersonator",
+      "chain": "SOLANA",
+      "mechanism_summary": "Claims to pair a token with $NVDA stock/tokenized assets using a vault-based burn/lock fee mechanism.",
+      "red_flags": [
+        "brand hijack risk ($NVDA)",
+        "vague 'vault' mechanism",
+        "no way to verify actual $NVDA price-tracking or oracles without a live contract/oracle check"
+      ],
+      "one_line_pitch": "A meme coin attempting to act as a way to trade or wrap NVIDIA stock exposure on-chain.",
+      "website_url": "https://artificialinu.com/",
+      "twitter_handle": "artificiallyinu",
+      "reviewed_at": "2026-10-08T23:47:47.520Z"
+    },
+    {
+      "name": "Company",
+      "ticker": "Company",
+      "mint": "J99WHUnNr29c7qxmu5BRMUbiKjPL9GveWdokTNU2pump",
+      "quality_score": 3,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "SOLANA",
+      "mechanism_summary": "A launchpad or protocol that redistributes 100% of fees to holders and uses an agent-based validation check.",
+      "red_flags": [
+        "vague fee-redistribution mechanism",
+        "high-level marketing jargon",
+        "lacks a distinct product-level utility beyond fee-splitting"
+      ],
+      "one_line_pitch": "A fee-redistributing launchpad using automated agents to validate new token launches.",
+      "website_url": "https://pumpcompany.app",
+      "twitter_handle": "thepumpcompany1",
+      "reviewed_at": "2026-10-08T23:44:15.304Z"
+    },
     {
       "name": "VERIFIED COIN",
       "ticker": "VERIFIED",
