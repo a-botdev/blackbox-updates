@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T14:50:22.106Z",
+  "generated_at": "2026-10-08T15:23:17.739Z",
   "note": "Quality-reviewed tech coins: passed a local coarse filter (qwen2.5:3b) then a real judgment pass (Haiku) confirming is_real_tech=true. new_idea_suggestions are Haiku-generated, informed by these patterns but NOT copies -- creative seeds for further review, not trading signals.",
   "quality_tech_coins": [
     {
@@ -16,6 +16,24 @@
       "website_url": "https://www.theturingtest.app/",
       "twitter_handle": "turingtestapp",
       "reviewed_at": "2026-10-04T16:43:41.798Z"
+    },
+    {
+      "name": "Ghost Card",
+      "ticker": "GHOST",
+      "mint": "8pk7DzjKLPNuxaRMfN9X6AsewEqdxiYM6y4BFXGPpump",
+      "quality_score": 8,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "AI agents acting as cardholders, where trading fees fund a real-world debit card used for autonomous, auditable merchant transactions.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "high-complexity execution risk",
+        "requires off-chain/on-chain way-to-pay integration"
+      ],
+      "one_line_pitch": "AI agents with autonomous debit cards funded by their own token trading fees.",
+      "website_url": "https://ghostcard.network/",
+      "twitter_handle": "launchaghost",
+      "reviewed_at": "2026-10-08T15:04:42.598Z"
     },
     {
       "name": "hynix",
@@ -1418,6 +1436,112 @@
       "website_url": "http://dotnet.land",
       "twitter_handle": "dotnetfund",
       "reviewed_at": "2026-10-03T13:48:57.247Z"
+    },
+    {
+      "name": "∞⟨X∴↯⟩∞",
+      "ticker": "obel",
+      "mint": "HMuSJ7L7CsrB6nvHZmWWTbzoGmpJ6rR92EgzJsqGkGTj",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "Autonomous agents that own Twitter accounts, pay for posts via transaction fees, and monitor live web content.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "high-effort implementation requirement",
+        "dependency on external API (X/Twitter)"
+      ],
+      "one_line_pitch": "Autonomous wayve-style agents that use protocol fees to fund their own social media presence and monitoring.",
+      "website_url": "https://worldwideweb.sh/x",
+      "twitter_handle": "obel_www",
+      "reviewed_at": "2026-10-08T15:13:51.872Z"
+    },
+    {
+      "name": "Atopia",
+      "ticker": "ATOPIA",
+      "mint": "6PjkqxxKr3pjRv99MiLaxTm1Ltw8U2Te2vSE1biHpump",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "Uses crowdsourced smartphone sensor/camera data (user-uploaded clips) to create a real-time, high-resolution physical AI mapping/sensor network.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "high-difficulty execution (requires massive user-base/incentives)",
+        "heavy reliance on frequent user-uploaded data/uploads"
+      ],
+      "one_line_pitch": "A crowdsourced, real-time physical AI sensor network using existing smartphone hardware/camera data.",
+      "website_url": "https://atopiadata.com/",
+      "twitter_handle": "atopiadata",
+      "reviewed_at": "2026-10-08T15:12:38.187Z"
+    },
+    {
+      "name": "digital+petals",
+      "ticker": "DP",
+      "mint": "tnWmJZ6ChCvW1wfkPB72U6MfDix63VFZEJefAkFpump",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "An automated market maker (AMM) designed to eliminate the need for external arbitrage or certain types of arbitrage-driven rebalancing.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "high-level claim without specific math/logic provided"
+      ],
+      "one_line_pitch": "A specialized AMM protocol designed to remove the need for external arbitrageurs.",
+      "website_url": null,
+      "twitter_handle": null,
+      "reviewed_at": "2026-10-08T15:09:44.287Z"
+    },
+    {
+      "name": "Duel",
+      "ticker": "DUEL",
+      "mint": "5As9uZTfP2mh83v5SJ4L6929oBaYJYdUfTMVWButpump",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "A decentralized prediction market or perps-layer where every token/ticker has a dedicated long/short oracles-based trading pair.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "high-complexity execution risk",
+        "requires heavy oracles/liquidity or way more than a standard swap"
+      ],
+      "one_line_pitch": "A specialized derivatives layer allowing long/short speculation on any memecoin.",
+      "website_url": "https://tryduel.trade/",
+      "twitter_handle": "launchonduel",
+      "reviewed_at": "2026-10-08T15:07:56.452Z"
+    },
+    {
+      "name": "Tenor",
+      "ticker": "TENOR",
+      "mint": "vdzvLw7m4y1dyJr9RSVuP1p2ap5W28Hz6M9hbYNpump",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "A weekly sealed-bid auction mechanism to determine a single, fixed interest rate for 4-week USDC loans.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "niche use-case (specialized lending tool rather than a broad liquid pool)"
+      ],
+      "one_line_pitch": "A specialized fixed-rate lending protocol using a weekly sealed-bid auction mechanism.",
+      "website_url": "https://tenor.ink/",
+      "twitter_handle": "tenordotink",
+      "reviewed_at": "2026-10-08T15:00:22.600Z"
+    },
+    {
+      "name": "Zion Thomas",
+      "ticker": "ANSEM",
+      "mint": "HpniuYUybmqPKFGrpg3FF9zDkoA7VxNX5Go6V1DMRcSa",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "An 'agency-based' model where coins use a deterministic policy engine (a 'mind') via an isolated signer to execute certain decisions.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "very low market cap (high-risk/high-volatility)",
+        "abstract 'mind' concept may be hard to implement"
+      ],
+      "one_line_pitch": "A way to implement deterministic, policy-driven execution or 'minds' for individual tokens on Solana.",
+      "website_url": "https://www.agencypad.fun/coin/HpniuYUybmqPKFGrpg3FF9zDkoA7VxNX5Go6V1DMRcSa",
+      "twitter_handle": "zionthomas100x",
+      "reviewed_at": "2026-10-08T14:56:46.885Z"
     },
     {
       "name": "StockFount",
@@ -11384,6 +11508,112 @@
       "website_url": "https://rippers.fun/",
       "twitter_handle": "rippersdotfun",
       "reviewed_at": "2026-10-03T13:13:07.851Z"
+    },
+    {
+      "name": "Streamly",
+      "ticker": "Streamly",
+      "mint": "un4mJZptqk6djrg6rA366ZXVvPgy29Ro9XWyn5ypump",
+      "quality_score": 6,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "Platform for launching and interacting with AI-agent streamers that possess a persistent identity, voice, and dedicated way to tip/back.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "reliance on LLM/multimodal agent latency",
+        "highly competitive niche (AI agents/streamers)"
+      ],
+      "one_line_pitch": "A platform for launching AI-driven live-streamer agents with persistent chat-interactable personae.",
+      "website_url": "https://streamly.lol/",
+      "twitter_handle": "streamlypad",
+      "reviewed_at": "2026-10-08T15:13:15.488Z"
+    },
+    {
+      "name": "CordPay",
+      "ticker": "CORD",
+      "mint": "AnBoML9YzvUSvB8xVF8EdtuY6NjzM2qcWXQa9eBYKmHV",
+      "quality_score": 6,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "A launchpad mechanism where creator fees are redistributed to a specific Discord user or handle via an integrated payment/launch layer.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "service-dependent (requires Discord ecosystem or custom integration)"
+      ],
+      "one_line_pitch": "A Discord-integrated launchpad that redirects creator-driven fees back to specific Discord users.",
+      "website_url": "https://cordpay.lol",
+      "twitter_handle": "trycordpay",
+      "reviewed_at": "2026-10-08T15:11:18.684Z"
+    },
+    {
+      "name": "Miners",
+      "ticker": "MINERS",
+      "mint": "2A6yVMgXAcskBKRuz9G7ebraRKb1EefcLSNaCfL9pump",
+      "quality_score": 6,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "Users accumulate 'hashrate' via token balance; a lottery-style redistribution or fee-pot or 'block' or 'tower' system rewards a single winner every 10 minutes.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "high-frequency redistribution may lead to high-velocity sell pressure",
+        "mechanic relies on a scheduled 'pot' or 'block' reset"
+      ],
+      "one_line_pitch": "A lottery-based redistribution mechanism where token balance acts as mining hashrate for a periodic pot.",
+      "website_url": "theminers.fun",
+      "twitter_handle": "miners",
+      "reviewed_at": "2026-10-08T15:06:48.376Z"
+    },
+    {
+      "name": "Starr",
+      "ticker": "Starr",
+      "mint": "4fruTn1odjbrvNf5c4vg6kx64YfcvvWcuKPJmDPm6f84",
+      "quality_score": 6,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "A launchpad where every token or 'star' is an AI-generated agent or entity, potentially with automated or AI-driven certaintly or logic.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "no working product, just a landing page",
+        "limited info on actual AI-agent utility vs simple generation"
+      ],
+      "one_line_pitch": "An AI-agent launchpad where every token represents a unique, AI-generated entity.",
+      "website_url": "https://usestarr.org/",
+      "twitter_handle": "usestarr",
+      "reviewed_at": "2026-10-08T15:04:04.135Z"
+    },
+    {
+      "name": "Swipe Launchpad",
+      "ticker": "SWIPE",
+      "mint": "S4DwGRAM46cPxcadXDFUiRfLcVu4VJ2fypXvTvGmjtT",
+      "quality_score": 6,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "Uses card-based payments (Apple/Google Pay) to trigger launches and off-ramps creator fees directly back to a debit card via a hidden wallet.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "high-level abstraction (no seed phrase/wallet management ability mentioned)",
+        "reliance on external payment processor/bridge for fee-to-fiat or fee-to-card"
+      ],
+      "one_line_pitch": "A payment-to-launchpad that bypasses wallet management by using credit cards for launching and receiving fees.",
+      "website_url": "https://swipepad.fun/",
+      "twitter_handle": "swipepadsol",
+      "reviewed_at": "2026-10-08T14:58:34.574Z"
+    },
+    {
+      "name": "AgentNpad",
+      "ticker": "AGENTN",
+      "mint": "3ZyFFfKUNFEMp4KCWv6DGxtGgNGDjb5XG6SXmTyphvdN",
+      "quality_score": 6,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "Autonomous AI agents capable of generating content, interacting with users, and managing their own token/NFT-based ecosystem.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "high execution risk (managing autonomous social/on-chain activity requires high-frequency or complex oracles)"
+      ],
+      "one_line_pitch": "A platform for autonomous AI agents that manage their own social presence and token-gated NFT drops.",
+      "website_url": "https://agentnpad.com/",
+      "twitter_handle": "agentnpad",
+      "reviewed_at": "2026-10-08T14:57:21.117Z"
     },
     {
       "name": "Rouma",
@@ -23588,6 +23818,78 @@
       "reviewed_at": "2026-10-03T13:48:57.246Z"
     },
     {
+      "name": "nadiro",
+      "ticker": "nadiro",
+      "mint": "3CB7BgF5VZx7mRDKJXTWKXvjyFqvPqQaUaQYTUVbpump",
+      "quality_score": 5,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "A fee-pool executes buy orders only when price drops 20% from a local high; no programmed sell instruction for bought tokens.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "no way to exit if price never recovers",
+        "depends entirely on fee-pool accumulation speed"
+      ],
+      "one_line_pitch": "A fee-based buyback mechanism triggered specifically by 20% price retracements from local highs.",
+      "website_url": "https://nadiro.fun/",
+      "twitter_handle": "nadirofun",
+      "reviewed_at": "2026-10-08T15:09:11.787Z"
+    },
+    {
+      "name": "Launch4Free",
+      "ticker": "FREE",
+      "mint": "8zGTLnYbAdGRdssFRGqPk2WSsHyUzGkDavzNzomXfree",
+      "quality_score": 5,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "A treasury-backed launchpad where fees from existing tokens fund the deployment costs of new tokens, subsidizing certain launches.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "not a new protocol, but a way to use an existing one (Pump.fun)",
+        "treasury-dependent (requires enough inflow to sustain free launches)"
+      ],
+      "one_line_pitch": "A subsidized launchpad where a community treasury covers deployment fees to enable free token launches.",
+      "website_url": "https://launch4free.fun/",
+      "twitter_handle": "launch4free",
+      "reviewed_at": "2026-10-08T15:02:53.270Z"
+    },
+    {
+      "name": "Gacha Strategy",
+      "ticker": "GSTR",
+      "mint": "EH7hgdGQMhzM53s4DtXZwvy8YmW8AEZBH8Tc4Tacpump",
+      "quality_score": 5,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "Uses a 2% trading fee to fund a vault that triggers periodic $1,000 lottery-style gacha prize draws.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "token not yet live (pre-launch/no CA)",
+        "dependent on external ecosystem (Collector Crypt/CARDS)"
+      ],
+      "one_line_pitch": "A trading-fee-driven lottery mechanism where trade volume funds periodic gacha-style prize distributions.",
+      "website_url": "https://gachastrategy.fun/",
+      "twitter_handle": "gachastrategyx",
+      "reviewed_at": "2026-10-08T15:02:18.028Z"
+    },
+    {
+      "name": "normie.si",
+      "ticker": "normie",
+      "mint": "24iUTQU6FWgzttGSWsZjzEZiB1ySfVKDpGJQdzRjpump",
+      "quality_score": 5,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "An AI agent that uses transaction fees to execute trades, acting as a personified way to track fee-redistribution-based trading bot logic.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "no working product, just a personified agent narrative",
+        "high-risk reliance on fee-driven execution"
+      ],
+      "one_line_pitch": "An AI agent that uses its own earned fees to trade certain coins or waypoints.",
+      "website_url": "https://normie.si",
+      "twitter_handle": "normie_si",
+      "reviewed_at": "2026-10-08T14:57:57.009Z"
+    },
+    {
       "name": "T-Minus",
       "ticker": "T-MINUS",
       "mint": "DgxAfx5eMWFH5ij2Jwh5gsDJ41jGhTKQu6CqojG8pump",
@@ -34807,6 +35109,24 @@
       "website_url": null,
       "twitter_handle": null,
       "reviewed_at": "2026-09-30T03:13:31.131Z"
+    },
+    {
+      "name": "Locked Pad",
+      "ticker": "LOCK",
+      "mint": "2mTA5VgC2uSoQvxT7wbGKEgM7Z1p9NsVpBNTpmjrpump",
+      "quality_score": 4,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "A launchpad toolset that uses a single-transaction mechanism to instantly lock or burn a developer's initial supply.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "tool vs endorsement (only addresses one risk vector)",
+        "single-tx promise requires specific smart contract implementation"
+      ],
+      "one_line_pitch": "A launchpad utility focused on preventing dev dumps via instant supply locks or burns.",
+      "website_url": "https://lockedpad.fun/",
+      "twitter_handle": "lockeddotfun",
+      "reviewed_at": "2026-10-08T15:10:53.018Z"
     },
     {
       "name": "Crutch",
@@ -50010,6 +50330,191 @@
     }
   ],
   "low_quality_tech_coins": [
+    {
+      "name": "Ouwee",
+      "ticker": "DJCECE",
+      "mint": "4Y6sTcqwiqnVQ5RjZcbfz6uEo4pQUPBEni96zTjMpump",
+      "quality_score": 1,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "SOLANA",
+      "mechanism_summary": "A person-based meme/creator coin focused on lifestyle/touring narrative with community fee redistribution.",
+      "red_flags": [
+        "no technical mechanism or product, just a personality/narrative",
+        "high-risk personality-driven meme"
+      ],
+      "one_line_pitch": "A personality-based meme coin centered on a creator's lifestyle and community-led fee giveaways.",
+      "website_url": null,
+      "twitter_handle": null,
+      "reviewed_at": "2026-10-08T15:14:30.226Z"
+    },
+    {
+      "name": "Team SI",
+      "ticker": "SI",
+      "mint": "CfPw8WouChtH7WegV8oYydCvJ1DnJbPZf9dQ7EpmpZ6Z",
+      "quality_score": 2,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "SOLANA",
+      "mechanism_summary": "No specific mechanism or product or utility described; appears to be a generic name/brand or a way to access OTC desk services.",
+      "red_flags": [
+        "no mechanism or product described",
+        "empty description",
+        "likely a way-to-get-tokens or a generic brand name"
+      ],
+      "one_line_pitch": "A generic brand or utility token with no clearly defined technical mechanism or product utility.",
+      "website_url": "https://otcdesks.cash/coin/CfPw8WouChtH7WegV8oYydCvJ1DnJbPZf9dQ7EpmpZ6Z",
+      "twitter_handle": null,
+      "reviewed_at": "2026-10-08T15:11:56.477Z"
+    },
+    {
+      "name": "FOMO",
+      "ticker": "FOMO",
+      "mint": "2rr624zoHmsxJZ6b8Monhu2qVVoffYdGEgh1B5Kapump",
+      "quality_score": 1,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "SOLANA",
+      "mechanism_summary": "No mechanism or product described; purely a marketing-led way of describing a trading app/user experience.",
+      "red_flags": [
+        "no mechanism or product described",
+        "purely a marketing/narrative claim"
+      ],
+      "one_line_pitch": "A generic way to market a trading interface, lacking any underlying technical or mechanical distinction.",
+      "website_url": "https://fomo.family/",
+      "twitter_handle": "fomo",
+      "reviewed_at": "2026-10-08T15:10:16.097Z"
+    },
+    {
+      "name": "Meme Stock Treasury Reserve",
+      "ticker": "MSTR",
+      "mint": "3JBEBvb4ksnsnSZ43oGqWNrCKTukCjaKbRfd34A1pump",
+      "quality_score": 2,
+      "is_real_tech": false,
+      "category": "impersonator",
+      "chain": "SOLANA",
+      "mechanism_summary": "A meme-based imitation of MicroStrategy's (MSTR) Bitcoin treasury strategy, applied to a Solana-based reserve.",
+      "red_flags": [
+        "brand hijack risk (MicroStrategy/MSTR)",
+        "no actual mechanism beyond a narrative/vibe",
+        "low-effort way to use existing Bitcoin-frenzy"
+      ],
+      "one_line_pitch": "A Solana-based tribute to the MicroStrategy (MSTR) way of hoarding assets, using meme-driven treasury narratives.",
+      "website_url": "https://mstrsol.fun",
+      "twitter_handle": "sol_mstr",
+      "reviewed_at": "2026-10-08T15:08:33.995Z"
+    },
+    {
+      "name": "Parallax",
+      "ticker": "PARALLAX",
+      "mint": "GyRYrE2v55tBr9rikczXHEfwtRVARyC2bMgc5qs6mLAX",
+      "quality_score": 2,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "SOLANA",
+      "mechanism_summary": "A launchpad that bypasses presales by deploying tokens directly onto existing pump.fun bonding curves.",
+      "red_flags": [
+        "circular logic (it is a launchpad for a launchpad)",
+        "no new liquidity mechanism, just a deployment method"
+      ],
+      "one_line_pitch": "A deployment toolset that uses pump.fun's own bonding curve mechanism to skip any presale/allocation phase.",
+      "website_url": "https://parallaxlaunch.fun/",
+      "twitter_handle": "parallaxlaunch",
+      "reviewed_at": "2026-10-08T15:07:25.250Z"
+    },
+    {
+      "name": "fomonsters",
+      "ticker": "FOMONSTRS",
+      "mint": "H8uFPGUFAs9EJ93kfjGh2Wh4c52Eo7uB77Djs7Thpump",
+      "quality_score": 2,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "SOLANA",
+      "mechanism_summary": "An NFT collection where a single monster is minted per wallet based on a user-submitted 'thesis' string.",
+      "red_flags": [
+        "no working product, just a landing page",
+        "lacks a technical mechanism beyond standard NFT metadata",
+        "launch pending/no live contract"
+      ],
+      "one_line_pitch": "A way to tie a personal text string to a single-mint NFT or 'monster'.",
+      "website_url": "https://fomonsters.xyz",
+      "twitter_handle": "tryfomonsters",
+      "reviewed_at": "2026-10-08T15:06:03.631Z"
+    },
+    {
+      "name": "Lightcoin",
+      "ticker": "Lightcoin",
+      "mint": "2n7CzykUZtQX7N98cu5XgqYqwqo7SLB2Aq1qcSHRvwuo",
+      "quality_score": 1,
+      "is_real_tech": false,
+      "category": "impersonator",
+      "chain": "SOLANA",
+      "mechanism_summary": "Uses a deterministic policy engine and isolated signer (Agency 'mind' mechanism) but specifically targets the GPT-6/OpenAI narrative.",
+      "red_flags": [
+        "brand hijack risk (OpenAI/GPT-6)",
+        "low-effort name (conflicts with Litecoin)",
+        "narrative-driven rather than product-driven"
+      ],
+      "one_line_pitch": "A brand-hijacking coin using an 'agency-style' deterministic policy engine, themed around a hypothetical GPT-6 release.",
+      "website_url": "https://www.agencypad.fun/coin/2n7CzykUZtQX7N98cu5XgqYqwqo7SLB2Aq1qcSHRvwuo",
+      "twitter_handle": "turingtestsol",
+      "reviewed_at": "2026-10-08T15:05:24.146Z"
+    },
+    {
+      "name": "Meme Stock Treasury Reserve",
+      "ticker": "MSTR",
+      "mint": "8Bz8RT35XrgoRhnwx2gGUm2mR131Xtdx6hwJKGZWpump",
+      "quality_score": 1,
+      "is_real_tech": false,
+      "category": "impersonator",
+      "chain": "SOLANA",
+      "mechanism_summary": "Directly copies the MicroStrategy (MSTR) Bitcoin treasury model, applying the 'reserve' narrative to a Solana-based meme token.",
+      "red_flags": [
+        "brand hijack risk",
+        "no actual mechanism, just a narrative-driven copy of existing equity",
+        "contract address/value TBA (indicates pre-launch/vague state)"
+      ],
+      "one_line_pitch": "A way to play the MicroStrategy/Bitcoin treasury narrative using a Solana-based meme token.",
+      "website_url": "https://mstrsol.fun",
+      "twitter_handle": "sol_mstr",
+      "reviewed_at": "2026-10-08T15:01:38.271Z"
+    },
+    {
+      "name": "$MARSCOIN",
+      "ticker": "MARSCOIN",
+      "mint": "AHZMRvg1R5ucxu3pWe68TVEk9jNTUf8d6idrqEpZpump",
+      "quality_score": 1,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "SOLANA",
+      "mechanism_summary": "A 3D WebGL-rendered Mars, but the token itself has no functional utility or mechanism beyond being a visual presentation.",
+      "red_flags": [
+        "no functional mechanism",
+        "purely visual/cosmetic"
+      ],
+      "one_line_pitch": "A visual-heavy meme coin featuring an interactive 3D WebGL Mars model.",
+      "website_url": "https://marscoin-alpha.vercel.app/",
+      "twitter_handle": "arbixss",
+      "reviewed_at": "2026-10-08T15:01:00.197Z"
+    },
+    {
+      "name": "Google Gemini",
+      "ticker": "Gemini",
+      "mint": "z4X1HEgj4fyNFVgpWF41mVn8G4cZNCHvfuSrdojpump",
+      "quality_score": 0,
+      "is_real_tech": false,
+      "category": "impersonator",
+      "chain": "SOLANA",
+      "mechanism_summary": "Uses marketing copy from Google's Gemini AI product, including fake sub-models like 'Nano Banana'.",
+      "red_flags": [
+        "brand hijack risk",
+        "not a new product, just a brand name"
+      ],
+      "one_line_pitch": "A way to trade a brand name (Google Gemini) that already exists in a different industry.",
+      "website_url": "https://gemini.google.com/",
+      "twitter_handle": "geminiapp",
+      "reviewed_at": "2026-10-08T14:59:12.403Z"
+    },
     {
       "name": "Jaco Fonta",
       "ticker": "JACOFONTA",
