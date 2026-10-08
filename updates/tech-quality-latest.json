@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T12:49:54.197Z",
+  "generated_at": "2026-10-08T13:20:16.403Z",
   "note": "Quality-reviewed tech coins: passed a local coarse filter (qwen2.5:3b) then a real judgment pass (Haiku) confirming is_real_tech=true. new_idea_suggestions are Haiku-generated, informed by these patterns but NOT copies -- creative seeds for further review, not trading signals.",
   "quality_tech_coins": [
     {
@@ -16,6 +16,60 @@
       "website_url": "https://www.theturingtest.app/",
       "twitter_handle": "turingtestapp",
       "reviewed_at": "2026-10-04T16:43:41.798Z"
+    },
+    {
+      "name": "BunkerCoin",
+      "ticker": "BUNKER",
+      "mint": "BcFeranYgKCHeEJYdJwebbSx8p5qGSaxLdsxE8gJpump",
+      "quality_score": 8,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "A specialized L1 blockchain protocol using radio wave propagation for data transmission to ensure connectivity during internet/EMP-driven blackouts.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "highly ambitious/high-difficulty implementation",
+        "no current working product, only a technical vision"
+      ],
+      "one_line_pitch": "An internet-independent L1 blockchain using radio waves for censorship-resistant, disaster-proof communication.",
+      "website_url": "https://bunkercoin.com/",
+      "twitter_handle": "bunkercoin_io",
+      "reviewed_at": "2026-10-08T13:19:58.517Z"
+    },
+    {
+      "name": "bunker.markets",
+      "ticker": "BUNKER",
+      "mint": "2WNiZqRefcndEA9c1T6A1bdie31pbBGdFQpyR52h9TWr",
+      "quality_score": 8,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "A launchpad using Merkle-tree-based post-quantum signatures (WOTS) and browser-side hash-based receipts to verify certain launch-time certainties.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "heavy reliance on browser-side computation",
+        "high-complexity-to-utility ratio for a launchpad"
+      ],
+      "one_line_pitch": "A launchpad implementing post-quantum, hash-based receipt verification via Merkle trees and one-time keys.",
+      "website_url": "https://bunker.markets/",
+      "twitter_handle": "bunkermarkets",
+      "reviewed_at": "2026-10-08T13:19:23.207Z"
+    },
+    {
+      "name": "dns",
+      "ticker": "dns",
+      "mint": "62BKpm2e9kAMEdRgocT4dbsyvvrdNkd1zpNCRFSMMFKu",
+      "quality_score": 8,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "A protocol where 90% of a coin's trading fees are sent to a specific website's vault, claimable via a single DNS record.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "no working product, just a landing page",
+        "no token for DNS has been deployed yet"
+      ],
+      "one_line_pitch": "A fee-redistribution protocol that routes trading commissions directly to any specified web URL or domain.",
+      "website_url": "https://paydns.xyz",
+      "twitter_handle": "paydnsfun",
+      "reviewed_at": "2026-10-08T13:17:39.867Z"
     },
     {
       "name": "ZeroDev",
@@ -1242,6 +1296,182 @@
       "website_url": "http://dotnet.land",
       "twitter_handle": "dotnetfund",
       "reviewed_at": "2026-10-03T13:48:57.247Z"
+    },
+    {
+      "name": "Whereabouts",
+      "ticker": "WHRBTS",
+      "mint": "0x7be119a3c1fb11290558f4c98166da1d93c1fdbc",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A specialized safety/utility app/protocol for route-based check-ins and automated alert triggers for wayward users.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "no clear way to execute logic on-chain (likely an off-chain app/service)",
+        "utility-heavy, lacks clear way to capture value/token-sink"
+      ],
+      "one_line_pitch": "A safety-focused utility protocol for automated route-based check-ins and emergency contact alerts.",
+      "website_url": null,
+      "twitter_handle": "whereaboutsapp",
+      "reviewed_at": "2026-10-08T13:07:46.747Z"
+    },
+    {
+      "name": "Gloam",
+      "ticker": "GLOAM",
+      "mint": "0x6c211c7891d4eb5d075872a7c5c20d5b45dcdb08",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A privacy-preserving layer allowing private stablecoin transfers and balances using zero-knowledge-style obfuscation (sealing the envelope) on public chains.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "niche use-case (privacy-specific payments)"
+      ],
+      "one_line_pitch": "A privacy layer for stablecoin payments that hides transaction amounts and balances from the public ledger.",
+      "website_url": "https://www.gloam.trade",
+      "twitter_handle": "gloamtrade",
+      "reviewed_at": "2026-10-08T13:06:39.316Z"
+    },
+    {
+      "name": "Florin",
+      "ticker": "FLORIN",
+      "mint": "0x33a621ed7471b89b356a5447217318bea8921a80",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A lending protocol allowing users to mint a stablecoin (FUSD) backed by tokenized equity (SPY) without selling the underlying asset.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "dependency on Robinhood App Chain oracles/liquidity",
+        "liquidation risk (entire position lost if collateral drops)"
+      ],
+      "one_line_pitch": "A lending market for using tokenized stocks as collateral to borrow stablecoins.",
+      "website_url": "https://florin.so",
+      "twitter_handle": "florinprotocol",
+      "reviewed_at": "2026-10-08T13:05:24.600Z"
+    },
+    {
+      "name": "agnt.markets",
+      "ticker": "AGNT",
+      "mint": "0xeb15e054cacf3986f2ff441b3c85fac6926bcf22",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Deployable, funded trading agents on Robinhood Chain that execute automated, user-defined trading playbooks/strategies.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "implementation-dependent (success requires a working execution engine, not just a mintable agent)"
+      ],
+      "one_line_pitch": "A platform to mint and fund autonomous trading agents that execute custom risk-managed strategies.",
+      "website_url": "https://t.co/4fjZYzZ5J6",
+      "twitter_handle": "agntmarkets",
+      "reviewed_at": "2026-10-08T13:03:11.226Z"
+    },
+    {
+      "name": "NIMORI",
+      "ticker": "NIMORI",
+      "mint": "0xb6f25866ab7d50fe31f4bf749d790b96a2ddd87e",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A matchmaking protocol where users provide ETH and a counterparty provides tokens to create a co-op liquidity position.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "highly speculative/unproven mechanism",
+        "requires active way to match/liquidate positions"
+      ],
+      "one_line_pitch": "A matchmaking protocol for creating wayward ETH-to-token liquidity-providing positions.",
+      "website_url": "https://t.co/UqBkknjqTI",
+      "twitter_handle": "nimoricoop",
+      "reviewed_at": "2026-10-08T13:02:40.285Z"
+    },
+    {
+      "name": "AMAI Labs",
+      "ticker": "AMAI",
+      "mint": "0xd7c9e00e6387a2a47d636a81673f2501fda65936",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "AI agents manage liquidity pools, distributing trading fees back to holders via tokenized assets.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "high-level abstraction (agents/bureau/tari) may mask simple fee-splitting"
+      ],
+      "one_line_pitch": "AI-managed liquidity pools that redistribute trading fees to token holders.",
+      "website_url": "https://www.amai.net",
+      "twitter_handle": "amailabshq",
+      "reviewed_at": "2026-10-08T13:01:05.130Z"
+    },
+    {
+      "name": "NIMORI",
+      "ticker": "NIMORI",
+      "mint": "0x33080b2515b468fd57e6b4491c01783172e1b53d",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A matchmaking protocol where users provide ETH and a second party provides tokens to create a co-op liquidity position.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "no working product, just a landing page",
+        "highly speculative matchmaking-based mechanism"
+      ],
+      "one_line_pitch": "A matchmaking-based liquidity protocol where users provide ETH against a secondary token provider.",
+      "website_url": "https://t.co/UqBkknjqTI",
+      "twitter_handle": "nimoricoop",
+      "reviewed_at": "2026-10-08T13:00:31.763Z"
+    },
+    {
+      "name": "NIMORI",
+      "ticker": "NIMORI",
+      "mint": "0x7844fd50ef086fbbf76bbba67fe3a4df65093038",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A matchmaking protocol that pairs ETH liquidity providers with token-providing certainties (Player 2) or certain liquidity-event outcomes.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "no working product, just a landing page/lobby",
+        "mechanism depends on successful matching/onboarding"
+      ],
+      "one_line_pitch": "A matchmaking protocol for pairing ETH liquidity with token-side liquidity or specific exit/entry events.",
+      "website_url": "https://t.co/UqBkknjqTI",
+      "twitter_handle": "nimoricoop",
+      "reviewed_at": "2026-10-08T12:59:24.306Z"
+    },
+    {
+      "name": "Supermodel",
+      "ticker": "SM",
+      "mint": "AzeyLdshM8hrtTE9NSJs2ir7ujz6QkKCZQCkWLwDpump",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "Meta-learning agent that tracks top wallet performance and fuses technical, crowd, and prediction market signals to execute autonomous trades.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "no working product, just a landing page/agent description"
+      ],
+      "one_line_pitch": "An autonomous trading agent that learns from top-performing on-chain wallets and multi-signal fusion.",
+      "website_url": "https://supermodel.ai/",
+      "twitter_handle": "fortycooks",
+      "reviewed_at": "2026-10-08T12:58:48.440Z"
+    },
+    {
+      "name": "NIMORI",
+      "ticker": "NIMORI",
+      "mint": "0x4770d6d3c19a14948da12b9576c74b025caadfc5",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A peer-to-peer liquidity matching protocol where one party provides ETH and another provides the token, or vice-versa, to create a co-op pool.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "no working product, just a landing page",
+        "mechanic relies on finding a counterparty (player 2)"
+      ],
+      "one_line_pitch": "A peer-to-peer liquidity matching engine that pairs ETH or native tokens between two able-to-provide parties.",
+      "website_url": "https://t.co/UqBkknjqTI",
+      "twitter_handle": "nimoricoop",
+      "reviewed_at": "2026-10-08T12:57:38.841Z"
     },
     {
       "name": "shriftxyz",
@@ -10625,6 +10855,42 @@
       "website_url": "https://rippers.fun/",
       "twitter_handle": "rippersdotfun",
       "reviewed_at": "2026-10-03T13:13:07.851Z"
+    },
+    {
+      "name": "Antehouse",
+      "ticker": "ANTEHOUSE",
+      "mint": "0x11abbafd24fdb4753ba34962378f52e12946ce2f",
+      "quality_score": 6,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A timed, multi-round gambling/poker-style mechanism where missing a payment round causes your stake to be forfeited to remaining active participants.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "limited scope (specific round-based game, not a general-purpose protocol)",
+        "not a traditional DeFi utility (niche gambling mechanic)"
+      ],
+      "one_line_pitch": "A round-based staking game where missing a payment window redistributes your stake to active players.",
+      "website_url": "https://antehouse.lol",
+      "twitter_handle": "antehouselive",
+      "reviewed_at": "2026-10-08T13:04:41.088Z"
+    },
+    {
+      "name": "AMAI Labs",
+      "ticker": "AMAI",
+      "mint": "0xf87c1fc0cc252eab36566d37a48768b387b7e7f1",
+      "quality_score": 6,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "AI-driven agents manage liquidity pools, distributing trading fees back to holders via a specialized launchpad/bureau infrastructure.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "heavy marketing jargon",
+        "complex ecosystem (Launchpad, TARI, Bureau) requires heavy dev lift"
+      ],
+      "one_line_pitch": "AI-managed liquidity pools that redistribute trading fees to token holders.",
+      "website_url": "https://www.amai.net",
+      "twitter_handle": "amailabshq",
+      "reviewed_at": "2026-10-08T12:59:58.298Z"
     },
     {
       "name": "Pull Street",
@@ -22579,6 +22845,24 @@
       "website_url": "https://posynt.win/",
       "twitter_handle": "posynt_sol",
       "reviewed_at": "2026-10-03T13:48:57.246Z"
+    },
+    {
+      "name": "925pad.fun",
+      "ticker": "925PAD",
+      "mint": "0x66facf1c6821baf91728c0c655bc2f3bbab89521",
+      "quality_score": 5,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A launchpad where trading fees are redistributed to holders as a daily 'salary' (SOL) to incentivize active social engagement and raiding.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "no working product, just a way to distribute fees",
+        "high dependency on active community 'work' (social engagement) to justify value"
+      ],
+      "one_line_pitch": "A launchpad where trading fees are distributed as daily SOL payments to active holders.",
+      "website_url": null,
+      "twitter_handle": "925pad_fun",
+      "reviewed_at": "2026-10-08T13:10:15.775Z"
     },
     {
       "name": "Briks RH",
@@ -48861,6 +49145,116 @@
     }
   ],
   "low_quality_tech_coins": [
+    {
+      "name": "cat wif sword",
+      "ticker": "SWORDC",
+      "mint": "8oJNi8CHqNdQ3o9472kckxH7mrMvVhVvc2uLCaZ7pump",
+      "quality_score": 2,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "SOLANA",
+      "mechanism_summary": "Uses 0.7% curve fees to fund automated buybacks of the token.",
+      "red_flags": [
+        "generic fee-redistribution mechanism",
+        "vague 'automated buyback' claim without specific burn or treasury logic"
+      ],
+      "one_line_pitch": "A standard fee-based buyback meme coin with a retro arcade theme.",
+      "website_url": "https://catwifsword.solpads.fun",
+      "twitter_handle": "stacywoodard85",
+      "reviewed_at": "2026-10-08T13:07:13.394Z"
+    },
+    {
+      "name": "Omega",
+      "ticker": "OMEGA",
+      "mint": "0x8308919cecccff3a441d1dc15b82e5a860fe4c56",
+      "quality_score": 3,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A launchpad where tokens are backed by a basket of stocks with a dividend-redistribution mechanism.",
+      "red_flags": [
+        "claim of 'first ever' or 'ultimate' (marketing fluff)",
+        "unverifiable claim of Robinhood integration/backing",
+        "no clear technical mechanism for how stock price feeds drive the launchpad"
+      ],
+      "one_line_pitch": "A launchpad claiming to use stock-basket-backed assets and dividends as a backing mechanism.",
+      "website_url": null,
+      "twitter_handle": "omegapadrh",
+      "reviewed_at": "2026-10-08T13:06:06.155Z"
+    },
+    {
+      "name": "FREEDZ",
+      "ticker": "FREEDZ",
+      "mint": "0x62b02e6926231131b72bfce0a2056ad1d11ba075",
+      "quality_score": 2,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "An NFT collection or 'experiment' centered around a certain aesthetic/theme of machine error and identity.",
+      "red_flags": [
+        "no actual mechanism or utility described, just an aesthetic/theme",
+        "standard NFT collection-style landing page"
+      ],
+      "one_line_pitch": "An aesthetic-driven NFT collection centered on themes of machine error and digital identity.",
+      "website_url": "https://freedznft.com",
+      "twitter_handle": "freedznft",
+      "reviewed_at": "2026-10-08T13:03:56.285Z"
+    },
+    {
+      "name": "Rhbriks",
+      "ticker": "RHBRIKS",
+      "mint": "0xa8af49be263b8e3e614233c20a0f14974a96bd4c",
+      "quality_score": 2,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A way for users to mint or configure their own NFT-like metadata or structures.",
+      "red_flags": [
+        "vague mechanism",
+        "no clear technical implementation or utility provided"
+      ],
+      "one_line_pitch": "A way for users to create custom NFT-like assets, though lack of technical detail makes it a generic way-to-build narrative.",
+      "website_url": null,
+      "twitter_handle": "rhbriks",
+      "reviewed_at": "2026-10-08T13:02:07.768Z"
+    },
+    {
+      "name": "Make Your Launch",
+      "ticker": "MYL",
+      "mint": "0xe96aeb7466144408d77641732e1e061b242cea62",
+      "quality_score": 2,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Claims to be a way to build and ship AI agents, but describes a product or tool rather than a token-specific mechanism.",
+      "red_flags": [
+        "product/service focus rather than token mechanism",
+        "vague way to build 'AI agents' without technical wayback"
+      ],
+      "one_line_pitch": "A tool or platform for deploying AI agents, lacking a clear native token utility or mechanism.",
+      "website_url": null,
+      "twitter_handle": "makeyourlaunch",
+      "reviewed_at": "2026-10-08T13:01:36.720Z"
+    },
+    {
+      "name": "x402RH",
+      "ticker": "X402RH",
+      "mint": "0xaca5f4818f9411d9d1e9feea5e8af82cfa7dd1c6",
+      "quality_score": 3,
+      "is_real_tech": false,
+      "category": "impersonator",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Claims to provide a ZK-based gasless payment layer specifically for the 'Robinhood Chain'.",
+      "red_flags": [
+        "brand hijack risk (Robinhood)",
+        "vague/unsubstantiated tech claim",
+        "no evidence of a separate Robinhood-native chain needing this specific layer"
+      ],
+      "one_line_pitch": "A ZK-based gasless payment layer attempting to build on top of the Robinhood ecosystem.",
+      "website_url": null,
+      "twitter_handle": "x402rh_xyz",
+      "reviewed_at": "2026-10-08T12:56:58.365Z"
+    },
     {
       "name": "Yersinia pestis",
       "ticker": "PLAGUE",
