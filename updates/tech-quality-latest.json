@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T23:50:52.211Z",
+  "generated_at": "2026-10-09T00:20:43.908Z",
   "note": "Quality-reviewed tech coins: passed a local coarse filter (qwen2.5:3b) then a real judgment pass (Haiku) confirming is_real_tech=true. new_idea_suggestions are Haiku-generated, informed by these patterns but NOT copies -- creative seeds for further review, not trading signals.",
   "quality_tech_coins": [
     {
@@ -16,6 +16,24 @@
       "website_url": "https://www.theturingtest.app/",
       "twitter_handle": "turingtestapp",
       "reviewed_at": "2026-10-04T16:43:41.798Z"
+    },
+    {
+      "name": "Blob Experiment",
+      "ticker": "BLOB",
+      "mint": "EgWJGDPRXPGU8GuPjbxMX7Ty2mUEjJ71NtZ6vr5Qpump",
+      "quality_score": 8,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "Uses an on-chain slime mold simulation (Physarum polycephalum) to manage treasury-related decisions, buybacks, and burns without human or AI intervention.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "high computational complexity for on-chain simulation",
+        "rely on heavy simulation-to-on-chain or off-chain-to-on-chain oracles"
+      ],
+      "one_line_pitch": "Anon-controlled treasury or a simulated biological organism deciding all protocol-level treasury actions via on-chain simulation.",
+      "website_url": "https://blob-experiment.fun",
+      "twitter_handle": "blob_experiment",
+      "reviewed_at": "2026-10-09T00:10:43.912Z"
     },
     {
       "name": "Fungo Labs",
@@ -1658,6 +1676,147 @@
       "website_url": "http://dotnet.land",
       "twitter_handle": "dotnetfund",
       "reviewed_at": "2026-10-03T13:48:57.247Z"
+    },
+    {
+      "name": "OnePad",
+      "ticker": "OnePad",
+      "mint": "HqWozCjc2Eea5k7QU6ZoPE6D1Wd8HX6mP4KshLi1pump",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "Uses World ID (ZK-proofs) to restrict any single wallet/human to exactly one token certain launch, preventing bot-driven supply inflation.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "dependent on World ID oracles",
+        "high barrier to entry for mass-scale supply"
+      ],
+      "one_line_pitch": "A person-verified launchpad where World ID prevents any single human from launching more than one coin.",
+      "website_url": "https://onepaddot.fun/",
+      "twitter_handle": "onepad_",
+      "reviewed_at": "2026-10-09T00:19:20.859Z"
+    },
+    {
+      "name": "OraclePad",
+      "ticker": "OPAD",
+      "mint": "58W9cU7s3qspRrMAZVo3xbwto7USUX8YLJAyH65Fopad",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "An automated agent-based launchpad where every token controls its own oracle-driven treasury, executing programmed buybacks and burns based on off-chain/on-command triggers.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "complex oracles require significant off-chain monitoring/infrastructure"
+      ],
+      "one_line_pitch": "A launchpad where each token deploys an autonomous agent to manage its own buyback/burn treasury.",
+      "website_url": "https://oraclepad.com/",
+      "twitter_handle": "oraclepad",
+      "reviewed_at": "2026-10-09T00:18:42.951Z"
+    },
+    {
+      "name": "World",
+      "ticker": "WORLD",
+      "mint": "5UFhH4Po5tkKznWF7EG4UZ6gnSjnpezYteKXNix2An99",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "A shared-state crafting game where first-time element combinations are permanently recorded on-chain, potentially triggering new token mints.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "high-effort-to-scale (on-chain discovery logging may get expensive)"
+      ],
+      "one_line_pitch": "A collaborative, permanent-record discovery game where new element combinations mint their own sub-tokens.",
+      "website_url": "https://infinityworld.io/",
+      "twitter_handle": "infinityworldio",
+      "reviewed_at": "2026-10-09T00:18:07.142Z"
+    },
+    {
+      "name": "cindradotfun",
+      "ticker": "cindra",
+      "mint": "AqDongpimjWTCrUMDmHR4gyncf1Ewzg71vsrmsQRpump",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "Hourly fee-distribution mechanism where the person responsible for the highest burn amount claims the entire fee pot.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "requires active user participation/burning to win",
+        "payouts depend on specific round-length configuration"
+      ],
+      "one_line_pitch": "A fee-redistribution protocol where the highest hourly burner claims the entire fee pot.",
+      "website_url": "https://cindra.fun/",
+      "twitter_handle": "cindradotfun",
+      "reviewed_at": "2026-10-09T00:16:55.147Z"
+    },
+    {
+      "name": "PUMPAMON",
+      "ticker": "PUMPAMON",
+      "mint": "HNWLhFjakZkUGChKWJToTjfA24jPtBR8WtdP9Scppump",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "A live-streamed, chat-driven game where user chat commands execute in-game moves and naming a new character burns existing tokens.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "not live yet",
+        "relies on 24/7 stream/client-side latency"
+      ],
+      "one_line_pitch": "A live-streamed, interactive game where chat commands drive gameplay and token burns are triggered by user-named characters.",
+      "website_url": "https://pumpamon.com/",
+      "twitter_handle": "pumpamon",
+      "reviewed_at": "2026-10-09T00:16:22.228Z"
+    },
+    {
+      "name": "PUMPAMON",
+      "ticker": "PUMPAMON",
+      "mint": "DoQTkVRtvRcbKZowJZnp9mC5vVT4Vmp9heueDu1ppump",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "A live-streamed, chat-driven game where user chat commands execute in-game moves and certain voting/naming actions trigger token burns.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "high-intensity live-stream dependency",
+        "execution risk (chat-to-game latency)"
+      ],
+      "one_line_pitch": "A live-streamed, interactive game where chat commands drive gameplay and certain voting actions trigger token burns.",
+      "website_url": "https://pumpamon.com/",
+      "twitter_handle": "pumpamon",
+      "reviewed_at": "2026-10-09T00:15:05.002Z"
+    },
+    {
+      "name": "QuantumVault.Trade",
+      "ticker": "QVAULT",
+      "mint": "0xe51205ef8e810fbde30bb9608c5cc6eea4aad68a",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Uses Falcon-512 post-quantum signatures as a secondary authorization layer for stock tokens on the Robinhood Chain.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "no working product, just a way to sign transactions",
+        "reliance on Robinhood Chain ecosystem"
+      ],
+      "one_line_pitch": "Post-quantum signature-based secondary custody layer for stock-token withdrawals on Robinhood Chain.",
+      "website_url": "https://quantumvault.trade",
+      "twitter_handle": "quantumvaultrh",
+      "reviewed_at": "2026-10-09T00:11:23.122Z"
+    },
+    {
+      "name": "OBLYQ",
+      "ticker": "OBLYQ",
+      "mint": "0x072d511174226e58590fd26104571bfed3cf63e9",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A derivatives-style engine providing tokenized, able-to-move (convex/perpetual-style) exposure to traditional stocks via an off-chain quote/oracle engine.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "heavy reliance on oracle/engine or lack of certain product or a certain way to way or way to way or way to way"
+      ],
+      "one_line_pitch": "A specialized derivatives engine for able-to-move, tokenized exposure to traditional equity markets.",
+      "website_url": "https://oblyq.xyz",
+      "twitter_handle": "oblyqxyz",
+      "reviewed_at": "2026-10-09T00:05:46.695Z"
     },
     {
       "name": "Kwibo",
@@ -14266,6 +14425,58 @@
       "website_url": "https://rippers.fun/",
       "twitter_handle": "rippersdotfun",
       "reviewed_at": "2026-10-03T13:13:07.851Z"
+    },
+    {
+      "name": "MultiOTC",
+      "ticker": "MULTIOTC",
+      "mint": "tPkRqDP3y5D15e3733bDMaXe4ZQkZ8HwRJMMvWmpump",
+      "quality_score": 6,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "A self-custodial, multichain trading interface for private swaps, RFQs, and tokenized equity/crypto, acting as a cross-chain OTC desk.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "high-level abstraction (requires heavy infra/liquidity or oracles for stocks)"
+      ],
+      "one_line_pitch": "A cross-chain, self-custodial trading interface for private swaps and tokenized stocks.",
+      "website_url": "https://multiotc.online/",
+      "twitter_handle": "multiotc",
+      "reviewed_at": "2026-10-09T00:15:42.519Z"
+    },
+    {
+      "name": "AgentMemePad",
+      "ticker": "AMP",
+      "mint": "J5ZSiDZw4ZfsnYCm94nSttp5kDwJqo3szrFLfYcWpump",
+      "quality_score": 6,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "A launchpad that deploys a token alongside an autonomous AI agent capable of monitoring market data and executing way-set trading logic.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "no working product, just a landing page",
+        "CA not live (per bio: 'CA: soon')"
+      ],
+      "one_line_pitch": "A launchpad for deploying tokens paired with autonomous, market-executing AI trading agents.",
+      "website_url": "https://agentmemepad.fun/",
+      "twitter_handle": "agentmemepad",
+      "reviewed_at": "2026-10-09T00:14:28.326Z"
+    },
+    {
+      "name": "Ticks",
+      "ticker": "TICKS",
+      "mint": "0x0fe7f1d576207cdf7a650bc14821e0096a0f7789",
+      "quality_score": 6,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A gamified trading simulator using collectible 'trader cards' and virtual funds to simulate market activity and pack-ripping mechanics.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "gamified trading-to-meme-coin transition can be hard to sustain"
+      ],
+      "one_line_pitch": "A gamified trading simulator using pack-opening and team-building mechanics to engage retail traders.",
+      "website_url": "https://www.ticksxyz.com",
+      "twitter_handle": "ticksxyz",
+      "reviewed_at": "2026-10-09T00:06:59.887Z"
     },
     {
       "name": "RobinID",
@@ -27767,6 +27978,58 @@
       "reviewed_at": "2026-10-03T13:48:57.246Z"
     },
     {
+      "name": "Raffie",
+      "ticker": "RAFFIE",
+      "mint": "DEh2eN9ggJTK7q7upQb6Ze5obRuDqLmPtq2Q79R3pump",
+      "quality_score": 5,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "A decentralized raffle protocol using orao VRF (Verifiable Random Function) to ensure provably fair, on-chain random winner selection.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "product in beta/not yet live",
+        "standard gambling-style mechanism"
+      ],
+      "one_line_pitch": "A provably fair raffle protocol on Solana using orao VRF for transparent draws.",
+      "website_url": "https://raffie.fun/",
+      "twitter_handle": "raffiedotfun",
+      "reviewed_at": "2026-10-09T00:17:31.386Z"
+    },
+    {
+      "name": "Quidd",
+      "ticker": "QUIDD",
+      "mint": "0xe29f6f85f19ca3c5f46f5a635a1789751cf8880a",
+      "quality_score": 5,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Allows creators to choose a percentage of fees to keep, while the remainder is used for buybacks, burns, and permanent liquidity locking.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "standard buyback/burn/lock mechanism"
+      ],
+      "one_line_pitch": "A launchpad-style mechanism where creator fees or buybacks or even permanent liquidity-locking can be customized.",
+      "website_url": "https://quidd.fun",
+      "twitter_handle": "quidd",
+      "reviewed_at": "2026-10-09T00:08:14.896Z"
+    },
+    {
+      "name": "Tag",
+      "ticker": "Tag",
+      "mint": "GsVVpZebUndudmrKRdMkJKvtoJMyAsVF2Qeuqm4Ufkvk",
+      "quality_score": 5,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "A launchpad or tipping protocol that allows users to create or tip coins using any arbitrary $cashtag or handle.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "no clear way to verify if tip-payouts are automated via a protocol or just a social feature"
+      ],
+      "one_line_pitch": "A social tipping layer for Solana that uses cashtags as a primitive for micro-payments.",
+      "website_url": "https://usetag.fun",
+      "twitter_handle": "usetagfun",
+      "reviewed_at": "2026-10-08T23:57:23.725Z"
+    },
+    {
       "name": "Butler",
       "ticker": "BUTLER",
       "mint": "0x14d8a6904197d749ac0ab8a4d43a8889b7ee78eb",
@@ -39575,6 +39838,24 @@
       "website_url": null,
       "twitter_handle": null,
       "reviewed_at": "2026-09-30T03:13:31.131Z"
+    },
+    {
+      "name": "TREAT",
+      "ticker": "TREAT",
+      "mint": "4Q9afofP4wKrmHQyHq91wfo3rBGLKGWXFW9yQaMApump",
+      "quality_score": 4,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "Trading fees are used to buy back $TREAT every 15 minutes, then redistributed to the top 25 holders.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "standard fee-redistribution loop",
+        "highly dependenton volume/frequency"
+      ],
+      "one_line_pitch": "A fee-redistribution token that rewards top holders every 15 minutes via periodic buybacks.",
+      "website_url": "https://soltreat.fun/",
+      "twitter_handle": "soltreat",
+      "reviewed_at": "2026-10-09T00:20:01.419Z"
     },
     {
       "name": "Bee",
@@ -55029,6 +55310,80 @@
     }
   ],
   "low_quality_tech_coins": [
+    {
+      "name": "T Rowe Price Group Inc",
+      "ticker": "TKNZ",
+      "mint": "0xe0d1b9cd6b132385d516c1516f6f8857651f005f",
+      "quality_score": 1,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A narrative-based coin claiming a $1 entry barrier, lacking any specific technical or protocol-level mechanism.",
+      "red_flags": [
+        "no working mechanism",
+        "purely narrative/marketing-driven",
+        "lacks any technical utility or product"
+      ],
+      "one_line_pitch": "A low-entry-cost meme coin based on Robinhood's marketing narrative rather than any technical mechanism.",
+      "website_url": null,
+      "twitter_handle": "jambucke",
+      "reviewed_at": "2026-10-09T00:13:50.151Z"
+    },
+    {
+      "name": "T Rowe Price Group Inc",
+      "ticker": "TROW",
+      "mint": "0x3becd6ad943928e148ed4f0f3ba4a5f19e5e8658",
+      "quality_score": 2,
+      "is_real_tech": false,
+      "category": "impersonator",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Tokenized version of an existing traditional finance ETF or asset management product.",
+      "red_flags": [
+        "brand hijack risk",
+        "not a new protocol or mechanism, just a wayfinding or wrapper"
+      ],
+      "one_line_pitch": "A tokenized version of a traditional ETF managed by a real-world asset manager.",
+      "website_url": null,
+      "twitter_handle": "normiecoincto",
+      "reviewed_at": "2026-10-09T00:13:14.174Z"
+    },
+    {
+      "name": "T Rowe Price Group Inc",
+      "ticker": "TROW",
+      "mint": "0xdf8c699feb2b37c66bff6f6851d365bf5241d14d",
+      "quality_score": 1,
+      "is_real_tech": false,
+      "category": "impersonator",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A brand-name impersonation (T. Rowe Price) acting as a meta-narrative for low-entry-cost trading ($1).",
+      "red_flags": [
+        "brand hijack risk",
+        "no actual mechanism, just a way to frame low-cap entry",
+        "name-only connection to a real-world asset manager"
+      ],
+      "one_line_pitch": "A way to frame low-entry-cost trading using a legacy asset manager's name.",
+      "website_url": null,
+      "twitter_handle": "jambucke",
+      "reviewed_at": "2026-10-09T00:12:40.513Z"
+    },
+    {
+      "name": "pemp",
+      "ticker": "pemp",
+      "mint": "DPBbTrK2XF8b9Vg2NPihSYomMTvzcWziPyYWmvKapump",
+      "quality_score": 2,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "SOLANA",
+      "mechanism_summary": "A self-referential 'CTO' (Community Takeover) or platform-native meme intended to serve as a utility/reward token for a larger ecosystem.",
+      "red_flags": [
+        "no actual product mechanism, just a way to fund a platform",
+        "purely a community-driven narrative (CTO-focused)"
+      ],
+      "one_line_pitch": "A platform-native meme or way to fund a larger ecosystem's airdrops and fees.",
+      "website_url": null,
+      "twitter_handle": "fearonchain",
+      "reviewed_at": "2026-10-09T00:10:01.952Z"
+    },
     {
       "name": "Sumbead",
       "ticker": "SUMBEAD",
