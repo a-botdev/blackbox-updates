@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T09:36:18.321Z",
+  "generated_at": "2026-10-09T10:06:18.327Z",
   "note": "Quality-reviewed tech coins: passed a local coarse filter (qwen2.5:3b) then a real judgment pass (Haiku) confirming is_real_tech=true. new_idea_suggestions are Haiku-generated, informed by these patterns but NOT copies -- creative seeds for further review, not trading signals.",
   "quality_tech_coins": [
     {
@@ -16,6 +16,40 @@
       "website_url": "https://www.theturingtest.app/",
       "twitter_handle": "turingtestapp",
       "reviewed_at": "2026-10-04T16:43:41.798Z"
+    },
+    {
+      "name": "IP",
+      "ticker": "IP",
+      "mint": "DA8jv3rwPM8T3jcqqtRHSzUG9rkEbsYbAnxmiTStFFxp",
+      "quality_score": 8,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "A decentralized insurance protocol where users buy coverage or act as underwriters against a coin's failure to reach a certain market cap/graduation.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "requires complex liquidy/incentive management between claims and underwriting pools"
+      ],
+      "one_line_pitch": "A decentralized insurance market for Solana token launches, allowing users to bet on or against 'graduation'.",
+      "website_url": "https://insurancepad.fun/coin/DA8jv3rwPM8T3jcqqtRHSzUG9rkEbsYbAnxmiTStFFxp",
+      "twitter_handle": "insurancepadfun",
+      "reviewed_at": "2026-10-09T10:03:09.229Z"
+    },
+    {
+      "name": "Agent Alois",
+      "ticker": "ALOIS",
+      "mint": "2Dx7XJQp2LGdq14nP98swmtUhfhHz8FVs98bt11Mpump",
+      "quality_score": 8,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "AI agent that parses public genomic/cell-atlas datasets to propose, validate, or invalidate specific gene-perturbation experiments with a receipt-based audit trail.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "highly specialized niche (Alzheimer's/genomics) may lack broad retail appeal"
+      ],
+      "one_line_pitch": "An AI agent that proposes and validates gene-perturbation experiments using public brain cell-atlas data.",
+      "website_url": "https://agentalois.com/",
+      "twitter_handle": null,
+      "reviewed_at": "2026-10-09T09:59:44.976Z"
     },
     {
       "name": "Bunker Coin",
@@ -1784,6 +1818,77 @@
       "website_url": "http://dotnet.land",
       "twitter_handle": "dotnetfund",
       "reviewed_at": "2026-10-03T13:48:57.247Z"
+    },
+    {
+      "name": "arkum",
+      "ticker": "ARKUM",
+      "mint": "hashB5SmxsD5zu5mKGuLGjsY1mkPEAUeLXk4pMtFEjq",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "Uses hash-based signatures (Winternitz one-time signatures) instead of ECDSA to provide quantum-resistant withdrawal authorization for Solana vaults.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "CA not launched yet",
+        "niche/specialized use case"
+      ],
+      "one_line_pitch": "A post-quantum resistant vault protocol using hash-based signatures for secure Solana withdrawals.",
+      "website_url": "https://arkumprotocol.xyz/",
+      "twitter_handle": "arkumprotocol",
+      "reviewed_at": "2026-10-09T10:06:12.968Z"
+    },
+    {
+      "name": "BORN",
+      "ticker": "BORN",
+      "mint": "8iv5Ksi2TCn5EgD54yGHHHF24cRosv7ehq6aeydnpump",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "An automated agent system that monitors X (Twitter) engagement and triggers new coin launches based on post virality/momentum.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "reliance on external social signal (X) as a trigger"
+      ],
+      "one_line_pitch": "An automated launchpad where agents monitor Twitter engagement to trigger new token mints.",
+      "website_url": "https://born.fun",
+      "twitter_handle": "borndot_fun",
+      "reviewed_at": "2026-10-09T10:05:02.887Z"
+    },
+    {
+      "name": "SALARO",
+      "ticker": "SALARO",
+      "mint": "0xe5f46537187afa8f8b4c4d3a3c97b24bbe5cecd2",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A real-time payroll or streaming-payment system that distributes micro-payments (USDG/stock) every block, allowing any-amount withdrawals.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "highly speculative-sounding way to handle any-amount withdrawals",
+        "requires heavy infrastructure/off-chain or layer-2ing to handle block-level payments"
+      ],
+      "one_line_pitch": "A real-time streaming payment protocol that distributes wages or stock-tokens every block.",
+      "website_url": "https://salaro.vercel.app",
+      "twitter_handle": "usesalaro",
+      "reviewed_at": "2026-10-09T10:00:20.972Z"
+    },
+    {
+      "name": "Bunker",
+      "ticker": "BUNKER",
+      "mint": "7aapT65UJMS5fV8bxAjghZQZTKkRdeWD4BNM4wdTpump",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "A protocol-level security upgrade using SHA-256 hashing to hide public keys, preventing potential AI-driven private key exposure or curve-breaking attacks.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "highly theoretical/speculative mechanism",
+        "requires protocol-level change, not just app-level"
+      ],
+      "one_line_pitch": "A post-quantum/post-AI security layer for Solana using hash-based address hiding.",
+      "website_url": "https://bunker-seven-theta.vercel.app/",
+      "twitter_handle": "use_bunker",
+      "reviewed_at": "2026-10-09T09:55:58.190Z"
     },
     {
       "name": "Winter",
@@ -15150,6 +15255,163 @@
       "website_url": "https://rippers.fun/",
       "twitter_handle": "rippersdotfun",
       "reviewed_at": "2026-10-03T13:13:07.851Z"
+    },
+    {
+      "name": "Hook Scope",
+      "ticker": "HOOKSCOPE",
+      "mint": "0xbaa9aac9ca314c6a961b20ec475cb0346c567d33",
+      "quality_score": 6,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "An explorer/indexing tool for discovering and analyzing programmable Uniswap v4-style hooks on the Robinhood Chain.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "infrastructure/tooling rather than a new primitive",
+        "dependent on Robinhood Chain ecosystem success"
+      ],
+      "one_line_pitch": "An analytics and discovery dashboard for programmable liquidity hooks on Robinhood Chain.",
+      "website_url": "https://hookscope.lol",
+      "twitter_handle": "hookscoperh",
+      "reviewed_at": "2026-10-09T10:05:40.172Z"
+    },
+    {
+      "name": "SP3ND",
+      "ticker": "SP3ND",
+      "mint": "7oLTKJMyZ8A6yisQ8faoGU9DZ4yD7R2jhYYKx28Jpump",
+      "quality_score": 6,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "A payment gateway/infrastructure allowing users to purchase retail goods via stablecoins using a browser extension or web interface.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "infrastructure-heavy, requires off-chain retail integration"
+      ],
+      "one_line_pitch": "A stablecoin-based checkout layer for existing e-commerce platforms like Amazon and eBay.",
+      "website_url": "https://sp3nd.shop",
+      "twitter_handle": "sp3nddotshop",
+      "reviewed_at": "2026-10-09T10:03:44.964Z"
+    },
+    {
+      "name": "LAUNCHX OS",
+      "ticker": "Xlaunch",
+      "mint": "6uEYvNidXdPwg6cV1ykYLfiuNX1AdCx64RDGbEThpump",
+      "quality_score": 6,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "An AI-driven agent that parses X (Twitter) posts via tags to automatically deploy Solana tokens without a traditional launch dashboard.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "heavy reliance on external platform (X) oracles/data-scrapers"
+      ],
+      "one_line_pitch": "An AI agent that converts any able-to-parse Twitter post or thread into a deployable Solana token.",
+      "website_url": "https://launchx.bid",
+      "twitter_handle": "xlaunchos",
+      "reviewed_at": "2026-10-09T10:02:01.755Z"
+    },
+    {
+      "name": "Vetric Fi",
+      "ticker": "VET",
+      "mint": "0x590d22ea56336f910b24a57a67a36a112b48a7ec",
+      "quality_score": 6,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Platform for tokenizing real-world assets (starting with gold) with on-chain verification of physical backing.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "RWA (Real World Asset) or gold-tokenization is a crowded narrative",
+        "Requires heavy off-chain infrastructure/custody oracles not detailed in text"
+      ],
+      "one_line_pitch": "A platform for verifying and holding tokenized physical gold and other real-world assets on-chain.",
+      "website_url": "https://vetricfinance.com",
+      "twitter_handle": "vetricdotfi_",
+      "reviewed_at": "2026-10-09T10:01:27.964Z"
+    },
+    {
+      "name": "Pons Index",
+      "ticker": "PONS100",
+      "mint": "0x6a387e415999f41cf53435ff31f62ad5c0f4fe25",
+      "quality_score": 6,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A fee-redistribution mechanism where trade fees purchase the top 100 coins, redistributed to holders every 5 minutes based on wallet size.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "highly dependent on fee-generation or volume-based incentives"
+      ],
+      "one_line_pitch": "An automated fee-based redistribution protocol that repopulates holder wallets with top-performing coins every 5 minutes.",
+      "website_url": "https://pons100.xyz",
+      "twitter_handle": "pons_lndex",
+      "reviewed_at": "2026-10-09T10:00:54.251Z"
+    },
+    {
+      "name": "Snowball",
+      "ticker": "SNOWBALL",
+      "mint": "DGp1oDcnbrPpVxiGXHV43ga8MSJkYLhEv71x2Uh1pump",
+      "quality_score": 6,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "A game-mechanic-based fee distribution where user-driven 'snowball' size (calculated via certain transaction/interaction logic) determines the percentage of fees captured.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "game-based mechanism relies on a specific 'hit' or 'size' logic that requires active certain-state tracking"
+      ],
+      "one_line_pitch": "A gamified fee-capture mechanism where snowball size, determined by active gameplay, dictates your cut of creator fees.",
+      "website_url": "https://playsnowball.fun",
+      "twitter_handle": "playsnowballfun",
+      "reviewed_at": "2026-10-09T09:58:33.974Z"
+    },
+    {
+      "name": "Credits Pad",
+      "ticker": "Credits",
+      "mint": "CkRLcxggGcXxA62aG4zb4CTTmSUHjqjmrZBU3ea8kpRN",
+      "quality_score": 6,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "A launchpad where holding certain tokens rewards users with usage credits for various LLM APIs (Claude, GPT, etc.) via OpenRouter.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "high-effort way to wayto link token utility to external API usage",
+        "dependency on external AI model pricing/availability"
+      ],
+      "one_line_pitch": "A launchpad that converts token holdings into functional AI API credits for multiple LLMs.",
+      "website_url": "https://creditspad.fun/",
+      "twitter_handle": "creditspadsol",
+      "reviewed_at": "2026-10-09T09:57:56.829Z"
+    },
+    {
+      "name": "streamoors",
+      "ticker": "STREAM",
+      "mint": "0x1bc68ba33d33835cca57a130d70ebd464cb1c9af",
+      "quality_score": 6,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A launchpad for creating and deploying autonomous AI-driven streamers that interact with viewers in real-time via a custom token.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "niche use-case (AI agent niche)",
+        "high-compute/high-cost way to run a token"
+      ],
+      "one_line_pitch": "A specialized launchpad for deploying autonomous, tokenized AI-influencer livestreaming agents.",
+      "website_url": "https://streamoors",
+      "twitter_handle": "streamoors",
+      "reviewed_at": "2026-10-09T09:55:17.167Z"
+    },
+    {
+      "name": "Cointries",
+      "ticker": "COINTRIES",
+      "mint": "BALq4KbmPriCjqDytgq83m8pJ8uVKm4DF46ySwKmpump",
+      "quality_score": 6,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "A gamified ranking system using market cap, holder count, and price momentum to simulate a global economy and 'war' between tokens.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "gamification-heavy, lacks a deep underlying protocol mechanism beyond traditional metrics"
+      ],
+      "one_line_pitch": "A gamified 'world map' dashboard that uses trading certain metrics to simulate a global geopolitical economy.",
+      "website_url": "https://cointries.fun/",
+      "twitter_handle": "cointriesfun",
+      "reviewed_at": "2026-10-09T09:43:05.731Z"
     },
     {
       "name": "Sharecoins",
@@ -29109,6 +29371,42 @@
       "reviewed_at": "2026-10-03T13:48:57.246Z"
     },
     {
+      "name": "Cinderpad",
+      "ticker": "CINDER",
+      "mint": "0x753cd8db7bc073ec9964d48feea218432461973e",
+      "quality_score": 5,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A launchpad where protocol fees are split between creators and a daily buyback-and-burn mechanism targeting top-performing coins.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "dependent on Robinhood Chain adoption",
+        "standard buyback/burn logic"
+      ],
+      "one_line_pitch": "A launchpad protocol using fee-driven buybacks and burns to manage supply on Robinhood Chain.",
+      "website_url": "https://cinderpad.xyz",
+      "twitter_handle": "cinder_pad",
+      "reviewed_at": "2026-10-09T10:04:26.114Z"
+    },
+    {
+      "name": "Clanker AI Slur",
+      "ticker": "CLANKER",
+      "mint": "3RiAd9s3jhYqSYiPXLUVhYeFqF7iGuy4BWVT1o5P1P5K",
+      "quality_score": 5,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "A 'King of the Hill' mechanism where the largest buy every 15 minutes captures the round's transaction fees paid in SOL.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "name-brand/concept heavy",
+        "mechanism or service-based rather than a standalone protocol"
+      ],
+      "one_line_pitch": "A fee-capture mechanism where the largest trade in a time-window claims the round's fees.",
+      "website_url": "https://otcdesks.cash/coin/3RiAd9s3jhYqSYiPXLUVhYeFqF7iGuy4BWVT1o5P1P5K",
+      "twitter_handle": "lilbruhfish",
+      "reviewed_at": "2026-10-09T09:59:09.302Z"
+    },
+    {
       "name": "KolRadar",
       "ticker": "KolRadar",
       "mint": "AMbQVoPifFzyibV5VfoAM6RZUWxr9f67mHXFmxUHpump",
@@ -41289,6 +41587,24 @@
       "website_url": null,
       "twitter_handle": null,
       "reviewed_at": "2026-09-30T03:13:31.131Z"
+    },
+    {
+      "name": "GigaFunBot ",
+      "ticker": "GFB",
+      "mint": "E5ryHkjHJ6o7o1YR3mxLbifd1m4DCchh9QizArYjpump",
+      "quality_score": 4,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "A monitoring/scoring bot that uses a proprietary 'four-gauge' risk/trend metric (Pressure, Flow, Safety, Heat) to identify trending Solana coins.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "no working product, just a monitoring/analytics tool",
+        "potential for high-frequency noise/jargon"
+      ],
+      "one_line_pitch": "An analytics dashboard and bot that scores Solana coin momentum using a custom four-metric risk/heat index.",
+      "website_url": "https://gigafunbot.com/",
+      "twitter_handle": "gigafunbot",
+      "reviewed_at": "2026-10-09T09:57:20.604Z"
     },
     {
       "name": "craziest",
@@ -56974,6 +57290,43 @@
     }
   ],
   "low_quality_tech_coins": [
+    {
+      "name": "Trianlats",
+      "ticker": "TRIAN",
+      "mint": "0xac74223063ad201ec04184ba30f1e4b1f8a03b82",
+      "quality_score": 2,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A gamified ecosystem where certain interactions or growth may scale with chart activity, though currently just a basic interactive web game.",
+      "red_flags": [
+        "no clear technical mechanism, likely a simple game/meme",
+        "vague way of describing any certain growth or interaction"
+      ],
+      "one_line_pitch": "A simple interactive game/meme or 'world' that scales with its own social/chart growth.",
+      "website_url": null,
+      "twitter_handle": "trianlats",
+      "reviewed_at": "2026-10-09T09:56:39.003Z"
+    },
+    {
+      "name": "The Black Bull",
+      "ticker": "ANSEM",
+      "mint": "7wJ3Dpk9VVsKnigeXVUpcUCqJvRW3VB2DviWCRM5pump",
+      "quality_score": 1,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "SOLANA",
+      "mechanism_summary": "None; a pure personality-driven meme or narrative about a 'cold bull'.",
+      "red_flags": [
+        "no actual mechanism or product mentioned",
+        "purely way-of-life/vibe narrative",
+        "low-effort way-of-life description"
+      ],
+      "one_line_pitch": "A pure-vibe meme coin lacking any technical or functional mechanism.",
+      "website_url": "https://ansem.io/launch/coin/5xe24cPXcEj1hKLrUBzgP3P1dUYp1N5afDheYde8sfGa",
+      "twitter_handle": "blackbullsol",
+      "reviewed_at": "2026-10-09T09:54:42.934Z"
+    },
     {
       "name": "Prelode",
       "ticker": "Prelode",
