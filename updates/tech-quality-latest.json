@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T19:18:03.467Z",
+  "generated_at": "2026-10-09T19:42:54.676Z",
   "note": "Quality-reviewed tech coins: passed a local coarse filter (qwen2.5:3b) then a real judgment pass (Haiku) confirming is_real_tech=true. new_idea_suggestions are Haiku-generated, informed by these patterns but NOT copies -- creative seeds for further review, not trading signals.",
   "quality_tech_coins": [
     {
@@ -16,6 +16,23 @@
       "website_url": "https://www.theturingtest.app/",
       "twitter_handle": "turingtestapp",
       "reviewed_at": "2026-10-04T16:43:41.798Z"
+    },
+    {
+      "name": "Octopus",
+      "ticker": "OCTO",
+      "mint": "0x224b0c768dac47712ba0716f23ae94d170c4d75e",
+      "quality_score": 8,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Uses EIP-7702-style batching or account abstraction to execute multiple wallet operations in a single transaction/block with sponsored gas.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "platform-specific (Robinhood Chain dependency)"
+      ],
+      "one_line_pitch": "A gas-sponsored batch-transaction protocol using EIP-7702-style execution for multiple wallets in a single block.",
+      "website_url": "https://octoprotocol.site",
+      "twitter_handle": "octoproto",
+      "reviewed_at": "2026-10-09T19:36:56.365Z"
     },
     {
       "name": "aequafinance",
@@ -2084,6 +2101,131 @@
       "website_url": "http://dotnet.land",
       "twitter_handle": "dotnetfund",
       "reviewed_at": "2026-10-03T13:48:57.247Z"
+    },
+    {
+      "name": "Hooks Protocol",
+      "ticker": "HOOKS",
+      "mint": "2usvGShZzYmfxYcyjUv7QcQNzx1MY5spabayf3NDpump",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "A swap protocol that uses user-retention/frequency-based fee-discounting, where frequent, returning wallets pay lower transaction fees.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "no working product, just a landing page",
+        "marketing heavy on a single-use metaphor"
+      ],
+      "one_line_pitch": "A DEX that rewards long-term user retention with a dynamic, frequency-based fee reduction mechanism.",
+      "website_url": "https://hooksprotocol.com/",
+      "twitter_handle": "hooksprotocol",
+      "reviewed_at": "2026-10-09T19:41:43.758Z"
+    },
+    {
+      "name": "Incognito",
+      "ticker": "INCO",
+      "mint": "DK16JRcZj8T3e2ses3ZiLYPB2YvX7pWh1iVSoH4Dpump",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "A privacy-preserving layer (shielding/masking) for Solana and EVM that allows private transfers and swaps without changing seed or using a new wallet.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "privacy-techs are difficult to implement without high-latency or complex ZK-proofs",
+        "claims heavy cross-chain support (Solana, ETH, Base, BNB) which often implies high-complexity or fragmented liquidity"
+      ],
+      "one_line_pitch": "A privacy-preserving layer for masking transactions and swaps on Solana and EVM chains.",
+      "website_url": "https://incognitoo.app/",
+      "twitter_handle": "incognitooapp",
+      "reviewed_at": "2026-10-09T19:40:42.698Z"
+    },
+    {
+      "name": "NetSniff",
+      "ticker": "SNIFF",
+      "mint": "0xd9ec280628895db619031efe42a0432f44aefb71",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "An LLM trained on a transparent, source-linked corpus of blockchain/protocol data and web-scraped crypto-native information.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "high compute/data requirement",
+        "unproven training corpus/methodology"
+      ],
+      "one_line_pitch": "A specialized LLM trained specifically on transparent, source-linked crypto protocol and blockchain data.",
+      "website_url": "https://netsniff.fun",
+      "twitter_handle": "netsniffnetwork",
+      "reviewed_at": "2026-10-09T19:39:07.623Z"
+    },
+    {
+      "name": "dns",
+      "ticker": "dns",
+      "mint": "DNyj2mtNkdQmD2z6gGY3LJLE4csiKC6K6QYPLyVapump",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "A protocol allowing any website to launch a token where 90% of transaction fees are sent back to a site-specific vault.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "requires heavy integration/adoption or a way to handle off-chain claims"
+      ],
+      "one_line_pitch": "A fee-redistribution protocol that funnels token-generated fees back to the parent website's treasury.",
+      "website_url": "https://paydns.xyz/",
+      "twitter_handle": "paydnsfun",
+      "reviewed_at": "2026-10-09T19:38:35.303Z"
+    },
+    {
+      "name": "NetSniff",
+      "ticker": "SNIFF",
+      "mint": "0xcc2877ad186d41625a80cf1b022d3a4e9af01bda",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A specialized LLM trained on a transparent, verifiable corpus of on-chain protocol data and transaction metadata.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "high-effort training requirement",
+        "risk of being a niche application rather than a new primitive"
+      ],
+      "one_line_pitch": "A specialized LLM trained on transparent, source-linked crypto protocol and on-chain data.",
+      "website_url": "https://netsniff.fun",
+      "twitter_handle": "netsniffnetwork",
+      "reviewed_at": "2026-10-09T19:38:03.335Z"
+    },
+    {
+      "name": "JumpStart",
+      "ticker": "JUMPSTART",
+      "mint": "0xbfd63232e0a8f206a5ca7b91e63090789b7e2a4d",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A game-theoretic wayload/staking mechanism where 'stalled' (depleting) wallets redistribute or lose stakes to active 'jumpstarting' wallets.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "high-complexity game logic, hard to implement",
+        "entirely wayload/social-incentive-based, no clear utility otherwise"
+      ],
+      "one_line_pitch": "A social staking game where failing wallets redistribute their stakes to active players who 'jumpstart' them.",
+      "website_url": "https://jumpstartlot.xyz",
+      "twitter_handle": "jumpstartpons",
+      "reviewed_at": "2026-10-09T19:37:29.840Z"
+    },
+    {
+      "name": "payroll",
+      "ticker": "PAYROLL",
+      "mint": "3xfjNeVFniUDZRr2yPc8k74NTqn3QiySQHbNT4Hcpump",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "A wayfinding/engagement protocol where users post about coins to earn a share of a SOL pot, distributed based on relative activity levels.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "no working product, just a way to distribute engagement",
+        "requires high-frequency user activity to be meaningful"
+      ],
+      "one_line_pitch": "An engagement-based reward mechanism that distributes SOL-based pots to active community posters every 12 hours.",
+      "website_url": "https://onpayroll.fun/",
+      "twitter_handle": "onpayrollfun",
+      "reviewed_at": "2026-10-09T19:35:51.983Z"
     },
     {
       "name": "Degen & Poor's",
@@ -31389,6 +31531,41 @@
       "reviewed_at": "2026-10-03T13:48:57.246Z"
     },
     {
+      "name": "STRAYS",
+      "ticker": "STRAYS",
+      "mint": "7TTjhNK6Ncn3u4ZQfc6rZVRziZNVogGQwER9TpTzpump",
+      "quality_score": 5,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "Uses transaction fees to fund a weekly redistribution/burn mechanism where certain dead coins are 'adopted' via community voting.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "narrative-heavy, mechanism is a standard fee-based redistribution"
+      ],
+      "one_line_pitch": "A community-driven way to 'rescue' dead coins through weekly fee-funded voting or redistribution.",
+      "website_url": "https://strayshome.fun",
+      "twitter_handle": "strayshomefun",
+      "reviewed_at": "2026-10-09T19:35:19.090Z"
+    },
+    {
+      "name": "UnBox",
+      "ticker": "UNBOX",
+      "mint": "rtMJ3z4za85jw2ZF8XELydNXXmMTYYaUNmqe6cXwBox",
+      "quality_score": 5,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "Uses protocol-level creator fees to purchase and distribute physical luxury goods (watches/bags) to holders via a treasury-funded drop mechanism.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "heavy reliance on physical logistics/execution",
+        "dependent on 'IcyBox' ecosystem or secondary token"
+      ],
+      "one_line_pitch": "A protocol-managed way to convert trading fees into physical luxury goods or 'drops'.",
+      "website_url": "https://unboxem.net/",
+      "twitter_handle": "unboxem",
+      "reviewed_at": "2026-10-09T19:34:47.707Z"
+    },
+    {
       "name": "Candy or Curse",
       "ticker": "CoC",
       "mint": "27WxDJvuFUg1TxGKoDyQ8FGhPWdDrqYrePm78snapump",
@@ -43855,6 +44032,24 @@
       "website_url": null,
       "twitter_handle": null,
       "reviewed_at": "2026-09-30T03:13:31.131Z"
+    },
+    {
+      "name": "Lucent DEX",
+      "ticker": "LUCENT",
+      "mint": "Dm7Sa246LwoRjgJa1sFWqBW7DZoCfwQgLv4t8ZLuCeNt",
+      "quality_score": 4,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "A DEX featuring on-chain order books and certain way to distribute fees back to the native token.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "high competition (standard DEX/orderbook narrative)",
+        "vague on how 'terminal trader' or 'perps beta' actually differs from existing able competitors"
+      ],
+      "one_line_pitch": "An order-book-based DEX on Solana with fee-redistribution or burn mechanics.",
+      "website_url": "https://lucentdex.com/",
+      "twitter_handle": "lucentdex",
+      "reviewed_at": "2026-10-09T19:42:15.906Z"
     },
     {
       "name": "AltStudio",
@@ -59666,6 +59861,60 @@
     }
   ],
   "low_quality_tech_coins": [
+    {
+      "name": "Neura",
+      "ticker": "Neura",
+      "mint": "CcFkwi8H7zD1bDLwyQacwK8ntoms1a2Bs4SunhL3pump",
+      "quality_score": 3,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "SOLANA",
+      "mechanism_summary": "A fee-based buyback and burn mechanism for a native token (CLAW) funded by platform transaction fees.",
+      "red_flags": [
+        "vague 'brain' marketing",
+        "focuses on fee-redistribution rather than a new underlying product"
+      ],
+      "one_line_pitch": "A fee-driven buyback/burn mechanism for a platform-native token used in an agentic finance ecosystem.",
+      "website_url": "https://clawpump.tech/",
+      "twitter_handle": "neurarh",
+      "reviewed_at": "2026-10-09T19:42:48.920Z"
+    },
+    {
+      "name": "FOMO",
+      "ticker": "FOMO",
+      "mint": "GLgQaXZrpG5xY8N6ZaBjBSSU35V4K5VK6FvvcbkBrka9",
+      "quality_score": 1,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "SOLANA",
+      "mechanism_summary": "No mechanism provided; purely a marketing-driven narrative about a trading app/tradition.",
+      "red_flags": [
+        "no mechanism, just a way of life/narrative",
+        "vague value proposition"
+      ],
+      "one_line_pitch": "A generic trading-focused narrative/brand with no underlying technical mechanism or product mentioned.",
+      "website_url": "https://fomo.family/",
+      "twitter_handle": "fomo",
+      "reviewed_at": "2026-10-09T19:40:08.287Z"
+    },
+    {
+      "name": "Tiktok Cash",
+      "ticker": "TCASH",
+      "mint": "2cUjxCYyTf5NjRQkUWMp8aZohiHZm6m3QEGajDBxT5UA",
+      "quality_score": 2,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "SOLANA",
+      "mechanism_summary": "A payment or tipping layer built on top of TikTok handles/userget IDs.",
+      "red_flags": [
+        "no actual protocol mechanism, just a payment use-case",
+        "highly dependent on external platform (TikTok) API/integration"
+      ],
+      "one_line_pitch": "A payment utility or tipping mechanism specifically tied to TikTok usernames.",
+      "website_url": "https://tcash.money/",
+      "twitter_handle": "usetcash",
+      "reviewed_at": "2026-10-09T19:39:38.051Z"
+    },
     {
       "name": "DOTF",
       "ticker": "D O T ",
