@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T13:07:04.140Z",
+  "generated_at": "2026-10-09T13:35:31.953Z",
   "note": "Quality-reviewed tech coins: passed a local coarse filter (qwen2.5:3b) then a real judgment pass (Haiku) confirming is_real_tech=true. new_idea_suggestions are Haiku-generated, informed by these patterns but NOT copies -- creative seeds for further review, not trading signals.",
   "quality_tech_coins": [
     {
@@ -15591,6 +15591,24 @@
       "website_url": "https://rippers.fun/",
       "twitter_handle": "rippersdotfun",
       "reviewed_at": "2026-10-03T13:13:07.851Z"
+    },
+    {
+      "name": "Anonymous Cat",
+      "ticker": "ZCAT",
+      "mint": "ZtsJr9j1QEwFf9qHKUeaMaknF9QaNuFLJGV4aHWpump",
+      "quality_score": 6,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "Uses a burn-and-claim mechanism where burning SPL tokens on Solana mints way/claims NFTs that represent certain assets on Zcash.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "proof of concept only",
+        "high-friction cross-chain-like bridge mechanism"
+      ],
+      "one_line_pitch": "A bridge-like mechanism using Solana burns to mint representative NFTs or assets on the Zcash network.",
+      "website_url": null,
+      "twitter_handle": "zip227",
+      "reviewed_at": "2026-10-09T13:11:53.940Z"
     },
     {
       "name": "CRAWLNET",
@@ -57913,6 +57931,117 @@
     }
   ],
   "low_quality_tech_coins": [
+    {
+      "name": "Robin Kingdoms Jewel Official",
+      "ticker": "JEWEL",
+      "mint": "0xe447d0d678f0a12d5b60adc1baa8fa23e0300e3c",
+      "quality_score": 2,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A standard RPG-style game loop involving leveling stats and daily token emissions.",
+      "red_flags": [
+        "generic RPG/gameplay narrative",
+        "no specific technical mechanism or way to prevent inflation"
+      ],
+      "one_line_pitch": "A standard RPG-themed token with basic leveling and emission mechanics.",
+      "website_url": "https://robinkingdom.app",
+      "twitter_handle": "robin_kingdom",
+      "reviewed_at": "2026-10-09T13:35:10.608Z"
+    },
+    {
+      "name": "Mapae",
+      "ticker": "MAPAE",
+      "mint": "0xb59229b1afa578aa7339615e40eafde94f2829de",
+      "quality_score": 1,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "No identifiable technical mechanism; appears to be a fragment of a marketing or protocol-specific instruction or wayfinding jargon.",
+      "red_flags": [
+        "nonsensical description",
+        "no clear technical mechanism",
+        "lacks any mention of utility or product"
+      ],
+      "one_line_pitch": "A non-descript, likely low-effort wayfinding or instruction-based meme with no clear technical utility.",
+      "website_url": "https://mapae.io",
+      "twitter_handle": null,
+      "reviewed_at": "2026-10-09T13:34:32.750Z"
+    },
+    {
+      "name": "Shieldeum",
+      "ticker": "SHIELDH",
+      "mint": "0xad9d73b625c6b1b4413c686db81d2c955c66854c",
+      "quality_score": 2,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A generic combination of VPN, AI, and DePIN narratives with no specific protocol-level mechanism or oracles/incentive structure described.",
+      "red_flags": [
+        "jargon-heavy way of describing a service",
+        "no specific mechanism or protocol logic provided",
+        "vague way to use 'AI' and 'DePIN' as buzzwords"
+      ],
+      "one_line_pitch": "A generic buzzword-driven way to label a VPN/DePIN service without a clear technical or way of operating.",
+      "website_url": "https://shieldeum.net",
+      "twitter_handle": "shieldeum",
+      "reviewed_at": "2026-10-09T13:28:48.185Z"
+    },
+    {
+      "name": "fomo",
+      "ticker": "FOMO",
+      "mint": "dfmvmeTtY5F115mzG2qsPBDGnMCxshCSTDhWRLApump",
+      "quality_score": 1,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "SOLANA",
+      "mechanism_summary": "A trading app/platform focusing on trader rewards and referral programs.",
+      "red_flags": [
+        "no specific technical mechanism or product-level utility described",
+        "purely a way to describe a reward/referral loop",
+        "generic marketing-heavy bio"
+      ],
+      "one_line_pitch": "A generic trading app focused on community rewards and referral-based incentives.",
+      "website_url": null,
+      "twitter_handle": "fomo",
+      "reviewed_at": "2026-10-09T13:13:43.918Z"
+    },
+    {
+      "name": "fomo",
+      "ticker": "FOMO",
+      "mint": "125TLBRRuCYUyBzU9UvM6ULdKYjtHVSAnKyVMEsspump",
+      "quality_score": 1,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "SOLANA",
+      "mechanism_summary": "A trading app focused on community rewards and referral programs with no specific technical mechanism or protocol-level utility mentioned.",
+      "red_flags": [
+        "purely way/narrative driven",
+        "no technical mechanism or product description"
+      ],
+      "one_line_pitch": "A reward-based trading app focused on community incentives and referrals.",
+      "website_url": null,
+      "twitter_handle": "fomo",
+      "reviewed_at": "2026-10-09T13:13:09.067Z"
+    },
+    {
+      "name": "fomo",
+      "ticker": "FOMO",
+      "mint": "eF2LbRBvWA4t6uAheo9bRjtEjZ1PQbQhjWm5az5pump",
+      "quality_score": 1,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "SOLANA",
+      "mechanism_summary": "A trading application focused on a rewards and referral program for active community members.",
+      "red_flags": [
+        "no specific technical mechanism described",
+        "purely a way to describe a way to distribute tokens"
+      ],
+      "one_line_pitch": "A generic rewards-based trading app focused on community engagement and referrals.",
+      "website_url": null,
+      "twitter_handle": "fomo",
+      "reviewed_at": "2026-10-09T13:12:29.748Z"
+    },
     {
       "name": "HAL 9000",
       "ticker": "HAL",
