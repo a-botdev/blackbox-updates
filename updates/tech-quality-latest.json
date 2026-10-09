@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T16:07:03.012Z",
+  "generated_at": "2026-10-09T16:24:10.036Z",
   "note": "Quality-reviewed tech coins: passed a local coarse filter (qwen2.5:3b) then a real judgment pass (Haiku) confirming is_real_tech=true. new_idea_suggestions are Haiku-generated, informed by these patterns but NOT copies -- creative seeds for further review, not trading signals.",
   "quality_tech_coins": [
     {
@@ -1979,6 +1979,24 @@
       "website_url": "http://dotnet.land",
       "twitter_handle": "dotnetfund",
       "reviewed_at": "2026-10-03T13:48:57.247Z"
+    },
+    {
+      "name": "Binder",
+      "ticker": "BINDR",
+      "mint": "4RzNC8YPd3tDmR9Z9CbrwsTKXUDorgWMyGH9HLa6pump",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "A strategy token where transaction fees fund the purchase of physical PSA-graded cards, which are then distributed via on-chain raffles to holders.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "requires external physical oracles (Collector's Crypt) to settle",
+        "complex enough that execution risk/liquidity management is high"
+      ],
+      "one_line_pitch": "A protocol that uses token fees to purchase and raffle physical graded trading cards to holders.",
+      "website_url": "https://usebinder.fun",
+      "twitter_handle": "binderdotfun",
+      "reviewed_at": "2026-10-09T16:22:51.672Z"
     },
     {
       "name": "swarm",
@@ -58904,6 +58922,24 @@
     }
   ],
   "low_quality_tech_coins": [
+    {
+      "name": "GTA6",
+      "ticker": "GTA 6 Coin",
+      "mint": "3nsdSibyXAAEnhm4AMU7cRBgT5pz8B2H3u5aqLDRpump",
+      "quality_score": 1,
+      "is_real_tech": false,
+      "category": "impersonator",
+      "chain": "SOLANA",
+      "mechanism_summary": "A community-driven news/database aggregator for the upcoming Rockstar game GTA 6.",
+      "red_flags": [
+        "brand hijack risk",
+        "no underlying technical mechanism or product"
+      ],
+      "one_line_pitch": "A fan-driven news aggregator/tribute coin for the GTA 6 video game release.",
+      "website_url": "https://gta6intel.com/",
+      "twitter_handle": "gta6intel",
+      "reviewed_at": "2026-10-09T16:11:43.938Z"
+    },
     {
       "name": "Nivra ",
       "ticker": "NIVRA",
