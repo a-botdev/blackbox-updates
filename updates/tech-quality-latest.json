@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T17:21:57.066Z",
+  "generated_at": "2026-10-09T17:51:23.318Z",
   "note": "Quality-reviewed tech coins: passed a local coarse filter (qwen2.5:3b) then a real judgment pass (Haiku) confirming is_real_tech=true. new_idea_suggestions are Haiku-generated, informed by these patterns but NOT copies -- creative seeds for further review, not trading signals.",
   "quality_tech_coins": [
     {
@@ -16,6 +16,59 @@
       "website_url": "https://www.theturingtest.app/",
       "twitter_handle": "turingtestapp",
       "reviewed_at": "2026-10-04T16:43:41.798Z"
+    },
+    {
+      "name": "TapCade",
+      "ticker": "TAP",
+      "mint": "4cKFoXN9nMoSHXnKGJFHzSZ1kyhU7fujEbwT5eLipump",
+      "quality_score": 8,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "Uses an LLM-based prompt-to-game engine to generate simple, playable, single-button/mechanic games directly within a social media or app timeline.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "high execution risk (gameplay depth/complexity or prompt-to-code accuracy)"
+      ],
+      "one_line_pitch": "A prompt-to-game engine that generates playable, simple arcade games from a single sentence.",
+      "website_url": "https://tapcade.fun/",
+      "twitter_handle": "tapcadefun",
+      "reviewed_at": "2026-10-09T17:50:18.053Z"
+    },
+    {
+      "name": "daemon",
+      "ticker": "DAEMON",
+      "mint": "0x242edd4e4cd50b13b46d950911beef96d0f9cebd",
+      "quality_score": 8,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "ERC-6551 enabled NFTs that act as autonomous agents with their own wallets and executable logic (agentfiles) or permissioned rule-sets.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "high-speculation launch date (2026)",
+        "depends on Robinhood Chain ecosystem"
+      ],
+      "one_line_pitch": "Autonomous ERC-6551 agent NFTs that manage their own wallets and execute programmable on-chain logic.",
+      "website_url": "https://obol.sh",
+      "twitter_handle": "meexworks",
+      "reviewed_at": "2026-10-09T17:42:28.614Z"
+    },
+    {
+      "name": "KOTHFI",
+      "ticker": "KOTH",
+      "mint": "0x31216ca2182786501f7211d2b7a677471cff4410",
+      "quality_score": 8,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Autonomous AI agent ecosystem where agents manage their own lifecycles, launching and trading tokens via programmed logic on-chain.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "high-complexity execution risk",
+        "dependent on underlying chain (Robinhood Chain) or custom logic"
+      ],
+      "one_line_pitch": "An autonomous AI agent arena where agents live, trade, and breed without human intervention.",
+      "website_url": "https://koth.fi",
+      "twitter_handle": "kothfi",
+      "reviewed_at": "2026-10-09T17:36:59.289Z"
     },
     {
       "name": "Quanta",
@@ -1979,6 +2032,219 @@
       "website_url": "http://dotnet.land",
       "twitter_handle": "dotnetfund",
       "reviewed_at": "2026-10-03T13:48:57.247Z"
+    },
+    {
+      "name": "Slab Cards",
+      "ticker": "SLAB",
+      "mint": "DeECpS8vRPY7PFpMTWMeHyy5NGA1ssqEAdSLFiPJpump",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "A lending protocol allowing users to use physical graded trading cards (slabs) as collateral to borrow USDC.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "requires physical custody/insurance infrastructure",
+        "relies on accurate live sales comps"
+      ],
+      "one_line_pitch": "A lending protocol using physical graded trading cards as collateral for USDC loans.",
+      "website_url": "https://slabcards.fun/",
+      "twitter_handle": "slabcardsfun",
+      "reviewed_at": "2026-10-09T17:49:09.486Z"
+    },
+    {
+      "name": "Circuit",
+      "ticker": "Circuit",
+      "mint": "EcZndAERfzNhLirHwfsy44dAyPSZazjDU83pa6RApump",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "A visual, block-based logic builder allowing users to program on-chain events, API calls, and AI-driven triggers without writing code.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "high-level abstraction may lead to heavy gas/compute costs",
+        "vague 'do anything' marketing requires verification of actual execution"
+      ],
+      "one_line_pitch": "A no-code, block-based programmable logic engine for automating on-chain and off-chain events.",
+      "website_url": "https://circuitdev.fun/",
+      "twitter_handle": "circuitdevfun",
+      "reviewed_at": "2026-10-09T17:48:33.489Z"
+    },
+    {
+      "name": "Surety",
+      "ticker": "SRTX",
+      "mint": "0xd60826ca3a47d69b5ebcd4d01f5c9487ba0fe940",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A protocol for collateralized service-level-agreements (SLAs) where agent performance is cryptographically enforced via reserved capital and deadlines.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "niche/specialized use-case",
+        "reliance on Robinhood Chain ecosystem"
+      ],
+      "one_line_pitch": "An on-chain escrow/commitment protocol for ensuring agent-based service delivery via collateralized penalties.",
+      "website_url": "https://x402surety.xyz",
+      "twitter_handle": "surety_x402",
+      "reviewed_at": "2026-10-09T17:44:11.603Z"
+    },
+    {
+      "name": "Audn AI",
+      "ticker": "AUDN",
+      "mint": "2Gnv7Vg8EggmAKhyFpC16HHJmHYxtmVZgNKbZ3kbpump",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "An autonomous security agent (red-teaming tool) that uses GLM-based models to perform automated vulnerability discovery and patch verification in sandboxes.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "high-effort way to build a single security tool",
+        "niche use-case for a single token"
+      ],
+      "one_line_pitch": "An autonomous AI-driven red-teaming agent for automated vulnerability discovery and patch verification.",
+      "website_url": "https://audn.ai",
+      "twitter_handle": "audn_ai",
+      "reviewed_at": "2026-10-09T17:43:37.260Z"
+    },
+    {
+      "name": "Float Capital",
+      "ticker": "FLTQ",
+      "mint": "0xa7090bdd129215102fc5daf9363ce7b47468e8ed",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A credit protocol providing collateral-backed working capital (USDG-backed) specifically to fund the operational/compute costs of autonomous AI agents.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "highly specialized niche (agent-only way or no way)"
+      ],
+      "one_line_pitch": "A credit protocol providing collateral-backed working capital to fund AI agent operating costs.",
+      "website_url": "https://floatcapital.xyz",
+      "twitter_handle": "float_aicapital",
+      "reviewed_at": "2026-10-09T17:41:15.074Z"
+    },
+    {
+      "name": "Swarm",
+      "ticker": "SWARM",
+      "mint": "c5F4E8SxJycb4LKdhHngC4iCQyazveBNS4XXXNHpump",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "AI agents executing trades using post-quantum, hash-based signature keys for verifiable, sealed-strategy execution on Solana.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "high-level abstraction (AI agents or 'bunker' mode may lack a specific, concrete implementation detail"
+      ],
+      "one_line_pitch": "A marketplace for AI trading agents using post-quantum cryptographic signatures for verifiable execution.",
+      "website_url": "https://www.swarmpq.fun/",
+      "twitter_handle": "swarmpq",
+      "reviewed_at": "2026-10-09T17:40:39.609Z"
+    },
+    {
+      "name": "XULTURE",
+      "ticker": "XULT",
+      "mint": "0x0dc0f2dd82d76631b646cb0feb5b31ebcec5f9a8",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A browser extension/interface that enables one-click, non-custodial trading on Robinhood Chain directly from Twitter (X) via risk-checking and route optimization.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "dependency on Robinhood Chain ecosystem",
+        "limited to browser/desktop experience"
+      ],
+      "one_line_pitch": "A browser-based trading terminal that executes non-custodial swaps on Robinhood Chain directly from your X/Twitter feed.",
+      "website_url": "https://xulture.family",
+      "twitter_handle": "xulturefamilyx",
+      "reviewed_at": "2026-10-09T17:38:46.264Z"
+    },
+    {
+      "name": "Cahava",
+      "ticker": "CAVA",
+      "mint": "0xc271304203e1c06f88a526e1d228fab0613d0c44",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Predictive liquidity management tool that forecasts stablecoin redemption demand to preposition reserves before bank settlement windows close.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "niche/specialized use case",
+        "requires heavy external data (bank windows/regional traffic)"
+      ],
+      "one_line_pitch": "A predictive liquidity scheduler for stablecoin redemptions based on regional bank settlement windows.",
+      "website_url": "https://cahava.fun",
+      "twitter_handle": "cahavasettle",
+      "reviewed_at": "2026-10-09T17:38:07.817Z"
+    },
+    {
+      "name": "WILDCAP",
+      "ticker": "WILD",
+      "mint": "0x0a10453bec7b69608d47063ac6d3589e0fb83d9a",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A 3D gaming layer or oracles-based game that renders live on-chain data/events into a playable 3D creature-collecting environment.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "high-risk execution (3D gaming on-chain is heavy)",
+        "brand-dependent (relies on Robinhood Chain ecosystem/marketing)"
+      ],
+      "one_line_pitch": "A 3D creature game that uses live blockchain data as a mechanism for gameplay or minting.",
+      "website_url": "https://wildcap.world",
+      "twitter_handle": "wildcapworld",
+      "reviewed_at": "2026-10-09T17:37:33.933Z"
+    },
+    {
+      "name": "Cahava",
+      "ticker": "CAHAVA",
+      "mint": "0x5bb25bc0e22a3f247612d03907d317a3154bbaff",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A liquidity management tool that uses demand forecasting or regional bank windows to preposition stablecoin reserves before settlement delays occur.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "no working product, just a landing page",
+        "high-complexity claim for a pump.fun-native coin"
+      ],
+      "one_line_pitch": "A predictive liquidity scheduling tool designed to manage stablecoin redemption-related settlement risks.",
+      "website_url": "https://cahava.fun",
+      "twitter_handle": "cahavasettle",
+      "reviewed_at": "2026-10-09T17:36:22.786Z"
+    },
+    {
+      "name": "slabcards",
+      "ticker": "SLABCARDS",
+      "mint": "0x5f6aecb8add792a9d0aea511ddf385b04e147377",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A lending protocol using physical/digital collectible (slab) or NFT-based collateral to secure USD-denometinated loans.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "requires external oracles for slab valuation",
+        "liquidation risk if collateral value drops below loan"
+      ],
+      "one_line_pitch": "A lending protocol using collectible-backed collateral or NFTs to secure USDC-denominated loans.",
+      "website_url": "https://slabcards.fun",
+      "twitter_handle": "slabcardsfun",
+      "reviewed_at": "2026-10-09T17:35:11.019Z"
+    },
+    {
+      "name": "Cahava",
+      "ticker": "CHAV",
+      "mint": "0x24bfe6a083f70f03c7f798a26b42d175ba1294ce",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Predictive liquidity management system for stablecoin issuers to pre-position reserves based on forecasted redemption or settlement demand.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "no working product, just a landing page"
+      ],
+      "one_line_pitch": "A predictive liquidity-provisioning protocol for stablecoin redemption-window management.",
+      "website_url": "https://cahava.fun",
+      "twitter_handle": "cahavasettle",
+      "reviewed_at": "2026-10-09T17:32:11.137Z"
     },
     {
       "name": "Neural Nations",
@@ -16175,6 +16441,60 @@
       "website_url": "https://rippers.fun/",
       "twitter_handle": "rippersdotfun",
       "reviewed_at": "2026-10-03T13:13:07.851Z"
+    },
+    {
+      "name": "ObjectPad",
+      "ticker": "OBJECTPAD",
+      "mint": "7dEJAtHqvHRoSx2FNCvAkeou5qxzLWUQK1xvir82pump",
+      "quality_score": 6,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "A platform using 3D scanning or image-to-asset pipelines to mint tokens representing physical objects.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "high execution risk (hardware/software bridge required)",
+        "vague on how 3D scanning or scanning 'objects' scales or functions in a software-only environment"
+      ],
+      "one_line_pitch": "A launchpad attempting to bridge physical objects to Solana via 3D scanning or imaging.",
+      "website_url": "https://www.objectpad.com/",
+      "twitter_handle": "objectpad_",
+      "reviewed_at": "2026-10-09T17:51:17.535Z"
+    },
+    {
+      "name": "Beefpad",
+      "ticker": "BEEFPAD",
+      "mint": "0xdcd36315221ac71333d65e5c2cfcda771e1cbb43",
+      "quality_score": 6,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "AI-driven social engagement or 'roasting' oracles that trigger or report based on trade-volume-driven competition or 'battles'.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "no working product, just a landing page",
+        "high-variance execution risk"
+      ],
+      "one_line_pitch": "An AI-agent-driven social combat game where trade volume orients character-based roasting or battles.",
+      "website_url": "https://beefpad.com",
+      "twitter_handle": "beefpadcom",
+      "reviewed_at": "2026-10-09T17:32:47.817Z"
+    },
+    {
+      "name": "Pullpit",
+      "ticker": "PULLPIT",
+      "mint": "0xd930491a5b71370255f4a30b6a5fe7fd1c356f5e",
+      "quality_score": 6,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A gambling/lottery mechanism where a random winner is drawn from a pool of stakes, redistributing a percentage of certain stakes to the winner.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "not a native Solana mechanism (uses ETH-denominated logic/jargon)",
+        "math/payout logic requires precise contract enforcement to prevent drain"
+      ],
+      "one_line_pitch": "A lottery-style redistribution protocol where a drawn winner siphons a percentage of certain stakes.",
+      "website_url": "https://pullpit.fun",
+      "twitter_handle": "pullpitpost",
+      "reviewed_at": "2026-10-09T17:30:28.732Z"
     },
     {
       "name": "streamoors",
@@ -30770,6 +31090,24 @@
       "reviewed_at": "2026-10-03T13:48:57.246Z"
     },
     {
+      "name": "CLEAN",
+      "ticker": "CLEAN",
+      "mint": "0xf3a98121ec1cf48db0b85f65805e2e32473315a4",
+      "quality_score": 5,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A multi-chain (4-network) wallet or dashboard/toolset for inspecting public activity, planning private transaction routes, and managing payment request links.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "tooling/utility-focused rather than a new primitive",
+        "requires enough certain user-base to justify a dedicated dashboard"
+      ],
+      "one_line_pitch": "A multi-chain wallet/dashboard utility for inspecting transactions and managing payment requests.",
+      "website_url": "https://useclean.app",
+      "twitter_handle": "usecleanapp",
+      "reviewed_at": "2026-10-09T17:33:26.645Z"
+    },
+    {
       "name": "Kaidu",
       "ticker": "KAIDU",
       "mint": "0x6d0d5c8c81fb2aad36e465965d0d3b2e3150fb54",
@@ -43182,6 +43520,24 @@
       "website_url": null,
       "twitter_handle": null,
       "reviewed_at": "2026-09-30T03:13:31.131Z"
+    },
+    {
+      "name": "CLICK",
+      "ticker": "CLICK",
+      "mint": "0x559fd7c9189b59e96f0d13b327a818ccc2b87df1",
+      "quality_score": 4,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Fee-based flywheel where 50% of fees burn tokens and 50% reward the frequency of buys (not size) via a leaderboard.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "incentivizes high-frequency low-value transactions",
+        "mechanically similar to standard buy-back-and-burn"
+      ],
+      "one_line_pitch": "A high-frequency trading incentive protocol that rewards buy-count frequency over transaction size.",
+      "website_url": "https://www.clickonrh.com",
+      "twitter_handle": "click_on_rh",
+      "reviewed_at": "2026-10-09T17:40:02.678Z"
     },
     {
       "name": "DOTF",
@@ -58958,6 +59314,268 @@
     }
   ],
   "low_quality_tech_coins": [
+    {
+      "name": "Onyra",
+      "ticker": "ONY",
+      "mint": "0xbd15095aac9bc0fdd7b597432f7e0ecbb6c64c3f",
+      "quality_score": 2,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A generic onchain vault or treasury intended to hold assets with a focus on security and simplicity.",
+      "red_flags": [
+        "vague mechanism",
+        "no specific technical or economic mechanism described beyond 'vaulting'",
+        "marketing-heavy, lacks technical depth"
+      ],
+      "one_line_pitch": "A generic way to secure assets in an onchain vault/treasury.",
+      "website_url": "https://onyra.site",
+      "twitter_handle": "tryonyra_",
+      "reviewed_at": "2026-10-09T17:47:57.305Z"
+    },
+    {
+      "name": "模因",
+      "ticker": "模因",
+      "mint": "0xe15090f556b82981023ec958c59f97b574b3e9b0",
+      "quality_score": 2,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A generic Layer-1 claiming quantum-resistance and proof-of-stake, lacking any specific or new technical way to achieve said resistance.",
+      "red_flags": [
+        "vague technical claims",
+        "generic 'quantum' branding without a specific mechanism",
+        "high-level jargon (L1, smart contracts, PoS) common to any new chain"
+      ],
+      "one_line_pitch": "Generic quantum-resistant L1 claim using standard PoS and smart contract infrastructure.",
+      "website_url": "https://quantumcoin.org",
+      "twitter_handle": "meadgod",
+      "reviewed_at": "2026-10-09T17:47:21.354Z"
+    },
+    {
+      "name": "模因",
+      "ticker": "模因",
+      "mint": "0x38d9096cb3d7a9e6546581322fe1c01536a56f76",
+      "quality_score": 2,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Claims to be a quantum-resistant Layer-1 with PoS, but uses generic blockchain terminology without a specific, novel cryptographic or architectural mechanism.",
+      "red_flags": [
+        "generic 'quantum-resistant' marketing buzzword",
+        "lacks specific technical differentiation from existing L1s",
+        "reads like a standard template-based blockchain project"
+      ],
+      "one_line_pitch": "A generic Layer-1 blockchain claim using quantum-resistance as a primary marketing hook.",
+      "website_url": "https://quantumcoin.org",
+      "twitter_handle": "meadgod",
+      "reviewed_at": "2026-10-09T17:46:44.417Z"
+    },
+    {
+      "name": "Digital Oil Trust Fund🔥",
+      "ticker": "DOTF",
+      "mint": "HJSZRKuv1DrPTtkSR11MCLpEz8eb31niUiLojR5jpump",
+      "quality_score": 3,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "SOLANA",
+      "mechanism_summary": "A narrative-driven way to represent physical oil reserves or a 'settlement layer' for digital oil, though no actual physical backing mechanism is described.",
+      "red_flags": [
+        "no working product, just a narrative/theme",
+        "purely speculative 'trust fund' or 'reserve' way of thinking without a technical mechanism",
+        "high reliance on geopolitical narrative/meme-ability"
+      ],
+      "one_line_pitch": "A speculative way to trade a digital proxy for global oil reserves and energy security.",
+      "website_url": "https://dotf.site/",
+      "twitter_handle": null,
+      "reviewed_at": "2026-10-09T17:46:07.035Z"
+    },
+    {
+      "name": "Super Cat Game",
+      "ticker": "SUPERCAT",
+      "mint": "9qDe8Z4fzHwJQ6UbWJqStkstLaXtw9rSVNHpvrEJpump",
+      "quality_score": 2,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "SOLANA",
+      "mechanism_summary": "A simple browser-based platformer or clicker-style game or narrative-driven meme (no technical protocol mechanism or utility mentioned).",
+      "red_flags": [
+        "no technical mechanism or utility mentioned",
+        "standard gaming/adventure meme narrative"
+      ],
+      "one_line_pitch": "A simple, level-based browser adventure game or narrative meme or clicker.",
+      "website_url": "https://supercatsol.top/",
+      "twitter_handle": "supercatsolgame",
+      "reviewed_at": "2026-10-09T17:45:27.211Z"
+    },
+    {
+      "name": "Actual Imagination",
+      "ticker": "AI",
+      "mint": "5Z1BuFbY87mWWXZHEm86QPyjsUJWbVszQAR7kyKpump",
+      "quality_score": 2,
+      "is_real_tech": false,
+      "category": "impersonator",
+      "chain": "SOLANA",
+      "mechanism_summary": "Claims to be a quantum-resistant Layer-1 blockchain with smart contracts and proof-ofim-stake, but uses a generic 'Quantum' brand name.",
+      "red_flags": [
+        "brand hijack risk",
+        "generic 'quantum' marketing jargon",
+        "likely a way to rebrand existing L1 features"
+      ],
+      "one_line_pitch": "A generic claim of a quantum-resistant L1 blockchain using a common buzzword name.",
+      "website_url": "https://quantumcoin.org/",
+      "twitter_handle": "slndr3000",
+      "reviewed_at": "2026-10-09T17:44:49.812Z"
+    },
+    {
+      "name": "Actual Imagination",
+      "ticker": "AI",
+      "mint": "Cby3ez3SB5fBjeMZ8mn3qbYABMXWUikrcbnAA9MCdUM9",
+      "quality_score": 2,
+      "is_real_tech": false,
+      "category": "impersonator",
+      "chain": "SOLANA",
+      "mechanism_summary": "Claims to be a quantum-resistant Layer-1 blockchain with smart contracts and PoS, but uses a generic 'AI' ticker and 'Quantum' branding.",
+      "red_flags": [
+        "brand hijack risk",
+        "vague way to use 'AI' ticker",
+        "uses standard L1 buzzwords without a specific new mechanism"
+      ],
+      "one_line_pitch": "A generic brand-hijack attempt using 'AI' or 'Quantum' buzzwords to mask a standard Layer-1 smart contract claim.",
+      "website_url": "https://quantumcoin.org/",
+      "twitter_handle": "rossrupert5558",
+      "reviewed_at": "2026-10-09T17:43:04.938Z"
+    },
+    {
+      "name": "Quantum Coin",
+      "ticker": "Q",
+      "mint": "Ef1FF5Au8Nvk3sA2CU8RhMsUHmFvbdjoVpHAbwoKJpnm",
+      "quality_score": 2,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "SOLANA",
+      "mechanism_summary": "A generic Layer-1 claim promising quantum-resistance and proof-of-stake consensus without any specific or novel cryptographic implementation details provided.",
+      "red_flags": [
+        "generic 'quantum' branding",
+        "vague technical claims",
+        "no specific mechanism or product mentioned beyond standard L1 jargon"
+      ],
+      "one_line_pitch": "A standard L1 blockchain play using generic quantum-resistance and PoS terminology.",
+      "website_url": "https://quantumcoin.org/",
+      "twitter_handle": "quantsdev1223",
+      "reviewed_at": "2026-10-09T17:41:50.018Z"
+    },
+    {
+      "name": "TrenchBrain",
+      "ticker": "TB",
+      "mint": "Bx4mdvvuRZgo1591f8ApbxrhBzweQzjxx3wuh5BKnH7B",
+      "quality_score": 2,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "SOLANA",
+      "mechanism_summary": "A generic fee-collection or activity-tracking mechanism with no specific underlying product or protocol mechanism described.",
+      "red_flags": [
+        "no clear product mechanism",
+        "vague/narrative-only",
+        "small market cap/low-effort"
+      ],
+      "one_line_pitch": "A generic fee-redistribution or activity-tracking token with no clear underlying technical utility.",
+      "website_url": "https://usepaid.app/token/G1QgTjdBZicCQELd8KTaQsPseoHV5cXhQGbFPVK3VYz3",
+      "twitter_handle": null,
+      "reviewed_at": "2026-10-09T17:39:25.119Z"
+    },
+    {
+      "name": "LOAN",
+      "ticker": "LOAN",
+      "mint": "0xd440aea857f9aa9c4a0035fd1949525732547b7a",
+      "quality_score": 2,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Claims to be a protocol-based meme, but lacks any specific mention of a mechanism (lending, borrowing, or otherwise).",
+      "red_flags": [
+        "vague/empty mechanism",
+        "high-level marketing claim without technical detail"
+      ],
+      "one_line_pitch": "A generic claim of being a protocol-driven meme without any defined utility or mechanism.",
+      "website_url": "https://loanmeme.io",
+      "twitter_handle": "loanmeme",
+      "reviewed_at": "2026-10-09T17:35:46.370Z"
+    },
+    {
+      "name": "Averis",
+      "ticker": "AVERIS",
+      "mint": "GAgW2zRS3dEaPXGLBzad2T962UnB2mJmMFdBenCpump",
+      "quality_score": 3,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "SOLANA",
+      "mechanism_summary": "Trading fees and unclaimed allocations are burned, with content or themes (planets) tied to X accounts.",
+      "red_flags": [
+        "generic burn mechanism",
+        "low-effort way to tie content to social media"
+      ],
+      "one_line_pitch": "A social-themed trading platform where certain fees/allocations are burned, using X accounts as a thematic template.",
+      "website_url": null,
+      "twitter_handle": null,
+      "reviewed_at": "2026-10-09T17:34:36.981Z"
+    },
+    {
+      "name": "Loan Meme",
+      "ticker": "LOAN",
+      "mint": "0x41e6f4f8f13b98182d5ae50afb114693507b14e6",
+      "quality_score": 3,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A lending/borrowing protocol built specifically for meme-tokens, likely using collateral or interest-rate-based liquidations.",
+      "red_flags": [
+        "extremely high execution risk",
+        "vague on collateral type",
+        "high-complexity mechanism for a meme-first launch"
+      ],
+      "one_line_pitch": "A DeFi-style lending protocol where the underlying collateral or debt is composed of meme-tokens.",
+      "website_url": "https://loanmeme.io",
+      "twitter_handle": "loanmeme",
+      "reviewed_at": "2026-10-09T17:31:38.580Z"
+    },
+    {
+      "name": "Comma",
+      "ticker": "COMMA",
+      "mint": "0xd49e30d35d8f25f9ba4e87cd2c9ec7034cfa8fb7",
+      "quality_score": 2,
+      "is_real_tech": false,
+      "category": "impersonator",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Claims to be an always-on, sessionless, open-source personal AI agent.",
+      "red_flags": [
+        "brand hijack risk",
+        "no specific technical mechanism or utility-based incentive described",
+        "vague product-to-token utility"
+      ],
+      "one_line_pitch": "A generic way to tokenize an AI agent service without a clear protocol-level mechanism.",
+      "website_url": "https://t.co/6ufCWOWcCx",
+      "twitter_handle": "commaaagent",
+      "reviewed_at": "2026-10-09T17:31:04.074Z"
+    },
+    {
+      "name": "Syndic",
+      "ticker": "SYDC",
+      "mint": "0xac7546f583e69b6c2b808ad9bc9c879cf70e6940",
+      "quality_score": 3,
+      "is_real_tech": false,
+      "category": "impersonator",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A project-specific token for an ecosystem (Robinhood Chain) focused on AI agent transactions.",
+      "red_flags": [
+        "brand hijack risk (Robinhood)",
+        "vague way to define a mechanism"
+      ],
+      "one_line_pitch": "A niche utility token for AI agents operating on Robinhood's proprietary blockchain.",
+      "website_url": "https://syndicagents.xyz",
+      "twitter_handle": "syndic_agents",
+      "reviewed_at": "2026-10-09T17:29:50.288Z"
+    },
     {
       "name": "Detected",
       "ticker": "DETECTED",
