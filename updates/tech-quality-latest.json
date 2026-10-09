@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T17:51:23.318Z",
+  "generated_at": "2026-10-09T18:14:15.673Z",
   "note": "Quality-reviewed tech coins: passed a local coarse filter (qwen2.5:3b) then a real judgment pass (Haiku) confirming is_real_tech=true. new_idea_suggestions are Haiku-generated, informed by these patterns but NOT copies -- creative seeds for further review, not trading signals.",
   "quality_tech_coins": [
     {
@@ -16,6 +16,23 @@
       "website_url": "https://www.theturingtest.app/",
       "twitter_handle": "turingtestapp",
       "reviewed_at": "2026-10-04T16:43:41.798Z"
+    },
+    {
+      "name": "LittleBit",
+      "ticker": "BIT",
+      "mint": "0x86af99052db086a66af7d764bb04d3abb81b485f",
+      "quality_score": 8,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Uses latent factorization and binarized weights (SmoothSign/residual compensation) to compress LLM weights to sub-1-bit or 0.55bpw.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "unverified if weights/methods actually exist or are just a paper-driven proposal"
+      ],
+      "one_line_pitch": "A specialized compression technique for running ultra-small, sub-1-bit quantized LLMs on edge hardware.",
+      "website_url": "https://littlebitllm.com",
+      "twitter_handle": "littlebit_llm",
+      "reviewed_at": "2026-10-09T18:10:07.829Z"
     },
     {
       "name": "TapCade",
@@ -2032,6 +2049,94 @@
       "website_url": "http://dotnet.land",
       "twitter_handle": "dotnetfund",
       "reviewed_at": "2026-10-03T13:48:57.247Z"
+    },
+    {
+      "name": "Binder",
+      "ticker": "Binder",
+      "mint": "C7Xc7LDvd7vY8QQjP7fayW1sFEUaopvuN9rzcaqzpump",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "Token fees fund the purchase of physical graded trading cards, which are then distributed or raffled to holders via smart contract rules.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "depends on external physical asset oracles (Collector Crypt)",
+        "requires active management/rebalancing of vault/strategy rules"
+      ],
+      "one_line_pitch": "A strategy-based token protocol where fees buy and redistribute physical graded trading cards to holders.",
+      "website_url": "https://usebinder.fun/",
+      "twitter_handle": "binderdotfun",
+      "reviewed_at": "2026-10-09T18:11:20.223Z"
+    },
+    {
+      "name": "d1",
+      "ticker": "d1",
+      "mint": "CTpfToUmFfwYPuWzb9LRLiR1FTnE1zpMT3Bovuc5pump",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "A decision model/bot designed to scan new pump.fun launches and execute trades based on rapid pattern/data reading.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "no working product, just a specialized trading bot/tool"
+      ],
+      "one_line_pitch": "A high-speed decision model/bot designed to scan and trade new pump.fun launches before crowd-driven price action.",
+      "website_url": "https://d1trader.xyz",
+      "twitter_handle": "d1traderllm",
+      "reviewed_at": "2026-10-09T18:10:45.276Z"
+    },
+    {
+      "name": "Encuro",
+      "ticker": "ERO",
+      "mint": "0xbd2e5c390b9630af0f60d1cd0b3a79cbe6b9b6e8",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A registry for tracking Bitcoin-backed collateral pledges to prevent double-rehypothecation or double-pledging of the same BTC balance.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "niche institutional focus may lack retail-driven liquidity/volume"
+      ],
+      "one_line_pitch": "A registry to verify Bitcoin collateral pledges and prevent double-pledging of the same native BTC balance.",
+      "website_url": "https://encuro.fun",
+      "twitter_handle": "encurotrust",
+      "reviewed_at": "2026-10-09T18:08:46.814Z"
+    },
+    {
+      "name": "PubJEET Game",
+      "ticker": "JEET",
+      "mint": "FqTAmYzg86grMToq2vmq9UPS2x21xeRXcVH4BfWEr1Vt",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "A low-poly, browser-based 64-player battle royale game featuring live gameplay-to-earn mechanics and certain built-in destruction/interactables.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "high-effort execution risk (game dev is harder than tokenomics)",
+        "browser-based performance limitations"
+      ],
+      "one_line_pitch": "A browser-based, low-poly battle royale game with live SOL-based kill-to-earn mechanics.",
+      "website_url": "https://pubj.io/",
+      "twitter_handle": "pubjeetofficial",
+      "reviewed_at": "2026-10-09T18:08:11.607Z"
+    },
+    {
+      "name": "gitpump",
+      "ticker": "GITPUMP",
+      "mint": "6shiS7C8NV899qRgbdtXaJYLmFotDQrHrx3cnEiA6Psi",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "A platform that uses GitHub repositories as a launch trigger, with a fee-splitting mechanism that rewards developers based on certain repo-related activity.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "no way to verify if actual code-based utility or just a marketing wrapper",
+        "dependent on external GitHub API/data"
+      ],
+      "one_line_pitch": "A developer-rewarding launchpad that uses GitHub repositories as the basis for token-launching and fee redistribution.",
+      "website_url": "https://gitpump.fun/",
+      "twitter_handle": "gitpump_fun",
+      "reviewed_at": "2026-10-09T18:06:59.624Z"
     },
     {
       "name": "Slab Cards",
@@ -16441,6 +16546,59 @@
       "website_url": "https://rippers.fun/",
       "twitter_handle": "rippersdotfun",
       "reviewed_at": "2026-10-03T13:13:07.851Z"
+    },
+    {
+      "name": "KEEL",
+      "ticker": "KEEL",
+      "mint": "0x6ba303c2d5eaaaa04c96933017508f82afc1999b",
+      "quality_score": 6,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "An interactive dashboard/toolset for managing and auditing token locks, vesting schedules, and burns specifically on the Robinhood Chain.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "niche-specific (Robinhood Chain focus may limit broad utility)",
+        "appears to be a utility/tool rather than a standalone protocol"
+      ],
+      "one_line_pitch": "A specialized transparency dashboard for managing token vesting and burns on Robinhood Chain.",
+      "website_url": "https://keelreserve.app",
+      "twitter_handle": "keelreserveapp",
+      "reviewed_at": "2026-10-09T18:13:34.027Z"
+    },
+    {
+      "name": "The Parliament",
+      "ticker": "PARL",
+      "mint": "G4JMQ1dyNsfDhchJG2Jk2Y1FB9mUq2j6Kf2xAVQFpump",
+      "quality_score": 6,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "An automated governance/DAO-style mechanism where certain 'members' vote on fee or supply adjustments every hour via smart contract execution.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "heavy reliance on scheduled execution (every hour)",
+        "highly thematic/narrative-driven"
+      ],
+      "one_line_pitch": "A governance-themed token where automated hourly votes determine fee or supply-altering actions.",
+      "website_url": "https://www.theparliament.fun/",
+      "twitter_handle": "parliamentparl",
+      "reviewed_at": "2026-10-09T18:12:59.722Z"
+    },
+    {
+      "name": "DIVPAD",
+      "ticker": "PAD",
+      "mint": "0xdf21daab661c5f6816a339b5051d64d16640c52b",
+      "quality_score": 6,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A launchpad where creator fees from new tokens are redirected to a treasury to acquire Bitcoin Ordinals.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "complex ecosystem dependency (requires Pons/Ordinals integration)"
+      ],
+      "one_line_pitch": "A launchpad where protocol fees or creator fees are used to accumulate a treasury of Bitcoin Ordinals.",
+      "website_url": "https://divpad.fun",
+      "twitter_handle": "dividendpad",
+      "reviewed_at": "2026-10-09T18:11:53.104Z"
     },
     {
       "name": "ObjectPad",
@@ -59314,6 +59472,81 @@
     }
   ],
   "low_quality_tech_coins": [
+    {
+      "name": "DOTF",
+      "ticker": "D O T ",
+      "mint": "h4XXM9wwHcTjB5kskQBZj4tWGvH73hxC9UX2h8apump",
+      "quality_score": 2,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "SOLANA",
+      "mechanism_summary": "A narrative-driven way to trade 'digitized' oil reserves and energy security, acting as a settlement layer for a digital commodity.",
+      "red_flags": [
+        "purely way/narrative-driven",
+        "no concrete technical mechanism or utility provided",
+        "lacks any way to verify 'backing' or 'reserves' on-chain"
+      ],
+      "one_line_pitch": "A narrative-only play on digitizing global oil reserves and energy securityon Solana.",
+      "website_url": "https://dotf.site/",
+      "twitter_handle": null,
+      "reviewed_at": "2026-10-09T18:14:10.007Z"
+    },
+    {
+      "name": "BountyWork",
+      "ticker": "BOUNTY",
+      "mint": "EPWP5TcTzebzBbARHvJaq54HHGgvJBopS2R3gsvdpump",
+      "quality_score": 1,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "SOLANA",
+      "mechanism_summary": "A simple task-based marketplace (bounty board) where users submit work for SOL rewards; no specialized protocol-level mechanism described.",
+      "red_flags": [
+        "no specific technical mechanism beyond a standard marketplace model",
+        "description and site content are highly generic"
+      ],
+      "one_line_pitch": "A standard task-based bounty marketplace for submitting work and receiving SOL rewards.",
+      "website_url": "https://www.bountysol.fun/",
+      "twitter_handle": "bountyworkfun",
+      "reviewed_at": "2026-10-09T18:12:25.792Z"
+    },
+    {
+      "name": "Project Sphere",
+      "ticker": "SPHERE",
+      "mint": "0x7c5c6a5e41c503f1be6aedea0a32dbea1e29ed65",
+      "quality_score": 1,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A narrative-driven project centered around building a Dyson sphere and reaching Kardashev Type II status.",
+      "red_flags": [
+        "no actual technical mechanism or utility described",
+        "purely a way-too-ambitious way (marketing narrative) or meme",
+        "no mention of a way to actually 'build' anything via software or protocol"
+      ],
+      "one_line_pitch": "A high-concept way-to-build-a-dyson-sphere narrative with no actual technical or protocol-level mechanism.",
+      "website_url": "https://projectsphere.xyz",
+      "twitter_handle": "projectspheree",
+      "reviewed_at": "2026-10-09T18:09:29.847Z"
+    },
+    {
+      "name": "Sundown Gulch",
+      "ticker": "Gulch",
+      "mint": "EaKyN1drvKaZxEPvM2kLyi4P1Uk6Tzk5siqL5YTPpump",
+      "quality_score": 2,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "SOLANA",
+      "mechanism_summary": "A Wild West MMO with PvP, mining, and gear upgrading; claims an 'inflation-free' economic model without explaining the actual sink/faucet mechanism.",
+      "red_flags": [
+        "vague economic claims",
+        "no specific technical mechanism or protocol detail provided",
+        "typical 'game coming soon' marketing slop"
+      ],
+      "one_line_pitch": "A generic Wild West-themed MMO wayfaring or combat game with gear-upgrading mechanics.",
+      "website_url": "https://sundowngulch.com/",
+      "twitter_handle": "sundowngulch",
+      "reviewed_at": "2026-10-09T18:07:34.199Z"
+    },
     {
       "name": "Onyra",
       "ticker": "ONY",
