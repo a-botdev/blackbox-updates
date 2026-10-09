@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T22:52:39.439Z",
+  "generated_at": "2026-10-09T23:12:11.728Z",
   "note": "Quality-reviewed tech coins: passed a local coarse filter (qwen2.5:3b) then a real judgment pass (Haiku) confirming is_real_tech=true. new_idea_suggestions are Haiku-generated, informed by these patterns but NOT copies -- creative seeds for further review, not trading signals.",
   "quality_tech_coins": [
     {
@@ -2189,6 +2189,94 @@
       "website_url": "http://dotnet.land",
       "twitter_handle": "dotnetfund",
       "reviewed_at": "2026-10-03T13:48:57.247Z"
+    },
+    {
+      "name": "Gacha",
+      "ticker": "GACHA",
+      "mint": "0x3724ff706d328be5c53d244f10a8a5f8dbd1b3f6",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A fixed-supply, probability-based redistribution protocol where certain token-bearing 'capsules' act as claimable prize-bearing assets.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "high-risk/high-reward payout structure",
+        "requires strict oracles/on-chain randomness for fair capsule distribution"
+      ],
+      "one_line_pitch": "A transparent, on-chain capsule-machine lottery with a fixed, hard-coded prize distribution manifest.",
+      "website_url": "https://t.co/hUEQAyLNmT",
+      "twitter_handle": "ponsgacha",
+      "reviewed_at": "2026-10-09T23:11:30.256Z"
+    },
+    {
+      "name": "PYRAMID",
+      "ticker": "PYRAMID",
+      "mint": "0x87dac56c698420fdb164ce7a82d8987f5073fc1e",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A fixed-supply seat auction where fee-sharing or burning occurs via a bidding mechanism to change seat ownership.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "claims way/ETH fees (unusual for Solana-native pump.fun coins)",
+        "small-scale enough that or lack of liquidity could kill the mechanism"
+      ],
+      "one_line_pitch": "A seat-based auction mechanism where users bid for a share of way/ETH-based creator fees.",
+      "website_url": "https://mypyramid.xyz",
+      "twitter_handle": null,
+      "reviewed_at": "2026-10-09T23:09:56.014Z"
+    },
+    {
+      "name": "IFO",
+      "ticker": "IFO",
+      "mint": "0x91c1aa9fb32930e2f45a6a4d7436e23db13dcd77",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A protocol where launch capital is recovered via a portion of generated transaction/creator fees, acting like a yield-bearing way to recoup costs.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "depends on Robinhood Chain/Pons ecosystem adoption"
+      ],
+      "one_line_pitch": "A fee-based way to repay launch capital using protocol revenue-sharing or fee-redistribution mechanisms.",
+      "website_url": null,
+      "twitter_handle": "ifoprotocol",
+      "reviewed_at": "2026-10-09T23:08:48.889Z"
+    },
+    {
+      "name": "Glacio",
+      "ticker": "GLACIO",
+      "mint": "0x5e416efbeee6b205c3a718521f2251ba5f3edf56",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Lending protocol allowing collateralization of tokenized equities (stocks) and ETH to borrow stablecoins on a specific new chain.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "dependent on Robinhood Chain ecosystem",
+        "requires heavy oracles (Chainlink) and liquid-token infrastructure"
+      ],
+      "one_line_pitch": "A lending primitive for tokenized stocks and ETH using Morpho-style permissionless oracles.",
+      "website_url": "https://glacio.cash",
+      "twitter_handle": "glaciofi",
+      "reviewed_at": "2026-10-09T23:08:17.431Z"
+    },
+    {
+      "name": "Airfield",
+      "ticker": "ARFELD",
+      "mint": "0xd000883b172f0e9c3388f51cc0379707fa8290f2",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A specialized utility logbook/directory app for pilots to track flight hours, aircraft, and airport-specific metadata.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "niche utility focus may lack mass-market crypto-native or liquid-incentive mechanism"
+      ],
+      "one_line_pitch": "A utility-focused logbook and directory service for pilots and aviation enthusiasts.",
+      "website_url": null,
+      "twitter_handle": "airfieldapp",
+      "reviewed_at": "2026-10-09T23:07:14.843Z"
     },
     {
       "name": "Qoren",
@@ -17129,6 +17217,59 @@
       "website_url": "https://rippers.fun/",
       "twitter_handle": "rippersdotfun",
       "reviewed_at": "2026-10-03T13:13:07.851Z"
+    },
+    {
+      "name": "Orakle",
+      "ticker": "ORAKLE",
+      "mint": "5jhFxARMGQfa1R3PyDEKMhBf1JWHuLUVdQg8Ryenpump",
+      "quality_score": 6,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "A launchpad or oracles-based system where certain tokens represent real-world physical assets (RWA) like sneakers or watches.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "no working product, just a way to categorize certain tokens",
+        "execution risk (connecting off-chain physical assets to on-chain minting)"
+      ],
+      "one_line_pitch": "A launchpad-style project specializing in tokenizing or linking physical luxury goods/collectibles to Solana.",
+      "website_url": null,
+      "twitter_handle": "oraklepad",
+      "reviewed_at": "2026-10-09T23:10:59.194Z"
+    },
+    {
+      "name": "Rivet Capital",
+      "ticker": "RIVX",
+      "mint": "0xff9be576a3e1cb0f451be5c29706d350b46ef684",
+      "quality_score": 6,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Arbitrage mechanism using USDG-backed capital to exploit price discrepancies between Uniswap and PancakeSwap on the Robinhood (Base/other) chain.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "arbitrage-only focus",
+        "heavily dependent on external liquidity/volume"
+      ],
+      "one_line_pitch": "Cross-DEX arbitrage protocol using USDG-backed capital on Robinhood's chain.",
+      "website_url": "https://userivet.xyz",
+      "twitter_handle": "rivet_capital",
+      "reviewed_at": "2026-10-09T23:09:22.749Z"
+    },
+    {
+      "name": "Gacha",
+      "ticker": "GACHA",
+      "mint": "0x8ea485347579b7d6fd5b1cddbaf93f4fb827741a",
+      "quality_score": 6,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A fixed-supply, transparently distributed lottery or loot-box mechanism where certain rare tokens (gold/silver) act as payout-bearing assets.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "fixed-supply or hard-capped (limitations on growth/utility)"
+      ],
+      "one_line_pitch": "A transparent, on-chain capsule-machine lottery with a fixed, visible distribution of rare and common tokens.",
+      "website_url": "https://ponsgacha.fun",
+      "twitter_handle": "ponsgacha",
+      "reviewed_at": "2026-10-09T23:06:10.182Z"
     },
     {
       "name": "Kitefall",
@@ -60372,6 +60513,62 @@
     }
   ],
   "low_quality_tech_coins": [
+    {
+      "name": "Build Your Dream",
+      "ticker": "BYD",
+      "mint": "0xa9b20a462b5745d6026a63c707ddb056854d176a",
+      "quality_score": 3,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A claim to provide a cross-chain, non-custodial aggregator for all real-world assets (RWA) including stocks and gold.",
+      "red_flags": [
+        "vague, generic way to describe any RWA aggregator",
+        "no specific mechanism or protocol-level detail provided",
+        "lacks a distinct technical way it handles 'every chain'"
+      ],
+      "one_line_pitch": "A generic, high-level marketing claim for a cross-chain real-world asset (RWA) aggregator.",
+      "website_url": "https://usebyd.xyz",
+      "twitter_handle": "use_byd",
+      "reviewed_at": "2026-10-09T23:12:06.034Z"
+    },
+    {
+      "name": "Whoosh",
+      "ticker": "WHOOSH",
+      "mint": "0x328b51a00442b1e6bd4780f267de8bb1db10ff41",
+      "quality_score": 2,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A DEX aggregator claiming to find single-click, multi-chain routing paths.",
+      "red_flags": [
+        "vague, generic way to describe any aggregator",
+        "no specific or proprietary routing algorithm mentioned",
+        "overused marketing way-to-go-to-market"
+      ],
+      "one_line_pitch": "A generic multi-chain DEX aggregator with no or minimal way to differentiate from existing tools.",
+      "website_url": "https://app.usewhoosh.xyz",
+      "twitter_handle": "usewhoosh",
+      "reviewed_at": "2026-10-09T23:10:27.023Z"
+    },
+    {
+      "name": "Google Gemini Ai",
+      "ticker": "Gemini AI",
+      "mint": "2j1uDgHbWMWUw9ufvep7h7Xr1YMzj8kU6xYqKg27pump",
+      "quality_score": 0,
+      "is_real_tech": false,
+      "category": "impersonator",
+      "chain": "SOLANA",
+      "mechanism_summary": "Uses Google's existing Gemini AI marketing copy, including references to 'Nano' or 'Deep Think' models, as a way to build perceived value.",
+      "red_flags": [
+        "brand hijack risk",
+        "not a new product, just a name reuse"
+      ],
+      "one_line_pitch": "A direct way to trade on the name/hype of Google's Gemini AI ecosystem.",
+      "website_url": "https://gemini.google.com/app",
+      "twitter_handle": "geminiapp",
+      "reviewed_at": "2026-10-09T23:07:46.941Z"
+    },
     {
       "name": "SI SLOP",
       "ticker": "SLOP",
