@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T02:07:23.008Z",
+  "generated_at": "2026-10-09T02:41:40.491Z",
   "note": "Quality-reviewed tech coins: passed a local coarse filter (qwen2.5:3b) then a real judgment pass (Haiku) confirming is_real_tech=true. new_idea_suggestions are Haiku-generated, informed by these patterns but NOT copies -- creative seeds for further review, not trading signals.",
   "quality_tech_coins": [
     {
@@ -16,6 +16,24 @@
       "website_url": "https://www.theturingtest.app/",
       "twitter_handle": "turingtestapp",
       "reviewed_at": "2026-10-04T16:43:41.798Z"
+    },
+    {
+      "name": "roto",
+      "ticker": "roto",
+      "mint": "zifS75Awj7QswY447Pz2W4feKU5CgXzym5wXRMEpump",
+      "quality_score": 8,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "A browser-based signer using hybrid X2551m + ML-KEM-768 (post-quantum) signatures with rotating keys and constant-time ECDSA to prevent side-channel/quantum attacks.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "high-complexity claim for a single coin",
+        "browser-only execution might limit throughput"
+      ],
+      "one_line_pitch": "A post-quantum resistant browser-based signing protocol using hybrid encryption and rotating keys.",
+      "website_url": "https://www.rotoai.fun/",
+      "twitter_handle": "rotopf",
+      "reviewed_at": "2026-10-09T02:19:32.147Z"
     },
     {
       "name": "CRAWLNET",
@@ -1694,6 +1712,182 @@
       "website_url": "http://dotnet.land",
       "twitter_handle": "dotnetfund",
       "reviewed_at": "2026-10-03T13:48:57.247Z"
+    },
+    {
+      "name": "Humans Internet",
+      "ticker": "INTERNET",
+      "mint": "AZthjUKCg9NQHp7SFp7xXf4n3m1dbZ44bVcmq7mQ3VeS",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "A verification layer/protocol designed to distinguish human traffic from bot traffic via a 'human verification layer'.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "visionary/vague enough to lack a concrete technical whitepaper",
+        "high-level marketing-heavy messaging"
+      ],
+      "one_line_pitch": "A protocol-level way to verify human identity and filter bot traffic from internet traffic.",
+      "website_url": "https://humaninternetproject.com/",
+      "twitter_handle": "ticaonsol",
+      "reviewed_at": "2026-10-09T02:39:48.919Z"
+    },
+    {
+      "name": "PAIRED",
+      "ticker": "COMMODITIES",
+      "mint": "SA2E2ZmAfNECcJFmK7YoRzuvNCYaEqeUgph7CzKpump",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "A launchpad where the bonding curve or liquidity-providing asset is a tokenized commodity (gold, oil, etc.) instead of native SOL.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "requires external oracle/tokenized asset integration (e.g., Backed)"
+      ],
+      "one_line_pitch": "A launchpad using tokenized commodities like gold or oil as the underlying bonding curve quote.",
+      "website_url": "https://usepaired.fun/",
+      "twitter_handle": "usepairedfun",
+      "reviewed_at": "2026-10-09T02:39:16.888Z"
+    },
+    {
+      "name": "PACKET LAUNCH",
+      "ticker": "PACKET",
+      "mint": "0xecd3b37266595d4028c63a75fe909b80a0fd5352",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Automates routing of protocol/creator fees directly to a specific email address, bypassing the need for a wallet-to-email claimable mechanism.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "dependent_on_specific_chain_infrastructure_support"
+      ],
+      "one_line_pitch": "A fee-routing protocol that sends protocol-generated or creator fees directly to an email inbox for easy claiming.",
+      "website_url": "https://packetlaunch.fun",
+      "twitter_handle": "packetlaunch",
+      "reviewed_at": "2026-10-09T02:38:40.593Z"
+    },
+    {
+      "name": "Echo",
+      "ticker": "ECHO",
+      "mint": "7EBTWftGKaZKvQg3T8FxDENqFbgxfqjfRiohnuLQpump",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "A Solana-based launchpad where brands fund USDC pools to pay creators based on a fixed rate per 1,000 verified views.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "app_coming_soon_status"
+      ],
+      "one_line_pitch": "A view-based advertising/incentive protocol paying creators via brand-funded USDC pools.",
+      "website_url": "https://echo.ec/",
+      "twitter_handle": "useechoec",
+      "reviewed_at": "2026-10-09T02:36:51.354Z"
+    },
+    {
+      "name": "BTC PAD",
+      "ticker": "BTC",
+      "mint": "BTCHMW28xY9pXM34ijwuJrv95HrsQ1m6VQKRpqbBjJQN",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "A fair-launch platform where coins use a halving-based bonding curve and a fixed supply of 21M, priced against BTC on Solana.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "highly dependent on execution of a specific halving-curve logic",
+        "uses existing DeFi primitives (Meteora) as a dependency"
+      ],
+      "one_line_pitch": "A fair-launchpad for fixed-supply coins using a Bitcoin-style halving bonding curve on Solana.",
+      "website_url": "btcusdpad.xyz",
+      "twitter_handle": "btc_pad",
+      "reviewed_at": "2026-10-09T02:36:16.217Z"
+    },
+    {
+      "name": "Pinloop",
+      "ticker": "LOOP",
+      "mint": "0x9369cfae512d7a7e398533c064f21a5da9cdcaeb",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "An automated job-scraping/application service that uses AI agents to match job postings from multiple HR systems to user profiles.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "high-toil data scraping requirement",
+        "service-based utility rather than a pure protocol"
+      ],
+      "one_line_pitch": "An AI-agent-driven job search engine that automates scraping and application-filling for developers.",
+      "website_url": "https://pinloop.ai",
+      "twitter_handle": "pinloop_ai",
+      "reviewed_at": "2026-10-09T02:35:00.064Z"
+    },
+    {
+      "name": "The Hustle Witchcraft",
+      "ticker": "CyberShama",
+      "mint": "7rSjZGnYMZiD8wz1Hh6RRjjW6dY4Ct6qWGrKVNCNpBVN",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "Burning STAMP tokens on Solana to mint permanent, verifiable proofs/inscriptions on the Zcash mainnet.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "requires cross-chain coordination between Solana and Zcash"
+      ],
+      "one_line_pitch": "A cross-chain burn-to-mint mechanism using Solana for destruction and Zcash for permanent proof-of-burn certificates.",
+      "website_url": "https://www.zcashstamp.com/",
+      "twitter_handle": "zip227",
+      "reviewed_at": "2026-10-09T02:33:11.899Z"
+    },
+    {
+      "name": "Paseo",
+      "ticker": "PASEO",
+      "mint": "0xc4dbc97784942e0d5dbdf32ada21f96a9e5e36e4",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A centralized control plane/orchestrator for running and managing multiple different AI coding agents (Claude, Copilot, etc.) in a single environment.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "not a protocol, but a way to use existing models",
+        "heavy reliance on third-party provider uptime/costs"
+      ],
+      "one_line_pitch": "An open-source orchestration layer/IDE for managing and running multiple AI coding agents simultaneously.",
+      "website_url": "https://paseo.sh",
+      "twitter_handle": "pseodotsh",
+      "reviewed_at": "2026-10-09T02:30:46.856Z"
+    },
+    {
+      "name": "IMPEPE",
+      "ticker": "PEPE",
+      "mint": "0x7f5873bad6e52f50917e3913022d35751f6e54f7",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Trading fees fund autonomous agents that generate 10x10 SVG art, which is then minted to a top-ranked holder.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "rely on external IMD agent execution",
+        "reward-based distribution may lead to low-utility minting"
+      ],
+      "one_line_pitch": "A DAO-style way to fund autonomous, code-generated SVG art via trading fees.",
+      "website_url": "https://www.impepe.fun",
+      "twitter_handle": "impepefun",
+      "reviewed_at": "2026-10-09T02:29:30.746Z"
+    },
+    {
+      "name": "Tranche",
+      "ticker": "TRNAI",
+      "mint": "0x36664e9a6e023d175beddf65f05f03f04c1300e9",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A decentralized way to finance AI agent service launches, where revenue from paid requests is redistributed to token holders.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "no active campaigns listed",
+        "high-risk way to handle capital (loss of all funding possible)"
+      ],
+      "one_line_pitch": "A way to fund AI service launches using Robinhood Chain, sharing in the resulting service revenue.",
+      "website_url": "https://trancheai.xyz",
+      "twitter_handle": "tranche_ai",
+      "reviewed_at": "2026-10-09T02:28:51.737Z"
     },
     {
       "name": "leveraged",
@@ -14689,6 +14883,94 @@
       "website_url": "https://rippers.fun/",
       "twitter_handle": "rippersdotfun",
       "reviewed_at": "2026-10-03T13:13:07.851Z"
+    },
+    {
+      "name": "Human Internet Project",
+      "ticker": "HIP",
+      "mint": "EUJX4j7tdXWpRjiu1HWntSsqLvHjQpU1CC9wWVPmpump",
+      "quality_score": 6,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "A human-verification layer designed to filter bot traffic and create a person-centric web identity/presence.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "vague product/consumer lab waypost",
+        "high-level vision without specific technical implementation details provided"
+      ],
+      "one_line_pitch": "A protocol-level human verification layer aimed at reclaiming the web from bot-driven traffic.",
+      "website_url": "https://humaninternetproject.com/",
+      "twitter_handle": "ticaonsol",
+      "reviewed_at": "2026-10-09T02:40:58.217Z"
+    },
+    {
+      "name": "PaperStrategy",
+      "ticker": "PSTR",
+      "mint": "89hLzDjMphwavqp1jk4VdRZ2BibBd8wqQrZseUjbpump",
+      "quality_score": 6,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "Trading taxes or fees are redirected to a treasury that purchases and burns tokens, funded by a linked Papertrade platform.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "revenue-to-burn dependency relies on external trading volume"
+      ],
+      "one_line_pitch": "A trading-fee-driven buyback and burn token linked to a specific trading platform's activity.",
+      "website_url": "https://paperstrategy.xyz/",
+      "twitter_handle": "paperstrategy_",
+      "reviewed_at": "2026-10-09T02:37:26.956Z"
+    },
+    {
+      "name": "Who Asked",
+      "ticker": "WHOASKED",
+      "mint": "0x8c52b1225a1db00cd7dbd156671b557b3765fcc4",
+      "quality_score": 6,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A protocol for anonymous, token-gated AI inference where usage or certain actions trigger token burns to manage supply.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "claims 'Robinhood Chain' (likely a marketing/ecosystem pivot or misnomer for Solana/EVM-compatible use)",
+        "high-level way to say 'pay-to-use AI'"
+      ],
+      "one_line_pitch": "An anonymous AI inference protocol using a burn-to-mint mechanism to regulate access and supply.",
+      "website_url": "https://trywhoasked.fun",
+      "twitter_handle": "usewhoasked",
+      "reviewed_at": "2026-10-09T02:35:38.520Z"
+    },
+    {
+      "name": "Payout",
+      "ticker": "PAYOUT",
+      "mint": "0x66e1ead5a712486324a0fc331ea94823b2a33988",
+      "quality_score": 6,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A physical metal NFT card where certain random card draws (based on a minting lottery) return a certain amount of USDG/value.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "requires physical manufacturing (not just software)",
+        "success depends on heavy external capital/treasury management"
+      ],
+      "one_line_pitch": "A physical metal card mint where certain random card draws return a certain amount of value.",
+      "website_url": "https://payout.cards",
+      "twitter_handle": "payoutcards",
+      "reviewed_at": "2026-10-09T02:33:46.295Z"
+    },
+    {
+      "name": "VAULTSTOCKS",
+      "ticker": "VSTOX",
+      "mint": "0x7e51ec342ab8a150bc5484c4a5172e7a350ce830",
+      "quality_score": 6,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A launchpad on Robinhood Chain where AI-driven grading (S-D) determines rewards distributed from a vault containing stocks and ETH.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "incentive-heavy, relies on user engagement/picking accuracy"
+      ],
+      "one_line_pitch": "A Robinhood Chain launchpad using AI-graded-risk-assessment to distribute a vault of stocks and ETH.",
+      "website_url": "https://vaultstocks.fun",
+      "twitter_handle": "vault_stocks",
+      "reviewed_at": "2026-10-09T02:16:58.740Z"
     },
     {
       "name": "TR4CE",
@@ -28349,6 +28631,114 @@
       "reviewed_at": "2026-10-03T13:48:57.246Z"
     },
     {
+      "name": "socialpair",
+      "ticker": "PAIR",
+      "mint": "3BXio3YTY7MBaCjLHLR3rL491817x142bnBqQxN3pump",
+      "quality_score": 5,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "A launchpad that mints new tokens or pairs existing tokens against social media engagement/content or specific social platform tickers.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "no working product, just a launchpad/utility",
+        "heavy reliance on external social media or existing pump.fun coins"
+      ],
+      "one_line_pitch": "A launchpad that lets you mint tokens tied to specific social media posts or existing tickers.",
+      "website_url": "https://socialpair.fun/",
+      "twitter_handle": "socialpair",
+      "reviewed_at": "2026-10-09T02:41:34.604Z"
+    },
+    {
+      "name": "Who Asked",
+      "ticker": "WHOASKED",
+      "mint": "0x3bd4da398f3883d66bb3b4d687c2e48247ec3cf2",
+      "quality_score": 5,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Token-gated anonymous AI inference service with a burn-to-mint way of managing credits/supply.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "claims 'Robinhood Chain' (external dependency/branding risk)",
+        "high-level jargon (cryptographic unlinkability/inference gateway)"
+      ],
+      "one_line_pitch": "A privacy-focused AI inference gateway where usage/tokens are burned to manage supply.",
+      "website_url": "https://trywhoasked.fun",
+      "twitter_handle": "usewhoasked",
+      "reviewed_at": "2026-10-09T02:34:23.064Z"
+    },
+    {
+      "name": "Gravity",
+      "ticker": "GRAVITY",
+      "mint": "4XoD5YzY2jxrCUnSXESSVHs1DxJXxSKFXkUAPJtegrav",
+      "quality_score": 5,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "A protocol-level fee-burning and swap-pairing mechanism where all new coin purchases trigger a proportional buy/burn of the native GRAVITY token.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "relies on heavy volume/incentives to prevent $GRAVITY depletion",
+        "effectively a specialized fee-redistribution or 'tax' model"
+      ],
+      "one_line_pitch": "A protocol-level burn/buy mechanism that uses every new coin launch or purchase to accumulate and burn $GRAVITY.",
+      "website_url": "https://usegravity.fun",
+      "twitter_handle": "gravitydotfun",
+      "reviewed_at": "2026-10-09T02:32:01.771Z"
+    },
+    {
+      "name": "Degen Coin",
+      "ticker": "DEGEN",
+      "mint": "0xd6e001559ee10efa65849a368adb7485e6820702",
+      "quality_score": 5,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A peer-to-peer gambling platform (casino) where players compete head-to-head in games like poker and blackjack using the native token.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "highly competitive niche",
+        "requires high liquidity and active user base to function"
+      ],
+      "one_line_pitch": "A peer-to-peer crypto casino for head-to-head gambling games like poker and blackjack.",
+      "website_url": "https://degens.casino",
+      "twitter_handle": "degenscasinorh",
+      "reviewed_at": "2026-10-09T02:26:18.743Z"
+    },
+    {
+      "name": "Monero-Chan",
+      "ticker": "$MONEROCHAN",
+      "mint": "6u7rpMujMmWnpn4FDaXhsi3ru5oAnFhRP8eQHxfNpump",
+      "quality_score": 5,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "A Solana-based launchpad that uses a wrapped Monero (wXMR) or Monero-priced quote-system, with a 0.80% trade fee redistribution/locking mechanism.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "no working product, just a way to quote prices",
+        "requires wrapped asset (wXMR) or external oracles"
+      ],
+      "one_line_pitch": "A Solana-based launchpad that uses Monero-based pricing or wrapped-XMR quotes for its trading pairs.",
+      "website_url": "https://monerochan.fun/",
+      "twitter_handle": "monerochanpad",
+      "reviewed_at": "2026-10-09T02:17:39.261Z"
+    },
+    {
+      "name": "Synapse",
+      "ticker": "Synapse",
+      "mint": "FYRtbLVEkVHjagVtyyuepGQAneHAmKBNpoK2LmpFpump",
+      "quality_score": 5,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "A dashboard that tracks and ranks KOL wallets based on realized profit, ROI, and win-rate transparency.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "no working product, just a dashboard/aggregator",
+        "relies on accuracy of wallet-tracking/inference"
+      ],
+      "one_line_pitch": "An analytics dashboard for auditing and ranking Solana KOL wallet performance and trading signals.",
+      "website_url": "https://synapsekol.com/?mode=rankings",
+      "twitter_handle": "synapsekolpf",
+      "reviewed_at": "2026-10-09T02:16:20.046Z"
+    },
+    {
       "name": "Veil Privacy",
       "ticker": "VEIL",
       "mint": "6ccC7bz6pPJjFmYHGPH48KM1rJ9u2FsqNisGNiB2pump",
@@ -40317,6 +40707,93 @@
       "website_url": null,
       "twitter_handle": null,
       "reviewed_at": "2026-09-30T03:13:31.131Z"
+    },
+    {
+      "name": "The Meme Bots",
+      "ticker": "MEMEBOTS",
+      "mint": "FBDAFumjuY1us3DD48JpG7C74XDQz5AewtDrVzERbots",
+      "quality_score": 4,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "A collection of automated trading bots specifically designed to monitor and execute trades on the pump.fun platform in real-time.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "no way to verify if bots are proprietary or just standard waymo/trench bots",
+        "high competition/saturation in bot-narrative"
+      ],
+      "one_line_pitch": "A specialized bot-set for live-trading pump.fun-native-tokens.",
+      "website_url": "https://memebots.fun/",
+      "twitter_handle": null,
+      "reviewed_at": "2026-10-09T02:40:24.509Z"
+    },
+    {
+      "name": "Degen Coin",
+      "ticker": "DEGEN",
+      "mint": "0xa1453252cfef637aa5c36c7e48e92aee5ed3feb2",
+      "quality_score": 4,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A peer-to-peer crypto casino offering gambling games like poker and blackjack using $DEGEN as the native betting/reward token.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "high competition/crowded narrative"
+      ],
+      "one_line_pitch": "A decentralized, head-to-head crypto casino for playing poker and blackjack.",
+      "website_url": "https://degens.casino",
+      "twitter_handle": "degenscasinorh",
+      "reviewed_at": "2026-10-09T02:31:21.167Z"
+    },
+    {
+      "name": "ROBIN KINGDOM COIN",
+      "ticker": "JEWEL",
+      "mint": "0x0ec6803be443d9330ec7908f7b6133b3a29b11f9",
+      "quality_score": 4,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A gamified DeFi ecosystem with waypoints (mining, fishing, questing) that distributes $JEWEL emissions via an active gameplay loop.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "heavily relies on established 'DeFi Kingdoms'/Robinhood branding",
+        "mechanisms (mining, staking, leveling) are standard way-too-common DeFi/GameFi tropes"
+      ],
+      "one_line_pitch": "A gamified wayland-style adventure game where players perform tasks to earn native token emissions.",
+      "website_url": "https://robinkingdom.app",
+      "twitter_handle": "robin_kingdom",
+      "reviewed_at": "2026-10-09T02:30:08.381Z"
+    },
+    {
+      "name": "Degen Coin",
+      "ticker": "DEGEN",
+      "mint": "0xeac02b3780859bb42b2a6541024696574162b85e",
+      "quality_score": 4,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A peer-to-peer crypto casino offering way (poker, blackjack) where players battle head-to-head.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "high competition (casino niche is saturated)"
+      ],
+      "one_line_pitch": "A P2P gambling platform for head-to-head casino games like poker and blackjack.",
+      "website_url": "https://degens.casino",
+      "twitter_handle": "degenscasinorh",
+      "reviewed_at": "2026-10-09T02:28:13.620Z"
+    },
+    {
+      "name": "Degen Coin",
+      "ticker": "DEGEN",
+      "mint": "0xe430dc2894e6384763aeed0a5db08338dd7ab581",
+      "quality_score": 4,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A peer-to-peer crypto casino platform offering head-to-head gambling games like poker and blackjack.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "high competition/crowded niche"
+      ],
+      "one_line_pitch": "A way-to-earn, peer-to-peer gambling platform for heads-up casino games.",
+      "website_url": "https://degens.casino",
+      "twitter_handle": "degenscasinorh",
+      "reviewed_at": "2026-10-09T02:20:09.314Z"
     },
     {
       "name": "Paird",
@@ -55880,6 +56357,117 @@
     }
   ],
   "low_quality_tech_coins": [
+    {
+      "name": "HedgeLongs",
+      "ticker": "HEDGELONGS",
+      "mint": "0x6ac4be68fbdcaf5e95ae74f8f1cfc04d9bf6b3d3",
+      "quality_score": 2,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A Tamagotchi-style pet-care game where feeding certain assets generates rewards.",
+      "red_flags": [
+        "vague reward mechanism",
+        "purely way-to-earn narrative without clear technical utility"
+      ],
+      "one_line_pitch": "A simple pet-sim game where caretaking certain tokens (presumably) generates yield or tokens.",
+      "website_url": null,
+      "twitter_handle": "hedgelongs",
+      "reviewed_at": "2026-10-09T02:27:37.759Z"
+    },
+    {
+      "name": "FOMO",
+      "ticker": "FOMO",
+      "mint": "Ezfkm8vvkPvcxUb4ZVfNxF37kK3ipWoqNVhQP4icpump",
+      "quality_score": 1,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "SOLANA",
+      "mechanism_summary": "A social/charity-focused trading app or community fund where a percentage of fees or certain amounts are redistributed to certain wallets.",
+      "red_flags": [
+        "no actual product mechanism described, just a social narrative",
+        "high risk of being a generic community/vibe-based token"
+      ],
+      "one_line_pitch": "A community-centric trading brand focused on redistribution and social 'traditions' or gifting.",
+      "website_url": "https://fomo.family/",
+      "twitter_handle": "fomo",
+      "reviewed_at": "2026-10-09T02:26:54.588Z"
+    },
+    {
+      "name": "Gage",
+      "ticker": "GAGE",
+      "mint": "0x23ca3c4bcabd9501a26e38e8459d1a4f58fa6d40",
+      "quality_score": 4,
+      "is_real_tech": false,
+      "category": "impersonator",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A peer-to-peer lending protocol or credit layer that allows users to borrow against crypto/stock collateral without liquidation risk.",
+      "red_flags": [
+        "brand hijack risk (Robinhood-affiliated/branded)",
+        "unclear if protocol or token-only",
+        "claims 'no liquidation' which is a heavy technical claim"
+      ],
+      "one_line_pitch": "A credit-layer protocol for borrowing against crypto and stock collateral without liquidation risk.",
+      "website_url": "https://t.co/4ocnMycIP5",
+      "twitter_handle": "gagedotcash",
+      "reviewed_at": "2026-10-09T02:18:52.005Z"
+    },
+    {
+      "name": "Degen Coin",
+      "ticker": "DEGEN",
+      "mint": "0xe4e6dba17e580cc5068d43bd50af49d7e148d7ea",
+      "quality_score": 2,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A play-to-earn casino platform offering PvP poker and blackjack using the native token.",
+      "red_flags": [
+        "standard gambling narrative",
+        "no technical mechanism beyond token use"
+      ],
+      "one_line_pitch": "A P2P gambling platform (poker/blackjack) built around a native casino token.",
+      "website_url": "https://degens.casino",
+      "twitter_handle": "degenscasinorh",
+      "reviewed_at": "2026-10-09T02:18:13.203Z"
+    },
+    {
+      "name": "Theranos World",
+      "ticker": "Theranos",
+      "mint": "3VcsUj6H2M1br1xCr4vL1DPbDgSaEMzYGDF7Yos1pump",
+      "quality_score": 2,
+      "is_real_tech": false,
+      "category": "impersonator",
+      "chain": "SOLANA",
+      "mechanism_summary": "A simulation or interactive website recreating the Theranos/Elizabeth Holmes office experience.",
+      "red_flags": [
+        "brand hijack risk",
+        "meme-based way to use a failed real-world brand",
+        "no actual technical mechanism, just a UI/UX simulation"
+      ],
+      "one_line_pitch": "A simulation-based meme coin recreating the interactive office/product experience of the failed Theranos company.",
+      "website_url": "https://x.com/TechCrunch/status/2108302690807583210",
+      "twitter_handle": "whaletraderx",
+      "reviewed_at": "2026-10-09T02:15:41.648Z"
+    },
+    {
+      "name": "OFFICIAL COIN",
+      "ticker": "OFFICIAL",
+      "mint": "4haDaJYKkjL9t6owyPZtx47M6MXimRoZa1EuXS1VJkQe",
+      "quality_score": 2,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "SOLANA",
+      "mechanism_summary": "A self-referential brand or 'quant' tool aiming for a way to leverage memecoin or shorting activity via a waitlist/platform.",
+      "red_flags": [
+        "vague/empty description",
+        "brand-focused rather than mechanism-focused",
+        "no clear technical product or mechanism described"
+      ],
+      "one_line_pitch": "A brand-heavy play on quant-style trading or leverage, likely a platform or tool rather than a protocol.",
+      "website_url": null,
+      "twitter_handle": "catalyst100x",
+      "reviewed_at": "2026-10-09T02:13:13.161Z"
+    },
     {
       "name": "giraffewifcap",
       "ticker": "giraffewifca",
