@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T14:06:37.647Z",
+  "generated_at": "2026-10-09T14:26:48.460Z",
   "note": "Quality-reviewed tech coins: passed a local coarse filter (qwen2.5:3b) then a real judgment pass (Haiku) confirming is_real_tech=true. new_idea_suggestions are Haiku-generated, informed by these patterns but NOT copies -- creative seeds for further review, not trading signals.",
   "quality_tech_coins": [
     {
@@ -15771,6 +15771,24 @@
       "reviewed_at": "2026-10-03T13:13:07.851Z"
     },
     {
+      "name": "Piller Bot",
+      "ticker": "PILLER",
+      "mint": "rHhYhfXkFQMsXnFk8r9n6pJZwPTRWgSDQQzKB4Qpump",
+      "quality_score": 6,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "A reward distribution mechanism where buy-pressure-funded bags are airdropped hourly to long-term holders.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "no working product, just a landing page",
+        "mechanic relies on a specific 'bag' or 'shipping' oracles/logic"
+      ],
+      "one_line_pitch": "A reward-bearing token that airdrops tokens hourly to long-term holders based on buy-pressure accumulation.",
+      "website_url": "https://pillerbot.fun/",
+      "twitter_handle": "pillerbot",
+      "reviewed_at": "2026-10-09T14:14:22.983Z"
+    },
+    {
       "name": "Agents Arcade",
       "ticker": "ARCADE",
       "mint": "GsYyeRX5nqh3KqgoWikjRzheTXYZgenNngrHdYZDpump",
@@ -30168,6 +30186,24 @@
       "website_url": "https://posynt.win/",
       "twitter_handle": "posynt_sol",
       "reviewed_at": "2026-10-03T13:48:57.246Z"
+    },
+    {
+      "name": "Strata Markets",
+      "ticker": "STRATA",
+      "mint": "0xdc3c22a5e2d9f39fd93fb25dd8f208cf954ce36a",
+      "quality_score": 5,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Tokenized real estate marketplace for fractional ownership and increased liquidity of property assets.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "extremely crowded niche",
+        "high-capital requirement for real-world asset (RWA) oracles"
+      ],
+      "one_line_pitch": "A marketplace for fractionalized, on-chain real estate ownership.",
+      "website_url": "https://stratamarkets.app",
+      "twitter_handle": "stratamarkets_",
+      "reviewed_at": "2026-10-09T14:24:21.869Z"
     },
     {
       "name": "Stocks 247",
@@ -58233,6 +58269,62 @@
     }
   ],
   "low_quality_tech_coins": [
+    {
+      "name": "Kitebloom",
+      "ticker": "KITEBLOOM",
+      "mint": "0x5cc2d2c85c8a65f6d3dce990587efce5db533ccd",
+      "quality_score": 3,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A launchpad on Robinhood Chain where buying pressure ('wind') fills a meter to trigger a 'bloom' or certain event.",
+      "red_flags": [
+        "vague 'bloom' mechanism",
+        "standard launchpad pattern",
+        "heavy reliance on Robinhood Chain ecosystem branding"
+      ],
+      "one_line_pitch": "A Robinhood Chain launchpad using a 'wind-up' meter-based mechanism to trigger token launches.",
+      "website_url": "https://kitebloom.xyz",
+      "twitter_handle": "kitebloom",
+      "reviewed_at": "2026-10-09T14:26:05.406Z"
+    },
+    {
+      "name": "iCoin",
+      "ticker": "iCoin",
+      "mint": "7agnTxZxsqA5HjNdNvU9Zx1f7EL75Rygu652gxytpump",
+      "quality_score": 0,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "SOLANA",
+      "mechanism_summary": "None; or rather, a keyboard smash pattern with no identifiable utility or mechanism.",
+      "red_flags": [
+        "purely gibberish/noise",
+        "no functional or narrative mechanism",
+        "no product or utility mentioned"
+      ],
+      "one_line_pitch": "A low-effort keyboard smash meme with no underlying mechanism or utility.",
+      "website_url": "https://x.com/quauntisthememe/status/2106499816578519217",
+      "twitter_handle": "quauntisthememe",
+      "reviewed_at": "2026-10-09T14:13:07.997Z"
+    },
+    {
+      "name": "fomo",
+      "ticker": "FOMO",
+      "mint": "SDCeHQgjrorAH8y7svsyxqbF5Z8DUuxj3o8tkHspump",
+      "quality_score": 1,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "SOLANA",
+      "mechanism_summary": "A trading app focused on community rewards and referral programs without a specific technical mechanism or new protocol architecture described.",
+      "red_flags": [
+        "no specific technical mechanism or product mechanism described",
+        "narrative-only way to use the name"
+      ],
+      "one_line_pitch": "A standard reward-based trading app focused on community incentives and referrals.",
+      "website_url": null,
+      "twitter_handle": "fomo",
+      "reviewed_at": "2026-10-09T14:11:56.725Z"
+    },
     {
       "name": "Meta",
       "ticker": "META",
