@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T20:11:03.024Z",
+  "generated_at": "2026-10-09T20:51:49.591Z",
   "note": "Quality-reviewed tech coins: passed a local coarse filter (qwen2.5:3b) then a real judgment pass (Haiku) confirming is_real_tech=true. new_idea_suggestions are Haiku-generated, informed by these patterns but NOT copies -- creative seeds for further review, not trading signals.",
   "quality_tech_coins": [
     {
@@ -16,6 +16,24 @@
       "website_url": "https://www.theturingtest.app/",
       "twitter_handle": "turingtestapp",
       "reviewed_at": "2026-10-04T16:43:41.798Z"
+    },
+    {
+      "name": "qLAB",
+      "ticker": "qLAB",
+      "mint": "Diqf6to3TbZzETu4a2v13hxAA4UFVRJbC3jawheApump",
+      "quality_score": 8,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "Uses IBM quantum computer job execution (funded by trading fees) to generate a deterministic, measurement-based seed for the coin's mint address.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "high-cost way to generate a mint address",
+        "no evidence if actual compute-to-trade-ratio is sustainable"
+      ],
+      "one_line_pitch": "A coin that uses its own trading fees to fund execution on an IBM quantum computer.",
+      "website_url": "http://useqlab.com/",
+      "twitter_handle": "useqlab",
+      "reviewed_at": "2026-10-09T20:51:43.887Z"
     },
     {
       "name": "Octopus",
