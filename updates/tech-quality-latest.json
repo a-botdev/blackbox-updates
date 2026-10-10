@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T00:08:52.375Z",
+  "generated_at": "2026-10-10T01:14:22.099Z",
   "note": "Quality-reviewed tech coins: passed a local coarse filter (qwen2.5:3b) then a real judgment pass (Haiku) confirming is_real_tech=true. new_idea_suggestions are Haiku-generated, informed by these patterns but NOT copies -- creative seeds for further review, not trading signals.",
   "quality_tech_coins": [
     {
@@ -17378,6 +17378,41 @@
       "reviewed_at": "2026-10-03T13:13:07.851Z"
     },
     {
+      "name": "Incovia",
+      "ticker": "INCOVIA",
+      "mint": "0xbeff3b533bf4506f195d025898e5bd2bca52b78e",
+      "quality_score": 6,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Decouples underlying stablecoin collateral or backing from the yield-generating reserves or external yield-bearing assets.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "vague on specific reserve management/rebalancing mechanism"
+      ],
+      "one_line_pitch": "A stablecoin protocol that separates collateral backing from the yield-generating reserve mechanism.",
+      "website_url": "https://t.co/xnmw5hrZD9",
+      "twitter_handle": "incoviaclarity",
+      "reviewed_at": "2026-10-10T01:07:07.806Z"
+    },
+    {
+      "name": "Incovia",
+      "ticker": "INCOVIA",
+      "mint": "0xa1161467de6556a5cd50e708481d49502b0d34f4",
+      "quality_score": 6,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Decouples stablecoin collateral/backing or reserves from the actual yield-generation mechanism to prevent certain types of depeg/drain risks.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "no working product, just a landing page",
+        "high-level mechanism without specific implementation details"
+      ],
+      "one_line_pitch": "A stablecoin protocol separating reserve backing from yield-earning or loss-bearing mechanisms.",
+      "website_url": "https://t.co/xnmw5hrZD9",
+      "twitter_handle": "incoviaclarity",
+      "reviewed_at": "2026-10-10T01:05:34.577Z"
+    },
+    {
       "name": "Press",
       "ticker": "BUTTON",
       "mint": "0x57d940e7d55b9a988e092e3aa480306f6282de09",
@@ -32269,6 +32304,41 @@
       "website_url": "https://posynt.win/",
       "twitter_handle": "posynt_sol",
       "reviewed_at": "2026-10-03T13:48:57.246Z"
+    },
+    {
+      "name": "kingpins",
+      "ticker": "KING",
+      "mint": "0x1339253583df6ac2bf5233558da6770e317c2e31",
+      "quality_score": 5,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A redistribution mechanism where trading fees are distributed to the top 10 largest holders, penalizing sellers who exit certain positions.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "high-risk redistribution model",
+        "incentive-dependent or heavy sell-pressure"
+      ],
+      "one_line_pitch": "A fee-redistribution token that rewards the largest holders on every trade.",
+      "website_url": "https://kingpins.fun",
+      "twitter_handle": "kingpins_rh",
+      "reviewed_at": "2026-10-10T01:14:16.712Z"
+    },
+    {
+      "name": "SI",
+      "ticker": "SI",
+      "mint": "0xcd93fab75c09a4f1cc12ca63a09fb57c8df2af49",
+      "quality_score": 5,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Creator fees are used to purchase and redistribute top AI-related tokens to holders.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "depends entirely on the selection or 'oracle' of which 50 coins are deemed 'top AI coins'"
+      ],
+      "one_line_pitch": "A fee-driven redistribution mechanism that uses developer revenue to buy and airdrop external AI tokens.",
+      "website_url": null,
+      "twitter_handle": "si6900xyz",
+      "reviewed_at": "2026-10-10T01:13:11.542Z"
     },
     {
       "name": "Super Inu Force",
@@ -60865,6 +60935,60 @@
     }
   ],
   "low_quality_tech_coins": [
+    {
+      "name": "MarbleStock",
+      "ticker": "MARBLE",
+      "mint": "0x66f34e9a3069cfaec2921e5cbae91190e1c602a1",
+      "quality_score": 1,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A simple gamified way to distribute or simulate stock-like rewards using a marble-themed game mechanic.",
+      "red_flags": [
+        "no actual technical mechanism described",
+        "purely a narrative/thematic way to use a token"
+      ],
+      "one_line_pitch": "A gamified, marble-themed way to win or distribute certain assets or 'stocks'.",
+      "website_url": "https://marblestock.io",
+      "twitter_handle": "marblestockrh",
+      "reviewed_at": "2026-10-10T01:13:43.425Z"
+    },
+    {
+      "name": "AMC Entertainment Holdings, Inc. • Robinhood Token",
+      "ticker": "amc",
+      "mint": "0x05a3d1cd21d0c88145e82600e62e7e496e0f222b",
+      "quality_score": 2,
+      "is_real_tech": false,
+      "category": "impersonator",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A tokenized version of AMC stock issued on a proprietary Robinhood-branded blockchain.",
+      "red_flags": [
+        "brand hijack risk",
+        "not a new tech/product but a way to trade existing assets"
+      ],
+      "one_line_pitch": "A tokenized proxy for AMC stock running on Robinhood's proprietary chain.",
+      "website_url": "https://docs.robinhood.com/rhj",
+      "twitter_handle": "robinhoodcrypto",
+      "reviewed_at": "2026-10-10T01:12:41.585Z"
+    },
+    {
+      "name": "Sports Earn",
+      "ticker": "SPORTS",
+      "mint": "0xc5880f73b9972008b48442c3b0fb28602cd37e1f",
+      "quality_score": 2,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Converts physical fitness/sports activity into on-chain rewards on the Robinhood Chain.",
+      "red_flags": [
+        "generic way-to-earn narrative",
+        "no specific technical mechanism described beyond 'turning activity into rewards'"
+      ],
+      "one_line_pitch": "A generic way-to-earn way (move-to-earn) or way-to-earn fitness app on Robinhood Chain.",
+      "website_url": null,
+      "twitter_handle": "sportsearn",
+      "reviewed_at": "2026-10-10T01:06:37.808Z"
+    },
     {
       "name": "Offroad",
       "ticker": "OFFRD",
