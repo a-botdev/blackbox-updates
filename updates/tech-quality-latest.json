@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T14:09:59.264Z",
+  "generated_at": "2026-10-10T14:40:14.703Z",
   "note": "Quality-reviewed tech coins: passed a local coarse filter (qwen2.5:3b) then a real judgment pass (Haiku) confirming is_real_tech=true. new_idea_suggestions are Haiku-generated, informed by these patterns but NOT copies -- creative seeds for further review, not trading signals.",
   "quality_tech_coins": [
     {
@@ -2278,6 +2278,42 @@
       "website_url": "http://dotnet.land",
       "twitter_handle": "dotnetfund",
       "reviewed_at": "2026-10-03T13:48:57.247Z"
+    },
+    {
+      "name": "KagamiAgent",
+      "ticker": "KAGAMI",
+      "mint": "0x09ba5b9c7b8feb2be4434087974cb375e5980c6c",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "An AI agent executing split-strategy arbitrage or hedging between a retail-focused chain (Robinhood) and a perps-focused DEX (Hyperliquid).",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "high execution complexity",
+        "dependent on external chain/DEX liquidities"
+      ],
+      "one_line_pitch": "An AI agent managing split-liquidity strategies between Robinhood Chain and Hyperliquid.",
+      "website_url": "https://kagamiagent.lol",
+      "twitter_handle": "kagamiagentgg",
+      "reviewed_at": "2026-10-10T14:36:49.909Z"
+    },
+    {
+      "name": "Leash",
+      "ticker": "LEASH",
+      "mint": "0x8ee364546e8dd634b32dc11849fd9bfa6924813f",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A payment gateway or protocol allowing AI agents to trigger or manage real-world fiat/stablecoin transfers via third-party APIs (PayPal/Zelle).",
+      "uniqueness": "novel",
+      "red_flags": [
+        "no working product, just a wayfinding/utility narrative",
+        "high-friction implementation (requires off-chain/on-chain bridge)"
+      ],
+      "one_line_pitch": "A payment protocol enabling AI agents to execute real-world fiat transfers via traditional banking APIs.",
+      "website_url": "https://leashcash.com",
+      "twitter_handle": "leashcrypto",
+      "reviewed_at": "2026-10-10T14:35:10.786Z"
     },
     {
       "name": "Dotopia",
@@ -18536,6 +18572,60 @@
       "reviewed_at": "2026-10-03T13:13:07.851Z"
     },
     {
+      "name": "Satbin",
+      "ticker": "SATBIN",
+      "mint": "0x1720a0a32b6ed550605278fa55b494111544a548",
+      "quality_score": 6,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A cross-chain utility tool that swaps or sweeps dust/small balances from various L2s/L1s into native Bitcoin.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "utility-focused rather than a new primitive",
+        "requires cross-chain oracles/bridges to function"
+      ],
+      "one_line_pitch": "A cross-chain utility mechanism to sweep dust from multiple chains directly into BTC.",
+      "website_url": null,
+      "twitter_handle": "satbinevm",
+      "reviewed_at": "2026-10-10T14:40:08.899Z"
+    },
+    {
+      "name": "Softmaxhaus AI",
+      "ticker": "SMAXH",
+      "mint": "0x705513bf54445a2cbb48ee579860bd303100cdae",
+      "quality_score": 6,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "An AI agent that outputs a probability distribution (softmax-style) rather than a single-point prediction to show-case-uncertainty or multiple options.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "no working product, just a way to use a mathematical function",
+        "highly specific use-case that may lack a clear utility or even a real oracles/agent implementation"
+      ],
+      "one_line_pitch": "A decision-making agent that prioritizes or outputting probability distributions/weights over single-label predictions.",
+      "website_url": "https://softmaxhaus.vercel.app",
+      "twitter_handle": null,
+      "reviewed_at": "2026-10-10T14:39:37.005Z"
+    },
+    {
+      "name": "Endow",
+      "ticker": "ENDW",
+      "mint": "0x7df7b29894fd42d1fc0fdd7007fa5d0e2264697f",
+      "quality_score": 6,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A vault-based mechanism where principal is locked to generate enough yield to purchase external assets (stocks).",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "dependency on Robinhood Chain ecosystem",
+        "requires specific yield-to-asset math to be viable"
+      ],
+      "one_line_pitch": "A yield-generating vault that uses interest to purchase equity/stocks on the Robinhood chain.",
+      "website_url": "https://www.endowvault.xyz",
+      "twitter_handle": "endowrh",
+      "reviewed_at": "2026-10-10T14:37:21.365Z"
+    },
+    {
       "name": "Gram Inu",
       "ticker": "GINU",
       "mint": "HZ9hrbhNFJR5hZTRVk1EJPwo1iijHVTBb2Rc5dR2pump",
@@ -34328,6 +34418,42 @@
       "website_url": "https://posynt.win/",
       "twitter_handle": "posynt_sol",
       "reviewed_at": "2026-10-03T13:48:57.246Z"
+    },
+    {
+      "name": "Apiosk",
+      "ticker": "APIOSK",
+      "mint": "0xc1c4969cded6c07264d9010851d869e9a6d3ac7d",
+      "quality_score": 5,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "An oracular/aggregator service that queries multiple data services and returns a single-price-quote result.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "vague enough to be a simple API wrapper",
+        "lacks a clear way to handle/incentivize service-provider or evens/slashing"
+      ],
+      "one_line_pitch": "A data-service aggregator/oracle that simplifies querying multiple external data sources with price transparency.",
+      "website_url": "https://apiosk.com",
+      "twitter_handle": "ob_craft",
+      "reviewed_at": "2026-10-10T14:39:01.545Z"
+    },
+    {
+      "name": "Threadmark Identity",
+      "ticker": "THREAD",
+      "mint": "0xeaa4cbe23e474267a50ba3af50091a7dea83bba9",
+      "quality_score": 5,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Portable, user-controlled community profiles using avatars and participation-based way or membership-based reputation/access.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "no working product, just a way/access/identity concept",
+        "vague enough to be a standard way/SBT (Soulbound Token) implementation"
+      ],
+      "one_line_pitch": "A decentralized identity/reputation system using portable community-based profile metadata.",
+      "website_url": null,
+      "twitter_handle": null,
+      "reviewed_at": "2026-10-10T14:34:04.335Z"
     },
     {
       "name": "KET",
@@ -63859,6 +63985,61 @@
     }
   ],
   "low_quality_tech_coins": [
+    {
+      "name": "Orbancy",
+      "ticker": "ORBANCY",
+      "mint": "0x4bce2f78171db7f097367a59387af87b79ed03c1",
+      "quality_score": 4,
+      "is_real_tech": false,
+      "category": "impersonator",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "An AI-driven treasury that uses LLM-based sentiment analysis of Twitter/X posts to decide on buybacks and burns.",
+      "red_flags": [
+        "brand hijack risk (claims Claude Opus/Anthropic-related tech)",
+        "unverifiable claim (relies on off-chain social media sentiment or 'explaining decisions')"
+      ],
+      "one_line_pitch": "An AI-managed treasury that uses social media sentiment or logic to execute buybacks and burns.",
+      "website_url": null,
+      "twitter_handle": "orbancyio",
+      "reviewed_at": "2026-10-10T14:38:28.239Z"
+    },
+    {
+      "name": "NULLD",
+      "ticker": "NULLD",
+      "mint": "0xbf0d79938a9f9d6c4770cb2039e4edc55a282ea3",
+      "quality_score": 2,
+      "is_real_tech": false,
+      "category": "impersonator",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Claims to provide an uncensored AI platform specifically hosted on the Robinhood-branded blockchain.",
+      "red_flags": [
+        "brand hijack risk (Robinhood name)",
+        "vague technical implementation (how 'uncensored' or 'on-chain' or 'AI' works)"
+      ],
+      "one_line_pitch": "An AI-focused narrative coin leveraging the Robinhood Chain ecosystem.",
+      "website_url": "https://nulld.ai",
+      "twitter_handle": null,
+      "reviewed_at": "2026-10-10T14:36:17.002Z"
+    },
+    {
+      "name": "Mimicrii",
+      "ticker": "MIMIC",
+      "mint": "0x2509e94f0472e6f5c8319615fb71b0c31a371e4e",
+      "quality_score": 2,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Vague claim of a specialized deployment layer for human-like AI behavior.",
+      "red_flags": [
+        "extremely vague marketing jargon",
+        "no specific technical mechanism or architecture described",
+        "high risk of being a generic AI-narrative meme"
+      ],
+      "one_line_pitch": "A vague AI-narrative coin claiming to host human-centric AI deployment.",
+      "website_url": null,
+      "twitter_handle": "mimicrii_ai",
+      "reviewed_at": "2026-10-10T14:35:43.642Z"
+    },
     {
       "name": "STONK",
       "ticker": "STONK",
