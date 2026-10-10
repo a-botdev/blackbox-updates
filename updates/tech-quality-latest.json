@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T22:51:45.102Z",
+  "generated_at": "2026-10-10T23:14:36.624Z",
   "note": "Quality-reviewed tech coins: passed a local coarse filter (qwen2.5:3b) then a real judgment pass (Haiku) confirming is_real_tech=true. new_idea_suggestions are Haiku-generated, informed by these patterns but NOT copies -- creative seeds for further review, not trading signals.",
   "quality_tech_coins": [
     {
@@ -2296,6 +2296,23 @@
       "website_url": "http://dotnet.land",
       "twitter_handle": "dotnetfund",
       "reviewed_at": "2026-10-03T13:48:57.247Z"
+    },
+    {
+      "name": "Embedmoor",
+      "ticker": "EMBDM",
+      "mint": "0xe1d18fcaa5d9e227f09e3f209c57848884b283d9",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A vector-embedding-style storage mechanism that prioritizes relational/contextual connectivity over traditional file-based indexing.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "vague on actual implementation (vector DB or simple graph?)"
+      ],
+      "one_line_pitch": "A storage protocol using relational embedding-style indexing rather than traditional file-naming or folder structures.",
+      "website_url": "https://embedmoor.vercel.app",
+      "twitter_handle": null,
+      "reviewed_at": "2026-10-10T23:07:44.872Z"
     },
     {
       "name": "BORN",
@@ -19419,6 +19436,58 @@
       "reviewed_at": "2026-10-03T13:13:07.851Z"
     },
     {
+      "name": "Neuronmill Agent",
+      "ticker": "NRNML",
+      "mint": "0x29af9a8f60bad3e52c19064dc98272300dc48cb5",
+      "quality_score": 6,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "An AI-driven agent that extracts structured data (decisions, owners, dates) from raw meeting transcripts.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "niche use-case (workflow tool rather than a protocol/token-utility mechanism)"
+      ],
+      "one_line_pitch": "An AI agent specialized in extracting actionable metadata from meeting transcripts.",
+      "website_url": "https://neuronmill.vercel.app",
+      "twitter_handle": null,
+      "reviewed_at": "2026-10-10T23:10:38.042Z"
+    },
+    {
+      "name": "Glacipop",
+      "ticker": "GLACIPOP",
+      "mint": "0x3c41e510a6f6ffba21e82e6be9c3f92c58b92c85",
+      "quality_score": 6,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A launchpad using Uniswap v4 hooks to freeze fees at launch and lock liquidity in a 'Permafrost' contract, redirecting all fees to creators.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "platform-specific (Robinhood Chain)",
+        "high-incentive/high-risk fee model"
+      ],
+      "one_line_pitch": "A Uniswap v4-based launchpad with fixed-fee mechanics and locked liquidity (Permafrost) for creator-only fee capture.",
+      "website_url": "https://glacipop.lol",
+      "twitter_handle": "glacipoplol",
+      "reviewed_at": "2026-10-10T23:06:31.054Z"
+    },
+    {
+      "name": "veracity",
+      "ticker": "VERACITY",
+      "mint": "0x3996f953347b638d7bcb31e4c21b3d5d8ae86ba5",
+      "quality_score": 6,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A decentralized or editorial-led rating/scoring protocol for auditing token backing and legitimacy without paid placement bias.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "no working product, just a way to score other tokens"
+      ],
+      "one_line_pitch": "An editorial-driven oracles-style scoring system to verify the actual backing and legitimacy of other crypto assets.",
+      "website_url": "https://www.useveracity.site",
+      "twitter_handle": "veracity1o",
+      "reviewed_at": "2026-10-10T23:04:14.968Z"
+    },
+    {
       "name": "hands",
       "ticker": "hands",
       "mint": "handsHUH1DbWZBHUGpMogBeyH1wY8n7UvVkGLu7GcvN",
@@ -35861,6 +35930,42 @@
       "reviewed_at": "2026-10-03T13:48:57.246Z"
     },
     {
+      "name": "openforge",
+      "ticker": "FORGE",
+      "mint": "0x0d1b3628772913ad95e64a8c6a92117eec8689b7",
+      "quality_score": 5,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A launchpad or protocol designed to create and trade synthetic versions of off-chain or on-chain assets.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "vague enough to be any standard synthetic protocol",
+        "high competition in the synthetic/launchpad niche"
+      ],
+      "one_line_pitch": "A launchpad-style protocol for creating and trading synthetic versions of external-world assets.",
+      "website_url": "https://openforge.trade",
+      "twitter_handle": "openforgefi",
+      "reviewed_at": "2026-10-10T23:12:52.283Z"
+    },
+    {
+      "name": "Typesettle",
+      "ticker": "TYPSTL",
+      "mint": "0xefa4f20aa021363a473400dd5f2c3467eb5e8a96",
+      "quality_score": 5,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A fixed-term/fixed-rule liquidity pool way where fees revert entirely to the creator.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "depends on Robinhood Chain ecosystem",
+        "marketing heavy metaphor (letterpress)"
+      ],
+      "one_line_pitch": "A fixed-term fee-to-creator redistribution mechanism for tokens on Robinhood Chain.",
+      "website_url": "https://typesettle.vercel.app",
+      "twitter_handle": null,
+      "reviewed_at": "2026-10-10T23:07:08.699Z"
+    },
+    {
       "name": "flowroute",
       "ticker": "FLW",
       "mint": "0x867d3f36fc4a35541675e8a147fa879c1804b8e1",
@@ -49648,6 +49753,41 @@
       "website_url": null,
       "twitter_handle": null,
       "reviewed_at": "2026-09-30T03:13:31.131Z"
+    },
+    {
+      "name": "Giftlist",
+      "ticker": "GIFTLST",
+      "mint": "0x3255fd248b58f6bffc5339b828713b48b717f89b",
+      "quality_score": 4,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A shared, synchronized registry for gift tracking and group-based claim/distribution logic.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "no clear crypto-native utility (utility or just a way to track off-chain data)",
+        "no mention of how the token or mechanism actually functions on-chain"
+      ],
+      "one_line_pitch": "A coordinated gift-registry and claim-tracking tool for group gift exchanges.",
+      "website_url": "https://giftlist.com",
+      "twitter_handle": "getgiftlist",
+      "reviewed_at": "2026-10-10T23:11:12.642Z"
+    },
+    {
+      "name": "PipVane",
+      "ticker": "PIPVANE",
+      "mint": "0x16590d260d3ddec418c9c10462674f22d1a01a21",
+      "quality_score": 4,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A specialized launchpad/aggregator for discovering and claiming presales specifically on the Robinhood-branded blockchain.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "platform-dependent (relies on Robinhood Chain adoption)"
+      ],
+      "one_line_pitch": "A dedicated launchpad and claim-portal for the Robinhood Chain ecosystem.",
+      "website_url": "https://pipvane.space",
+      "twitter_handle": "pipvane",
+      "reviewed_at": "2026-10-10T23:08:58.977Z"
     },
     {
       "name": "LLAMA",
@@ -65851,6 +65991,210 @@
     }
   ],
   "low_quality_tech_coins": [
+    {
+      "name": "AutraRh",
+      "ticker": "AUTRA",
+      "mint": "0x966167dfd065ada1a73f9ab4af5e98d0c6765257",
+      "quality_score": 2,
+      "is_real_tech": false,
+      "category": "impersonator",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Claims to provide financial infrastructure for autonomous AI agents, explicitly tagging Robinhood as a reference or owner.",
+      "red_flags": [
+        "brand hijack risk (Robinhood)",
+        "vague enough to apply to any payment rail",
+        "no specific technical mechanism or protocol detail provided"
+      ],
+      "one_line_pitch": "A brand-hijacking attempt or wayward way to position a service as the 'Robinhood for AI agents'.",
+      "website_url": "https://www.autra.space",
+      "twitter_handle": "autrarh",
+      "reviewed_at": "2026-10-10T23:14:30.790Z"
+    },
+    {
+      "name": "NEST",
+      "ticker": "NEST",
+      "mint": "0xbd45234ebe0e88a21d99510ffd7885c4be9cc0f7",
+      "quality_score": 2,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A narrative-driven project about an 'AI colony' or social experiment without a clearly defined technical mechanism or utility.",
+      "red_flags": [
+        "no clear technical mechanism",
+        "vague/narrative-heavy",
+        "brand hijack risk (Robinhood Chain or AI labels)"
+      ],
+      "one_line_pitch": "A narrative-based social experiment or 'AI colony' project lacking a concrete technical mechanism.",
+      "website_url": null,
+      "twitter_handle": "nestworldrh",
+      "reviewed_at": "2026-10-10T23:13:57.417Z"
+    },
+    {
+      "name": "Qhost",
+      "ticker": "QHOST",
+      "mint": "0x8b4b160fbc88d5a4a3be4095e7ecc40bbc8499b8",
+      "quality_score": 2,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Uses quantum-resistant cryptographic signatures to protect wallets against future quantum computing-based private key cracking.",
+      "red_flags": [
+        "standard way to inflate importance",
+        "no specific mention of which algorithm (e.g., Lamport or Dilithium)",
+        "quantum-resistance is a heavy, unpaid promise for a launchpad"
+      ],
+      "one_line_pitch": "A launchpad claiming quantum-resistant security for future-proofing private keys.",
+      "website_url": "https://qhost.world",
+      "twitter_handle": "qhostworld",
+      "reviewed_at": "2026-10-10T23:13:25.754Z"
+    },
+    {
+      "name": "The Callers",
+      "ticker": "Callers",
+      "mint": "EMWMmc44eeZvTJ1SjLZD679XsgbjggTiuvk652trpump",
+      "quality_score": 1,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "SOLANA",
+      "mechanism_summary": "Purely a name-based meme or community/narrative-driven token with no specified underlying mechanism or utility.",
+      "red_flags": [
+        "no way to verify any product/tech mechanism",
+        "purely narrative/meme-based"
+      ],
+      "one_line_pitch": "A generic community-themed meme coin lacking any disclosed technical or functional mechanism.",
+      "website_url": "https://x.com/a1lon9/status/2109011262763831476",
+      "twitter_handle": "igetsjiggy6767",
+      "reviewed_at": "2026-10-10T23:12:19.907Z"
+    },
+    {
+      "name": "SpaceX Super Intelligence",
+      "ticker": "SPACEXSI",
+      "mint": "0x50426bbd6dee7b743befaf22cb192d9d920a0037",
+      "quality_score": 1,
+      "is_real_tech": false,
+      "category": "impersonator",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Simple fee redistribution or burn mechanism (unspecified) or just a generic fee-to-holder model.",
+      "red_flags": [
+        "brand hijack risk",
+        "vague mechanism",
+        "no product, just a fee-redistribution claim"
+      ],
+      "one_line_pitch": "A generic fee-redistribution token riding on the SpaceX brand name.",
+      "website_url": null,
+      "twitter_handle": "elonmusk",
+      "reviewed_at": "2026-10-10T23:11:47.779Z"
+    },
+    {
+      "name": "same coin",
+      "ticker": "same",
+      "mint": "EMSqsRjsKnbu9gfyepfEyRf6Yf8kK5kiJxu1AJXbpump",
+      "quality_score": 1,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "SOLANA",
+      "mechanism_summary": "No mechanism or description provided; likely a placeholder or low-effort name-only launch.",
+      "red_flags": [
+        "no mechanism or description provided",
+        "lacks any way to differentiate from other memes"
+      ],
+      "one_line_pitch": "A generic placeholder coin with no identifiable utility or mechanism.",
+      "website_url": "https://x.com/a1lon9/status/2109011262763831476",
+      "twitter_handle": "infinitidigits",
+      "reviewed_at": "2026-10-10T23:10:04.668Z"
+    },
+    {
+      "name": "PumpLocal",
+      "ticker": " PumpLocal",
+      "mint": "np6ji5PxdhrFoFfzygs4o1JrSJeY1XfyKGF9LVipump",
+      "quality_score": 2,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "SOLANA",
+      "mechanism_summary": "No mechanism or product description provided; name implies a localized or community-centric meme/narrative without a technical way to execute it.",
+      "red_flags": [
+        "no mechanism or product description provided",
+        "vague/empty description"
+      ],
+      "one_line_pitch": "A generic, way-too-vague meme-style coin with no clear or any technical mechanism or utility described.",
+      "website_url": "https://pumplocal.tech/",
+      "twitter_handle": "pumplocal",
+      "reviewed_at": "2026-10-10T23:09:35.680Z"
+    },
+    {
+      "name": "Qhost",
+      "ticker": "QHOST",
+      "mint": "0x449d057b556dd73335ab99b390b574e579da8b7e",
+      "quality_score": 2,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Uses quantum-resistant (post-quantum cryptography) signatures to prevent future quantum computers from compromising private keys.",
+      "red_flags": [
+        "marketing-heavy way to frame standard signature upgrades",
+        "no specific mention of which PQ-algorithm (e.s. Dilithium/Kyber) is used",
+        "high-level way to say 'we are future-proof'"
+      ],
+      "one_line_pitch": "A launchpad claiming use of post-quantum cryptography to secure wallets against future quantum computing threats.",
+      "website_url": "https://qhost.world",
+      "twitter_handle": "qhostworld",
+      "reviewed_at": "2026-10-10T23:08:20.686Z"
+    },
+    {
+      "name": "Trufflop",
+      "ticker": "TRUFFLOP",
+      "mint": "0xb21d38a33a88596ab0b04e739a27fd3dc4de6527",
+      "quality_score": 2,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A launchpad where coins appear instantly upon being 'dug' or discovered, implying a real-time or automated discovery mechanism.",
+      "red_flags": [
+        "vague mechanism",
+        "no concrete technical product or utility described beyond a timing/discovery claim"
+      ],
+      "one_line_pitch": "A real-time discovery-based launchpad claiming orp-based or instant visibility for new tokens.",
+      "website_url": "https://trufflop.lol",
+      "twitter_handle": "trufflop",
+      "reviewed_at": "2026-10-10T23:05:54.295Z"
+    },
+    {
+      "name": "Polyhippo",
+      "ticker": "POLYHIP",
+      "mint": "0x17e7c955d98ad6af1cb6799f5f8c89b9100691f3",
+      "quality_score": 2,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A way to describe a physical, geometric object (a paper hippo) using heavy-duty computing terminology.",
+      "red_flags": [
+        "no actual technical mechanism",
+        "purely aesthetic/narrative description"
+      ],
+      "one_line_pitch": "A heavy-compute-themed paper hippo or geometric shape with no underlying technical utility or mechanism.",
+      "website_url": "https://drake.app",
+      "twitter_handle": "lotusgranite",
+      "reviewed_at": "2026-10-10T23:05:20.822Z"
+    },
+    {
+      "name": "Instinct AI",
+      "ticker": "Instinct",
+      "mint": "fdvtBYrU4fujEdUrmWnQxtcT5CfWf1ABxGbbxEipump",
+      "quality_score": 1,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "SOLANA",
+      "mechanism_summary": "A vague, marketing-driven narrative about crowd-driven or predictive AI movement without any defined technical mechanism or product utility.",
+      "red_flags": [
+        "purely way-of-talking/marketing",
+        "no mechanism described",
+        "brand hijack risk (AI-name fatigue)"
+      ],
+      "one_line_pitch": "A generic AI-themed meme coin with no underlying technical mechanism or product description.",
+      "website_url": "https://instinct.com/",
+      "twitter_handle": "noahrshinn",
+      "reviewed_at": "2026-10-10T23:04:47.654Z"
+    },
     {
       "name": "CLUCK",
       "ticker": "CLUCK",
