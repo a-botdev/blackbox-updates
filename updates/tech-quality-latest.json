@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T05:15:36.727Z",
+  "generated_at": "2026-10-10T05:42:10.368Z",
   "note": "Quality-reviewed tech coins: passed a local coarse filter (qwen2.5:3b) then a real judgment pass (Haiku) confirming is_real_tech=true. new_idea_suggestions are Haiku-generated, informed by these patterns but NOT copies -- creative seeds for further review, not trading signals.",
   "quality_tech_coins": [
     {
@@ -2225,6 +2225,78 @@
       "website_url": "http://dotnet.land",
       "twitter_handle": "dotnetfund",
       "reviewed_at": "2026-10-03T13:48:57.247Z"
+    },
+    {
+      "name": "Reels",
+      "ticker": "REELS",
+      "mint": "mGzw6zwvig3GitrCM6sGJXdRWeWz81X2vyzVH3Upump",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "A payment layer that routes transaction fees from certain tokens directly to Instagram handles via off-chain/on-chain payment bridges.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "relies on off-chain integration with Instagram/PayPal/Bank",
+        "requires a specific way to link tokens to social handles"
+      ],
+      "one_line_pitch": "A payment primitive routing trading fees directly to Instagram creators' real-world bank or PayPal accounts.",
+      "website_url": "https://www.usereels.app/",
+      "twitter_handle": "usereelsapp",
+      "reviewed_at": "2026-10-10T05:42:04.858Z"
+    },
+    {
+      "name": "MEME",
+      "ticker": "MEME",
+      "mint": "5nHdk8rRP68RLMBrRegngAtyxd6WB24QzoTYJVhXMEME",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "A launchpad where new tokens are paired with a native $MEME token and managed by autonomous agents that handle social/content and fee management.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "extremely low market cap (high risk/high volatility)",
+        "high-competition launchpad-style mechanism"
+      ],
+      "one_line_pitch": "An agent-based launchpad where all new tokens pair with a base ecosystem token.",
+      "website_url": "https://www.memep.ad/",
+      "twitter_handle": "memepadeco",
+      "reviewed_at": "2026-10-10T05:39:24.768Z"
+    },
+    {
+      "name": "root",
+      "ticker": "ROOT",
+      "mint": "2d8Zx6aEKH5CX2Yfh5Vr2CHDo7cyESDiL1cFeFdjpump",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "A central agent (ROOT) acts as a quote asset/liquidity provider for a family of subordinate, specialized AI agents (branches).",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "highly dependent on 'branch' tokens acting as a platform",
+        "complex ecosystem/token-to-token fee redistribution"
+      ],
+      "one_line_pitch": "An agent-based ecosystem where specialized AI sub-agents trade against a shared base token.",
+      "website_url": "https://rootfamily.xyz/",
+      "twitter_handle": "rootfams",
+      "reviewed_at": "2026-10-10T05:38:17.847Z"
+    },
+    {
+      "name": "Fly #10",
+      "ticker": "FLY10",
+      "mint": "0xa6f628345aed792b564b105706d141327454486c",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Simulated biological breeding and dopamine-based learning logic (Drosophila-inspired) executed via smart contract state updates during token transfers.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "high computational complexity for a single token",
+        "niche biological metaphor might lack broad retail appeal"
+      ],
+      "one_line_pitch": "A biological simulation token where rarity is a product of breeding logic rather than random minting.",
+      "website_url": null,
+      "twitter_handle": null,
+      "reviewed_at": "2026-10-10T05:32:54.765Z"
     },
     {
       "name": "Flare Markets",
@@ -17750,6 +17822,42 @@
       "reviewed_at": "2026-10-03T13:13:07.851Z"
     },
     {
+      "name": "Qolony",
+      "ticker": "Qolony",
+      "mint": "5qfuipKsqMYXUGDUPx2aZqwYuSx8Kr4NLAYhkhhspump",
+      "quality_score": 6,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "A live scouting/reporting system where automated 'ants' (agents) audit new pump.fun pairs to provide a factual, read-only audit report.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "description_lacks_technical_depth",
+        "mechanism_is_about_data_reporting_not_token_utility"
+      ],
+      "one_line_pitch": "An automated live-auditing agent system that reports on new pump.fun pair activity and metadata.",
+      "website_url": "https://qolony.fun/",
+      "twitter_handle": "qolonyfun",
+      "reviewed_at": "2026-10-10T05:41:01.289Z"
+    },
+    {
+      "name": "Trench USD",
+      "ticker": "TUSD",
+      "mint": "H7VR9waZ7LYhwJrCYUQoAa63JDH1SNomSDna2bqMTUSD",
+      "quality_score": 6,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "A fee-based buyback and burn or redistribution mechanism that taxes all trades on any coin quoted in TUSD.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "CA not launched yet",
+        "depends on ecosystem-wide volume/adoption"
+      ],
+      "one_line_pitch": "An ecosystem-level quote-token that uses trade fees for periodic buybacks and developer way-payouts.",
+      "website_url": "https://www.trenchusd.com/",
+      "twitter_handle": "cooldevisback",
+      "reviewed_at": "2026-10-10T05:40:29.417Z"
+    },
+    {
       "name": "Vitality",
       "ticker": "VIT",
       "mint": "986KWCZGnj1u9QiFJUeAntGQwraPPN2dNdmE1wU5pump",
@@ -32905,6 +33013,111 @@
       "website_url": "https://posynt.win/",
       "twitter_handle": "posynt_sol",
       "reviewed_at": "2026-10-03T13:48:57.246Z"
+    },
+    {
+      "name": "Greatly Profitable Underpants",
+      "ticker": "GPU",
+      "mint": "3WTQ3Z1EfJgv21VLpCU6WbPbnxSEjE4JmJoDVyU3pump",
+      "quality_score": 5,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "A 'King of the Hill' mechanism where the largest buy every 15 minutes claims a portion of the round's transaction fees.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "mechanically simple",
+        "incentive-based rather than a new product"
+      ],
+      "one_line_pitch": "A fee-redistribution mechanism rewarding the largest periodic buyer (King of the Hill-style).",
+      "website_url": "https://otcdesks.cash/coin/3WTQ3Z1EfJgv21VLpCU6WbPbnxSEjE4JmJoDVyU3pump",
+      "twitter_handle": "runelitedev",
+      "reviewed_at": "2026-10-10T05:41:31.792Z"
+    },
+    {
+      "name": "ECHO",
+      "ticker": "ECHO",
+      "mint": "KzEcXjJJxRHZv2uJbWhcWxPZJqF9nW132ED4E4Wpump",
+      "quality_score": 5,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "An AI-driven intelligence platform that maps real-world news events or macroeconomic data to potential price movements in crypto and equities.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "long-term roadmap target (2026) may be speculative",
+        "high competition in AI-agent/market-news niche"
+      ],
+      "one_line_pitch": "AI market intelligence platform connecting macroeconomic news or events to market-moving crypto/stock implications.",
+      "website_url": "https://www.echo-co.com/",
+      "twitter_handle": "echoonweb3",
+      "reviewed_at": "2026-10-10T05:39:56.291Z"
+    },
+    {
+      "name": "Slop Inu",
+      "ticker": "SI",
+      "mint": "4LBZTDYe2EiajgZccppgzZt5ppskEi3nFhAzAYSupump",
+      "quality_score": 5,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "A 'King of the Hill' mechanism where the largest buy every 15 minutes claims the round's transaction fees.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "no clear product, just a fee-redistribution mechanism",
+        "name 'Slop Inu' is a generic meme-style name"
+      ],
+      "one_line_pitch": "A fee-redistribution protocol where the largest periodic buyer captures transaction fees.",
+      "website_url": "https://otcdesks.cash/coin/9GjKHHGPAPKdeKZBX38meaudbMg8UAE488gmNfWhpump",
+      "twitter_handle": "bottomfloorchud",
+      "reviewed_at": "2026-10-10T05:37:45.773Z"
+    },
+    {
+      "name": "UNDERTOW",
+      "ticker": "UNDERTOW",
+      "mint": "0xe7673e36759a822ec88a87387c46116a22ef4b47",
+      "quality_score": 5,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A specialized DEX or liquidity management tool built specifically for the Robinhood Chain ecosystem.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "ecosystem-dependent (requires Robinhood Chain adoption)"
+      ],
+      "one_line_pitch": "A liquidity-focused DEX or LP management protocol specifically for the Robinhood Chain.",
+      "website_url": "https://t.co/Vhs3pLTo3C",
+      "twitter_handle": "undertowtop",
+      "reviewed_at": "2026-10-10T05:36:34.783Z"
+    },
+    {
+      "name": "UNDERTOW",
+      "ticker": "UNDERTOW",
+      "mint": "0x76422f2e478e569376868370d404641db1e81dc4",
+      "quality_score": 5,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "An attempt to build a DEX/LP-management layer specifically optimized for the Robinhood Chain ecosystem.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "niche ecosystem dependency (Robinhood Chain)"
+      ],
+      "one_line_pitch": "A specialized DEX/LP provision tool targeting the Robinhood Chain ecosystem.",
+      "website_url": null,
+      "twitter_handle": "undertowtop",
+      "reviewed_at": "2026-10-10T05:36:04.374Z"
+    },
+    {
+      "name": "UNDERTOW",
+      "ticker": "UNDERTOW",
+      "mint": "0xe13062bd58a83cde4fa34962aa614e982bda5da6",
+      "quality_score": 5,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A DEX-like primitive or aggregator built on Robinhood Chain for managing liquidity positions.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "brand_hijack_risk"
+      ],
+      "one_line_pitch": "A specialized liquidity management tool or DEX-layer built specifically for the Robinhood Chain ecosystem.",
+      "website_url": null,
+      "twitter_handle": "undertowtop",
+      "reviewed_at": "2026-10-10T05:35:33.851Z"
     },
     {
       "name": "Candle Odds",
@@ -61765,6 +61978,62 @@
     }
   ],
   "low_quality_tech_coins": [
+    {
+      "name": "American Oil Dividend Fund",
+      "ticker": "AODF",
+      "mint": "U23Qinyijw6k3tNcXDRK8a4bfBoE9Qr9bPDiTiqpump",
+      "quality_score": 1,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "SOLANA",
+      "mechanism_summary": "A narrative-driven token representing exposure to US oil/gas prices, acting as a speculative proxy for energy commodities.",
+      "red_flags": [
+        "no actual product mechanism, just a way to track commodity prices",
+        "purely a way to wrap a real-world asset (RWA) narrative without a new protocol"
+      ],
+      "one_line_pitch": "A speculative token proxy for US domestic oil and gas commodity prices.",
+      "website_url": "https://aodf.info",
+      "twitter_handle": null,
+      "reviewed_at": "2026-10-10T05:37:12.596Z"
+    },
+    {
+      "name": "ROBERT",
+      "ticker": "ROBERT",
+      "mint": "0x95dd48026474b16c326dd48e5962a3da4fea9c94",
+      "quality_score": 2,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Claims to be an autonomous trading agent with self-funding and self-researching capabilities via a proprietary 'x402' mechanism.",
+      "red_flags": [
+        "vague 'x402' terminology",
+        "high-level jargon without clear implementation detail",
+        "classic 'agent' narrative slop"
+      ],
+      "one_line_pitch": "A generic autonomous trading agent claiming self-funding capabilities via an undefined 'x402' protocol.",
+      "website_url": "https://t.co/s9Dp6Aaver",
+      "twitter_handle": "r0b3r7h00d",
+      "reviewed_at": "2026-10-10T05:35:03.815Z"
+    },
+    {
+      "name": "Mantle Fun",
+      "ticker": "MANTLE",
+      "mint": "0x74860f43bec7da852dfd42e408e8ce118c5f9696",
+      "quality_score": 3,
+      "is_real_tech": false,
+      "category": "impersonator",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A trading platform or pair-based incentive system claiming to distribute rewards in the quote asset.",
+      "red_flags": [
+        "brand hijack risk (uses 'Mantle' which is an existing L2)",
+        "vague reward mechanism",
+        "generic 'any pair' claim"
+      ],
+      "one_line_pitch": "A trading mechanism claiming to reward holders using the value of the asset traded against.",
+      "website_url": null,
+      "twitter_handle": "mantlefun",
+      "reviewed_at": "2026-10-10T05:34:29.742Z"
+    },
     {
       "name": "Vampthat",
       "ticker": "VAMP",
