@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T07:04:58.869Z",
+  "generated_at": "2026-10-10T07:19:59.035Z",
   "note": "Quality-reviewed tech coins: passed a local coarse filter (qwen2.5:3b) then a real judgment pass (Haiku) confirming is_real_tech=true. new_idea_suggestions are Haiku-generated, informed by these patterns but NOT copies -- creative seeds for further review, not trading signals.",
   "quality_tech_coins": [
     {
@@ -2243,6 +2243,40 @@
       "website_url": "http://dotnet.land",
       "twitter_handle": "dotnetfund",
       "reviewed_at": "2026-10-03T13:48:57.247Z"
+    },
+    {
+      "name": "Anvia",
+      "ticker": "ANVIA",
+      "mint": "0x338dc2273a76b1ba357cd7577447ba5a0f4927a3",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "An open-source TypeScript framework providing a full-stack infrastructure (models, memory, tools, observability) specifically for building and managing AI agents.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "high-level abstraction (vague on specific algorithmic or architectural novelty)"
+      ],
+      "one_line_pitch": "A developer-focused, open-source infrastructure stack for building and monitoring AI agents in TypeScript.",
+      "website_url": "https://anvia.dev",
+      "twitter_handle": "anviadev",
+      "reviewed_at": "2026-10-10T07:18:17.525Z"
+    },
+    {
+      "name": "Sablier",
+      "ticker": "SABLIER",
+      "mint": "0x4e5f69dc4f4825af692e3e73d829c18fd7e33425",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A protocol for programmable, continuous token streaming and customized vesting schedules/payroll on-chain.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "already an established protocol (not a new pump.fun-style experiment)"
+      ],
+      "one_line_pitch": "Infrastructure for programmable, continuous on-chain token vesting and distribution streams.",
+      "website_url": "https://sablier.com",
+      "twitter_handle": "sablier",
+      "reviewed_at": "2026-10-10T07:16:12.245Z"
     },
     {
       "name": "TeleMoney",
@@ -46259,6 +46293,24 @@
       "reviewed_at": "2026-09-30T03:13:31.131Z"
     },
     {
+      "name": "orbiobook",
+      "ticker": "ORBIOBOOK",
+      "mint": "0x2cc438700378e899ac01624bdde8f1d41c5cbb91",
+      "quality_score": 4,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A social layer for autonomous agents to exchange tips/credits via post-based interactions.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "vague/undefined 'credits' or 'agents' mechanism",
+        "lacks a clear way to prevent spam or sybil-attacks in a social setting"
+      ],
+      "one_line_pitch": "A social-tipping layer designed specifically for an ecosystem of autonomous agents.",
+      "website_url": "https://orbiobook.com/agents?q=tank",
+      "twitter_handle": "orbiobook",
+      "reviewed_at": "2026-10-10T07:17:45.853Z"
+    },
+    {
       "name": "DOTF",
       "ticker": "D O T ",
       "mint": "ieAUwrxo9XYLb76Dtgk4rhMeZ5DLtUXXNewwui9pump",
@@ -62211,6 +62263,24 @@
     }
   ],
   "low_quality_tech_coins": [
+    {
+      "name": "Claude-Chan",
+      "ticker": "CLAUDE-CHAN",
+      "mint": "AMpDxGn6NC4kx5p18keFNJrz28HYgbZPTrUxFTL9pump",
+      "quality_score": 2,
+      "is_real_tech": false,
+      "category": "impersonator",
+      "chain": "SOLANA",
+      "mechanism_summary": "A game-theory mechanism where the largest buy every 15 minutes captures the round's transaction fees.",
+      "red_flags": [
+        "brand hijack risk (Claude-Chan)",
+        "no actual product/tech mechanism, just a fee-redistribution game"
+      ],
+      "one_line_pitch": "A fee-capture game where the largest buyer wins a portion of transaction fees.",
+      "website_url": "https://otcdesks.cash/coin/AMpDxGn6NC4kx5p18keFNJrz28HYgbZPTrUxFTL9pump",
+      "twitter_handle": "elonmusk",
+      "reviewed_at": "2026-10-10T07:18:50.050Z"
+    },
     {
       "name": "DOTF",
       "ticker": "D O T ",
