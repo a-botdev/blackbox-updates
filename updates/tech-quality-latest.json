@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T06:18:41.015Z",
+  "generated_at": "2026-10-10T06:33:20.239Z",
   "note": "Quality-reviewed tech coins: passed a local coarse filter (qwen2.5:3b) then a real judgment pass (Haiku) confirming is_real_tech=true. new_idea_suggestions are Haiku-generated, informed by these patterns but NOT copies -- creative seeds for further review, not trading signals.",
   "quality_tech_coins": [
     {
@@ -33033,6 +33033,24 @@
       "reviewed_at": "2026-10-03T13:48:57.246Z"
     },
     {
+      "name": "ETF 8",
+      "ticker": "ETF8",
+      "mint": "DN4CpbWQSqaxfKwDCg1XdqqFLYxmzwem58TpSrhspump",
+      "quality_score": 5,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "Trading fees are used to purchase an external underlying asset (the 'ETF') which is then airdropped to holders on a fixed 2-minute timer.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "high-frequency airdrop may cause extreme fee/distribution overhead",
+        "depends entirely on the 'ETF' asset or price-actionly enough to matter"
+      ],
+      "one_line_pitch": "A fee-redistribution mechanism that converts trading volume into direct asset airdrops every two minutes.",
+      "website_url": "https://etf8.fun",
+      "twitter_handle": "etfeight",
+      "reviewed_at": "2026-10-10T06:32:42.924Z"
+    },
+    {
       "name": "Slop Inu",
       "ticker": "SI",
       "mint": "FmL2fAazLkRG59hTdz1ouPbTN7ZscaiYT61Kmbutpump",
@@ -62014,6 +62032,25 @@
     }
   ],
   "low_quality_tech_coins": [
+    {
+      "name": "Ponz",
+      "ticker": "PONZ",
+      "mint": "0x57afc0f7c4ae96cc8d2a39ff2b6b75bd42d52dc4",
+      "quality_score": 2,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Trade-based fee redistribution used to purchase a secondary, supposed 'parent' or 'ecosystem' token ($PONS).",
+      "red_flags": [
+        "circular logic (ecosystem-dependent)",
+        "narrative-driven rather than technical",
+        "vague 'lifting the ecosystem' claim"
+      ],
+      "one_line_pitch": "A fee-redistribution token designed to pump a secondary ecosystem token.",
+      "website_url": null,
+      "twitter_handle": "ponzcoin",
+      "reviewed_at": "2026-10-10T06:33:13.934Z"
+    },
     {
       "name": "American Oil Dividend Fund",
       "ticker": "AODF",
