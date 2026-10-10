@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T21:53:09.557Z",
+  "generated_at": "2026-10-10T22:09:23.968Z",
   "note": "Quality-reviewed tech coins: passed a local coarse filter (qwen2.5:3b) then a real judgment pass (Haiku) confirming is_real_tech=true. new_idea_suggestions are Haiku-generated, informed by these patterns but NOT copies -- creative seeds for further review, not trading signals.",
   "quality_tech_coins": [
     {
@@ -2296,6 +2296,78 @@
       "website_url": "http://dotnet.land",
       "twitter_handle": "dotnetfund",
       "reviewed_at": "2026-10-03T13:48:57.247Z"
+    },
+    {
+      "name": "BORN",
+      "ticker": "BORN",
+      "mint": "GWAHeyNbW9ht6aDSBoCzvcPcaVQ4iAqSvLTHLBZbpump",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "Automated agents monitor X (Twitter) for viral posts, minting coins that redistribute fees to the agent, poster, and $BORN token.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "heavy reliance on external X (Twitter) API/data",
+        "requires active agent-led minting certainties"
+      ],
+      "one_line_pitch": "A fee-redistribution protocol where agents mint coins based on certain Twitter post-velocity or engagement.",
+      "website_url": "https://born.fun",
+      "twitter_handle": "borndot_fun",
+      "reviewed_at": "2026-10-10T22:08:13.492Z"
+    },
+    {
+      "name": "EVOLVE",
+      "ticker": "EVOLVE",
+      "mint": "GFy3xw8PytUbFeQYDzMGKjGZgbXHoUhh1m7q5vk8pump",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "An autonomous agent that uses a portion of fees to programmatically mutate its own smart contract logic/code (self-rewriting program).",
+      "uniqueness": "novel",
+      "red_flags": [
+        "high complexity/difficulty to implement",
+        "narrative-heavy marketing"
+      ],
+      "one_line_pitch": "A self-modifying smart contract agent that uses fees to fund its own code mutations.",
+      "website_url": "https://evolveagent.fun/",
+      "twitter_handle": null,
+      "reviewed_at": "2026-10-10T22:07:41.816Z"
+    },
+    {
+      "name": "xwallet",
+      "ticker": "xwallet",
+      "mint": "F2f53FEn3bzEyGKRikqFzMQD9PxWFKgaVuETKGW2pump",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "Automated fee-redistribution where pump.fun creator fees are locked to a specific wallet ID tied to an X (Twitter) handle.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "relies on pump.fun's existing fee structure",
+        "incentive-only mechanism, not a new way to trade"
+      ],
+      "one_line_pitch": "A way to waylay pump.fun creator fees into person-specific wallets tied to X handles.",
+      "website_url": "https://xwallet.fun/",
+      "twitter_handle": "xwalletdotfun",
+      "reviewed_at": "2026-10-10T22:07:08.014Z"
+    },
+    {
+      "name": "Deeppad",
+      "ticker": "DEEP",
+      "mint": "A4fP94nuQ4EiM3TnC3Ho7FFMH2LCJBtP93jz8Xcopump",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "A sequential launchpad where new coins trigger only after previous ones hit certain MC/time targets, using $DEEP as the primary pair.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "high-friction-launch-model",
+        "potential-for-stagnation-if-floors-fail-to-trigger"
+      ],
+      "one_line_pitch": "A sequential launchpad that gates new coin releases behind market cap/time-retention hurdles and pairs everything with $DEEP.",
+      "website_url": "https://deeppad.fun",
+      "twitter_handle": "deeppadfun",
+      "reviewed_at": "2026-10-10T22:05:56.104Z"
     },
     {
       "name": "XArena",
@@ -49578,6 +49650,24 @@
       "reviewed_at": "2026-09-30T03:13:31.131Z"
     },
     {
+      "name": "LLAMA",
+      "ticker": "LLAMA",
+      "mint": "8g4zk2iNcb7HBAP7n8Di8xHWAD6VWyjVrQrm8yABYBCb",
+      "quality_score": 4,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "Automated buyback and airdrop mechanism triggered by specific market cap (10k) or growth milestones.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "purely mathematical/arbitrary milestone-based",
+        "lacks a way to fund infinite way-to-perpetuity buybacks"
+      ],
+      "one_line_pitch": "A circuit-based token that uses market cap milestones to trigger automated buybacks and holder airdrops.",
+      "website_url": "https://circuitdev.fun/c/8g4zk2iNcb7HBAP7n8Di8xHWAD6VWyjVrQrm8yABYBCb",
+      "twitter_handle": null,
+      "reviewed_at": "2026-10-10T22:02:32.860Z"
+    },
+    {
       "name": "Poncho Bot",
       "ticker": "PONCHO",
       "mint": "0xa50b7c41b74bf27b8b63e541d01501b767c0d7ff",
@@ -65761,6 +65851,61 @@
     }
   ],
   "low_quality_tech_coins": [
+    {
+      "name": "Quantum Cat",
+      "ticker": "Schrodinger",
+      "mint": "HVeKrosMmBp4iwsRMNVFH8ozJhoc8wq4na3SSStzpump",
+      "quality_score": 2,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "SOLANA",
+      "mechanism_summary": "A themed trading bot/portfolio or 'engine' that scans Solana and uses creator fees to execute new trades.",
+      "red_flags": [
+        "vague 'engine' or 'experiment' description",
+        "typical way/theme-based narrative without a clear new technical primitive"
+      ],
+      "one_line_pitch": "A way-themed trading bot/portfolio using creator fees to fuel a 'laboratory' or 'experiment'.",
+      "website_url": "https://schrodingers.fun/",
+      "twitter_handle": "schrodingersjev",
+      "reviewed_at": "2026-10-10T22:08:46.603Z"
+    },
+    {
+      "name": "75OFF",
+      "ticker": "75OFF",
+      "mint": "2UDGkR798nhF2EnVLy4uuzgzrXZHLvikvW3GRjg75off",
+      "quality_score": 2,
+      "is_real_tech": false,
+      "category": "impersonator",
+      "chain": "SOLANA",
+      "mechanism_summary": "A fake pricing tier/discount scheme masking a way to charge differently based on a token-count threshold (100k tokens).",
+      "red_flags": [
+        "brand hijack risk (Claude/Anthropic-style pricing)",
+        "nonsensical way to apply a mechanism to a token-based utility",
+        "dates (2026) suggest a fake future-looking narrative"
+      ],
+      "one_line_pitch": "A speculative pricing-model meme pretending to be an even cheaper version of Claude API or similar providers.",
+      "website_url": "https://www.75off.fun",
+      "twitter_handle": "just_75off",
+      "reviewed_at": "2026-10-10T22:06:33.170Z"
+    },
+    {
+      "name": "Strapped Kittens",
+      "ticker": "STRAPPED",
+      "mint": "8kN9Pj3f3WkgtDauqWVyTaDTS6vU75JhiHSto7Wfpump",
+      "quality_score": 2,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "SOLANA",
+      "mechanism_summary": "A pure meme/character-based narrative about a squad of kittens with stats; no underlying protocol mechanism or product utility described.",
+      "red_flags": [
+        "no mechanism, just a character narrative",
+        "purely aesthetic/meme-driven"
+      ],
+      "one_line_pitch": "A character-driven meme coin featuring a squad of combat-ready kittens with RPG-style stats.",
+      "website_url": "https://strappedkittens.fun/",
+      "twitter_handle": "strappedkittens",
+      "reviewed_at": "2026-10-10T22:04:14.299Z"
+    },
     {
       "name": "CLUCK",
       "ticker": "CLUCK",
