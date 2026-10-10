@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T17:19:14.306Z",
+  "generated_at": "2026-10-10T17:54:48.266Z",
   "note": "Quality-reviewed tech coins: passed a local coarse filter (qwen2.5:3b) then a real judgment pass (Haiku) confirming is_real_tech=true. new_idea_suggestions are Haiku-generated, informed by these patterns but NOT copies -- creative seeds for further review, not trading signals.",
   "quality_tech_coins": [
     {
@@ -18976,6 +18976,23 @@
       "reviewed_at": "2026-10-03T13:13:07.851Z"
     },
     {
+      "name": "Velset",
+      "ticker": "VELSET",
+      "mint": "0x3c6c831863cf9d113b495b98a26ea60969565b41",
+      "quality_score": 6,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A specialized liquidity-providing mechanism using range-bound limit orders to collect fees, similar to certain Uniswap v3-style concentrated liquidity or Robinhood's own trading tools.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "specific to Robinhood Chain ecosystem"
+      ],
+      "one_line_pitch": "Concentrated liquidity-style range orders for earning fees on Robinhood's blockchain.",
+      "website_url": "https://perchmoney.xyz",
+      "twitter_handle": "velsetapp",
+      "reviewed_at": "2026-10-10T17:54:45.908Z"
+    },
+    {
       "name": "Pulse",
       "ticker": "PULSE",
       "mint": "AhM2RAdkuKzmNDqyZJ5oEXn9dpqUJrzdkMA9ToFkpump",
@@ -35066,6 +35083,23 @@
       "website_url": "https://posynt.win/",
       "twitter_handle": "posynt_sol",
       "reviewed_at": "2026-10-03T13:48:57.246Z"
+    },
+    {
+      "name": "Topsplit",
+      "ticker": "TOPSPLIT",
+      "mint": "0x3770017a2775f6da164d7c677c2756c9dbb92b37",
+      "quality_score": 5,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A redistribution mechanism where the largest staking or holding position redistributes rewards/value to smaller participants each round.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "redistribution-only mechanism (common in way or certain way-of-life tokens)"
+      ],
+      "one_line_pitch": "A redistribution protocol where large holders subsidize or 'split' rewards or value down to smaller holders.",
+      "website_url": "https://topsplit.lol",
+      "twitter_handle": "topsplitdesk",
+      "reviewed_at": "2026-10-10T17:53:09.376Z"
     },
     {
       "name": "Never Stop Clicking",
@@ -64793,6 +64827,154 @@
     }
   ],
   "low_quality_tech_coins": [
+    {
+      "name": "Superteam Thailand",
+      "ticker": "Superteam",
+      "mint": "D7hkxvz6obHCyzTfmvY8MWKkF4oec1jWn77RgHwXpump",
+      "quality_score": 2,
+      "is_real_tech": false,
+      "category": "impersonator",
+      "chain": "SOLANA",
+      "mechanism_summary": "A community/talent hub for a specific geographic region (Thailand) with no inherent technical mechanism or product mechanism described.",
+      "red_flags": [
+        "brand hijack risk",
+        "no technical mechanism",
+        "social/community-only narrative"
+      ],
+      "one_line_pitch": "A localized community/talent hub for the Thai ecosystem, lacking a native technical or protocol mechanism.",
+      "website_url": "https://linktr.ee/superteam_TH",
+      "twitter_handle": "superteamth",
+      "reviewed_at": "2026-10-10T17:54:12.813Z"
+    },
+    {
+      "name": "PaperHands",
+      "ticker": "PAPERHANDS",
+      "mint": "0xe9b864e12bcd2fe46348f79c914d29466494896f",
+      "quality_score": 2,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "No technical mechanism provided; a narrative-based meme about trading losses and profit or 'paper hands' behavior.",
+      "red_flags": [
+        "no technical mechanism or product mentioned",
+        "purely a way to frame existing trading products (perpetuals)"
+      ],
+      "one_line_pitch": "A trading-themed meme coin centered around the concept of selling early or taking losses.",
+      "website_url": "https://paperhands.tech",
+      "twitter_handle": "usepaperhand",
+      "reviewed_at": "2026-10-10T17:53:41.529Z"
+    },
+    {
+      "name": "Commo",
+      "ticker": "COMMO",
+      "mint": "0x50100cc1c4b3df2c0016b8ef1d37bc9f25845fa7",
+      "quality_score": 3,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Tokenized versions of real-world commodities (gold, oil, etc.) deployed on the Robinhood-specific blockchain.",
+      "red_flags": [
+        "brand hijack risk (Robinhood ecosystem)",
+        "vague on specific commodity de-pegging or oracles"
+      ],
+      "one_line_pitch": "A way to trade commodity-backed oracles on the Robinhood blockchain.",
+      "website_url": "https://commo.fun",
+      "twitter_handle": "commodotfun",
+      "reviewed_at": "2026-10-10T17:52:37.310Z"
+    },
+    {
+      "name": "Odyssey",
+      "ticker": "Odyssey",
+      "mint": "Ff41mqYhF7CqcVBCkFifKUnzavpf9qxByHtrcgbFpump",
+      "quality_score": 1,
+      "is_real_tech": false,
+      "category": "impersonator",
+      "chain": "SOLANA",
+      "mechanism_summary": "Generic claim of building 'world models' for AI, lacking any specific technical or protocol-level mechanism or way to implement it.",
+      "red_flags": [
+        "brand hijack risk",
+        "vague way to implement 'world models' on-chain",
+        "no specific mechanism or utility mentioned"
+      ],
+      "one_line_pitch": "A generic AI-narrative coin claiming to build simulated world models without a clear technical mechanism.",
+      "website_url": "https://odyssey.systems/",
+      "twitter_handle": "odysseyml",
+      "reviewed_at": "2026-10-10T17:52:05.062Z"
+    },
+    {
+      "name": "Inkbound Publishing DAO",
+      "ticker": "INKDAO",
+      "mint": "0xb67af08a987f2c25f90d4a2e6a4e0843e569b132",
+      "quality_score": 2,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A DAO-based way to fund and publish creative writing/illustration projects.",
+      "red_flags": [
+        "no technical mechanism, just a social way to use a DAO",
+        "generic DAO-based governance/funding model"
+      ],
+      "one_line_pitch": "A decentralized way to fund and publish creative media projects via a community DAO.",
+      "website_url": null,
+      "twitter_handle": null,
+      "reviewed_at": "2026-10-10T17:51:34.339Z"
+    },
+    {
+      "name": "Roops",
+      "ticker": "ROOPS",
+      "mint": "0x4e87558f4022cd4efd65d7168ed91fb36870c0f9",
+      "quality_score": 2,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Tokenized reputation or activity score based on Robinhood Chain wallet usage.",
+      "red_flags": [
+        "vague mechanism",
+        "lacks a clear, way-to-execute product or protocol"
+      ],
+      "one_line_pitch": "A way to reward or track Robinhood Chain wallet activity via a reputation token.",
+      "website_url": "https://roppspass.world",
+      "twitter_handle": "roopspass",
+      "reviewed_at": "2026-10-10T17:51:03.850Z"
+    },
+    {
+      "name": "R0B3R7",
+      "ticker": "R0B3R7",
+      "mint": "0x99be765563880a951c0fbca0f69a6f298f0c1148",
+      "quality_score": 1,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Claims to be an autonomous, self-researching, immortal trading agent, but lacks any specific architectural or algorithmic mechanism or even a clear product definition.",
+      "red_flags": [
+        "vague jargon slop",
+        "no concrete mechanism described",
+        "generic 'autonomous agent' narrative"
+      ],
+      "one_line_pitch": "A generic way to describe an AI-driven trading bot without any specific technical way or even a way.",
+      "website_url": "https://r0b3r7.fun",
+      "twitter_handle": "r0b3r7h00d",
+      "reviewed_at": "2026-10-10T17:50:04.913Z"
+    },
+    {
+      "name": "OARKEL",
+      "ticker": "OARKEL",
+      "mint": "0xfa7104941a8e9407f74a0269eae9fbff50f2934f",
+      "quality_score": 2,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A privacy-preserving layer or way to shroud tokens/ETH to earn passive yield with no admin intervention.",
+      "red_flags": [
+        "vague way to achieve privacy",
+        "generic yield-bearing narrative",
+        "no specific mechanism or protocol named"
+      ],
+      "one_line_pitch": "A generic privacy-focused yield-bearing token/layer for ETH and OARKEL.",
+      "website_url": "https://oarkel.xyz",
+      "twitter_handle": "oarkelxyz",
+      "reviewed_at": "2026-10-10T17:49:01.163Z"
+    },
     {
       "name": "Grand Line",
       "ticker": "BERRY",
