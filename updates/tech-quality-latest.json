@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T15:56:07.915Z",
+  "generated_at": "2026-10-10T16:37:38.873Z",
   "note": "Quality-reviewed tech coins: passed a local coarse filter (qwen2.5:3b) then a real judgment pass (Haiku) confirming is_real_tech=true. new_idea_suggestions are Haiku-generated, informed by these patterns but NOT copies -- creative seeds for further review, not trading signals.",
   "quality_tech_coins": [
     {
@@ -2278,6 +2278,128 @@
       "website_url": "http://dotnet.land",
       "twitter_handle": "dotnetfund",
       "reviewed_at": "2026-10-03T13:48:57.247Z"
+    },
+    {
+      "name": "Jevlings",
+      "ticker": "Jevlings",
+      "mint": "D48wZVsCwLK81Y5o8Cz7QkqDBpdJEqtDS9H2hQZzpump",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "Uses multiple AI-driven 'perspectives' (characters) to provide a multi-angle narrative analysis or sentiment audit of a given meme/story.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "high-effort AI-agent narrative or way too niche for mass adoption"
+      ],
+      "one_line_pitch": "An AI-driven narrative analysis tool that uses different character personas to audit or react to memes.",
+      "website_url": "https://jevlings.xyz",
+      "twitter_handle": "jevlings",
+      "reviewed_at": "2026-10-10T16:37:33.793Z"
+    },
+    {
+      "name": "1SHOT",
+      "ticker": "1SHOT",
+      "mint": "EPatX9p7qu47cNa3y7TWjdgz5fWRSEfCKzftzGY1Shot",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "An auditable logging layer that records all AI agent prompt attempts and failures onto a hash-chained receipt for verifiable, transparent execution history.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "high-level abstraction, needs actual agent implementation to be useful"
+      ],
+      "one_line_pitch": "A verifiable, hash-chained logging mechanism for auditing AI agent prompt attempts and outputs.",
+      "website_url": "https://www.1shotagent.tech",
+      "twitter_handle": "theoneprompt",
+      "reviewed_at": "2026-10-10T16:35:54.153Z"
+    },
+    {
+      "name": "Ballast",
+      "ticker": "BALLAST",
+      "mint": "0x6c364890d8c069613efe29e90cf3c7707a8eb386",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "An automated rebalancing agent for a multi-asset index-style vault containing stocks and gold-backed tokens using oracles.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "relies on heavy oraclized price feeds",
+        "execution risk (rebalancing slippage/gas)"
+      ],
+      "one_line_pitch": "An automated, oraclized rebalancing agent for a diversified basket of stock and commodity tokens.",
+      "website_url": "https://plumbbalance.xyz",
+      "twitter_handle": "ballast_org",
+      "reviewed_at": "2026-10-10T16:32:42.110Z"
+    },
+    {
+      "name": "Debundle",
+      "ticker": "BUNDLE",
+      "mint": "0x6e80f26dd2eeee1b120ac3821a2d5287fdf47e1f",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "On-chain analysis tool that detects way or way-large developer-led or bot-driven token bundling/wash-trading clusters on Robinhood Chain.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "niche-specific to Robinhood Chain ecosystem"
+      ],
+      "one_line_pitch": "An analytical toolset for detecting organic or manipulated token launches via cluster and wallet forensics.",
+      "website_url": null,
+      "twitter_handle": "debundle_",
+      "reviewed_at": "2026-10-10T16:25:55.485Z"
+    },
+    {
+      "name": "Tako",
+      "ticker": "TAKO",
+      "mint": "0xeba0b23e7fc3c2e2c8a5ba16e32fbd86a9182d7b",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A specialized terminal interface and management layer for coordinating and monitoring multiple AI coding agents (Claude/Codex) simultaneously.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "niche utility (developer tool, not a general consumer app)"
+      ],
+      "one_line_pitch": "A management terminal/orchestrator for running and monitoring multiple AI coding agents side-by-side.",
+      "website_url": "https://x.com/nikshepsvn/status/2108185007391121605?s=20",
+      "twitter_handle": null,
+      "reviewed_at": "2026-10-10T16:20:46.936Z"
+    },
+    {
+      "name": "qupad",
+      "ticker": "QUPAD",
+      "mint": "0x7bb46ea62b72a6e608c300c60ec3d11bc21512fe",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Uses post-quantum cryptography (PQC) for identity and transaction signing to ensure future-proof security against quantum computing threats.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "no working product, just a landing page/narrative",
+        "high-complexity claim for a single-purpose token"
+      ],
+      "one_line_pitch": "A security-focused token using post-quantum cryptographic keys for identity and transaction verification.",
+      "website_url": "https://qupad.fun",
+      "twitter_handle": "qupad_fun",
+      "reviewed_at": "2026-10-10T16:14:57.670Z"
+    },
+    {
+      "name": "Cortia",
+      "ticker": "CORTIA",
+      "mint": "0x8fe5e2769c6193defabf174dc9f647b9a5262a2f",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A marketplace for AI agent task execution with a way to escrow or settle payments only upon successful verification/validation.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "no working product, just a concept",
+        "high execution risk for verification oracles"
+      ],
+      "one_line_pitch": "An escrow-based marketplace for AI agent task verification and payment.",
+      "website_url": null,
+      "twitter_handle": "appcortia",
+      "reviewed_at": "2026-10-10T16:13:23.494Z"
     },
     {
       "name": "PORT",
@@ -18678,6 +18800,111 @@
       "reviewed_at": "2026-10-03T13:13:07.851Z"
     },
     {
+      "name": "Perpetua",
+      "ticker": "PERP",
+      "mint": "7JX3zFrNs6rTmLvmzitcvxFzRyV3Fvv1x6eSL1Zzpump",
+      "quality_score": 6,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "A launchpad protocol that uses 80% of collected creator fees to buy back and burn its native $PERP token.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "circular dependency (token needs a launchpad to exist, but launchpad needs trades to burn)"
+      ],
+      "one_line_pitch": "A launchpad where creator fees directly drive a permanent buyback-and-burn mechanism for the native token.",
+      "website_url": "https://www.perpetualpad.xyz/",
+      "twitter_handle": "launchperp",
+      "reviewed_at": "2026-10-10T16:37:00.749Z"
+    },
+    {
+      "name": "Perpetua",
+      "ticker": "PERP",
+      "mint": "GsTQF4ZEs4EeVhffsQXZm51ng8jtGDfgdPUdrhS9pump",
+      "quality_score": 6,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "Uses 80% of protocol-level creator fees from all new launches to buy back and burn the native $PERP token.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "dependent on fee-collection oracles/mechanisms",
+        "tokenomics relies on high-volume trading or fee-capture"
+      ],
+      "one_line_pitch": "A launchpad-native token fueled by a systematic buyback-and-burn of 80% of all developer fees.",
+      "website_url": "https://www.perpetualpad.xyz/",
+      "twitter_handle": "launchperp",
+      "reviewed_at": "2026-10-10T16:32:09.861Z"
+    },
+    {
+      "name": "Partyline",
+      "ticker": "PARTYLINE",
+      "mint": "0xf2d24333eb2b1adabdc883a2f13e4c838e8ed8ae",
+      "quality_score": 6,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "An AI agent integrated into SMS/iMessage capable of interacting with users via standard messaging protocols.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "high execution risk (requires bridge to telco/messaging APIs)"
+      ],
+      "one_line_pitch": "An AI agent accessible via SMS/iMessage for low-friction mobile interaction.",
+      "website_url": null,
+      "twitter_handle": "textpartyline",
+      "reviewed_at": "2026-10-10T16:23:53.607Z"
+    },
+    {
+      "name": "Cortia",
+      "ticker": "CORTIA",
+      "mint": "0x7fde08b4a13868751fe58883439049f325e0495a",
+      "quality_score": 6,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A service-based marketplace using an escrow-style or reputation-based payment trigger for AI agent task completion.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "no clear way way to define 'satisfying' or handle disputes/verifications"
+      ],
+      "one_line_pitch": "An escrow-based marketplace for paying AI agents based on successful task output.",
+      "website_url": null,
+      "twitter_handle": "appcortia",
+      "reviewed_at": "2026-10-10T16:18:10.069Z"
+    },
+    {
+      "name": "Florq",
+      "ticker": "FLORQ",
+      "mint": "0xa1ed9f607932efda1da2598c1286f393886ad58a",
+      "quality_score": 6,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "An execution layer/platform for AI agents to paper trade and execute live trades on a specific chain (Robinhood Chain).",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "dependent on Robinhood Chain adoption",
+        "high competition in AI agent narrative"
+      ],
+      "one_line_pitch": "A specialized trading environment/infrastructure for autonomous AI agents on the Robinhood blockchain.",
+      "website_url": null,
+      "twitter_handle": "useflorq",
+      "reviewed_at": "2026-10-10T16:17:05.587Z"
+    },
+    {
+      "name": "Cortia",
+      "ticker": "CORTIA",
+      "mint": "0x0a51546e20fd3f4184bb796086a8b95d1621f881",
+      "quality_score": 6,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A marketplace or escrow-based service for AI agent task completion with a way to verify 'satisfaction' before final payment.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "no way to programmatically define 'satisfaction' or 'work' in the description",
+        "high-level way to describe a service rather than a protocol"
+      ],
+      "one_line_pitch": "An escrow-style marketplace for paying AI agents based on output quality.",
+      "website_url": null,
+      "twitter_handle": "appcortia",
+      "reviewed_at": "2026-10-10T16:15:30.048Z"
+    },
+    {
       "name": "The Perfect Meme",
       "ticker": "[MEME]",
       "mint": "26miU3x5jMDjxHzWFo8UFyPKF8PvsthXAzSLqzQipump",
@@ -34595,6 +34822,24 @@
       "website_url": "https://posynt.win/",
       "twitter_handle": "posynt_sol",
       "reviewed_at": "2026-10-03T13:48:57.246Z"
+    },
+    {
+      "name": "Ballast",
+      "ticker": "BLLS",
+      "mint": "0x8183d28ebc0674ea5c149fcc87e9f4dd618460aa",
+      "quality_score": 5,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "An automated protocol that rebalances a basket of tokenized stocks to maintain target weightings.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "highly complex way to execute a simple financial task",
+        "high reliance on oracles and liquidly/slippage management"
+      ],
+      "one_line_pitch": "An automated rebalancing protocol for a portfolio of tokenized equity assets.",
+      "website_url": "https://plumbbalance.xyz",
+      "twitter_handle": "ballast_org",
+      "reviewed_at": "2026-10-10T16:33:45.468Z"
     },
     {
       "name": "RWA",
@@ -64268,6 +64513,320 @@
     }
   ],
   "low_quality_tech_coins": [
+    {
+      "name": "Embervale",
+      "ticker": "EMBERVALE",
+      "mint": "0x1b15e72a0df409ca75243a0a64170b6be13188a5",
+      "quality_score": 2,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A pixel-art farming simulation game.",
+      "red_flags": [
+        "no technical mechanism described",
+        "purely a narrative/genre",
+        "high competition/saturated niche"
+      ],
+      "one_line_pitch": "A standard pixel-art farming game lacking any specific technical or economic mechanism.",
+      "website_url": "https://embervalegame.com",
+      "twitter_handle": "embervale_",
+      "reviewed_at": "2026-10-10T16:34:49.609Z"
+    },
+    {
+      "name": "Recevra",
+      "ticker": "RCVR",
+      "mint": "0x1096114752f9ff779951075183e7cbc327976647",
+      "quality_score": 3,
+      "is_real_tech": false,
+      "category": "impersonator",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "An AI-driven financial ecosystem specifically built or operating on the Robinhood-branded blockchain.",
+      "red_flags": [
+        "brand hijack risk (Robinhood)",
+        "vague 'AI-service' or 'ecosystem' without specific technical mechanism"
+      ],
+      "one_line_pitch": "A specialized AI-service token claiming or targeting an ecosystem on Robinhood's proprietary chain.",
+      "website_url": "https://syndicagents.xyz",
+      "twitter_handle": "recevra_org",
+      "reviewed_at": "2026-10-10T16:34:19.513Z"
+    },
+    {
+      "name": "StockChain",
+      "ticker": "CHAIN",
+      "mint": "0xd7fae52bcd423d18ac0bb4312be3a2dc6d34d00d",
+      "quality_score": 2,
+      "is_real_tech": false,
+      "category": "impersonator",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Tokenized versions of existing traditional stocks traded on a specific 'Robinhood Chain' (likely a marketing or hypothetical chain name).",
+      "red_flags": [
+        "brand hijack risk (Robinhood)",
+        "concept is a standard way to use oracles/tokenization",
+        "no way to verify 'Robinhood Chain' vs standard existing chains"
+      ],
+      "one_line_pitch": "A wrapper for trading traditional stocks on-chain via a specialized chain or app.",
+      "website_url": "https://www.stockchain.fun",
+      "twitter_handle": "stockchain_",
+      "reviewed_at": "2026-10-10T16:33:14.861Z"
+    },
+    {
+      "name": "Humoniq",
+      "ticker": "HUMON",
+      "mint": "0x4d3436ad0e3bf6806a56c84f58e21c2a1ea8c315",
+      "quality_score": 2,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "An AI-driven automation layer for airline booking and passenger service workflows.",
+      "red_flags": [
+        "no technical mechanism described, just a service application",
+        "high-level way to burn capital on a way too large, non-crypto-native industry"
+      ],
+      "one_line_pitch": "AI automation for airline customer service and booking management.",
+      "website_url": "https://humoniq.ai",
+      "twitter_handle": "humoniqai",
+      "reviewed_at": "2026-10-10T16:31:31.320Z"
+    },
+    {
+      "name": "Robin Kingdom",
+      "ticker": "JEWEL",
+      "mint": "0xfdc0c6838627fc70fa0c1b9a376158a03ce20ac3",
+      "quality_score": 3,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A standard RPG-style game loop involving leveling, quests, and a certain daily token emission rate.",
+      "red_flags": [
+        "standard gaming/RPG template",
+        "generic enough to be any any 'kingdom' or 'quest' game"
+      ],
+      "one_line_pitch": "A standard RPG-based token emission model using a kingdom-themed leveling and questing loop.",
+      "website_url": "https://robinkingdom.app",
+      "twitter_handle": "robin_kingdom",
+      "reviewed_at": "2026-10-10T16:24:55.912Z"
+    },
+    {
+      "name": "Embervale",
+      "ticker": "EMBERVALE",
+      "mint": "0x452f9ddbfa9f7b9bb79c85fd536d931355487370",
+      "quality_score": 2,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A generic pixel-art farming simulator with no mentioned specialized protocol mechanism.",
+      "red_flags": [
+        "no mechanism described",
+        "purely narrative/genre-based"
+      ],
+      "one_line_pitch": "A standard pixel-art farming game with no underlying protocol or economic mechanism mentioned.",
+      "website_url": "https://embervalegame.com",
+      "twitter_handle": "embervale_",
+      "reviewed_at": "2026-10-10T16:24:24.738Z"
+    },
+    {
+      "name": "Agent Paige",
+      "ticker": "AGP",
+      "mint": "0x2c229fd7d0b99e00e7e98369d5d845f37b60c7dd",
+      "quality_score": 2,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "An AI-driven website builder or agent that generates live sites via chat-based prompting.",
+      "red_flags": [
+        "purely a way to describe an AI agent",
+        "no actual blockchain mechanism or utility mentioned"
+      ],
+      "one_line_pitch": "An AI agent for instant website generation via natural language chat.",
+      "website_url": "https://www.agentpaige.com",
+      "twitter_handle": "agentpaigeai",
+      "reviewed_at": "2026-10-10T16:23:24.131Z"
+    },
+    {
+      "name": "Forecaster",
+      "ticker": "FORECASTER",
+      "mint": "0x4d3deef73199f6dd2c32a42b2c453fa25c038f34",
+      "quality_score": 2,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A prediction market or incentive layer where users receive rewards for the accuracy of their market predictions.",
+      "red_flags": [
+        "vague mechanism",
+        "common prediction market narrative"
+      ],
+      "one_line_pitch": "A generic prediction-reward mechanism for user-submitted market calls.",
+      "website_url": "https://forecaster.gg",
+      "twitter_handle": "forecaster_gg",
+      "reviewed_at": "2026-10-10T16:22:53.766Z"
+    },
+    {
+      "name": "QuantumPad",
+      "ticker": "qPad",
+      "mint": "u9wfZvxYX7YDf4Z5keMDkLykicw479DRKN1cGHbpump",
+      "quality_score": 2,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "SOLANA",
+      "mechanism_summary": "Uses 'quantum' branding, likely implying high-speed or parallelized execution, but lacks a specific, non-generic technical mechanism.",
+      "red_flags": [
+        "generic 'quantum' buzzword",
+        "no specific mechanism or product described",
+        "high risk of being a generic name-set"
+      ],
+      "one_line_pitch": "A generic buzzword-driven coin likely relying on 'quantum' marketing rather than a unique protocol mechanism.",
+      "website_url": "https://q-pad.family",
+      "twitter_handle": "quantumpad_",
+      "reviewed_at": "2026-10-10T16:21:18.500Z"
+    },
+    {
+      "name": "RobotsFarm",
+      "ticker": "RBF",
+      "mint": "0x2fd63a6ed79d559e99e3b4ccec23420ff7907e70",
+      "quality_score": 2,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A generic gaming ecosystem or token redistribution model using high-stakes gaming mechanics, but lacks a specific technical mechanism description.",
+      "red_flags": [
+        "vague/jargon-heavy description",
+        "no specific technical mechanism or product or whitepaper-level detail provided"
+      ],
+      "one_line_pitch": "A high-stakes gaming-themed token with a heavy emphasis on a 'new era' or redesign.",
+      "website_url": "https://robots.farm",
+      "twitter_handle": "robotsfarm",
+      "reviewed_at": "2026-10-10T16:19:46.806Z"
+    },
+    {
+      "name": "Quantum Inu",
+      "ticker": "QI",
+      "mint": "bsp4qPLNf4sLAAcWMiFR9UfpAQTP6c2QYS9KHpTpump",
+      "quality_score": 1,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "SOLANA",
+      "mechanism_summary": "No mechanism provided; relies on the 'Quantum' buzzword-meme-coin trope.",
+      "red_flags": [
+        "no mechanism provided",
+        "generic buzzword-heavy name"
+      ],
+      "one_line_pitch": "A generic meme coin relying on the 'quantum' buzzword without any underlying technical or functional mechanism.",
+      "website_url": "https://pqc.market/coin/q/8TiMkgvsrat9tM2esko8zVTt99LZLpefUM4SnZaziXaQ",
+      "twitter_handle": "milsaftermils",
+      "reviewed_at": "2026-10-10T16:19:14.745Z"
+    },
+    {
+      "name": "The Million Dollar Pixl",
+      "ticker": "PIXL",
+      "mint": "AzT3ykrUuBvm8QrBwS5R2tpR4QECu3F3GK5FWPbApump",
+      "quality_score": 1,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "SOLANA",
+      "mechanism_summary": "A speculative, way-in-the-future date-based meme or experiment with no described mechanism.",
+      "red_flags": [
+        "no mechanism described",
+        "purely speculative/narrative-driven",
+        "vague 'experiment' label"
+      ],
+      "one_line_pitch": "A speculative meme or 'event' coin tied to a distant future date.",
+      "website_url": "https://linktr.ee/AlexTew",
+      "twitter_handle": "alextewofficial",
+      "reviewed_at": "2026-10-10T16:16:33.709Z"
+    },
+    {
+      "name": "Google Bard AI",
+      "ticker": "Google AI",
+      "mint": "6vBbvxWueux86P1Cy98s923yA1r9Qjv1EGDuRYTapump",
+      "quality_score": 1,
+      "is_real_tech": false,
+      "category": "impersonator",
+      "chain": "SOLANA",
+      "mechanism_summary": "Attempts to leverage the Google-branded 'Bard' name, which has already been deprecated/rebranded to Gemini.",
+      "red_flags": [
+        "brand hijack risk",
+        "outdated naming (Bard vs Gemini)"
+      ],
+      "one_line_pitch": "A brand-squatting meme using a deprecated Google product name.",
+      "website_url": "https://ai.google/",
+      "twitter_handle": "google",
+      "reviewed_at": "2026-10-10T16:16:01.817Z"
+    },
+    {
+      "name": "Pitravens",
+      "ticker": "PIT",
+      "mint": "0xa19dcff9f5a22a8e33b4d182ae9f716d6e91add8",
+      "quality_score": 2,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A collection of 555 pixel-art ravens using a staking mechanism to earn ETH.",
+      "red_flags": [
+        "vague staking/reward mechanism",
+        "arbitrary supply/count",
+        "lacks clear product/utility beyond simple staking"
+      ],
+      "one_line_pitch": "A small-supply pixel-art collection with a basic staking-for-ETH reward loop.",
+      "website_url": "https://pitravens.com",
+      "twitter_handle": "pitravens",
+      "reviewed_at": "2026-10-10T16:13:56.524Z"
+    },
+    {
+      "name": "ORBIO SOLUTIONS",
+      "ticker": "ORBS",
+      "mint": "0x1e8bbf4beb78b5f1a72c4b2d033215f9aa7c2500",
+      "quality_score": 1,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Generic claim of being a global software/tech service provider with no specific or identifiable technical mechanism.",
+      "red_flags": [
+        "purely marketing jargon",
+        "no way to distinguish from any other generic tech company",
+        "lacks any way to implement or use a specific mechanism"
+      ],
+      "one_line_pitch": "A generic, jargon-heavy way to describe a standard software services company.",
+      "website_url": null,
+      "twitter_handle": "orbiosolutions",
+      "reviewed_at": "2026-10-10T16:12:53.103Z"
+    },
+    {
+      "name": "gpuQnetwork",
+      "ticker": "GPU",
+      "mint": "0xef2c65798453cdfea87f678b6129a57489287934",
+      "quality_score": 2,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Generic claim of a decentralized or customized cloud GPU way of operating.",
+      "red_flags": [
+        "vague/generic marketing claim",
+        "no specific mechanism or protocol or hardware-level detail provided",
+        "high risk of being a simple wrapper or low-effort brand"
+      ],
+      "one_line_pitch": "A generic way to access cloud GPU resources without a defined protocol or technical edge.",
+      "website_url": null,
+      "twitter_handle": "gpuqnetwork",
+      "reviewed_at": "2026-10-10T16:12:19.904Z"
+    },
+    {
+      "name": "COOKING",
+      "ticker": "COOKING",
+      "mint": "0x085a9a30dd6e3a66399011d232d7cdd9b26ef434",
+      "quality_score": 1,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A vague claim of being an 'intelligence layer' without a defined or technical mechanism or product utility.",
+      "red_flags": [
+        "vague, way too generic",
+        "no concrete mechanism or product mentioned",
+        "typical wayto use 'intelligence' as a buzzword"
+      ],
+      "one_line_pitch": "A generic marketing claim or narrative-based meme with no clear technical mechanism.",
+      "website_url": "https://t.co/fXicgohviS",
+      "twitter_handle": "cookingonrh_",
+      "reviewed_at": "2026-10-10T16:11:47.226Z"
+    },
     {
       "name": "Horacio the Squirrel",
       "ticker": "Horacio",
