@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T08:32:47.375Z",
+  "generated_at": "2026-10-10T08:53:20.113Z",
   "note": "Quality-reviewed tech coins: passed a local coarse filter (qwen2.5:3b) then a real judgment pass (Haiku) confirming is_real_tech=true. new_idea_suggestions are Haiku-generated, informed by these patterns but NOT copies -- creative seeds for further review, not trading signals.",
   "quality_tech_coins": [
     {
@@ -62703,6 +62703,43 @@
     }
   ],
   "low_quality_tech_coins": [
+    {
+      "name": "Google Gemini",
+      "ticker": "Gemini",
+      "mint": "YKNyBdJrg3PiH3EgZTFWP3PzYgBar2jwpsGwyjkpump",
+      "quality_score": 0,
+      "is_real_tech": false,
+      "category": "impersonator",
+      "chain": "SOLANA",
+      "mechanism_summary": "Claims to be a product or feature of Google's Gemini AI ecosystem.",
+      "red_flags": [
+        "brand hijack risk",
+        "not a native protocol or mechanism"
+      ],
+      "one_line_pitch": "A direct impersonation of Google's proprietary AI brand, lacking any way to distinguish or verify utility.",
+      "website_url": null,
+      "twitter_handle": null,
+      "reviewed_at": "2026-10-10T08:49:28.428Z"
+    },
+    {
+      "name": "Google Gemini",
+      "ticker": "Gemini",
+      "mint": "DSJoBwhBFp1Fyemrcdj1uffoQQAegYcvs5ezyxyRpump",
+      "quality_score": 0,
+      "is_real_tech": false,
+      "category": "impersonator",
+      "chain": "SOLANA",
+      "mechanism_summary": "Uses Google's existing Gemini AI branding and product features (Omni, Nano) to create a narrative for a meme coin.",
+      "red_flags": [
+        "brand hijack risk",
+        "no way to distinguish from Google's actual product",
+        "marketing-heavy jargon-only description"
+      ],
+      "one_line_pitch": "A brand-hijacking meme riding on Google's Gemini AI ecosystem and marketing copy.",
+      "website_url": "https://gemini.google.com/app",
+      "twitter_handle": "geminiapp",
+      "reviewed_at": "2026-10-10T08:48:57.286Z"
+    },
     {
       "name": "Musk",
       "ticker": "Musk",
@@ -149421,63 +149458,63 @@
   ],
   "new_idea_suggestions": [
     {
-      "working_name": "Gavel",
-      "mechanism": "A sealed-bid auction where the winner pays the runner-up's price and all fees burn the supply.",
-      "inspired_by": "Remix of BETA (Auction) + any Burn mechanism. Change: Use it for a specific way-out NFT or asset.",
-      "derivativeness_score": 4
-    },
-    {
-      "working_name": "Inkwell",
-      "mechanism": "Digital ink art that grows or fades based on real-time trading volume.",
-      "inspired_by": "Remix of HEARTBEAT (Live art). Change: The art way-out is a certain way (e.g., way-out via a specific trade price).",
+      "working_name": "Gamble",
+      "mechanism": "It's a way to bet on AI: you pick a winner and the AI agent's certain win or loss burns your tokens.",
+      "inspired_by": "Seravi (SVI) + KOTHFI (KOTH)",
       "derivativeness_score": 5
     },
     {
-      "working_name": "Vending",
-      "mechanism": "AI agents that use their own trading fees to buy and hold physical snack or drink coupons.",
-      "inspired_by": "Remix of Cardex (Agents buy cards). Change: The off-chain asset is a physical consumable (vending machine coupons).",
+      "working_name": "Promptly",
+      "mechanism": "It's a game-builder for players: you type a simple sentence and a playable game is instantly deployed.",
+      "inspired_by": "TapCade (TAP)",
       "derivativeness_score": 4
     },
     {
-      "working_name": "Scribe",
-      "mechanism": "A web-scraper that builds a specialized database of any website you choose to train a custom AI.",
-      "inspired_by": "Remix of CRAWLNET (Scrapes for LLM). Change: Users pick the niche (e.g., only scrape Reddit or only scrape certain news sites).",
+      "working_name": "Blindfold",
+      "mechanism": "It's a way to test humans: you act as a judge to verify if a machine or human wrote a message.",
+      "inspired_by": "The Turing Test (TTT)",
+      "derivativeness_score": 5
+    },
+    {
+      "working_name": "Shadow",
+      "mechanism": "It's a way to hedge: you hold a token that mirrors a shorted index to protect your portfolio.",
+      "inspired_by": "Aequafinance (AQUA)",
+      "derivativeness_score": 4
+    },
+    {
+      "working_name": "Vault",
+      "mechanism": "It's a way to lock assets: you pledge your existing tokens andget a secondary token back as a receipt.",
+      "inspired_by": "Ero (ERO)",
       "derivativeness_score": 3
     },
     {
-      "working_name": "Blindfold",
-      "mechanism": "Trade a token where the price and supply are hidden until a certain volume or time passes.",
-      "inspired_by": "Remix of Unbox (Reveal/Unseal) + FUNGOT (Privacy). Change: The 'unsealing' happens via a volume-based trigger.",
+      "working_name": "Unseal",
+      "mechanism": "It's a way to reveal art: you trade a token and a piece of a hidden image or secret is revealed.",
+      "inspired_by": "Quantum Fly (QF)",
+      "derivativeness_score": 5
+    },
+    {
+      "working_name": "Glitch",
+      "mechanism": "It's a way to find errors: you run a tool that tries to crack simple keys and earns rewards for finding them.",
+      "inspired_by": "Quantum Break (Break)",
+      "derivativeness_score": 4
+    },
+    {
+      "working_name": "Pulse",
+      "mechanism": "It's a way to track hype: you see a live feed of internet trends before they hit the markets.",
+      "inspired_by": "Silk Road (silk road)",
+      "derivativeness_score": 3
+    },
+    {
+      "working_name": "Agentic",
+      "mechanism": "It's a way to fund AI: you trade a token and your fees pay for real quantum computer executions.",
+      "inspired_by": "qLAB (qLAB)",
       "derivativeness_score": 5
     },
     {
       "working_name": "Shrink",
-      "mechanism": "A way to trade tokens that shrink in supply every time a certain social media engagement threshold is met.",
-      "inspired_by": "Remix of hook social (Social signals) + any Burn mechanism. Change: The trigger is a social metric (likes/retweets).",
-      "derivativeness_score": 4
-    },
-    {
-      "working_name": "Mimic",
-      "mechanism": "A way to launch an app that automatically copies the logic of an existing famous app (like Twitter or Uber).",
-      "inspired_by": "Remix of SEND IT (AI app builder). Change: The app builder targets a specific template/clone instead of freeform text.",
-      "derivativeness_score": 4
-    },
-    {
-      "working_name": "Clone",
-      "mechanism": "A way to launch a token where the trading fees pay for an AI agent to act like a famous person.",
-      "inspired_by": "Remix of Cardex (Agents buy assets). Change: The agent's 'payoff' or 'action' is acting/trolling on a social feed.",
-      "derivativeness_score": 5
-    },
-    {
-      "working_name": "Pulse",
-      "mechanism": "A token whose price or supply is controlled by a live biological simulation (like slime mold or a heart-rate monitor).",
-      "inspired_by": "Remix of Blob Experiment (Slime mold treasury). Change: Use a different live biological or physical signal (e.g. heart rate or temperature).",
-      "derivativeness_score": 5
-    },
-    {
-      "working_name": "GhostPay",
-      "mechanism": "A private payment layer where you pay for AI service calls using anonymous, untraceable credits.",
-      "inspired_by": "Remix of nullhood (ZK payments for API/AI). Change: The credits are specifically for a different way-out (e.g. a specific game or tool).",
+      "mechanism": "It's a way to run heavy AI: you use compressed, tiny models that run instantly on your phone.",
+      "inspired_by": "LittleBit (BIT)",
       "derivativeness_score": 4
     }
   ]
