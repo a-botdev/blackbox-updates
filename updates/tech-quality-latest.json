@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T14:40:14.703Z",
+  "generated_at": "2026-10-10T15:04:41.135Z",
   "note": "Quality-reviewed tech coins: passed a local coarse filter (qwen2.5:3b) then a real judgment pass (Haiku) confirming is_real_tech=true. new_idea_suggestions are Haiku-generated, informed by these patterns but NOT copies -- creative seeds for further review, not trading signals.",
   "quality_tech_coins": [
     {
@@ -2278,6 +2278,94 @@
       "website_url": "http://dotnet.land",
       "twitter_handle": "dotnetfund",
       "reviewed_at": "2026-10-03T13:48:57.247Z"
+    },
+    {
+      "name": "Quant Agent",
+      "ticker": "QA",
+      "mint": "Dw8d8BSMQBzFSbcVwvDkR8NhwGJM55yudtQucpcqpump",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "AI agents using post-quantum, hash-based signatures (XMSS/WOTS+) to manage autonomous wallets and shared lattice-based coordination.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "high-effort way to run a single coin",
+        "post-quantum crypto (XMSS) is heavy for a simple memecoin"
+      ],
+      "one_line_pitch": "Autonomous AI agents using hash-based, post-quantum cryptographic signatures for secure, shared-lattice coordination.",
+      "website_url": "https://getquantagent.fun/",
+      "twitter_handle": "getquantagent",
+      "reviewed_at": "2026-10-10T15:04:25.191Z"
+    },
+    {
+      "name": "Axon",
+      "ticker": "AXON",
+      "mint": "0xfb7c077676e361906dc3fadfba3b70b5ebc4f69f",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "An open-source protocol enabling AI agents to discover, coordinate, and settle payments via a specialized (x402) payment/reputation layer.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "high-level abstraction, hard to verify implementation"
+      ],
+      "one_line_pitch": "A coordination layer for AI agent interoperability, task delegation, and automated settlement.",
+      "website_url": "https://axon-agents.com",
+      "twitter_handle": "axon402",
+      "reviewed_at": "2026-10-10T14:58:18.238Z"
+    },
+    {
+      "name": "Mesh Network",
+      "ticker": "MESH",
+      "mint": "0xc1188fb777683dd5beacf94839db95966cd98ecc",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "DePIN-style way to lease spare Apple Silicon compute/memory for AI tasks, using a fee-funded credit system for-incentivized node provision.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "hardware-specific (limited to Apple Silicon)",
+        "high-barrier-to-entry (requires active user hardware provision)"
+      ],
+      "one_line_pitch": "A way to monetize idle Apple Silicon compute via a peer-to-peer AI-task network.",
+      "website_url": "https://mesh-network.ai",
+      "twitter_handle": "meshnetworkai",
+      "reviewed_at": "2026-10-10T14:56:07.443Z"
+    },
+    {
+      "name": "Inferhatch AI",
+      "ticker": "INFRH",
+      "mint": "0x68711384e2c932e81f36bb614d1b3bcf0a6b5403",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Automated training of single-task, lightweight specialized models that retrain/redeploy based on a personalized stream of user-provided training examples.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "high compute-cost risk for a single-endpoint model approach"
+      ],
+      "one_line_pitch": "A specialized service for deploying and retraining tiny, task-specific, personalized AI models.",
+      "website_url": "https://inferhatch.vercel.app",
+      "twitter_handle": "nixxin",
+      "reviewed_at": "2026-10-10T14:50:46.602Z"
+    },
+    {
+      "name": "Prism Scenario Engine",
+      "ticker": "PRISM",
+      "mint": "0x6c5a0ac0d7dfe260e4106ed161cb5720875f96bf",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A simulation tool for modeling price, liquidity, and cost-impact scenarios on-chain.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "no working product, just a proposed tool",
+        "high-level abstraction, may lack actual implementation"
+      ],
+      "one_line_pitch": "A predictive simulation engine for modeling liquidity and price-swing-related transaction costs.",
+      "website_url": null,
+      "twitter_handle": null,
+      "reviewed_at": "2026-10-10T14:47:09.819Z"
     },
     {
       "name": "KagamiAgent",
@@ -18572,6 +18660,77 @@
       "reviewed_at": "2026-10-03T13:13:07.851Z"
     },
     {
+      "name": "The Perfect Meme",
+      "ticker": "[MEME]",
+      "mint": "26miU3x5jMDjxHzWFo8UFyPKF8PvsthXAzSLqzQipump",
+      "quality_score": 6,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "A live, real-time voting system where multiple AI models generate or modify a single piece of artwork based on community input.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "high compute-cost/high-frequency-update assumption",
+        "vague enough to be a simple way to burn tokens via compute-heavy tasks"
+      ],
+      "one_line_pitch": "A real-time, multi-model AI art competition driven by live community voting.",
+      "website_url": "https://www.theperfectmeme.app/",
+      "twitter_handle": "ikarbro",
+      "reviewed_at": "2026-10-10T15:03:49.132Z"
+    },
+    {
+      "name": "board is live",
+      "ticker": "LIVE",
+      "mint": "4LGxNykdpojk3aXxtdJGxsbqRarTQ1uiKbwSCgtDPbpR",
+      "quality_score": 6,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "A forum-style posting system where every thread/reply is a coin, potentially involving buybacks and redistribution (GETs) or burning.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "experimental mechanism (forum-as-coin)",
+        "payouts depend on trading volume/uncertain"
+      ],
+      "one_line_pitch": "A forum-based social-trading primitive where threads and replies act as individual tokens.",
+      "website_url": "https://slashsol.com",
+      "twitter_handle": null,
+      "reviewed_at": "2026-10-10T15:02:41.880Z"
+    },
+    {
+      "name": "Recevra",
+      "ticker": "RECEVRA",
+      "mint": "0xa0167696e02160af9dfc9fe14e211b59efadcdd3",
+      "quality_score": 6,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A specialized clearing/accounting layer for AI service payments using fixed receipt shares and capped participation on a specific chain.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "dependency on Robinhood Chain ecosystem",
+        "high-complexity way to handle simple service payments"
+      ],
+      "one_line_pitch": "An onchain accounting and settlement layer specifically for managing AI service-level agreements and payments.",
+      "website_url": "https://syndicagents.xyz",
+      "twitter_handle": "recevra_org",
+      "reviewed_at": "2026-10-10T15:01:02.859Z"
+    },
+    {
+      "name": "Contextbarrow Agent",
+      "ticker": "CTXBW",
+      "mint": "0x1ad5731c79202ee8f12cc24bd2180d8f860032e3",
+      "quality_score": 6,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "An AI agent workflow focused on pre-task context retrieval and heavy-lifting or 'loading' necessary data/notes before execution.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "high-level abstraction, lacks specific technical implementation details"
+      ],
+      "one_line_pitch": "A specialized AI agent workflow focusing on heavy-duty context preparation and data loading.",
+      "website_url": "https://contextbarrow.vercel.app",
+      "twitter_handle": "gerardsans",
+      "reviewed_at": "2026-10-10T14:53:19.471Z"
+    },
+    {
       "name": "Satbin",
       "ticker": "SATBIN",
       "mint": "0x1720a0a32b6ed550605278fa55b494111544a548",
@@ -34420,6 +34579,41 @@
       "reviewed_at": "2026-10-03T13:48:57.246Z"
     },
     {
+      "name": "WickHour",
+      "ticker": "WH",
+      "mint": "0xc3e8b7611c719623e4bb78d92234e489429fb8df",
+      "quality_score": 5,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A suite of on-chain derivatives, including options and RWAs, specifically built for the Robinhood Chain ecosystem.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "ecosystem-dependent (requires Robinhood Chain or a way to bridge RWAs)",
+        "highly complex even if technically possible"
+      ],
+      "one_line_pitch": "A specialized derivatives and RWA protocol or toolkit for the Robinhood blockchain ecosystem.",
+      "website_url": "https://wickhour.com",
+      "twitter_handle": "wickhour",
+      "reviewed_at": "2026-10-10T14:56:39.215Z"
+    },
+    {
+      "name": "CRYPTO",
+      "ticker": "CRYPTO",
+      "mint": "Ci93KVsTxrgiMiVp8v367tBborTjiZKkZFB2cdjWpump",
+      "quality_score": 5,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "A 'King of the Hill' mechanism where the largest buy every 15 minutes claims the round's accumulated fees in SOL.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "mechanically simple, relies on high-frequency trading/volume"
+      ],
+      "one_line_pitch": "A fee-capture mechanism where the largest periodic buyer wins the round's fees.",
+      "website_url": "https://otcdesks.cash/coin/Ci93KVsTxrgiMiVp8v367tBborTjiZKkZFB2cdjWpump",
+      "twitter_handle": "bnnbags",
+      "reviewed_at": "2026-10-10T14:46:05.834Z"
+    },
+    {
       "name": "Apiosk",
       "ticker": "APIOSK",
       "mint": "0xc1c4969cded6c07264d9010851d869e9a6d3ac7d",
@@ -47941,6 +48135,24 @@
       "website_url": null,
       "twitter_handle": null,
       "reviewed_at": "2026-09-30T03:13:31.131Z"
+    },
+    {
+      "name": "Orblivion",
+      "ticker": "ORBLIVION",
+      "mint": "0x6ef1ea196a1f6caee31a81fce3164b90c7c43250",
+      "quality_score": 4,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A specialized trading infrastructure or execution layer designed specifically for a certain class of (unspecified) autonomous agents.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "vague/undefined 'agents'",
+        "no clear way to verify if 'Orbio' or 'Orblivion' exists or if it's just a name"
+      ],
+      "one_line_pitch": "A niche execution layer for a specific ecosystem of autonomous trading agents.",
+      "website_url": "https://orblivion.com",
+      "twitter_handle": "orblivionlayer",
+      "reviewed_at": "2026-10-10T14:59:24.145Z"
     },
     {
       "name": "Objekt AI",
@@ -63985,6 +64197,264 @@
     }
   ],
   "low_quality_tech_coins": [
+    {
+      "name": "FOMOAI",
+      "ticker": "FOMO",
+      "mint": "Bw3wwuSWbXXhgbhF1XT1NrXXmrSE5YrnvjqDwwrZpump",
+      "quality_score": 2,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "SOLANA",
+      "mechanism_summary": "A social trading platform focused on 'clans' or social groups for group-based trading/narrative following.",
+      "red_flags": [
+        "vague product/mechanism",
+        "high-level marketing jargon",
+        "not a technical protocol/mechanism"
+      ],
+      "one_line_pitch": "A social-first trading app centered on group 'clans' and narrative-based trading.",
+      "website_url": "https://fomo.family/",
+      "twitter_handle": "fomo",
+      "reviewed_at": "2026-10-10T15:02:08.496Z"
+    },
+    {
+      "name": "Ticker Spring",
+      "ticker": "SPRING",
+      "mint": "0x9c07bf461d82e686d94c131cea09fc170aaa7afa",
+      "quality_score": 3,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A multi-purpose DeFi hub combining stock-token vaults, lending, and trading fees with a vague promise of future AI integration.",
+      "red_flags": [
+        "overly broad scope (stocks, lending, and AI in one)",
+        "lacks a specific, concrete mechanism for how 'spring' or 'looping' works"
+      ],
+      "one_line_pitch": "A generic DeFi aggregator attempting to bridge traditional finance (stocks) with crypto-native lending and trading.",
+      "website_url": null,
+      "twitter_handle": "tickerspring",
+      "reviewed_at": "2026-10-10T15:00:32.272Z"
+    },
+    {
+      "name": "Fill",
+      "ticker": "FILL",
+      "mint": "0x4749d321840ada5092313ed3b1970896acd422a1",
+      "quality_score": 1,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A trading directive or utility-token-as-a-button, but lacks any actual underlying mechanism or product description.",
+      "red_flags": [
+        "no mechanism or product described",
+        "purely a trading instruction",
+        "no way to verify if it's a tool or a meme"
+      ],
+      "one_line_pitch": "A generic trading slogan masquerading as a coin, likely a utility token for a future trading bot.",
+      "website_url": "https://www.fills.family",
+      "twitter_handle": "fillsdotfamily",
+      "reviewed_at": "2026-10-10T14:59:57.748Z"
+    },
+    {
+      "name": "Pixeld",
+      "ticker": "PX",
+      "mint": "0x39320fad5a918355af1c5d902306878bb59e5ac0",
+      "quality_score": 1,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "No actual mechanism or product described; uses a word-salad narrative linking GPU agents to a famous brand (Robinhood).",
+      "red_flags": [
+        "purely narrative/meme-based",
+        "lacks any technical mechanism",
+        "brand hijack risk (Robinhood)"
+      ],
+      "one_line_pitch": "A narrative-driven meme claiming a connection between GPU-based agents and the Robinhood ecosystem.",
+      "website_url": "https://pixeld.family",
+      "twitter_handle": "pixeldcompute",
+      "reviewed_at": "2026-10-10T14:57:46.416Z"
+    },
+    {
+      "name": "Bastion Assets",
+      "ticker": "BASTION",
+      "mint": "0xe42b50dde6110e9f01ebfc4bb9e3d3d8364b3043",
+      "quality_score": 2,
+      "is_real_tech": false,
+      "category": "impersonator",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Marketing-heavy way to track income-generating assets on the Robinhood-branded chain.",
+      "red_flags": [
+        "brand hijack risk (Robinhood ecosystem)",
+        "vague utility (token or wrapper or index?)"
+      ],
+      "one_line_pitch": "A way to track and hold basket-style assets on the Robinhood blockchain.",
+      "website_url": "https://www.bastionassets.shop",
+      "twitter_handle": "bastionassets",
+      "reviewed_at": "2026-10-10T14:57:12.085Z"
+    },
+    {
+      "name": "Stoxa",
+      "ticker": "STOXA",
+      "mint": "0x88e396cc03db98a751bea1efd1ff8383a5f1783f",
+      "quality_score": 3,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Uses trading fees to fund a gacha-style reward system for users.",
+      "red_flags": [
+        "vague mechanism",
+        "no clear product or underlying utility beyond fee-redistribution"
+      ],
+      "one_line_pitch": "A fee-driven gacha or loot-box mechanism applied to a tokenized stock-like trading experience.",
+      "website_url": "https://stoxa.trade",
+      "twitter_handle": "stoxacoin",
+      "reviewed_at": "2026-10-10T14:55:32.119Z"
+    },
+    {
+      "name": "Fomo Found",
+      "ticker": "FOMO",
+      "mint": "0x1d1ad2e8b7cddbeaa97396bb9c6ef0e0274c39d9",
+      "quality_score": 1,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A generic token-launchpad-style platform focused on ease-of-use and accessibility for creating new Solana tokens.",
+      "red_flags": [
+        "no specific mechanism, just a generic utility",
+        "high-level marketing jargon",
+        "lacks any way to differentiate from existing launchpads"
+      ],
+      "one_line_pitch": "A generic Solana-based token factory or launchpad with no or little-to-no specialized technical mechanism.",
+      "website_url": "https://fomo.found",
+      "twitter_handle": "fomofound",
+      "reviewed_at": "2026-10-10T14:54:59.489Z"
+    },
+    {
+      "name": "Audun",
+      "ticker": "AUDUN",
+      "mint": "0x3dd1a951edab16ad9541e273b5aa307be2886515",
+      "quality_score": 1,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "No technical mechanism or product mechanism provided; uses vague, person-centric marketing-speak about a workflow or service.",
+      "red_flags": [
+        "no technical mechanism, just a marketing narrative",
+        "vague/generic service-oriented description"
+      ],
+      "one_line_pitch": "A person-centric service or workflow narrative with no underlying technical or protocol-level mechanism.",
+      "website_url": "https://audun.co",
+      "twitter_handle": "audunco",
+      "reviewed_at": "2026-10-10T14:53:51.469Z"
+    },
+    {
+      "name": "Draftor",
+      "ticker": "DRAFTOR",
+      "mint": "0xdc7398ac01fbcb70d9c86ae529e442f9edcbaf1b",
+      "quality_score": 2,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A context-aware coding platform/whiteboard that claims to learn user taste and remember project context.",
+      "red_flags": [
+        "vague/marketing-heavy description",
+        "no concrete technical mechanism provided",
+        "sounds like a standard AI-agent/IDE wrapper"
+      ],
+      "one_line_pitch": "An AI-driven coding assistant or IDE concept focused on context-retention and user preference.",
+      "website_url": null,
+      "twitter_handle": "draftor_ai",
+      "reviewed_at": "2026-10-10T14:52:15.373Z"
+    },
+    {
+      "name": "Hot Bot",
+      "ticker": "HOTBOT",
+      "mint": "0xfe7320ae59b23c036bd9f9bb75b4252caaa745f3",
+      "quality_score": 2,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A suite of specialized trading bots acting as a coordinated team for automated execution.",
+      "red_flags": [
+        "no specific mechanism or protocol logic mentioned, just a functional description",
+        "vague/generic way to describe any trading bot suite"
+      ],
+      "one_line_pitch": "A generic collection of specialized automated trading bots for multi-platform execution.",
+      "website_url": "https://usehotbot.com",
+      "twitter_handle": "usehotbot",
+      "reviewed_at": "2026-10-10T14:51:42.068Z"
+    },
+    {
+      "name": "fomo",
+      "ticker": "FOMO",
+      "mint": "EVtG1uUaVJSAg22VwxEMCLVcMc8CoBnVx4nBWStpump",
+      "quality_score": 1,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "SOLANA",
+      "mechanism_summary": "A social trading app focused on 'clans' and social connectivity rather than a specific protocol-level mechanism.",
+      "red_flags": [
+        "vague mechanism",
+        "purely a way to package social features"
+      ],
+      "one_line_pitch": "A social-first trading app or interface, likely lacking a unique underlying protocol mechanism.",
+      "website_url": "https://fomo.family/",
+      "twitter_handle": "fomo",
+      "reviewed_at": "2026-10-10T14:51:14.230Z"
+    },
+    {
+      "name": "MemePit",
+      "ticker": "MEMEPIT",
+      "mint": "0xbba2db83016f6ad8a61a6b91646971ade50f0477",
+      "quality_score": 1,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Generic social trading narrative with no specific or disclosed technical mechanism or product utility.",
+      "red_flags": [
+        "vague/no mechanism",
+        "generic marketing narrative"
+      ],
+      "one_line_pitch": "A generic social-trading themed meme coin lacking a concrete technical or product-based mechanism.",
+      "website_url": null,
+      "twitter_handle": "pitdotmeme",
+      "reviewed_at": "2026-10-10T14:49:45.620Z"
+    },
+    {
+      "name": "Zentrix gaming",
+      "ticker": "ZENTRIX",
+      "mint": "0x59c30d0507d1359997a398520d5bc3986cb7099e",
+      "quality_score": 1,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Generic 'play-to-earn' gaming ecosystem without any specific or unique protocol-level mechanism mentioned.",
+      "red_flags": [
+        "purely marketing jargon",
+        "no specific technical mechanism described",
+        "extremely generic naming"
+      ],
+      "one_line_pitch": "A generic way-to-earn gaming narrative with no identifiable technical or gameplay-specific mechanism.",
+      "website_url": "https://zentrixgaming.xyz",
+      "twitter_handle": "zentrixgaming_",
+      "reviewed_at": "2026-10-10T14:48:41.906Z"
+    },
+    {
+      "name": "OVOpay",
+      "ticker": "OVO",
+      "mint": "0xbb4a998d7626bbc02f3bbb6dbd4b9f7f5593ea57",
+      "quality_score": 3,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A payment/settlement layer or wallet specialized for AI agent-to-agent or AI-to-user transactions.",
+      "red_flags": [
+        "vague utility",
+        "no clear way to prevent circular logic (payments for calls)"
+      ],
+      "one_line_pitch": "A payment/settlement layer intended for AI agent transaction execution.",
+      "website_url": "https://www.ovopay.fun",
+      "twitter_handle": "ovopaydotfun",
+      "reviewed_at": "2026-10-10T14:47:41.266Z"
+    },
     {
       "name": "Orbancy",
       "ticker": "ORBANCY",
