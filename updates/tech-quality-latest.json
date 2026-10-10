@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T20:04:45.211Z",
+  "generated_at": "2026-10-10T20:20:36.007Z",
   "note": "Quality-reviewed tech coins: passed a local coarse filter (qwen2.5:3b) then a real judgment pass (Haiku) confirming is_real_tech=true. new_idea_suggestions are Haiku-generated, informed by these patterns but NOT copies -- creative seeds for further review, not trading signals.",
   "quality_tech_coins": [
     {
@@ -65443,6 +65443,43 @@
     }
   ],
   "low_quality_tech_coins": [
+    {
+      "name": "EtherStocks",
+      "ticker": "ESTOCKS",
+      "mint": "0xabb9a33ef5400d5539dd299ece35c68cd3ac546d",
+      "quality_score": 3,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A burn-on-activity mechanism tied to social posting/prediction on a specific chain.",
+      "red_flags": [
+        "narrative-heavy, lacks a distinct way to handle prediction-to-burn-ratio",
+        "relies on a specific, potentially non-existent or niche chain (Robinhood Chain)"
+      ],
+      "one_line_pitch": "A social-prediction token where posting content triggers a deflationary burn mechanism.",
+      "website_url": "https://etherstocks.live",
+      "twitter_handle": "tryetherstocks",
+      "reviewed_at": "2026-10-10T20:18:59.186Z"
+    },
+    {
+      "name": "Build Estate",
+      "ticker": "ESTATE",
+      "mint": "0xaa2e837a7232c3fbf1906fef46aaddbc45fee716",
+      "quality_score": 2,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Claims to be an infrastructure layer for real estate, but lacks a specific technical mechanism or enough detail to distinguish it from a simple narrative.",
+      "red_flags": [
+        "vague/generic use of 'infrastructure layer'",
+        "no specific mechanism or product mentioned",
+        "high risk of being a generic real-estate narrative"
+      ],
+      "one_line_pitch": "A generic real-estate themed narrative without a clearly defined technical mechanism.",
+      "website_url": "https://thetruestate.xyz",
+      "twitter_handle": "buildestaterh",
+      "reviewed_at": "2026-10-10T20:18:27.157Z"
+    },
     {
       "name": "Swapee",
       "ticker": "SWAPEE",
