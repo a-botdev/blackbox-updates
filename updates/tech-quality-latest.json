@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T10:04:49.151Z",
+  "generated_at": "2026-10-10T10:24:14.913Z",
   "note": "Quality-reviewed tech coins: passed a local coarse filter (qwen2.5:3b) then a real judgment pass (Haiku) confirming is_real_tech=true. new_idea_suggestions are Haiku-generated, informed by these patterns but NOT copies -- creative seeds for further review, not trading signals.",
   "quality_tech_coins": [
     {
@@ -2278,6 +2278,58 @@
       "website_url": "http://dotnet.land",
       "twitter_handle": "dotnetfund",
       "reviewed_at": "2026-10-03T13:48:57.247Z"
+    },
+    {
+      "name": "TeleMoney Cat",
+      "ticker": "TMCAT",
+      "mint": "4eZj3H1PViW5UqbaFYJPJKotq9CsTZT1Nv7oDwTmpump",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "Automated bridge that converts Solana-based creator fees into GRAM (TON-based) and distributes them directly to any Telegram @username.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "not trustless (operator-managed custodial-style routing)",
+        "relies on external relay or bridge-to-TON"
+      ],
+      "one_line_pitch": "A fee-distribution mechanism that bridges Solana-earned fees directly into Telegram's native TON-based wallet/GRAM.",
+      "website_url": "https://www.telemoney.site/",
+      "twitter_handle": "telemoneysol",
+      "reviewed_at": "2026-10-10T10:24:12.618Z"
+    },
+    {
+      "name": "LATTICE SWAP",
+      "ticker": "LATTICE",
+      "mint": "DDVrTDifUwj3hXresFmgagdpdx4N9Vr1QWsqtdcYpump",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "Cross-chain swap protocol utilizing ML-KEM-768 (post-quantum cryptography) for secure, non-custodial asset transfers across multiple chains.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "high-level claim requiring heavy heavy cryptographic implementation"
+      ],
+      "one_line_pitch": "A post-quantum secure cross-chain swap protocol using ML-KEM-768 key exchange.",
+      "website_url": "https://www.latticeswap.trade/",
+      "twitter_handle": "latticeswap",
+      "reviewed_at": "2026-10-10T10:23:05.067Z"
+    },
+    {
+      "name": "Shrift",
+      "ticker": "SHRIFT",
+      "mint": "0x0a7232f51d04bd858ea21abd4dc4b75ec1be50cf",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A read-only inspection tool for Robinhood Chain that analyzes holder concentration and transfer behavior without requiring wallet signatures.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "narrowly dependent on Robinhood Chain ecosystem"
+      ],
+      "one_line_pitch": "A specialized analytical tool for inspecting Robinhood Chain token distribution and transfer patterns without wallet interaction.",
+      "website_url": "https://shrift.xyz",
+      "twitter_handle": "shriftxyz",
+      "reviewed_at": "2026-10-10T10:18:48.913Z"
     },
     {
       "name": "Stripes",
@@ -18241,6 +18293,24 @@
       "reviewed_at": "2026-10-03T13:13:07.851Z"
     },
     {
+      "name": "glint",
+      "ticker": "glint",
+      "mint": "71LPPVzx9K6wwXTo9ZRWiWTEbY97bJPqFV67L8BTpump",
+      "quality_score": 6,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "Memecoins whose price or trading mechanism is or linked to live commodity market price feeds.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "high-risk way to trade commodities",
+        "no claim on underlying asset, only price-linked"
+      ],
+      "one_line_pitch": "A way to trade commodity-indexed memecoins against SOL using live market price feeds.",
+      "website_url": "https://useglint.fun/",
+      "twitter_handle": "useglint_",
+      "reviewed_at": "2026-10-10T10:22:32.050Z"
+    },
+    {
       "name": "Pitch The Coin",
       "ticker": "Pitch",
       "mint": "Did5eRKHLeryBSbxTHTmTWZoMgYYagbupkfhzfuVpump",
@@ -33686,6 +33756,24 @@
     {
       "name": "HERD",
       "ticker": "HERD",
+      "mint": "6Wp71vdTAtSQc3DNkuuETDdqSZkVhGkr8CoPzGSWpump",
+      "quality_score": 5,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "A launchpad-style protocol where transaction fees from deployed coins are locked on-chain and then redistributed/voted upon by holders.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "no working product, just a landing page",
+        "vague governance/redistribution mechanism"
+      ],
+      "one_line_pitch": "A fee-redistribution launchpad where holders decide how locked fees are distributed among animal-themed coins.",
+      "website_url": "https://deployonherd.fun/",
+      "twitter_handle": "deployonherd",
+      "reviewed_at": "2026-10-10T10:23:36.856Z"
+    },
+    {
+      "name": "HERD",
+      "ticker": "HERD",
       "mint": "9rJBqVpYpZE5pCV12UCxKtTxkeM1Nfg8RHAFErpxpump",
       "quality_score": 5,
       "is_real_tech": true,
@@ -47012,6 +47100,24 @@
       "website_url": null,
       "twitter_handle": null,
       "reviewed_at": "2026-09-30T03:13:31.131Z"
+    },
+    {
+      "name": "Vaulted",
+      "ticker": "Vaulted",
+      "mint": "w37Z4VdHzhEHV4u1b6nzLkNvoyejBMpaFgs7ZSBpump",
+      "quality_score": 4,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "A lending/borrowing protocol or DeFi primitive allowing collateralized debt positions using digital assets.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "extremely generic name",
+        "high competition with existing lending protocols (Aave, Solend)"
+      ],
+      "one_line_pitch": "A standard lending and borrowing protocol built on Solana.",
+      "website_url": "https://vaultedsi.xyz/",
+      "twitter_handle": "vaultedpad",
+      "reviewed_at": "2026-10-10T10:20:54.591Z"
     },
     {
       "name": "Babysitter",
@@ -63020,6 +63126,61 @@
     }
   ],
   "low_quality_tech_coins": [
+    {
+      "name": "DeepTime",
+      "ticker": "DEEPTIME",
+      "mint": "0x135eabec3b2eec641abe994897194a683929cb11",
+      "quality_score": 2,
+      "is_real_tech": false,
+      "category": "impersonator",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Claims to be an enterprise-grade gateway or infrastructure layer for accessing Chinese AI models with hardware-backed security.",
+      "red_flags": [
+        "brand hijack risk (resembles a way to access existing models, not a new model type)",
+        "vague technical mechanism (doesn't explain how it optimizes or secures, just that it does)"
+      ],
+      "one_line_pitch": "An infrastructure play or gateway for accessing secure, enterprise-grade Chinese AI models.",
+      "website_url": "https://deeptimetoken.com/en",
+      "twitter_handle": "deeptimehq",
+      "reviewed_at": "2026-10-10T10:22:00.684Z"
+    },
+    {
+      "name": "Calypto",
+      "ticker": "CALYPTO",
+      "mint": "0x4b721a3cecb14fc78ea4e55961151274a3eb8f81",
+      "quality_score": 2,
+      "is_real_tech": false,
+      "category": "impersonator",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Vague mention of privacy-preserving AI, lacking a specific technical mechanism or way it actually functions.",
+      "red_flags": [
+        "brand hijack risk",
+        "no specific mechanism or product described",
+        "vague marketing jargon"
+      ],
+      "one_line_pitch": "A generic AI-themed privacy narrative lacking a concrete or way-to-verify technical mechanism.",
+      "website_url": null,
+      "twitter_handle": "calypto_privacy",
+      "reviewed_at": "2026-10-10T10:20:24.965Z"
+    },
+    {
+      "name": "Starbucks Corporation",
+      "ticker": "STARBUCKS",
+      "mint": "13PvSV3s9W8kTkX495NwGtGqvSNarUk49PGch7vQpump",
+      "quality_score": 2,
+      "is_real_tech": false,
+      "category": "impersonator",
+      "chain": "SOLANA",
+      "mechanism_summary": "A loyalty-based gamified NFT/point distribution system for an existing real-world brand.",
+      "red_flags": [
+        "brand hijack risk",
+        "no new tech, just a way to tokenize existing loyalty programs"
+      ],
+      "one_line_pitch": "A gamified way to earn digital stamps and waypoints using an existing retail brand's ecosystem.",
+      "website_url": "https://www.instagram.com/Starbucks",
+      "twitter_handle": "starbucks",
+      "reviewed_at": "2026-10-10T10:19:19.884Z"
+    },
     {
       "name": "Qubits",
       "ticker": "QUBITS",
