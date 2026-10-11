@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T01:19:50.624Z",
+  "generated_at": "2026-10-11T01:52:18.369Z",
   "note": "Quality-reviewed tech coins: passed a local coarse filter (qwen2.5:3b) then a real judgment pass (Haiku) confirming is_real_tech=true. new_idea_suggestions are Haiku-generated, informed by these patterns but NOT copies -- creative seeds for further review, not trading signals.",
   "quality_tech_coins": [
     {
@@ -2296,6 +2296,60 @@
       "website_url": "http://dotnet.land",
       "twitter_handle": "dotnetfund",
       "reviewed_at": "2026-10-03T13:48:57.247Z"
+    },
+    {
+      "name": "sweep",
+      "ticker": "sweep",
+      "mint": "HaSxffu6oXffeCxfeV37hfboZWR85gE48Cf62jQepump",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "A memecoin whose trading fees fund a vault that systematically buys the floor of a specific Solana NFT collection.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "no guarantee of floor price protection",
+        "highly dependent on trading volume/fee accumulation"
+      ],
+      "one_line_pitch": "A memecoin-driven way to buy NFT floors via automated, fee-funded vault purchases.",
+      "website_url": "https://sweeppad.com/",
+      "twitter_handle": "sweepfun_",
+      "reviewed_at": "2026-10-11T01:52:12.318Z"
+    },
+    {
+      "name": "boxD",
+      "ticker": "BOXD",
+      "mint": "FkqPxmnvzUkcyt5KkabFYuX4cfj8dpUSVivibk1zboxD",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "Redirects protocol fees into a treasury that purchases physical mystery boxes, which are then distributed via a location-based 'claim a pin' mechanic.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "physical/on-chain bridge requirement",
+        "reliance on heavy treasury/fee-collection, not just token supply"
+      ],
+      "one_line_pitch": "A protocol that uses transaction fees to buy and distribute physical mystery boxes via location-based drops.",
+      "website_url": "https://findboxd.com/",
+      "twitter_handle": "boxdhq",
+      "reviewed_at": "2026-10-11T01:50:50.497Z"
+    },
+    {
+      "name": "Renaissance",
+      "ticker": "RENAISSANC",
+      "mint": "0x04d191c9fa0d11c057c694cc71a3eed3c01369e6",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "AI agents perform on-chain research and scoring of tokenized stocks, using a commit-reveal-style verification (sealed/opened) for certain-execution.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "high-complexity way to handle simple data",
+        "relies on Robinhood Chain ecosystem"
+      ],
+      "one_line_pitch": "An AI-driven research layer for tokenized stocks using on-chain commit-reveal verification.",
+      "website_url": "https://t.co/08xqcrY4IE",
+      "twitter_handle": "renaissancerh",
+      "reviewed_at": "2026-10-11T01:40:36.879Z"
     },
     {
       "name": "Float Protocol",
@@ -19613,6 +19667,59 @@
       "reviewed_at": "2026-10-03T13:13:07.851Z"
     },
     {
+      "name": "PAPERCALL",
+      "ticker": "Papercall",
+      "mint": "HAdMyoZP8qZ9nhUfxawwQUoVTEwLhE9tVaWyoNxtpump",
+      "quality_score": 6,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "AI-driven signal bot that executes scheduled trades; profits redistributed to voters and losses burned.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "no working product, just a landing page/concept",
+        "highly dependent on successful execution/bot accuracy"
+      ],
+      "one_line_pitch": "A scheduled AI trading bot that rewards voters with profit-sharing and burns supply on losses.",
+      "website_url": "https://papercall.fun/",
+      "twitter_handle": "papercall_",
+      "reviewed_at": "2026-10-11T01:51:38.718Z"
+    },
+    {
+      "name": "Leverd Launchpad",
+      "ticker": "Leverd",
+      "mint": "7gWrRx2rgtRGFQddk92ue6AqWCamNMtomjn8EAgSpump",
+      "quality_score": 6,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "A specialized launchpad where new tokens trade against a native reserve/liquidity pool, with fees permanently removed from circulation.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "niche utility (trading against a single pair/reserve)"
+      ],
+      "one_line_pitch": "A launchpad that pairs new tokens against a native reserve to enforce fee-based deflation.",
+      "website_url": "https://leverd.fun",
+      "twitter_handle": "leverdfun",
+      "reviewed_at": "2026-10-11T01:50:26.017Z"
+    },
+    {
+      "name": "GLACIPOP",
+      "ticker": "GLACIPOP",
+      "mint": "0xc7e7cbd05b2da4e642c611ece1b534b030821a3c",
+      "quality_score": 6,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A launchpad where swap fees decay from a high initial value down to a fixed 1% as liquidity or volume increases.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "dependent on Robinhood Chain ecosystem",
+        "high-fee entry may discourage certain trading certain styles"
+      ],
+      "one_line_pitch": "A launchpad featuring a decaying fee-burn or fee-reduction mechanism to incentivize early liquidity provision.",
+      "website_url": null,
+      "twitter_handle": "glacipoplol",
+      "reviewed_at": "2026-10-11T01:43:49.112Z"
+    },
+    {
       "name": "REPLICANTS",
       "ticker": "REPLICA",
       "mint": "0x394986d7bba84cbcdefba4045cfbae877410d6b2",
@@ -36282,6 +36389,24 @@
       "website_url": "https://posynt.win/",
       "twitter_handle": "posynt_sol",
       "reviewed_at": "2026-10-03T13:48:57.246Z"
+    },
+    {
+      "name": "flowroute",
+      "ticker": "FLW",
+      "mint": "0x80ac26b32ba3576c017530103fd1279878415950",
+      "quality_score": 5,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A routing/aggregation tool that visualizes and compares multi-hop swap paths on the Robinhood Chain.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "niche-specific (Robinhood Chain dependency)",
+        "high competition from established aggregators"
+      ],
+      "one_line_pitch": "A swap routing/aggregation utility specifically for the Robinhood Chain ecosystem.",
+      "website_url": null,
+      "twitter_handle": "flowrouteapp",
+      "reviewed_at": "2026-10-11T01:50:01.384Z"
     },
     {
       "name": "Squirrel Vault",
@@ -66434,6 +66559,154 @@
     }
   ],
   "low_quality_tech_coins": [
+    {
+      "name": "Crew10",
+      "ticker": "CREW10",
+      "mint": "0x47fd5f4ff4f80b9526664b1b0012ddf541ce49f8",
+      "quality_score": 2,
+      "is_real_tech": false,
+      "category": "impersonator",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A trading bot using xAI's Grok or Robinhood-related logic to execute trades on a centralized exchange (Robinhood).",
+      "red_flags": [
+        "brand hijack risk (Grok/Robinhood)",
+        "no new protocol-level mechanism, just an application of existing tools"
+      ],
+      "one_line_pitch": "A bot-driven way to trade existing assets using a specific LLM or platform interface.",
+      "website_url": null,
+      "twitter_handle": "88n77n",
+      "reviewed_at": "2026-10-11T01:44:25.557Z"
+    },
+    {
+      "name": "The Regulars",
+      "ticker": "THE",
+      "mint": "0x7fcf2b55d77113c4f503c5c1c407dbd5f6e0eab2",
+      "quality_score": 2,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A fixed-supply NFT collection acting as a membership key or access token.",
+      "red_flags": [
+        "no actual utility mechanism described",
+        "standard NFT collection pattern",
+        "generic access-token narrative"
+      ],
+      "one_line_pitch": "A standard way-to-access NFT collection with no specific functional or technical innovation.",
+      "website_url": "https://t.co/hRygclFc09",
+      "twitter_handle": "theregularsfun",
+      "reviewed_at": "2026-10-11T01:43:17.560Z"
+    },
+    {
+      "name": "Arrow Finance",
+      "ticker": "Arrow",
+      "mint": "Di991tp3RxC2jy8Ts1nHj869P3e3Br6MqK5ihvipump",
+      "quality_score": 2,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "SOLANA",
+      "mechanism_summary": "Generic name suggesting a DeFi or lending protocol without any specified mechanism or product utility provided.",
+      "red_flags": [
+        "no mechanism or product described",
+        "generic name likely a way-too-broad DeFi label"
+      ],
+      "one_line_pitch": "A generic DeFi-style name lacking any concrete or way-to-differentiate technical mechanism.",
+      "website_url": "https://arrowfinance.io/",
+      "twitter_handle": "arrowfinance_io",
+      "reviewed_at": "2026-10-11T01:42:45.524Z"
+    },
+    {
+      "name": "Crew10",
+      "ticker": "CREW10",
+      "mint": "0x511f45e892c30ad0e9d54a28b4e588ddc2c6caac",
+      "quality_score": 2,
+      "is_real_tech": false,
+      "category": "impersonator",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "An automated trading bot using xAI's Grok LLM to execute trades on the Robinhood platform.",
+      "red_flags": [
+        "brand hijack risk (Grok/Robinhood)",
+        "no way to verify if LLM-logic or execution or even the bot exists or if it's just a narrative"
+      ],
+      "one_line_pitch": "A narrative-driven bot using Grok AI to trade assets on Robinhood.",
+      "website_url": null,
+      "twitter_handle": "crptatlas",
+      "reviewed_at": "2026-10-11T01:42:13.300Z"
+    },
+    {
+      "name": "Instinct AI",
+      "ticker": "Instinct",
+      "mint": "kLcm4N2Cvcu7spqW3a9pNpVpd9scDdcAQsALF2Kpump",
+      "quality_score": 1,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "SOLANA",
+      "mechanism_summary": "No mechanism provided; relies on a generic 'speed' marketing narrative common to any AI-themed ticker.",
+      "red_flags": [
+        "no actual mechanism or product described",
+        "purely marketing-driven narrative",
+        "generic AI branding"
+      ],
+      "one_line_pitch": "A generic AI-themed meme relying on speed-based marketing rather than a specific technical mechanism.",
+      "website_url": "https://instinct.com/",
+      "twitter_handle": "noahrshinn",
+      "reviewed_at": "2026-10-11T01:41:39.619Z"
+    },
+    {
+      "name": "Google Gemini",
+      "ticker": "Gemini",
+      "mint": "EhbgEdbTAqHFwkk3jWqRVv3GgzhmdDtYHn87wvCBpump",
+      "quality_score": 0,
+      "is_real_tech": false,
+      "category": "impersonator",
+      "chain": "SOLANA",
+      "mechanism_summary": "Attempting to use the name of Google's existing LLM/AI brand.",
+      "red_flags": [
+        "brand hijack risk",
+        "zero mechanism provided",
+        "high risk of being a generic waymark or fan-token"
+      ],
+      "one_line_pitch": "A waymark coin riding the brand recognition of Google's Gemini AI.",
+      "website_url": "https://gemini.google.com/app",
+      "twitter_handle": "geminiapp",
+      "reviewed_at": "2026-10-11T01:41:07.674Z"
+    },
+    {
+      "name": "Quoro Exchange",
+      "ticker": "QUORO",
+      "mint": "0x038f07613f5df6e8a160141ea545486a22f3d884",
+      "quality_score": 3,
+      "is_real_tech": false,
+      "category": "impersonator",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Claims to use AI-driven token auditing and routing via existing protocols (Lifi/Relay) on the Robinhood ecosystem.",
+      "red_flags": [
+        "brand hijack risk (Robinhood/AI)",
+        "relies on existing infrastructure (Lifi/Reland) rather than a new mechanism"
+      ],
+      "one_line_pitch": "An AI-driven aggregator/auditor for the Robinhood Chain ecosystem using existing cross-chain or routing protocols.",
+      "website_url": null,
+      "twitter_handle": "quoroexchange",
+      "reviewed_at": "2026-10-11T01:40:03.989Z"
+    },
+    {
+      "name": "NEST",
+      "ticker": "NEST",
+      "mint": "0x11a9ef9b038d94cb95555dd45e4bc117fb3589b3",
+      "quality_score": 2,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A narrative-driven project about an AI colony on Robinhood Chain; no specific technical mechanism or product or utility provided.",
+      "red_flags": [
+        "purely narrative/social construct",
+        "no technical mechanism or utility described",
+        "relies on existing brand (Robinhood)"
+      ],
+      "one_line_pitch": "A narrative-based AI colony project built on the Robinhood blockchain.",
+      "website_url": null,
+      "twitter_handle": "nestworldrh",
+      "reviewed_at": "2026-10-11T01:39:25.728Z"
+    },
     {
       "name": "getqubitfun",
       "ticker": "QUBIT",
