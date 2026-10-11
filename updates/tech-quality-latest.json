@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T04:07:36.988Z",
+  "generated_at": "2026-10-11T04:22:43.290Z",
   "note": "Quality-reviewed tech coins: passed a local coarse filter (qwen2.5:3b) then a real judgment pass (Haiku) confirming is_real_tech=true. new_idea_suggestions are Haiku-generated, informed by these patterns but NOT copies -- creative seeds for further review, not trading signals.",
   "quality_tech_coins": [
     {
@@ -19821,6 +19821,59 @@
       "website_url": "https://rippers.fun/",
       "twitter_handle": "rippersdotfun",
       "reviewed_at": "2026-10-03T13:13:07.851Z"
+    },
+    {
+      "name": "Orbio Royalty",
+      "ticker": "ROYAL",
+      "mint": "0x0e7abb8183bdc794716cb16c9bba27cef48a9725",
+      "quality_score": 6,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Transaction fees from a secondary token (PONS) are redistributed or 'drip-fed' to $ROYAL holders via an automated agent-selected selection process.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "dependency on external token (PONS)",
+        "unclear way 'agent' selects stocks"
+      ],
+      "one_line_pitch": "A redistribution mechanism that converts trading fees from another protocol into a daily drip for holders.",
+      "website_url": null,
+      "twitter_handle": "royaltyorbio",
+      "reviewed_at": "2026-10-11T04:22:36.640Z"
+    },
+    {
+      "name": "Orbio Royalty",
+      "ticker": "ROYAL",
+      "mint": "0x41e5e0861cd652d3e11d2437206f44a29822c923",
+      "quality_score": 6,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Uses a trade-based royalty redistribution mechanism where fees are distributed as certain 'stocks' or assets, managed by an automated agent.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "dependency on 'pons' ecosystem",
+        "vague 'orbio agent' implementation"
+      ],
+      "one_line_pitch": "A trade-fee redistribution protocol that certainly certain assets back to holders via an automated agent.",
+      "website_url": null,
+      "twitter_handle": "royaltyorbio",
+      "reviewed_at": "2026-10-11T04:22:00.925Z"
+    },
+    {
+      "name": "Fantastic Five",
+      "ticker": "FIVE",
+      "mint": "0xa2fd8cf2ccecf8832090ddf923fecd2c2e5c6853",
+      "quality_score": 6,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Uses a multi-agent AI system to scan, score, and execute trades on the Robinhood blockchain.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "heavy reliance on underlying chain or orbio infrastructure"
+      ],
+      "one_line_pitch": "Multi-agent AI trading botset designed to automate token discovery and execution on Robinhood Chain.",
+      "website_url": "https://t.co/a2eSOTFFgo",
+      "twitter_handle": "5antastic5ive",
+      "reviewed_at": "2026-10-11T04:20:56.349Z"
     },
     {
       "name": "receipts",
@@ -66982,6 +67035,25 @@
     }
   ],
   "low_quality_tech_coins": [
+    {
+      "name": "Universal Subspace",
+      "ticker": "US",
+      "mint": "CL7kPTsf8befWJvEwY3AoGAgoDG583yBgN3fo792nGNh",
+      "quality_score": 2,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "SOLANA",
+      "mechanism_summary": "Generic way-too-vague name suggesting a way or space, but lacks any concrete technical or functional description.",
+      "red_flags": [
+        "no mechanism described",
+        "vague/empty description",
+        "sounds like generic way/space way-mkt jargon"
+      ],
+      "one_line_pitch": "A generic, empty-description name likely lacking any specific or functional mechanism.",
+      "website_url": "https://github.com/toshi2k2/unisub/tree/main",
+      "twitter_handle": "texashedge17154",
+      "reviewed_at": "2026-10-11T04:20:25.396Z"
+    },
     {
       "name": "DeepSeek",
       "ticker": "DeepSeek",
