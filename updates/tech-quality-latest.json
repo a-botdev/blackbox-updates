@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T23:48:31.014Z",
+  "generated_at": "2026-10-11T00:06:25.878Z",
   "note": "Quality-reviewed tech coins: passed a local coarse filter (qwen2.5:3b) then a real judgment pass (Haiku) confirming is_real_tech=true. new_idea_suggestions are Haiku-generated, informed by these patterns but NOT copies -- creative seeds for further review, not trading signals.",
   "quality_tech_coins": [
     {
@@ -2296,6 +2296,24 @@
       "website_url": "http://dotnet.land",
       "twitter_handle": "dotnetfund",
       "reviewed_at": "2026-10-03T13:48:57.247Z"
+    },
+    {
+      "name": "Move Pad",
+      "ticker": "MOVE",
+      "mint": "cczvsdzCGWGa7yxTsHGQsbmhoQ8Sy1BfGMf9Hgipump",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "Uses Strava API or fitness data to distribute transaction fees to the user with the highest physical distance/activity.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "requires external or oracles-like data (Strava) to function",
+        "payouts depend on external user-side activity"
+      ],
+      "one_line_pitch": "A way-to-earn or way-to-move protocol that distributes fees to the most active person on Strava.",
+      "website_url": "https://movepad.fun/",
+      "twitter_handle": "movepadfun",
+      "reviewed_at": "2026-10-11T00:05:53.567Z"
     },
     {
       "name": "Flybot",
