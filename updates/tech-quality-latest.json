@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T05:20:04.261Z",
+  "generated_at": "2026-10-11T05:36:27.292Z",
   "note": "Quality-reviewed tech coins: passed a local coarse filter (qwen2.5:3b) then a real judgment pass (Haiku) confirming is_real_tech=true. new_idea_suggestions are Haiku-generated, informed by these patterns but NOT copies -- creative seeds for further review, not trading signals.",
   "quality_tech_coins": [
     {
@@ -2296,6 +2296,24 @@
       "website_url": "http://dotnet.land",
       "twitter_handle": "dotnetfund",
       "reviewed_at": "2026-10-03T13:48:57.247Z"
+    },
+    {
+      "name": "Loord",
+      "ticker": "LOORD",
+      "mint": "Bf5fV44yesDZej7cxmwhCUCncWDETbbtSacR8otMpump",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "Programmable AMM pools with pluggable hooks; users wire custom rules for trades, deposits, fees.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "Contract address pending, no live product",
+        "Landing page mockup only"
+      ],
+      "one_line_pitch": "Customizable AMM with pluggable hooks for rule-based liquidity.",
+      "website_url": "https://loord.fun/",
+      "twitter_handle": "loord_fun",
+      "reviewed_at": "2026-10-11T05:29:58.416Z"
     },
     {
       "name": "Geery",
@@ -19987,6 +20005,44 @@
       "reviewed_at": "2026-10-03T13:13:07.851Z"
     },
     {
+      "name": "Vectr",
+      "ticker": "VECTR",
+      "mint": "0x015c83a1f0ea80cc5a5a6c99bbc340e78862c2dd",
+      "quality_score": 6,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Token launchpad on Robinhood Chain where creator fees fund AI agents' inference compute.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "launchpad + AI combination is becoming routine (not novel)",
+        "Robinhood Chain is emerging/unproven as a venue",
+        "no working product/contract evidence provided"
+      ],
+      "one_line_pitch": "Launchpad on Robinhood Chain linking token creator fees to AI-agent inference funding.",
+      "website_url": "https://vectr.bot",
+      "twitter_handle": "vectrbot",
+      "reviewed_at": "2026-10-11T05:29:00.437Z"
+    },
+    {
+      "name": "Robit",
+      "ticker": "ROBIT",
+      "mint": "0x1fc7f09ac82b6442e00a6475c5ac24cebdeba824",
+      "quality_score": 6,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Simulation and evaluation infrastructure for robotics AI model testing",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "address format is Ethereum (0x), not Solana",
+        "description truncated",
+        "data integrity issue: address mismatch suggests mislabeling"
+      ],
+      "one_line_pitch": "Robotics AI simulation/evaluation platform, but address format wrong",
+      "website_url": "https://robit.sh",
+      "twitter_handle": "robitagi",
+      "reviewed_at": "2026-10-11T05:28:07.363Z"
+    },
+    {
       "name": "Kite Runner",
       "ticker": "KITE",
       "mint": "0x2637a9253171d9bf581db31deb30660e38089797",
@@ -37096,6 +37152,81 @@
       "reviewed_at": "2026-10-03T13:48:57.246Z"
     },
     {
+      "name": "RPC",
+      "ticker": "RPC",
+      "mint": "Bb9mTop1po3gp38Age4oEvCLkL43vMBdzgHGrajWpump",
+      "quality_score": 5,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "Hold token, receive share of Solana RPC-endpoint provider revenue in SOL or credits.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "product maturity unclear",
+        "old account (May 2022) with vague recent posts",
+        "no working demo shown",
+        "RPC revenue model scalability questionable"
+      ],
+      "one_line_pitch": "Token claiming to distribute Solana RPC-provider fees to holders.",
+      "website_url": "https://holdrpc.lol/",
+      "twitter_handle": "holdrpc",
+      "reviewed_at": "2026-10-11T05:34:42.742Z"
+    },
+    {
+      "name": "Ponlink",
+      "ticker": "PONLINK",
+      "mint": "0x2040e2b8edf9c5746d28d54528b2c971f699ead6",
+      "quality_score": 5,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Pay for AI-model access on Robinhood Chain; token holders receive cashback revenue share.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "no working product demo visible",
+        "landing-page pitch only",
+        "Robinhood Chain is unproven execution risk"
+      ],
+      "one_line_pitch": "AI-model cashback marketplace on Robinhood Chain with token revenue share.",
+      "website_url": null,
+      "twitter_handle": "ponlinkcash",
+      "reviewed_at": "2026-10-11T05:34:42.740Z"
+    },
+    {
+      "name": "Falcon Execution Network",
+      "ticker": "FALNX",
+      "mint": "0x88c62ebdb53f539a6a347ab4a00c8297e7f26730",
+      "quality_score": 5,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Trading toolkit for comparing execution routes, estimating slippage, and configuring user-defined order conditions.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "Description truncated",
+        "Highly derivative of existing DEX aggregators (1inch, Jupiter, Solend)"
+      ],
+      "one_line_pitch": "Execution comparison and slippage estimation; overdone by many platforms.",
+      "website_url": null,
+      "twitter_handle": null,
+      "reviewed_at": "2026-10-11T05:33:05.352Z"
+    },
+    {
+      "name": "DayBrush",
+      "ticker": "DBRUSH",
+      "mint": "0x1f1bd4be71854167af7e4ef456889a0c5a5a5722",
+      "quality_score": 5,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Daily-refilling pixel drawing allowance tied to brush token ownership",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "no working product link provided",
+        "daily stamina mechanic is well-trodden (Reddit /r/Place precedent)"
+      ],
+      "one_line_pitch": "Pixel drawing game with daily stamina refill; /r/Place variant.",
+      "website_url": "https://daybrush.xyz",
+      "twitter_handle": "daybrushxyz",
+      "reviewed_at": "2026-10-11T05:32:54.816Z"
+    },
+    {
       "name": "Ascend",
       "ticker": "ASCEND",
       "mint": "0x6021438889a521ebdfc778f27880b8e2d908355e",
@@ -51312,6 +51443,66 @@
       "reviewed_at": "2026-09-30T03:13:31.131Z"
     },
     {
+      "name": "ASCEND",
+      "ticker": "ASCEND",
+      "mint": "0xee2c1dd93a7e617b7de46b66d2b14a20d2db5aaa",
+      "quality_score": 4,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Bonding-curve token launchpad on Starknet that graduates tokens to Ekubo Protocol DEX.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "product maturity unclear",
+        "minimal X presence (1 post)",
+        "bonding-curve launchpads are saturated pattern",
+        "Starknet/Ekubo are emerging execution risk"
+      ],
+      "one_line_pitch": "Bonding-curve launchpad on Starknet migrating to Ekubo DEX.",
+      "website_url": "https://useascend.xyz",
+      "twitter_handle": "useascendxyz",
+      "reviewed_at": "2026-10-11T05:34:42.743Z"
+    },
+    {
+      "name": "VAHANA",
+      "ticker": "VAHANA",
+      "mint": "0xac279ac7c6cba2b07010c26f2766674485c47fba",
+      "quality_score": 4,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Multi-chain token launchpad enabling token launches and cross-chain building",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "extremely vague description",
+        "no evidence of working product",
+        "no Twitter/community links provided",
+        "generic Web3 buzzwords",
+        "similar to existing launchpad projects (PadSwap, Mavaswap)"
+      ],
+      "one_line_pitch": "Generic multi-chain launchpad claim; no evidence of differentiation or functionality.",
+      "website_url": null,
+      "twitter_handle": "vahanalaunchpad",
+      "reviewed_at": "2026-10-11T05:33:39.433Z"
+    },
+    {
+      "name": "Still Labs",
+      "ticker": "DOCTOR",
+      "mint": "6QhRzyZawWMEDCb73sFh6ULetkGZFNgxPcVJUKG1pump",
+      "quality_score": 4,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "Creator trading fees pooled and claimable via UsePaid platform.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "uses existing UsePaid platform, not novel mechanism",
+        "creator fee redistribution is overdone pattern",
+        "low differentiation from standard fee-sharing coins"
+      ],
+      "one_line_pitch": "Token routing creator fees through UsePaid platform.",
+      "website_url": "https://usepaid.app/token/6QhRzyZawWMEDCb73sFh6ULetkGZFNgxPcVJUKG1pump",
+      "twitter_handle": "g3msdev",
+      "reviewed_at": "2026-10-11T05:31:06.642Z"
+    },
+    {
       "name": "Papertrade",
       "ticker": "PAPER",
       "mint": "0xb84b9a5e64d86da0700e5b4b7b4bc62d5492fa73",
@@ -61292,6 +61483,44 @@
       "reviewed_at": "2026-09-30T03:14:54.643Z"
     },
     {
+      "name": "Never Kill Yourself",
+      "ticker": "NEVER",
+      "mint": "32DXeVRwNga8H4oh8mtbU5eKFjN4y23JVFZfccWWpump",
+      "quality_score": 3,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "Mental health awareness coin with fees directed to Mental Health America of Ohio.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "Unverified charity claim (no independent confirmation from MHA Ohio)",
+        "Generic fee-sharing model; charity coins are ubiquitous",
+        "Success entirely dependent on single KOL credibility"
+      ],
+      "one_line_pitch": "Charity coin for mental health; completely derivative model.",
+      "website_url": "https://x.com/Devorskiiiiii/status/2108809870216433739",
+      "twitter_handle": "igetsjiggy6767",
+      "reviewed_at": "2026-10-11T05:30:37.123Z"
+    },
+    {
+      "name": "sweatshop",
+      "ticker": "sweatshop",
+      "mint": "4eLwFqQKxqqY84nnmwiexfbPq5k5XavwjaMmQhtupump",
+      "quality_score": 3,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "Solana token launcher with optional X/Twitter API integration for auto-posting.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "Heavily derivative of Pump.fun, PumpPortal, and existing launchers",
+        "No meaningful differentiation from established competitors",
+        "Basic feature set"
+      ],
+      "one_line_pitch": "Token launcher with X API—standard, derivative, no novel angle.",
+      "website_url": "https://sweatshop.wtf/",
+      "twitter_handle": "sweatshoppf",
+      "reviewed_at": "2026-10-11T05:30:37.120Z"
+    },
+    {
       "name": "Mind",
       "ticker": "MIND",
       "mint": "0xe8b910d00b1f3896735b1f7e0b6b99585f194496",
@@ -68066,6 +68295,2077 @@
     }
   ],
   "low_quality_tech_coins": [
+    {
+      "name": "Luna",
+      "ticker": "LUNA",
+      "mint": "CCbvaZJ9PprzAvxy1DkBRaNRANd7Vz5sG6MuXiD3pump",
+      "quality_score": 0,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "SOLANA",
+      "mechanism_summary": "No mechanism; personal tribute/fan token where creator collects trading fees from holders.",
+      "red_flags": [
+        "No product mechanism or innovation",
+        "Empty description field",
+        "Possible brand confusion (Luna/Terra Luna association)",
+        "Purely personal fee extraction, no value proposition"
+      ],
+      "one_line_pitch": "Personal tribute token where creator extracts trading fees.",
+      "website_url": "https://github.com/NatalieGX/Luna",
+      "twitter_handle": "natdotgx",
+      "reviewed_at": "2026-10-11T05:36:24.035Z"
+    },
+    {
+      "name": "The Cartel Monkey",
+      "ticker": "DIABLO",
+      "mint": "DVbQUiudHDMeZWknSyA6AWMzJceCgViE8pMTn8Yrpump",
+      "quality_score": 0,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "SOLANA",
+      "mechanism_summary": "No mechanism; pure narrative meme based on story of cartel boss's monkey with bulletproof vest.",
+      "red_flags": [
+        "Zero mechanism or product described",
+        "Racial slur in Twitter bio (\"NIGG\")",
+        "Violent/illegal content (cartel torture narrative)",
+        "Pure narrative meme with no innovation"
+      ],
+      "one_line_pitch": "Violent cartel narrative meme with offensive content, no mechanism.",
+      "website_url": "https://59mi.com/story/police-raid-on-sinaloa-cartel-boss",
+      "twitter_handle": "reportadoo",
+      "reviewed_at": "2026-10-11T05:36:24.034Z"
+    },
+    {
+      "name": "My Pronouns are High/er",
+      "ticker": "Higher",
+      "mint": "H2uVwwrm4jYZ2iMGKXjCRCSEeyTvwqM1Mt5a7iS7pump",
+      "quality_score": 1,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "SOLANA",
+      "mechanism_summary": "No mechanism; narrative-driven meme tied to coming-out-day theme; launched by dev claiming past profitable calls.",
+      "red_flags": [
+        "No product or mechanism described",
+        "Identity/narrative meme, not technology",
+        "Relies on developer's past call claims (unverifiable, irrelevant to token mechanics)",
+        "Pure hype/personality-driven, no innovation"
+      ],
+      "one_line_pitch": "Identity-narrative meme leveraging developer clout and coming-out day.",
+      "website_url": null,
+      "twitter_handle": "briann1312",
+      "reviewed_at": "2026-10-11T05:36:24.033Z"
+    },
+    {
+      "name": "NASDRUG",
+      "ticker": "NASDRUG",
+      "mint": "0x0f0c8db2c61cf692c04c635d884e7bcf3422ec1d",
+      "quality_score": 2,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Slogan \"Where Nasdaq Meets Pharma\"; no mechanism specified, vague reference to undefined \"Nasdaq technology.\"",
+      "red_flags": [
+        "Mechanism is only a marketing slogan, no technical content",
+        "Not verified account",
+        "Minimal activity (2 posts, Oct 2026)",
+        "No explanation of what 'Nasdaq technology' means in token context"
+      ],
+      "one_line_pitch": "Marketing slogan combining Nasdaq and pharma, no mechanism.",
+      "website_url": null,
+      "twitter_handle": "nasdrug",
+      "reviewed_at": "2026-10-11T05:36:24.032Z"
+    },
+    {
+      "name": "Frank Ashford",
+      "ticker": "FRANK",
+      "mint": "0xb5a45e7dc1cf38ab7c0ff2cbc25a54ee4a0ab562",
+      "quality_score": 0,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "No mechanism described; pure hype narrative from persona \"Frank Ashford\" with motivational posts.",
+      "red_flags": [
+        "Empty description field",
+        "Zero product or mechanism described",
+        "Only motivational/hype posts, no substance",
+        "Likely bot account (152 posts in ~10 days)"
+      ],
+      "one_line_pitch": "Personality hype meme, no product mechanism whatsoever.",
+      "website_url": null,
+      "twitter_handle": "frankdeg0dsai",
+      "reviewed_at": "2026-10-11T05:36:24.031Z"
+    },
+    {
+      "name": "Noon",
+      "ticker": "NOON",
+      "mint": "0xced558c02982be8285f272d0cde250026376e5b2",
+      "quality_score": 4,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Yield-bearing stablecoin claiming 7.5% APY and safety; yield generation mechanism not explained.",
+      "red_flags": [
+        "Not a Solana/Pump.fun token (Ethereum mint format)",
+        "Contradictory safety vs. high-yield positioning",
+        "Yield generation mechanism and risk sources not disclosed",
+        "Despite real TVL, mechanism details absent from social posts"
+      ],
+      "one_line_pitch": "Yield-bearing stablecoin; mechanism and risk model unexplained.",
+      "website_url": "https://app.noon.capital",
+      "twitter_handle": "noon_capital",
+      "reviewed_at": "2026-10-11T05:36:24.029Z"
+    },
+    {
+      "name": "qSHIELD",
+      "ticker": "QSHIELD",
+      "mint": "FBHfqomnTJvt7dCrRDAzGhe9qAfVwH74m8Diw2y8pump",
+      "quality_score": 3,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "SOLANA",
+      "mechanism_summary": "Post-quantum security layer for Solana with threat scanning and automated vaults; integration method unexplained.",
+      "red_flags": [
+        "Vague mechanism, no technical architecture",
+        "Post-quantum cryptography application to Solana not detailed",
+        "Very new account (Oct 2026, 3 posts)",
+        "Features listed as buzzwords without explanation"
+      ],
+      "one_line_pitch": "Post-quantum security layer for Solana, mechanism unclear.",
+      "website_url": "https://www.qshield.online/",
+      "twitter_handle": "qshieldonline",
+      "reviewed_at": "2026-10-11T05:36:24.028Z"
+    },
+    {
+      "name": "Qube",
+      "ticker": "QUBE",
+      "mint": "BhbX78F3JprMLisoUau5zngwV6P2nFxZxwPFJoiipump",
+      "quality_score": 2,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "SOLANA",
+      "mechanism_summary": "Claims quantum computation on-chain powered by IBM quantum hardware; no technical implementation details.",
+      "red_flags": [
+        "Quantum hardware cannot meaningfully integrate with blockchain",
+        "Zero technical architecture described",
+        "Very new account (Oct 2026, 5 posts only)",
+        "IBM quantum claim unsubstantiated"
+      ],
+      "one_line_pitch": "Quantum computing on-chain via IBM (technically implausible).",
+      "website_url": "https://qubetek.fun/",
+      "twitter_handle": "qubepf",
+      "reviewed_at": "2026-10-11T05:36:23.999Z"
+    },
+    {
+      "name": "Qube",
+      "ticker": "QUBE",
+      "mint": "0xf267b306b7be2405d2ff95a2a05469c84427ea16",
+      "quality_score": 2,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Vague claim of quantum computation on-chain, alleged IBM partnership, no mechanism or product.",
+      "red_flags": [
+        "IBM quantum claim is likely misleading/unsubstantiated",
+        "quantum-on-chain is implausible without technical detail",
+        "no actual mechanism described",
+        "Discord launch only",
+        "DEX PAID suggests low effort"
+      ],
+      "one_line_pitch": "Quantum-hype coin claiming IBM partnership without substantiation.",
+      "website_url": "https://qubetek.fun",
+      "twitter_handle": "qubepf",
+      "reviewed_at": "2026-10-11T05:34:42.745Z"
+    },
+    {
+      "name": "SWIFT",
+      "ticker": "SWIFT",
+      "mint": "0x2104014798798dba7b0b11d7b5ae2a724e5876d3",
+      "quality_score": 1,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Brand/aesthetic token on Robinhood Chain with pop-art branding and form-based launch.",
+      "red_flags": [
+        "no mechanism described",
+        "pure brand/aesthetic narrative",
+        "form/landing page only, no product",
+        "no technical substance"
+      ],
+      "one_line_pitch": "Art/pop-culture brand token with no mechanism or product.",
+      "website_url": "https://swiftofficial.com",
+      "twitter_handle": "swiftofficialll",
+      "reviewed_at": "2026-10-11T05:34:42.744Z"
+    },
+    {
+      "name": "FUCK_AGENCY_PAD®",
+      "ticker": "FAP®",
+      "mint": "EM2JswdmLomAKPXhJPRBwdTX11z57MCmx8E3Yfu7pump",
+      "quality_score": 1,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "SOLANA",
+      "mechanism_summary": "Vague mention of 'FAP agents for you and your frens', zero mechanism details provided.",
+      "red_flags": [
+        "no mechanism described",
+        "zero X posts despite verified account",
+        "only external ref is .blog (no live product)",
+        "placeholder-like setup"
+      ],
+      "one_line_pitch": "Vague 'agents' claim with no product, mechanism, or launch details.",
+      "website_url": "https://fagencypad.blog/",
+      "twitter_handle": "fagencypad",
+      "reviewed_at": "2026-10-11T05:34:42.743Z"
+    },
+    {
+      "name": "NASDRUG",
+      "ticker": "NASDRUG",
+      "mint": "0xdd4810e6462823e3483c904a776819fc60091f75",
+      "quality_score": 2,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Vague claim of 'settlement layer' for biotech/pharma research, mechanism unexplained.",
+      "red_flags": [
+        "vague/no concrete mechanism explained",
+        "brand-confusion risk (Nasdaq)",
+        "not X-verified",
+        "generic marketing language only",
+        "no product demo"
+      ],
+      "one_line_pitch": "Vague biotech settlement-layer claim with heavy branding, no substance.",
+      "website_url": "https://nasdrug.io",
+      "twitter_handle": "nasdrug",
+      "reviewed_at": "2026-10-11T05:34:42.741Z"
+    },
+    {
+      "name": "Rex",
+      "ticker": "REX",
+      "mint": "HQ5mTvPejomZ1VPrVBBAHC75CSVZUzAJMnmAK7n8pump",
+      "quality_score": 1,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "SOLANA",
+      "mechanism_summary": "Meme coin based on a viral squirrel Instagram/TikTok personality.",
+      "red_flags": [
+        "no mechanism described",
+        "pure narrative-driven meme",
+        "character/persona only"
+      ],
+      "one_line_pitch": "Viral squirrel meme coin, no product or mechanism.",
+      "website_url": "https://www.instagram.com/squirrelnamedrex?psln=b3ozb2pyNjhvOWVi",
+      "twitter_handle": "thesquirrelrex",
+      "reviewed_at": "2026-10-11T05:34:42.720Z"
+    },
+    {
+      "name": "DFROG",
+      "ticker": "DFROG",
+      "mint": "0xb1c0efc762de8d978d699555133087bc5e8d534b",
+      "quality_score": 0,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Frog-themed meme coin where description is literally just the ticker, no mechanism",
+      "red_flags": [
+        "description is just the ticker repeated",
+        "no additional information",
+        "appears to be stub/placeholder",
+        "no mechanism"
+      ],
+      "one_line_pitch": "Frog meme coin with no information or technology whatsoever.",
+      "website_url": null,
+      "twitter_handle": "dfrog",
+      "reviewed_at": "2026-10-11T05:33:39.432Z"
+    },
+    {
+      "name": "Mallard Coin",
+      "ticker": "Mallard",
+      "mint": "AaCF2NpeGGFewT5gEWsXY2cnyGcznKYEgRz1pQLZpump",
+      "quality_score": 0,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "SOLANA",
+      "mechanism_summary": "Duck-themed meme coin with empty description and no information",
+      "red_flags": [
+        "empty description field",
+        "no Twitter or web presence provided",
+        "no mechanism",
+        "appears to be placeholder"
+      ],
+      "one_line_pitch": "Mallard meme coin with zero information or mechanism.",
+      "website_url": "https://github.com/Able2c",
+      "twitter_handle": "ddddddd8a",
+      "reviewed_at": "2026-10-11T05:33:39.431Z"
+    },
+    {
+      "name": "CREPE",
+      "ticker": "CREPE",
+      "mint": "0x1f9176e1211540b32160d3d5d357d329e17a8648",
+      "quality_score": 1,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Pancake-themed meme on BNB Chain with no mechanism, sentiment-only marketing",
+      "red_flags": [
+        "no mechanism described",
+        "claims 'most potential' without justification",
+        "purely sentiment marketing",
+        "unverified",
+        "on BNB Chain, not Solana"
+      ],
+      "one_line_pitch": "BNB pancake meme coin with no technology or differentiation.",
+      "website_url": "https://crepe.fun",
+      "twitter_handle": "crepe_bsc",
+      "reviewed_at": "2026-10-11T05:33:39.430Z"
+    },
+    {
+      "name": "404",
+      "ticker": "404",
+      "mint": "0x9a412d6c06c3c5edca5dd54f8f4f66ea43c91b4f",
+      "quality_score": 2,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Meme coin themed around '404 Not Found' internet error with creative branding but zero mechanism",
+      "red_flags": [
+        "no mechanism described",
+        "Binance referral spam posts",
+        "purely narrative/thematic",
+        "recent launch"
+      ],
+      "one_line_pitch": "404 internet-error themed meme with creative branding but no technology.",
+      "website_url": "https://x.com/Coin404__",
+      "twitter_handle": "coin404__",
+      "reviewed_at": "2026-10-11T05:33:39.429Z"
+    },
+    {
+      "name": "Fuck You Runner",
+      "ticker": "RUNNER",
+      "mint": "MLn86AfgezEPPKd4SNQZ5txM7SVSDTDGEyYhnpNpump",
+      "quality_score": 1,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "SOLANA",
+      "mechanism_summary": "Offensive-branded meme coin riding TikTok trends with no mechanism",
+      "red_flags": [
+        "no mechanism described",
+        "empty description field",
+        "offensive/edgy branding",
+        "purely hype narrative",
+        "suspicious activity (925 posts in <1 month)"
+      ],
+      "one_line_pitch": "Edgy meme coin following TikTok trends with no technology.",
+      "website_url": "https://x.com/search?q=2108880623561589220",
+      "twitter_handle": "goydev6767",
+      "reviewed_at": "2026-10-11T05:33:39.428Z"
+    },
+    {
+      "name": "BOO-BIES",
+      "ticker": "BOOBIES",
+      "mint": "97xpkssgnzK2rPZGoRU32wFFBsMfbxDMGoGdhMnzpump",
+      "quality_score": 1,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "SOLANA",
+      "mechanism_summary": "Halloween ghost-pepe themed meme coin with no described mechanism or product",
+      "red_flags": [
+        "no mechanism described",
+        "empty description field",
+        "purely narrative/meme focused",
+        "unverified developer",
+        "recycled 2017 meme"
+      ],
+      "one_line_pitch": "Halloween ghost pepe meme with no technology or distinguishing features.",
+      "website_url": "https://x.com/wifzyns/status/2109125801941807289",
+      "twitter_handle": "wifzyns",
+      "reviewed_at": "2026-10-11T05:33:39.427Z"
+    },
+    {
+      "name": "Super Indian",
+      "ticker": "SI",
+      "mint": "H2TkE69DTW5mGsGKuHmTZTWetxXxYABGHwQ2tPr6pump",
+      "quality_score": 1,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "SOLANA",
+      "mechanism_summary": "Dog-themed meme coin reposting PopCat/PopDog variants with no described mechanism",
+      "red_flags": [
+        "no mechanism described",
+        "empty description field",
+        "reposts of other dog coins",
+        "Twitter bio is pure hype"
+      ],
+      "one_line_pitch": "PopCat/PopDog knockoff with no distinguishing features.",
+      "website_url": null,
+      "twitter_handle": "clydetrading",
+      "reviewed_at": "2026-10-11T05:33:39.404Z"
+    },
+    {
+      "name": "PEPE Claudia",
+      "ticker": "CLAUDPEPE",
+      "mint": "CsN6MQCFkt63C6L1myNEzXatC6ggqaTsBfwKUWDepump",
+      "quality_score": 0,
+      "is_real_tech": false,
+      "category": "impersonator",
+      "chain": "SOLANA",
+      "mechanism_summary": "Joystick-powered Pepe meme character; no stated mechanism.",
+      "red_flags": [
+        "Ticker 'CLAUDPEPE' appears to reference Claude AI model name",
+        "Pure meme with no product, no mechanism",
+        "No utility or technical description beyond joystick theming"
+      ],
+      "one_line_pitch": "Pure meme riding apparent Claude AI brand name.",
+      "website_url": "https://claudpepe.pro/",
+      "twitter_handle": "claudpepesol",
+      "reviewed_at": "2026-10-11T05:33:05.359Z"
+    },
+    {
+      "name": "DogeOS",
+      "ticker": "DOGEOS",
+      "mint": "0x1cca7dc1b24b415a626281e536a964f5be8825ae",
+      "quality_score": 0,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Self-described as 'The Home of the Doge economy'; no specifics whatsoever.",
+      "red_flags": [
+        "No mechanism at all",
+        "Pure meme narrative with zero technical detail"
+      ],
+      "one_line_pitch": "Pure meme narrative with zero mechanism.",
+      "website_url": "https://www.dogeos.com",
+      "twitter_handle": "dogeos",
+      "reviewed_at": "2026-10-11T05:33:05.355Z"
+    },
+    {
+      "name": "Hood Radar",
+      "ticker": "RADAR",
+      "mint": "0x77a9e0eba447704307fbc6de641f7f2fd992a067",
+      "quality_score": 3,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Community-driven scanner for new Robinhood Chain token launches with transparent dev economics disclosed.",
+      "red_flags": [
+        "Not a tech product; simple community dashboard/meme radar",
+        "Token launch scanners are commoditized (Padre, every data vendor)"
+      ],
+      "one_line_pitch": "Community token-launch radar; transparent but not innovative.",
+      "website_url": null,
+      "twitter_handle": null,
+      "reviewed_at": "2026-10-11T05:33:05.353Z"
+    },
+    {
+      "name": "A2I2 Sandbox",
+      "ticker": "A2I2",
+      "mint": "0x3c84f18955591522cd6a9f5b68ba6cc752848590",
+      "quality_score": 1,
+      "is_real_tech": false,
+      "category": "impersonator",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Claims to be privacy-first sandbox for Robinhood AI/SI agent experiments.",
+      "red_flags": [
+        "Unverified @RobinhoodApp affiliation; no partnership disclosure",
+        "Implausible: Robinhood would not use pump.fun for infrastructure",
+        "No token role explained; reads like brand-riding"
+      ],
+      "one_line_pitch": "Unverified Robinhood affiliation claim; apparent brand riding.",
+      "website_url": "https://www.a2i2sandbox.com",
+      "twitter_handle": "a2i2_rh",
+      "reviewed_at": "2026-10-11T05:33:05.347Z"
+    },
+    {
+      "name": "quantmachines",
+      "ticker": "QUANT",
+      "mint": "0x2e7fdd2d2a5f47eb0ed0a9a473c6ab662b093efa",
+      "quality_score": 2,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Claims each token holder gets four qubits on a real IBM quantum chip.",
+      "red_flags": [
+        "Physically implausible (cannot allocate real qubits to millions of token holders)",
+        "Unverified @IBM partnership; no disclosure of affiliation",
+        "Mixing simulator qubits with real hardware is a known scam vector"
+      ],
+      "one_line_pitch": "Implausible quantum allocation claim riding IBM branding.",
+      "website_url": "https://www.quantmachines.fun",
+      "twitter_handle": "quantmachines",
+      "reviewed_at": "2026-10-11T05:33:05.343Z"
+    },
+    {
+      "name": "MolTrust",
+      "ticker": "MT",
+      "mint": "0xdbade51d4448551c3c254cd7d6c14e8cc93a09a4",
+      "quality_score": 1,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Claims to provide 'trust layer' for agent economy; no specifics given.",
+      "red_flags": [
+        "Zero mechanism described",
+        "Pure buzzword jargon (trust + agent + economy)",
+        "No explanation of what happens on-chain or off"
+      ],
+      "one_line_pitch": "Pure buzzword mash-up; no actual mechanism at all.",
+      "website_url": "https://moltrust.ch",
+      "twitter_handle": "moltrust",
+      "reviewed_at": "2026-10-11T05:33:05.338Z"
+    },
+    {
+      "name": "Kvant world",
+      "ticker": "KVANT",
+      "mint": "0x44f0151b7179d100be0bb21260051af83bdba3b7",
+      "quality_score": 4,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Provides post-quantum encryption (ML-KEM-768, ML-DSA-65) for files, messages, and agents.",
+      "red_flags": [
+        "No clear token role or economics",
+        "References real NIST crypto standards but coin mechanism unexplained",
+        "Reads like product pitch, not token design"
+      ],
+      "one_line_pitch": "Post-quantum encryption using NIST standards; token purpose completely unclear.",
+      "website_url": "https://kvant.world",
+      "twitter_handle": "kvantcoin",
+      "reviewed_at": "2026-10-11T05:33:05.286Z"
+    },
+    {
+      "name": "Kandle",
+      "ticker": "KANDLE",
+      "mint": "0x1313be82b9beec3837604465e9a64aa85bdd6e93",
+      "quality_score": 1,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Undefined trading platform claiming to 'trade beyond limits'",
+      "red_flags": [
+        "pure marketing slogan, no mechanism explained",
+        "no product details or differentiation",
+        "no website, links, or launch info"
+      ],
+      "one_line_pitch": "Vague 'trade beyond limits' slogan; no mechanism.",
+      "website_url": null,
+      "twitter_handle": "kandleapp",
+      "reviewed_at": "2026-10-11T05:32:54.825Z"
+    },
+    {
+      "name": "United States Water Reserve",
+      "ticker": "USWR",
+      "mint": "wGa8qyJcGnMSWAaHM3mNwVVTfX3FszgWDsPfyWPpump",
+      "quality_score": 2,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "SOLANA",
+      "mechanism_summary": "Claimed 'tokenized exposure to water infrastructure'; mechanism undefined",
+      "red_flags": [
+        "vague 'tokenized exposure' with no backing explained",
+        "potential brand confusion with US government imagery",
+        "speculative narrative only (AI→shortage→value), no real product",
+        "no details on token mechanics or collateral"
+      ],
+      "one_line_pitch": "Vague water-tokenization play with no real backing.",
+      "website_url": "https://uswr.ai",
+      "twitter_handle": null,
+      "reviewed_at": "2026-10-11T05:32:54.824Z"
+    },
+    {
+      "name": "Catecoin",
+      "ticker": "CATE",
+      "mint": "cBME1guB6BYA551NpkFCSGXMUGgkJKHkmCUKUvnpump",
+      "quality_score": 1,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "SOLANA",
+      "mechanism_summary": "Narrative-driven meme coin with 'Ninth Life' story branding and fair launch",
+      "red_flags": [
+        "pure narrative branding, zero product mechanism",
+        "cat meme coin with no differentiation from Dogecoin clones",
+        "fair-launch meme coin template"
+      ],
+      "one_line_pitch": "Cat meme coin with narrative; no distinct product.",
+      "website_url": "https://cate.meme/",
+      "twitter_handle": null,
+      "reviewed_at": "2026-10-11T05:32:54.822Z"
+    },
+    {
+      "name": "Biggest X Call",
+      "ticker": "XCALL",
+      "mint": "FMo4EF13SDpFzevmEcFQ5GdKWgPE77eptczuaVat6Q4A",
+      "quality_score": 0,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "SOLANA",
+      "mechanism_summary": "No mechanism; jokey meme persona riding market sentiment",
+      "red_flags": [
+        "empty description",
+        "low-effort Twitter bio ('im so ston bro')",
+        "no product or mechanics defined"
+      ],
+      "one_line_pitch": "Meme coin with jokey persona; no product.",
+      "website_url": "https://call.x.com/rxc-n1j-ttc",
+      "twitter_handle": "stepcoinsol8",
+      "reviewed_at": "2026-10-11T05:32:54.821Z"
+    },
+    {
+      "name": "LeGATOOO",
+      "ticker": "song",
+      "mint": "7gZiVjoKeQF4ozqZ8wxSq9XJoW4Dw277MCHha7Ekpump",
+      "quality_score": 0,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "SOLANA",
+      "mechanism_summary": "No mechanism; community narrative about making a song together",
+      "red_flags": [
+        "pure narrative/meme, zero product",
+        "no mechanics or product described"
+      ],
+      "one_line_pitch": "Meme coin about making a song; no product.",
+      "website_url": null,
+      "twitter_handle": null,
+      "reviewed_at": "2026-10-11T05:32:54.819Z"
+    },
+    {
+      "name": "Embervale",
+      "ticker": "EMBER",
+      "mint": "0xcb3a37ea9788da4d6b53804a10828aedf5996cb3",
+      "quality_score": 2,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Vague 'farming game' with undefined token rewards and burn mechanic",
+      "red_flags": [
+        "no gameplay mechanics defined",
+        "jargon-only pitch (Farm. Earn. Burn.)",
+        "no product links or launch status"
+      ],
+      "one_line_pitch": "Vague farming game with undefined mechanics and burn.",
+      "website_url": "https://embervalegame.com",
+      "twitter_handle": "embervale_",
+      "reviewed_at": "2026-10-11T05:32:54.817Z"
+    },
+    {
+      "name": "MovaOS",
+      "ticker": "MOVA",
+      "mint": "0xa6c0a7e52164d5260ebd40fc0189307c2f66f5b9",
+      "quality_score": 2,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Vague 'financial layer for onchain robotics' with no defined mechanism",
+      "red_flags": [
+        "no concrete mechanism explained",
+        "vague marketing language",
+        "no product details",
+        "no links or website"
+      ],
+      "one_line_pitch": "Undefined 'financial layer for robotics' with no mechanism.",
+      "website_url": "https://mova.build",
+      "twitter_handle": "mova_os",
+      "reviewed_at": "2026-10-11T05:32:54.783Z"
+    },
+    {
+      "name": "Squink",
+      "ticker": "SQUINK",
+      "mint": "0xda8e930e43540c217760bfae0b127b579f8eaad0",
+      "quality_score": 0,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "No mechanism; token named 'Squink' with no elaboration.",
+      "red_flags": [
+        "description identical to name",
+        "no mechanism, narrative, or product",
+        "appears incomplete or placeholder",
+        "pure one-word meme"
+      ],
+      "one_line_pitch": "A token named 'Squink' with no mechanism.",
+      "website_url": null,
+      "twitter_handle": "squinkfun",
+      "reviewed_at": "2026-10-11T05:31:29.071Z"
+    },
+    {
+      "name": "Donkjak",
+      "ticker": "Donkjak",
+      "mint": "F5f8siuteA7643tAbrtfA8aAvwvr28f2Hz9QSiffpump",
+      "quality_score": 1,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "SOLANA",
+      "mechanism_summary": "No mechanism; pure narrative branding around donkey character.",
+      "red_flags": [
+        "pure narrative/branding, no mechanism",
+        "no product or utility described",
+        "professional site but zero substance",
+        "emotional storytelling meme branding only"
+      ],
+      "one_line_pitch": "Donkey character meme with professional site and zero mechanism.",
+      "website_url": "https://donkjak.fun/",
+      "twitter_handle": "donkjak_",
+      "reviewed_at": "2026-10-11T05:31:29.069Z"
+    },
+    {
+      "name": "webform",
+      "ticker": "WEBFORM",
+      "mint": "0x6a6ace64926aa62932f4c2082dc69ac3e181cc54",
+      "quality_score": 0,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "No mechanism; token named 'webform' with no elaboration.",
+      "red_flags": [
+        "description identical to name",
+        "no mechanism, narrative, or product",
+        "appears incomplete or placeholder",
+        "pure one-word meme"
+      ],
+      "one_line_pitch": "A token named 'webform' with no mechanism.",
+      "website_url": null,
+      "twitter_handle": "webformvc",
+      "reviewed_at": "2026-10-11T05:31:29.067Z"
+    },
+    {
+      "name": "The Spirit of Quantum",
+      "ticker": "THQ",
+      "mint": "HxcEAa9Z2CfMaL3uA6k5geFttmPtra1yRSyLsok4pump",
+      "quality_score": 1,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "SOLANA",
+      "mechanism_summary": "No mechanism; mystical narrative about quantum spirit spreading vibes.",
+      "red_flags": [
+        "pure narrative with pseudo-spiritual jargon",
+        "no actual mechanism or tech described",
+        "marketing language only ('higher vibrations')",
+        "references inconsistent token naming (TSQ vs swordcat)"
+      ],
+      "one_line_pitch": "Quantum/spiritual narrative meme with zero technological mechanism.",
+      "website_url": "https://thespiritofquantum.fun/",
+      "twitter_handle": "thq_sol",
+      "reviewed_at": "2026-10-11T05:31:29.065Z"
+    },
+    {
+      "name": "JEANPEPE",
+      "ticker": "JEANPEPE",
+      "mint": "BRWUUPRhSSS6G7CmtNWqeP1VZHh2VKNRdwU21zYEpump",
+      "quality_score": 1,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "SOLANA",
+      "mechanism_summary": "No mechanism; pure narrative branding around fictional frog character.",
+      "red_flags": [
+        "pure narrative/branding, no mechanism",
+        "no product or utility described",
+        "professional site but zero substance",
+        "templated Pepe-variant meme branding"
+      ],
+      "one_line_pitch": "Well-branded Jean Pepe frog meme with zero mechanism or utility.",
+      "website_url": "https://jeanpepe.pro/",
+      "twitter_handle": "jeanpepe_coin",
+      "reviewed_at": "2026-10-11T05:31:29.063Z"
+    },
+    {
+      "name": "Dick Flower",
+      "ticker": "チンポ",
+      "mint": "9HWkkZ15eQePVJURmuGK56FszhBYqUWcDR64yiH5pump",
+      "quality_score": 0,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "SOLANA",
+      "mechanism_summary": "No mechanism; description is only a deployment tool reference.",
+      "red_flags": [
+        "description is tool reference only",
+        "no mechanism, narrative, or product",
+        "pure meme token",
+        "no substantive content"
+      ],
+      "one_line_pitch": "Meme token with only a deployment tool reference.",
+      "website_url": "https://x.com/search?q=%E3%83%81%E3%83%B3%E3%83%9D%E3%83%9D%E3%81%AE%E8%8A%B1&src=typed_query",
+      "twitter_handle": "ketonsolana_xd",
+      "reviewed_at": "2026-10-11T05:31:29.062Z"
+    },
+    {
+      "name": "Cairn",
+      "ticker": "CAIRN",
+      "mint": "0x2ba023de865ae57e248b6ed3ed23b30cf42b04e7",
+      "quality_score": 1,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Claims 'Wall Street onchain' with no mechanism detail or clarification.",
+      "red_flags": [
+        "jargon only, zero substance",
+        "one-line description with no elaboration",
+        "no website, product, or working mechanism",
+        "vague TradFi-meets-crypto angle"
+      ],
+      "one_line_pitch": "Generic 'Wall Street onchain' jargon with no actual mechanism.",
+      "website_url": "https://cairncoin.com",
+      "twitter_handle": "cairnonchain",
+      "reviewed_at": "2026-10-11T05:31:29.060Z"
+    },
+    {
+      "name": "Sleeping Cat",
+      "ticker": "sleeping",
+      "mint": "Fv3kk9JbM7kGVLcEnXAE2cupWBoeTJn58duspY1Wpump",
+      "quality_score": 1,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "SOLANA",
+      "mechanism_summary": "No mechanism described; pure meme token with sleeping cat theme.",
+      "red_flags": [
+        "no mechanism or product described",
+        "single personal trader account",
+        "empty description field",
+        "pure meme with no substance"
+      ],
+      "one_line_pitch": "Sleeping cat meme token with no stated mechanism.",
+      "website_url": null,
+      "twitter_handle": "chigawrld",
+      "reviewed_at": "2026-10-11T05:31:29.011Z"
+    },
+    {
+      "name": "DONKULA",
+      "ticker": "DONKULA",
+      "mint": "Et9DWpv14CNABBT8FBCPykF76eLJUqtUU1H9r1QGpump",
+      "quality_score": 0,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "SOLANA",
+      "mechanism_summary": "Vampire donkey narrative meme with no technical product.",
+      "red_flags": [
+        "pure narrative/lore meme",
+        "no technical mechanism described",
+        "contract details hidden in flavor text"
+      ],
+      "one_line_pitch": "Vampire donkey meme narrative with no product mechanism.",
+      "website_url": "https://donkula.top/",
+      "twitter_handle": "donkulaa",
+      "reviewed_at": "2026-10-11T05:31:06.647Z"
+    },
+    {
+      "name": "100000",
+      "ticker": "100001",
+      "mint": "gzfWoJ5kzYp8NXjnAffRmtLBihPYo7mAeqhU5qfpump",
+      "quality_score": 0,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "SOLANA",
+      "mechanism_summary": "Numeric branding pattern (100000/100001/100002) with no product.",
+      "red_flags": [
+        "pure number meme naming",
+        "no mechanism or narrative"
+      ],
+      "one_line_pitch": "Numeric-sequence meme with no product or mechanism.",
+      "website_url": null,
+      "twitter_handle": null,
+      "reviewed_at": "2026-10-11T05:31:06.646Z"
+    },
+    {
+      "name": "wowai",
+      "ticker": "wowai",
+      "mint": "0x27e2c7970c74cceb98f26e2728da00d8e57fdeb4",
+      "quality_score": 0,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "No mechanism; name repeated as description.",
+      "red_flags": [
+        "no mechanism described",
+        "name equals description"
+      ],
+      "one_line_pitch": "Empty meme token with no product or mechanism.",
+      "website_url": null,
+      "twitter_handle": "ariannasimpson",
+      "reviewed_at": "2026-10-11T05:31:06.644Z"
+    },
+    {
+      "name": "receipts.bingo",
+      "ticker": "receipts",
+      "mint": "0xe1457442b90865cdd63c3af04ebbbbd4a4cc93d7",
+      "quality_score": 0,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "No mechanism; domain name only.",
+      "red_flags": [
+        "no mechanism described",
+        "name equals description",
+        "duplicate cross-chain token, identical to Ethereum version"
+      ],
+      "one_line_pitch": "Domain-named token with no described product or mechanism.",
+      "website_url": "https://receipts.bingo",
+      "twitter_handle": "receiptsbingo",
+      "reviewed_at": "2026-10-11T05:31:06.640Z"
+    },
+    {
+      "name": "receipts.bingo",
+      "ticker": "receipts",
+      "mint": "0xd6074d4f65087b83821ad2ad39a54604367a23bf",
+      "quality_score": 0,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "No mechanism; domain name only.",
+      "red_flags": [
+        "no mechanism described",
+        "name equals description"
+      ],
+      "one_line_pitch": "Domain-named token with no described product or mechanism.",
+      "website_url": "https://receipts.bingo",
+      "twitter_handle": "receiptsbingo",
+      "reviewed_at": "2026-10-11T05:31:06.638Z"
+    },
+    {
+      "name": "hoodlet",
+      "ticker": "HOODLET",
+      "mint": "0x952e688bdd2e2062bc4e463e98e1f031452b7a26",
+      "quality_score": 0,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "No mechanism; name repeated as description.",
+      "red_flags": [
+        "no mechanism described",
+        "name equals description"
+      ],
+      "one_line_pitch": "Empty meme token with no product or mechanism.",
+      "website_url": null,
+      "twitter_handle": "meadgod",
+      "reviewed_at": "2026-10-11T05:31:06.636Z"
+    },
+    {
+      "name": "Renaissance",
+      "ticker": "RENAISSANC",
+      "mint": "0x3b3150276fd92306bb55a97f06c3209c3be6da32",
+      "quality_score": 1,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Vague claim of sealing transaction data on-chain before market discovery.",
+      "red_flags": [
+        "no working product",
+        "ultra-vague jargon slop",
+        "no concrete mechanism"
+      ],
+      "one_line_pitch": "Jargon-heavy 'sealed on-chain' with no actual mechanism.",
+      "website_url": "https://t.co/08xqcrY4IE",
+      "twitter_handle": "renaissancerh",
+      "reviewed_at": "2026-10-11T05:31:06.594Z"
+    },
+    {
+      "name": "Project slime",
+      "ticker": "SLIME",
+      "mint": "0xa9fc5c81063eaacbefe37fc01a38c281b3085a9a",
+      "quality_score": 1,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "No mechanism described; name only.",
+      "red_flags": [
+        "No mechanism described",
+        "Name repeated as sole description"
+      ],
+      "one_line_pitch": "Meme coin with no claimed functionality.",
+      "website_url": null,
+      "twitter_handle": "projectslimefi",
+      "reviewed_at": "2026-10-11T05:30:37.125Z"
+    },
+    {
+      "name": "Federal Private Equity System",
+      "ticker": "FPES",
+      "mint": "iDkB4Qurr1UhrGHLLMj7coGPBuy2VuZsBz6GgPLpump",
+      "quality_score": 1.5,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "SOLANA",
+      "mechanism_summary": "Claims to 'bring private equity into focus' but specifies no mechanism.",
+      "red_flags": [
+        "Vague description with no actual mechanism",
+        "No product or service defined",
+        "Jargon-heavy without substance"
+      ],
+      "one_line_pitch": "PE-themed coin with no described utility or mechanism.",
+      "website_url": null,
+      "twitter_handle": null,
+      "reviewed_at": "2026-10-11T05:30:37.124Z"
+    },
+    {
+      "name": "blob",
+      "ticker": "blob",
+      "mint": "0x1e9af4abc2008c27ca15dafeb708c45aaf4563de",
+      "quality_score": 1,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "No mechanism described; name only.",
+      "red_flags": [
+        "No mechanism described",
+        "Name repeated as sole description"
+      ],
+      "one_line_pitch": "Meme coin with no claimed functionality.",
+      "website_url": null,
+      "twitter_handle": "flowww99",
+      "reviewed_at": "2026-10-11T05:30:37.122Z"
+    },
+    {
+      "name": "Heurix",
+      "ticker": "HEURIX",
+      "mint": "0x2440175d8f268a28c0ef42cde86c7a0c76bb5482",
+      "quality_score": 0.5,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "No mechanism; placeholder marketing text only.",
+      "red_flags": [
+        "No mechanism described",
+        "Generic placeholder copy ('finishing touches')",
+        "No product definition"
+      ],
+      "one_line_pitch": "Pure marketing placeholder with zero technical claim.",
+      "website_url": null,
+      "twitter_handle": "heurixrh",
+      "reviewed_at": "2026-10-11T05:30:37.121Z"
+    },
+    {
+      "name": "DeepTime",
+      "ticker": "DEEPTIME",
+      "mint": "0xc76dd0bf82cbb830700a57d7fd90595819871b08",
+      "quality_score": 2,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Described only as 'networks' with no mechanism specified.",
+      "red_flags": [
+        "Vague single-word description",
+        "No mechanism or product details provided"
+      ],
+      "one_line_pitch": "Vague 'networks' reference with no technical substance.",
+      "website_url": "https://deeptimetoken.com/id",
+      "twitter_handle": "deeptimehq",
+      "reviewed_at": "2026-10-11T05:30:37.118Z"
+    },
+    {
+      "name": "Gloop",
+      "ticker": "GLOOP",
+      "mint": "0xdae8b6d91c881f932131b029ec6111fe9ace3aee",
+      "quality_score": 1,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "No mechanism described; brand name only.",
+      "red_flags": [
+        "No mechanism described",
+        "Name repeated as sole description"
+      ],
+      "one_line_pitch": "Meme coin with no claimed functionality.",
+      "website_url": null,
+      "twitter_handle": "gloop_rh",
+      "reviewed_at": "2026-10-11T05:30:37.103Z"
+    },
+    {
+      "name": "mindie",
+      "ticker": "MINDIE",
+      "mint": "0xc5d653fe7a46c689fc55b54dc258381654effcac",
+      "quality_score": 0,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "No mechanism; description is ticker name.",
+      "red_flags": [
+        "Ethereum address (0x...), not Solana",
+        "Description is literally 'mindie'",
+        "Zero substance"
+      ],
+      "one_line_pitch": "Empty non-Solana token.",
+      "website_url": null,
+      "twitter_handle": "getmindie",
+      "reviewed_at": "2026-10-11T05:29:58.461Z"
+    },
+    {
+      "name": "Perro",
+      "ticker": "Perro",
+      "mint": "C5frGRVkdHypPdthCVeXkNxYEreVh8LfPEvgmoozpump",
+      "quality_score": 3,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "SOLANA",
+      "mechanism_summary": "User-generated photo submission game: post pictures of cartoon dog, earn giveaway entries.",
+      "red_flags": [
+        "Meme primary, game mechanic secondary and vague",
+        "Unclear token-utility tie",
+        "No working product, landing page only"
+      ],
+      "one_line_pitch": "Photo-submission game-meme with unclear token economics.",
+      "website_url": "https://perrocherro.com/",
+      "twitter_handle": "perrocherro",
+      "reviewed_at": "2026-10-11T05:29:58.460Z"
+    },
+    {
+      "name": "SpaceX",
+      "ticker": "SpaceX",
+      "mint": "9Pw6bkZs5v8vazzC6VpH7td8mRf6844obQxs6V3wpump",
+      "quality_score": 0,
+      "is_real_tech": false,
+      "category": "impersonator",
+      "chain": "SOLANA",
+      "mechanism_summary": "Copy-pasted real SpaceX company description; fake brand hijack.",
+      "red_flags": [
+        "Brand hijack (real SpaceX Corp)",
+        "Copy-pasted company bio, no token mechanism",
+        "Impersonation"
+      ],
+      "one_line_pitch": "Fake SpaceX brand-hijack with no original mechanism.",
+      "website_url": "https://spacex.com/",
+      "twitter_handle": "spacex",
+      "reviewed_at": "2026-10-11T05:29:58.459Z"
+    },
+    {
+      "name": "tabmarkets",
+      "ticker": "TAB",
+      "mint": "0x2309a5e3e933f21fc9fcb8135273de7336871955",
+      "quality_score": 1,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "No mechanism; only slogan about news trading.",
+      "red_flags": [
+        "Ethereum address (0x...), not Solana",
+        "Marketing slogan only, no mechanism",
+        "No product"
+      ],
+      "one_line_pitch": "Non-Solana address with news-trading tagline, zero substance.",
+      "website_url": null,
+      "twitter_handle": "tabdotmarkets",
+      "reviewed_at": "2026-10-11T05:29:58.458Z"
+    },
+    {
+      "name": "Kendu Pup",
+      "ticker": "KENDUPUP",
+      "mint": "3GtGY11EB2FgP8K1LbPdUnXR3xRyMwDR5YS38znapump",
+      "quality_score": 1,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "SOLANA",
+      "mechanism_summary": "Community narrative about a dog inspired by Kendu Inu; no actual product.",
+      "red_flags": [
+        "Pure meme narrative, no product",
+        "Rides legacy of older coin",
+        "No utility described"
+      ],
+      "one_line_pitch": "Dog-coin meme riding another dog-coin's name.",
+      "website_url": "https://kenduspup.netlify.app/",
+      "twitter_handle": null,
+      "reviewed_at": "2026-10-11T05:29:58.456Z"
+    },
+    {
+      "name": "Gambling Agents",
+      "ticker": "Gambling+",
+      "mint": "0x5e8120a16b0390ab5ef9b5c60cc9a8b1edb18a6b",
+      "quality_score": 0,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "No mechanism; description is ticker name.",
+      "red_flags": [
+        "Ethereum address (0x...), not Solana",
+        "Empty description",
+        "No mechanism"
+      ],
+      "one_line_pitch": "Non-Solana empty token with no mechanism.",
+      "website_url": null,
+      "twitter_handle": "gamblingagents",
+      "reviewed_at": "2026-10-11T05:29:58.455Z"
+    },
+    {
+      "name": "The Golden Monkey",
+      "ticker": "Dolly",
+      "mint": "FnvV3LsQZZ7tLqWpTTZRD7sViDc5jJyAZA9eXDBJpump",
+      "quality_score": 0,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "SOLANA",
+      "mechanism_summary": "No mechanism described; only mentions j7tracker deployment platform.",
+      "red_flags": [
+        "Zero product description",
+        "Generic platform reference only",
+        "Pure meme"
+      ],
+      "one_line_pitch": "Meme token with no stated mechanism.",
+      "website_url": "https://www.nbc4i.com/news/local-news/columbus-zoo/newborn-monkey-honors-dolly-parton/",
+      "twitter_handle": "quantadevss",
+      "reviewed_at": "2026-10-11T05:29:58.454Z"
+    },
+    {
+      "name": "Super Persuasion",
+      "ticker": "SP",
+      "mint": "F8rkXSnepfjaXwRaER2SBmKddG3dJMGwvzrpgTm1pump",
+      "quality_score": 0,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "SOLANA",
+      "mechanism_summary": "No description or mechanism provided.",
+      "red_flags": [
+        "Empty description",
+        "No mechanism or product info",
+        "No website or social data"
+      ],
+      "one_line_pitch": "No description; meme coin.",
+      "website_url": "https://x.com/elonmusk",
+      "twitter_handle": "elonmusk",
+      "reviewed_at": "2026-10-11T05:29:20.309Z"
+    },
+    {
+      "name": "Benny's Hub",
+      "ticker": "BENNY",
+      "mint": "EKfBSf5etGkBxgEf9ydZCrtRE8KEHvg5sC7tgFS6pump",
+      "quality_score": 4,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "SOLANA",
+      "mechanism_summary": "Browser companion/hub extension with streaming, news, journal, games utilities.",
+      "red_flags": [
+        "Vague token mechanism",
+        "Real product exists but token role unclear",
+        "Website content truncated",
+        "No clear token utility described"
+      ],
+      "one_line_pitch": "Browser hub extension coin; token utility unclear.",
+      "website_url": "https://narbehouse.github.io/bennyshub/",
+      "twitter_handle": "ddddddd8a",
+      "reviewed_at": "2026-10-11T05:29:20.307Z"
+    },
+    {
+      "name": "Tic Agent",
+      "ticker": "TIC Agent",
+      "mint": "0xdc238ddf32709349af2e4ab70942430b9b33289a",
+      "quality_score": 0,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "No mechanism described; triplicate naming.",
+      "red_flags": [
+        "No mechanism described",
+        "Name-only submission",
+        "Third duplicate of Tic Agent"
+      ],
+      "one_line_pitch": "Third Tic Agent duplicate; no mechanism.",
+      "website_url": null,
+      "twitter_handle": "ticagentxyz",
+      "reviewed_at": "2026-10-11T05:29:20.306Z"
+    },
+    {
+      "name": "Tic Agent",
+      "ticker": "TIC Agent",
+      "mint": "0xa70e1f0b72403e0866a5e2660b40c823f7e1c8a8",
+      "quality_score": 0,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "No mechanism described; duplicate name.",
+      "red_flags": [
+        "No mechanism described",
+        "Name-only submission",
+        "Duplicate listing of another Tic Agent coin"
+      ],
+      "one_line_pitch": "Duplicate Tic Agent coin; no mechanism.",
+      "website_url": null,
+      "twitter_handle": "ticagentxyz",
+      "reviewed_at": "2026-10-11T05:29:20.304Z"
+    },
+    {
+      "name": "Tic Agent",
+      "ticker": "TIC Agent",
+      "mint": "0x269b2e88de325c43e75a7e9c929773cbf8192d9e",
+      "quality_score": 0,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "No mechanism described; name only.",
+      "red_flags": [
+        "No mechanism described",
+        "Name-only submission",
+        "Unclear terminology"
+      ],
+      "one_line_pitch": "Agent-themed name; no mechanism.",
+      "website_url": null,
+      "twitter_handle": "ticagentxyz",
+      "reviewed_at": "2026-10-11T05:29:20.302Z"
+    },
+    {
+      "name": "Upgenny",
+      "ticker": "UP",
+      "mint": "0x6847d104c1047877d1b939f11f88ef767988ace2",
+      "quality_score": 0,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "No mechanism described; name only.",
+      "red_flags": [
+        "No mechanism or description",
+        "Name-only submission",
+        "No website or social data"
+      ],
+      "one_line_pitch": "Name-only coin; no stated mechanism.",
+      "website_url": null,
+      "twitter_handle": "upgennyfun",
+      "reviewed_at": "2026-10-11T05:29:20.301Z"
+    },
+    {
+      "name": "Rolex S.A.",
+      "ticker": "ROLEX",
+      "mint": "UT9jBfTmPgZXj9BeLLSQiJ1ZUdBiUJn4aQVUUBqpump",
+      "quality_score": 0,
+      "is_real_tech": false,
+      "category": "impersonator",
+      "chain": "SOLANA",
+      "mechanism_summary": "Brand impersonation of Rolex luxury watches; no crypto mechanism.",
+      "red_flags": [
+        "Brand impersonation (real Rolex S.A.)",
+        "Description copied from public sources",
+        "No original mechanism",
+        "Likely trademark violation"
+      ],
+      "one_line_pitch": "Rolex brand impersonation; trademark risk.",
+      "website_url": "https://www.instagram.com/rolex",
+      "twitter_handle": "rolex",
+      "reviewed_at": "2026-10-11T05:29:20.298Z"
+    },
+    {
+      "name": "Project slime",
+      "ticker": "SLIME",
+      "mint": "0xf38d7e0a40834195af4d5493bf1b3c4690d6f10c",
+      "quality_score": 0,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "No mechanism described; name only.",
+      "red_flags": [
+        "No mechanism described",
+        "Name-only submission",
+        "No website or social data"
+      ],
+      "one_line_pitch": "Meme coin with no stated mechanism.",
+      "website_url": null,
+      "twitter_handle": "projectslimefi",
+      "reviewed_at": "2026-10-11T05:29:20.243Z"
+    },
+    {
+      "name": "X Coin",
+      "ticker": "X",
+      "mint": "BL4Qg6chMbPgfn61ZQx4iio8L3LPwgAcNSb3HKoRxLaS",
+      "quality_score": 0,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "SOLANA",
+      "mechanism_summary": "Meme narrative (cosmic pup, energy flows); website explicitly states it is a 'meme coin with no in[come]'.",
+      "red_flags": [
+        "name mismatch: ticker 'X' and name 'X Coin' but website shows $QI",
+        "pure meme narrative (cosmic pup, starlight energy) with no mechanism",
+        "website explicitly admits it is a meme coin with no income/mechanism",
+        "description misspelled ('offical' instead of 'official')"
+      ],
+      "one_line_pitch": "Meme coin with cosmic pup branding, mismatched naming, and explicit admission of zero value.",
+      "website_url": "https://xcoinsol.lol/",
+      "twitter_handle": null,
+      "reviewed_at": "2026-10-11T05:29:00.446Z"
+    },
+    {
+      "name": "Claude AI",
+      "ticker": "Claude AI",
+      "mint": "kKvGitN97Soc3ZnjV4NwBRFKtZoSDgNgcc1sfZJpump",
+      "quality_score": 0,
+      "is_real_tech": false,
+      "category": "impersonator",
+      "chain": "SOLANA",
+      "mechanism_summary": "Copies Anthropic's Claude description; no token mechanism or affiliation.",
+      "red_flags": [
+        "brand hijack: uses 'Claude AI' and @anthropicai reference without any affiliation with Anthropic",
+        "description is directly copied from Anthropic's Claude AI marketing material",
+        "no blockchain/token innovation whatsoever"
+      ],
+      "one_line_pitch": "Impersonator coin hijacking Anthropic's Claude AI brand and marketing copy.",
+      "website_url": "https://www.instagram.com/claudeai",
+      "twitter_handle": "claudeai",
+      "reviewed_at": "2026-10-11T05:29:00.445Z"
+    },
+    {
+      "name": "Super Persuasion",
+      "ticker": "SP",
+      "mint": "Fe23BSkGEzRZvLM5RMhNLL3dAjmTy5naMEQUUXgRpump",
+      "quality_score": 1,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "SOLANA",
+      "mechanism_summary": "No mechanism; only references deployment via j7tracker.io tool.",
+      "red_flags": [
+        "j7tracker.io is an external tracker/analytics tool, not a coin product",
+        "no actual blockchain or token mechanism described",
+        "description is merely a deployment detail, not a product vision"
+      ],
+      "one_line_pitch": "Meme coin whose entire description is the external deployment tool used.",
+      "website_url": null,
+      "twitter_handle": "geegdeploys",
+      "reviewed_at": "2026-10-11T05:29:00.444Z"
+    },
+    {
+      "name": "The Garbanzo Bean",
+      "ticker": "Brooks",
+      "mint": "2Lv8nbNVEf18oLK1TwNtZrH3BGspUNrUKR21kBHopump",
+      "quality_score": 0,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "SOLANA",
+      "mechanism_summary": "No mechanism; empty description.",
+      "red_flags": [
+        "zero description provided",
+        "no website or documentation",
+        "random name with no context"
+      ],
+      "one_line_pitch": "Random meme coin with no description or mechanism.",
+      "website_url": "https://www.instagram.com/reels/DeQUTYlPQV-/",
+      "twitter_handle": "wrizzy_",
+      "reviewed_at": "2026-10-11T05:29:00.442Z"
+    },
+    {
+      "name": "HOOD",
+      "ticker": "Robinhood",
+      "mint": "Gqb5X75CfncjXrtMUCF7dSdJvViyNmUvLaajybQNiBkX",
+      "quality_score": 1,
+      "is_real_tech": false,
+      "category": "impersonator",
+      "chain": "SOLANA",
+      "mechanism_summary": "Claims Robinhood is 'expanding into crypto' with no specifics or mechanism.",
+      "red_flags": [
+        "brand hijack: uses ticker 'Robinhood' and references the major brokerage by name (HOOD) without any affiliation",
+        "no mechanism described beyond vague brand expansion",
+        "trademark/brand confusion risk"
+      ],
+      "one_line_pitch": "Impersonator coin riding Robinhood Financial brand name with no mechanism.",
+      "website_url": "https://www.instagram.com/robinhoodapp",
+      "twitter_handle": "robinhoodapp",
+      "reviewed_at": "2026-10-11T05:29:00.434Z"
+    },
+    {
+      "name": "Benny's Hub",
+      "ticker": "Benny's",
+      "mint": "EwYudQcf96PAGanfLA9q4Q8QSAUk1QzkbiC3jrbppump",
+      "quality_score": 0,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "SOLANA",
+      "mechanism_summary": "No mechanism; only a Discord server link provided.",
+      "red_flags": [
+        "duplicate/near-identical name to coin 1 (Bennys Hub)",
+        "no description, no website, no mechanism",
+        "Discord-only, no documentation"
+      ],
+      "one_line_pitch": "Duplicate variant of coin 1; pure meme with no distinguishing description.",
+      "website_url": null,
+      "twitter_handle": "milsaftermils",
+      "reviewed_at": "2026-10-11T05:29:00.432Z"
+    },
+    {
+      "name": "Bennys Hub",
+      "ticker": "BENNYS",
+      "mint": "2be4cftcg3CpYRikYecBsXezPkDdJPWNgAyiu8L4pump",
+      "quality_score": 1,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "SOLANA",
+      "mechanism_summary": "Browser companion tool for calendar/games/streaming; no blockchain or token mechanism described.",
+      "red_flags": [
+        "website describes only traditional desktop software (Chrome extension), not a blockchain product",
+        "no crypto/token mechanism explained anywhere",
+        "appears to be riding a real software product's branding"
+      ],
+      "one_line_pitch": "Desktop companion browser extension rebranded as a pump.fun coin with no crypto mechanism.",
+      "website_url": "https://narbehouse.github.io/bennyshub/",
+      "twitter_handle": "ddddddd8a",
+      "reviewed_at": "2026-10-11T05:29:00.401Z"
+    },
+    {
+      "name": "Avalaunch",
+      "ticker": "AVALAUNCH",
+      "mint": "0xb203cf310be6e39dff331d83d9ebe4b04fd82bd6",
+      "quality_score": 1,
+      "is_real_tech": false,
+      "category": "impersonator",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Community tribute token on Robinhood Chain using real Avalaunch launchpad name.",
+      "red_flags": [
+        "uses trademarked name of real Avalaunch project",
+        "brand-riding tribute token creates brand confusion",
+        "no unique mechanism beyond brand association"
+      ],
+      "one_line_pitch": "Tribute/fan token riding Avalaunch brand name; no unique mechanism.",
+      "website_url": "https://avalaunch.app",
+      "twitter_handle": "avalaunch_pons",
+      "reviewed_at": "2026-10-11T05:28:31.761Z"
+    },
+    {
+      "name": "Petawatt",
+      "ticker": "PW",
+      "mint": "iQbU49Y6tU3QijGe6g2zouZNs385q79sLsh2z8fpump",
+      "quality_score": 0,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "SOLANA",
+      "mechanism_summary": "No description; appears to be duplicate of another Petawatt token.",
+      "red_flags": [
+        "duplicate token with different mint",
+        "no description",
+        "possible test token or rug setup"
+      ],
+      "one_line_pitch": "Duplicate Petawatt token; likely test or rug.",
+      "website_url": null,
+      "twitter_handle": "maiden6921",
+      "reviewed_at": "2026-10-11T05:28:31.760Z"
+    },
+    {
+      "name": "Petawatt",
+      "ticker": "PW",
+      "mint": "GQK9uQTZ21iQsMxDBfu922AZEh9g3bJCQJiY4Y5KQBQn",
+      "quality_score": 0,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "SOLANA",
+      "mechanism_summary": "No description provided; just a physics term with no explanation.",
+      "red_flags": [
+        "no description provided",
+        "no evidence of working product or website",
+        "completely bare listing"
+      ],
+      "one_line_pitch": "Bare listing with no description or mechanism.",
+      "website_url": null,
+      "twitter_handle": "maiden6921",
+      "reviewed_at": "2026-10-11T05:28:31.759Z"
+    },
+    {
+      "name": "Samur•ai",
+      "ticker": "Samur•ai",
+      "mint": "BHaVpWX8Yhp1fAi5bZnyh8kM1yuCkkraN3NQD8Djpump",
+      "quality_score": 0,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "SOLANA",
+      "mechanism_summary": "Generic promise to be a guide to AI/memes/onchain; no product or mechanism.",
+      "red_flags": [
+        "pure marketing copy with no substance",
+        "generic branding combining trendy terms",
+        "no explained product or use case"
+      ],
+      "one_line_pitch": "Generic AI-meme guide token; no mechanism.",
+      "website_url": null,
+      "twitter_handle": null,
+      "reviewed_at": "2026-10-11T05:28:31.757Z"
+    },
+    {
+      "name": "fdgdfg",
+      "ticker": "dfgdfgfd",
+      "mint": "0xe8853a8c28c28f34ad9595ce85ac5431e0ba3bc5",
+      "quality_score": 0,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "No description provided; appears to be spam or test data.",
+      "red_flags": [
+        "complete gibberish name and description",
+        "appears to be test or spam data",
+        "Ethereum mint, not Solana"
+      ],
+      "one_line_pitch": "Spam token with gibberish name and description.",
+      "website_url": null,
+      "twitter_handle": "johnbraids",
+      "reviewed_at": "2026-10-11T05:28:31.755Z"
+    },
+    {
+      "name": "Resting Al-Qaeda Face",
+      "ticker": "MAMDANI",
+      "mint": "GEnovaDUUhADHMGjexmvYwBxvfHZikqUix4288Lypump",
+      "quality_score": 0,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "SOLANA",
+      "mechanism_summary": "No mechanism described; only reference to j7tracker.io deployment tool.",
+      "red_flags": [
+        "offensive shock name referencing terrorist organization",
+        "appears to brand-hijack j7tracker.io",
+        "no described mechanism or use case"
+      ],
+      "one_line_pitch": "Shock-value meme token with tracker reference; no mechanism.",
+      "website_url": null,
+      "twitter_handle": "palunians",
+      "reviewed_at": "2026-10-11T05:28:31.754Z"
+    },
+    {
+      "name": "Bundle Bat",
+      "ticker": "BAT",
+      "mint": "0xca163a0152f39a77a0b42f022f343f9cc9dbc159",
+      "quality_score": 0,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Claims to protect bundles but provides no actual mechanism or product description.",
+      "red_flags": [
+        "pure narrative marketing with no mechanism",
+        "references mosh.trade but explains no use case",
+        "no product description"
+      ],
+      "one_line_pitch": "Bundle protection meme with no described mechanism.",
+      "website_url": null,
+      "twitter_handle": null,
+      "reviewed_at": "2026-10-11T05:28:31.752Z"
+    },
+    {
+      "name": "Xclans",
+      "ticker": "XCLANS",
+      "mint": "HQBzdA5HX6WdRMHwaTCihSuke1ZFvVkVpTpGK3RYpump",
+      "quality_score": 2,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "SOLANA",
+      "mechanism_summary": "Claims to bring Axiom data lobbies to a social timeline; mechanism undefined.",
+      "red_flags": [
+        "vague reference to Axiom without explaining mechanism",
+        "no working product evident",
+        "unclear relationship to actual data source"
+      ],
+      "one_line_pitch": "Vague promise to surface Axiom data on social feed; no mechanism explained.",
+      "website_url": null,
+      "twitter_handle": "xclansvip",
+      "reviewed_at": "2026-10-11T05:28:31.722Z"
+    },
+    {
+      "name": "bozhu",
+      "ticker": "BOZHU",
+      "mint": "0x1b9f49359d522e0812f8596e4a840966d1706f91",
+      "quality_score": 1,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Minimal name-only description; no mechanism identified",
+      "red_flags": [
+        "minimal description (name-only)",
+        "no mechanism"
+      ],
+      "one_line_pitch": "Bare name with zero description or mechanism",
+      "website_url": null,
+      "twitter_handle": "bozhufamily",
+      "reviewed_at": "2026-10-11T05:28:07.364Z"
+    },
+    {
+      "name": "ALON",
+      "ticker": "ALON",
+      "mint": "J3ayhSbukTNem51dgrcck3qNpQ7fCcMCTA16fJTtpump",
+      "quality_score": 1,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "SOLANA",
+      "mechanism_summary": "Minimal name-only description; no mechanism identified",
+      "red_flags": [
+        "minimal description (name-only)",
+        "no mechanism"
+      ],
+      "one_line_pitch": "Bare name with zero description or mechanism",
+      "website_url": null,
+      "twitter_handle": null,
+      "reviewed_at": "2026-10-11T05:28:07.362Z"
+    },
+    {
+      "name": "Frost Anarchist",
+      "ticker": "FROST",
+      "mint": "0x4528a75630db2c8a6e55d50095595f3bfef561e1",
+      "quality_score": 1,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Anarchist-themed narrative with no mechanism described",
+      "red_flags": [
+        "minimal description (name-only)",
+        "no mechanism",
+        "address format is Ethereum (0x), not Solana"
+      ],
+      "one_line_pitch": "Minimal name-only description, wrong address format",
+      "website_url": null,
+      "twitter_handle": "frost_anarchist",
+      "reviewed_at": "2026-10-11T05:28:07.360Z"
+    },
+    {
+      "name": "Sellos",
+      "ticker": "Sellos",
+      "mint": "ESXw3JG1a58WBqYGQXovNY3wUZWrdMFSmdkGGraKpump",
+      "quality_score": 1,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "SOLANA",
+      "mechanism_summary": "Arctic seal lifestyle meme; no mechanism described",
+      "red_flags": [
+        "no mechanism, meme-only",
+        "no product or service"
+      ],
+      "one_line_pitch": "Arctic seal lifestyle meme, zero mechanism",
+      "website_url": "https://iamsellos.xyz/",
+      "twitter_handle": null,
+      "reviewed_at": "2026-10-11T05:28:07.358Z"
+    },
+    {
+      "name": "Samur•ai",
+      "ticker": "Samur•ai",
+      "mint": "C8n8YuLT2XNhoGjv4WRGya4WVQd7Lj3BGhf7NupJpump",
+      "quality_score": 2,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "SOLANA",
+      "mechanism_summary": "AI guide and meme culture narrator; no mechanism described",
+      "red_flags": [
+        "no mechanism, personality narrative only",
+        "no product"
+      ],
+      "one_line_pitch": "Personality-driven AI guide meme, no mechanism",
+      "website_url": null,
+      "twitter_handle": null,
+      "reviewed_at": "2026-10-11T05:28:07.355Z"
+    },
+    {
+      "name": "Google Bard AI",
+      "ticker": "Google AI",
+      "mint": "DM9J4q3H3ZQHFAwJ3NNffeBYqnGt34uQbzDTEH29pump",
+      "quality_score": 1,
+      "is_real_tech": false,
+      "category": "impersonator",
+      "chain": "SOLANA",
+      "mechanism_summary": "Brand hijacking Google's Bard AI name; no mechanism described",
+      "red_flags": [
+        "brand hijack (Google)",
+        "empty description",
+        "no mechanism"
+      ],
+      "one_line_pitch": "Google Bard brand hijack, no mechanism",
+      "website_url": "https://ai.google/",
+      "twitter_handle": "google",
+      "reviewed_at": "2026-10-11T05:28:07.352Z"
+    },
+    {
+      "name": "FPES",
+      "ticker": "FPES",
+      "mint": "DGM3cLk9J6JgZpxLXJkmrZBrvxSZuyF9CLQdCen6pump",
+      "quality_score": 1,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "SOLANA",
+      "mechanism_summary": "Claims to bring private equity into focus; no mechanism described",
+      "red_flags": [
+        "no mechanism described",
+        "no working product"
+      ],
+      "one_line_pitch": "Branded narrative with no mechanism or product",
+      "website_url": null,
+      "twitter_handle": null,
+      "reviewed_at": "2026-10-11T05:28:07.323Z"
+    },
+    {
+      "name": "Super Intelligent Trump",
+      "ticker": "SIT",
+      "mint": "9ZsCeHMg3LMoHjohQgfSJkpFGxFeeBB6tQrT4Gxgpump",
+      "quality_score": 1,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "SOLANA",
+      "mechanism_summary": "Parody memecoin themed on Trump; standard memecoin features (1B supply, zero tax, no team alloc).",
+      "red_flags": [
+        "explicitly labeled parody memecoin",
+        "no real mechanism beyond standard memecoin properties",
+        "narrative-only, theme-driven",
+        "not affiliated with actual Trump/campaign (stated)"
+      ],
+      "one_line_pitch": "Trump-themed parody memecoin with standard memecoin structure.",
+      "website_url": "https://superintelligenttrump.fun",
+      "twitter_handle": "superinteltrump",
+      "reviewed_at": "2026-10-11T05:27:03.911Z"
+    },
+    {
+      "name": "PENPE",
+      "ticker": "PENPE",
+      "mint": "0xca196eeace713963dc41a12c000115d04b4813fa",
+      "quality_score": 1,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "No mechanism; name repeated. Duplicate of separate PENPE coin.",
+      "red_flags": [
+        "duplicate PENPE with different mint",
+        "no mechanism described",
+        "name-only entry"
+      ],
+      "one_line_pitch": "Duplicate PENPE variant, no mechanism.",
+      "website_url": null,
+      "twitter_handle": "penpehood",
+      "reviewed_at": "2026-10-11T05:27:03.910Z"
+    },
+    {
+      "name": "Aioli",
+      "ticker": "Aioli",
+      "mint": "2mRtgA6Sii8QNsgAwAGjEPLuGzdsPGjW42eCKwDcpump",
+      "quality_score": 0,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "SOLANA",
+      "mechanism_summary": "No description provided; name only.",
+      "red_flags": [
+        "empty description",
+        "name-only entry",
+        "no documentation or website"
+      ],
+      "one_line_pitch": "Aioli meme coin with no stated purpose.",
+      "website_url": "https://www.thedodo.com/daily-dodo/watch-the-awe-inspiring-moment-this-paralyzed-dog-takes-his-first-steps",
+      "twitter_handle": "realdesertdoge",
+      "reviewed_at": "2026-10-11T05:27:03.908Z"
+    },
+    {
+      "name": "Circle Jerk",
+      "ticker": "⭕️J",
+      "mint": "Heq9Cd1ndxViX221FZGnXNVXnTgBUekbajXH2v3apump",
+      "quality_score": 0,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "SOLANA",
+      "mechanism_summary": "No mechanism; description is a broken Twitter link.",
+      "red_flags": [
+        "no mechanism or description",
+        "description is only a dead Twitter URL",
+        "no website or documentation"
+      ],
+      "one_line_pitch": "Meme coin with only a broken Twitter link.",
+      "website_url": null,
+      "twitter_handle": "sadjamz_",
+      "reviewed_at": "2026-10-11T05:27:03.906Z"
+    },
+    {
+      "name": "Fables",
+      "ticker": "Fables",
+      "mint": "0x763dcfe71692aaded0dac466e9d60f962b4ed9c7",
+      "quality_score": 0,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "No mechanism; name only.",
+      "red_flags": [
+        "no description or mechanism",
+        "name-only entry",
+        "no website or documentation"
+      ],
+      "one_line_pitch": "Generic 'Fables' meme coin, name only.",
+      "website_url": null,
+      "twitter_handle": "agentdistrictai",
+      "reviewed_at": "2026-10-11T05:27:03.905Z"
+    },
+    {
+      "name": "The white whale PQC",
+      "ticker": "WHALEPQC",
+      "mint": "EAYgjuU5DWDKPzisSj82GWgnpAwZcW84xqi8sNDppump",
+      "quality_score": 2,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "SOLANA",
+      "mechanism_summary": "Narrative-only whale-themed meme; no actual mechanism described.",
+      "red_flags": [
+        "pure lore/narrative, no actual mechanism",
+        "website has {{TOKEN_CA}} template placeholders",
+        "PQC in name but zero cryptographic mechanism mentioned",
+        "no product or functionality described"
+      ],
+      "one_line_pitch": "Whale-narrative meme coin with zero technical mechanism.",
+      "website_url": "https://whalepqc.online/",
+      "twitter_handle": "whalepqc",
+      "reviewed_at": "2026-10-11T05:27:03.902Z"
+    },
+    {
+      "name": "OpenAI GPT-6",
+      "ticker": "OpenAI",
+      "mint": "FbnGRacfa7DEgQCKQhPvJycPpvcBYD63s6QWTdJWpump",
+      "quality_score": 0,
+      "is_real_tech": false,
+      "category": "impersonator",
+      "chain": "SOLANA",
+      "mechanism_summary": "Unauthorized impersonation of OpenAI brand and mission statement.",
+      "red_flags": [
+        "brand hijack (OpenAI name, ticker, mission)",
+        "unauthorized use of OpenAI intellectual property",
+        "no actual product or mechanism",
+        "scam/fraud vector"
+      ],
+      "one_line_pitch": "Fake OpenAI token impersonating the real company.",
+      "website_url": "https://openai.com/",
+      "twitter_handle": "openai",
+      "reviewed_at": "2026-10-11T05:27:03.901Z"
+    },
+    {
+      "name": "PENPE",
+      "ticker": "PENPE",
+      "mint": "0x385d3621525f649919c2f2f8893efc6c78b7cee7",
+      "quality_score": 1,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "No mechanism described; name repeated only.",
+      "red_flags": [
+        "no mechanism or description provided",
+        "name-only entry",
+        "no website or documentation"
+      ],
+      "one_line_pitch": "PENPE meme coin with no stated mechanism.",
+      "website_url": null,
+      "twitter_handle": "penpehood",
+      "reviewed_at": "2026-10-11T05:27:03.899Z"
+    },
+    {
+      "name": "cat cow",
+      "ticker": "$CCOW",
+      "mint": "5UZU1BYhE2mNz9N7DytDt3tiDpbsM1Nz4aGGLeqDpump",
+      "quality_score": 0,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "SOLANA",
+      "mechanism_summary": "Animal-themed meme token with 'cow milking' reference.",
+      "red_flags": [
+        "Pure meme wordplay, zero product or mechanism",
+        "No mechanism or tech described"
+      ],
+      "one_line_pitch": "Animal meme token with no actual product.",
+      "website_url": null,
+      "twitter_handle": null,
+      "reviewed_at": "2026-10-11T05:27:03.506Z"
+    },
+    {
+      "name": "Federal Private Equity System",
+      "ticker": "FPES",
+      "mint": "AMnU8vAQvDkayAcyutBL8eyxCoSHUV4CcHUQwuePpump",
+      "quality_score": 1,
+      "is_real_tech": false,
+      "category": "impersonator",
+      "chain": "SOLANA",
+      "mechanism_summary": "Token using 'Federal' branding, claims to 'bring private equity into focus'.",
+      "red_flags": [
+        "'Federal' prefix risks impersonating government/official systems",
+        "Vague 'brings into focus' is not a mechanism",
+        "No actual product or process described"
+      ],
+      "one_line_pitch": "Federal-branded private equity meme with vague language.",
+      "website_url": null,
+      "twitter_handle": null,
+      "reviewed_at": "2026-10-11T05:27:03.505Z"
+    },
+    {
+      "name": "Jaunito Bravo",
+      "ticker": "JAUNITO",
+      "mint": "2QT1FfRrru5GBSy9cE8UPtd1M5EURFiZXjvwPCU9pump",
+      "quality_score": 1,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "SOLANA",
+      "mechanism_summary": "Narrative claim about a viral AI influencer character.",
+      "red_flags": [
+        "Pure narrative/meme, no product or mechanism",
+        "No actual tech or buildable product described"
+      ],
+      "one_line_pitch": "AI influencer character meme with no underlying tech.",
+      "website_url": "https://www.tiktok.com/@juanito_bravo",
+      "twitter_handle": "chilldev69",
+      "reviewed_at": "2026-10-11T05:27:03.503Z"
+    },
+    {
+      "name": "Tiktok Coin",
+      "ticker": "TikTok",
+      "mint": "8gw5Sq38CHUFQeJCo2C7jdWEuzw9sWyiDHtHgpHQpump",
+      "quality_score": 0,
+      "is_real_tech": false,
+      "category": "impersonator",
+      "chain": "SOLANA",
+      "mechanism_summary": "Token deployed via tracker with TikTok brand name.",
+      "red_flags": [
+        "Clear brand hijack of TikTok/ByteDance",
+        "Description is only a deployment tracker link",
+        "Zero differentiation or product claim"
+      ],
+      "one_line_pitch": "TikTok brand hijack with zero actual product.",
+      "website_url": null,
+      "twitter_handle": "noorii__5",
+      "reviewed_at": "2026-10-11T05:27:03.502Z"
+    },
+    {
+      "name": "Reliance Qwik Supply",
+      "ticker": "QwikSupply",
+      "mint": "0xd777573d01ba57a154bb71653d72d7689b683dae",
+      "quality_score": 1,
+      "is_real_tech": false,
+      "category": "impersonator",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Community token claiming to honor Reliance Qwik Supply brand.",
+      "red_flags": [
+        "Hijacking Reliance (major Indian conglomerate) brand",
+        "Hijacking Qwik Supply (real Reliance subsidiary)",
+        "Vague 'community token' with no actual mechanics"
+      ],
+      "one_line_pitch": "Brand hijack of real Reliance/Qwik Supply company.",
+      "website_url": null,
+      "twitter_handle": "elonmusk",
+      "reviewed_at": "2026-10-11T05:27:03.501Z"
+    },
+    {
+      "name": "GRIMACE",
+      "ticker": "GRIMACE",
+      "mint": "0xd859e39009e1def7cfa4a8e2a5d04c85f20ba5f6",
+      "quality_score": 0,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Token deployed via tracking tool; no product or mechanism disclosed.",
+      "red_flags": [
+        "Description is only a deployment tracker link",
+        "Zero mechanism or product claim"
+      ],
+      "one_line_pitch": "Deployment tracker reference with no product.",
+      "website_url": null,
+      "twitter_handle": null,
+      "reviewed_at": "2026-10-11T05:27:03.499Z"
+    },
+    {
+      "name": "Wobblin",
+      "ticker": "WOB",
+      "mint": "0x721b0861a1ea9d841a5a034b6f2f6f349e8db31c",
+      "quality_score": 0,
+      "is_real_tech": false,
+      "category": "impersonator",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Duplicate token with identical name/ticker as 0x2ba8... (possible scam fork).",
+      "red_flags": [
+        "Duplicate mint with same name 'Wobblin' and ticker 'WOB'",
+        "Likely scam copy to confuse buyers"
+      ],
+      "one_line_pitch": "Scam duplicate of another Wobblin token.",
+      "website_url": null,
+      "twitter_handle": "wobblin_rh",
+      "reviewed_at": "2026-10-11T05:27:03.497Z"
+    },
+    {
+      "name": "Wobblin",
+      "ticker": "WOB",
+      "mint": "0x2ba8984746162088bd2184644b164b430236c018",
+      "quality_score": 0,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "No mechanism or product described; name only.",
+      "red_flags": [
+        "Completely featureless description",
+        "No product, mechanism, or differentiator"
+      ],
+      "one_line_pitch": "Name-only token with zero product or mechanism.",
+      "website_url": null,
+      "twitter_handle": "wobblin_rh",
+      "reviewed_at": "2026-10-11T05:27:03.480Z"
+    },
     {
       "name": "QUBE",
       "ticker": "QUBE",
@@ -162369,1572 +164669,6 @@
       "website_url": null,
       "twitter_handle": "chudinupf",
       "reviewed_at": "2026-09-30T02:41:24.956Z"
-    },
-    {
-      "name": "NYANCAT",
-      "ticker": "NYANCAT",
-      "mint": "3SKjS9oV8zbTSibbx47wbnxASA3xQcCRPwDW5ZQKpump",
-      "quality_score": 1,
-      "is_real_tech": false,
-      "category": "legacy_rejected",
-      "chain": "SOLANA",
-      "mechanism_summary": "Meme coin routing fees to the NyanCat internet meme brand via UsePaid; no other mechanism.",
-      "red_flags": [
-        "brand hijack risk — NyanCat is registered IP",
-        "templated UsePaid coin, same pattern as ApeBrain and many others",
-        "no standalone mechanism",
-        "no website or Twitter provided"
-      ],
-      "one_line_pitch": "Copy-paste UsePaid fee-routing coin slapped onto the NyanCat meme brand.",
-      "website_url": null,
-      "twitter_handle": "nyancat",
-      "reviewed_at": "2026-09-30T02:41:24.955Z"
-    },
-    {
-      "name": "ApeBrain",
-      "ticker": "ApeBrain",
-      "mint": "7kRVC46byD3PupvZ491x4Z63sW4T6PnM6pZ1qzRjBWqj",
-      "quality_score": 2,
-      "is_real_tech": false,
-      "category": "legacy_rejected",
-      "chain": "SOLANA",
-      "mechanism_summary": "Meme coin routing transaction fees to influencer @defemisback via the UsePaid fee-routing protocol.",
-      "red_flags": [
-        "coin itself has no standalone mechanism — just a UsePaid fee-pipe",
-        "UsePaid is the actual product; this coin is a disposable wrapper",
-        "no description beyond fee destination",
-        "templated pattern reused across many UsePaid coins"
-      ],
-      "one_line_pitch": "Blank meme coin whose only feature is wiring swap fees to a named influencer via UsePaid.",
-      "website_url": null,
-      "twitter_handle": "defemisback",
-      "reviewed_at": "2026-09-30T02:41:24.955Z"
-    },
-    {
-      "name": "pumpoids",
-      "ticker": "pumpoids",
-      "mint": "Hz6NUz8PnMxBZ6NaVss9vorBv4pYcWijp8iFriiBpump",
-      "quality_score": 1,
-      "is_real_tech": false,
-      "category": "legacy_rejected",
-      "chain": "SOLANA",
-      "mechanism_summary": "Meme coin riffing on humanoid robot trend with 'pumpoids' branding; no mechanism.",
-      "red_flags": [
-        "pure meme, no mechanism whatsoever",
-        "generic trend-riding (humanoids/AI hype)",
-        "no website or Twitter provided"
-      ],
-      "one_line_pitch": "AI-humanoid-themed meme coin with zero product or mechanism behind the name.",
-      "website_url": null,
-      "twitter_handle": "pumpoidspf",
-      "reviewed_at": "2026-09-30T02:41:24.954Z"
-    },
-    {
-      "name": "Fomo Family",
-      "ticker": "FOMO",
-      "mint": "BC93S9RPCCirSdkwZNF2FexHu6pDMMeETDPCCFhgrySG",
-      "quality_score": 1,
-      "is_real_tech": false,
-      "category": "legacy_rejected",
-      "chain": "SOLANA",
-      "mechanism_summary": "Identical duplicate of the other FOMO pump.fun coin; no description, same hijacked Twitter.",
-      "red_flags": [
-        "exact duplicate of mint xMsG... — same name, ticker, and @fomo handle",
-        "brand hijack — @fomo is a real trading app, not this token",
-        "no coin description",
-        "two coins sharing one identity = scam fork pattern"
-      ],
-      "one_line_pitch": "Second pump.fun clone squatting on the FOMO app brand; indistinguishable from the first.",
-      "website_url": null,
-      "twitter_handle": "fomo",
-      "reviewed_at": "2026-09-30T02:41:24.952Z"
-    },
-    {
-      "name": "Fomo Family",
-      "ticker": "FOMO",
-      "mint": "xMsGHYBzpRxUSqjWpdjQ3y7RM6B3bM9VJBpdmVuHXNW",
-      "quality_score": 1,
-      "is_real_tech": false,
-      "category": "legacy_rejected",
-      "chain": "SOLANA",
-      "mechanism_summary": "Empty-description coin riding the real FOMO multi-market trading app brand on Twitter.",
-      "red_flags": [
-        "brand hijack — @fomo is a real, unrelated multi-market trading app",
-        "no coin description whatsoever",
-        "duplicate ticker/name/handle shared with another pump.fun coin (mint BC93...)",
-        "Twitter content belongs to an established product, not this token"
-      ],
-      "one_line_pitch": "Blank pump.fun token squatting on the real FOMO trading app's Twitter brand.",
-      "website_url": null,
-      "twitter_handle": "fomo",
-      "reviewed_at": "2026-09-30T02:41:24.951Z"
-    },
-    {
-      "name": "CATAPULT SNURPS",
-      "ticker": "SNURPS",
-      "mint": "snurpJGrADeRygzW3R9fr5i4Axmtc1hmQ8B4CnfGWcx",
-      "quality_score": 1,
-      "is_real_tech": false,
-      "category": "legacy_rejected",
-      "chain": "SOLANA",
-      "mechanism_summary": "Token claiming affiliation with Catapult Trade NFT project; no mechanism beyond name-drop.",
-      "red_flags": [
-        "no mechanism described beyond NFT affiliation claim",
-        "possible brand hijack of Catapult Trade",
-        "no website or Twitter provided",
-        "pump.fun token with zero product detail"
-      ],
-      "one_line_pitch": "Pump.fun token claiming to represent Catapult Trade NFTs; nothing else.",
-      "website_url": null,
-      "twitter_handle": "letscatapult",
-      "reviewed_at": "2026-09-30T02:41:24.917Z"
-    },
-    {
-      "name": "Kevin Xu",
-      "ticker": "KEVIN",
-      "mint": "6yuvT6NmjHqf71j2hjGR7i8uZqKtVZivWxVj1BSFpump",
-      "quality_score": 1,
-      "is_real_tech": false,
-      "category": "legacy_rejected",
-      "chain": "SOLANA",
-      "mechanism_summary": "Pump.fun token routing trading fees to China tech analyst Kevin Xu (@kevinxu) via UsePaid platform.",
-      "red_flags": [
-        "templated UsePaid fee-routing pattern, not a unique mechanism",
-        "Kevin Xu affiliation almost certainly unauthorized",
-        "no product or utility beyond fee redirect",
-        "named after a real person without evident consent"
-      ],
-      "one_line_pitch": "Tribute token routing fees to China tech analyst Kevin Xu via UsePaid; no mechanism.",
-      "website_url": null,
-      "twitter_handle": "kevinxu",
-      "reviewed_at": "2026-09-30T02:40:40.616Z"
-    },
-    {
-      "name": "Dachshundcoin",
-      "ticker": "Dachshund",
-      "mint": "3Y9Do3AdZj7G39BpfsNpc45XWxdDoPGREixJztWPsWpJ",
-      "quality_score": 1,
-      "is_real_tech": false,
-      "category": "legacy_rejected",
-      "chain": "SOLANA",
-      "mechanism_summary": "Meme coin routing trading fees to tech entrepreneur Nikita Bier (@nikitabier) via UsePaid fee-routing platform.",
-      "red_flags": [
-        "templated UsePaid fee-routing pattern, not a unique mechanism",
-        "Nikita Bier affiliation almost certainly unauthorized",
-        "no product, utility, or technical substance",
-        "dachshund mascot + famous-person fee-redirect is a pure meme play"
-      ],
-      "one_line_pitch": "Dachshund meme coin funneling fees to Nikita Bier via UsePaid; pure tribute, no tech.",
-      "website_url": null,
-      "twitter_handle": "nikitabier",
-      "reviewed_at": "2026-09-30T02:40:40.615Z"
-    },
-    {
-      "name": "Abraham AI",
-      "ticker": "ABRAHAM",
-      "mint": "8uirsiKFzGTCDxLcVKbexMQSAd9BuqtDLAPJEvhqpump",
-      "quality_score": 2,
-      "is_real_tech": false,
-      "category": "legacy_rejected",
-      "chain": "SOLANA",
-      "mechanism_summary": "Pump.fun meme coin routing trading fees to AI artist Gene Kogan (@genekogan) via UsePaid; may loosely reference his Abraham AI art project.",
-      "red_flags": [
-        "templated UsePaid fee-routing pattern, not a unique mechanism",
-        "Gene Kogan affiliation unverified — likely unauthorized name use",
-        "no product or protocol beyond fee redirect",
-        "Abraham AI name is a real existing project; brand hijack risk"
-      ],
-      "one_line_pitch": "UsePaid tribute coin routing fees to AI artist Gene Kogan; no actual AI mechanism.",
-      "website_url": null,
-      "twitter_handle": "zzzzzsol",
-      "reviewed_at": "2026-09-30T02:40:40.613Z"
-    },
-    {
-      "name": "fomo",
-      "ticker": "FOMO",
-      "mint": "Axyba77Zrv8iPmgVPoEVaJw6zJnbxyjvNFdn7SKxvQcu",
-      "quality_score": 1,
-      "is_real_tech": false,
-      "category": "legacy_rejected",
-      "chain": "SOLANA",
-      "mechanism_summary": "Pump.fun token squatting on the real FOMO multi-chain trading app brand; no coin-specific mechanism exists.",
-      "red_flags": [
-        "brand hijack of real FOMO trading app (@fomo / fomo.fund)",
-        "one of three near-identical tokens with the same Twitter handle — mass-minted",
-        "no coin-specific mechanism; all content belongs to the real product",
-        "real product's Twitter bio used verbatim without authorization"
-      ],
-      "one_line_pitch": "One of 3 duplicate tokens squatting on the real FOMO multi-chain trading app brand.",
-      "website_url": null,
-      "twitter_handle": "fomo",
-      "reviewed_at": "2026-09-30T02:40:40.611Z"
-    },
-    {
-      "name": "fomo",
-      "ticker": "FOMO",
-      "mint": "5aYYHRGygxBU8eVBQfTwaHa8G4M6jLBAcP72UMBNeYZ",
-      "quality_score": 1,
-      "is_real_tech": false,
-      "category": "legacy_rejected",
-      "chain": "SOLANA",
-      "mechanism_summary": "Pump.fun token squatting on the real FOMO multi-chain trading app brand; no coin-specific mechanism exists.",
-      "red_flags": [
-        "brand hijack of real FOMO trading app (@fomo / fomo.fund)",
-        "one of three near-identical tokens with the same Twitter handle — mass-minted",
-        "no coin-specific mechanism; all content belongs to the real product",
-        "real product's Twitter bio used verbatim without authorization"
-      ],
-      "one_line_pitch": "One of 3 duplicate tokens squatting on the real FOMO multi-chain trading app brand.",
-      "website_url": null,
-      "twitter_handle": "fomo",
-      "reviewed_at": "2026-09-30T02:40:40.610Z"
-    },
-    {
-      "name": "fomo",
-      "ticker": "FOMO",
-      "mint": "3v67a7kN6YLyKaDznQ2rCD47YgiHwYc9CyzZnY6jyppE",
-      "quality_score": 1,
-      "is_real_tech": false,
-      "category": "legacy_rejected",
-      "chain": "SOLANA",
-      "mechanism_summary": "Pump.fun token squatting on the real FOMO multi-chain trading app brand; no coin-specific mechanism exists.",
-      "red_flags": [
-        "brand hijack of real FOMO trading app (@fomo / fomo.fund)",
-        "one of three near-identical tokens with the same Twitter handle — mass-minted",
-        "no coin-specific mechanism; all content belongs to the real product",
-        "real product's Twitter bio used verbatim without authorization"
-      ],
-      "one_line_pitch": "One of 3 duplicate tokens squatting on the real FOMO multi-chain trading app brand.",
-      "website_url": null,
-      "twitter_handle": "fomo",
-      "reviewed_at": "2026-09-30T02:40:40.609Z"
-    },
-    {
-      "name": "JevBook",
-      "ticker": "JevBook",
-      "mint": "87NcQZw4iKzdXWQc3LDy8WhdY2q9u5YRce9ZFN2rpump",
-      "quality_score": 3,
-      "is_real_tech": false,
-      "category": "legacy_rejected",
-      "chain": "SOLANA",
-      "mechanism_summary": "Claims to be a purpose-built trading venue for autonomous AI agent participants to place and fill orders.",
-      "red_flags": [
-        "single-sentence description with zero mechanism detail",
-        "no working product, no docs, no code referenced",
-        "AI-agent trading is an active buzzword trend with many claimants",
-        "pump.fun listing is inconsistent with serious infra play"
-      ],
-      "one_line_pitch": "Claimed AI-agent-only trading floor; one-liner concept, no mechanics or product shown.",
-      "website_url": null,
-      "twitter_handle": "jevbookfun",
-      "reviewed_at": "2026-09-30T02:40:40.608Z"
-    },
-    {
-      "name": "Lego Resistance Front",
-      "ticker": "LRF",
-      "mint": "fscxdQALaV8EM3fyyfALhzigkTa7VgjRnxcDf7wpump",
-      "quality_score": 1,
-      "is_real_tech": false,
-      "category": "legacy_rejected",
-      "chain": "SOLANA",
-      "mechanism_summary": "Pump.fun meme coin routing trading fees to Twitter creator @ExplosiveMediaa via UsePaid fee-routing platform.",
-      "red_flags": [
-        "templated UsePaid fee-routing pattern, not a unique mechanism",
-        "creator affiliation unverified",
-        "no product or utility beyond fee redirect",
-        "meme name with zero technical substance"
-      ],
-      "one_line_pitch": "UsePaid tribute coin routing trading fees to a Twitter influencer; no product.",
-      "website_url": null,
-      "twitter_handle": "pinglethe3rd",
-      "reviewed_at": "2026-09-30T02:40:40.607Z"
-    },
-    {
-      "name": "LARPURR",
-      "ticker": "LARPURR",
-      "mint": "tvptgMqMAVS7EtfZSeQsXGuoC872Sxuj628hKTUpump",
-      "quality_score": 2,
-      "is_real_tech": false,
-      "category": "legacy_rejected",
-      "chain": "SOLANA",
-      "mechanism_summary": "Cat meme coin with meta-ironic commentary on LARP culture in crypto Twitter and TikTok; no protocol.",
-      "red_flags": [
-        "no mechanism described",
-        "self-aware meta-commentary is a branding angle, not a product",
-        "no website or social links provided"
-      ],
-      "one_line_pitch": "Self-aware cat meme coin mocking fake PnL and LARP culture in crypto social media.",
-      "website_url": null,
-      "twitter_handle": "uncquant",
-      "reviewed_at": "2026-09-30T02:40:40.285Z"
-    },
-    {
-      "name": "musebook.trade",
-      "ticker": "musebook",
-      "mint": "APrLQfWx16M9h3qPVTnWkNPESYBoc7du3KFWCE6Npump",
-      "quality_score": 1,
-      "is_real_tech": false,
-      "category": "legacy_rejected",
-      "chain": "SOLANA",
-      "mechanism_summary": "Routes transaction fees to @0rdlibrary (Bitcoin Ordinals project) via UsePaid; no other mechanism.",
-      "red_flags": [
-        "third identical UsePaid fee-routing template in this batch of 8",
-        "no product beyond fee routing",
-        "no endorsement from the Ordinals project linked"
-      ],
-      "one_line_pitch": "Ordinals-library-themed meme coin; third instance of the same UsePaid fee-routing template in this batch.",
-      "website_url": null,
-      "twitter_handle": null,
-      "reviewed_at": "2026-09-30T02:40:40.285Z"
-    },
-    {
-      "name": "World Oil Trust Fund",
-      "ticker": "WOTF",
-      "mint": "kgLfVJiPwuEXXQBcY2AV3zh6MCkJvZfWLcNHjHJpump",
-      "quality_score": 2,
-      "is_real_tech": false,
-      "category": "legacy_rejected",
-      "chain": "SOLANA",
-      "mechanism_summary": "Claims to bring global oil markets on-chain with no described backing, oracle, or settlement mechanism.",
-      "red_flags": [
-        "contract address on site (WoTFnTwEqhf8...) does not match this mint — possible impersonation or stale site",
-        "'BUY ON COINBASE' claim for a pump.fun token is implausible/misleading",
-        "no oil-backing, oracle, or redemption mechanism described anywhere",
-        "countdown-timer hype marketing with no substance",
-        "landing page only"
-      ],
-      "one_line_pitch": "Vague 'oil on-chain' narrative site with mismatched contract address and no actual commodity mechanism.",
-      "website_url": "https://wotf.site",
-      "twitter_handle": null,
-      "reviewed_at": "2026-09-30T02:40:40.284Z"
-    },
-    {
-      "name": "Andy",
-      "ticker": "ANDY",
-      "mint": "CJ1aQVCKX5Y1H5St1S8ZdtiZGKyLJEKxYeHwNArh9QP1",
-      "quality_score": 1,
-      "is_real_tech": false,
-      "category": "legacy_rejected",
-      "chain": "SOLANA",
-      "mechanism_summary": "Meme coin claiming to be Zooko (Zcash founder) Wilcox's actual cat, no mechanism.",
-      "red_flags": [
-        "no mechanism described whatsoever",
-        "celebrity pet meme coin pattern",
-        "no website or social links"
-      ],
-      "one_line_pitch": "Pure meme coin claiming to be Zcash founder Zooko's actual cat.",
-      "website_url": null,
-      "twitter_handle": null,
-      "reviewed_at": "2026-09-30T02:40:40.282Z"
-    },
-    {
-      "name": "Red Kitten Crew",
-      "ticker": "RKC",
-      "mint": "CLS5ZXnmyY7YzEDkCm9uBcGUXbyN8bge6KFngWr7pump",
-      "quality_score": 1,
-      "is_real_tech": false,
-      "category": "legacy_rejected",
-      "chain": "SOLANA",
-      "mechanism_summary": "Meme coin routing transaction fees to Roaring Kitty (Keith Gill) via UsePaid service.",
-      "red_flags": [
-        "no product beyond fee routing",
-        "celebrity association without endorsement",
-        "brand hijack risk (Keith Gill/Roaring Kitty)",
-        "identical UsePaid template as coin #1 in this batch"
-      ],
-      "one_line_pitch": "Roaring Kitty-themed meme coin routing swap fees to Keith Gill via UsePaid.",
-      "website_url": null,
-      "twitter_handle": null,
-      "reviewed_at": "2026-09-30T02:40:40.281Z"
-    },
-    {
-      "name": "Doge School",
-      "ticker": "DogeSchool",
-      "mint": "FUcPTdQtbxgt5fYBPZctQbegpUc6XAynAGzTr6y8pump",
-      "quality_score": 1,
-      "is_real_tech": false,
-      "category": "legacy_rejected",
-      "chain": "SOLANA",
-      "mechanism_summary": "Meme coin routing transaction fees to Kabosu/Doge meme owner via UsePaid service.",
-      "red_flags": [
-        "no product beyond fee routing",
-        "celebrity/mascot association without endorsement",
-        "brand hijack risk (Kabosu/kabosumama)",
-        "UsePaid fee-routing is a templated pattern, not a coin-specific mechanism"
-      ],
-      "one_line_pitch": "Doge-themed meme coin routing swap fees to the Kabosu dog's owner via UsePaid.",
-      "website_url": null,
-      "twitter_handle": "thegossipsol",
-      "reviewed_at": "2026-09-30T02:40:40.262Z"
-    },
-    {
-      "name": "fomo",
-      "ticker": "FOMO",
-      "mint": "3Jg4aVDiqyrWhuDUFQRXiyRM75WbUYbwUrxf53DMmrBf",
-      "quality_score": 1,
-      "is_real_tech": false,
-      "category": "legacy_rejected",
-      "chain": "SOLANA",
-      "mechanism_summary": "No mechanism. Third duplicate pump.fun coin riding the real FOMO trading app's brand.",
-      "red_flags": [
-        "brand hijack — same @fomo Twitter as the other two FOMO pump.fun coins",
-        "empty description, no coin-specific mechanism or product",
-        "three separate pump.fun tokens simultaneously squatting on the same brand"
-      ],
-      "one_line_pitch": "Third blank FOMO-app brand-hijack token — identical pattern to mints 9PBW and 6BA7.",
-      "website_url": null,
-      "twitter_handle": "fomo",
-      "reviewed_at": "2026-09-30T02:40:11.205Z"
-    },
-    {
-      "name": "fomo",
-      "ticker": "FOMO",
-      "mint": "6BA7BzRNHPwCdYqqGM2wNDwZdpDbWsRHEoiuXCqBtof3",
-      "quality_score": 1,
-      "is_real_tech": false,
-      "category": "legacy_rejected",
-      "chain": "SOLANA",
-      "mechanism_summary": "No mechanism. Duplicate pump.fun coin hijacking the same real FOMO trading app brand.",
-      "red_flags": [
-        "brand hijack — identical Twitter @fomo as at least two other pump.fun coins",
-        "empty description, zero coin-specific content",
-        "multiple competing tokens share the same hijacked brand simultaneously"
-      ],
-      "one_line_pitch": "Second blank FOMO-app brand-hijack token — identical to mint 9PBW.",
-      "website_url": null,
-      "twitter_handle": "fomo",
-      "reviewed_at": "2026-09-30T02:40:11.204Z"
-    },
-    {
-      "name": "Beecumcoin",
-      "ticker": "BEECUM",
-      "mint": "2betEcLosgLESJQwGxWtYyy3WHtxU7TVBzBP6cCspump",
-      "quality_score": 1,
-      "is_real_tech": false,
-      "category": "legacy_rejected",
-      "chain": "SOLANA",
-      "mechanism_summary": "No mechanism. Motivational meme framing around 'becoming somebody' with no product.",
-      "red_flags": [
-        "description is motivational copy with zero technical or protocol content",
-        "no website, no Twitter, no product",
-        "aspirational narrative is a well-worn pump.fun template"
-      ],
-      "one_line_pitch": "Motivational-meme coin with no mechanism — 'becoming' dressed up as a pitch.",
-      "website_url": null,
-      "twitter_handle": "myquantitativee",
-      "reviewed_at": "2026-09-30T02:40:11.203Z"
-    },
-    {
-      "name": "Hecker",
-      "ticker": "HECKER",
-      "mint": "DZ84Quh3Fwrg5pBj1wQPkszo9Z1nSLQPSpZ21yrSpump",
-      "quality_score": 0,
-      "is_real_tech": false,
-      "category": "legacy_rejected",
-      "chain": "SOLANA",
-      "mechanism_summary": "No mechanism. Description is just the coin name repeated once.",
-      "red_flags": [
-        "description is a single word — the ticker itself",
-        "no website, no Twitter, no product or mechanism of any kind"
-      ],
-      "one_line_pitch": "Name and nothing else — pure placeholder coin.",
-      "website_url": null,
-      "twitter_handle": null,
-      "reviewed_at": "2026-09-30T02:40:11.202Z"
-    },
-    {
-      "name": "PumpCards",
-      "ticker": "PumpCards",
-      "mint": "54Hr9mWQjDkgS4u9ptbhuJyq8boTEz2cHxHvKqNqcYRo",
-      "quality_score": 0,
-      "is_real_tech": false,
-      "category": "legacy_rejected",
-      "chain": "SOLANA",
-      "mechanism_summary": "No mechanism. Self-described as 'memecoin' with no further detail.",
-      "red_flags": [
-        "description literally reads 'memecoin'",
-        "no website, no Twitter, no product of any kind",
-        "zero information beyond name and ticker"
-      ],
-      "one_line_pitch": "Ticker and name only — even the creator didn't bother with a description.",
-      "website_url": null,
-      "twitter_handle": "pumpfuneco",
-      "reviewed_at": "2026-09-30T02:40:11.200Z"
-    },
-    {
-      "name": "fomo",
-      "ticker": "FOMO",
-      "mint": "9PBWoWXa2dJUpUNHH9Pa8Hk8QJPeT1FSVgRnCTQ1yQyf",
-      "quality_score": 1,
-      "is_real_tech": false,
-      "category": "legacy_rejected",
-      "chain": "SOLANA",
-      "mechanism_summary": "No mechanism. Empty pump.fun coin riding the brand of the real FOMO trading app.",
-      "red_flags": [
-        "brand hijack — @fomo Twitter is a real multi-market trading app (fomo.family), not this token",
-        "empty description, zero coin-specific product or mechanism",
-        "one of at least three duplicate pump.fun coins sharing the same hijacked brand"
-      ],
-      "one_line_pitch": "Blank pump.fun token squatting on the name of a legitimate trading platform.",
-      "website_url": null,
-      "twitter_handle": "fomo",
-      "reviewed_at": "2026-09-30T02:40:11.188Z"
-    },
-    {
-      "name": "DelReycoin",
-      "ticker": "DelRey",
-      "mint": "AZWzdxV3tiWAgY98sXKgwbCybDP81MLk1iGzvx9spump",
-      "quality_score": 1,
-      "is_real_tech": false,
-      "category": "legacy_rejected",
-      "chain": "SOLANA",
-      "mechanism_summary": "Celebrity meme coin routing swap fees to @mayemusk (Maye Musk) via UsePaid; no other mechanism.",
-      "red_flags": [
-        "UsePaid fee-routing to a celebrity Twitter handle is a known templated pattern",
-        "brand hijack risk — Maye Musk has no known affiliation",
-        "no product, whitepaper, or utility beyond the fee route",
-        "name 'DelRey' unrelated to ticker target (Maye Musk)"
-      ],
-      "one_line_pitch": "Celebrity meme coin funneling fees to Maye Musk's Twitter via a generic fee-routing service.",
-      "website_url": null,
-      "twitter_handle": "zzzzzsol",
-      "reviewed_at": "2026-09-30T02:39:25.940Z"
-    },
-    {
-      "name": "fomo",
-      "ticker": "FOMO",
-      "mint": "AWk9GMwPw4Cuujp4XJVQrbAsYdv542gwwRNDpKje7HMT",
-      "quality_score": 1,
-      "is_real_tech": false,
-      "category": "legacy_rejected",
-      "chain": "SOLANA",
-      "mechanism_summary": "Fourth duplicate pump.fun token claiming the same @fomo Twitter brand; no on-chain mechanism or description.",
-      "red_flags": [
-        "fourth mint claiming identical @fomo Twitter — confirms serial squatter pattern",
-        "no description or mechanism",
-        "no working product",
-        "indistinguishable from mints 58kH8 and 4qpbw"
-      ],
-      "one_line_pitch": "Fourth pump.fun squatter token on the @fomo brand; carbon copy, nothing new.",
-      "website_url": null,
-      "twitter_handle": "fomo",
-      "reviewed_at": "2026-09-30T02:39:25.939Z"
-    },
-    {
-      "name": "Sentient Dawn",
-      "ticker": "Dawn",
-      "mint": "GT67odrvB6Fb5rhCjA18XFixnLVWhBokfLKxDCZbpump",
-      "quality_score": 2,
-      "is_real_tech": false,
-      "category": "legacy_rejected",
-      "chain": "SOLANA",
-      "mechanism_summary": "Trading fees routed to a Twitter handle (@SentientDawn) via the UsePaid fee-routing service; no other product.",
-      "red_flags": [
-        "UsePaid fee-routing to a Twitter handle is a templated pump.fun pattern, not a novel mechanism",
-        "no website, whitepaper, or product beyond fee routing",
-        "no explanation of what @SentientDawn is or does with the fees"
-      ],
-      "one_line_pitch": "Meme token that pipes swap fees to a Twitter account via UsePaid; no product behind it.",
-      "website_url": null,
-      "twitter_handle": "kingchillxyz",
-      "reviewed_at": "2026-09-30T02:39:25.938Z"
-    },
-    {
-      "name": "fomo",
-      "ticker": "FOMO",
-      "mint": "HpYrWHH5Bf7Vx1xpnARa1sN5vEJVvxE72c9tWCBfvq78",
-      "quality_score": 1,
-      "is_real_tech": false,
-      "category": "legacy_rejected",
-      "chain": "SOLANA",
-      "mechanism_summary": "Same @fomo squatter pattern; one post adds a @TendiesRH cross-promotion hint but still zero on-coin mechanism.",
-      "red_flags": [
-        "one of four pump.fun mints claiming the same @fomo Twitter",
-        "@TendiesRH mention suggests cross-promotional squatter ring, not a real product",
-        "no description or mechanism",
-        "no working product"
-      ],
-      "one_line_pitch": "Another @fomo squatter clone with a @TendiesRH cross-promo twist; still no real mechanism.",
-      "website_url": null,
-      "twitter_handle": "fomo",
-      "reviewed_at": "2026-09-30T02:39:25.938Z"
-    },
-    {
-      "name": "fomo",
-      "ticker": "FOMO",
-      "mint": "4qpbwXRuHhA9jTYBYvJaLcJhRkDnfjy2KBRGyRoySQJx",
-      "quality_score": 1,
-      "is_real_tech": false,
-      "category": "legacy_rejected",
-      "chain": "SOLANA",
-      "mechanism_summary": "Identical to the other @fomo squatter mints — no coin-specific mechanism or description.",
-      "red_flags": [
-        "exact duplicate of mint 58kH8 — same Twitter, same bio, same posts",
-        "multiple mints claiming same Twitter is a serial-squatter pattern",
-        "no description or mechanism",
-        "no working product"
-      ],
-      "one_line_pitch": "Exact clone of another pump.fun FOMO squatter token; nothing distinguishes it.",
-      "website_url": null,
-      "twitter_handle": "fomo",
-      "reviewed_at": "2026-09-30T02:39:25.936Z"
-    },
-    {
-      "name": "fomo",
-      "ticker": "FOMO",
-      "mint": "58kH8HhgVXtsayKKxvk18pWhWUmC4vTxwwdCBJnrrxi1",
-      "quality_score": 1,
-      "is_real_tech": false,
-      "category": "legacy_rejected",
-      "chain": "SOLANA",
-      "mechanism_summary": "No coin-specific mechanism; squatter token riding the @fomo multi-market trading app brand with no description.",
-      "red_flags": [
-        "four separate pump.fun mints all claim the identical @fomo Twitter — classic squatter/clone swarm",
-        "no description or on-coin mechanism",
-        "real @fomo brand ('trading app for the rest of us') is unrelated to these pump.fun tokens",
-        "no working product link"
-      ],
-      "one_line_pitch": "One of four duplicate pump.fun squatter tokens claiming the @fomo trading-app brand; no mechanism.",
-      "website_url": null,
-      "twitter_handle": "fomo",
-      "reviewed_at": "2026-09-30T02:39:25.935Z"
-    },
-    {
-      "name": "daxcoin",
-      "ticker": "dax",
-      "mint": "4VaJ7EW4czuRu2RPBn3fvxy6UkP6qDHT5PXvu2o3pump",
-      "quality_score": 0,
-      "is_real_tech": false,
-      "category": "legacy_rejected",
-      "chain": "SOLANA",
-      "mechanism_summary": "No mechanism whatsoever; Twitter account belongs to a real software developer at Anomaly Co, unrelated to any token.",
-      "red_flags": [
-        "brand hijack — @thdxr is a real developer building OpenCode at anomaly.co, has nothing to do with a token",
-        "zero description or mechanism",
-        "Twitter posts are about software hiring and career advice, not a coin project",
-        "name 'daxcoin' has no stated purpose"
-      ],
-      "one_line_pitch": "Nameless token that hijacked a real developer's Twitter; no product or mechanism exists.",
-      "website_url": null,
-      "twitter_handle": "thdxr",
-      "reviewed_at": "2026-09-30T02:39:25.908Z"
-    },
-    {
-      "name": "XDAO",
-      "ticker": "XDAO",
-      "mint": "7vnYY5R8R3tji8sgB2iUeC5d6XyWbiZsRPPfqyMvpump",
-      "quality_score": 1,
-      "is_real_tech": false,
-      "category": "legacy_rejected",
-      "chain": "SOLANA",
-      "mechanism_summary": "Pump.fun coin squatting on real XDAO DAO-infrastructure brand; real XDAO token is $DAO on EVM chains, not Solana.",
-      "red_flags": [
-        "brand hijack of real XDAO project (xdao.app, live since 2021, 35k+ DAOs)",
-        "real XDAO native token is $DAO on Ethereum/BSC — not a Solana pump.fun token",
-        "ticker XDAO != real project ticker $DAO, further evidence of impersonation",
-        "Twitter posts are from the genuine XDAO team used deceptively"
-      ],
-      "one_line_pitch": "Impersonation coin using real XDAO DAO-platform branding; the actual $DAO token lives on EVM, not here.",
-      "website_url": null,
-      "twitter_handle": null,
-      "reviewed_at": "2026-09-30T02:39:08.973Z"
-    },
-    {
-      "name": "Perplexity AI",
-      "ticker": "Perplexity",
-      "mint": "JQuUGJcA81sAMAinXrXcvnSBUpPVQuUaXYVzRDNpump",
-      "quality_score": 0,
-      "is_real_tech": false,
-      "category": "legacy_rejected",
-      "chain": "SOLANA",
-      "mechanism_summary": "Explicit memecoin riding Perplexity AI's Samsung integration news; zero protocol mechanism.",
-      "red_flags": [
-        "confirmed brand hijack — Twitter IS the real Perplexity AI company account",
-        "description self-identifies as a 'memecoin mirror' with a 500x claim",
-        "real Perplexity AI has no Solana token",
-        "no mechanism whatsoever"
-      ],
-      "one_line_pitch": "Explicit Perplexity AI brand-hijack memecoin; creator admits it's a 'mirror' with zero real mechanism.",
-      "website_url": null,
-      "twitter_handle": null,
-      "reviewed_at": "2026-09-30T02:39:08.972Z"
-    },
-    {
-      "name": "fomo",
-      "ticker": "FOMO",
-      "mint": "jSc9oxNWbA4oSCAwvH8b71c7Xm5HkpM9np2r4R8pump",
-      "quality_score": 0,
-      "is_real_tech": false,
-      "category": "legacy_rejected",
-      "chain": "SOLANA",
-      "mechanism_summary": "Exact duplicate of another pump.fun FOMO coin — same name, ticker, Twitter, posts, different mint.",
-      "red_flags": [
-        "identical metadata to mint 7e4FgZh… — one or both are counterfeit",
-        "brand hijack risk of real @fomo platform",
-        "no mechanism, no description",
-        "two competing mints for same identity is a classic scam pattern"
-      ],
-      "one_line_pitch": "Duplicate FOMO coin; same Twitter/name/ticker as a different mint — one is definitely fake.",
-      "website_url": null,
-      "twitter_handle": "fomo",
-      "reviewed_at": "2026-09-30T02:39:08.970Z"
-    },
-    {
-      "name": "fomo",
-      "ticker": "FOMO",
-      "mint": "7e4FgZhiffsTg2mKAtNgvHMJNycaQg9DEs2Ud3Npump",
-      "quality_score": 1,
-      "is_real_tech": false,
-      "category": "legacy_rejected",
-      "chain": "SOLANA",
-      "mechanism_summary": "Claims identity of real @fomo trading-app brand; no coin-specific mechanism or tokenomics described.",
-      "red_flags": [
-        "brand hijack risk — @fomo is a real trading platform",
-        "duplicate identity: two separate pump.fun mints share this exact Twitter/name",
-        "no description, no whitepaper, no coin-specific mechanism",
-        "Twitter posts are generic hype, not protocol documentation"
-      ],
-      "one_line_pitch": "Pump.fun coin riding the real @fomo trading-app identity; no mechanism, just brand coattails.",
-      "website_url": null,
-      "twitter_handle": "fomo",
-      "reviewed_at": "2026-09-30T02:39:08.969Z"
-    },
-    {
-      "name": "PPF Cat Riki",
-      "ticker": "RIKI",
-      "mint": "GmnoiyaPgEH2Mjt29yCNmDZwJ1u4vjrS9We3MxFZpump",
-      "quality_score": 0,
-      "is_real_tech": false,
-      "category": "legacy_rejected",
-      "chain": "SOLANA",
-      "mechanism_summary": "No mechanism. Cat meme coin with a one-liner hype description and nothing else.",
-      "red_flags": [
-        "zero mechanism or product claim",
-        "description is literally 'Lets do this!'",
-        "no website, no Twitter, no concept"
-      ],
-      "one_line_pitch": "Generic cat meme coin with no concept, mechanism, or product whatsoever.",
-      "website_url": null,
-      "twitter_handle": "rikipfpcat",
-      "reviewed_at": "2026-09-30T02:39:08.967Z"
-    },
-    {
-      "name": "fomo",
-      "ticker": "FOMO",
-      "mint": "X4kvCxC4y6wxc6UtX8NAQ76tw9JUcdWsDCH3pbWpump",
-      "quality_score": 1,
-      "is_real_tech": false,
-      "category": "legacy_rejected",
-      "chain": "SOLANA",
-      "mechanism_summary": "No mechanism; fourth pump.fun coin in batch hijacking @fomo real trading app brand.",
-      "red_flags": [
-        "brand hijack — @fomo is a real trading app ('One balance, multiple markets, no bridging')",
-        "no description or mechanism",
-        "fourth duplicate FOMO coin sharing same Twitter handle in this batch",
-        "no coin-specific content whatsoever"
-      ],
-      "one_line_pitch": "Fourth duplicate meme coin squatting on @fomo trading app brand; nothing original.",
-      "website_url": null,
-      "twitter_handle": "fomo",
-      "reviewed_at": "2026-09-30T02:39:04.907Z"
-    },
-    {
-      "name": "Fomo Family",
-      "ticker": "FOMO",
-      "mint": "Bj4VvP3MJu9goV9P87QqeGXDwPRxXvuxza8oM7ZHFKMz",
-      "quality_score": 1,
-      "is_real_tech": false,
-      "category": "legacy_rejected",
-      "chain": "SOLANA",
-      "mechanism_summary": "No mechanism; meme coin hijacking @fomo real trading app brand under 'Fomo Family' name.",
-      "red_flags": [
-        "brand hijack — @fomo is a real trading app",
-        "no description or mechanism",
-        "four pump.fun coins share same @fomo Twitter in this batch"
-      ],
-      "one_line_pitch": "Another meme coin squatting on @fomo trading app brand; no mechanism.",
-      "website_url": null,
-      "twitter_handle": "fomo",
-      "reviewed_at": "2026-09-30T02:39:04.905Z"
-    },
-    {
-      "name": "FONEPAD",
-      "ticker": "FONE",
-      "mint": "2vbF1uLMCgkdc7eVK925GXWxbfAYCs1VdBRBFse1pump",
-      "quality_score": 0,
-      "is_real_tech": false,
-      "category": "legacy_rejected",
-      "chain": "SOLANA",
-      "mechanism_summary": "No mechanism at all; description field contains only the coin name.",
-      "red_flags": [
-        "description is literally just the coin name repeated",
-        "no Twitter, no website, no mechanism",
-        "zero information beyond a ticker"
-      ],
-      "one_line_pitch": "Name-only token with no description, mechanism, Twitter, or context.",
-      "website_url": null,
-      "twitter_handle": "launchonfone",
-      "reviewed_at": "2026-09-30T02:39:04.903Z"
-    },
-    {
-      "name": "Alien Elon",
-      "ticker": "ELIEN",
-      "mint": "pdRnEWuRSAJ6z9KMwRAYBMuXu1JTeg3u6G9Ra79pump",
-      "quality_score": 0,
-      "is_real_tech": false,
-      "category": "legacy_rejected",
-      "chain": "SOLANA",
-      "mechanism_summary": "No mechanism; exact duplicate of another Alien Elon coin in the same batch.",
-      "red_flags": [
-        "exact duplicate of coin #4 — identical name, ticker, Twitter, and dev",
-        "no description or mechanism",
-        "serial launcher pattern (same dev spinning multiple identical mints)"
-      ],
-      "one_line_pitch": "Literal duplicate Alien Elon mint; same dev, same nothing.",
-      "website_url": null,
-      "twitter_handle": "banesthemane",
-      "reviewed_at": "2026-09-30T02:39:04.901Z"
-    },
-    {
-      "name": "Alien Elon",
-      "ticker": "ELIEN",
-      "mint": "8forsvCCrCRnYy3m7gH6b6gpsSMHQhCM8MU889NDpump",
-      "quality_score": 0,
-      "is_real_tech": false,
-      "category": "legacy_rejected",
-      "chain": "SOLANA",
-      "mechanism_summary": "No mechanism; generic Elon Musk alien meme coin with no described utility or product.",
-      "red_flags": [
-        "no description or mechanism",
-        "generic celebrity meme coin",
-        "exact duplicate of coin #5 (same name, ticker, Twitter)",
-        "Twitter bio is just 'your local dev and meme cooker'"
-      ],
-      "one_line_pitch": "Generic Elon alien meme coin; zero mechanism, zero product, duplicate mint.",
-      "website_url": null,
-      "twitter_handle": "banesthemane",
-      "reviewed_at": "2026-09-30T02:39:04.899Z"
-    },
-    {
-      "name": "fomo",
-      "ticker": "FOMO",
-      "mint": "5c5nFpFiK2f7temvhjMYL72gVMyYbx2RcNfJB8Upump",
-      "quality_score": 1,
-      "is_real_tech": false,
-      "category": "legacy_rejected",
-      "chain": "SOLANA",
-      "mechanism_summary": "No mechanism; duplicate pump.fun coin hijacking @fomo real trading app brand.",
-      "red_flags": [
-        "brand hijack — @fomo is a real trading app",
-        "no description or mechanism",
-        "direct duplicate of at least 3 other FOMO coins in this batch using same Twitter",
-        "no coin-specific content whatsoever"
-      ],
-      "one_line_pitch": "Duplicate meme coin squatting on @fomo real trading app brand; nothing else.",
-      "website_url": null,
-      "twitter_handle": "fomo",
-      "reviewed_at": "2026-09-30T02:39:04.898Z"
-    },
-    {
-      "name": "Bongo Cat",
-      "ticker": "BongoCat",
-      "mint": "EJrFj7qYS59R5s1rfA7kn4zGYhApoibNrsyvq1kTpump",
-      "quality_score": 2,
-      "is_real_tech": false,
-      "category": "legacy_rejected",
-      "chain": "SOLANA",
-      "mechanism_summary": "Generic internet meme coin routing transaction fees to a creator via third-party UsePaid service.",
-      "red_flags": [
-        "BongoCat is a generic internet meme with no coin-specific angle",
-        "UsePaid fee routing is a third-party bolt-on, not coin-native tech",
-        "no product, website, or roadmap"
-      ],
-      "one_line_pitch": "BongoCat meme coin with creator fee-routing via UsePaid; no original tech.",
-      "website_url": null,
-      "twitter_handle": "keepbongoingsol",
-      "reviewed_at": "2026-09-30T02:39:04.896Z"
-    },
-    {
-      "name": "Fomo Family",
-      "ticker": "FOMO",
-      "mint": "4Q4ZnUU27xNETKftXjvMVEeGcQum6KfHZfPkgUoZ8zzK",
-      "quality_score": 1,
-      "is_real_tech": false,
-      "category": "legacy_rejected",
-      "chain": "SOLANA",
-      "mechanism_summary": "No mechanism; meme coin riding @fomo Twitter brand of a real multi-market trading app.",
-      "red_flags": [
-        "brand hijack — @fomo is a real trading app ('One balance, multiple markets, no bridging')",
-        "no description or coin-specific mechanism",
-        "four separate pump.fun coins sharing the same @fomo Twitter handle in this batch alone"
-      ],
-      "one_line_pitch": "Meme coin squatting on @fomo real trading app brand; no mechanism whatsoever.",
-      "website_url": null,
-      "twitter_handle": "fomo",
-      "reviewed_at": "2026-09-30T02:39:04.869Z"
-    },
-    {
-      "name": "Tekless",
-      "ticker": "Tekless",
-      "mint": "51yneYaDjSXXzeg9nwiiipukHpUaatSqfJmhpcvvpump",
-      "quality_score": 0,
-      "is_real_tech": false,
-      "category": "legacy_rejected",
-      "chain": "SOLANA",
-      "mechanism_summary": "No mechanism; description is 'send this shit'.",
-      "red_flags": [
-        "description is literally 'send this shit'",
-        "no Twitter, no site, no concept",
-        "pure noise"
-      ],
-      "one_line_pitch": "Zero-content meme coin with a three-word description containing no mechanism whatsoever.",
-      "website_url": null,
-      "twitter_handle": "devilsiopf",
-      "reviewed_at": "2026-09-30T02:38:14.155Z"
-    },
-    {
-      "name": "Solana Cat",
-      "ticker": "SOLCAT",
-      "mint": "2EGTjG92XVXTV4wU1eutt4AaFP4rCJpRuirK9wB9pump",
-      "quality_score": 1,
-      "is_real_tech": false,
-      "category": "legacy_rejected",
-      "chain": "SOLANA",
-      "mechanism_summary": "No mechanism; empty description; associated Twitter belongs to CatSolHat, a different token with a different contract address.",
-      "red_flags": [
-        "brand hijack: @catsolhat bio explicitly states a different CA (E99fN4tCRb1tQphXK1DU7prXji6hMzxETyPNJro19Fwz), not this mint",
-        "empty description",
-        "generic Solana + cat meme with no differentiator",
-        "CatSolHat itself is a templated memecoin hub, adding another layer of derivativeness"
-      ],
-      "one_line_pitch": "Generic Solana cat meme coin whose Twitter identity belongs to a completely different token.",
-      "website_url": null,
-      "twitter_handle": "catsolhat",
-      "reviewed_at": "2026-09-30T02:38:14.153Z"
-    },
-    {
-      "name": "Eyes",
-      "ticker": "Eyes",
-      "mint": "FVguqcaukAZjuCFQMH4Qi29x56xN27UQfmSbdvaG6ZvC",
-      "quality_score": 0,
-      "is_real_tech": false,
-      "category": "legacy_rejected",
-      "chain": "SOLANA",
-      "mechanism_summary": "No mechanism whatsoever; reuses the fomo trading app's Twitter with generic filler posts.",
-      "red_flags": [
-        "brand hijack: @fomo Twitter is the same real trading app used by coin #3",
-        "empty description",
-        "posts are generic community-hype filler ('For the believers.')",
-        "third coin in a cluster all pointing at the fomo brand"
-      ],
-      "one_line_pitch": "Zero-content meme coin reusing a real trading app's Twitter for borrowed credibility.",
-      "website_url": null,
-      "twitter_handle": "fomo",
-      "reviewed_at": "2026-09-30T02:38:14.152Z"
-    },
-    {
-      "name": "fomocat",
-      "ticker": "FOMOCAT",
-      "mint": "FLR4uDCFRsz91ZkiKyLTB6k92PxkpgbDXGYy94wJpump",
-      "quality_score": 1,
-      "is_real_tech": false,
-      "category": "legacy_rejected",
-      "chain": "SOLANA",
-      "mechanism_summary": "No mechanism; coin is a cat-variant derivative loosely attached to fomo app; Twitter is a fomo team member's personal account.",
-      "red_flags": [
-        "Twitter @seyong is a fomo app team member's personal account, not a coin-specific identity",
-        "empty description",
-        "cat + app-brand mashup with zero utility",
-        "part of a cluster of fomo-branded pump.fun coins (see also fomo/Eyes)"
-      ],
-      "one_line_pitch": "Cat meme derivative of the fomo trading app brand, launched by or near a team member's personal handle.",
-      "website_url": null,
-      "twitter_handle": "seyong",
-      "reviewed_at": "2026-09-30T02:38:14.151Z"
-    },
-    {
-      "name": "fomo",
-      "ticker": "FOMO",
-      "mint": "634tsWaPTeNYf4Bpf4w9JHYBc57dBh1SrJ4JxuqW5utM",
-      "quality_score": 2,
-      "is_real_tech": false,
-      "category": "legacy_rejected",
-      "chain": "SOLANA",
-      "mechanism_summary": "No coin-specific mechanism; Twitter belongs to fomo, a real multi-market trading app unrelated to this pump.fun token.",
-      "red_flags": [
-        "brand hijack risk: @fomo is a real trading app ('one balance, multiple markets') with no apparent connection to this pump.fun coin",
-        "empty description",
-        "two other pump.fun coins (Eyes, fomocat) also point at the same fomo brand, suggesting coordinated meme-farming",
-        "no token utility described"
-      ],
-      "one_line_pitch": "Namecoin riding the fomo trading-app brand; no mechanism, likely a brand-hijack pump.",
-      "website_url": null,
-      "twitter_handle": "fomo",
-      "reviewed_at": "2026-09-30T02:38:14.149Z"
-    },
-    {
-      "name": "Verity",
-      "ticker": "Verity",
-      "mint": "9AB4aA5ivq8adLhrVZ93azBpZqWaQenwqHPz1duspump",
-      "quality_score": 1,
-      "is_real_tech": false,
-      "category": "legacy_rejected",
-      "chain": "SOLANA",
-      "mechanism_summary": "Claims to route trading fees to a specific creator wallet via UsePaid fee-routing service.",
-      "red_flags": [
-        "description is a single sentence with no further detail",
-        "no Twitter, no site, no product described beyond a fee destination",
-        "UsePaid fee-routing is an external service, not a coin-specific mechanism",
-        "no whitepaper, roadmap, or working product evidence"
-      ],
-      "one_line_pitch": "Meme coin whose only stated feature is routing fees to one wallet via a third-party service.",
-      "website_url": null,
-      "twitter_handle": "draxcooks",
-      "reviewed_at": "2026-09-30T02:38:14.148Z"
-    },
-    {
-      "name": "BONKCAT",
-      "ticker": "BONKCAT",
-      "mint": "SoLo9oxzLDpcq1dpqAgMwgce5WqkRDtNXK7EPnbmeta",
-      "quality_score": 0,
-      "is_real_tech": false,
-      "category": "legacy_rejected",
-      "chain": "SOLANA",
-      "mechanism_summary": "No mechanism; coin name is generic meme; linked Twitter belongs to unrelated Solomon Labs yield-stablecoin protocol.",
-      "red_flags": [
-        "brand hijack: @solomon_labs is Solomon Labs ($SOLO), a real VC-backed yield-dollar protocol with zero relation to BONKCAT",
-        "empty description",
-        "mint suffix 'meta' pattern common in spoofs",
-        "pure animal meme, no mechanism"
-      ],
-      "one_line_pitch": "Generic cat meme coin whose Twitter handle belongs to an unrelated real DeFi protocol.",
-      "website_url": null,
-      "twitter_handle": "solomon_labs",
-      "reviewed_at": "2026-09-30T02:38:14.147Z"
-    },
-    {
-      "name": "Mempool Moth",
-      "ticker": "Moth",
-      "mint": "EwkN3LkbnavBZ3UfMBTRU6FwzSHQCetCi5YHr7DUuzPy",
-      "quality_score": 2,
-      "is_real_tech": false,
-      "category": "legacy_rejected",
-      "chain": "SOLANA",
-      "mechanism_summary": "Pump.fun token routing trading fees to @mikeinspace via UsePaid; name implies mempool focus but has none.",
-      "red_flags": [
-        "no independent mechanism — purely a UsePaid instance",
-        "name ('Mempool Moth') implies on-chain analytics but description has zero connection to that",
-        "no website or independent Twitter"
-      ],
-      "one_line_pitch": "Fan token for @mikeinspace piping trading fees via UsePaid; mempool name is pure branding.",
-      "website_url": null,
-      "twitter_handle": null,
-      "reviewed_at": "2026-09-30T02:38:08.762Z"
-    },
-    {
-      "name": "Trilly",
-      "ticker": "TRILLY",
-      "mint": "GV2zUF6Kqc2jCgNzHGBYpEZPvDTSoSGhhgYLyTnxUcKM",
-      "quality_score": 1,
-      "is_real_tech": false,
-      "category": "legacy_rejected",
-      "chain": "SOLANA",
-      "mechanism_summary": "Token directing fees to @gireumee; no other mechanism, product, or context provided.",
-      "red_flags": [
-        "no mechanism beyond a single fee-routing destination",
-        "no website, Twitter, or even explicit protocol mention",
-        "appears to follow UsePaid pattern with even less context than others"
-      ],
-      "one_line_pitch": "Bare fan token routing fees to one X account; no other product or mechanic.",
-      "website_url": null,
-      "twitter_handle": "gunsnsoni",
-      "reviewed_at": "2026-09-30T02:38:08.759Z"
-    },
-    {
-      "name": "SIMON",
-      "ticker": "SIMON",
-      "mint": "72QZeg1nZ28DpoKBkx6GbqLE9Enbb9mAqWLvnsUgpump",
-      "quality_score": 2,
-      "is_real_tech": false,
-      "category": "legacy_rejected",
-      "chain": "SOLANA",
-      "mechanism_summary": "Pump.fun token routing trading fees to @simonoxleee via UsePaid; no other mechanism.",
-      "red_flags": [
-        "no independent mechanism — purely a UsePaid instance",
-        "no website, Twitter, or community of its own"
-      ],
-      "one_line_pitch": "Creator fan token sending all trading fees to one X account via UsePaid.",
-      "website_url": null,
-      "twitter_handle": "ballenciga",
-      "reviewed_at": "2026-09-30T02:38:08.757Z"
-    },
-    {
-      "name": "SelfieCatCoin",
-      "ticker": "Selfie",
-      "mint": "2ocynzCerfJC2wS5Urhkx6w794bSy9oWuPmrTaHXpump",
-      "quality_score": 0,
-      "is_real_tech": false,
-      "category": "legacy_rejected",
-      "chain": "SOLANA",
-      "mechanism_summary": "No mechanism described; meme coin announced only via a Discord invite link.",
-      "red_flags": [
-        "zero mechanism or product described",
-        "Discord-only launch, no website or Twitter provided",
-        "description is a bare invite link"
-      ],
-      "one_line_pitch": "No-mechanism meme coin launched on Discord with no further description.",
-      "website_url": null,
-      "twitter_handle": "genyrational",
-      "reviewed_at": "2026-09-30T02:38:08.754Z"
-    },
-    {
-      "name": "Memefighters",
-      "ticker": "MEMEFIGHTERS",
-      "mint": "5uKB2q5M5CA5xRCTrEYUge3nS5XEyNNuQgyKJPvvN1b7",
-      "quality_score": 2,
-      "is_real_tech": false,
-      "category": "legacy_rejected",
-      "chain": "SOLANA",
-      "mechanism_summary": "Pump.fun token whose trading fees are routed to a specific X user via the UsePaid protocol.",
-      "red_flags": [
-        "no independent mechanism — 100% borrowed from UsePaid",
-        "no product, community, or utility beyond one-user fee routing",
-        "no website or Twitter of its own"
-      ],
-      "one_line_pitch": "Generic fan token that pipes its trading fees to one X handle via UsePaid.",
-      "website_url": null,
-      "twitter_handle": "quantsdev1223",
-      "reviewed_at": "2026-09-30T02:38:08.731Z"
-    },
-    {
-      "name": "FLEXLARP",
-      "ticker": "FLEXLARP",
-      "mint": "2c1XUDeRFTCaaGg9AeJp1FdJC34LA1refedDDVv4eBuv",
-      "quality_score": 1,
-      "is_real_tech": false,
-      "category": "legacy_rejected",
-      "chain": "SOLANA",
-      "mechanism_summary": "Meme coin with no mechanism; entire pitch is 'LARP or get larped, that's the trenches.'",
-      "red_flags": [
-        "no mechanism, no product, no website, no Twitter",
-        "pure slang/culture play indistinguishable from thousands of pump.fun launches",
-        "description reads as coarse-filter bait, not a real concept"
-      ],
-      "one_line_pitch": "Trenches-slang meme coin with no mechanism, no product, and nothing to evaluate.",
-      "website_url": null,
-      "twitter_handle": "flexlarpsol",
-      "reviewed_at": "2026-09-30T02:36:56.911Z"
-    },
-    {
-      "name": "Culture Dog",
-      "ticker": "culture",
-      "mint": "EUgH18CQjrSHcguMVLv4cyybX5gdPVET7hoDujnmpump",
-      "quality_score": 1,
-      "is_real_tech": false,
-      "category": "legacy_rejected",
-      "chain": "SOLANA",
-      "mechanism_summary": "Dog-themed meme coin; 'culture is king' is the complete pitch, no mechanism.",
-      "red_flags": [
-        "no mechanism whatsoever",
-        "no Twitter, no website, no product",
-        "name + description indistinguishable from hundreds of dog-meme tokens"
-      ],
-      "one_line_pitch": "Generic dog meme coin with no mechanism, no social presence, and no product.",
-      "website_url": null,
-      "twitter_handle": "culturedogpump",
-      "reviewed_at": "2026-09-30T02:36:56.906Z"
-    },
-    {
-      "name": "Normi The Normie",
-      "ticker": "Normi",
-      "mint": "4xCbV4X8byhUA7RNZF3nmrym1UNyJusfxTiWnGDhpump",
-      "quality_score": 0,
-      "is_real_tech": false,
-      "category": "legacy_rejected",
-      "chain": "SOLANA",
-      "mechanism_summary": "No mechanism whatsoever. Description is 'send this shit'.",
-      "red_flags": [
-        "zero mechanism or product",
-        "three-word description with no content",
-        "pure meme with no fig-leaf to evaluate"
-      ],
-      "one_line_pitch": "Zero-content meme coin; description is literally 'send this shit'.",
-      "website_url": null,
-      "twitter_handle": "devilsiopf",
-      "reviewed_at": "2026-09-30T02:36:44.898Z"
-    },
-    {
-      "name": "Grok",
-      "ticker": "Grok",
-      "mint": "8KcqX329o8y9jjrzJqwf7w9dV994Ae5VtxDbUk3Tpump",
-      "quality_score": 1,
-      "is_real_tech": false,
-      "category": "legacy_rejected",
-      "chain": "SOLANA",
-      "mechanism_summary": "No coin-specific mechanism; Twitter account is the real xAI Grok product's official account.",
-      "red_flags": [
-        "brand hijack — @grok is the real xAI Grok AI assistant's official account",
-        "posts are genuine Grok/xAI product content unrelated to this token",
-        "no coin-specific product or mechanism whatsoever"
-      ],
-      "one_line_pitch": "Pump.fun ticker squatting on the Grok/xAI brand with no mechanism; real xAI Grok Twitter attached.",
-      "website_url": null,
-      "twitter_handle": "grok",
-      "reviewed_at": "2026-09-30T02:36:44.896Z"
-    },
-    {
-      "name": "beardi.sh",
-      "ticker": "beardi",
-      "mint": "9bFZdmMMCFCYcqymtpmiyi4CcU5vdcQb3akoNDU5soJ2",
-      "quality_score": 1,
-      "is_real_tech": false,
-      "category": "legacy_rejected",
-      "chain": "SOLANA",
-      "mechanism_summary": "Token with no own mechanism; merely routes fees to a specific X handle using the UsePaid infrastructure.",
-      "red_flags": [
-        "no original mechanism — purely an instance of UsePaid (coin #1 in this batch)",
-        "meme coin with fee-routing as a fig-leaf",
-        "no product, no site, no independent utility"
-      ],
-      "one_line_pitch": "A meme coin that only exists to pipe fees to one Twitter account via UsePaid; no own tech.",
-      "website_url": null,
-      "twitter_handle": "folkpepe200",
-      "reviewed_at": "2026-09-30T02:36:44.894Z"
-    },
-    {
-      "name": "Visa",
-      "ticker": "Visa",
-      "mint": "5c8gdEhxiS2s959xUHv8Rw7r7HFoAKZTAn7a2Fpkpump",
-      "quality_score": 1,
-      "is_real_tech": false,
-      "category": "legacy_rejected",
-      "chain": "SOLANA",
-      "mechanism_summary": "No coin-specific mechanism; Twitter account is the real Visa corporation's official account.",
-      "red_flags": [
-        "brand hijack — @visa is the real Visa Inc. corporate account",
-        "posts are genuine Visa Corp content (Open USD, stablecoins) unrelated to this token",
-        "no coin-specific product or mechanism whatsoever"
-      ],
-      "one_line_pitch": "Pump.fun ticker squatting on the Visa brand with no mechanism; real Visa Corp Twitter attached.",
-      "website_url": null,
-      "twitter_handle": "visa",
-      "reviewed_at": "2026-09-30T02:36:44.893Z"
-    },
-    {
-      "name": "Pons",
-      "ticker": "PONS",
-      "mint": "RLfrUiRmFkjNHqk3jMu3WkCQEnWaJkivQNQQh8qpump",
-      "quality_score": 2,
-      "is_real_tech": false,
-      "category": "legacy_rejected",
-      "chain": "SOLANA",
-      "mechanism_summary": "Pump.fun squatter borrowing real Pons brand; actual Pons pairs meme tokens with stock tokens via Uniswap v4 for Robinhood.",
-      "red_flags": [
-        "8 distinct pump.fun mints all claiming same @ponsdotfamily Twitter — mass ticker squatting",
-        "brand hijack: Twitter/bio content belongs to unaffiliated real Pons project on Ethereum/Uniswap v4",
-        "empty description — zero coin-specific mechanism",
-        "real Pons product lives on Ethereum, not Solana pump.fun"
-      ],
-      "one_line_pitch": "Pump.fun impersonator of Pons, a real Ethereum/Uniswap-v4 memestock-launch platform.",
-      "website_url": null,
-      "twitter_handle": "ponsdotfamily",
-      "reviewed_at": "2026-09-30T02:35:34.242Z"
-    },
-    {
-      "name": "Pons",
-      "ticker": "PONS",
-      "mint": "CGMBxDzdB2k3wQgM7e8ZYvFnDcRQBzc8esFEbqypump",
-      "quality_score": 2,
-      "is_real_tech": false,
-      "category": "legacy_rejected",
-      "chain": "SOLANA",
-      "mechanism_summary": "Pump.fun squatter borrowing real Pons brand; actual Pons pairs meme tokens with stock tokens via Uniswap v4 for Robinhood.",
-      "red_flags": [
-        "8 distinct pump.fun mints all claiming same @ponsdotfamily Twitter — mass ticker squatting",
-        "brand hijack: Twitter/bio content belongs to unaffiliated real Pons project on Ethereum/Uniswap v4",
-        "description '-PONS' is nonsensical — zero coin-specific mechanism",
-        "real Pons product lives on Ethereum, not Solana pump.fun"
-      ],
-      "one_line_pitch": "Pump.fun impersonator of Pons, a real Ethereum/Uniswap-v4 memestock-launch platform.",
-      "website_url": null,
-      "twitter_handle": null,
-      "reviewed_at": "2026-09-30T02:35:34.241Z"
-    },
-    {
-      "name": "Pons",
-      "ticker": "PONS",
-      "mint": "iG8wRS2S8LRVQQnUhYTDmbv5i9VF9tGQzbTo65Ppump",
-      "quality_score": 2,
-      "is_real_tech": false,
-      "category": "legacy_rejected",
-      "chain": "SOLANA",
-      "mechanism_summary": "Pump.fun squatter borrowing real Pons brand; actual Pons pairs meme tokens with stock tokens via Uniswap v4 for Robinhood.",
-      "red_flags": [
-        "8 distinct pump.fun mints all claiming same @ponsdotfamily Twitter — mass ticker squatting",
-        "brand hijack: Twitter/bio content belongs to unaffiliated real Pons project on Ethereum/Uniswap v4",
-        "empty description — zero coin-specific mechanism",
-        "real Pons product lives on Ethereum, not Solana pump.fun"
-      ],
-      "one_line_pitch": "Pump.fun impersonator of Pons, a real Ethereum/Uniswap-v4 memestock-launch platform.",
-      "website_url": null,
-      "twitter_handle": "ponsdotfamily",
-      "reviewed_at": "2026-09-30T02:35:34.239Z"
-    },
-    {
-      "name": "Pons",
-      "ticker": "PONS",
-      "mint": "nFmbiowSHPDHSnNWxkVdu1hLDaX5woR23NuYK5mpump",
-      "quality_score": 2,
-      "is_real_tech": false,
-      "category": "legacy_rejected",
-      "chain": "SOLANA",
-      "mechanism_summary": "Pump.fun squatter borrowing real Pons brand; actual Pons pairs meme tokens with stock tokens via Uniswap v4 for Robinhood.",
-      "red_flags": [
-        "8 distinct pump.fun mints all claiming same @ponsdotfamily Twitter — mass ticker squatting",
-        "brand hijack: Twitter/bio content belongs to unaffiliated real Pons project on Ethereum/Uniswap v4",
-        "empty description — zero coin-specific mechanism",
-        "real Pons product lives on Ethereum, not Solana pump.fun"
-      ],
-      "one_line_pitch": "Pump.fun impersonator of Pons, a real Ethereum/Uniswap-v4 memestock-launch platform.",
-      "website_url": null,
-      "twitter_handle": "ponsdotfamily",
-      "reviewed_at": "2026-09-30T02:35:34.238Z"
-    },
-    {
-      "name": "Pons",
-      "ticker": "PONS",
-      "mint": "Vpp3VuvvbjfA7yUFYAymRZMUd7aurCqiE6xCERspump",
-      "quality_score": 2,
-      "is_real_tech": false,
-      "category": "legacy_rejected",
-      "chain": "SOLANA",
-      "mechanism_summary": "Pump.fun squatter borrowing real Pons brand; actual Pons pairs meme tokens with stock tokens via Uniswap v4 for Robinhood.",
-      "red_flags": [
-        "8 distinct pump.fun mints all claiming same @ponsdotfamily Twitter — mass ticker squatting",
-        "brand hijack: Twitter/bio content belongs to unaffiliated real Pons project on Ethereum/Uniswap v4",
-        "description ('Launch coins on Robinhood via PONS SOL') is marketing copy lifted from real project, not a coin-specific mechanism",
-        "real Pons product lives on Ethereum, not Solana pump.fun"
-      ],
-      "one_line_pitch": "Pump.fun impersonator of Pons, a real Ethereum/Uniswap-v4 memestock-launch platform.",
-      "website_url": null,
-      "twitter_handle": null,
-      "reviewed_at": "2026-09-30T02:35:34.237Z"
-    },
-    {
-      "name": "Pons",
-      "ticker": "PONS",
-      "mint": "eQd4EzeNPpDnMUxzUohiGMRdecFyxCqtqsCVLzupump",
-      "quality_score": 2,
-      "is_real_tech": false,
-      "category": "legacy_rejected",
-      "chain": "SOLANA",
-      "mechanism_summary": "Pump.fun squatter borrowing real Pons brand; actual Pons pairs meme tokens with stock tokens via Uniswap v4 for Robinhood.",
-      "red_flags": [
-        "8 distinct pump.fun mints all claiming same @ponsdotfamily Twitter — mass ticker squatting",
-        "brand hijack: Twitter/bio content belongs to unaffiliated real Pons project on Ethereum/Uniswap v4",
-        "empty description — zero coin-specific mechanism",
-        "real Pons product lives on Ethereum, not Solana pump.fun"
-      ],
-      "one_line_pitch": "Pump.fun impersonator of Pons, a real Ethereum/Uniswap-v4 memestock-launch platform.",
-      "website_url": null,
-      "twitter_handle": "ponsdotfamily",
-      "reviewed_at": "2026-09-30T02:35:34.235Z"
-    },
-    {
-      "name": "Pons",
-      "ticker": "PONS",
-      "mint": "2Kx3Y8aZvZZhevFXknepQ6FXrcebwRLGWDmHazmxpump",
-      "quality_score": 2,
-      "is_real_tech": false,
-      "category": "legacy_rejected",
-      "chain": "SOLANA",
-      "mechanism_summary": "Pump.fun squatter borrowing real Pons brand; actual Pons pairs meme tokens with stock tokens via Uniswap v4 for Robinhood.",
-      "red_flags": [
-        "8 distinct pump.fun mints all claiming same @ponsdotfamily Twitter — mass ticker squatting",
-        "brand hijack: Twitter/bio content belongs to unaffiliated real Pons project on Ethereum/Uniswap v4",
-        "description ('Launch coins on Robinhood via PONS SOL') is marketing copy lifted from real project, not a coin-specific mechanism",
-        "real Pons product lives on Ethereum, not Solana pump.fun"
-      ],
-      "one_line_pitch": "Pump.fun impersonator of Pons, a real Ethereum/Uniswap-v4 memestock-launch platform.",
-      "website_url": null,
-      "twitter_handle": null,
-      "reviewed_at": "2026-09-30T02:35:34.233Z"
-    },
-    {
-      "name": "Pons",
-      "ticker": "PONS",
-      "mint": "4wcodYew4VPX9uigRD1zFCLFcacAXGmobew2vpYpump",
-      "quality_score": 2,
-      "is_real_tech": false,
-      "category": "legacy_rejected",
-      "chain": "SOLANA",
-      "mechanism_summary": "Pump.fun squatter borrowing real Pons brand; actual Pons pairs meme tokens with stock tokens via Uniswap v4 for Robinhood.",
-      "red_flags": [
-        "8 distinct pump.fun mints all claiming same @ponsdotfamily Twitter — mass ticker squatting",
-        "brand hijack: Twitter/bio content belongs to unaffiliated real Pons project on Ethereum/Uniswap v4",
-        "empty description — zero coin-specific mechanism",
-        "real Pons product lives on Ethereum, not Solana pump.fun"
-      ],
-      "one_line_pitch": "Pump.fun impersonator of Pons, a real Ethereum/Uniswap-v4 memestock-launch platform.",
-      "website_url": null,
-      "twitter_handle": null,
-      "reviewed_at": "2026-09-30T02:35:34.232Z"
-    },
-    {
-      "name": "Hugging Face",
-      "ticker": "Hugging Face",
-      "mint": "H8XXfnqwZoCHAyiX9teXauZm8G83TVrJ38ALDL7ppump",
-      "quality_score": 1,
-      "is_real_tech": false,
-      "category": "legacy_rejected",
-      "chain": "SOLANA",
-      "mechanism_summary": "No coin-specific mechanism; name and Twitter borrowed wholesale from Hugging Face company.",
-      "red_flags": [
-        "brand hijack of Hugging Face AI company",
-        "Twitter @huggingface is the real HuggingFace corporate account, posts are theirs not a coin project's",
-        "empty coin description",
-        "no mechanism or tokenomics described"
-      ],
-      "one_line_pitch": "Hugging Face brand hijack coin; entire identity is the real AI company's Twitter and name.",
-      "website_url": null,
-      "twitter_handle": null,
-      "reviewed_at": "2026-09-30T02:35:31.331Z"
-    },
-    {
-      "name": "Grok AI",
-      "ticker": "GrokAI",
-      "mint": "wkh25M434ascXKbbxMDu2kWKDTjciTBZBJMQazBpump",
-      "quality_score": 1,
-      "is_real_tech": false,
-      "category": "legacy_rejected",
-      "chain": "SOLANA",
-      "mechanism_summary": "No coin-specific mechanism; pure brand-name grab riding xAI's Grok product.",
-      "red_flags": [
-        "brand hijack of xAI Grok",
-        "Twitter @grok is the real xAI product account, not a coin project",
-        "description is two words with zero mechanism",
-        "no working product or protocol described"
-      ],
-      "one_line_pitch": "Pump.fun token named after xAI's Grok with no coin mechanism whatsoever.",
-      "website_url": null,
-      "twitter_handle": null,
-      "reviewed_at": "2026-09-30T02:35:31.294Z"
-    },
-    {
-      "name": "SIUUU",
-      "ticker": "SIUUU",
-      "mint": "GaZtzjauwFRAi3SNPrpLFyh2WkrveQhJ6ChFX5BMd23W",
-      "quality_score": 0,
-      "is_real_tech": false,
-      "category": "legacy_rejected",
-      "chain": "SOLANA",
-      "mechanism_summary": "Cristiano Ronaldo 'SIUU' celebration meme coin; linked website is the unrelated StonkFun token-launch platform.",
-      "red_flags": [
-        "website is unrelated StonkFun platform (not the coin's site — likely a squatted or wrong URL)",
-        "pure celebrity meme, no mechanism",
-        "no product or protocol"
-      ],
-      "one_line_pitch": "Ronaldo celebration meme coin; linked website is an unrelated token-launch platform, no mechanism.",
-      "website_url": "https://www.stonkfun.xyz",
-      "twitter_handle": null,
-      "reviewed_at": "2026-09-30T02:32:59.235Z"
-    },
-    {
-      "name": "cake.xmr",
-      "ticker": "CAKE",
-      "mint": "3iEA83cL34DU7uUPfK1J7ASqnrzzZEwNpJMb32BRpump",
-      "quality_score": 2,
-      "is_real_tech": false,
-      "category": "legacy_rejected",
-      "chain": "SOLANA",
-      "mechanism_summary": "Copies Cake Wallet's product description verbatim; creator fees route to apparent Cake Wallet founder via UsePaid; no coin-specific mechanism.",
-      "red_flags": [
-        "likely brand hijack of Cake Wallet (real, established Monero privacy wallet with 1M+ downloads)",
-        "possible impersonation of founder @vikrantnyc to legitimize fee farming",
-        "no coin-specific mechanism — description is lifted directly from Cake Wallet's product copy",
-        "UsePaid fee accrual ($1.3k+) suggests active extraction"
-      ],
-      "one_line_pitch": "Meme coin copying Cake Wallet's description; routes creator fees to apparent founder, no distinct mechanism.",
-      "website_url": "https://usepaid.app/t/zhgyjupp",
-      "twitter_handle": "izakasimov",
-      "reviewed_at": "2026-09-30T02:32:59.234Z"
-    },
-    {
-      "name": "DOTZERO",
-      "ticker": "DOT0",
-      "mint": "FgpEtLCk9VDpSsPwpJwSZTDD3eARm3JA1Qs8CvuWpump",
-      "quality_score": 1,
-      "is_real_tech": false,
-      "category": "legacy_rejected",
-      "chain": "SOLANA",
-      "mechanism_summary": "Green dot mascot coin framed as an 'origin' art project; no crypto mechanism, empty on-chain description.",
-      "red_flags": [
-        "site hosted on free ChatGPT AI site builder (north-sage.chatgpt.site)",
-        "no mechanism whatsoever",
-        "empty on-chain description",
-        "templated/AI-generated landing page"
-      ],
-      "one_line_pitch": "Green dot mascot coin on an AI-generated free site; purely aesthetic, zero mechanism.",
-      "website_url": "https://dotzero-origin.north-sage.chatgpt.site/",
-      "twitter_handle": "dot_zero0",
-      "reviewed_at": "2026-09-30T02:32:59.233Z"
-    },
-    {
-      "name": "Hot Bot",
-      "ticker": "HOT",
-      "mint": "F7utVyohrQpLcbWDpMB1NuA5WHepVjfLPuSoD47nu8tH",
-      "quality_score": 2,
-      "is_real_tech": false,
-      "category": "legacy_rejected",
-      "chain": "SOLANA",
-      "mechanism_summary": "Vague claim of private specialist trading bots; linked site is just this coin's listing page on clawpump.tech, not a product page.",
-      "red_flags": [
-        "website resolves to token's own listing on clawpump.tech, not a standalone product",
-        "bot mechanism not described beyond marketing copy",
-        "clawpump.tech is the real product; this coin appears to be one of many tokens launched on it"
-      ],
-      "one_line_pitch": "Trading-bot claim token launched on clawpump.tech; no distinct mechanism, just a vague bot narrative.",
-      "website_url": "https://clawpump.tech/tokens/F7utVyohrQpLcbWDpMB1NuA5WHepVjfLPuSoD47nu8tH",
-      "twitter_handle": "usehotbot",
-      "reviewed_at": "2026-09-30T02:32:59.232Z"
-    },
-    {
-      "name": "ketnipz",
-      "ticker": "ketnipz",
-      "mint": "HuV9hyv2879qvFws25BWr5cs2aTJCW97mXafdmA3pump",
-      "quality_score": 1,
-      "is_real_tech": false,
-      "category": "legacy_rejected",
-      "chain": "SOLANA",
-      "mechanism_summary": "Meme coin using Ketnipz cartoon character IP ('pink floating dude'); no crypto mechanism beyond the token itself.",
-      "red_flags": [
-        "brand hijack risk — Ketnipz is a real, established Instagram cartoon character brand (Harry Hambley)",
-        "no mechanism",
-        "empty on-chain description"
-      ],
-      "one_line_pitch": "Unauthorized meme coin using real Ketnipz IP; no mechanism, just character theming.",
-      "website_url": "https://ketnipz.fun/",
-      "twitter_handle": null,
-      "reviewed_at": "2026-09-30T02:32:59.231Z"
-    },
-    {
-      "name": "Spooky Inu",
-      "ticker": "SI",
-      "mint": "HoozTija9nnE2ox1neimmMtnGn4DgbnkyySKgRMupump",
-      "quality_score": 0,
-      "is_real_tech": false,
-      "category": "legacy_rejected",
-      "chain": "SOLANA",
-      "mechanism_summary": "No mechanism stated. Halloween-themed inu dog meme coin with no description, website, or product.",
-      "red_flags": [
-        "no description beyond the name",
-        "no website or social links",
-        "another inu-branded meme clone"
-      ],
-      "one_line_pitch": "Generic Halloween inu meme coin with zero description, no product, no mechanism.",
-      "website_url": null,
-      "twitter_handle": null,
-      "reviewed_at": "2026-09-30T02:32:59.207Z"
     }
   ],
   "new_idea_suggestions": [
