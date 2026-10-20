@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T04:34:01.223Z",
+  "generated_at": "2026-10-20T05:11:13.597Z",
   "note": "Quality-reviewed tech coins: passed a local coarse filter (qwen2.5:3b) then a real judgment pass (Haiku) confirming is_real_tech=true. new_idea_suggestions are Haiku-generated, informed by these patterns but NOT copies -- creative seeds for further review, not trading signals.",
   "quality_tech_coins": [
     {
@@ -3395,6 +3395,107 @@
       "reviewed_at": "2026-10-03T13:48:57.247Z",
       "created_at": "2026-10-03T13:17:03.000Z",
       "peak_cap_usd": 23132,
+      "fees_usd": null
+    },
+    {
+      "name": "Cardsvault",
+      "ticker": "CARDSVAULT",
+      "mint": "5D7hVaRQCKRnmU5df3kdhLuyuRdLpZ6FHUgCARDVAULT",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "Trading fees from the token are used to purchase physical Pokémon cards, which are then distributed to holders via a lottery/draw mechanism.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "relies on external physical asset execution (Pokemon TCG)",
+        "success depends on trading volume/fee-to-asset conversion math"
+      ],
+      "one_line_pitch": "A fee-redistribution model that converts trading volume into physical, vaulted Pokémon TCG or RWA-lite rewards.",
+      "website_url": "https://cardsvault.fun/",
+      "twitter_handle": "cardsvaultfun",
+      "reviewed_at": "2026-10-20T05:09:33.276Z",
+      "created_at": "2026-10-20T00:05:38.000Z",
+      "peak_cap_usd": 34051,
+      "fees_usd": 400
+    },
+    {
+      "name": "Borly",
+      "ticker": "BORLY",
+      "mint": "ECFmFaHyJ8krXErN1QAxqUq97xCFUWYv9Ax5j2Aspump",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "Trading fees are redirected into a shared compute pool used to pay for AI model inference (e.g., OpenAI/Anthropic) for all users.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "high-level abstraction (compute/fee conversion requires a specific off-chain or on-chain accounting layer)"
+      ],
+      "one_line_pitch": "A protocol where trading fees directly fund the way you pay for AI model API calls.",
+      "website_url": "https://borly.fun",
+      "twitter_handle": "borlyfun",
+      "reviewed_at": "2026-10-20T05:09:07.434Z",
+      "created_at": "2026-10-20T03:00:57.000Z",
+      "peak_cap_usd": 374054,
+      "fees_usd": 361
+    },
+    {
+      "name": "StoxPreps",
+      "ticker": "STOXP",
+      "mint": "0x81dca20ce60114a3ee649a3c92816740efa82cf1",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "On-chain, high-leverage (1000x) perpetuals for US equities, utilizing a 'house' or clearinghouse model for settlement and liquidity.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "requires heavy-duty oracles for real-time equity price feeds",
+        "high-leverage (1000x) carries extreme liquidation risk"
+      ],
+      "one_line_pitch": "A specialized derivatives protocol for trading US-equities-backed perpetuals with extreme leverage on-chain.",
+      "website_url": "https://stoxpreps.com",
+      "twitter_handle": "stoxpreps",
+      "reviewed_at": "2026-10-20T05:06:09.088Z",
+      "created_at": "2026-10-20T02:38:12.000Z",
+      "peak_cap_usd": null,
+      "fees_usd": null
+    },
+    {
+      "name": "Fornum",
+      "ticker": "Fornum",
+      "mint": "DVeEwpYyHYTxZKW85nscc8xTXhCXQBbZAMECGU1Hpump",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "A deployment layer that uses WhatsApp messages as the transaction trigger or command interface to launch and manage Solana tokens.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "heavy reliance on external platform (WhatsApp) for UX",
+        "newly deployed or low-liquidity risk"
+      ],
+      "one_line_pitch": "A Solana launchpad that uses WhatsApp messages as a simple interface for deploying and managing tokens.",
+      "website_url": "https://www.fornum.fun/",
+      "twitter_handle": "usefornum",
+      "reviewed_at": "2026-10-20T05:05:33.977Z",
+      "created_at": "2026-10-20T02:33:53.457Z",
+      "peak_cap_usd": 12983,
+      "fees_usd": null
+    },
+    {
+      "name": "Keelcodes",
+      "ticker": "KEEL",
+      "mint": "0x179ccb40db341b540ec5d4e35924b3baa25f3732",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "AI-powered agentic toolset for mapping, querying, and documenting existing GitHub repositories with source-cited answers.",
+      "uniqueness": "derivative",
+      "red_flags": [],
+      "one_line_pitch": "An AI-driven developer tool for automated codebase mapping and querying via GitHub URLs.",
+      "website_url": "https://www.keelcode.xyz",
+      "twitter_handle": "keelcodes",
+      "reviewed_at": "2026-10-20T05:03:54.547Z",
+      "created_at": "2026-10-20T02:00:01.000Z",
+      "peak_cap_usd": null,
       "fees_usd": null
     },
     {
@@ -30801,6 +30902,27 @@
       "reviewed_at": "2026-10-03T13:13:07.851Z",
       "created_at": "2026-10-02T15:51:06.000Z",
       "peak_cap_usd": 14132,
+      "fees_usd": null
+    },
+    {
+      "name": "Jugger Wallet",
+      "ticker": "JUGG",
+      "mint": "5Vcw3J8MCz1UNCYuchcxWbvWcbQ4tXDNy2EW7A59pump",
+      "quality_score": 6,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "A Solana wallet using post-quantum resistant signature schemes to protect transactions against future quantum computing-based forgery.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "quantum-resistance is a heavy cryptographic claim for a single wallet app",
+        "marketing-heavy way to frame a standard wallet service"
+      ],
+      "one_line_pitch": "A Solana wallet claiming post-quantum cryptographic security for all transaction signatures.",
+      "website_url": "https://juggerwallet.com",
+      "twitter_handle": "juggerwallet",
+      "reviewed_at": "2026-10-20T05:05:02.007Z",
+      "created_at": "2026-10-20T02:31:31.137Z",
+      "peak_cap_usd": 11573,
       "fees_usd": null
     },
     {
@@ -77793,7 +77915,7 @@
       "twitter_handle": null,
       "reviewed_at": "2026-10-10T07:02:59.132Z",
       "created_at": "2026-10-10T05:22:43.000Z",
-      "peak_cap_usd": 43046979,
+      "peak_cap_usd": 43110611,
       "fees_usd": 69
     },
     {
@@ -96665,6 +96787,63 @@
     }
   ],
   "low_quality_tech_coins": [
+    {
+      "name": "AethelAI",
+      "ticker": "AETHEL",
+      "mint": "0xcf03d21e883e5b295ce0e06be5beabe6038d43ab",
+      "quality_score": 3,
+      "is_real_tech": false,
+      "category": "impersonator",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Claims to route low-latency AI inference tasks across decentralized GPU clusters, specifically optimized for Robinhood Chain.",
+      "red_flags": [
+        "brand hijack risk (Robinhood Chain)",
+        "generic AI infrastructure narrative",
+        "vague 'routing' mechanism without specific architectural detail"
+      ],
+      "one_line_pitch": "A GPU-routing/inference layer claiming optimization for the Robinhood blockchain ecosystem.",
+      "website_url": "https://aethelai.online",
+      "twitter_handle": "aethelai_",
+      "reviewed_at": "2026-10-20T05:08:27.179Z"
+    },
+    {
+      "name": "American Oil Dividend Fund",
+      "ticker": "AODF",
+      "mint": "rMmGf43DLS1HNVVKipp3d7h3XFBE5bVtj5SUZyzpump",
+      "quality_score": 2,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "SOLANA",
+      "mechanism_summary": "Aims to tokenize physical oil dividend payouts, though the actual smart contract or oracles for price/payouts are not clearly defined.",
+      "red_flags": [
+        "no clear technical mechanism provided",
+        "relies on external, undefined oracles/allocation models",
+        "purely a way to wrap a legacy asset on-chain"
+      ],
+      "one_line_pitch": "A speculative way to represent physical oil dividends as on-chain tokens.",
+      "website_url": "https://aodf.info/",
+      "twitter_handle": null,
+      "reviewed_at": "2026-10-20T05:04:20.522Z"
+    },
+    {
+      "name": "Giga Legends",
+      "ticker": "LEGENDS",
+      "mint": "0xa898c7f89fa738be5e2ad93e72f580306a5a4504",
+      "quality_score": 1,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "No mechanism provided; a generic waystatement about 'legendary collectibles' or a collection/game without a defined protocol or utility.",
+      "red_flags": [
+        "vague/no mechanism",
+        "purely narrative/collectible-based",
+        "no way to verify or use the token"
+      ],
+      "one_line_pitch": "A generic waystatement about a collection of 'legendary' digital items without any technical utility.",
+      "website_url": null,
+      "twitter_handle": "gigalegendsltd",
+      "reviewed_at": "2026-10-20T05:03:25.510Z"
+    },
     {
       "name": "AethelAI",
       "ticker": "AETHEL",
@@ -192585,66 +192764,6 @@
       "website_url": "https://pexra.fun/",
       "twitter_handle": "pexrafun",
       "reviewed_at": "2026-10-03T17:16:02.106Z"
-    },
-    {
-      "name": "Super Stalker Intelligence",
-      "ticker": "SSI",
-      "mint": "ATcauM9pcZC427wTVzuAJFWZP59RXh9fhtwCxM3WXdgg",
-      "quality_score": 0,
-      "is_real_tech": false,
-      "category": "legacy_rejected",
-      "chain": "SOLANA",
-      "mechanism_summary": "Autonomous agent crawling unsecured surveillance cameras 24/7",
-      "red_flags": [
-        "duplicate of mint 3wM6yYFPyMowWFZ4sUuSPc9iNUYmJvUA579AyBZepump",
-        "describes illegal unauthorized surveillance",
-        "violates CFAA and wiretapping statutes",
-        "criminal activity"
-      ],
-      "one_line_pitch": "Duplicate illegal surveillance coin",
-      "website_url": "https://worldwideweb.stream/coin/ATcauM9pcZC427wTVzuAJFWZP59RXh9fhtwCxM3WXdgg",
-      "twitter_handle": "itiszynx",
-      "reviewed_at": "2026-10-03T17:12:53.917Z"
-    },
-    {
-      "name": "Super Stalker Intelligence",
-      "ticker": "SSI",
-      "mint": "3wM6yYFPyMowWFZ4sUuSPc9iNUYmJvUA579AyBZepump",
-      "quality_score": 0,
-      "is_real_tech": false,
-      "category": "legacy_rejected",
-      "chain": "SOLANA",
-      "mechanism_summary": "Autonomous agent crawling unsecured surveillance cameras 24/7",
-      "red_flags": [
-        "describes illegal unauthorized computer access (CFAA violation)",
-        "describes illegal surveillance (wiretapping/voyeurism laws)",
-        "criminal enterprise masked as crypto product",
-        "no website, no legitimacy claim possible"
-      ],
-      "one_line_pitch": "Illegal CCTV surveillance masked as cryptocurrency",
-      "website_url": "https://worldwideweb.stream/coin/ATcauM9pcZC427wTVzuAJFWZP59RXh9fhtwCxM3WXdgg",
-      "twitter_handle": "itiszynx",
-      "reviewed_at": "2026-10-03T17:12:53.915Z"
-    },
-    {
-      "name": "CATPAID",
-      "ticker": "CATPAID",
-      "mint": "BJrqBp6vfYXgZzDtpq7EWa1EE93KxY59io4n2udfpump",
-      "quality_score": 1,
-      "is_real_tech": false,
-      "category": "legacy_rejected",
-      "chain": "SOLANA",
-      "mechanism_summary": "Cat-themed token with undefined GPT compute backing",
-      "red_flags": [
-        "vague mechanism (what does 'backed by GPT compute' mean operationally?)",
-        "no working product",
-        "circular marketing ('make itself the biggest cat coin')",
-        "no website or technical details"
-      ],
-      "one_line_pitch": "Cat coin claiming vague GPT support, mechanism undefined",
-      "website_url": "https://worldwideweb.stream/coin/CNohWHNTurS7PpB55czspwUJfpk9yy92uf1wXdweEGg9",
-      "twitter_handle": "esotericpigeon",
-      "reviewed_at": "2026-10-03T17:12:53.911Z"
     }
   ],
   "new_idea_suggestions": [
