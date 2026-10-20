@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T06:54:49.051Z",
+  "generated_at": "2026-10-20T07:19:57.892Z",
   "note": "Quality-reviewed tech coins: passed a local coarse filter (qwen2.5:3b) then a real judgment pass (Haiku) confirming is_real_tech=true. new_idea_suggestions are Haiku-generated, informed by these patterns but NOT copies -- creative seeds for further review, not trading signals.",
   "quality_tech_coins": [
     {
@@ -18,6 +18,27 @@
       "reviewed_at": "2026-10-04T16:43:41.798Z",
       "created_at": "2026-10-04T03:32:01.044Z",
       "peak_cap_usd": 27241,
+      "fees_usd": null
+    },
+    {
+      "name": "landlord",
+      "ticker": "DICE",
+      "mint": "0xf8b778a693f7c0335e89223546ffd865d90ae9f8",
+      "quality_score": 8,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "An AMM (am-AMM) where bots bid to manage/operate liquidity pools, paying rent to liquidity providers every block.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "highly specialized/niche use case",
+        "requires specific chain support (Robinhood Chain)"
+      ],
+      "one_line_pitch": "A specialized AMM mechanism where bots compete to manage liquidity pools and pay rent to LPs.",
+      "website_url": "https://landlord.capital",
+      "twitter_handle": "use_dice",
+      "reviewed_at": "2026-10-20T07:12:50.207Z",
+      "created_at": "2026-10-20T01:30:28.000Z",
+      "peak_cap_usd": null,
       "fees_usd": null
     },
     {
@@ -3398,6 +3419,47 @@
       "fees_usd": null
     },
     {
+      "name": "grail.markets",
+      "ticker": "GRAIL",
+      "mint": "6AybbCuYiPrwkWcLvxdEbfKSB9QjQ8mzWVZ7y2iDpump",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "A protocol where trading fees from a specific coin-tribute/collection are used to automatically buy and vault physical graded Pokémon cards.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "no working product, just a way-to-use-fees mechanism",
+        "requires external off-chain oracles/vaults for physical card/digital sync"
+      ],
+      "one_line_pitch": "A protocol where memecoin trading fees automatically purchase and vault physical graded Pokémon cards.",
+      "website_url": "https://grail.markets/",
+      "twitter_handle": "grailmarkets",
+      "reviewed_at": "2026-10-20T07:15:58.187Z",
+      "created_at": "2026-10-20T04:02:11.000Z",
+      "peak_cap_usd": 31044,
+      "fees_usd": 837
+    },
+    {
+      "name": "PASS",
+      "ticker": "PASS",
+      "mint": "0x2670b26ed39d92444b9600bc5565dbe217e80a97",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "An analytical tool that inspects transaction metadata (bundles, insider supply, sell-speed) to audit token launches before price action or certainties occur.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "tool-centric rather than a new protocol/token utility"
+      ],
+      "one_line_pitch": "An inspection tool that audits launch-day transaction patterns like bundles and insider dumps.",
+      "website_url": "https://devpass.fun",
+      "twitter_handle": "devpassfun",
+      "reviewed_at": "2026-10-20T07:13:39.532Z",
+      "created_at": "2026-10-20T04:55:39.000Z",
+      "peak_cap_usd": null,
+      "fees_usd": null
+    },
+    {
       "name": "Pokemon Hunters",
       "ticker": "POKEHUNT",
       "mint": "3eEstJGt6atgmwkfdyM7Vnq82QP8HQkA6QV5TQTYpoke",
@@ -3683,7 +3745,7 @@
       "reviewed_at": "2026-10-20T05:09:07.434Z",
       "created_at": "2026-10-20T03:00:57.000Z",
       "peak_cap_usd": 374054,
-      "fees_usd": 420
+      "fees_usd": 433
     },
     {
       "name": "StoxPreps",
@@ -31315,7 +31377,7 @@
       "reviewed_at": "2026-10-20T04:29:11.731Z",
       "created_at": "2026-10-20T01:59:43.000Z",
       "peak_cap_usd": 603363,
-      "fees_usd": 4
+      "fees_usd": 5
     },
     {
       "name": "Prelist",
@@ -97179,6 +97241,96 @@
     }
   ],
   "low_quality_tech_coins": [
+    {
+      "name": "NOMO",
+      "ticker": "NOMO",
+      "mint": "JAMYERM4aRRLBNLgS78Hc6LByjQymV3honrrdumVpump",
+      "quality_score": 2,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "SOLANA",
+      "mechanism_summary": "A social trading app focused on 'copy-trading' or following certain trader moves, but lacks a specific underlying technical mechanism.",
+      "red_flags": [
+        "no way to verify actual social-copying protocol/engine",
+        "standard social-trading narrative"
+      ],
+      "one_line_pitch": "A social-centric trading app focused on copy-trading and following certain trader movements.",
+      "website_url": "https://nomo.trading/",
+      "twitter_handle": "nomotrading",
+      "reviewed_at": "2026-10-20T07:19:52.965Z"
+    },
+    {
+      "name": "Really Worthless Asset",
+      "ticker": "RWA",
+      "mint": "Ee1b5t49HGvjB4CkxTWrWAcbXHhRyYi6nw3A96Gapump",
+      "quality_score": 1,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "SOLANA",
+      "mechanism_summary": "A self-deprecating meme coin that explicitly mocks the 'Real World Asset' (RWA) narrative by claiming to tokenize nothing.",
+      "red_flags": [
+        "no actual product or mechanism",
+        "purely way-of-speaking/narrative-based"
+      ],
+      "one_line_pitch": "A meta-meme mocking the RWA (Real World Asset) trend by claiming to be intentionally worthless.",
+      "website_url": "https://reallyworthlessasset.com/",
+      "twitter_handle": "worthlessasset",
+      "reviewed_at": "2026-10-20T07:18:30.606Z"
+    },
+    {
+      "name": "Tame",
+      "ticker": "Tame",
+      "mint": "39bPvZsXAM7TLWWXth2TuiPATGWwZ3JKsuLjxwZ3pump",
+      "quality_score": 2,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "SOLANA",
+      "mechanism_summary": "A browser-based monster-catching game (Pokemon-clone) involving team building and exploration.",
+      "red_flags": [
+        "purely narrative/gameplay-based",
+        "no technical mechanism or protocol-level utility described"
+      ],
+      "one_line_pitch": "A browser-based monster-collection game, essentially a Pokémon clone on Solana.",
+      "website_url": "https://tameworld.com/",
+      "twitter_handle": "playontame",
+      "reviewed_at": "2026-10-20T07:18:03.834Z"
+    },
+    {
+      "name": "CUMTARD",
+      "ticker": "CUMTARD",
+      "mint": "H83JyF3i5bPAT7yyiDuywh7RZXtunmyqpMWPCsrMpump",
+      "quality_score": 1,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "SOLANA",
+      "mechanism_summary": "A meme-based game (Sperm Snake) focused on low-effort humor and a specific character-driven aesthetic.",
+      "red_flags": [
+        "purely wayward meme/narrative",
+        "no technical mechanism beyond a simple browser game"
+      ],
+      "one_line_pitch": "A low-brow meme coin centered around a simple 'Sperm Snake' browser game.",
+      "website_url": "https://cumtard.top",
+      "twitter_handle": "cumtard1",
+      "reviewed_at": "2026-10-20T07:17:28.405Z"
+    },
+    {
+      "name": "Faster Horse",
+      "ticker": "Horse",
+      "mint": "HpESm9ArEEHfnxLAv37zJo5iLmnhceFory9o1aJYpump",
+      "quality_score": 1,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "SOLANA",
+      "mechanism_summary": "A parody-focused coin meant to mock certain naming conventions or personified views; no technical mechanism or product or utility mentioned.",
+      "red_flags": [
+        "purely a way/vibe",
+        "no actual product or mechanism"
+      ],
+      "one_line_pitch": "A way-of-thinking parody coin with no underlying technical mechanism or utility.",
+      "website_url": "https://bom.org.uk/fasterhorse/",
+      "twitter_handle": "marioprezldente",
+      "reviewed_at": "2026-10-20T07:15:17.161Z"
+    },
     {
       "name": "DacityCoin",
       "ticker": "AUD",
@@ -193055,103 +193207,6 @@
       "website_url": "https://worldwideweb.stream/coin/GTmMT59GuxTXhETRo7A8eyG7Gdxb2NuN46yjbRkRRLT8",
       "twitter_handle": "dioss_sol",
       "reviewed_at": "2026-10-03T17:30:09.147Z"
-    },
-    {
-      "name": "Operation Satoshi",
-      "ticker": "SATOSHI",
-      "mint": "4ghFqXZdLnakD591oFKhA2tD9q7pSfhBWfkVRs125GGL",
-      "quality_score": 1,
-      "is_real_tech": false,
-      "category": "legacy_rejected",
-      "chain": "SOLANA",
-      "mechanism_summary": "AI agent with absurd/impossible mission to locate Satoshi Nakamoto via internet research",
-      "red_flags": [
-        "Premise is nonsensical/impossible (finding Satoshi)",
-        "Templated worldwideweb.stream site",
-        "Novelty/joke coin, not a viable product"
-      ],
-      "one_line_pitch": "Novelty token for AI searching for Satoshi; joke premise",
-      "website_url": "https://worldwideweb.stream/coin/4ghFqXZdLnakD591oFKhA2tD9q7pSfhBWfkVRs125GGL",
-      "twitter_handle": "qu4nt0",
-      "reviewed_at": "2026-10-03T17:30:09.146Z"
-    },
-    {
-      "name": "cure cancer",
-      "ticker": "cure",
-      "mint": "7jhkeGenmgfn7Xc7DEoD4UH4Er7rBrGjVxGSZcFbHF7m",
-      "quality_score": 1,
-      "is_real_tech": false,
-      "category": "legacy_rejected",
-      "chain": "SOLANA",
-      "mechanism_summary": "Incoherent claim of cancer research funding via unspecified AI mechanism.",
-      "red_flags": [
-        "grammatically incoherent description ('ai fuel bye the trenches')",
-        "no coherent mechanism",
-        "no website, no founder identity",
-        "exploitative charity framing as pump.fun hook"
-      ],
-      "one_line_pitch": "Meme coin claiming cancer research with zero coherent mechanism.",
-      "website_url": "https://worldwideweb.stream/coin/7jhkeGenmgfn7Xc7DEoD4UH4Er7rBrGjVxGSZcFbHF7m",
-      "twitter_handle": null,
-      "reviewed_at": "2026-10-03T17:30:09.145Z"
-    },
-    {
-      "name": "Trencher",
-      "ticker": "Trencher",
-      "mint": "5E91qbNcnrNcQhyt6qSDnPadsa8AbC54FeMtshgYCxoy",
-      "quality_score": 1,
-      "is_real_tech": false,
-      "category": "legacy_rejected",
-      "chain": "SOLANA",
-      "mechanism_summary": "Templated Solana agent describing wallet/token/trading tools; boilerplate across platform",
-      "red_flags": [
-        "Templated worldwideweb.stream site; system prompt identical across coins",
-        "Agent not running (status: asleep)",
-        "Describes platform-standard capabilities, not differentiated innovation"
-      ],
-      "one_line_pitch": "Templated Solana trading-agent token on shared platform",
-      "website_url": "https://worldwideweb.stream/coin/5E91qbNcnrNcQhyt6qSDnPadsa8AbC54FeMtshgYCxoy",
-      "twitter_handle": null,
-      "reviewed_at": "2026-10-03T17:30:09.140Z"
-    },
-    {
-      "name": "Cat Collector",
-      "ticker": "CatCollector",
-      "mint": "8pvUa2k7tuo6EC6aG8YRJR859337TMALvFMDcPcMpump",
-      "quality_score": 2,
-      "is_real_tech": false,
-      "category": "legacy_rejected",
-      "chain": "SOLANA",
-      "mechanism_summary": "Real mobile app for collecting photo-documented cats; coin mechanism not described.",
-      "red_flags": [
-        "coin has no mechanism described",
-        "app is independent product with no mention of token",
-        "brand parasitism—coin attaches to real app without integration",
-        "CA dropping soon suggests pre-launch, no working coin product"
-      ],
-      "one_line_pitch": "Brand hijack of real cat-collection app; coin has zero stated mechanism.",
-      "website_url": "https://catcollector.app/",
-      "twitter_handle": "prottlegang11",
-      "reviewed_at": "2026-10-03T17:30:09.139Z"
-    },
-    {
-      "name": "artcoin",
-      "ticker": "ARTCOIN",
-      "mint": "88PK5yGPCGpqLhMEaLuXRQwD17xcqR1vKFfrMg8LxKCC",
-      "quality_score": 1,
-      "is_real_tech": false,
-      "category": "legacy_rejected",
-      "chain": "SOLANA",
-      "mechanism_summary": "No stated mechanism; templated pump.fun token with generic site.",
-      "red_flags": [
-        "worldwideweb.stream hijack (shared template across coins #1, #5, #7, #8)",
-        "no product or mechanism described",
-        "identical navigation/layout to other coins"
-      ],
-      "one_line_pitch": "Generic pump.fun coin with hijacked template site, no mechanism.",
-      "website_url": "https://worldwideweb.stream/coin/88PK5yGPCGpqLhMEaLuXRQwD17xcqR1vKFfrMg8LxKCC",
-      "twitter_handle": "zzzzzsol",
-      "reviewed_at": "2026-10-03T17:30:09.084Z"
     }
   ],
   "new_idea_suggestions": [
