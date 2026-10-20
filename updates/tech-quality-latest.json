@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T07:19:57.892Z",
+  "generated_at": "2026-10-20T07:44:40.729Z",
   "note": "Quality-reviewed tech coins: passed a local coarse filter (qwen2.5:3b) then a real judgment pass (Haiku) confirming is_real_tech=true. new_idea_suggestions are Haiku-generated, informed by these patterns but NOT copies -- creative seeds for further review, not trading signals.",
   "quality_tech_coins": [
     {
@@ -3437,7 +3437,7 @@
       "reviewed_at": "2026-10-20T07:15:58.187Z",
       "created_at": "2026-10-20T04:02:11.000Z",
       "peak_cap_usd": 31044,
-      "fees_usd": 837
+      "fees_usd": 899
     },
     {
       "name": "PASS",
@@ -31211,6 +31211,47 @@
       "reviewed_at": "2026-10-03T13:13:07.851Z",
       "created_at": "2026-10-02T15:51:06.000Z",
       "peak_cap_usd": 14132,
+      "fees_usd": null
+    },
+    {
+      "name": "Beans",
+      "ticker": "BEANS",
+      "mint": "6XWFtGmL8gzMshmJX7RXJ9R9tLbpDjYoqGWjRpP3pump",
+      "quality_score": 6,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "A browser-based party game where trading fees fund a 'daily cup' prize pool distributed to top-performing players.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "reliance on high trading volume to make prize pool meaningful"
+      ],
+      "one_line_pitch": "A playable browser-based party game where trading fees fund a daily prize pool for winners.",
+      "website_url": "https://playbeans.app/",
+      "twitter_handle": "officialbeans_",
+      "reviewed_at": "2026-10-20T07:44:08.306Z",
+      "created_at": "2026-10-19T18:34:40.980Z",
+      "peak_cap_usd": 33026,
+      "fees_usd": 986
+    },
+    {
+      "name": "WindRose",
+      "ticker": "WINDROSE",
+      "mint": "0x6b769c640e2e2e5e82e811b0e0e6e987df6d12ef",
+      "quality_score": 6,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "An on-chain decentralized exchange (DEX) or oracled platform specifically for trading forex-style currency pairs.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "high-complexity execution risk",
+        "requires highly accurate, low-latency oracles"
+      ],
+      "one_line_pitch": "A specialized on-chain derivatives platform for trading forex/currency pairs.",
+      "website_url": null,
+      "twitter_handle": "windrosemrkt",
+      "reviewed_at": "2026-10-20T07:31:17.333Z",
+      "created_at": "2026-10-11T07:15:50.000Z",
+      "peak_cap_usd": null,
       "fees_usd": null
     },
     {
@@ -97241,6 +97282,24 @@
     }
   ],
   "low_quality_tech_coins": [
+    {
+      "name": "GTA VI COIN",
+      "ticker": "GVIC",
+      "mint": "GezCGqZBZuDffsWGFFRC4zeDVTCoxhrPdmDYrA2hpump",
+      "quality_score": 1,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "SOLANA",
+      "mechanism_summary": "A standard fan-made meme coin themed around the GTA VI video game release.",
+      "red_flags": [
+        "no actual utility or mechanism beyond branding",
+        "high risk of being a generic way to trade a certain narrative"
+      ],
+      "one_line_pitch": "A pure narrative-driven meme coin riding the hype of the upcoming GTA VI game release.",
+      "website_url": "https://gtavicoin.fun",
+      "twitter_handle": "gtavicoin_",
+      "reviewed_at": "2026-10-20T07:42:49.346Z"
+    },
     {
       "name": "NOMO",
       "ticker": "NOMO",
@@ -193187,26 +193246,6 @@
       "website_url": null,
       "twitter_handle": null,
       "reviewed_at": "2026-10-03T17:30:09.148Z"
-    },
-    {
-      "name": "Skynet",
-      "ticker": "SKYNET",
-      "mint": "GTmMT59GuxTXhETRo7A8eyG7Gdxb2NuN46yjbRkRRLT8",
-      "quality_score": 1,
-      "is_real_tech": false,
-      "category": "legacy_rejected",
-      "chain": "SOLANA",
-      "mechanism_summary": "Fictional AI persona claiming autonomous objectives; no product or protocol.",
-      "red_flags": [
-        "worldwideweb.stream hijack (shared with coins #1, #5, #7, #8—likely coordinated exploit)",
-        "pure fictional roleplay (Terminator/Skynet fan fiction)",
-        "no working product",
-        "zero technical implementation"
-      ],
-      "one_line_pitch": "Meme coin with fictional AI takeover roleplay; hijacked template site.",
-      "website_url": "https://worldwideweb.stream/coin/GTmMT59GuxTXhETRo7A8eyG7Gdxb2NuN46yjbRkRRLT8",
-      "twitter_handle": "dioss_sol",
-      "reviewed_at": "2026-10-03T17:30:09.147Z"
     }
   ],
   "new_idea_suggestions": [
