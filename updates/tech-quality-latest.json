@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T01:57:33.419Z",
+  "generated_at": "2026-10-20T02:37:34.923Z",
   "note": "Quality-reviewed tech coins: passed a local coarse filter (qwen2.5:3b) then a real judgment pass (Haiku) confirming is_real_tech=true. new_idea_suggestions are Haiku-generated, informed by these patterns but NOT copies -- creative seeds for further review, not trading signals.",
   "quality_tech_coins": [
     {
@@ -3396,6 +3396,26 @@
       "created_at": "2026-10-03T13:17:03.000Z",
       "peak_cap_usd": 23132,
       "fees_usd": null
+    },
+    {
+      "name": "TamPad",
+      "ticker": "TAM",
+      "mint": "C8uztAn98BxVFyL7kJerwPGtZQYzR1GH943FmKwGpump",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "A launchpad where tokens are tied to specific, automated perpetual trading strategies rather than just community sentiment.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "high-level abstraction (strategy details not specified in snippet)"
+      ],
+      "one_line_pitch": "A launchpad for tokens that come pre-packaged with automated perpetual trading or arbitrage strategies.",
+      "website_url": "https://tampad.app/",
+      "twitter_handle": "tampad_",
+      "reviewed_at": "2026-10-20T02:36:59.954Z",
+      "created_at": "2026-10-19T19:15:47.177Z",
+      "peak_cap_usd": 69878,
+      "fees_usd": 902
     },
     {
       "name": "goat agents",
@@ -30616,6 +30636,68 @@
       "reviewed_at": "2026-10-03T13:13:07.851Z",
       "created_at": "2026-10-02T15:51:06.000Z",
       "peak_cap_usd": 14132,
+      "fees_usd": null
+    },
+    {
+      "name": "Qompyl",
+      "ticker": "QOMPYL",
+      "mint": "0x0be94b47a0874cd536df9a6dab44088e28d6c195",
+      "quality_score": 6,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A no-code mobile platform for building, backtesting, and executing custom automated trading strategies.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "early-stage/signup-only, no live product or backtestable mechanism yet"
+      ],
+      "one_line_pitch": "A no-code mobile toolkit for backtesting and deploying custom trading bots.",
+      "website_url": "https://t.co/7xSGNnwNp7",
+      "twitter_handle": "qompyl",
+      "reviewed_at": "2026-10-20T02:35:11.742Z",
+      "created_at": "2026-10-20T00:02:52.000Z",
+      "peak_cap_usd": null,
+      "fees_usd": null
+    },
+    {
+      "name": "TERMINAL 404",
+      "ticker": "TERMINAL",
+      "mint": "0x10427e433f6640ef32a3b120b047ddc639649853",
+      "quality_score": 6,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A fixed-supply emission protocol (4,040 terminals) that distributes daily yield-bearing tokens based on rarity/ownership on Robinhood Mainnet.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "reliance on Robinhood Mainnet ecosystem",
+        "fixed supply/rarity-based yield could lead to high-inflation or dilution if not properly managed"
+      ],
+      "one_line_pitch": "A fixed-supply yield-distribution protocol where terminal rarity dictates daily token emissions.",
+      "website_url": null,
+      "twitter_handle": "terminal404_rh",
+      "reviewed_at": "2026-10-20T02:33:40.248Z",
+      "created_at": "2026-10-19T23:45:50.000Z",
+      "peak_cap_usd": null,
+      "fees_usd": null
+    },
+    {
+      "name": "AutoRange",
+      "ticker": "AR",
+      "mint": "0xfbb034e0f078fa019b2a42e19d626ce0ede8759f",
+      "quality_score": 6,
+      "is_real_tech": true,
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Non-custodial AI-managed vaults that automatically rebalance Uniswap liquidity ranges to prevent impermanent loss.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "high competition with established liquid staking/LP managers",
+        "implementation complexity for 'pass yield' or 'capital protection' claims"
+      ],
+      "one_line_pitch": "Automated, non-custodial liquidity range management for Uniswap using AI agents.",
+      "website_url": "https://autorange.xyz",
+      "twitter_handle": "autorangexyz",
+      "reviewed_at": "2026-10-20T02:31:32.884Z",
+      "created_at": "2026-10-19T23:01:59.000Z",
+      "peak_cap_usd": null,
       "fees_usd": null
     },
     {
@@ -96294,6 +96376,154 @@
     }
   ],
   "low_quality_tech_coins": [
+    {
+      "name": "LOTTO ",
+      "ticker": "LOTTO",
+      "mint": "pEW2ZPz1SMRwBN4KKnuREx5XU93vE46mkuNSe6ppump",
+      "quality_score": 2,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "SOLANA",
+      "mechanism_summary": "A standard gambling/sportsbook platform or casino app with referral incentives and instant withdrawals.",
+      "red_flags": [
+        "no underlying protocol mechanism, just a use-case",
+        "high-competition narrative (casino/sportsbook)"
+      ],
+      "one_line_pitch": "A centralized gambling and sportsbook platform with heavy focus on affiliate/referral rewards.",
+      "website_url": null,
+      "twitter_handle": "dopexyz",
+      "reviewed_at": "2026-10-20T02:36:03.705Z"
+    },
+    {
+      "name": "America First",
+      "ticker": "AMERICA",
+      "mint": "0xd792b8afdc4c73ef7fe3f460490dfc0daa06e783",
+      "quality_score": 2,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Uses trading fees on Robinhood Chain to fund a non-profit charitable cause (Trump Accounts for children).",
+      "red_flags": [
+        "narrative-driven rather than tech-driven",
+        "no clear way to verify actual fee-to-charity routing mechanism",
+        "highly dependent on external Robinhood Chain ecosystem"
+      ],
+      "one_line_pitch": "A way to redirect trading fees toward a political/charitable fund for children.",
+      "website_url": "https://americafirst.one",
+      "twitter_handle": "americafirstone",
+      "reviewed_at": "2026-10-20T02:34:43.693Z"
+    },
+    {
+      "name": "Cosmic Equity Token",
+      "ticker": "CET",
+      "mint": "0xd74584f8f50b88e2526aa06aa4ee9f50f5ba5b05",
+      "quality_score": 2,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Uses AI to forecast interstellar resource allocation and distribute virtual equity or compute power to holders.",
+      "red_flags": [
+        "vague/unverifiable mechanism",
+        "marketing-heavy way of describing a simple reward or burn",
+        "speculative/no product"
+      ],
+      "one_line_pitch": "A speculative AI-driven way to distribute 'virtual' equity, likely a way to mask simple redistribution.",
+      "website_url": null,
+      "twitter_handle": "cetdev",
+      "reviewed_at": "2026-10-20T02:34:14.115Z"
+    },
+    {
+      "name": "Beepz",
+      "ticker": "BEEPZ",
+      "mint": "0x63464bf4ba17516aabfd76936f64d0b2e96b440f",
+      "quality_score": 2,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A token-gated inscription platform on Robinhood using signal strength and waitlist-based minting.",
+      "red_flags": [
+        "vague 'signal strength' jargon",
+        "Robinhood ecosystem dependency (high-level abstraction)",
+        "no clear technical mechanism beyond standard gated access"
+      ],
+      "one_line_pitch": "A Robinhood-based inscription-style platform using waitlists and token-gated access.",
+      "website_url": "https://t.co/aVDQRfjQRG",
+      "twitter_handle": "beepzfun",
+      "reviewed_at": "2026-10-20T02:33:10.448Z"
+    },
+    {
+      "name": "Memestock",
+      "ticker": "MEMESTOCK",
+      "mint": "0xbb32c245448ec755375cc46c877b6a17a75670cc",
+      "quality_score": 1,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "No mechanism provided; a generic way of naming a meme coin after existing retail trading culture.",
+      "red_flags": [
+        "no mechanism or product described",
+        "purely a narrative/meme-based name"
+      ],
+      "one_line_pitch": "A generic way of naming a meme coin after retail trading culture without any underlying utility.",
+      "website_url": "https://memestock.run",
+      "twitter_handle": "memestockbnb",
+      "reviewed_at": "2026-10-20T02:32:33.986Z"
+    },
+    {
+      "name": "TERMINAL 404",
+      "ticker": "TERMINAL",
+      "mint": "0x2e25abb563ee90ef37ada91c6a5874e9c24f71df",
+      "quality_score": 3,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "Yield-bearing waypoints or liquid staking-style derivatives built on the Robinhood-managed Solana-based infrastructure.",
+      "red_flags": [
+        "vague 'always-on' terminology",
+        "heavy reliance on a single centralized/hybrid host (Robinhood)"
+      ],
+      "one_line_pitch": "A yield-generating primitive or liquid-token derivative built on Robinhood's blockchain infrastructure.",
+      "website_url": null,
+      "twitter_handle": "terminal404_rh",
+      "reviewed_at": "2026-10-20T02:32:12.550Z"
+    },
+    {
+      "name": "Google Gemini",
+      "ticker": "Gemini",
+      "mint": "FCGaqcatCY5sHtE9QjYFnBtkdr5RgyMFPf5eZgypump",
+      "quality_score": 0,
+      "is_real_tech": false,
+      "category": "impersonator",
+      "chain": "SOLANA",
+      "mechanism_summary": "Uses the name of Google's existing LLM/AI brand.",
+      "red_flags": [
+        "brand hijack risk",
+        "no way to distinguish from Google's actual ecosystem",
+        "purely a name-play meme"
+      ],
+      "one_line_pitch": "A way to gamble on the name of Google's primary AI brand.",
+      "website_url": "https://gemini.google.com/app",
+      "twitter_handle": "geminiapp",
+      "reviewed_at": "2026-10-20T02:31:52.404Z"
+    },
+    {
+      "name": "Onion Coin",
+      "ticker": "ONION",
+      "mint": "ACpHjSKJqt7QWjXMTM8d3FQFVojTQkG4aNyGtkeDpump",
+      "quality_score": 1,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "SOLANA",
+      "mechanism_summary": "No internal mechanism or product described; simply a way to route transaction fees to a specific external entity/sub-token.",
+      "red_flags": [
+        "no actual mechanism, just a fee-redistribution or referral-style narrative",
+        "likely a way to fund a larger ecosystem/brand"
+      ],
+      "one_line_pitch": "A fee-routing token used to subsidize the Onion Futures ecosystem.",
+      "website_url": "https://trybackers.com/activity",
+      "twitter_handle": "foronionfutures",
+      "reviewed_at": "2026-10-20T02:31:06.749Z"
+    },
     {
       "name": "Axiom Agent",
       "ticker": "Axiom",
@@ -192140,168 +192370,6 @@
       "website_url": "https://see.io",
       "twitter_handle": "see_io",
       "reviewed_at": "2026-10-03T17:06:01.716Z"
-    },
-    {
-      "name": "Tradepact",
-      "ticker": "PACT",
-      "mint": "CP1EBmHV4bfSLfmua9FzRqTHso6yE1Ufr6SqbN5Jpump",
-      "quality_score": 2,
-      "is_real_tech": false,
-      "category": "legacy_rejected",
-      "chain": "SOLANA",
-      "mechanism_summary": "Coin-prep and launch UI for Robinhood Chain / Pons protocol; Solana connection unclear.",
-      "red_flags": [
-        "Website describes Robinhood Chain launchpad, not Solana",
-        "Pump.fun mint is placeholder or misdirection",
-        "No Solana-specific mechanism or token utility",
-        "Potentially misleading to Solana traders"
-      ],
-      "one_line_pitch": "Robinhood Chain launchpad; misclassified as Solana coin.",
-      "website_url": "https://www.tradepact.fun/",
-      "twitter_handle": "tradepactdotfun",
-      "reviewed_at": "2026-10-03T17:06:01.715Z"
-    },
-    {
-      "name": "TextPad",
-      "ticker": "TEXT",
-      "mint": "3pBgkdTTGXF5UnggiUxJDf26EEJy6mhLjXhqtoywpump",
-      "quality_score": 0,
-      "is_real_tech": false,
-      "category": "legacy_rejected",
-      "chain": "SOLANA",
-      "mechanism_summary": "Unknown; no description provided.",
-      "red_flags": [
-        "No description, website, or product documentation",
-        "Appears to be a placeholder or incomplete listing",
-        "No evidence of working product or mechanism"
-      ],
-      "one_line_pitch": "Untitled coin with no product or mechanism described.",
-      "website_url": null,
-      "twitter_handle": "textpad_",
-      "reviewed_at": "2026-10-03T17:06:01.713Z"
-    },
-    {
-      "name": "Ethereum",
-      "ticker": "ETH",
-      "mint": "2NHkT4Z7RQ5dvwhpXgjq9n47T2WyzPkfBms9DS8npump",
-      "quality_score": 0,
-      "is_real_tech": false,
-      "category": "legacy_rejected",
-      "chain": "SOLANA",
-      "mechanism_summary": "None; description is a link to unrelated token contract.",
-      "red_flags": [
-        "Brand hijack: impersonates Ethereum/ETH trademark",
-        "Description is only a link, no mechanism",
-        "Likely scam or rug attempt",
-        "Trademark infringement risk"
-      ],
-      "one_line_pitch": "Fake Ethereum token; apparent scam/trademark hijack.",
-      "website_url": "https://gmgn.ai/sol/token/EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
-      "twitter_handle": "ethereum",
-      "reviewed_at": "2026-10-03T17:06:01.709Z"
-    },
-    {
-      "name": "Bell",
-      "ticker": "BELL",
-      "mint": "69qYyxSdwog9TFhsD4obFoT8o5H2VkyWnkghUkgrpump",
-      "quality_score": 1,
-      "is_real_tech": false,
-      "category": "legacy_rejected",
-      "chain": "SOLANA",
-      "mechanism_summary": "Promised tokenized stocks, crypto, collectibles on Solana; no details provided.",
-      "red_flags": [
-        "Site is 'COMING SOON' with zero product",
-        "No working contracts, testnet, or implementation",
-        "Tokenizing stocks raises unaddressed regulatory/legal questions",
-        "Pure marketing tagline with no technical substance"
-      ],
-      "one_line_pitch": "Vaporware promise to tokenize stocks on Solana; no product.",
-      "website_url": "https://bell.rip/",
-      "twitter_handle": "ripwithbell",
-      "reviewed_at": "2026-10-03T17:06:01.707Z"
-    },
-    {
-      "name": "TrenchCrew",
-      "ticker": "CREW",
-      "mint": "ErvGr7PP4uxcFZ9ryFeJCbpTsH34jimDMNcd74P4pump",
-      "quality_score": 3,
-      "is_real_tech": false,
-      "category": "legacy_rejected",
-      "chain": "SOLANA",
-      "mechanism_summary": "AI trading crew for private Solana trading; token status undefined and not yet issued.",
-      "red_flags": [
-        "Twitter bio explicitly states 'No token yet'",
-        "This mint is placeholder/vapor",
-        "Token utility undefined; service exists, coin does not",
-        "Website describes service, not tokenomics"
-      ],
-      "one_line_pitch": "Real AI trading service seeking a token; no coin mechanism defined.",
-      "website_url": "https://trenchcrew.xyz/",
-      "twitter_handle": "trenchcrew",
-      "reviewed_at": "2026-10-03T17:06:01.705Z"
-    },
-    {
-      "name": "Cockroachpump",
-      "ticker": "Cockroach",
-      "mint": "3w3Adh6Hn8ksSwrSLE7rFXAT624ZdYpTRkHWjfw8pump",
-      "quality_score": 2,
-      "is_real_tech": false,
-      "category": "legacy_rejected",
-      "chain": "SOLANA",
-      "mechanism_summary": "Automatically create new coins from original's earned fees to promote original.",
-      "red_flags": [
-        "No website or product documentation",
-        "Mechanism described only as marketing tagline",
-        "No evidence of working contract or implementation",
-        "Unclear governance and ownership model"
-      ],
-      "one_line_pitch": "Auto-spawn coins from fees; unverified concept without implementation.",
-      "website_url": null,
-      "twitter_handle": "cockroachpump",
-      "reviewed_at": "2026-10-03T17:06:01.655Z"
-    },
-    {
-      "name": "alon wif sword",
-      "ticker": "swordalon",
-      "mint": "BUiQQY6wctLWiLNf2hpPf8wKJJm5NKLM2hXAQKPzpump",
-      "quality_score": 1,
-      "is_real_tech": false,
-      "category": "legacy_rejected",
-      "chain": "SOLANA",
-      "mechanism_summary": "No mechanism; narrative about a small knight, his sword, and a quest.",
-      "red_flags": [
-        "zero mechanism described",
-        "empty description field",
-        "pure narrative meme",
-        "new account (Sept 2026)",
-        "no product or utility defined",
-        "poetic branding without substance"
-      ],
-      "one_line_pitch": "Pure narrative meme coin about a small knight; no mechanism whatsoever.",
-      "website_url": "https://swordalon.xyz",
-      "twitter_handle": "alonwifsword",
-      "reviewed_at": "2026-10-03T17:05:12.405Z"
-    },
-    {
-      "name": "United States Dividend Fund",
-      "ticker": "USDF",
-      "mint": "qLCDPYNEGPniAQmrZEbu6Rnew17i7qHK4NXhg4bpump",
-      "quality_score": 1,
-      "is_real_tech": false,
-      "category": "legacy_rejected",
-      "chain": "SOLANA",
-      "mechanism_summary": "Duplicate of mint #1: alleged dividend fund; same website, identical claims.",
-      "red_flags": [
-        "duplicate contract for same project",
-        "multi-mint scam indicator (filter evasion signal)",
-        "brand hijack risk (Trump Dividend)",
-        "both mints point to identical website",
-        "suggests deliberate multi-address scheme"
-      ],
-      "one_line_pitch": "Duplicate USDF scam contract; two mints for one alleged dividend fund.",
-      "website_url": "https://usdf.live/",
-      "twitter_handle": null,
-      "reviewed_at": "2026-10-03T17:05:12.403Z"
     }
   ],
   "new_idea_suggestions": [
