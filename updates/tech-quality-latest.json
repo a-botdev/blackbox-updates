@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T05:11:13.597Z",
+  "generated_at": "2026-10-20T05:44:00.080Z",
   "note": "Quality-reviewed tech coins: passed a local coarse filter (qwen2.5:3b) then a real judgment pass (Haiku) confirming is_real_tech=true. new_idea_suggestions are Haiku-generated, informed by these patterns but NOT copies -- creative seeds for further review, not trading signals.",
   "quality_tech_coins": [
     {
@@ -3395,6 +3395,68 @@
       "reviewed_at": "2026-10-03T13:48:57.247Z",
       "created_at": "2026-10-03T13:17:03.000Z",
       "peak_cap_usd": 23132,
+      "fees_usd": null
+    },
+    {
+      "name": "Poké Binder",
+      "ticker": "BINDER",
+      "mint": "DkXuFoAAShM9F5nffkYJgT8S6f3yo5HT9ZKmRquHpump",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "A portfolio tracker that aggregates physical and on-chain Pokémon card ownership with live price tracking and social sharing/flexing capabilities.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "no evidence of a way to bridge physical card scanning to digital/on-chain data",
+        "relies on external price/database integration (Collector Crypt)"
+      ],
+      "one_line_pitch": "A portfolio management tool for tracking the market value of physical and digital Pokémon card collections.",
+      "website_url": "https://pokebinder.online/",
+      "twitter_handle": "bindercoin",
+      "reviewed_at": "2026-10-20T05:42:51.044Z",
+      "created_at": "2026-10-20T02:53:55.894Z",
+      "peak_cap_usd": 47643,
+      "fees_usd": 17
+    },
+    {
+      "name": "Stashr",
+      "ticker": "STASHR",
+      "mint": "C7uwQdhzU3XiY7obZaj55NdYFRFESasLx8KLv3napump",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "A cross-game ecosystem where gambling wins mint and distributeon-chain collectible (NFT) cards to a single persistent user avatar.",
+      "uniqueness": "derivative",
+      "red_flags": [
+        "high execution risk (requires full casino/game engine/NFT minting oracles)"
+      ],
+      "one_line_pitch": "A browser-based casino ecosystem where gambling wins mint collectible crypto-cards to your wallet.",
+      "website_url": "https://stashr.fun/",
+      "twitter_handle": "playstashr",
+      "reviewed_at": "2026-10-20T05:42:25.243Z",
+      "created_at": "2026-10-20T02:49:07.000Z",
+      "peak_cap_usd": 11560,
+      "fees_usd": null
+    },
+    {
+      "name": "Gasha",
+      "ticker": "GASHA",
+      "mint": "AStGzV42zV7T9aCFZVAXmcWvNjBV7KTTHAGWH4Hhpump",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "An automated agent that scans card pack and listing prices to buy undervalued assets, using profits to open new packs for holders.",
+      "uniqueness": "novel",
+      "red_flags": [
+        "relies on external data feeds (Collector Crypt/Pump packs)",
+        "execution risk (profit-to-pack redistribution loop)"
+      ],
+      "one_line_pitch": "An automated arbitrage agent that buys undervalued trading card listings to reward holders via pack openings.",
+      "website_url": "https://gasha.app/",
+      "twitter_handle": "gashaapp",
+      "reviewed_at": "2026-10-20T05:42:00.062Z",
+      "created_at": "2026-10-20T02:39:33.000Z",
+      "peak_cap_usd": 13770,
       "fees_usd": null
     },
     {
@@ -77915,7 +77977,7 @@
       "twitter_handle": null,
       "reviewed_at": "2026-10-10T07:02:59.132Z",
       "created_at": "2026-10-10T05:22:43.000Z",
-      "peak_cap_usd": 43110611,
+      "peak_cap_usd": 43116583,
       "fees_usd": 69
     },
     {
@@ -96787,6 +96849,43 @@
     }
   ],
   "low_quality_tech_coins": [
+    {
+      "name": "KAHO",
+      "ticker": "KAHO",
+      "mint": "ApaBcYvNMACofNdurMCgp8tRAZWsc5AhysABLsLDpump",
+      "quality_score": 1,
+      "is_real_tech": false,
+      "category": "not_tech",
+      "chain": "SOLANA",
+      "mechanism_summary": "Purely a way/lore-based narrative about digital headgear and 'relics' with no actual functional or technical mechanism described.",
+      "red_flags": [
+        "no actual mechanism",
+        "purely narrative/lore-driven",
+        "vague 'digital mystery' claims"
+      ],
+      "one_line_pitch": "A lore-heavy meme coin centered around digital headgear and 'legendary' relics.",
+      "website_url": "https://kahohorn.fun/",
+      "twitter_handle": null,
+      "reviewed_at": "2026-10-20T05:43:35.331Z"
+    },
+    {
+      "name": "meme",
+      "ticker": "MEME",
+      "mint": "0xdef5a5bda06da5efeb4fd4544bc49e021545424a",
+      "quality_score": 2,
+      "is_real_tech": false,
+      "category": "impersonator",
+      "chain": "ROBINHOOD",
+      "mechanism_summary": "A launchpad platform for deploying standardized, community-owned memecoins with a focus on transparent infrastructure.",
+      "red_flags": [
+        "brand hijack risk",
+        "describes a platform/infrastructure rather than a new primitive"
+      ],
+      "one_line_pitch": "A launchpad infrastructure designed to standardize the deployment of community-owned memecoins.",
+      "website_url": "https://only.meme",
+      "twitter_handle": "onlydotmeme",
+      "reviewed_at": "2026-10-20T05:43:15.483Z"
+    },
     {
       "name": "AethelAI",
       "ticker": "AETHEL",
@@ -192726,44 +192825,6 @@
       "website_url": "https://worldwideweb.stream/coin/GiMXyfZ3h6y7v6R1UzMCCab8JhHBshjfAVG8t9XyVKSS",
       "twitter_handle": "ticaonsol",
       "reviewed_at": "2026-10-03T17:16:02.116Z"
-    },
-    {
-      "name": "Crypto Bridge",
-      "ticker": "BRIDGE",
-      "mint": "6YMmPo8wyiGXqBt3s2iQgGqFNhTLUUtRUg6LtTNjpump",
-      "quality_score": 1,
-      "is_real_tech": false,
-      "category": "legacy_rejected",
-      "chain": "SOLANA",
-      "mechanism_summary": "Crypto-to-fiat VISA card service; existing fintech product, not a coin mechanism.",
-      "red_flags": [
-        "Likely brand hijack—website is real fintech platform, coin is unrelated token",
-        "No coin-specific mechanism",
-        "Describes external product's features, not token utility"
-      ],
-      "one_line_pitch": "Pump.fun token riding real crypto-to-fiat VISA card brand; likely unauthorized.",
-      "website_url": "https://www.crypto-bridge.co/en",
-      "twitter_handle": "cryptobridgeapp",
-      "reviewed_at": "2026-10-03T17:16:02.111Z"
-    },
-    {
-      "name": "Pexra.fun",
-      "ticker": "PEXRA",
-      "mint": "FKYbooFr2wEqkChLNN7JjQ3vKbp3A2cTHotGmQ8opump",
-      "quality_score": 1,
-      "is_real_tech": false,
-      "category": "legacy_rejected",
-      "chain": "SOLANA",
-      "mechanism_summary": "Generic Solana experience layer; no specific protocol or tech mechanism described.",
-      "red_flags": [
-        "Pure buzzwords (experience layer, composable systems, user-first design)",
-        "No specific mechanism—only repackaged Solana infra language",
-        "Identical to templated site copies"
-      ],
-      "one_line_pitch": "Vague Solana layer with zero differentiating tech; repackaged marketing speak.",
-      "website_url": "https://pexra.fun/",
-      "twitter_handle": "pexrafun",
-      "reviewed_at": "2026-10-03T17:16:02.106Z"
     }
   ],
   "new_idea_suggestions": [
