@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T19:58:44.782Z",
+  "generated_at": "2026-10-30T23:58:42.902Z",
   "note": "Quality-reviewed tech coins: passed a local coarse filter (qwen2.5:3b) then a real judgment pass (Haiku) confirming is_real_tech=true. new_idea_suggestions are Haiku-generated, informed by these patterns but NOT copies -- creative seeds for further review, not trading signals.",
   "quality_tech_coins": [
     {
@@ -65747,6 +65747,24 @@
       "fees_usd": null
     },
     {
+      "name": "BlackBox",
+      "ticker": "BLACKBOX",
+      "mint": "BBoxJSHjmhX2Rddeg8pQFtrXa48YmJCLhrYPSFHwCNcb",
+      "quality_score": 6,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "AI agents auto-respond to security risks",
+      "uniqueness": "",
+      "red_flags": [],
+      "one_line_pitch": "AI agents auto-respond to security risks",
+      "website_url": "https://blackboxvault.pro",
+      "twitter_handle": "blackbox_vault",
+      "reviewed_at": "2026-10-30T23:58:34.224Z",
+      "created_at": "2026-10-30T22:40:52.566Z",
+      "peak_cap_usd": 12223,
+      "fees_usd": null
+    },
+    {
       "name": "Quarantine",
       "ticker": "Quarantine",
       "mint": "DadVm9Za8VC3WffxrK1ugspCyNuh8iX5Rg6q1LAnpump",
@@ -95906,29 +95924,54 @@
       "created_at": "2026-10-04T23:41:50.000Z",
       "peak_cap_usd": 78402,
       "fees_usd": 3435
-    },
-    {
-      "name": "AgentNpad",
-      "ticker": "AGENTN",
-      "mint": "3ZyFFfKUNFEMp4KCWv6DGxtGgNGDjb5XG6SXmTyphvdN",
-      "quality_score": 6,
-      "is_real_tech": true,
-      "chain": "SOLANA",
-      "mechanism_summary": "Autonomous AI agents capable of generating content, interacting with users, and managing their own token/NFT-based ecosystem.",
-      "uniqueness": "derivative",
-      "red_flags": [
-        "high execution risk (managing autonomous social/on-chain activity requires high-frequency or complex oracles)"
-      ],
-      "one_line_pitch": "A platform for autonomous AI agents that manage their own social presence and token-gated NFT drops.",
-      "website_url": "https://agentnpad.com/",
-      "twitter_handle": "agentnpad",
-      "reviewed_at": "2026-10-08T14:57:21.117Z",
-      "created_at": "2026-10-04T23:40:00.000Z",
-      "peak_cap_usd": 17102,
-      "fees_usd": null
     }
   ],
   "low_quality_tech_coins": [
+    {
+      "name": "National Oil Trust Fund",
+      "ticker": "NOTF",
+      "mint": "BWhwYFBvPXWvWuch5GouReCzvnzLBxDocx1rBcG6pump",
+      "quality_score": 3,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "SOLANA",
+      "mechanism_summary": "Oil trust narrative plus digital settlement claim",
+      "red_flags": [],
+      "one_line_pitch": "Oil trust narrative plus digital settlement claim",
+      "website_url": "https://notf.website/",
+      "twitter_handle": null,
+      "reviewed_at": "2026-10-30T23:58:34.223Z"
+    },
+    {
+      "name": "FomoGiving",
+      "ticker": "FomoGiving",
+      "mint": "FKZwykip4vynGxgqHE8ZcfMMb4Pp9sXE4zc2owD4pump",
+      "quality_score": 3,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "SOLANA",
+      "mechanism_summary": "Meme community plus locked supply fees claim",
+      "red_flags": [],
+      "one_line_pitch": "Meme community plus locked supply fees claim",
+      "website_url": "https://fomogiving.com/",
+      "twitter_handle": "fomogivingpf",
+      "reviewed_at": "2026-10-30T23:58:34.222Z"
+    },
+    {
+      "name": "XTO",
+      "ticker": "XTO",
+      "mint": "GYtiWfrM7pM14Zk3YPdCdLnMASPkqU3Rn2bjuTTpump",
+      "quality_score": 3,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "SOLANA",
+      "mechanism_summary": "Claims oil payout function plus meme framing",
+      "red_flags": [],
+      "one_line_pitch": "Claims oil payout function plus meme framing",
+      "website_url": "https://xtruthoil.com/",
+      "twitter_handle": "xtruthoil",
+      "reviewed_at": "2026-10-30T23:58:34.200Z"
+    },
     {
       "name": "OpenHood",
       "ticker": "HOOD",
@@ -190106,62 +190149,6 @@
       "website_url": null,
       "twitter_handle": null,
       "reviewed_at": "2026-10-04T08:28:28.962Z"
-    },
-    {
-      "name": "early",
-      "ticker": "EARLY",
-      "mint": "9GW1GMaVeV41yiYYzfgQdnEf8ocGFenX8AsgvhWEARLY",
-      "quality_score": 2,
-      "is_real_tech": false,
-      "category": "legacy_rejected",
-      "chain": "SOLANA",
-      "mechanism_summary": "Trades generate fees; fees buy basket of real-world equities (Anthropic, OpenAI); basket drips hourly to holders.",
-      "red_flags": [
-        "Basket claims to include equities (Anthropic, OpenAI) unpurchasable on-chain; technically infeasible",
-        "Mechanism exists but fraudulent/confused about SPL/DeFi capabilities",
-        "Website title vague; no technical architecture"
-      ],
-      "one_line_pitch": "Fee-basket drip mechanism claiming to hold off-chain equities via on-chain token",
-      "website_url": "https://early.exchange/",
-      "twitter_handle": "earlyexchangex",
-      "reviewed_at": "2026-10-04T08:28:28.960Z"
-    },
-    {
-      "name": "UDR",
-      "ticker": "UDR",
-      "mint": "mLWY3TjoiPabqYYTeqFFjxDwtN4UZZoco3zrV1Spump",
-      "quality_score": 1,
-      "is_real_tech": false,
-      "category": "legacy_rejected",
-      "chain": "SOLANA",
-      "mechanism_summary": "Claims to digitize U.S. dividend concept on-chain; no actual mechanism given.",
-      "red_flags": [
-        "No mechanism described, only buzzwords (blockchain, AI)",
-        "No website or contract details",
-        "Pure marketing slogan, no product"
-      ],
-      "one_line_pitch": "Generic dividend token with only buzzwords, no actual mechanism",
-      "website_url": null,
-      "twitter_handle": null,
-      "reviewed_at": "2026-10-04T08:28:28.902Z"
-    },
-    {
-      "name": "MICROJAK",
-      "ticker": "MICROJAK",
-      "mint": "HvVW1ZriTSShJsWZrjqCscfkEWJwJKKhPViNxzSRpump",
-      "quality_score": 1,
-      "is_real_tech": false,
-      "category": "legacy_rejected",
-      "chain": "SOLANA",
-      "mechanism_summary": "Sad-cat meme token; identity is emotional aesthetic (gray fog, wet eyes) with no product or protocol.",
-      "red_flags": [
-        "no mechanism beyond meme branding",
-        "pure emotional/aesthetic positioning"
-      ],
-      "one_line_pitch": "Sad-cat meme coin; no mechanism.",
-      "website_url": "https://microjak.site/",
-      "twitter_handle": "microjakdev",
-      "reviewed_at": "2026-10-04T08:27:31.966Z"
     }
   ],
   "new_idea_suggestions": [
