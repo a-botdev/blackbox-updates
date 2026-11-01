@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T23:58:42.994Z",
+  "generated_at": "2026-11-01T07:29:50.608Z",
   "note": "Quality-reviewed tech coins: passed a local coarse filter (qwen2.5:3b) then a real judgment pass (Haiku) confirming is_real_tech=true. new_idea_suggestions are Haiku-generated, informed by these patterns but NOT copies -- creative seeds for further review, not trading signals.",
   "quality_tech_coins": [
     {
@@ -13679,6 +13679,24 @@
       "reviewed_at": "2026-10-03T13:48:57.247Z",
       "created_at": "2026-10-03T13:17:03.000Z",
       "peak_cap_usd": 23132,
+      "fees_usd": null
+    },
+    {
+      "name": "otc",
+      "ticker": "otc",
+      "mint": "Bn3ZRTsGpPER94Guzhjdfd6ngJR3Bcra6V6Ysn7npump",
+      "quality_score": 7,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "Describes OTC desk for private memecoin trades",
+      "uniqueness": "",
+      "red_flags": [],
+      "one_line_pitch": "Describes OTC desk for private memecoin trades",
+      "website_url": "https://otc.bargains/",
+      "twitter_handle": "otc_bargain",
+      "reviewed_at": "2026-11-01T07:28:33.787Z",
+      "created_at": "2026-11-01T05:13:41.000Z",
+      "peak_cap_usd": 12379,
       "fees_usd": null
     },
     {
@@ -66737,6 +66755,24 @@
       "fees_usd": null
     },
     {
+      "name": "No Signal",
+      "ticker": "SGNL",
+      "mint": "wFETxRNpWCcLXGiLoY9LJnuax8WkXGTfPwGN2xFSGNL",
+      "quality_score": 6,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "token fees fund live AI trader on Hyperliquid",
+      "uniqueness": "",
+      "red_flags": [],
+      "one_line_pitch": "token fees fund live AI trader on Hyperliquid",
+      "website_url": "https://nosignal.meme/",
+      "twitter_handle": "nosignaldotmeme",
+      "reviewed_at": "2026-11-01T07:28:33.770Z",
+      "created_at": "2026-11-01T06:00:26.000Z",
+      "peak_cap_usd": 15925,
+      "fees_usd": null
+    },
+    {
       "name": "HypeWorld",
       "ticker": "HypeWorld",
       "mint": "HtVetFxbsgukrMLpD7p3UM8PfnJecWQ5e6wQoKgWpump",
@@ -68011,7 +68047,7 @@
       "twitter_handle": "concon_ai",
       "reviewed_at": "2026-10-30T05:13:34.078Z",
       "created_at": "2026-10-30T00:33:18.000Z",
-      "peak_cap_usd": 4155229,
+      "peak_cap_usd": 4503007,
       "fees_usd": null
     },
     {
@@ -95623,46 +95659,6 @@
       "created_at": "2026-10-09T01:07:22.000Z",
       "peak_cap_usd": null,
       "fees_usd": null
-    },
-    {
-      "name": "Shrift",
-      "ticker": "SHRIFT",
-      "mint": "0x056a343faa3689f58143993826a0f6748682e495",
-      "quality_score": 6,
-      "is_real_tech": true,
-      "chain": "ROBINHOOD",
-      "mechanism_summary": "A stateless diagnostic tool that analyzes tokenon-chain security/distribution metrics without requiring wallet connection or or active way-gating.",
-      "uniqueness": "derivative",
-      "red_flags": [
-        "utility-only, no inherent token-economic mechanism described"
-      ],
-      "one_line_pitch": "A stateless, zero-auth security scanner for instant token health and concentration auditing.",
-      "website_url": "https://shrift.xyz",
-      "twitter_handle": "shriftxyz",
-      "reviewed_at": "2026-10-09T09:27:51.702Z",
-      "created_at": "2026-10-09T01:05:06.000Z",
-      "peak_cap_usd": null,
-      "fees_usd": null
-    },
-    {
-      "name": "dareo",
-      "ticker": "dareo",
-      "mint": "8Ziu45FuV8qq7aQjc8Jr2Pz1f3JUwYLTELhaymMupump",
-      "quality_score": 6,
-      "is_real_tech": true,
-      "chain": "SOLANA",
-      "mechanism_summary": "A decentralized dare-execution protocol where users propose/vote on real-world dares, funded by creator fees and a centralized dare pot.",
-      "uniqueness": "derivative",
-      "red_flags": [
-        "social-coordination heavy, requires high active user participation to function"
-      ],
-      "one_line_pitch": "A social-incentive protocol that uses wayfinding/voting to fund real-life dare execution.",
-      "website_url": "https://dareo.fun/",
-      "twitter_handle": "dareodotfun",
-      "reviewed_at": "2026-10-09T09:24:40.169Z",
-      "created_at": "2026-10-09T00:43:42.000Z",
-      "peak_cap_usd": 79408,
-      "fees_usd": 1010
     }
   ],
   "low_quality_tech_coins": [
@@ -189693,63 +189689,63 @@
   ],
   "new_idea_suggestions": [
     {
-      "working_name": "Gavel",
-      "mechanism": "Predict market outcomes to earn a share of the winning side's certain payout.",
-      "inspired_by": "Probly (Prediction markets) + FIOAI (Fees fund access)",
-      "derivativeness_score": 5.5
-    },
-    {
-      "working_name": "Unseal",
-      "mechanism": "Buy tokens that stay hidden until a certain price or time reveals the art.",
-      "inspired_by": "Blindfloor (Hidden hashes) + Unbox (the hook)",
-      "derivativeness_score": 4
-    },
-    {
-      "working_name": "Boid",
-      "mechanism": "Hold a token to control a swarm of flying pixels on your screen.",
-      "inspired_by": "Cbirds (Terminal boids) + FIOAI (Fees fund access)",
-      "derivativeness_score": 5
-    },
-    {
-      "working_name": "Vault",
-      "mechanism": "Deposit tokens into a shared vault that pays out enough to buy any other token.",
-      "inspired_by": "Perpium (Shared vault) + Stock Haven (Lending vaults)",
-      "derivativeness_score": 6
-    },
-    {
-      "working_name": "Verif",
-      "mechanism": "Pay a fee to prove your transaction or name is 100% certain and error-free.",
-      "inspired_by": "ORGANON (Formal verification) + ENS (Identity/Naming)",
-      "derivativeness_score": 4.5
-    },
-    {
-      "working_name": "Split",
-      "mechanism": "Buy a token that only pays out if the price or a specific event hits.",
-      "inspired_by": "Fissora (Income upside legs) + Probly (Prediction markets)",
-      "derivativeness_score": 5.5
-    },
-    {
-      "working_name": "Proxy",
-      "mechanism": "Trade any token using a private, hidden amount to prevent others from seeing your move.",
-      "inspired_by": "lowkeyswap (Private swap) + Zero Trace (Privacy launchpad)",
-      "derivativeness_score": 4
-    },
-    {
-      "working_name": "Brain",
-      "mechanism": "Trade tokens that fund a growing digital brain or simulation on your screen.",
-      "inspired_by": "worm (Worm brain) + FIOAI (Fees fund access)",
-      "derivativeness_score": 3.5
-    },
-    {
-      "working_name": "Registry",
-      "mechanism": "Claim a permanent, non-transferable name that grants you access to private trading tools.",
-      "inspired_by": "Graven (Name registry) + lowkeyswap (Private tools)",
+      "working_name": "Inherit",
+      "mechanism": "Set a way to transfer tokens to a friend if you stop trading for a certain time.",
+      "inspired_by": "0xWills (Crypto inheritance way without sharing seed phrase)",
       "derivativeness_score": 4
     },
     {
       "working_name": "Judge",
-      "mechanism": "A human or AI judge decides a certain outcome and burns the losing tokens.",
-      "inspired_by": "The Turing Test (Human/AI judge) + Pair Hooks (Fee/Burn mechanism)",
+      "mechanism": "Users vote on whether a certain image or text is AI-generated or human-made.",
+      "inspired_by": "The Turing Test (Machine vs human witness)",
+      "derivativeness_score": 5
+    },
+    {
+      "working_name": "Gamble",
+      "mechanism": "Bet on the outcome of a live sports match using a prediction market.",
+      "inspired_by": "Probly (Full prediction market platform)",
+      "derivativeness_score": 3
+    },
+    {
+      "working_name": "Vault",
+      "mechanism": "A way to store tokens that only unlock when a specific price target is hit.",
+      "inspired_by": "Blindfloor (Hidden hash stop-losses)",
+      "derivativeness_score": 4
+    },
+    {
+      "working_name": "Scholar",
+      "mechanism": "Trading fees pay for a shared pool of access to premium AI models.",
+      "inspired_by": "FIOLO AI (Trade fees fund shared AI access)",
+      "derivativeness_score": 3
+    },
+    {
+      "working_name": "Clone",
+      "mechanism": "AI agents that scan and copy the exact trading patterns of top whales.",
+      "inspired_by": "Cline (Autonomous coding agent) / Rebot (Reverse engineering)",
+      "derivativeness_score": 6
+    },
+    {
+      "working_name": "Sunder",
+      "mechanism": "Buy a token that splits into two different types of risk or reward tokens.",
+      "inspired_by": "Fissora (Splits stock tokens into upside legs)",
+      "derivativeness_score": 5
+    },
+    {
+      "working_name": "Boid",
+      "mechanism": "Watch a swarm of digital shapes move and react to your buy or sell orders.",
+      "inspired_by": "Cbirds (Terminal boids sim)",
+      "derivativeness_score": 4
+    },
+    {
+      "working_name": "Lend",
+      "mechanism": "AI agents that can borrow a certain amount of tokens to execute trades.",
+      "inspired_by": "Shellbank (AI agent credit lines)",
+      "derivativeness_score": 5
+    },
+    {
+      "working_name": "Unseal",
+      "mechanism": "Tokens that reveal a hidden piece of art only after a certain volume is traded.",
+      "inspired_by": "Blindfloor (Hidden hash stop-losses)",
       "derivativeness_score": 5
     }
   ]
