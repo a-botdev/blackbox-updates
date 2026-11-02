@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T23:59:03.678Z",
+  "generated_at": "2026-11-02T08:14:58.093Z",
   "note": "Quality-reviewed tech coins: passed a local coarse filter (qwen2.5:3b) then a real judgment pass (Haiku) confirming is_real_tech=true. new_idea_suggestions are Haiku-generated, informed by these patterns but NOT copies -- creative seeds for further review, not trading signals.",
   "quality_tech_coins": [
     {
@@ -13912,7 +13912,7 @@
       "twitter_handle": null,
       "reviewed_at": "2026-11-01T09:58:33.789Z",
       "created_at": "2026-10-31T17:36:37.000Z",
-      "peak_cap_usd": 12909530,
+      "peak_cap_usd": 13932238,
       "fees_usd": null
     },
     {
@@ -67044,6 +67044,24 @@
     },
     {
       "name": "fomo",
+      "ticker": "fomo",
+      "mint": "5a1yiEMWHzrHYAT536aUXCv9YLhcv9CTSwEv7pZxpump",
+      "quality_score": 6,
+      "is_real_tech": true,
+      "chain": "SOLANA",
+      "mechanism_summary": "Describes social crypto trading app product",
+      "uniqueness": "",
+      "red_flags": [],
+      "one_line_pitch": "Describes social crypto trading app product",
+      "website_url": "https://fomo.family/",
+      "twitter_handle": "fomo",
+      "reviewed_at": "2026-11-02T08:13:34.476Z",
+      "created_at": "2026-11-02T06:46:11.077Z",
+      "peak_cap_usd": 132813,
+      "fees_usd": null
+    },
+    {
+      "name": "fomo",
       "ticker": "FOMO",
       "mint": "2ExY2qrG3HsZ8XPTCqBKXMGq6paxGsmXVHhR3kWYpump",
       "quality_score": 6,
@@ -68587,7 +68605,7 @@
       "twitter_handle": "concon_ai",
       "reviewed_at": "2026-10-30T05:13:34.078Z",
       "created_at": "2026-10-30T00:33:18.000Z",
-      "peak_cap_usd": 4922992,
+      "peak_cap_usd": 5260526,
       "fees_usd": null
     },
     {
@@ -95560,29 +95578,24 @@
       "created_at": "2026-10-09T13:15:44.000Z",
       "peak_cap_usd": null,
       "fees_usd": null
-    },
-    {
-      "name": "Dealbox",
-      "ticker": "DEALBOX",
-      "mint": "0x5bc10e58ac88b49ade09be4a74ef47ae398ca39a",
-      "quality_score": 6,
-      "is_real_tech": true,
-      "chain": "ROBINHOOD",
-      "mechanism_summary": "A timed, waygoing-style pot where the largest deposit claims 60% and redistributes 40% to smaller deposits.",
-      "uniqueness": "derivative",
-      "red_flags": [
-        "highly dependent on a 20-minute window/volatility"
-      ],
-      "one_line_pitch": "A time-limited redistribution game where the largest deposit subsidizes smaller participants.",
-      "website_url": "https://dealbox.lol",
-      "twitter_handle": "ondealbox",
-      "reviewed_at": "2026-10-09T15:31:44.142Z",
-      "created_at": "2026-10-09T13:00:27.000Z",
-      "peak_cap_usd": null,
-      "fees_usd": null
     }
   ],
   "low_quality_tech_coins": [
+    {
+      "name": "WAIFU",
+      "ticker": "WAIFU",
+      "mint": "wuMCmrYbo1QW94wyRiWUiRDEcqFD4ZXf38xh4GMpump",
+      "quality_score": 3,
+      "is_real_tech": false,
+      "category": "low_quality",
+      "chain": "SOLANA",
+      "mechanism_summary": "Waifu meme with claimed art ecosystem use",
+      "red_flags": [],
+      "one_line_pitch": "Waifu meme with claimed art ecosystem use",
+      "website_url": "https://waifu.family/",
+      "twitter_handle": "waifutoken",
+      "reviewed_at": "2026-11-02T08:13:34.501Z"
+    },
     {
       "name": "EMOTIONAL ABUSE DEFENCE PROJECT",
       "ticker": "EAD",
@@ -189484,86 +189497,67 @@
       "website_url": "https://superinuspacex.site",
       "twitter_handle": "sis_coin_sol",
       "reviewed_at": "2026-10-04T09:00:02.666Z"
-    },
-    {
-      "name": "metamesk",
-      "ticker": "metamesk",
-      "mint": "B46yvkd7jchZk4qeYtnq1ij9DLqrNyLFnUxKTfJBNCKH",
-      "quality_score": 0,
-      "is_real_tech": false,
-      "category": "legacy_rejected",
-      "chain": "SOLANA",
-      "mechanism_summary": "No description beyond deployment reference; metadata suggests abandoned or auto-generated token.",
-      "red_flags": [
-        "no mechanism described",
-        "no website",
-        "appears abandoned or auto-generated"
-      ],
-      "one_line_pitch": "Minimal/abandoned token, deployment reference only",
-      "website_url": null,
-      "twitter_handle": "marioprezldente",
-      "reviewed_at": "2026-10-04T09:00:02.661Z"
     }
   ],
   "new_idea_suggestions": [
     {
-      "working_name": "Inherit",
-      "mechanism": "Set a way to transfer tokens to a friend if you stop trading for a certain time.",
-      "inspired_by": "0xWills (Crypto inheritance way without sharing seed phrase)",
+      "working_name": "Vault",
+      "mechanism": "It's a way to pass coins to a friend: you set a date and your tokens unlock automatically.",
+      "inspired_by": "Zipt (On-chain sealed messages unlock at target or date)",
       "derivativeness_score": 4
+    },
+    {
+      "working_name": "Canvas",
+      "mechanism": "It's a way to launch art: you draw a simple shape and it becomes a tradeable token.",
+      "inspired_by": "CRAYON PAD (Canvas tool to draw and launch coins)",
+      "derivativeness_score": 5
     },
     {
       "working_name": "Judge",
-      "mechanism": "Users vote on whether a certain image or text is AI-generated or human-made.",
-      "inspired_by": "The Turing Test (Machine vs human witness)",
-      "derivativeness_score": 5
-    },
-    {
-      "working_name": "Gamble",
-      "mechanism": "Bet on the outcome of a live sports match using a prediction market.",
-      "inspired_by": "Probly (Full prediction market platform)",
-      "derivativeness_score": 3
-    },
-    {
-      "working_name": "Vault",
-      "mechanism": "A way to store tokens that only unlock when a specific price target is hit.",
-      "inspired_by": "Blindfloor (Hidden hash stop-losses)",
-      "derivativeness_score": 4
-    },
-    {
-      "working_name": "Scholar",
-      "mechanism": "Trading fees pay for a shared pool of access to premium AI models.",
-      "inspired_by": "FIOLO AI (Trade fees fund shared AI access)",
-      "derivativeness_score": 3
-    },
-    {
-      "working_name": "Clone",
-      "mechanism": "AI agents that scan and copy the exact trading patterns of top whales.",
-      "inspired_by": "Cline (Autonomous coding agent) / Rebot (Reverse engineering)",
+      "mechanism": "It's a way to settle disputes: you bet against a person's claim and a blind hash decides the winner.",
+      "inspired_by": "The Turing Test (Machine vs human witness with blind judge hashes)",
       "derivativeness_score": 6
     },
     {
-      "working_name": "Sunder",
-      "mechanism": "Buy a token that splits into two different types of risk or reward tokens.",
-      "inspired_by": "Fissora (Splits stock tokens into upside legs)",
-      "derivativeness_score": 5
+      "working_name": "Bounty",
+      "mechanism": "It's a way to fund AI: you trade a token and your fees pay for a shared AI or bot access.",
+      "inspired_by": "FIOLO AI (Trade fees fund shared AI access for holders)",
+      "derivativeness_score": 3
     },
     {
-      "working_name": "Boid",
-      "mechanism": "Watch a swarm of digital shapes move and react to your buy or sell orders.",
-      "inspired_by": "Cbirds (Terminal boids sim)",
+      "working_name": "Heir",
+      "mechanism": "It's way to secure your family: you lock coins for a person and they unlock without needing your private key.",
+      "inspired_by": "0xWills (Crypto inheritance without sharing seed phrase)",
       "derivativeness_score": 4
     },
     {
-      "working_name": "Lend",
-      "mechanism": "AI agents that can borrow a certain amount of tokens to execute trades.",
-      "inspired_by": "Shellbank (AI agent credit lines)",
+      "working_name": "Burner",
+      "mechanism": "It's a way to reward holders: every trade you make burns a small portion of the supply.",
+      "inspired_by": "BIASONSOL (Pump launches with buyback burns)",
       "derivativeness_score": 5
     },
     {
-      "working_name": "Unseal",
-      "mechanism": "Tokens that reveal a hidden piece of art only after a certain volume is traded.",
+      "working_name": "Predict",
+      "mechanism": "It's a way to bet on news: you buy a token if you think an event will happen.",
+      "inspired_by": "Probly (Full prediction market platform for real events)",
+      "derivativeness_score": 3
+    },
+    {
+      "working_name": "Shadow",
+      "mechanism": "It's a way to hide your way: you trade a token where the price or certain features stay hidden until a certain amount is traded.",
       "inspired_by": "Blindfloor (Hidden hash stop-losses)",
+      "derivativeness_score": 5
+    },
+    {
+      "working_name": "Proxy",
+      "mechanism": "It's a way to buy stocks: you hold a token that tracks the price of a real-world company.",
+      "inspired_by": "Fissora (Splits stock tokens into income upside legs)",
+      "derivativeness_score": 4
+    },
+    {
+      "working_name": "Dueler",
+      "mechanism": "It's a way to compete: you put SOL in a pot and win if you guess the correct reply or outcome.",
+      "inspired_by": "Duel X (Concrete X reply betting game with SOL pots)",
       "derivativeness_score": 5
     }
   ]
